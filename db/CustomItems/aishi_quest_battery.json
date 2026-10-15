@@ -1,30 +1,17 @@
 {
   "69449dec6d32b699b23c2ae5": {
-
     "itemTplToClone": "5733279d245977289b77ec24",
     "parentId": "5448ecbe4bdc2d60728b4568",
     "handbookParentId": "5b47574386f77428ca22b341",
-
-
     "overrideProperties": {
-      "QuestItem": false,  
-      "ExaminedByDefault": true,
-        
-
       "Prefab": {
-
         "path": "quests/quest_item_battery.bundle",
         "rcid": ""
       },
-
-
       "Width": 2,
-      "Height": 2,
       "Weight": 19.25,
-
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "Lead Battery S4 004",
@@ -36,85 +23,57 @@
         "shortName": "Bateria S4 004",
         "description": "Uma bateria de chumbo-ácido de 12V do modelo S4 004 fabricada para fornecer energia auxiliar para sistemas de energia reserva em caso de falhas do abastecimento original."
       }
-    
     },
-
-    "fleaPriceRoubles": 1,
-
-    "handbookPriceRoubles": 1,
-
+    "fleaPriceRoubles": 61563,
+    "handbookPriceRoubles": 61563,
     "addtoHideoutPosterSlots": false,
-
     "addPosterToMaps": false,
-
     "posterSpawnProbability": 0,
-
     "addtoStatuetteSlots": false,
-
     "addCaliberToAllCloneLocations": false,
-
     "addtoStaticAmmo": false,
-
     "staticAmmoProbability": 0,
-
     "addtoBots": false,
-
     "addtoSpecialSlots": false,
-
     "addtoModSlots": false,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
-    "modSlot": [""],
-
+    "addtoItemBlacklist": true,
+    "modSlot": [
+      ""
+    ],
     "addtoHallOfFame": false,
-
     "hallOfFameSlots": [
-      "bigTrophies", 
-      "smallTrophies", 
+      "bigTrophies",
+      "smallTrophies",
       "dogTags"
     ],
-
     "addtoGeneratorAsFuel": false,
-
     "generatorFuelSlotStages": [
       "1",
       "2",
       "3"
     ],
-
     "addtoEmptyPropSlots": false,
-
     "emptyPropSlot": {
       "itemToAddTo": "",
       "modSlot": ""
     },
-
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",
         "Probability": 0
       }
     ],
-
-
     "addtoSecureFilters": false,
-
     "addtoTraders": false,
-
-    "traders": {
-          },
-          "barters": [
-            {
-              "count": 0,
-              "_tpl": "0" 
-            }
-          ]
+    "traders": {},
+    "barters": [
+      {
+        "count": 0,
+        "_tpl": "0"
+      }
+    ]
   }
 }

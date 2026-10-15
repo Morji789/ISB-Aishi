@@ -1,30 +1,18 @@
 {
   "693a3989e77a08d438a73bb1": {
-
     "itemTplToClone": "5c12613b86f7743bbe2c3f76",
     "parentId": "5448ecbe4bdc2d60728b4568",
     "handbookParentId": "5b47574386f77428ca22b341",
-
-
     "overrideProperties": {
-      "QuestItem": false,  
-      "ExaminedByDefault": true,
-        
-
       "Prefab": {
-
         "path": "intel/item_intel_folder_bd.bundle",
         "rcid": ""
       },
-
-
       "Width": 1,
       "Height": 2,
       "Weight": 0.26,
-
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "Black Division intelligence plans",
@@ -36,85 +24,57 @@
         "shortName": "Intel da DN",
         "description": "Isso inclui documentação relacionada à Divisão Negra, um grupo clandestino que atua nas sombras em Tarkov. Os documentos fornecem informações sobre a Divisão Negra, seu funcionamento e seus objetivos, oferecendo uma visão útil sobre esse grupo enigmático."
       }
-    
     },
-
-    "fleaPriceRoubles": 1,
-
-    "handbookPriceRoubles": 1,
-
+    "fleaPriceRoubles": 418264,
+    "handbookPriceRoubles": 69000,
     "addtoHideoutPosterSlots": false,
-
     "addPosterToMaps": false,
-
     "posterSpawnProbability": 0,
-
     "addtoStatuetteSlots": false,
-
     "addCaliberToAllCloneLocations": false,
-
     "addtoStaticAmmo": false,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "staticAmmoProbability": 0,
-
     "addtoBots": false,
-
     "addtoSpecialSlots": false,
-
     "addtoModSlots": false,
-
-    "modSlot": [""],
-
+    "modSlot": [
+      ""
+    ],
     "addtoHallOfFame": false,
-
     "hallOfFameSlots": [
-      "bigTrophies", 
-      "smallTrophies", 
+      "bigTrophies",
+      "smallTrophies",
       "dogTags"
     ],
-
     "addtoGeneratorAsFuel": false,
-
     "generatorFuelSlotStages": [
       "1",
       "2",
       "3"
     ],
-
     "addtoEmptyPropSlots": false,
-
     "emptyPropSlot": {
       "itemToAddTo": "",
       "modSlot": ""
     },
-
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",
         "Probability": 0
       }
     ],
-
-
     "addtoSecureFilters": false,
-
     "addtoTraders": false,
-
-    "traders": {
-          },
-          "barters": [
-            {
-              "count": 0,
-              "_tpl": "0" 
-            }
-          ]
+    "traders": {},
+    "barters": [
+      {
+        "count": 0,
+        "_tpl": "0"
+      }
+    ]
   }
 }

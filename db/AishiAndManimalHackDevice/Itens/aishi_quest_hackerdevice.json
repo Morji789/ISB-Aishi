@@ -1,18 +1,15 @@
 {
   "6a321d846b38e922175d1878": {
-
     "itemTplToClone": "5448ba0b4bdc2d02308b456c",
     "parentId": "48048b8a031d1c9aac192451",
     "handbookParentId": "5b5f6fa186f77409407a7eb7",
-
-
     "overrideProperties": {
-      "QuestItem": false,  
+      "QuestItem": false,
       "ExaminedByDefault": true,
       "MaximumNumberOfUsage": 10,
       "CanSellOnRagfair": false,
       "StackMaxSize": 1,
-	    "ItemSound": "generic",
+      "ItemSound": "generic",
       "BackgroundColor": "violet",
       "RarityPvE": "Rare",
       "Prefab": {
@@ -23,14 +20,11 @@
         "path": "HD/isb_hackerdevice_container1.bundle",
         "rcid": ""
       },
-
       "Width": 1,
       "Height": 1,
       "Weight": 0.01,
-
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "ISB Credential Cracking Device",
@@ -42,41 +36,28 @@
         "shortName": "ASI Disp.",
         "description": "Um dispositivo fabricado via engenharia reversa de um aparelho Hacker do Ref, ele tem a capacidade de invadir sistemas de credenciamento garantindo acesso as instalações do Laboratório da TerraGroup ou painéis de controle de acesso via cartões em qualquer localização."
       }
-    
     },
-
     "fleaPriceRoubles": 1175600,
-
     "handbookPriceRoubles": 575600,
-
     "addtoBots": false,
-
     "CanSellOnRagfair": false,
-
     "CanRequireOnRagfair": false,
-    
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",
         "Probability": 0
       }
     ],
-
     "addtoSecureFilters": false,
-
     "addtoTraders": false,
-
-    "traders": {
-          },
-          "barters": [
-            {
-              "count": 0,
-              "_tpl": "0" 
-            }
-          ]
+    "traders": {},
+    "barters": [
+      {
+        "count": 0,
+        "_tpl": "0"
+      }
+    ]
   }
 }

@@ -1,28 +1,21 @@
 {
   "6a4211bd0f49361eea023bc9": {
-
     "itemTplToClone": "69985e7819f8713b630de3d6",
     "parentId": "55818a594bdc2db9688b456a",
     "handbookParentId": "5b5f757486f774093e6cb507",
-
-
-    "overrideProperties": { 
-        "ExaminedByDefault": true,
-        "IsUnsaleable": true,
-        "IsUnbuyable": true,   
-        
-
-        "Prefab": {
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "IsUnsaleable": true,
+      "IsUnbuyable": true,
+      "Prefab": {
         "path": "equipment/stock_base_fab_defense_fx_kpos_ars_FDE.bundle",
         "rcid": ""
-        },
-
-        "Width": 2,
-        "Height": 1,
-        "Weight": 0.25,
-        "Grids": []
       },
-
+      "Width": 2,
+      "Height": 1,
+      "Weight": 0.25,
+      "Grids": []
+    },
     "locales": {
       "en": {
         "name": "FAB Defense FX-KPOS ARS stock (FDE)",
@@ -34,17 +27,11 @@
         "shortName": "ARS",
         "description": "A telescoping buttstock designed for use with gas masks or helmet visors and mandibles. Manufactured by FAB Defense."
       }
-    
     },
-
     "fleaPriceRoubles": 31065,
-
     "handbookPriceRoubles": 16788,
-
     "addtoBots": true,
-
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",
@@ -53,28 +40,20 @@
     ]
   },
   "6a421242a73b4261c17eb638": {
-
     "itemTplToClone": "5bcf0213d4351e0085327c17",
     "parentId": "55818a594bdc2db9688b456a",
     "handbookParentId": "5b5f757486f774093e6cb507",
-
-
-    "overrideProperties": { 
-        "ExaminedByDefault": true,
-        "IsUnsaleable": true,
-        "IsUnbuyable": true,   
-        
-
-        "Prefab": {
+    "overrideProperties": {
+      "IsUnsaleable": true,
+      "IsUnbuyable": true,
+      "Prefab": {
         "path": "equipment/stock_mp7_fab_defense_ars_adapter_FDE.bundle",
         "rcid": ""
-        },
-
-        "Width": 1,
-        "Height": 1,
-        "Weight": 0.27,
-        "Grids": [],
-        "Slots": [
+      },
+      "Width": 1,
+      "Weight": 0.27,
+      "Grids": [],
+      "Slots": [
         {
           "_name": "mod_stock",
           "_id": "6a42125c73c6fb3f003beded",
@@ -95,8 +74,7 @@
           "_proto": "6a4212598350e6b3a9c2248d"
         }
       ]
-      },
-
+    },
     "locales": {
       "en": {
         "name": "HK MP7 FAB Defense ARS stock adapter (FDE)",
@@ -108,21 +86,15 @@
         "shortName": "ARS MP7",
         "description": "An adapter for HK MP7 submachine guns designed for installation of ARS type buttstocks. Manufactured by FAB Defense."
       }
-    
     },
-
     "fleaPriceRoubles": 48513,
-    
     "handbookPriceRoubles": 3228,
-
     "addtoBots": true,
-
     "addtoModSlots": true,
-
-    "modSlot": ["mod_stock"],
-
+    "modSlot": [
+      "mod_stock"
+    ],
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",

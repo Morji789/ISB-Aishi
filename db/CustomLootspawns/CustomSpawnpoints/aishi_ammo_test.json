@@ -1,45 +1,45 @@
 {
-    "laboratory": [     
+  "laboratory": [
+    {
+      "locationId": "(-266.446, 5.156, -316.849)",
+      "probability": 0.99,
+      "template": {
+        "Id": "Ammo Crate 1 [7afe9d12-877a-4b0c-b034-c5a96feda621]",
+        "IsContainer": false,
+        "useGravity": true,
+        "randomRotation": false,
+        "Position": {
+          "x": -266.446,
+          "y": 5.156,
+          "z": -316.849
+        },
+        "Rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "IsAlwaysSpawn": false,
+        "Root": "69ed68b7de6df46b471a51fc",
+        "Items": [
+          {
+            "_id": "69ed68b7de6df46b471a51fc",
+            "_tpl": "692dd013f000b7372c0610fe",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      },
+      "itemDistribution": [
         {
-            "locationId": "(-266.446, 5.156, -316.849)",
-            "probability": 0.99,
-            "template": {
-                "Id": "Ammo Crate 1 [7afe9d12-877a-4b0c-b034-c5a96feda621]",
-                "IsContainer": false,
-                "useGravity": true,
-                "randomRotation": false,
-                "Position": {
-                    "x": -266.446,
-                    "y": 5.156,
-                    "z": -316.849
-                },
-                "Rotation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                },
-                "IsGroupPosition": false,
-                "GroupPositions": [],
-                "IsAlwaysSpawn": false,
-                "Root": "69ed68b7de6df46b471a51fc",
-                "Items": [
-                    {
-                        "_id": "69ed68b7de6df46b471a51fc",
-                        "_tpl": "692dd013f000b7372c0610fe",
-                        "upd": {
-                            "StackObjectsCount": 1
-                        }
-                    }
-                ]
-            },
-            "itemDistribution": [
-                {
-                    "composedKey": {
-                        "key": "-2057750769"
-                    },
-                    "relativeProbability": 1
-                }
-            ]
+          "composedKey": {
+            "key": "-2057750769"
+          },
+          "relativeProbability": 1
         }
-    ]
+      ]
+    }
+  ]
 }

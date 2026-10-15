@@ -1,0 +1,297 @@
+{
+  "2eb6f2fef9ea5a7b8c45fd4f": {
+    "itemTplToClone": "5648a69d4bdc2ded0b8b457b",
+    "parentId": "5448e5284bdc2dcb718b4567",
+    "handbookParentId": "5b5f6f8786f77447ed563642",
+    "overrideProperties": {
+      "Description": "A custom-made chest rig for wearing on top of body armor in urban operations. Sturdy and versatile, it features both MOLLE and ALICE attachment systems. DBDU Version.",
+      "Grids": [
+        {
+          "_id": "3ee54f2106445081bb38783f",
+          "_name": "1",
+          "_parent": "2eb6f2fef9ea5a7b8c45fd4f",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "480685f62146504f8a9e4469",
+          "_name": "2",
+          "_parent": "2eb6f2fef9ea5a7b8c45fd4f",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "10a419c44ccb5948a536202a",
+          "_name": "3",
+          "_parent": "2eb6f2fef9ea5a7b8c45fd4f",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "10dc881212da557785dbd683",
+          "_name": "4",
+          "_parent": "2eb6f2fef9ea5a7b8c45fd4f",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "a96b61222fa45063b6517fe4",
+          "_name": "5",
+          "_parent": "2eb6f2fef9ea5a7b8c45fd4f",
+          "_props": {
+            "cellsH": 2,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "1cae280a5c2951389982713c",
+          "_name": "6",
+          "_parent": "2eb6f2fef9ea5a7b8c45fd4f",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "a910696b82415730b7db8c74",
+          "_name": "7",
+          "_parent": "2eb6f2fef9ea5a7b8c45fd4f",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "b0211258b429526cad4e5a8e",
+          "_name": "8",
+          "_parent": "2eb6f2fef9ea5a7b8c45fd4f",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "7f17f3d45929530f8f35793e",
+          "_name": "9",
+          "_parent": "2eb6f2fef9ea5a7b8c45fd4f",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "e3c398d45a0c5f0ea7541018",
+          "_name": "10",
+          "_parent": "2eb6f2fef9ea5a7b8c45fd4f",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "638ef49df2cb5f18987cfde9",
+          "_name": "11",
+          "_parent": "2eb6f2fef9ea5a7b8c45fd4f",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        }
+      ],
+      "Name": "BlackRock chest rig (DBDU)",
+      "Prefab": {
+        "path": "equipment/item_equipment_rig_blackrock_dbdu_aishi.bundle",
+        "rcid": ""
+      },
+      "ShortName": "BlackRock",
+      "Slots": []
+    },
+    "locales": {
+      "en": {
+        "name": "BlackRock chest rig (DBDU)",
+        "shortName": "BlackRock",
+        "description": "A custom-made chest rig for wearing on top of body armor in urban operations. Sturdy and versatile, it features both MOLLE and ALICE attachment systems. DBDU Version."
+      }
+    },
+    "handbookPriceRoubles": 52910,
+    "fleaPriceRoubles": 44700,
+    "addtoInventorySlots": [],
+    "addtoBots": false,
+    "addtoTraders": false,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": false
+  }
+}

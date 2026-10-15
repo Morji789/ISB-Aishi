@@ -32,42 +32,42 @@
     "conditions": {
       "AvailableForFinish": [
         {
-        "conditionType": "CounterCreator",
-        "counter": {
-          "conditions": [
-            {
-              "bodyPart": [],
-              "conditionType": "Kills",
-              "dynamicLocale": false,
-              "id": "6a6ad17ddcb40a0ce5d08545",
-              "distance": {},
-              "savageRole": [],
-              "target": "Any",
-              "weapon": []
-            },
-            {
-              "conditionType": "Location",
-              "dynamicLocale": false,
-              "id": "6a6ad1a882e34554bb2df645",
-              "target": [
-                "Sandbox",
-                "Sandbox_high"
-              ]
-            }
-          ],
-          "id": "6a6ad17fe21ac6f9f07ab0b8"
-        },
-        "doNotResetIfCounterCompleted": false,
-        "dynamicLocale": false,
-        "globalQuestCounterId": "",
-        "id": "6a6ad1827d6d850c3aa166e8",
-        "index": 0,
-        "oneSessionOnly": false,
-        "parentId": "",
-        "type": "Elimination",
-        "value": "20",
-        "visibilityConditions": []
-      }
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "conditionType": "Kills",
+                "dynamicLocale": false,
+                "id": "6a6ad17ddcb40a0ce5d08545",
+                "distance": {},
+                "savageRole": [],
+                "target": "Any",
+                "weapon": []
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "6a6ad1a882e34554bb2df645",
+                "target": [
+                  "Sandbox",
+                  "Sandbox_high"
+                ]
+              }
+            ],
+            "id": "6a6ad17fe21ac6f9f07ab0b8"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6a6ad1827d6d850c3aa166e8",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": "20",
+          "visibilityConditions": []
+        }
       ],
       "AvailableForStart": [
         {
@@ -503,7 +503,7 @@
           "index": 2,
           "target": "690766de550bc322a810ea1e",
           "type": "TraderStanding",
-          "value": "0.03",
+          "value": 0.75,
           "unknown": false
         },
         {

@@ -1,0 +1,13 @@
+{
+  "AishiAnomalyInjector9": [
+    {
+      "BuffType": "StaminaRate",
+      "Chance": 1,
+      "Delay": 0,
+      "Duration": 30,
+      "Value": 0,
+      "AbsoluteValue": true,
+      "SkillName": ""
+    }
+  ]
+}

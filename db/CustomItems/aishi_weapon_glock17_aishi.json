@@ -1,0 +1,964 @@
+{
+  "adba052afbd95bb2a0484900": {
+    "itemTplToClone": "5a7ae0c351dfba0017554310",
+    "parentId": "5447b5cf4bdc2d65278b4567",
+    "handbookParentId": "5b5f792486f77447ed5636b3",
+    "overrideProperties": {
+      "Name": "Glock 17 9x19 pistol (Aishi)",
+      "CanSellOnRagfair": false,
+      "Prefab": {
+        "path": "aishiweapons/glock17_aishi/weapon_glock_glock_17_gen3_9x19_container_custom_aishi.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_id": "a63ff76f91fe5793ac3f2038",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_barrel",
+          "_parent": "adba052afbd95bb2a0484900",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a6b5b8a8dc32e001207faf3",
+                  "5a6b5e468dc32e001207faf5",
+                  "5a6b60158dc32e000a31138b",
+                  "5a6b5f868dc32e000a311389",
+                  "5a6b5ed88dc32e000c52ec86",
+                  "c0570de6916753e8b8ad6d27"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "e6369c1e3b8c5857923e3ad6",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_pistol_grip",
+          "_parent": "adba052afbd95bb2a0484900",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a7b4960e899ef197b331a2d"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "c39087a1ad2a585a814344d7",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_reciever",
+          "_parent": "adba052afbd95bb2a0484900",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "615d8dbd290d254f5e6b2ed6",
+                  "5a6f5e048dc32e00094b97da",
+                  "5a9685b1a2750c0032157104",
+                  "5a6f5f078dc32e00094b97dd",
+                  "5a702d198dc32e000b452fc3",
+                  "5a7033908dc32e000a311392",
+                  "5a7afa25e899ef00135e31b0",
+                  "5a71e22f8dc32e00094b97f4",
+                  "5a71e4f48dc32e001207fb26",
+                  "6b929b053df3587ba7aa28c7"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "dce2d7635231515dafcbc69b",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_magazine",
+          "_parent": "adba052afbd95bb2a0484900",
+          "_props": {
+            "filters": [
+              {
+                "AnimationIndex": 0,
+                "Filter": [
+                  "5a7ad2e851dfba0016153692",
+                  "5a718b548dc32e000d46d262",
+                  "5a718da68dc32e000d46d264",
+                  "5a718f958dc32e00094b97e7",
+                  "630769c4962d0247b029dc60",
+                  "630767c37d50ff5e8a1ea71a",
+                  "63076701a987397c0816d21b",
+                  "5ee5b280c16758cc9c21db3d"
+                ]
+              }
+            ]
+          },
+          "_proto": "55d30c394bdc2dae468b4577",
+          "_required": false
+        },
+        {
+          "_id": "002ead1e711d57ab9462ecc4",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_tactical",
+          "_parent": "adba052afbd95bb2a0484900",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a7ad74e51dfba0015068f45",
+                  "5a800961159bd4315e3a1657",
+                  "5cc9c20cd7f00c001336c65d",
+                  "5d2369418abbc306c62e0c80",
+                  "5b07dd285acfc4001754240d",
+                  "56def37dd2720bec348b456a",
+                  "5a7b483fe899ef0016170d15",
+                  "5a5f1ce64f39f90b401987bc",
+                  "560d657b4bdc2da74d8b4572",
+                  "5a7ad4af51dfba0013379717",
+                  "5a7b4900e899ef197b331a2a",
+                  "6272370ee4013c5d7e31f418",
+                  "6272379924e29f06af4d5ecb",
+                  "dd05ecd32ba1527598078ff3"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "1a18f41a2ca85c86866dc220",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount",
+          "_parent": "adba052afbd95bb2a0484900",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a7ad55551dfba0015068f42"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "f574e1dc45a85e419984d392",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_stock",
+          "_parent": "adba052afbd95bb2a0484900",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5d1c702ad7ad1a632267f429"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "Chambers": [
+        {
+          "_id": "365dc57afe9b5d74be380634",
+          "_mergeSlotWithChildren": false,
+          "_name": "patron_in_weapon",
+          "_parent": "adba052afbd95bb2a0484900",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5efb0da7a29a85116f6ea05f",
+                  "5c3df7d588a4501f290594e5",
+                  "58864a4f2459770fcc257101",
+                  "56d59d3ad2720bdb418b4577",
+                  "5c925fa22e221601da359b7b",
+                  "5a3c16fe86f77452b62de32a",
+                  "5efb0e16aeb21837e749c7ff",
+                  "5c0d56a986f774449d5de529",
+                  "64b7bbb74b75259c590fa897"
+                ]
+              }
+            ]
+          },
+          "_proto": "55d4af244bdc2d962f8b4571",
+          "_required": false
+        }
+      ],
+      "BackgroundColor": "yellow",
+      "ShortName": "Glock 17",
+      "Description": "Glock 17 is an Austrian pistol designed by Glock company for the Austrian army purposes. Thanks to both its impressive combat characteristics and reliablity it gained wide recognition and popularity as a police, shooting sports and civilian self-defense weapon. Aishi Version.",
+      "Weight": 0.213675,
+      "BaseMalfunctionChance": 0.210623,
+      "DurabilityBurnRatio": 1.06375,
+      "HeatFactorGun": 0.9805,
+      "RecoilForceBack": 240.5,
+      "RecoilForceUp": 287.675,
+      "Ergonomics": 96.75,
+      "CoolFactorGun": 4.3344,
+      "ExaminedByDefault": false,
+      "InsuranceDisabled": true
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "handbookPriceRoubles": 6608,
+    "fleaPriceRoubles": 16134,
+    "locales": {
+      "en": {
+        "name": "Glock 17 9x19 pistol (Aishi)",
+        "shortName": "Glock 17",
+        "description": "Glock 17 is an Austrian pistol designed by Glock company for the Austrian army purposes. Thanks to both its impressive combat characteristics and reliablity it gained wide recognition and popularity as a police, shooting sports and civilian self-defense weapon. Aishi Version."
+      },
+      "po": {
+        "name": "Glock 17 9x19 pistol (Aishi)",
+        "shortName": "GLOCK17",
+        "description": "A pistola austríaca Glock 17 é uma arma desenvolvida pela companhia \"Glock\" para propósitos militares. Graças as suas incríveis características de combate e alta confiabilidade, ganhou amplo reconhecimento e popularidade como armamento policial, em esportes de tiro competitivo e sendo usada também como arma de defesa pessoal. Aishi Version."
+      }
+    },
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_id": "e3ed60320f6053119913facd",
+        "_name": "TEMP2",
+        "_parent": "b3c64365bd8e5f9a8b354f62",
+        "_encyclopedia": "adba052afbd95bb2a0484900",
+        "_items": [
+          {
+            "_id": "b3c64365bd8e5f9a8b354f62",
+            "_tpl": "adba052afbd95bb2a0484900",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Repairable": {
+                "Durability": 100,
+                "MaxDurability": 100
+              },
+              "FireMode": {
+                "FireMode": "single"
+              },
+              "SpawnedInSession": true
+            }
+          },
+          {
+            "_id": "b3fd8a77c3b75cb1ae7052fd",
+            "_tpl": "c0570de6916753e8b8ad6d27",
+            "parentId": "b3c64365bd8e5f9a8b354f62",
+            "slotId": "mod_barrel",
+            "upd": {
+              "SpawnedInSession": true
+            }
+          },
+          {
+            "_id": "9e8c7ce13d9b5eddb2f374f0",
+            "_tpl": "6b929b053df3587ba7aa28c7",
+            "parentId": "b3c64365bd8e5f9a8b354f62",
+            "slotId": "mod_reciever"
+          },
+          {
+            "_id": "1abc16b8db85563788bf5cb7",
+            "_tpl": "5ee5b280c16758cc9c21db3d",
+            "parentId": "b3c64365bd8e5f9a8b354f62",
+            "slotId": "mod_magazine"
+          },
+          {
+            "_id": "f1733ad0b87950fca98958f8",
+            "_tpl": "dd05ecd32ba1527598078ff3",
+            "parentId": "b3c64365bd8e5f9a8b354f62",
+            "slotId": "mod_tactical",
+            "upd": {
+              "Light": {
+                "IsActive": true,
+                "SelectedMode": 0
+              }
+            }
+          },
+          {
+            "_id": "7ead9a21e7ed5c04b0b7f722",
+            "_tpl": "50344b9462df580fb599fbbf",
+            "parentId": "b3fd8a77c3b75cb1ae7052fd",
+            "slotId": "mod_muzzle"
+          },
+          {
+            "_id": "abdb20af385c578da5d4a7cc",
+            "_tpl": "85ec76f36aeb5cb3b1b12328",
+            "parentId": "9e8c7ce13d9b5eddb2f374f0",
+            "slotId": "mod_scope",
+            "upd": {
+              "Sight": {
+                "ScopesCurrentCalibPointIndexes": [
+                  0
+                ],
+                "ScopesSelectedModes": [
+                  0
+                ],
+                "SelectedScope": 0,
+                "ScopeZoomValue": 0
+              }
+            }
+          }
+        ],
+        "_type": "Preset",
+        "_changeWeaponName": true
+      }
+    ]
+  },
+  "6b929b053df3587ba7aa28c7": {
+    "itemTplToClone": "5a71e4f48dc32e001207fb26",
+    "parentId": "55818a304bdc2db5418b457d",
+    "handbookParentId": "5b5f764186f77447ec5d7714",
+    "overrideProperties": {
+      "Name": "Glock ZEV Tech HEX Spartan RMR pistol slide (Aishi)",
+      "CanSellOnRagfair": false,
+      "Prefab": {
+        "path": "aishiweapons/glock17_aishi/reciever_glock_zev_tech_spartan_rmr_cut_gen_3_custom_aishi.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_id": "e6ebc40827d85e829345b400",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_sight_rear",
+          "_parent": "6b929b053df3587ba7aa28c7",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a7d9122159bd4001438dbf4",
+                  "5a6f5d528dc32e00094b97d9",
+                  "5a7d912f159bd400165484f3",
+                  "5a71e0fb8dc32e00094b97f2",
+                  "630765cb962d0247b029dc45"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "e5eb0b4c6e8c59cf9a1951c9",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_sight_front",
+          "_parent": "6b929b053df3587ba7aa28c7",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a7d90eb159bd400165484f1",
+                  "5a6f58f68dc32e000a311390",
+                  "5a7d9104159bd400134c8c21",
+                  "5a71e0048dc32e000c52ecc8",
+                  "630765777d50ff5e8a1ea718"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "d411c83103ae5f94b3489b25",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_scope",
+          "_parent": "6b929b053df3587ba7aa28c7",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a71e1868dc32e00094b97f3",
+                  "5a32aa8bc4a2826c6e06d737",
+                  "85ec76f36aeb5cb3b1b12328"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "3e923a4c2f7151189cf82c96",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_muzzle",
+          "_parent": "6b929b053df3587ba7aa28c7",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a7b32a2e899ef00135e345a"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "BackgroundColor": "yellow",
+      "ShortName": "G ZT Spartan",
+      "Description": "A slide for Glock pistols family, manufactured by ZEV Technologies. Includes a mount for installation of the RMR reflex sights lineup. Aishi Version.",
+      "ExaminedByDefault": false,
+      "Weight": 0.175,
+      "DurabilityBurnModificator": 0.87,
+      "HeatFactor": 0.9,
+      "Ergonomics": 11,
+      "Recoil": -8,
+      "CoolFactor": 1.16,
+      "InsuranceDisabled": true
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "handbookPriceRoubles": 22979,
+    "fleaPriceRoubles": 22979,
+    "locales": {
+      "en": {
+        "name": "Glock ZEV Tech HEX Spartan RMR pistol slide (Aishi)",
+        "shortName": "G ZT Spartan",
+        "description": "A slide for Glock pistols family, manufactured by ZEV Technologies. Includes a mount for installation of the RMR reflex sights lineup. Aishi Version."
+      },
+      "po": {
+        "name": "Glock ZEV Tech HEX Spartan RMR pistol slide (Aishi)",
+        "shortName": "G ZT Spart",
+        "description": "Ferrolho para pistolas Glock produzido pela ZEV Technologies. inclui um suporte para instalação de miras refletiva da linha RMR. Aishi Version."
+      }
+    },
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_reciever"
+    ]
+  },
+  "5ee5b280c16758cc9c21db3d": {
+    "itemTplToClone": "63076701a987397c0816d21b",
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "overrideProperties": {
+      "Name": "Glock 9x19 19-round magazine (Aishi)",
+      "CanSellOnRagfair": false,
+      "Prefab": {
+        "path": "aishiweapons/glock17_aishi/mag_glock_glock_w_pad_9x19_19_fde_custom_aishi.bundle",
+        "rcid": ""
+      },
+      "Cartridges": [
+        {
+          "_id": "fd2ea04092e45cbead0f6a20",
+          "_max_count": 19,
+          "_name": "cartridges",
+          "_parent": "5ee5b280c16758cc9c21db3d",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5efb0da7a29a85116f6ea05f",
+                  "5c3df7d588a4501f290594e5",
+                  "58864a4f2459770fcc257101",
+                  "56d59d3ad2720bdb418b4577",
+                  "5c925fa22e221601da359b7b",
+                  "5a3c16fe86f77452b62de32a",
+                  "5efb0e16aeb21837e749c7ff",
+                  "5c0d56a986f774449d5de529",
+                  "64b7bbb74b75259c590fa897"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ],
+      "ShortName": "G19X",
+      "Description": "A 19-round 9x19 magazine for Glock 19X pistols. Aishi Version.",
+      "ExaminedByDefault": false,
+      "Weight": 0.098,
+      "MalfunctionChance": 0.07,
+      "Ergonomics": -1,
+      "LoadUnloadModifier": -11,
+      "CheckTimeModifier": -22,
+      "InsuranceDisabled": true
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "handbookPriceRoubles": 1800,
+    "fleaPriceRoubles": 1800,
+    "locales": {
+      "en": {
+        "name": "Glock 9x19 19-round magazine (Aishi)",
+        "shortName": "G19X",
+        "description": "A 19-round 9x19 magazine for Glock 19X pistols. Aishi Version."
+      },
+      "po": {
+        "name": "Glock 9x19 19-round magazine (Aishi)",
+        "shortName": "G19X",
+        "description": "Um carregador 9x19 de 19 munições para pistolas Glock 19X. Versão Coiote. Aishi Version."
+      }
+    },
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_magazine"
+    ]
+  },
+  "50344b9462df580fb599fbbf": {
+    "itemTplToClone": "5c6165902e22160010261b28",
+    "parentId": "550aa4cd4bdc2dd8348b456c",
+    "handbookParentId": "5b5f731a86f774093e6cb4f9",
+    "overrideProperties": {
+      "Name": "SIG Sauer SRD9 9x19 sound suppressor (Aishi)",
+      "CanSellOnRagfair": false,
+      "Prefab": {
+        "path": "aishiweapons/glock17_aishi/silencer_all_sig_srd_9_9x19_custom_aishi.bundle",
+        "rcid": ""
+      },
+      "BackgroundColor": "yellow",
+      "ShortName": "SRD9",
+      "Description": "SRD9 is a 9x19 caliber sound suppressor manufactured by SIG Sauer. Aishi Version.",
+      "ExaminedByDefault": false,
+      "Weight": 0.235,
+      "DurabilityBurnModificator": 1.38,
+      "HeatFactor": 1.03,
+      "Ergonomics": -13,
+      "Recoil": -7,
+      "CoolFactor": 1.11,
+      "InsuranceDisabled": true
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "handbookPriceRoubles": 28600,
+    "fleaPriceRoubles": 32187,
+    "locales": {
+      "en": {
+        "name": "SIG Sauer SRD9 9x19 sound suppressor (Aishi)",
+        "shortName": "SRD9",
+        "description": "SRD9 is a 9x19 caliber sound suppressor manufactured by SIG Sauer. Aishi Version."
+      },
+      "po": {
+        "name": "SIG Sauer SRD9 9x19 sound suppressor (Aishi)",
+        "shortName": "SRD 9",
+        "description": "Supressor SRD 9 feito por Sig. Aishi Version."
+      }
+    },
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_muzzle",
+      "mod_muzzle_001"
+    ]
+  },
+  "c0570de6916753e8b8ad6d27": {
+    "itemTplToClone": "5a6b5b8a8dc32e001207faf3",
+    "parentId": "555ef6e44bdc2de9068b457e",
+    "handbookParentId": "5b5f75c686f774094242f19f",
+    "overrideProperties": {
+      "Name": "Glock 9x19 Lone Wolf AlphaWolf 114mm threaded barrel (Aishi)",
+      "CanSellOnRagfair": false,
+      "Prefab": {
+        "path": "aishiweapons/glock17_aishi/barrel_glock_alpha_wolf_114mm_threaded_9x19_custom_aishi.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_id": "2a218eaa921852df94102363",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_muzzle",
+          "_parent": "c0570de6916753e8b8ad6d27",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a7ad0c451dfba0013379712",
+                  "5a7037338dc32e000d46d257",
+                  "5a70366c8dc32e001207fb06",
+                  "5a705e128dc32e000d46d258",
+                  "5a7ad1fb51dfba0013379715",
+                  "5a6b585a8dc32e5a9c28b4f1",
+                  "5a6b592c8dc32e00094b97bf",
+                  "5a6b59a08dc32e000b452fb7",
+                  "5c7e8fab2e22165df16b889b",
+                  "5a33a8ebc4a282000c5a950d",
+                  "5c6165902e22160010261b28",
+                  "5a32a064c4a28200741e22de",
+                  "50344b9462df580fb599fbbf"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "BackgroundColor": "yellow",
+      "ShortName": "G AW thr.",
+      "Description": "A threaded barrel for 9x19 pistols of the Glock family. Manufactured by Lone Wolf. Aishi Version.",
+      "ExaminedByDefault": false,
+      "Weight": 0.166,
+      "DurabilityBurnModificator": 0.74,
+      "HeatFactor": 1.05,
+      "Ergonomics": -3,
+      "Recoil": -5,
+      "CoolFactor": 1.31,
+      "InsuranceDisabled": true
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_barrel"
+    ],
+    "locales": {
+      "en": {
+        "name": "Glock 9x19 Lone Wolf AlphaWolf 114mm threaded barrel (Aishi)",
+        "shortName": "G AW thr.",
+        "description": "A threaded barrel for 9x19 pistols of the Glock family. Manufactured by Lone Wolf. Aishi Version."
+      },
+      "po": {
+        "name": "Glock 9x19 Lone Wolf AlphaWolf 114mm threaded barrel (Aishi)",
+        "shortName": "G AW",
+        "description": "Rosca do cano para pistolas 9x19 da família Glock. Fabricado por Lone Wolf company. Aishi Version."
+      }
+    },
+    "handbookPriceRoubles": 7948,
+    "fleaPriceRoubles": 28891
+  },
+  "dd05ecd32ba1527598078ff3": {
+    "itemTplToClone": "56def37dd2720bec348b456a",
+    "parentId": "55818b164bdc2ddc698b456c",
+    "handbookParentId": "5b5f737886f774093e6cb4fb",
+    "overrideProperties": {
+      "Name": "SureFire X400 Ultra tactical flashlight with laser (Aishi)",
+      "CanSellOnRagfair": false,
+      "Prefab": {
+        "path": "aishiweapons/glock17_aishi/tactical_all_surefire_x400_vis_laser_custom_aishi.bundle",
+        "rcid": ""
+      },
+      "BackgroundColor": "yellow",
+      "ShortName": "X400U",
+      "Description": "The X400U flashlight by SureFire is engineered to fit virtually any rail-equipped pistol or rifle. Combines a laser designator and a flashlight. Aishi Version.",
+      "ExaminedByDefault": false,
+      "Weight": 0.127,
+      "Ergonomics": 0,
+      "InsuranceDisabled": true
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_equipment",
+      "mod_foregrip",
+      "mod_mount",
+      "mod_mount_000",
+      "mod_mount_001",
+      "mod_mount_002",
+      "mod_tactical",
+      "mod_tactical001",
+      "mod_tactical002",
+      "mod_tactical_000",
+      "mod_tactical_001",
+      "mod_tactical_002",
+      "mod_tactical_003",
+      "mod_tactical_004",
+      "mod_tactical_2"
+    ],
+    "locales": {
+      "en": {
+        "name": "SureFire X400 Ultra tactical flashlight with laser (Aishi)",
+        "shortName": "X400U",
+        "description": "The X400U flashlight by SureFire is engineered to fit virtually any rail-equipped pistol or rifle. Combines a laser designator and a flashlight. Aishi Version."
+      },
+      "po": {
+        "name": "SureFire X400 Ultra tactical flashlight with laser (Aishi)",
+        "shortName": "X400",
+        "description": "Lanterna para arma SureFire X400 que combina LED com laser vermelho. Aishi Version."
+      }
+    },
+    "handbookPriceRoubles": 11200,
+    "fleaPriceRoubles": 21379
+  },
+  "85ec76f36aeb5cb3b1b12328": {
+    "itemTplToClone": "688b44cb28bf8d85cd0ff108",
+    "parentId": "55818acf4bdc2dde698b456b",
+    "handbookParentId": "5b5f744786f774094242f197",
+    "overrideProperties": {
+      "Name": "Trijicon SRO reflex sight (Aishi)",
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false,
+      "Prefab": {
+        "path": "aishiweapons/glock17_aishi/scope_base_trijicon_sro_custom_aishi.bundle",
+        "rcid": ""
+      },
+      "BackgroundColor": "yellow",
+      "ShortName": "SRO",
+      "Description": "The SRO (Specialized Reflex Optic) is a rugged, compact reflex sight. It can be used as a primary or backup optic. Requires a compatible base to mount on Weaver-style rails. Manufactured by Trijicon. Aishi Version.",
+      "ExaminedByDefault": false,
+      "Weight": 0.023,
+      "InsuranceDisabled": true,
+      "IsAlwaysAvailableForInsurance": false
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_scope"
+    ],
+    "locales": {
+      "en": {
+        "name": "Trijicon SRO reflex sight (Aishi)",
+        "shortName": "SRO",
+        "description": "The SRO (Specialized Reflex Optic) is a rugged, compact reflex sight. It can be used as a primary or backup optic. Requires a compatible base to mount on Weaver-style rails. Manufactured by Trijicon. Aishi Version."
+      },
+      "po": {
+        "name": "Trijicon SRO reflex sight (Aishi)",
+        "shortName": "SRO",
+        "description": "The SRO (Specialized Reflex Optic) is a rugged, compact reflex sight. It can be used as a primary or backup optic. Requires a compatible base to mount on Weaver-style rails. Manufactured by Trijicon. Aishi Version."
+      }
+    },
+    "handbookPriceRoubles": 24842,
+    "fleaPriceRoubles": 47637
+  },
+  "fbd18fbdc9b45efb9c6289cd": {
+    "itemTplToClone": "630769c4962d0247b029dc60",
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "handbookPriceRoubles": 2500,
+    "fleaPriceRoubles": 2500,
+    "overrideProperties": {
+      "Weight": 0.103,
+      "MalfunctionChance": 0.16,
+      "Ergonomics": -3,
+      "LoadUnloadModifier": -11,
+      "CheckTimeModifier": -33,
+      "ExaminedByDefault": false,
+      "CanSellOnRagfair": false,
+      "Prefab": {
+        "path": "aishiweapons/glock17_aishi/mag_glock_glock_big_stick_9x19_24_fde_aishi.bundle",
+        "rcid": ""
+      },
+      "Cartridges": [
+        {
+          "_id": "078ab44ce4e1556592e96210",
+          "_max_count": 24,
+          "_name": "cartridges",
+          "_parent": "fbd18fbdc9b45efb9c6289cd",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5efb0da7a29a85116f6ea05f",
+                  "5c3df7d588a4501f290594e5",
+                  "58864a4f2459770fcc257101",
+                  "56d59d3ad2720bdb418b4577",
+                  "5c925fa22e221601da359b7b",
+                  "5a3c16fe86f77452b62de32a",
+                  "5efb0e16aeb21837e749c7ff",
+                  "5c0d56a986f774449d5de529",
+                  "64b7bbb74b75259c590fa897"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ],
+      "Name": "Glock 9x19 \"Big Stick\" 24-round magazine (Coyote) (Aishi)",
+      "ShortName": "Big Stick",
+      "Description": "A factory-produced 24-round 9x19 magazine for Glock pistols. Coyote version. Aishi Modified Version.",
+      "InsuranceDisabled": true
+    },
+    "locales": {
+      "en": {
+        "name": "Glock 9x19 \"Big Stick\" 24-round magazine (Coyote) (Aishi)",
+        "shortName": "Big Stick",
+        "description": "A factory-produced 24-round 9x19 magazine for Glock pistols. Coyote version. Aishi Modified Version."
+      },
+      "po": {
+        "name": "Glock 9x19 \"Big Stick\" 24-round magazine (Coyote) (Aishi)",
+        "shortName": "Big Stick",
+        "description": "Um carregador 9x19 de 24 munições fabricados para pistolas Glock. Versão Coiote. Aishi Modified Version."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_magazine"
+    ]
+  },
+  "ad7325ccd95654fe82ac8da8": {
+    "itemTplToClone": "630767c37d50ff5e8a1ea71a",
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "handbookPriceRoubles": 2956,
+    "fleaPriceRoubles": 2956,
+    "overrideProperties": {
+      "Weight": 0.129,
+      "MalfunctionChance": 0.16,
+      "Ergonomics": -4,
+      "LoadUnloadModifier": -11,
+      "CheckTimeModifier": -33,
+      "ExaminedByDefault": false,
+      "CanSellOnRagfair": false,
+      "Prefab": {
+        "path": "aishiweapons/glock17_aishi/mag_glock_glock_big_stick_9x19_31_fde_aishi.bundle",
+        "rcid": ""
+      },
+      "Cartridges": [
+        {
+          "_id": "8e6960f80a2153c7bdde7a1a",
+          "_max_count": 31,
+          "_name": "cartridges",
+          "_parent": "ad7325ccd95654fe82ac8da8",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5efb0da7a29a85116f6ea05f",
+                  "5c3df7d588a4501f290594e5",
+                  "58864a4f2459770fcc257101",
+                  "56d59d3ad2720bdb418b4577",
+                  "5c925fa22e221601da359b7b",
+                  "5a3c16fe86f77452b62de32a",
+                  "5efb0e16aeb21837e749c7ff",
+                  "5c0d56a986f774449d5de529",
+                  "64b7bbb74b75259c590fa897"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ],
+      "Name": "Glock 9x19 \"Big Stick\" 31-round magazine (Coyote) (Aishi)",
+      "ShortName": "Big Stick",
+      "Description": "A factory-produced 31-round 9x19 magazine for Glock pistols. Coyote version. Aishi Modified Version.",
+      "InsuranceDisabled": true
+    },
+    "locales": {
+      "en": {
+        "name": "Glock 9x19 \"Big Stick\" 31-round magazine (Coyote) (Aishi)",
+        "shortName": "Big Stick",
+        "description": "A factory-produced 31-round 9x19 magazine for Glock pistols. Coyote version. Aishi Modified Version."
+      },
+      "po": {
+        "name": "Glock 9x19 \"Big Stick\" 31-round magazine (Coyote) (Aishi)",
+        "shortName": "Big Stick",
+        "description": "Um carregador 9x19 de 31 munições fabricados para pistolas Glock. Versão Coiote. Aishi Modified Version."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_magazine"
+    ]
+  },
+  "6604a4f55b495f76a7df70f6": {
+    "itemTplToClone": "5a718f958dc32e00094b97e7",
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "handbookPriceRoubles": 8661,
+    "fleaPriceRoubles": 8661,
+    "overrideProperties": {
+      "Weight": 0.555,
+      "MalfunctionChance": 0.19,
+      "Ergonomics": -17,
+      "LoadUnloadModifier": -11,
+      "CheckTimeModifier": 18,
+      "ExaminedByDefault": false,
+      "CanSellOnRagfair": false,
+      "Prefab": {
+        "path": "aishiweapons/glock17_aishi/mag_glock_sgmt_glock_drum_50_9x19_50_aishi.bundle",
+        "rcid": ""
+      },
+      "Cartridges": [
+        {
+          "_id": "7b130cae3976505b8b1cbbda",
+          "_max_count": 50,
+          "_name": "cartridges",
+          "_parent": "6604a4f55b495f76a7df70f6",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5efb0da7a29a85116f6ea05f",
+                  "5c3df7d588a4501f290594e5",
+                  "58864a4f2459770fcc257101",
+                  "56d59d3ad2720bdb418b4577",
+                  "5c925fa22e221601da359b7b",
+                  "5a3c16fe86f77452b62de32a",
+                  "5efb0e16aeb21837e749c7ff",
+                  "5c0d56a986f774449d5de529",
+                  "64b7bbb74b75259c590fa897"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ],
+      "Name": "Glock 9x19 SGM Tactical 50-round drum magazine (Aishi)",
+      "ShortName": "G SGMT",
+      "Description": "A high-capacity 50-round magazine for the Glock family pistols. Made in Korea and imported by SGM Tactical. Can hold even more than 50 rounds, but the manufacturer does not recommend loading more. Aishi Modified Version.",
+      "InsuranceDisabled": true
+    },
+    "locales": {
+      "en": {
+        "name": "Glock 9x19 SGM Tactical 50-round drum magazine (Aishi)",
+        "shortName": "G SGMT",
+        "description": "A high-capacity 50-round magazine for the Glock family pistols. Made in Korea and imported by SGM Tactical. Can hold even more than 50 rounds, but the manufacturer does not recommend loading more. Aishi Modified Version."
+      },
+      "po": {
+        "name": "Glock 9x19 SGM Tactical 50-round drum magazine (Aishi)",
+        "shortName": "G 50mun",
+        "description": "Carregador de alta capacidade para o grupo de pistolas Glock, com capacidade para até 50 munições. Feito na Coreia, importado pela SGM Tactical. Carregar mais de 50 munições não é recomendado pelo fabricante. Aishi Modified Version."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_magazine"
+    ]
+  }
+}

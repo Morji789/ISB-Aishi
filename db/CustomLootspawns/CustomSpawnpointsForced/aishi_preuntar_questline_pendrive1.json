@@ -1,178 +1,178 @@
 {
-    "laboratory": [     
-        {
-            "locationId": "(-132.5155, 5.062551, -335.1447)",
-            "probability": 0.25,
-            "template": {
-                "Id": "Pendrive [53725ce5-3192-4bef-a82d-858a1cfdabc1]",
-                "IsContainer": false,
-                "useGravity": true,
-                "randomRotation": false,
-                "Position": {
-                    "x": -132.5155,
-                    "y": 5.062551,
-                    "z": -335.1447
-                },
-                "Rotation": {
-                    "x": 270.0713,
-                    "y": 0,
-                    "z": 0
-                },
-                "IsGroupPosition": true,
-                "GroupPositions": [],
-                "IsAlwaysSpawn": false,
-                "Root": "6969cff8a7f2c6d6fec7be0f",
-                "Items": [
-                    {
-                        "_id": "6969cff8a7f2c6d6fec7be0f",
-                        "_tpl": "6969cedc9980a5f16abc2a26",
-                        "upd": {
-                            "StackObjectsCount": 1
-                        }
-                    }
-                ]
-            },
-            "itemDistribution": [
-                {
-                    "composedKey": {
-                        "key": "6969d98317fc0214acabc2fc"
-                    },
-                    "relativeProbability": 1
-                }
-            ]
+  "laboratory": [
+    {
+      "locationId": "(-132.5155, 5.062551, -335.1447)",
+      "probability": 0.25,
+      "template": {
+        "Id": "Pendrive [53725ce5-3192-4bef-a82d-858a1cfdabc1]",
+        "IsContainer": false,
+        "useGravity": true,
+        "randomRotation": false,
+        "Position": {
+          "x": -132.5155,
+          "y": 5.062551,
+          "z": -335.1447
         },
-        {
-            "locationId": "(-130.0938, 5.130724, -335.2247)",
-            "probability": 0.25,
-            "template": {
-                "Id": "Radio [835b7996-5927-4401-979a-59974590b13e]",
-                "IsContainer": false,
-                "useGravity": true,
-                "randomRotation": false,
-                "Position": {
-                    "x": -130.1908,
-                    "y": 5.1104,
-                    "z": -335.3
-                },
-                "Rotation": {
-                    "x": 350.0713,
-                    "y": 60,
-                    "z": 335
-                },
-                "IsGroupPosition": true,
-                "GroupPositions": [],
-                "IsAlwaysSpawn": false,
-                "Root": "6969cff4b359124e2695dd6b",
-                "Items": [
-                    {
-                        "_id": "6969cff4b359124e2695dd6b",
-                        "_tpl": "6969cf4ecb8460933cb02b65",
-                        "upd": {
-                            "StackObjectsCount": 1
-                        }
-                    }
-                ]
-            },
-            "itemDistribution": [
-                {
-                    "composedKey": {
-                        "key": "6969d988d1ed6a702c7f7405"
-                    },
-                    "relativeProbability": 1
-                }
-            ]
+        "Rotation": {
+          "x": 270.0713,
+          "y": 0,
+          "z": 0
         },
+        "IsGroupPosition": true,
+        "GroupPositions": [],
+        "IsAlwaysSpawn": false,
+        "Root": "6969cff8a7f2c6d6fec7be0f",
+        "Items": [
+          {
+            "_id": "6969cff8a7f2c6d6fec7be0f",
+            "_tpl": "6969cedc9980a5f16abc2a26",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      },
+      "itemDistribution": [
         {
-            "locationId": "(-119.8096 2.2965 -295.5049)",
-            "probability": 0.25,
-            "template": {
-                "Id": "Flash Drive [b0ea5ab9-9853-42b2-8d3d-d4884407188c]",
-                "IsContainer": false,
-                "useGravity": false,
-                "randomRotation": false,
-                "Position": {
-                    "x": -119.8096,
-                    "y": 2.2965,
-                    "z": -295.5049
-                },
-                "Rotation": {
-                    "x": 90,
-                    "y": 0,
-                    "z": 0
-                },
-                "Scale": {
-                    "x": 2,
-                    "y": 2,
-                    "z": 2
-                },
-                "IsGroupPosition": true,
-                "GroupPositions": [],
-                "IsAlwaysSpawn": false,
-                "Root": "6a3cc74cc4750488ea81fcaf",
-                "Items": [
-                    {
-                        "_id": "6a3cc74cc4750488ea81fcaf",
-                        "_tpl": "6a3cc5443ba523695fa73012",
-                        "upd": {
-                            "StackObjectsCount": 1
-                        }
-                    }
-                ]
-            },
-            "itemDistribution": [
-                {
-                    "composedKey": {
-                        "key": "6a3cc752eeab6ba2919a17ec"
-                    },
-                    "relativeProbability": 1
-                }
-            ]
-        },
-        {
-            "locationId": "(-162.258, 4.837, -342.308)",
-            "probability": 0.25,
-            "template": {
-                "Id": "ISB Threat [40c0acf2-3223-4185-8d0a-ab6b3710d33c]",
-                "IsContainer": false,
-                "useGravity": false,
-                "randomRotation": false,
-                "Position": {
-                    "x": -162.258,
-                    "y": 4.837,
-                    "z": -342.308
-                },
-                "Rotation": {
-                    "x": 90,
-                    "y": 0,
-                    "z": 0
-                },
-                "Scale": {
-                    "x": 2,
-                    "y": 2,
-                    "z": 2
-                },
-                "IsGroupPosition": true,
-                "GroupPositions": [],
-                "IsAlwaysSpawn": false,
-                "Root": "6a6aba6a85796745b52e7d74",
-                "Items": [
-                    {
-                        "_id": "6a6aba6a85796745b52e7d74",
-                        "_tpl": "6a6a3899fcb69bc1dec561a5",
-                        "upd": {
-                            "StackObjectsCount": 1
-                        }
-                    }
-                ]
-            },
-            "itemDistribution": [
-                {
-                    "composedKey": {
-                        "key": "6a6aba7012258d7512b6fc0c"
-                    },
-                    "relativeProbability": 1
-                }
-            ]
+          "composedKey": {
+            "key": "6969d98317fc0214acabc2fc"
+          },
+          "relativeProbability": 1
         }
-    ]
+      ]
+    },
+    {
+      "locationId": "(-130.0938, 5.130724, -335.2247)",
+      "probability": 0.25,
+      "template": {
+        "Id": "Radio [835b7996-5927-4401-979a-59974590b13e]",
+        "IsContainer": false,
+        "useGravity": true,
+        "randomRotation": false,
+        "Position": {
+          "x": -130.1908,
+          "y": 5.1104,
+          "z": -335.3
+        },
+        "Rotation": {
+          "x": 350.0713,
+          "y": 60,
+          "z": 335
+        },
+        "IsGroupPosition": true,
+        "GroupPositions": [],
+        "IsAlwaysSpawn": false,
+        "Root": "6969cff4b359124e2695dd6b",
+        "Items": [
+          {
+            "_id": "6969cff4b359124e2695dd6b",
+            "_tpl": "6969cf4ecb8460933cb02b65",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      },
+      "itemDistribution": [
+        {
+          "composedKey": {
+            "key": "6969d988d1ed6a702c7f7405"
+          },
+          "relativeProbability": 1
+        }
+      ]
+    },
+    {
+      "locationId": "(-119.8096 2.2965 -295.5049)",
+      "probability": 0.25,
+      "template": {
+        "Id": "Flash Drive [b0ea5ab9-9853-42b2-8d3d-d4884407188c]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": -119.8096,
+          "y": 2.2965,
+          "z": -295.5049
+        },
+        "Rotation": {
+          "x": 90,
+          "y": 0,
+          "z": 0
+        },
+        "Scale": {
+          "x": 2,
+          "y": 2,
+          "z": 2
+        },
+        "IsGroupPosition": true,
+        "GroupPositions": [],
+        "IsAlwaysSpawn": false,
+        "Root": "6a3cc74cc4750488ea81fcaf",
+        "Items": [
+          {
+            "_id": "6a3cc74cc4750488ea81fcaf",
+            "_tpl": "6a3cc5443ba523695fa73012",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      },
+      "itemDistribution": [
+        {
+          "composedKey": {
+            "key": "6a3cc752eeab6ba2919a17ec"
+          },
+          "relativeProbability": 1
+        }
+      ]
+    },
+    {
+      "locationId": "(-162.258, 4.837, -342.308)",
+      "probability": 0.25,
+      "template": {
+        "Id": "ISB Threat [40c0acf2-3223-4185-8d0a-ab6b3710d33c]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": -162.258,
+          "y": 4.837,
+          "z": -342.308
+        },
+        "Rotation": {
+          "x": 90,
+          "y": 0,
+          "z": 0
+        },
+        "Scale": {
+          "x": 2,
+          "y": 2,
+          "z": 2
+        },
+        "IsGroupPosition": true,
+        "GroupPositions": [],
+        "IsAlwaysSpawn": false,
+        "Root": "6a6aba6a85796745b52e7d74",
+        "Items": [
+          {
+            "_id": "6a6aba6a85796745b52e7d74",
+            "_tpl": "6a6a3899fcb69bc1dec561a5",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      },
+      "itemDistribution": [
+        {
+          "composedKey": {
+            "key": "6a6aba7012258d7512b6fc0c"
+          },
+          "relativeProbability": 1
+        }
+      ]
+    }
+  ]
 }

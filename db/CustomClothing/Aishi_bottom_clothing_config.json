@@ -10,11 +10,11 @@
         "description": "ISB TACRES Tactical Pants"
       }
     },
-    "bottomBundlePath": "clothing/usec_mission/teste2_pants.bundle",
+    "bottomBundlePath": "clothing/usec_mission/pants_usec_mission_black.bundle",
     "traderId": "690766de550bc322a810ea1e",
     "loyaltyLevel": 3,
     "profileLevel": 20,
-    "standing": 0.40,
+    "standing": 0.4,
     "currencyId": "MONEY_DOLLARS",
     "price": 1000,
     "questRequirements": [],
@@ -31,14 +31,16 @@
         "description": "ISB x RUAF Ballistic Uniform"
       }
     },
-    "bottomBundlePath": "clothing/ruaf_ballistic/teste3_bottom.bundle",
+    "bottomBundlePath": "clothing/ruaf_ballistic/pants_ruaf_ballistic_black.bundle",
     "traderId": "690766de550bc322a810ea1e",
     "loyaltyLevel": 4,
     "profileLevel": 45,
-    "standing": 0.50,
+    "standing": 0.5,
     "currencyId": "MONEY_DOLLARS",
     "price": 2000,
-    "questRequirements": ["6917f4864286e5bd06fc451d"],
+    "questRequirements": [
+      "6917f4864286e5bd06fc451d"
+    ],
     "achievementRequirements": []
   },
   {
@@ -52,14 +54,16 @@
         "description": "ISB x RUAF Ballistic Uniform"
       }
     },
-    "bottomBundlePath": "clothing/ruaf_ballistic/teste3_bottom_daytime.bundle",
+    "bottomBundlePath": "clothing/ruaf_ballistic/pants_ruaf_ballistic_marpat.bundle",
     "traderId": "690766de550bc322a810ea1e",
     "loyaltyLevel": 4,
     "profileLevel": 45,
-    "standing": 0.50,
+    "standing": 0.5,
     "currencyId": "MONEY_DOLLARS",
     "price": 2000,
-    "questRequirements": ["6917f4864286e5bd06fc451d"],
+    "questRequirements": [
+      "6917f4864286e5bd06fc451d"
+    ],
     "achievementRequirements": []
   },
   {
@@ -80,8 +84,12 @@
     "standing": 0.35,
     "currencyId": "MONEY_DOLLARS",
     "price": 1500,
-    "questRequirements": ["6917f4864286e5bd06fc451d"],
-    "achievementRequirements": ["694176509df5de06f529631f"]
+    "questRequirements": [
+      "6917f4864286e5bd06fc451d"
+    ],
+    "achievementRequirements": [
+      "694176509df5de06f529631f"
+    ]
   },
   {
     "type": "bottom",
@@ -140,7 +148,7 @@
     "traderId": "690766de550bc322a810ea1e",
     "loyaltyLevel": 3,
     "profileLevel": 30,
-    "standing": 0.40,
+    "standing": 0.4,
     "currencyId": "MONEY_DOLLARS",
     "price": 1000,
     "questRequirements": [],
@@ -161,12 +169,12 @@
     "traderId": "690766de550bc322a810ea1e",
     "loyaltyLevel": 4,
     "profileLevel": 40,
-    "standing": 0.40,
+    "standing": 0.4,
     "currencyId": "MONEY_DOLLARS",
     "price": 2000,
     "questRequirements": [],
     "achievementRequirements": []
-  },    
+  },
   {
     "type": "bottom",
     "suiteId": "69b625e0f5004560bb2d14f0",
@@ -175,19 +183,25 @@
     "locales": {
       "en": {
         "name": "Black Division Squad Leader",
-        "description": "BD1 Tactical Clothes"
+        "description": "Black Division Squad Leader Tactical Trousers"
+      },
+      "po": {
+        "name": "Black Division Squad Leader",
+        "description": "Black Division Squad Leader Tactical Trousers"
       }
     },
     "bottomBundlePath": "assets/content/characters/character/prefabs/pants_bd_team_leader_01.bundle",
     "traderId": "690766de550bc322a810ea1e",
     "loyaltyLevel": 4,
     "profileLevel": 55,
-    "standing": 0.60,
+    "standing": 0.6,
     "currencyId": "MONEY_DOLLARS",
     "price": 15000,
     "questRequirements": [],
-    "achievementRequirements": ["694176555b56f8b3181945b1"]
-  },  
+    "achievementRequirements": [
+      "694176555b56f8b3181945b1"
+    ]
+  },
   {
     "type": "bottom",
     "suiteId": "69b626600d9e0b27bda01ce7",
@@ -196,19 +210,25 @@
     "locales": {
       "en": {
         "name": "Black Division Specialist Operator",
-        "description": "BD2 Tactical Clothes"
+        "description": "Black Division Specialist Operative Tactical Trousers"
+      },
+      "po": {
+        "name": "Black Division Specialist Operator",
+        "description": "Black Division Specialist Operative Tactical Trousers"
       }
     },
     "bottomBundlePath": "assets/content/characters/character/prefabs/pants_bd_operator_02.bundle",
     "traderId": "690766de550bc322a810ea1e",
     "loyaltyLevel": 4,
     "profileLevel": 45,
-    "standing": 0.50,
+    "standing": 0.5,
     "currencyId": "MONEY_DOLLARS",
     "price": 7500,
     "questRequirements": [],
-    "achievementRequirements": ["694176555b56f8b3181945b1"]
-  },  
+    "achievementRequirements": [
+      "694176555b56f8b3181945b1"
+    ]
+  },
   {
     "type": "bottom",
     "suiteId": "69b62667aa93b5fd5d9a0eac",
@@ -217,18 +237,24 @@
     "locales": {
       "en": {
         "name": "Black Division Scout Operator",
-        "description": "BD3 Tactical Clothes"
+        "description": "Black Division Scout Operative Tactical Trousers"
+      },
+      "po": {
+        "name": "Black Division Scout Operator",
+        "description": "Black Division Scout Operative Tactical Trousers"
       }
     },
-    "bottomBundlePath": "assets/content/characters/character/prefabs/pants_bd_operator_03.bundle",
+    "bottomBundlePath": "clothing/black_division_scout/pants_bd_scout.bundle",
     "traderId": "690766de550bc322a810ea1e",
     "loyaltyLevel": 4,
     "profileLevel": 45,
-    "standing": 0.50,
+    "standing": 0.5,
     "currencyId": "MONEY_DOLLARS",
     "price": 7500,
     "questRequirements": [],
-    "achievementRequirements": ["694176555b56f8b3181945b1"]
+    "achievementRequirements": [
+      "694176555b56f8b3181945b1"
+    ]
   },
   {
     "type": "bottom",
@@ -238,18 +264,24 @@
     "locales": {
       "en": {
         "name": "Black Division Heavy Operator",
-        "description": "BD4 Tactical Clothes"
+        "description": "Black Division Heavy Operative Tactical Trousers"
+      },
+      "po": {
+        "name": "Black Division Heavy Operator",
+        "description": "Black Division Heavy Operative Tactical Trousers"
       }
     },
     "bottomBundlePath": "assets/content/characters/character/prefabs/pants_bd_operator_04.bundle",
     "traderId": "690766de550bc322a810ea1e",
     "loyaltyLevel": 3,
     "profileLevel": 30,
-    "standing": 0.40,
+    "standing": 0.4,
     "currencyId": "MONEY_DOLLARS",
     "price": 2500,
     "questRequirements": [],
-    "achievementRequirements": ["694176555b56f8b3181945b1"]
+    "achievementRequirements": [
+      "694176555b56f8b3181945b1"
+    ]
   },
   {
     "type": "bottom",
@@ -259,18 +291,24 @@
     "locales": {
       "en": {
         "name": "Black Division Nocturnal",
-        "description": "BD Nocturnal"
+        "description": "Black Division Nocturnal Tactical Trousers"
+      },
+      "po": {
+        "name": "Black Division Nocturnal",
+        "description": "Black Division Nocturnal Tactical Trousers"
       }
     },
     "bottomBundlePath": "assets/content/characters/character/prefabs/pants_bp_bd_set_2.bundle",
     "traderId": "690766de550bc322a810ea1e",
     "loyaltyLevel": 3,
     "profileLevel": 30,
-    "standing": 0.40,
+    "standing": 0.4,
     "currencyId": "MONEY_DOLLARS",
     "price": 2500,
     "questRequirements": [],
-    "achievementRequirements": ["694176555b56f8b3181945b1"]
+    "achievementRequirements": [
+      "694176555b56f8b3181945b1"
+    ]
   },
   {
     "type": "bottom",
@@ -280,18 +318,24 @@
     "locales": {
       "en": {
         "name": "Black Division Scorpion",
-        "description": "BD Scorpion"
+        "description": "Black Division Scorpion Tactical Trousers"
+      },
+      "po": {
+        "name": "Black Division Scorpion",
+        "description": "Black Division Scorpion Tactical Trousers"
       }
     },
     "bottomBundlePath": "assets/content/characters/character/prefabs/pants_bp_bd_set_1.bundle",
     "traderId": "690766de550bc322a810ea1e",
     "loyaltyLevel": 3,
     "profileLevel": 30,
-    "standing": 0.40,
+    "standing": 0.4,
     "currencyId": "MONEY_DOLLARS",
     "price": 2500,
     "questRequirements": [],
-    "achievementRequirements": ["694176555b56f8b3181945b1"]
+    "achievementRequirements": [
+      "694176555b56f8b3181945b1"
+    ]
   },
   {
     "type": "bottom",
@@ -371,11 +415,13 @@
     "traderId": "690766de550bc322a810ea1e",
     "loyaltyLevel": 4,
     "profileLevel": 50,
-    "standing": 1.00,
+    "standing": 1.0,
     "currencyId": "MONEY_DOLLARS",
     "price": 30000,
     "questRequirements": [],
-    "achievementRequirements": [ "694176555b56f8b3181945b1" ]
+    "achievementRequirements": [
+      "694176555b56f8b3181945b1"
+    ]
   },
   {
     "type": "bottom",
@@ -392,11 +438,13 @@
     "traderId": "690766de550bc322a810ea1e",
     "loyaltyLevel": 4,
     "profileLevel": 50,
-    "standing": 1.00,
+    "standing": 1.0,
     "currencyId": "MONEY_DOLLARS",
     "price": 30000,
     "questRequirements": [],
-    "achievementRequirements": [ "694176555b56f8b3181945b1" ]
+    "achievementRequirements": [
+      "694176555b56f8b3181945b1"
+    ]
   },
   {
     "type": "bottom",
@@ -413,11 +461,13 @@
     "traderId": "690766de550bc322a810ea1e",
     "loyaltyLevel": 4,
     "profileLevel": 50,
-    "standing": 1.00,
+    "standing": 1.0,
     "currencyId": "MONEY_DOLLARS",
     "price": 30000,
     "questRequirements": [],
-    "achievementRequirements": [ "694176555b56f8b3181945b1" ]
+    "achievementRequirements": [
+      "694176555b56f8b3181945b1"
+    ]
   },
   {
     "type": "bottom",
@@ -437,8 +487,14 @@
     "standing": 0.65,
     "currencyId": "MONEY_DOLLARS",
     "price": 6500,
-    "questRequirements": ["6917f4864286e5bd06fc451d", "69153dcab3aae4e9422e48a0", "691551f21744ab25e3e9ff77"],
-    "achievementRequirements": ["694178105154d75f7a0cfd10"]
+    "questRequirements": [
+      "6917f4864286e5bd06fc451d",
+      "69153dcab3aae4e9422e48a0",
+      "691551f21744ab25e3e9ff77"
+    ],
+    "achievementRequirements": [
+      "694178105154d75f7a0cfd10"
+    ]
   },
   {
     "type": "bottom",
@@ -458,8 +514,13 @@
     "standing": 0.45,
     "currencyId": "MONEY_DOLLARS",
     "price": 4500,
-    "questRequirements": ["6912ceca14c4d7453878e335", "69142292070bcc615773f970"],
-    "achievementRequirements": ["6924c9c60db281e82adaf1df"]
+    "questRequirements": [
+      "6912ceca14c4d7453878e335",
+      "69142292070bcc615773f970"
+    ],
+    "achievementRequirements": [
+      "6924c9c60db281e82adaf1df"
+    ]
   },
   {
     "type": "bottom",
@@ -468,7 +529,11 @@
     "bottomId": "69f558a0bc70a374eb2ba72a",
     "locales": {
       "en": {
-        "name": "ISB STF - USEC Black Sharpshooter",
+        "name": "ISB STF Goons - USEC Black Sharpshooter",
+        "description": "ISB STF-Goons Tactical Pants"
+      },
+      "po": {
+        "name": "ISB STF Goons - USEC Black Sharpshooter",
         "description": "ISB STF-Goons Tactical Pants"
       }
     },
@@ -479,8 +544,14 @@
     "standing": 0.45,
     "currencyId": "MONEY_DOLLARS",
     "price": 3000,
-    "questRequirements": ["6914eaa069904863f3247ecd", "691509a8317f46ac275c10c4", "691514d147e21d507ab4c72f"],
-    "achievementRequirements": ["6924bcbfcb0c0c86b8f1aff6"]
+    "questRequirements": [
+      "6914eaa069904863f3247ecd",
+      "691509a8317f46ac275c10c4",
+      "691514d147e21d507ab4c72f"
+    ],
+    "achievementRequirements": [
+      "6924bcbfcb0c0c86b8f1aff6"
+    ]
   },
   {
     "type": "bottom",
@@ -574,7 +645,7 @@
     "locales": {
       "en": {
         "name": "Black Division Defector - Squad Leader (Desert)",
-        "description": "Black Division Tactical Pants III"
+        "description": "Black Division Tactical Pants II"
       }
     },
     "bottomBundlePath": "clothing/black_division/isb_pants_bd_team_leader_01_desert.bundle",
@@ -595,7 +666,7 @@
     "locales": {
       "en": {
         "name": "Black Division Defector - Squad Leader (Moonlight)",
-        "description": "Black Division Tactical Pants III"
+        "description": "Black Division Tactical Pants II"
       }
     },
     "bottomBundlePath": "clothing/black_division/pants_bd_team_leader_moonlight.bundle",
@@ -649,5 +720,821 @@
     "price": 3000,
     "questRequirements": [],
     "achievementRequirements": []
-  }         
+  },
+  {
+    "type": "bottom",
+    "suiteId": "6a9f50d2acc9da7a627b8814",
+    "outfitId": "6a9f50d3ff477812d2f83d0b",
+    "bottomId": "6a9f50d42d551ef00e2c4fb2",
+    "locales": {
+      "en": {
+        "name": "The Desert 6",
+        "description": "Combat trousers in six-color desert camouflage."
+      }
+    },
+    "bottomBundlePath": "clothing/usec_infiltrator_6desert/pants_usec_cryeprecision_6desert.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 35,
+    "standing": 0.45,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 3000,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "bottom",
+    "suiteId": "615f210d8b6c486b8036c4f8",
+    "outfitId": "3d44a8f18d7e47d990af327b",
+    "locales": {
+      "en": {
+        "name": "ISB White Tusk - Spearthrower Trousers",
+        "description": "Spearthrower G3 combat trousers."
+      },
+      "po": {
+        "name": "ISB White Tusk - Calça Spearthrower",
+        "description": "Calça de combate G3 do Spearthrower."
+      }
+    },
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 35,
+    "standing": 0.55,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 10000,
+    "questRequirements": [],
+    "achievementRequirements": [],
+    "bottomId": "43fe611815c844828362b223",
+    "bottomBundlePath": "clothing/spearthrower/spearthrower_g3_pants.bundle"
+  },
+  {
+    "type": "bottom",
+    "suiteId": "124c04e708d00826d0244e65",
+    "outfitId": "0bf70fb41b51735aba283777",
+    "bottomId": "9cfc502af87b3f8b3dba3b3d",
+    "locales": {
+      "en": {
+        "name": "MTF Epsilon-11 Nine-Tailed Fox",
+        "description": "MTF Epsilon-11 Nine-Tailed Fox tactical trousers"
+      },
+      "po": {
+        "name": "MTF Epsilon-11 Nine-Tailed Fox",
+        "description": "Calça tática MTF Epsilon-11 Nine-Tailed Fox"
+      }
+    },
+    "bottomBundlePath": "clothing/nine_tailed_fox/isb_mtf_nine_tailed_fox_lower.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 50,
+    "standing": 1.0,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 30000,
+    "questRequirements": [],
+    "achievementRequirements": [
+      "1d9f3fb317d15e2a77957327"
+    ]
+  },
+  {
+    "type": "bottom",
+    "suiteId": "ac06eba13c3f0cb47f99bbbd",
+    "outfitId": "b258650e1d79e533aed82a68",
+    "bottomId": "8d4af63fce8f52242d3804ec",
+    "locales": {
+      "en": {
+        "name": "MTF Alpha-1 Red Right Hand",
+        "description": "MTF Alpha-1 Red Right Hand tactical trousers"
+      },
+      "po": {
+        "name": "MTF Alpha-1 Red Right Hand",
+        "description": "Calça tática MTF Alpha-1 Red Right Hand"
+      }
+    },
+    "bottomBundlePath": "clothing/red_right_hand/isb_red_right_hand_pants.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 50,
+    "standing": 1.0,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 30000,
+    "questRequirements": [],
+    "achievementRequirements": [
+      "9df3731674b1b81ebec38ce4"
+    ]
+  },
+  {
+    "type": "bottom",
+    "suiteId": "8dfc951bd3e279190a161fcc",
+    "outfitId": "c206d01da54582b9cdaf1ff3",
+    "bottomId": "044a7efaddbd7cb3e0440ce0",
+    "locales": {
+      "en": {
+        "name": "Black Division Red Right Hand",
+        "description": "Black Division Red Right Hand Tactical Trousers"
+      },
+      "po": {
+        "name": "Black Division Red Right Hand",
+        "description": "Black Division Red Right Hand tactical trousers"
+      }
+    },
+    "bottomBundlePath": "clothing/black_division_red_right_hand/isb_black_division_red_right_hand_pants.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 50,
+    "standing": 1.0,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 30000,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "bottom",
+    "suiteId": "e31dd5751d72577fb5d01683",
+    "outfitId": "a08b42b8b316546fbe819143",
+    "bottomId": "c89a02a56a535ac38c7ba1e3",
+    "locales": {
+      "en": {
+        "name": "Black Division Squad Leader (No Patches)",
+        "description": "Black Division Squad Leader tactical trousers. Original colors without unit patches."
+      },
+      "po": {
+        "name": "Black Division Squad Leader (No Patches)",
+        "description": "Black Division Squad Leader tactical trousers. Original colors without unit patches."
+      }
+    },
+    "bottomBundlePath": "clothing/black_division_no_patches/pants_bd_team_leader_01_no_patches.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 55,
+    "standing": 0.6,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 7500,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "bottom",
+    "suiteId": "16a9b37ecec356f0b0e7b723",
+    "outfitId": "65c8ac93be9b5aa089499c71",
+    "bottomId": "36638f48a25355828de63c03",
+    "locales": {
+      "en": {
+        "name": "Black Division Specialist Operative (No Patches)",
+        "description": "Black Division Specialist Operative tactical trousers. Original colors without unit patches."
+      },
+      "po": {
+        "name": "Black Division Specialist Operative (No Patches)",
+        "description": "Black Division Specialist Operative tactical trousers. Original colors without unit patches."
+      }
+    },
+    "bottomBundlePath": "clothing/black_division_no_patches/pants_bd_operator_02_no_patches.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 45,
+    "standing": 0.5,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 3750,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "bottom",
+    "suiteId": "eb72b75bbf22548ca52da600",
+    "outfitId": "958db825c2625e7ba2b89109",
+    "bottomId": "867f1cd457e057149bf9279e",
+    "locales": {
+      "en": {
+        "name": "Black Division Scout Operative (No Patches)",
+        "description": "Black Division Scout Operative tactical trousers. Original colors without unit patches."
+      },
+      "po": {
+        "name": "Black Division Scout Operative (No Patches)",
+        "description": "Black Division Scout Operative tactical trousers. Original colors without unit patches."
+      }
+    },
+    "bottomBundlePath": "clothing/black_division_no_patches/pants_bd_operator_03_no_patches.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 45,
+    "standing": 0.5,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 3750,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "bottom",
+    "suiteId": "467c9d6723915b89be83189a",
+    "outfitId": "d5e2b03a4f0c5d2fa6492554",
+    "bottomId": "bec4c58af94f5a80b13b388e",
+    "locales": {
+      "en": {
+        "name": "Black Division Heavy Operative (No Patches)",
+        "description": "Black Division Heavy Operative tactical trousers. Original colors without unit patches."
+      },
+      "po": {
+        "name": "Black Division Heavy Operative (No Patches)",
+        "description": "Black Division Heavy Operative tactical trousers. Original colors without unit patches."
+      }
+    },
+    "bottomBundlePath": "clothing/black_division_no_patches/pants_bd_operator_04_no_patches.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 30,
+    "standing": 0.4,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 1250,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "bottom",
+    "suiteId": "05b2230022245f99b063421d",
+    "outfitId": "1381f65ccdc4517389f3ef2e",
+    "bottomId": "ff2e9fce1d305c2b8acf3657",
+    "locales": {
+      "en": {
+        "name": "Black Division Scorpion (No Patches)",
+        "description": "Black Division Scorpion Tactical Trousers"
+      },
+      "po": {
+        "name": "Black Division Scorpion (No Patches)",
+        "description": "Black Division Scorpion Tactical Trousers"
+      }
+    },
+    "bottomBundlePath": "clothing/black_division_no_patches/pants_bp_bd_set_1_no_patches.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 30,
+    "standing": 0.4,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 1250,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "bottom",
+    "suiteId": "18c4b9a4f8165cda8e77ba93",
+    "outfitId": "37c76065ca6358bdba246777",
+    "bottomId": "aeef46c3412559848183a083",
+    "locales": {
+      "en": {
+        "name": "Black Division Squad Leader (Urban Ops)",
+        "description": "Black Division Squad Leader Tactical Trousers"
+      },
+      "po": {
+        "name": "Black Division Squad Leader (Urban Ops)",
+        "description": "Black Division Squad Leader Tactical Trousers"
+      }
+    },
+    "bottomBundlePath": "clothing/black_division_urban/pants_bd_team_leader_01_urban.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 55,
+    "standing": 0.6,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 15000,
+    "questRequirements": [],
+    "achievementRequirements": [
+      "694176555b56f8b3181945b1"
+    ]
+  },
+  {
+    "type": "bottom",
+    "suiteId": "45184e9b81fb5355bf9f7304",
+    "outfitId": "436b89b1e6565c23ba1f58ce",
+    "bottomId": "109ad27b3ebf537fa35d6d07",
+    "locales": {
+      "en": {
+        "name": "Black Division Specialist Operative (Urban Ops)",
+        "description": "Black Division Specialist Operative Tactical Trousers"
+      },
+      "po": {
+        "name": "Black Division Specialist Operative (Urban Ops)",
+        "description": "Black Division Specialist Operative Tactical Trousers"
+      }
+    },
+    "bottomBundlePath": "clothing/black_division_urban/pants_bd_operator_02_urban.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 45,
+    "standing": 0.5,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 7500,
+    "questRequirements": [],
+    "achievementRequirements": [
+      "694176555b56f8b3181945b1"
+    ]
+  },
+  {
+    "type": "bottom",
+    "suiteId": "0d63f6f1c75b50b18fc497b9",
+    "outfitId": "3c417a724a03520891ab5e39",
+    "bottomId": "f423189961af52c98ec7462e",
+    "locales": {
+      "en": {
+        "name": "Black Division Scout Operative (Urban Ops)",
+        "description": "Black Division Scout Operative Tactical Trousers"
+      },
+      "po": {
+        "name": "Black Division Scout Operative (Urban Ops)",
+        "description": "Black Division Scout Operative Tactical Trousers"
+      }
+    },
+    "bottomBundlePath": "clothing/black_division_urban/pants_bd_operator_03_urban.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 45,
+    "standing": 0.5,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 7500,
+    "questRequirements": [],
+    "achievementRequirements": [
+      "694176555b56f8b3181945b1"
+    ]
+  },
+  {
+    "type": "bottom",
+    "suiteId": "8c718dbda41f50c69a017b0b",
+    "outfitId": "a07aac19acf45f4b838ad266",
+    "bottomId": "be9235d4be935b13a9c6298d",
+    "locales": {
+      "en": {
+        "name": "Black Division Heavy Operative (Urban Ops)",
+        "description": "Black Division Heavy Operative Tactical Trousers"
+      },
+      "po": {
+        "name": "Black Division Heavy Operative (Urban Ops)",
+        "description": "Black Division Heavy Operative Tactical Trousers"
+      }
+    },
+    "bottomBundlePath": "clothing/black_division_urban/pants_bd_operator_04_urban.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 30,
+    "standing": 0.4,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 2500,
+    "questRequirements": [],
+    "achievementRequirements": [
+      "694176555b56f8b3181945b1"
+    ]
+  },
+  {
+    "type": "bottom",
+    "suiteId": "e1640a0606a954d3bb7a2cf2",
+    "outfitId": "d020729ce8c15499999b2002",
+    "bottomId": "ecb74e8036b65bbf878f2466",
+    "locales": {
+      "en": {
+        "name": "Black Division Squad Leader (Moonlight)",
+        "description": "Black Division Squad Leader Tactical Trousers"
+      },
+      "po": {
+        "name": "Black Division Squad Leader (Moonlight)",
+        "description": "Black Division Squad Leader Tactical Trousers"
+      }
+    },
+    "bottomBundlePath": "clothing/black_division_moonlight/pants_bd_team_leader_01_moonlight.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 55,
+    "standing": 0.6,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 15000,
+    "questRequirements": [],
+    "achievementRequirements": [
+      "694176555b56f8b3181945b1"
+    ]
+  },
+  {
+    "type": "bottom",
+    "suiteId": "c1f5990bef995f109d5ba422",
+    "outfitId": "2cdf1d2f26195db48c90eca8",
+    "bottomId": "120b89868cb7574dbc7e0d70",
+    "locales": {
+      "en": {
+        "name": "Black Division Specialist Operative (Moonlight)",
+        "description": "Black Division Specialist Operative Tactical Trousers"
+      },
+      "po": {
+        "name": "Black Division Specialist Operative (Moonlight)",
+        "description": "Black Division Specialist Operative Tactical Trousers"
+      }
+    },
+    "bottomBundlePath": "clothing/black_division_moonlight/pants_bd_operator_02_moonlight.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 45,
+    "standing": 0.5,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 7500,
+    "questRequirements": [],
+    "achievementRequirements": [
+      "694176555b56f8b3181945b1"
+    ]
+  },
+  {
+    "type": "bottom",
+    "suiteId": "f0e33d1732ff5a5098e1d7e7",
+    "outfitId": "ae0f81450abe515bad7daaf1",
+    "bottomId": "b57dfddbe8fa598bb898d30f",
+    "locales": {
+      "en": {
+        "name": "Black Division Scout Operative (Moonlight)",
+        "description": "Black Division Scout Operative Tactical Trousers"
+      },
+      "po": {
+        "name": "Black Division Scout Operative (Moonlight)",
+        "description": "Black Division Scout Operative Tactical Trousers"
+      }
+    },
+    "bottomBundlePath": "clothing/black_division_moonlight/pants_bd_operator_03_moonlight.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 45,
+    "standing": 0.5,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 7500,
+    "questRequirements": [],
+    "achievementRequirements": [
+      "694176555b56f8b3181945b1"
+    ]
+  },
+  {
+    "type": "bottom",
+    "suiteId": "f1b41f9461485410ad1c2311",
+    "outfitId": "08137af6b86d5439ad834562",
+    "bottomId": "d78d874007a451068d7cfeee",
+    "locales": {
+      "en": {
+        "name": "Black Division Heavy Operative (Moonlight)",
+        "description": "Black Division Heavy Operative Tactical Trousers"
+      },
+      "po": {
+        "name": "Black Division Heavy Operative (Moonlight)",
+        "description": "Black Division Heavy Operative Tactical Trousers"
+      }
+    },
+    "bottomBundlePath": "clothing/black_division_moonlight/pants_bd_operator_04_moonlight.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 30,
+    "standing": 0.4,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 2500,
+    "questRequirements": [],
+    "achievementRequirements": [
+      "694176555b56f8b3181945b1"
+    ]
+  },
+  {
+    "type": "bottom",
+    "suiteId": "a4e52b6470065a86a2364192",
+    "outfitId": "2332153bca415b9a9fbc1d82",
+    "bottomId": "add6aceedb8b5495baf3b4e0",
+    "bottomBundlePath": "clothing/kollontay_black/pants_boss_kolontai_black.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "locales": {
+      "en": {
+        "name": "ISB JUGGERNAUT (Black)",
+        "description": "ISB JUGGERNAUT tactical trousers. Black version of Kollontay's uniform."
+      },
+      "po": {
+        "name": "ISB JUGGERNAUT (Black)",
+        "description": "ISB JUGGERNAUT tactical trousers. Black version of Kollontay's uniform."
+      }
+    },
+    "loyaltyLevel": 3,
+    "profileLevel": 30,
+    "standing": 0.4,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 2500,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "bottom",
+    "suiteId": "ce4d4ba7317d5f3bad64a199",
+    "outfitId": "ce837c08aa0955ce9676fbce",
+    "bottomId": "d91f9ef09b275d75a0bfdb72",
+    "locales": {
+      "en": {
+        "name": "MTF Alpha-1 Red Right Hand Specialist",
+        "description": "MTF Alpha-1 Red Right Hand Specialist tactical trousers"
+      },
+      "po": {
+        "name": "MTF Alpha-1 Red Right Hand Specialist",
+        "description": "Calça tática MTF Alpha-1 Red Right Hand Specialist"
+      }
+    },
+    "bottomBundlePath": "clothing/red_right_hand_heavy/pants_bd_operator_04_rrh.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 30,
+    "standing": 0.4,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 2500,
+    "questRequirements": [],
+    "achievementRequirements": [
+      "9df3731674b1b81ebec38ce4"
+    ]
+  },
+  {
+    "type": "bottom",
+    "suiteId": "b5a2a8bf9963567cb6fc18a5",
+    "outfitId": "b13aaa68ec845344b9b1401d",
+    "bottomId": "65f411b4b75f5eb8aa6f66c4",
+    "locales": {
+      "en": {
+        "name": "MTF Epsilon-11 Nine-Tailed Fox",
+        "description": "MTF Epsilon-11 Nine-Tailed Fox tactical trousers"
+      },
+      "po": {
+        "name": "MTF Epsilon-11 Nine-Tailed Fox",
+        "description": "Calça tática MTF Epsilon-11 Nine-Tailed Fox"
+      }
+    },
+    "bottomBundlePath": "clothing/nine_tailed_fox_leader/pants_bd_team_leader_01_ntf.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 55,
+    "standing": 0.6,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 15000,
+    "questRequirements": [],
+    "achievementRequirements": [
+      "1d9f3fb317d15e2a77957327"
+    ]
+  },
+  {
+    "type": "bottom",
+    "suiteId": "edfeb1973417508e9ce01467",
+    "outfitId": "9576d99cb6f05099a77ff5a3",
+    "bottomId": "b4f3ea14b02158bca30008ab",
+    "locales": {
+      "en": {
+        "name": "Black Division Squad Leader (Desert Camo)",
+        "description": "Black Division Squad Leader Tactical Trousers"
+      },
+      "po": {
+        "name": "Black Division Squad Leader (Desert Camo)",
+        "description": "Black Division Squad Leader Tactical Trousers"
+      }
+    },
+    "bottomBundlePath": "clothing/black_division_desert/pants_bd_team_leader_01_desert.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 55,
+    "standing": 0.6,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 15000,
+    "questRequirements": [],
+    "achievementRequirements": [
+      "694176555b56f8b3181945b1"
+    ]
+  },
+  {
+    "type": "bottom",
+    "suiteId": "06c28b69c43b59299ca5356f",
+    "outfitId": "c790ca909ffd56f69f98a500",
+    "bottomId": "427f6e17e12a5cd28119feab",
+    "locales": {
+      "en": {
+        "name": "Black Division Specialist Operative (Desert Camo)",
+        "description": "Black Division Specialist Operative Tactical Trousers"
+      },
+      "po": {
+        "name": "Black Division Specialist Operative (Desert Camo)",
+        "description": "Black Division Specialist Operative Tactical Trousers"
+      }
+    },
+    "bottomBundlePath": "clothing/black_division_desert/pants_bd_operator_02_desert.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 45,
+    "standing": 0.5,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 7500,
+    "questRequirements": [],
+    "achievementRequirements": [
+      "694176555b56f8b3181945b1"
+    ]
+  },
+  {
+    "type": "bottom",
+    "suiteId": "f54216b28d715fad8b3ac7c1",
+    "outfitId": "d71c7e1eb56259ddb1e11e55",
+    "bottomId": "be6eb12b66c65a3ea063b029",
+    "locales": {
+      "en": {
+        "name": "Black Division Scout Operative (Desert Camo)",
+        "description": "Black Division Scout Operative Tactical Trousers"
+      },
+      "po": {
+        "name": "Black Division Scout Operative (Desert Camo)",
+        "description": "Black Division Scout Operative Tactical Trousers"
+      }
+    },
+    "bottomBundlePath": "clothing/black_division_desert/pants_bd_operator_03_desert.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 45,
+    "standing": 0.5,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 7500,
+    "questRequirements": [],
+    "achievementRequirements": [
+      "694176555b56f8b3181945b1"
+    ]
+  },
+  {
+    "type": "bottom",
+    "suiteId": "1f0f219592eb5d9e9bd6c80a",
+    "outfitId": "3fbd3c6dd1df5e8cb8c55f75",
+    "bottomId": "694bd34508215ad2838e9650",
+    "locales": {
+      "en": {
+        "name": "Black Division Heavy Operative (Desert Camo)",
+        "description": "Black Division Heavy Operative Tactical Trousers"
+      },
+      "po": {
+        "name": "Black Division Heavy Operative (Desert Camo)",
+        "description": "Black Division Heavy Operative Tactical Trousers"
+      }
+    },
+    "bottomBundlePath": "clothing/black_division_desert/pants_bd_operator_04_desert.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 30,
+    "standing": 0.4,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 2500,
+    "questRequirements": [],
+    "achievementRequirements": [
+      "694176555b56f8b3181945b1"
+    ]
+  },
+  {
+    "type": "bottom",
+    "suiteId": "2e534212626c5d2eb0392bc4",
+    "outfitId": "2f4c19d3e5c55faea56ae066",
+    "bottomId": "7f2b6d9b7a5b5752b51d0302",
+    "locales": {
+      "en": {
+        "name": "Black Division Nocturnal (Desert Camo)",
+        "description": "Black Division Nocturnal Tactical Trousers"
+      },
+      "po": {
+        "name": "Black Division Nocturnal (Desert Camo)",
+        "description": "Black Division Nocturnal Tactical Trousers"
+      }
+    },
+    "bottomBundlePath": "clothing/black_division_desert/pants_bp_bd_set_2_desert.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 30,
+    "standing": 0.4,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 2500,
+    "questRequirements": [],
+    "achievementRequirements": [
+      "694176555b56f8b3181945b1"
+    ]
+  },
+  {
+    "type": "bottom",
+    "suiteId": "09a561016b9d5d03bd2f34e0",
+    "outfitId": "1c1ad5d16d0953e3a6119dee",
+    "bottomId": "de3cd5b3048052e48808be43",
+    "locales": {
+      "en": {
+        "name": "Black Division Scorpion (Desert Camo)",
+        "description": "Black Division Scorpion Tactical Trousers"
+      },
+      "po": {
+        "name": "Black Division Scorpion (Desert Camo)",
+        "description": "Black Division Scorpion Tactical Trousers"
+      }
+    },
+    "bottomBundlePath": "clothing/black_division_desert/pants_bp_bd_set_1_desert.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 30,
+    "standing": 0.4,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 2500,
+    "questRequirements": [],
+    "achievementRequirements": [
+      "694176555b56f8b3181945b1"
+    ]
+  },
+  {
+    "type": "bottom",
+    "suiteId": "57c0e04f799754e18fec818d",
+    "outfitId": "368c1b1a1a3453a9a9a00a4d",
+    "bottomId": "f10442c38b2655b0b1c8abab",
+    "locales": {
+      "en": {
+        "name": "Black Division Red Right Hand (Desert Camo)",
+        "description": "Black Division Red Right Hand Tactical Trousers"
+      },
+      "po": {
+        "name": "Black Division Red Right Hand (Desert Camo)",
+        "description": "Black Division Red Right Hand tactical trousers"
+      }
+    },
+    "bottomBundlePath": "clothing/black_division_desert/isb_black_division_red_right_hand_pants_desert.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 50,
+    "standing": 1.0,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 30000,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "bottom",
+    "suiteId": "84ac107d4300998297af5b3d",
+    "outfitId": "c3de3fea7c66f5d25d7e7604",
+    "bottomId": "ee303ad6f1fdd1d02af36d02",
+    "locales": {
+      "en": {
+        "name": "ISB Team Leader - Corporate Espionage (Coal)",
+        "description": "Black Division Tactical Pants"
+      }
+    },
+    "bottomBundlePath": "clothing/wedge/coal/pants_wedge_coal.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 35,
+    "standing": 0.45,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 3000,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "bottom",
+    "suiteId": "f0e69186991e63ea7a986743",
+    "outfitId": "f1973b7f8aada02e4e00be14",
+    "bottomId": "63226fc01ae82ef89310ec6b",
+    "locales": {
+      "en": {
+        "name": "ISB Team Leader - Corporate Espionage (Moonlight)",
+        "description": "Black Division Tactical Pants"
+      }
+    },
+    "bottomBundlePath": "clothing/wedge/moonlight/pants_wedge_moonlight.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 35,
+    "standing": 0.45,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 3000,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "bottom",
+    "suiteId": "5868a8ca14ff1eaf69403825",
+    "outfitId": "026dad4f8e8d36ad786dbf70",
+    "bottomId": "0a865888156447841050b975",
+    "locales": {
+      "en": {
+        "name": "ISB Team Leader - Corporate Espionage (Red Right Hand)",
+        "description": "Black Division Tactical Pants"
+      }
+    },
+    "bottomBundlePath": "clothing/wedge/red_right_hand/pants_wedge_red_right_hand.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 35,
+    "standing": 0.45,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 3000,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "bottom",
+    "suiteId": "cbabe395e81deb8bc286c6dd",
+    "outfitId": "adc0c9579815bd60beaf7293",
+    "bottomId": "483a108d9c7c85e7cf60d885",
+    "locales": {
+      "en": {
+        "name": "ISB Team Leader - Corporate Espionage (Night Ops - Obsidian)",
+        "description": "Black Division Tactical Pants"
+      }
+    },
+    "bottomBundlePath": "clothing/wedge/night_ops/pants_wedge_night_ops.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 35,
+    "standing": 0.45,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 3000,
+    "questRequirements": [],
+    "achievementRequirements": []
+  }
 ]

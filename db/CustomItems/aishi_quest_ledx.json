@@ -1,30 +1,17 @@
 {
   "694bfa72ece7568b0aa9d916": {
-
     "itemTplToClone": "5c0530ee86f774697952d952",
     "parentId": "57864c8c245977548867e7f1",
     "handbookParentId": "5b47574386f77428ca22b2f3",
-
-
     "overrideProperties": {
-      "QuestItem": true,  
+      "QuestItem": true,
       "ExaminedByDefault": true,
-        
-
       "Prefab": {
-
         "path": "assets/content/items/barter/item_barter_medical_transilluminator/item_barter_medical_transilluminator.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
-      "Height": 1,
-      "Weight": 0.083,
-
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "LEDX Skin Transilluminator",
@@ -36,85 +23,57 @@
         "shortName": "LEDX",
         "description": "Um dispositivo médico projetado para determinar com precisão a posição das veias sob a pele."
       }
-    
     },
-
     "fleaPriceRoubles": 1,
-
     "handbookPriceRoubles": 1,
-
     "addtoHideoutPosterSlots": false,
-
     "addPosterToMaps": false,
-
     "posterSpawnProbability": 0,
-
     "addtoStatuetteSlots": false,
-
     "addCaliberToAllCloneLocations": false,
-
     "addtoStaticAmmo": false,
-
     "staticAmmoProbability": 0,
-
     "addtoBots": false,
-
     "addtoSpecialSlots": false,
-
     "addtoModSlots": false,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
-    "modSlot": [""],
-
+    "addtoItemBlacklist": true,
+    "modSlot": [
+      ""
+    ],
     "addtoHallOfFame": false,
-
     "hallOfFameSlots": [
-      "bigTrophies", 
-      "smallTrophies", 
+      "bigTrophies",
+      "smallTrophies",
       "dogTags"
     ],
-
     "addtoGeneratorAsFuel": false,
-
     "generatorFuelSlotStages": [
       "1",
       "2",
       "3"
     ],
-
     "addtoEmptyPropSlots": false,
-
     "emptyPropSlot": {
       "itemToAddTo": "",
       "modSlot": ""
     },
-
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",
         "Probability": 0
       }
     ],
-
-
     "addtoSecureFilters": false,
-
     "addtoTraders": false,
-
-    "traders": {
-          },
-          "barters": [
-            {
-              "count": 0,
-              "_tpl": "0" 
-            }
-          ]
+    "traders": {},
+    "barters": [
+      {
+        "count": 0,
+        "_tpl": "0"
+      }
+    ]
   }
 }

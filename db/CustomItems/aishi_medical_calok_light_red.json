@@ -1,0 +1,43 @@
+{
+  "dc830bbf5edf5e67ac21d737": {
+    "itemTplToClone": "5e8488fa988a8701445df1e4",
+    "parentId": "5448f3ac4bdc2dce718b4569",
+    "handbookParentId": "5b47574386f77428ca22b339",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "equipment/calok_isb/item_meds_hemostatic_loot_isb.bundle",
+        "rcid": ""
+      },
+      "UsePrefab": {
+        "path": "equipment/calok_isb/item_meds_hemostatic_container_isb.bundle",
+        "rcid": ""
+      },
+      "Name": "Modified CALOK-B hemostatic applicator",
+      "ShortName": "CALOK-B",
+      "Description": "The CALOK-B applicator hemostatic agent allows you to inject hemostatic granules through a wound opening directly to the source of bleeding in just a few seconds.",
+      "BackgroundColor": "yellow",
+      "CanSellOnRagfair": false,
+      "MaxHpResource": 6
+    },
+    "weaponPresets": [],
+    "locales": {
+      "en": {
+        "name": "Modified CALOK-B hemostatic applicator",
+        "shortName": "CALOK-B",
+        "description": "The CALOK-B applicator hemostatic agent allows you to inject hemostatic granules through a wound opening directly to the source of bleeding in just a few seconds."
+      },
+      "po": {
+        "name": "Modificado Hemostático CALOK-B",
+        "shortName": "Hemostático",
+        "description": "O agente hemostático Calok-B permite injetar grânulos hemostáticos a través de feridas abertas, permitindo parar a hemorragia diretamente na fonte, com aplicação em segundos."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "handbookPriceRoubles": 54000,
+    "fleaPriceRoubles": 54000,
+    "addtoStaticLootContainers": false
+  }
+}

@@ -1,0 +1,1777 @@
+{
+  "04a8246f4b7d53028a07c128": {
+    "itemTplToClone": "5fbc227aa56d053a3543f79e",
+    "parentId": "55818a104bdc2db9688b4569",
+    "handbookParentId": "5b5f75e486f77447ec5d7712",
+    "overrideProperties": {
+      "Name": "MCX GEN1 KeyMod 12 inch handguard (RAL 8000)",
+      "CanRequireOnRagfair": true,
+      "Prefab": {
+        "path": "aishiweapons/mcx_ral8000/handguard_mcx_sig_gen1_12_inch_keymod_ral8000.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_id": "25da81a340cf5ac28257dd98",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount_000",
+          "_parent": "04a8246f4b7d53028a07c128",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a9d6d00a2750c5c985b5305",
+                  "59e0bdb186f774156f04ce82",
+                  "59e0be5d86f7742d48765bd2",
+                  "623c2f652febb22c2777d8d7",
+                  "67111094d1758189fc0bd223"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "6e34901b634655b49878c10f",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount_001",
+          "_parent": "04a8246f4b7d53028a07c128",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a9d6d00a2750c5c985b5305",
+                  "59e0bdb186f774156f04ce82",
+                  "59e0be5d86f7742d48765bd2",
+                  "623c2f652febb22c2777d8d7",
+                  "67111094d1758189fc0bd223"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "346ad9463afe57b09752d503",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_sight_front",
+          "_parent": "04a8246f4b7d53028a07c128",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ba26b01d4351e0085325a51",
+                  "5dfa3d950dee1b22f862eae0",
+                  "5c17804b2e2216152006c02f",
+                  "5fb6567747ce63734e3fa1dc",
+                  "5bc09a30d4351e00367fb7c8",
+                  "5c18b90d2e2216152142466b",
+                  "5fc0fa362770a0045c59c677",
+                  "5894a73486f77426d259076c",
+                  "55d4af3a4bdc2d972f8b456f"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "2ee4197142dc5866ad9c4f17",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_foregrip",
+          "_parent": "04a8246f4b7d53028a07c128",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "615d8fd3290d254f5e6b2edc",
+                  "5fc0f9b5d724d907e2077d82",
+                  "5fc0f9cbd6fa9c00c571bb90",
+                  "5a9d6d13a2750c00164f6b03",
+                  "59e0bed186f774156f04ce84",
+                  "623c2f4242aee3103f1c44b7"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "a14020cc389b591eab03135f",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount_002",
+          "_parent": "04a8246f4b7d53028a07c128",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "67112695fe5c8bf33f02476d"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "ShortName": "MCX 12\"",
+      "Description": "A first-gen 12 inch handguard for the MCX assault rifle, equipped with a KeyMod interface for attaching additional equipment. Manufactured by SIG Sauer. RAL 8000 Version."
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "handbookPriceRoubles": 10000,
+    "fleaPriceRoubles": 28371,
+    "locales": {
+      "en": {
+        "name": "MCX GEN1 KeyMod 12 inch handguard (RAL 8000)",
+        "shortName": "MCX 12\"",
+        "description": "A first-gen 12 inch handguard for the MCX assault rifle, equipped with a KeyMod interface for attaching additional equipment. Manufactured by SIG Sauer. RAL 8000 Version."
+      },
+      "po": {
+        "name": "MCX GEN1 KeyMod 12 inch handguard (RAL 8000)",
+        "shortName": "MCX 12\"",
+        "description": "O Guarda-mão para SIG MCX, equipado com interface Keymod para instalação de equipamentos adicionais. RAL 8000 Version."
+      }
+    },
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_handguard"
+    ]
+  },
+  "45a6ba58d7c155459d826bd9": {
+    "itemTplToClone": "6811f4854922782caa087440",
+    "parentId": "55818a104bdc2db9688b4569",
+    "handbookParentId": "5b5f75e486f77447ec5d7712",
+    "overrideProperties": {
+      "Name": "MCX GEN1 10.5 inch handguard (RAL 8000)",
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": true,
+      "Prefab": {
+        "path": "aishiweapons/mcx_ral8000/handguard_mcx_sig_mcx_gen1_105_inch_ral8000.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_name": "mod_mount_000",
+          "_id": "309755aa201f50aa8c99ad6d",
+          "_parent": "45a6ba58d7c155459d826bd9",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "58a56f8d86f774651579314c"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_mount_001",
+          "_id": "aa64efef216a537eb4e71e51",
+          "_parent": "45a6ba58d7c155459d826bd9",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "58a56f8d86f774651579314c"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_foregrip",
+          "_id": "0b00c5db330b55ad8f54276f",
+          "_parent": "45a6ba58d7c155459d826bd9",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "58a5c12e86f7745d585a2b9e"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_mount_002",
+          "_id": "cfe532e60ca25447bc13822b",
+          "_parent": "45a6ba58d7c155459d826bd9",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "58a56f8d86f774651579314c"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_sight_front",
+          "_id": "62edb38ba4cd56eaa8dee13c",
+          "_parent": "45a6ba58d7c155459d826bd9",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ba26b01d4351e0085325a51",
+                  "5dfa3d950dee1b22f862eae0",
+                  "5c17804b2e2216152006c02f",
+                  "5fb6567747ce63734e3fa1dc",
+                  "5bc09a30d4351e00367fb7c8",
+                  "5c18b90d2e2216152142466b",
+                  "5fc0fa362770a0045c59c677",
+                  "5894a73486f77426d259076c",
+                  "55d4af3a4bdc2d972f8b456f"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ],
+      "BackgroundColor": "blue",
+      "ShortName": "MCX 10.5\"",
+      "Description": "A first-gen 10.5 inch handguard with a proprietary rail attachment system for the MCX assault rifle. Part of the LVAW (Low Visibility Assault Weapon) configuration used by US JSOC units. Manufactured by SIG Sauer. RAL 8000 Version."
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "handbookPriceRoubles": 10000,
+    "fleaPriceRoubles": 25057,
+    "locales": {
+      "en": {
+        "name": "MCX GEN1 10.5 inch handguard (RAL 8000)",
+        "shortName": "MCX 10.5\"",
+        "description": "A first-gen 10.5 inch handguard with a proprietary rail attachment system for the MCX assault rifle. Part of the LVAW (Low Visibility Assault Weapon) configuration used by US JSOC units. Manufactured by SIG Sauer. RAL 8000 Version."
+      },
+      "po": {
+        "name": "MCX GEN1 10.5 inch handguard (RAL 8000)",
+        "shortName": "MCX 10.5\"",
+        "description": "A first-gen 10.5 inch handguard with a proprietary rail attachment system for the MCX assault rifle. Part of the LVAW (Low Visibility Assault Weapon) configuration used by US JSOC units. Manufactured by SIG Sauer. RAL 8000 Version."
+      }
+    },
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_handguard"
+    ]
+  },
+  "c6988506313e5296a452d385": {
+    "itemTplToClone": "68120dcbb90552f01004e5ca",
+    "parentId": "55818a104bdc2db9688b4569",
+    "handbookParentId": "5b5f75e486f77447ec5d7712",
+    "overrideProperties": {
+      "Name": "MCX Lancer Carbon Fiber M-LOK 10.5 inch handguard (RAL 8000)",
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": true,
+      "Prefab": {
+        "path": "aishiweapons/mcx_ral8000/handguard_mcx_lancer_oem_gen1_105_inch_mlok_ral8000.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_name": "mod_mount_000",
+          "_id": "85c1a5e3f95053549ca3559c",
+          "_parent": "c6988506313e5296a452d385",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "669a6a4a525be1d2d004b8eb",
+                  "5b7be47f5acfc400170e2dd2",
+                  "6269220d70b6c02e665f2635",
+                  "6269545d0e57f218e4548ca2",
+                  "689c8b454b91399db3085f2a"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_sight_front",
+          "_id": "d1c6118b86d85992817b65f5",
+          "_parent": "c6988506313e5296a452d385",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ba26b01d4351e0085325a51",
+                  "5dfa3d950dee1b22f862eae0",
+                  "5c17804b2e2216152006c02f",
+                  "5fb6567747ce63734e3fa1dc",
+                  "5bc09a30d4351e00367fb7c8",
+                  "5c18b90d2e2216152142466b",
+                  "5fc0fa362770a0045c59c677",
+                  "5894a73486f77426d259076c",
+                  "55d4af3a4bdc2d972f8b456f"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_foregrip",
+          "_id": "5477bf792955528e9998923b",
+          "_parent": "c6988506313e5296a452d385",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "57cffb66245977632f391a99",
+                  "57cffcd624597763133760c5",
+                  "57cffcdd24597763f5110006",
+                  "57cffce524597763b31685d8",
+                  "665d5d9e338229cfd6078da1",
+                  "665edce564fb556f940ab32a",
+                  "651a8bf3a8520e48047bf708",
+                  "651a8e529829226ceb67c319",
+                  "5b7be4895acfc400170e2dd5"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_mount_002",
+          "_id": "aeca6f83e58b58d880ccfab2",
+          "_parent": "c6988506313e5296a452d385",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "669a6a4a525be1d2d004b8eb",
+                  "5b7be47f5acfc400170e2dd2",
+                  "671126b049e181972e0681fa",
+                  "6269220d70b6c02e665f2635",
+                  "6269545d0e57f218e4548ca2",
+                  "689c8b454b91399db3085f2a"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_mount_001",
+          "_id": "bb231fa1f3155faa8d7d0c17",
+          "_parent": "c6988506313e5296a452d385",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "669a6a4a525be1d2d004b8eb",
+                  "5b7be47f5acfc400170e2dd2",
+                  "6269220d70b6c02e665f2635",
+                  "6269545d0e57f218e4548ca2",
+                  "689c8b454b91399db3085f2a"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ],
+      "BackgroundColor": "blue",
+      "ShortName": "CF 10.5\"",
+      "Description": "A 10.5 inch handguard for the MCX assault rifle, equipped with an M-LOK interface for installation of additional tactical devices and accessories. Manufactured by Lancer Systems. RAL 8000 Version."
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "handbookPriceRoubles": 9500,
+    "fleaPriceRoubles": 21601,
+    "locales": {
+      "en": {
+        "name": "MCX Lancer Carbon Fiber M-LOK 10.5 inch handguard (RAL 8000)",
+        "shortName": "CF 10.5\"",
+        "description": "A 10.5 inch handguard for the MCX assault rifle, equipped with an M-LOK interface for installation of additional tactical devices and accessories. Manufactured by Lancer Systems. RAL 8000 Version."
+      },
+      "po": {
+        "name": "MCX Lancer Carbon Fiber M-LOK 10.5 inch handguard (RAL 8000)",
+        "shortName": "CF 10.5\"",
+        "description": "A 10.5 inch handguard for the MCX assault rifle, equipped with an M-LOK interface for installation of additional tactical devices and accessories. Manufactured by Lancer Systems. RAL 8000 Version."
+      }
+    },
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_handguard"
+    ]
+  },
+  "adba9c392d4a504e8d27401d": {
+    "itemTplToClone": "6812180dc20f5c52bc04d6cc",
+    "parentId": "55818a104bdc2db9688b4569",
+    "handbookParentId": "5b5f75e486f77447ec5d7712",
+    "overrideProperties": {
+      "Name": "MCX Lancer Carbon Fiber M-LOK 12 inch handguard (RAL 8000)",
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": true,
+      "Prefab": {
+        "path": "aishiweapons/mcx_ral8000/handguard_mcx_lancer_oem_gen1_12_inch_mlok_ral8000.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_name": "mod_mount_000",
+          "_id": "abd694c503cc5926bdea45ef",
+          "_parent": "adba9c392d4a504e8d27401d",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "669a6a4a525be1d2d004b8eb",
+                  "5b7be47f5acfc400170e2dd2",
+                  "6269220d70b6c02e665f2635",
+                  "6269545d0e57f218e4548ca2",
+                  "689c8b454b91399db3085f2a"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_sight_front",
+          "_id": "c8e3b088458c5001b602c7db",
+          "_parent": "adba9c392d4a504e8d27401d",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ba26b01d4351e0085325a51",
+                  "5dfa3d950dee1b22f862eae0",
+                  "5c17804b2e2216152006c02f",
+                  "5fb6567747ce63734e3fa1dc",
+                  "5bc09a30d4351e00367fb7c8",
+                  "5c18b90d2e2216152142466b",
+                  "5fc0fa362770a0045c59c677",
+                  "5894a73486f77426d259076c",
+                  "55d4af3a4bdc2d972f8b456f"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_foregrip",
+          "_id": "62b82c1749295660adbb0447",
+          "_parent": "adba9c392d4a504e8d27401d",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "57cffb66245977632f391a99",
+                  "57cffcd624597763133760c5",
+                  "57cffcdd24597763f5110006",
+                  "57cffce524597763b31685d8",
+                  "665d5d9e338229cfd6078da1",
+                  "665edce564fb556f940ab32a",
+                  "651a8bf3a8520e48047bf708",
+                  "651a8e529829226ceb67c319",
+                  "5b7be4895acfc400170e2dd5"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_mount_002",
+          "_id": "c778d915e5e0539b955e49dc",
+          "_parent": "adba9c392d4a504e8d27401d",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "669a6a4a525be1d2d004b8eb",
+                  "5b7be47f5acfc400170e2dd2",
+                  "671126b049e181972e0681fa",
+                  "6269220d70b6c02e665f2635",
+                  "6269545d0e57f218e4548ca2",
+                  "689c8b454b91399db3085f2a"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_mount_001",
+          "_id": "37c4cfed7d0756a6acdc7eb2",
+          "_parent": "adba9c392d4a504e8d27401d",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "669a6a4a525be1d2d004b8eb",
+                  "5b7be47f5acfc400170e2dd2",
+                  "6269220d70b6c02e665f2635",
+                  "6269545d0e57f218e4548ca2",
+                  "689c8b454b91399db3085f2a"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ],
+      "BackgroundColor": "blue",
+      "ShortName": "CF 12\"",
+      "Description": "A 12 inch handguard for the MCX assault rifle, equipped with an M-LOK interface for installation of additional tactical devices and accessories. Manufactured by Lancer Systems. RAL 8000 Version."
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "handbookPriceRoubles": 10200,
+    "fleaPriceRoubles": 41300,
+    "locales": {
+      "en": {
+        "name": "MCX Lancer Carbon Fiber M-LOK 12 inch handguard (RAL 8000)",
+        "shortName": "CF 12\"",
+        "description": "A 12 inch handguard for the MCX assault rifle, equipped with an M-LOK interface for installation of additional tactical devices and accessories. Manufactured by Lancer Systems. RAL 8000 Version."
+      },
+      "po": {
+        "name": "MCX Lancer Carbon Fiber M-LOK 12 inch handguard (RAL 8000)",
+        "shortName": "CF 12\"",
+        "description": "A 12 inch handguard for the MCX assault rifle, equipped with an M-LOK interface for installation of additional tactical devices and accessories. Manufactured by Lancer Systems. RAL 8000 Version."
+      }
+    },
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_handguard"
+    ]
+  },
+  "3997c6ddceff5983ab5818b4": {
+    "itemTplToClone": "681236df5cbf0518e00557a0",
+    "parentId": "55818a104bdc2db9688b4569",
+    "handbookParentId": "5b5f75e486f77447ec5d7712",
+    "overrideProperties": {
+      "Name": "MCX Lancer Carbon Fiber M-LOK 18 inch handguard (RAL 8000)",
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": true,
+      "Prefab": {
+        "path": "aishiweapons/mcx_ral8000/handguard_mcx_lancer_oem_gen1_18_inch_mlok_ral8000.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_name": "mod_mount_000",
+          "_id": "f73d61cc69cc5ed98101b20b",
+          "_parent": "3997c6ddceff5983ab5818b4",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "669a6a4a525be1d2d004b8eb",
+                  "5b7be47f5acfc400170e2dd2",
+                  "6269220d70b6c02e665f2635",
+                  "6269545d0e57f218e4548ca2",
+                  "689c8b454b91399db3085f2a"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_sight_front",
+          "_id": "4fbc61828e885c1695620ec5",
+          "_parent": "3997c6ddceff5983ab5818b4",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ba26b01d4351e0085325a51",
+                  "5dfa3d950dee1b22f862eae0",
+                  "5c17804b2e2216152006c02f",
+                  "5fb6567747ce63734e3fa1dc",
+                  "5bc09a30d4351e00367fb7c8",
+                  "5c18b90d2e2216152142466b",
+                  "5fc0fa362770a0045c59c677",
+                  "5894a73486f77426d259076c",
+                  "55d4af3a4bdc2d972f8b456f"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_foregrip",
+          "_id": "fcb737c95f8b5a7cb7ed19e3",
+          "_parent": "3997c6ddceff5983ab5818b4",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "57cffb66245977632f391a99",
+                  "57cffcd624597763133760c5",
+                  "57cffcdd24597763f5110006",
+                  "57cffce524597763b31685d8",
+                  "665d5d9e338229cfd6078da1",
+                  "665edce564fb556f940ab32a",
+                  "651a8bf3a8520e48047bf708",
+                  "651a8e529829226ceb67c319",
+                  "5b7be4895acfc400170e2dd5"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_mount_002",
+          "_id": "d1ecfebba792548e94f3b101",
+          "_parent": "3997c6ddceff5983ab5818b4",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "669a6a4a525be1d2d004b8eb",
+                  "5b7be47f5acfc400170e2dd2",
+                  "671126b049e181972e0681fa",
+                  "6269220d70b6c02e665f2635",
+                  "6269545d0e57f218e4548ca2",
+                  "689c8b454b91399db3085f2a"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_mount_001",
+          "_id": "707f51ce879452dfb2b94413",
+          "_parent": "3997c6ddceff5983ab5818b4",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "669a6a4a525be1d2d004b8eb",
+                  "5b7be47f5acfc400170e2dd2",
+                  "6269220d70b6c02e665f2635",
+                  "6269545d0e57f218e4548ca2",
+                  "689c8b454b91399db3085f2a"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ],
+      "BackgroundColor": "blue",
+      "ShortName": "CF 18\"",
+      "Description": "An 18 inch handguard for the MCX assault rifle, equipped with an M-LOK interface for installation of additional tactical devices and accessories. Manufactured by Lancer Systems. RAL 8000 Version."
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "handbookPriceRoubles": 11400,
+    "fleaPriceRoubles": 28862,
+    "locales": {
+      "en": {
+        "name": "MCX Lancer Carbon Fiber M-LOK 18 inch handguard (RAL 8000)",
+        "shortName": "CF 18\"",
+        "description": "An 18 inch handguard for the MCX assault rifle, equipped with an M-LOK interface for installation of additional tactical devices and accessories. Manufactured by Lancer Systems. RAL 8000 Version."
+      },
+      "po": {
+        "name": "MCX Lancer Carbon Fiber M-LOK 18 inch handguard (RAL 8000)",
+        "shortName": "CF 18\"",
+        "description": "An 18 inch handguard for the MCX assault rifle, equipped with an M-LOK interface for installation of additional tactical devices and accessories. Manufactured by Lancer Systems. RAL 8000 Version."
+      }
+    },
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_handguard"
+    ]
+  },
+  "667bd532892c5ddca6d3111c": {
+    "itemTplToClone": "6761496fe2cf1419500357e9",
+    "parentId": "55818a594bdc2db9688b456a",
+    "handbookParentId": "5b5f757486f774093e6cb507",
+    "overrideProperties": {
+      "Name": "SB Tactical MPX Pistol Stabilizing Brace (RAL 8000)",
+      "CanRequireOnRagfair": true,
+      "Prefab": {
+        "path": "aishiweapons/mcx_ral8000/stock_all_sig_mpx_brace_ral8000.bundle",
+        "rcid": ""
+      },
+      "ShortName": "MPX PSB",
+      "Description": "A brace stock for MPX. Manufactured by SB Tactical. RAL 8000 Version."
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "handbookPriceRoubles": 4872,
+    "fleaPriceRoubles": 14600,
+    "locales": {
+      "en": {
+        "name": "SB Tactical MPX Pistol Stabilizing Brace (RAL 8000)",
+        "shortName": "MPX PSB",
+        "description": "A brace stock for MPX. Manufactured by SB Tactical. RAL 8000 Version."
+      },
+      "po": {
+        "name": "SB Tactical MPX Pistol Stabilizing Brace (RAL 8000)",
+        "shortName": "MPX PSB",
+        "description": "A brace stock for MPX. Manufactured by SB Tactical. RAL 8000 Version."
+      }
+    },
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_stock",
+      "mod_stock_000"
+    ]
+  },
+  "971c223e604558298cda41f0": {
+    "itemTplToClone": "5fbcc640016cce60e8341acc",
+    "parentId": "55818a6f4bdc2db9688b456b",
+    "handbookParentId": "5b5f751486f77447ec5d770c",
+    "overrideProperties": {
+      "Name": "MCX charging handle (RAL 8000)",
+      "CanRequireOnRagfair": true,
+      "Prefab": {
+        "path": "aishiweapons/mcx_ral8000/charge_mcx_sig_mcx_std_armory_ral8000.bundle",
+        "rcid": ""
+      },
+      "ShortName": "MCX",
+      "Description": "A standard charging handle for SIG Sauer MCX rifles and compatible systems. RAL 8000 Version."
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "handbookPriceRoubles": 733,
+    "fleaPriceRoubles": 733,
+    "locales": {
+      "en": {
+        "name": "MCX charging handle (RAL 8000)",
+        "shortName": "MCX",
+        "description": "A standard charging handle for SIG Sauer MCX rifles and compatible systems. RAL 8000 Version."
+      },
+      "po": {
+        "name": "MCX charging handle (RAL 8000)",
+        "shortName": "MCX",
+        "description": "Alça do ferrolho padrão para Sig-Sauer MCX e sistemas compatíveis. RAL 8000 Version."
+      }
+    },
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_charge"
+    ]
+  },
+  "9ad2510ac9ec5e589cb998aa": {
+    "itemTplToClone": "5fbc226eca32ed67276c155d",
+    "parentId": "55818a104bdc2db9688b4569",
+    "handbookParentId": "5b5f75e486f77447ec5d7712",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "aishiweapons/mcx_ral8000/handguard_mcx_sig_gen1_8_inch_keymod_additional_parts_ral8000.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_id": "9cf9b3c6912850ccb0e4d4a9",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount_000",
+          "_parent": "9ad2510ac9ec5e589cb998aa",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a9d6d00a2750c5c985b5305",
+                  "59e0bdb186f774156f04ce82",
+                  "59e0be5d86f7742d48765bd2",
+                  "623c2f652febb22c2777d8d7",
+                  "67111094d1758189fc0bd223"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "bf5bd327e190567b931c689e",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount_001",
+          "_parent": "9ad2510ac9ec5e589cb998aa",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a9d6d00a2750c5c985b5305",
+                  "59e0bdb186f774156f04ce82",
+                  "59e0be5d86f7742d48765bd2",
+                  "623c2f652febb22c2777d8d7",
+                  "67111094d1758189fc0bd223"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "7f595de9f43557179928659c",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_sight_front",
+          "_parent": "9ad2510ac9ec5e589cb998aa",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ba26b01d4351e0085325a51",
+                  "5dfa3d950dee1b22f862eae0",
+                  "5c17804b2e2216152006c02f",
+                  "5fb6567747ce63734e3fa1dc",
+                  "5bc09a30d4351e00367fb7c8",
+                  "5c18b90d2e2216152142466b",
+                  "5fc0fa362770a0045c59c677",
+                  "5894a73486f77426d259076c",
+                  "55d4af3a4bdc2d972f8b456f"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "18f93168827156a58ad0f19d",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_foregrip",
+          "_parent": "9ad2510ac9ec5e589cb998aa",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "615d8fd3290d254f5e6b2edc",
+                  "5fc0f9b5d724d907e2077d82",
+                  "5fc0f9cbd6fa9c00c571bb90",
+                  "5a9d6d13a2750c00164f6b03",
+                  "59e0bed186f774156f04ce84",
+                  "623c2f4242aee3103f1c44b7"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "Name": "MCX GEN1 KeyMod 8 inch handguard (RAL 8000)",
+      "ShortName": "MCX 8\"",
+      "Description": "A first-gen 8 inch handguard for the MCX assault rifle, equipped with a KeyMod interface for attaching additional equipment. Manufactured by SIG Sauer. RAL 8000 Version.",
+      "CanRequireOnRagfair": true
+    },
+    "handbookPriceRoubles": 8000,
+    "fleaPriceRoubles": 19319,
+    "locales": {
+      "en": {
+        "name": "MCX GEN1 KeyMod 8 inch handguard (RAL 8000)",
+        "shortName": "MCX 8\"",
+        "description": "A first-gen 8 inch handguard for the MCX assault rifle, equipped with a KeyMod interface for attaching additional equipment. Manufactured by SIG Sauer. RAL 8000 Version."
+      },
+      "po": {
+        "name": "MCX GEN1 KeyMod 8 inch handguard (RAL 8000)",
+        "shortName": "MCX 8\"",
+        "description": "O Guarda-mão para SIG MCX, equipado com interface Keymod para instalação de equipamentos adicionais. RAL 8000 Version."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_handguard"
+    ]
+  },
+  "1e42a15d2f63539693e5c7f8": {
+    "itemTplToClone": "5fbcc1d9016cce60e8341ab3",
+    "parentId": "5447b5f14bdc2d61278b4567",
+    "handbookParentId": "5b5f78fc86f77409407a7f90",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "aishiweapons/mcx_ral8000/weapon_sig_mcx_gen1_762x35_container_additional_parts_ral8000.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_id": "26a3241d58d353c99c171738",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_pistol_grip",
+          "_parent": "1e42a15d2f63539693e5c7f8",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "55d4b9964bdc2d1d4e8b456e",
+                  "571659bb2459771fb2755a12",
+                  "602e71bd53a60014f9705bfa",
+                  "6113c3586c780c1e710c90bc",
+                  "6113cc78d3a39d50044c065a",
+                  "6113cce3d92c473c770200c7",
+                  "5cc9bcaed7f00c011c04e179",
+                  "5bb20e18d4351e00320205d5",
+                  "5bb20e0ed4351e3bac1212dc",
+                  "6193dcd0f8ee7e52e4210a28",
+                  "5d025cc1d7ad1a53845279ef",
+                  "5c6d7b3d2e221600114c9b7d",
+                  "57c55efc2459772d2c6271e7",
+                  "57af48872459771f0b2ebf11",
+                  "57c55f092459772d291a8463",
+                  "57c55f112459772d28133310",
+                  "57c55f172459772d27602381",
+                  "5a339805c4a2826c6e06d73d",
+                  "55802f5d4bdc2dac148b458f",
+                  "5d15cf3bd7ad1a67e71518b2",
+                  "59db3a1d86f77429e05b4e92",
+                  "5fbcbd6c187fea44d52eda14",
+                  "59db3acc86f7742a2c4ab912",
+                  "59db3b0886f77429d72fb895",
+                  "615d8faecabb9b7ad90f4d5d",
+                  "5b07db875acfc40dc528a5f6",
+                  "63f5feead259b42f0b4d6d0f",
+                  "652911675ae2ae97b80fdf3c"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "6fd6b3437a9e58628a894c28",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_magazine",
+          "_parent": "1e42a15d2f63539693e5c7f8",
+          "_props": {
+            "filters": [
+              {
+                "AnimationIndex": -1,
+                "Filter": [
+                  "55d4887d4bdc2d962f8b4570",
+                  "61840bedd92c473c77021635",
+                  "61840d85568c120fdd2962a5",
+                  "5c05413a0db834001c390617",
+                  "5c6d450c2e221600114c997d",
+                  "5c6d42cb2e2216000e69d7d1",
+                  "59c1383d86f774290a37e0ca",
+                  "5aaa5e60e5b5b000140293d6",
+                  "5448c1d04bdc2dff2f8b4569",
+                  "5aaa5dfee5b5b000140293d3",
+                  "5d1340b3d7ad1a0b52682ed7",
+                  "544a378f4bdc2d30388b4567",
+                  "5d1340bdd7ad1a0e8d245aab",
+                  "55802d5f4bdc2dac148b458e",
+                  "5d1340cad7ad1a0b0b249869",
+                  "6241c2c2117ad530666a5108",
+                  "5c6592372e221600133e47d7",
+                  "544a37c44bdc2d25388b4567",
+                  "5c6d46132e221601da357d56",
+                  "6761765f1f08ed5e8800b7a6"
+                ]
+              }
+            ]
+          },
+          "_proto": "55d30c394bdc2dae468b4577",
+          "_required": false
+        },
+        {
+          "_id": "d4b7657949b155c4908b874c",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_reciever",
+          "_parent": "1e42a15d2f63539693e5c7f8",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5fbcc3e4d6fa9c00c571bb58",
+                  "51b34b78c68f5c33b3c37399"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "9de24966ff7657feb1ef914e",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_stock",
+          "_parent": "1e42a15d2f63539693e5c7f8",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "58ac1bf086f77420ed183f9f",
+                  "5894a13e86f7742405482982",
+                  "5fbcc429900b1d5091531dd7",
+                  "5fbcc437d724d907e2077d5c",
+                  "5c5db6ee2e221600113fba54",
+                  "5c5db6f82e2216003a0fe914",
+                  "6529348224cbe3c74a05e5c4",
+                  "6761496fe2cf1419500357e9",
+                  "7f3393f8f600550493a17720"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "b08d265837965c1c97126ab3",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_charge",
+          "_parent": "1e42a15d2f63539693e5c7f8",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5fbcc640016cce60e8341acc"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        }
+      ],
+      "Chambers": [
+        {
+          "_id": "c8e3318563615bbface190d9",
+          "_mergeSlotWithChildren": false,
+          "_name": "patron_in_weapon",
+          "_parent": "1e42a15d2f63539693e5c7f8",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5fbe3ffdf8b6a877a729ea82",
+                  "5fd20ff893a8961fc660a954",
+                  "619636be6db0f2477964e710",
+                  "6196364158ef8c428c287d9f",
+                  "6196365d58ef8c428c287da1",
+                  "64b8725c4b75259c590fa899"
+                ]
+              }
+            ]
+          },
+          "_proto": "55d4af244bdc2d962f8b4571",
+          "_required": false
+        }
+      ],
+      "Name": "SIG MCX .300 Blackout assault rifle (RAL 8000)",
+      "ShortName": "MCX .300 BLK",
+      "Description": "The .300 Blackout MCX line, designed and manufactured by SIG Sauer, is available in both semi-automatic and automatic versions and features a short-stroke gas piston system, which is inherited from the earlier SIG MPX submachine gun. The .300 Blackout ammo and the MCX are compatible with all AR-15 magazines. RAL 8000 Version.",
+      "CanSellOnRagfair": false
+    },
+    "handbookPriceRoubles": 21300,
+    "fleaPriceRoubles": 139755,
+    "locales": {
+      "en": {
+        "name": "SIG MCX .300 Blackout assault rifle (RAL 8000)",
+        "shortName": "MCX .300 BLK",
+        "description": "The .300 Blackout MCX line, designed and manufactured by SIG Sauer, is available in both semi-automatic and automatic versions and features a short-stroke gas piston system, which is inherited from the earlier SIG MPX submachine gun. The .300 Blackout ammo and the MCX are compatible with all AR-15 magazines. RAL 8000 Version."
+      },
+      "po": {
+        "name": "SIG MCX .300 Blackout assault rifle (RAL 8000)",
+        "shortName": "Sig MCX 300 blk",
+        "description": "A linha MCX, projetada e produzida pela Sig Sauer, está disponível tanto em versões semiautomática e automática e contém um sistema de pistão a gás de curso curto, que foi herdado da sub metralhadora SIG MPX. RAL 8000 Version."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_id": "bcdfadc97a83584f9fafbaf7",
+        "_type": "Preset",
+        "_changeWeaponName": false,
+        "_name": "MCX RAL 8000",
+        "_parent": "b3086e4b64f85664903278ef",
+        "_items": [
+          {
+            "_id": "b3086e4b64f85664903278ef",
+            "_tpl": "1e42a15d2f63539693e5c7f8",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Repairable": {
+                "Durability": 100,
+                "MaxDurability": 100
+              },
+              "FireMode": {
+                "FireMode": "fullauto"
+              }
+            }
+          },
+          {
+            "_id": "34adffd87ec158ebbf04040c",
+            "_tpl": "57af48872459771f0b2ebf11",
+            "parentId": "b3086e4b64f85664903278ef",
+            "slotId": "mod_pistol_grip",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "12f086b12d9f50a996bd4a58",
+            "_tpl": "af5c9c35e78e5867a21807be",
+            "parentId": "b3086e4b64f85664903278ef",
+            "slotId": "mod_magazine",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Tag": {
+                "Name": "",
+                "Color": 101
+              }
+            }
+          },
+          {
+            "_id": "adbfc3440fe75935b9d69960",
+            "_tpl": "51b34b78c68f5c33b3c37399",
+            "parentId": "b3086e4b64f85664903278ef",
+            "slotId": "mod_reciever",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "7ce9d3c3fa4650d58eb5b7f5",
+            "_tpl": "667bd532892c5ddca6d3111c",
+            "parentId": "b3086e4b64f85664903278ef",
+            "slotId": "mod_stock",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "f26242c8ef5c5991af9931b8",
+            "_tpl": "971c223e604558298cda41f0",
+            "parentId": "b3086e4b64f85664903278ef",
+            "slotId": "mod_charge",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "bedd3627c5625aa69837c6e8",
+            "_tpl": "618bab21526131765025ab3f",
+            "parentId": "adbfc3440fe75935b9d69960",
+            "slotId": "mod_scope",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "9dc4288e83d559b6894e5776",
+            "_tpl": "681245a31eb182c02f0d7f09",
+            "parentId": "adbfc3440fe75935b9d69960",
+            "slotId": "mod_barrel",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "a1c91163560956aeae18876a",
+            "_tpl": "3997c6ddceff5983ab5818b4",
+            "parentId": "adbfc3440fe75935b9d69960",
+            "slotId": "mod_handguard",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "da22a2525f5e56b7bf3ebd37",
+            "_tpl": "5c18b9192e2216398b5a8104",
+            "parentId": "adbfc3440fe75935b9d69960",
+            "slotId": "mod_sight_rear",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Sight": {
+                "ScopesCurrentCalibPointIndexes": [
+                  0
+                ],
+                "ScopesSelectedModes": [
+                  0
+                ],
+                "SelectedScope": 0,
+                "ScopeZoomValue": 0
+              }
+            }
+          },
+          {
+            "_id": "e60f140b353e588ea1e3543c",
+            "_tpl": "544909bb4bdc2d6f028b4577",
+            "parentId": "adbfc3440fe75935b9d69960",
+            "slotId": "mod_tactical",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Light": {
+                "IsActive": true,
+                "SelectedMode": 0
+              }
+            }
+          },
+          {
+            "_id": "2515500c8cd55b3fb52d8bbb",
+            "_tpl": "69fa52ff8196fcfde3e548b4",
+            "parentId": "bedd3627c5625aa69837c6e8",
+            "slotId": "mod_scope",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Sight": {
+                "ScopesCurrentCalibPointIndexes": [
+                  0
+                ],
+                "ScopesSelectedModes": [
+                  0
+                ],
+                "SelectedScope": 0,
+                "ScopeZoomValue": 0
+              }
+            }
+          },
+          {
+            "_id": "0ed3d7cee168546284d47bd4",
+            "_tpl": "618ba92152ecee1505530bd3",
+            "parentId": "bedd3627c5625aa69837c6e8",
+            "slotId": "mod_mount",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "47c547b5a536532ca65f7d59",
+            "_tpl": "5fbc22ccf24b94483f726483",
+            "parentId": "9dc4288e83d559b6894e5776",
+            "slotId": "mod_muzzle",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "54b2b165626152588c2863af",
+            "_tpl": "68124640c5fd00ec0a01a237",
+            "parentId": "9dc4288e83d559b6894e5776",
+            "slotId": "mod_gas_block",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "5b2c3410c2115ca5991947b7",
+            "_tpl": "d365c02ec4a35cb7be897982",
+            "parentId": "a1c91163560956aeae18876a",
+            "slotId": "mod_mount_000",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "b2938c42059b5e56a72cb7fd",
+            "_tpl": "5c18b90d2e2216152142466b",
+            "parentId": "a1c91163560956aeae18876a",
+            "slotId": "mod_sight_front",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Sight": {
+                "ScopesCurrentCalibPointIndexes": [
+                  0
+                ],
+                "ScopesSelectedModes": [
+                  0
+                ],
+                "SelectedScope": 0,
+                "ScopeZoomValue": 0
+              }
+            }
+          },
+          {
+            "_id": "6c9ee7471d9a5bfea1ad58db",
+            "_tpl": "5b7be4895acfc400170e2dd5",
+            "parentId": "a1c91163560956aeae18876a",
+            "slotId": "mod_foregrip",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "9007da2045e053bd99b33a81",
+            "_tpl": "688b4bd81cef2a61d0052738",
+            "parentId": "0ed3d7cee168546284d47bd4",
+            "slotId": "mod_scope",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Sight": {
+                "ScopesCurrentCalibPointIndexes": [
+                  0
+                ],
+                "ScopesSelectedModes": [
+                  0
+                ],
+                "SelectedScope": 0,
+                "ScopeZoomValue": 0
+              }
+            }
+          },
+          {
+            "_id": "52456e30ff6c5ef8b3a19e86",
+            "_tpl": "5fbcbd10ab884124df0cd563",
+            "parentId": "47c547b5a536532ca65f7d59",
+            "slotId": "mod_muzzle_000",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "6f11d9e7350a5ff0a9cde7f6",
+            "_tpl": "b0ff4d4c59df5ada86d2f6ea",
+            "parentId": "47c547b5a536532ca65f7d59",
+            "slotId": "mod_muzzle_001",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "7872da8811225ea2b829d60c",
+            "_tpl": "0878b569e56e5844b58c7b1f",
+            "parentId": "5b2c3410c2115ca5991947b7",
+            "slotId": "mod_tactical",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Light": {
+                "IsActive": true,
+                "SelectedMode": 0
+              }
+            }
+          },
+          {
+            "_id": "9a987b63f38652db8fc55ced",
+            "_tpl": "655df24fdf80b12750626d0a",
+            "parentId": "6c9ee7471d9a5bfea1ad58db",
+            "slotId": "mod_foregrip",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ],
+        "_encyclopedia": "1e42a15d2f63539693e5c7f8"
+      }
+    ]
+  },
+  "51b34b78c68f5c33b3c37399": {
+    "itemTplToClone": "5fbcc3e4d6fa9c00c571bb58",
+    "parentId": "55818a304bdc2db5418b457d",
+    "handbookParentId": "5b5f764186f77447ec5d7714",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "aishiweapons/mcx_ral8000/reciever_mcx_sig_mcx_gen1_additional_parts_ral8000.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_id": "3e9f6b6458c35a77b3182b9a",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_scope",
+          "_parent": "51b34b78c68f5c33b3c37399",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "57ac965c24597706be5f975c",
+                  "57aca93d2459771f2c7e26db",
+                  "544a3f024bdc2d1d388b4568",
+                  "544a3a774bdc2d3a388b4567",
+                  "5d2dc3e548f035404a1a4798",
+                  "57adff4f24597737f373b6e6",
+                  "5c0517910db83400232ffee5",
+                  "591c4efa86f7741030027726",
+                  "570fd79bd2720bc7458b4583",
+                  "570fd6c2d2720bc6458b457f",
+                  "558022b54bdc2dac148b458d",
+                  "5c07dd120db834001c39092d",
+                  "5c0a2cec0db834001b7ce47d",
+                  "58491f3324597764bc48fa02",
+                  "584924ec24597768f12ae244",
+                  "5b30b0dc5acfc400153b7124",
+                  "6165ac8c290d254f5e6b2f6c",
+                  "60a23797a37c940de7062d02",
+                  "5d2da1e948f035477b1ce2ba",
+                  "5c0505e00db834001b735073",
+                  "609a63b6e2ff132951242d09",
+                  "584984812459776a704a82a6",
+                  "59f9d81586f7744c7506ee62",
+                  "570fd721d2720bc5458b4596",
+                  "57ae0171245977343c27bfcf",
+                  "5dfe6104585a0c3e995c7b82",
+                  "544a3d0a4bdc2d1b388b4567",
+                  "5d1b5e94d7ad1a2b865a96b0",
+                  "609bab8b455afd752b2e6138",
+                  "58d39d3d86f77445bb794ae7",
+                  "616554fe50224f204c1da2aa",
+                  "5c7d55f52e221644f31bff6a",
+                  "616584766ef05c2ce828ef57",
+                  "5b3b6dc75acfc47a8773fb1e",
+                  "615d8d878004cc50514c3233",
+                  "5b2389515acfc4771e1be0c0",
+                  "577d128124597739d65d0e56",
+                  "618b9643526131765025ab35",
+                  "618bab21526131765025ab3f",
+                  "5c86592b2e2216000e69e77c",
+                  "5a37ca54c4a282000d72296a",
+                  "5d0a29fed7ad1a002769ad08",
+                  "58d2664f86f7747fec5834f6",
+                  "57c69dd424597774c03b7bbc",
+                  "5b3b99265acfc4704b4a1afb",
+                  "5aa66a9be5b5b0214e506e89",
+                  "5aa66c72e5b5b00016327c93",
+                  "5c1cdd302e221602b3137250",
+                  "61714b2467085e45ef140b2c",
+                  "6171407e50224f204c1da3c5",
+                  "61713cc4d8e3106d9806c109",
+                  "5b31163c5acfc400153b71cb",
+                  "5a33b652c4a28232996e407c",
+                  "5a33b2c9c4a282000c5a9511",
+                  "59db7eed86f77461f8380365",
+                  "5a1ead28fcdbcb001912fa9f",
+                  "5dff77c759400025ea5150cf",
+                  "626bb8532c923541184624b4",
+                  "62811f461d5df4475f46a332",
+                  "63fc449f5bd61c6cf3784a88",
+                  "6477772ea8a38bb2050ed4db",
+                  "6478641c19d732620e045e17",
+                  "64785e7c19d732620e045e15",
+                  "65392f611406374f82152ba5",
+                  "653931da5db71d30ab1d6296",
+                  "655f13e0a246670fb0373245",
+                  "6567e751a715f85433025998",
+                  "67641a851b2899700609901a",
+                  "6761759e7ee06333f108bf86"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "10e780832f905c5ba402324c",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_barrel",
+          "_parent": "51b34b78c68f5c33b3c37399",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5fbbfabed5cb881a7363194e",
+                  "5fbbfacda56d053a3543f799"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "cc19c2fb77a259d4bb12dce2",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_handguard",
+          "_parent": "51b34b78c68f5c33b3c37399",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5fbc227aa56d053a3543f79e",
+                  "5fbc226eca32ed67276c155d",
+                  "9ad2510ac9ec5e589cb998aa"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "4d972b0b3c4c51d2910cf0d8",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_sight_rear",
+          "_parent": "51b34b78c68f5c33b3c37399",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5bb20e49d4351e3bac1212de",
+                  "5ba26b17d4351e00367f9bdd",
+                  "5dfa3d7ac41b2312ea33362a",
+                  "5c1780312e221602b66cc189",
+                  "5fb6564947ce63734e3fa1da",
+                  "5bc09a18d4351e003562b68e",
+                  "5c18b9192e2216398b5a8104",
+                  "5fc0fa957283c4046c58147e",
+                  "5894a81786f77427140b8347"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "215056f3f4fd5067b88d9f83",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_tactical",
+          "_parent": "51b34b78c68f5c33b3c37399",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "57fd23e32459772d0805bcf1",
+                  "544909bb4bdc2d6f028b4577",
+                  "5c06595c0db834001a66af6c",
+                  "61605d88ffa6e502ac5e7eeb",
+                  "5c5952732e2216398b5abda2",
+                  "644a3df63b0b6f03e101e065"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "a28ffbd5f9bf5e44a130aab3",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount",
+          "_parent": "51b34b78c68f5c33b3c37399",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5649a2464bdc2d91118b45a8"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "Name": "MCX GEN1 .300 BLK upper receiver (RAL 8000)",
+      "ShortName": "MCX GEN1",
+      "Description": "An upper receiver for the first generation MCX assault rifles manufactured by SIG Sauer. Features a mount for attaching additional equipment. RAL 8000 Version.",
+      "CanRequireOnRagfair": true
+    },
+    "handbookPriceRoubles": 3509,
+    "fleaPriceRoubles": 3509,
+    "locales": {
+      "en": {
+        "name": "MCX GEN1 .300 BLK upper receiver (RAL 8000)",
+        "shortName": "MCX GEN1",
+        "description": "An upper receiver for the first generation MCX assault rifles manufactured by SIG Sauer. Features a mount for attaching additional equipment. RAL 8000 Version."
+      },
+      "po": {
+        "name": "MCX GEN1 .300 BLK upper receiver (RAL 8000)",
+        "shortName": "MCX 1ªGer.",
+        "description": "Upper receiver para MCX da primeira geração produzida pela Sig-Sauer. Acompanha trilho para instalação de equipamento adicional. RAL 8000 Version."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_reciever"
+    ]
+  },
+  "7f3393f8f600550493a17720": {
+    "itemTplToClone": "5fbcc437d724d907e2077d5c",
+    "parentId": "55818a594bdc2db9688b456a",
+    "handbookParentId": "5b5f757486f774093e6cb507",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "aishiweapons/mcx_ral8000/stock_all_sig_thin_folding_stock_additional_parts_ral8000.bundle",
+        "rcid": ""
+      },
+      "Name": "SIG Sauer Thin Side-Folding Stock (RAL 8000)",
+      "ShortName": "SIG TSFS",
+      "Description": "A lightweight stock for MPX/MCX, manufactured by SIG Sauer. RAL 8000 Version.",
+      "CanRequireOnRagfair": true
+    },
+    "handbookPriceRoubles": 6900,
+    "fleaPriceRoubles": 13114,
+    "locales": {
+      "en": {
+        "name": "SIG Sauer Thin Side-Folding Stock (RAL 8000)",
+        "shortName": "SIG TSFS",
+        "description": "A lightweight stock for MPX/MCX, manufactured by SIG Sauer. RAL 8000 Version."
+      },
+      "po": {
+        "name": "SIG Sauer Thin Side-Folding Stock (RAL 8000)",
+        "shortName": "MCX/MPX thin",
+        "description": "Coronha fina e leve para MCX/MPX fabricada por SIG Sauer. RAL 8000 Version."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_stock",
+      "mod_stock_000"
+    ]
+  },
+  "b0ff4d4c59df5ada86d2f6ea": {
+    "itemTplToClone": "5fbe760793164a5b6278efc8",
+    "parentId": "550aa4cd4bdc2dd8348b456c",
+    "handbookParentId": "5b5f731a86f774093e6cb4f9",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "aishiweapons/mcx_ral8000/silencer_base_sig_srd_762_qd_762x51_ral8000.bundle",
+        "rcid": ""
+      },
+      "Name": "SIG Sauer SRD762-QD 7.62x51 sound suppressor (RAL 8000)",
+      "ShortName": "SRD762-QD",
+      "Description": "SRD762-QD is a Grade 5 titanium suppressor that uses quick-release muzzle devices to attach the suppressor to the gun. Manufactured by SIG Sauer. RAL 8000 Version.",
+      "CanRequireOnRagfair": true
+    },
+    "handbookPriceRoubles": 54520,
+    "fleaPriceRoubles": 44811,
+    "locales": {
+      "en": {
+        "name": "SIG Sauer SRD762-QD 7.62x51 sound suppressor (RAL 8000)",
+        "shortName": "SRD762-QD",
+        "description": "SRD762-QD is a Grade 5 titanium suppressor that uses quick-release muzzle devices to attach the suppressor to the gun. Manufactured by SIG Sauer. RAL 8000 Version."
+      },
+      "po": {
+        "name": "SIG Sauer SRD762-QD 7.62x51 sound suppressor (RAL 8000)",
+        "shortName": "SRD QD 7.62x51",
+        "description": "O SRD 762x51 é um supressor de grau 5 Titânio que usa um dispositivo de engate rápido para acoplar o supressor a arma. RAL 8000 Version."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_muzzle_001"
+    ]
+  }
+}

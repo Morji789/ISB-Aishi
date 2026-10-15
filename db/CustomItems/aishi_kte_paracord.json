@@ -1,0 +1,36 @@
+{
+  "d88925f5ddd4cd8795d5c9bd": {
+    "itemTplToClone": "5c12688486f77426843c7d32",
+    "parentId": "590c745b86f7743cc433c5f2",
+    "handbookParentId": "5b47574386f77428ca22b2f1",
+    "handbookPriceRoubles": 67500,
+    "fleaPriceRoubles": 225000,
+    "overrideProperties": {
+      "CanSellOnRagfair": false,
+      "Prefab": {
+        "path": "equipment/anomalous_items/aishiS2/paracord/item_kte_paracord.bundle",
+        "rcid": ""
+      },
+      "CanRequireOnRagfair": false
+    },
+    "locales": {
+      "en": {
+        "name": "KTE 111",
+        "shortName": "KTE 111",
+        "description": "<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 111</b></color>\n<size=90%>TerraGroup research • Unknown properties.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 111</b></color>\n<size=90%><color=#B2B9B5>PROPERTIES IDENTIFIED • REPORT BELOW</color></size></align>\n\nWhile carried in the inventory.\n\n<color=#E88888><b>Negative effects:</b></color>\n• Consumes 50 energy and hydration every 6 minutes.\n\n<color=#92CAA1><b>Positive effects:</b></color>\n• Increases jump height by 50%."
+      },
+      "po": {
+        "name": "KTE 111",
+        "shortName": "KTE 111",
+        "description": "<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 111</b></color>\n<size=90%>Pesquisa TerraGroup • Propriedades desconhecidas.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 111</b></color>\n<size=90%><color=#B2B9B5>PROPRIEDADES IDENTIFICADAS • RELATÓRIO ABAIXO</color></size></align>\n\nEnquanto carregado no inventário.\n\n<color=#E88888><b>Efeitos negativos:</b></color>\n• Consome 50 de fome e sede a cada 6 minutos.\n\n<color=#92CAA1><b>Efeitos positivos:</b></color>\n• Aumenta a altura do pulo em 50%."
+      }
+    },
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "addtoItemBlacklist": true,
+    "addtoSecureFilters": false,
+    "addtoSpecialSlots": false
+  }
+}

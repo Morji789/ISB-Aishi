@@ -1,0 +1,130 @@
+{
+  "4225b3906d0b58c58adb91d5": {
+    "_id": "4225b3906d0b58c58adb91d5",
+    "_name": "Terminus",
+    "_parent": "2b854cb07de15b50a8a3547f",
+    "_encyclopedia": "6cd78254487656f08cb22343",
+    "_items": [
+      {
+        "_id": "2b854cb07de15b50a8a3547f",
+        "_tpl": "6cd78254487656f08cb22343",
+        "upd": {
+          "StackObjectsCount": 1,
+          "Repairable": {
+            "Durability": 100,
+            "MaxDurability": 100
+          },
+          "FireMode": {
+            "FireMode": "fullauto"
+          },
+          "SpawnedInSession": true,
+          "Foldable": {
+            "Folded": false
+          }
+        }
+      },
+      {
+        "_id": "2081e828463658f08d36bd17",
+        "_tpl": "8b577ee9945a538d95a6c4a4",
+        "parentId": "2b854cb07de15b50a8a3547f",
+        "slotId": "mod_magazine"
+      },
+      {
+        "_id": "750b987b37325421be5f7132",
+        "_tpl": "1a0fee6216175ed09db4bb92",
+        "parentId": "2b854cb07de15b50a8a3547f",
+        "slotId": "mod_muzzle"
+      },
+      {
+        "_id": "7eb0053b9970571b8b2a5ed4",
+        "_tpl": "13c8c2a508d258958ae68af0",
+        "parentId": "2b854cb07de15b50a8a3547f",
+        "slotId": "mod_sight_front",
+        "upd": {
+          "SpawnedInSession": true,
+          "Sight": {
+            "ScopesCurrentCalibPointIndexes": [
+              0
+            ],
+            "ScopesSelectedModes": [
+              0
+            ],
+            "SelectedScope": 0,
+            "ScopeZoomValue": 0
+          }
+        }
+      },
+      {
+        "_id": "b8ce1062c12d57af819df7ae",
+        "_tpl": "aaf7e0cb2d285c18b6d32048",
+        "parentId": "2b854cb07de15b50a8a3547f",
+        "slotId": "mod_scope",
+        "upd": {
+          "Sight": {
+            "ScopesCurrentCalibPointIndexes": [
+              0
+            ],
+            "ScopesSelectedModes": [
+              0
+            ],
+            "SelectedScope": 0,
+            "ScopeZoomValue": 0
+          }
+        }
+      },
+      {
+        "_id": "0f910b4ccbe8520e8a1156a3",
+        "_tpl": "c3efbaaab97b59ecb9bbb1b3",
+        "parentId": "2b854cb07de15b50a8a3547f",
+        "slotId": "mod_tactical_000",
+        "upd": {
+          "Light": {
+            "IsActive": true,
+            "SelectedMode": 0
+          }
+        }
+      },
+      {
+        "_id": "fb2809e341cc59688c4fc1c2",
+        "_tpl": "a284b416da5454939109f6c1",
+        "parentId": "2b854cb07de15b50a8a3547f",
+        "slotId": "mod_tactical_001"
+      },
+      {
+        "_id": "3141b60a9eca56cca55896f1",
+        "_tpl": "f7080aaea57a589083f54de9",
+        "parentId": "2b854cb07de15b50a8a3547f",
+        "slotId": "mod_stock",
+        "upd": {
+          "SpawnedInSession": true
+        }
+      },
+      {
+        "_id": "c739f3172fa8595c86a9316a",
+        "_tpl": "7095b61f529d598ea6a5bcb5",
+        "parentId": "2b854cb07de15b50a8a3547f",
+        "slotId": "mod_foregrip"
+      },
+      {
+        "_id": "ca8b9c94654f5f6c901bcef8",
+        "_tpl": "eb95ca01f4595bfa949a3c90",
+        "parentId": "750b987b37325421be5f7132",
+        "slotId": "mod_muzzle"
+      },
+      {
+        "_id": "2e9da0ee89bd53eea42be576",
+        "_tpl": "6bb5f3fa56c458d5acc31bbb",
+        "parentId": "fb2809e341cc59688c4fc1c2",
+        "slotId": "mod_tactical",
+        "upd": {
+          "Light": {
+            "IsActive": true,
+            "SelectedMode": 0
+          }
+        }
+      }
+    ],
+    "_type": "Preset",
+    "_changeWeaponName": true
+  }
+}

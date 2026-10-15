@@ -1,0 +1,148 @@
+{
+  "fe24d01db70557e8898cdf00": {
+    "itemTplToClone": "5c0548ae0db834001966a3c2",
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "handbookPriceRoubles": 2400,
+    "fleaPriceRoubles": 11999,
+    "overrideProperties": {
+      "Cartridges": [
+        {
+          "_id": "0d8179e48f05515980b51256",
+          "_max_count": 30,
+          "_name": "cartridges",
+          "_parent": "fe24d01db70557e8898cdf00",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "59e6920f86f77411d82aa167",
+                  "59e6927d86f77411da468256",
+                  "54527a984bdc2d4e668b4567",
+                  "54527ac44bdc2d36668b4567",
+                  "59e68f6f86f7746c9f75e846",
+                  "59e6906286f7746c9f75e847",
+                  "59e690b686f7746c9f75e848",
+                  "59e6918f86f7746c9f75e849",
+                  "60194943740c5d77f6705eea",
+                  "601949593ae8f707c4608daa",
+                  "5c0d5ae286f7741e46554302",
+                  "5fbe3ffdf8b6a877a729ea82",
+                  "5fd20ff893a8961fc660a954",
+                  "64b8725c4b75259c590fa899",
+                  "619636be6db0f2477964e710",
+                  "6196364158ef8c428c287d9f",
+                  "6196365d58ef8c428c287da1"
+                ]
+              }
+            ]
+          },
+          "_proto": "69fa8eac467c0c3787170f84"
+        }
+      ],
+      "Prefab": {
+        "path": "aishiweapons/magazines/ak_slr106_circle10_30_black_tape/weapon_556300AKmagazine_black_tape.bundle",
+        "rcid": ""
+      },
+      "Grids": [],
+      "Name": "SLR-106/AK 5.56x45 Circle 10 30-round magazine (Black) (Tape)",
+      "ShortName": "C-10 AK",
+      "Description": "A Bulgarian 30-round 5.56x45 \"Waffle Pattern\" magazine for the SLR-106 civilian AK-based rifles. Manufactured by Circle 10 and distributed by Arsenal Inc. Black Version Tape Version. Change the tape color from the magazine menu in your stash.",
+      "CanRequireOnRagfair": true
+    },
+    "locales": {
+      "en": {
+        "name": "SLR-106/AK 5.56x45 Circle 10 30-round magazine (Black) (Tape)",
+        "shortName": "C-10 AK",
+        "description": "A Bulgarian 30-round 5.56x45 \"Waffle Pattern\" magazine for the SLR-106 civilian AK-based rifles. Manufactured by Circle 10 and distributed by Arsenal Inc. Black Version Tape Version. Change the tape color from the magazine menu in your stash."
+      },
+      "po": {
+        "name": "Carregador de 30 munições Arsenal CWP 5.56x45 para SLR-106 e compatíveis (Preta) (Tape)",
+        "shortName": "C-10 AK",
+        "description": "Um carregador búlgaro de 30 cartuchos calibre 5,56x45 com padrão “Waffle” para os fuzis civis SLR-106 baseados no AK. Fabricado pela Circle 10 e distribuído pela Arsenal Inc. Versão preta Tape Version. Change the tape color from the magazine menu in your stash."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_magazine"
+    ]
+  },
+  "003ac6702b835ac4ac30b0f7": {
+    "itemTplToClone": "5c0548ae0db834001966a3c2",
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "handbookPriceRoubles": 2400,
+    "fleaPriceRoubles": 11999,
+    "overrideProperties": {
+      "Cartridges": [
+        {
+          "_id": "e1631a9b498f5e919f4ddf28",
+          "_max_count": 30,
+          "_name": "cartridges",
+          "_parent": "003ac6702b835ac4ac30b0f7",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "59e6920f86f77411d82aa167",
+                  "59e6927d86f77411da468256",
+                  "54527a984bdc2d4e668b4567",
+                  "54527ac44bdc2d36668b4567",
+                  "59e68f6f86f7746c9f75e846",
+                  "59e6906286f7746c9f75e847",
+                  "59e690b686f7746c9f75e848",
+                  "59e6918f86f7746c9f75e849",
+                  "60194943740c5d77f6705eea",
+                  "601949593ae8f707c4608daa",
+                  "5c0d5ae286f7741e46554302",
+                  "5fbe3ffdf8b6a877a729ea82",
+                  "5fd20ff893a8961fc660a954",
+                  "64b8725c4b75259c590fa899",
+                  "619636be6db0f2477964e710",
+                  "6196364158ef8c428c287d9f",
+                  "6196365d58ef8c428c287da1"
+                ]
+              }
+            ]
+          },
+          "_proto": "69faa19449635ba416d19744"
+        }
+      ],
+      "Prefab": {
+        "path": "aishiweapons/magazines/ak_slr106_circle10_30_fde_tape/weapon_556300AKmagazine_FDE_tape.bundle",
+        "rcid": ""
+      },
+      "Grids": [],
+      "Name": "SLR-106/AK 5.56x45 Circle 10 30-round magazine (FDE) (Tape)",
+      "ShortName": "C-10 AK",
+      "Description": "A Bulgarian 30-round 5.56x45 \"Waffle Pattern\" magazine for the SLR-106 civilian AK-based rifles. Manufactured by Circle 10 and distributed by Arsenal Inc. FDE Version Tape Version. Change the tape color from the magazine menu in your stash.",
+      "CanRequireOnRagfair": true
+    },
+    "locales": {
+      "en": {
+        "name": "SLR-106/AK 5.56x45 Circle 10 30-round magazine (FDE) (Tape)",
+        "shortName": "C-10 AK",
+        "description": "A Bulgarian 30-round 5.56x45 \"Waffle Pattern\" magazine for the SLR-106 civilian AK-based rifles. Manufactured by Circle 10 and distributed by Arsenal Inc. FDE Version Tape Version. Change the tape color from the magazine menu in your stash."
+      },
+      "po": {
+        "name": "Carregador de 30 munições Arsenal CWP 5.56x45 para SLR-106 e compatíveis (FDE) (Tape)",
+        "shortName": "C-10 AK",
+        "description": "Um carregador búlgaro de 30 cartuchos calibre 5,56x45 com padrão “Waffle” para os fuzis civis SLR-106 baseados no AK. Fabricado pela Circle 10 e distribuído pela Arsenal Inc. Versão FDE Tape Version. Change the tape color from the magazine menu in your stash."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_magazine"
+    ]
+  }
+}

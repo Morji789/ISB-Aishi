@@ -1,0 +1,80 @@
+[
+  {
+    "type": "top",
+    "locales": {
+      "en": {
+        "name": "Champion Scourge",
+        "shortName": "",
+        "description": "Protective jacket"
+      },
+      "po": {
+        "name": "Champion Scourge",
+        "shortName": "",
+        "description": "Protective jacket"
+      }
+    },
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 35,
+    "standing": 0.45,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 3000,
+    "questRequirements": [],
+    "achievementRequirements": [],
+    "suiteId": "826e4522e9c2525689d17d72",
+    "outfitId": "d736386eda0a5264b582dec9",
+    "topId": "f857c85c8f1f5874917ba302",
+    "handsId": "40a941e8aa4f503db92aec37",
+    "topBundlePath": "clothing/champion_scourge/top_arena_champion_toxic_aishi.bundle",
+    "handsBundlePath": "clothing/champion_scourge/hands_arena_champion_toxic_aishi.bundle",
+    "side": [
+      "Bear",
+      "Usec"
+    ],
+    "watchPrefab": {
+      "path": "",
+      "rcid": ""
+    },
+    "watchPosition": {
+      "x": -0.05124,
+      "y": -0.0142,
+      "z": 0.04232
+    },
+    "watchRotation": {
+      "x": 12.477,
+      "y": 2.481,
+      "z": -0.737
+    }
+  },
+  {
+    "type": "bottom",
+    "locales": {
+      "en": {
+        "name": "Champion Scourge",
+        "shortName": "",
+        "description": "Combat pants"
+      },
+      "po": {
+        "name": "Champion Scourge",
+        "shortName": "",
+        "description": "Combat pants"
+      }
+    },
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 35,
+    "standing": 0.45,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 1500,
+    "questRequirements": [],
+    "achievementRequirements": [],
+    "suiteId": "fdd3022bcbc05181a39d5850",
+    "outfitId": "e184c9616d3f55188d6d6ce6",
+    "bottomId": "603b54668a5e52cf8905167a",
+    "bottomBundlePath": "clothing/champion_scourge/pants_arena_champion_toxic_aishi.bundle",
+    "side": [
+      "Bear",
+      "Usec"
+    ]
+  }
+]

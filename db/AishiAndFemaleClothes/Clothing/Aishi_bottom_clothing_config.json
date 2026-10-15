@@ -1,0 +1,27 @@
+[
+  {
+    "type": "bottom",
+    "suiteId": "20e9674d8dd554888560dd11",
+    "outfitId": "79f587df0a89512d8fe6dd10",
+    "bottomId": "8aee1c5f49f558a9831747f3",
+    "locales": {
+      "en": {
+        "name": "Women's USEC Woodland Infiltrator - Nightops",
+        "description": "WOMEN'S USEC WOODLAND INFILTRATOR"
+      },
+      "po": {
+        "name": "Women's USEC Woodland Infiltrator - Nightops",
+        "description": "WOMEN'S USEC WOODLAND INFILTRATOR"
+      }
+    },
+    "bottomBundlePath": "clothing/female_nightops/fpants_usec_cryeprecision_lod0_nightops.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 30,
+    "standing": 0.4,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 2500,
+    "questRequirements": [],
+    "achievementRequirements": []
+  }
+]

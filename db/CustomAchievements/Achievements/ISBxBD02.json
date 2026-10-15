@@ -1,11 +1,11 @@
 [
-{
-  "id": "694bf5aefeed87068122e731",
-  "description": "694bf5aefeed87068122e731 description",
-  "name": "694bf5aefeed87068122e731 name",
-  "imageUrl": "/files/achievement/ISB-BD02.png",
-  "assetPath": "",
-  "rewards": [
+  {
+    "id": "694bf5aefeed87068122e731",
+    "description": "694bf5aefeed87068122e731 description",
+    "name": "694bf5aefeed87068122e731 name",
+    "imageUrl": "/files/achievement/ISB-BD02.png",
+    "assetPath": "",
+    "rewards": [
       {
         "id": "69d6c689954d460798d59c1a",
         "unknown": false,
@@ -58,75 +58,75 @@
         "target": "692a514a42a5304f57af8f55",
         "type": "CustomizationDirect"
       },
-    {
-      "id": "69d6e98e61af45b909d73fcf",
-      "unknown": false,
-      "gameMode": [
-        "regular",
-        "pve"
-      ],
-      "availableInGameEditions": [],
-      "illustrationConfig": null,
-      "isHidden": false,
-      "target": "69d6e9d62b682b029e34eed2",
-      "loyaltyLevel": 4,
-      "traderId": "690766de550bc322a810ea1e",
-      "items": [
-        {
-          "_id": "69d6e9d62b682b029e34eed2",
-          "_tpl": "68947a4be4bf255d1b0ca746",
-          "upd": {}
-        }
-      ],
-      "type": "AssortmentUnlock"
-    },
-    {
-      "id": "69d6e9a0a2ff18a794dc5c36",
-      "unknown": false,
-      "gameMode": [
-        "regular",
-        "pve"
-      ],
-      "availableInGameEditions": [],
-      "illustrationConfig": null,
-      "isHidden": false,
-      "target": "69d6e9cd943b5040ab813f01",
-      "loyaltyLevel": 4,
-      "traderId": "690766de550bc322a810ea1e",
-      "items": [
-        {
-          "_id": "69d6e9cd943b5040ab813f01",
-          "_tpl": "689479a4a733b1602007e2eb",
-          "upd": {}
-        }
-      ],
-      "type": "AssortmentUnlock"
-    },
-    {
-      "id": "69d6e9fc43f3803a46df0242",
-      "unknown": false,
-      "gameMode": [
-        "regular",
-        "pve"
-      ],
-      "availableInGameEditions": [],
-      "illustrationConfig": null,
-      "isHidden": false,
-      "target": "69d6e9fe768953f426ba9b1d",
-      "loyaltyLevel": 4,
-      "traderId": "690766de550bc322a810ea1e",
-      "items": [
-        {
-          "_id": "69d6e9fe768953f426ba9b1d",
-          "_tpl": "689b880fff8b4adc420f5b56",
-          "upd": {}
-        }
-      ],
-      "type": "AssortmentUnlock"
-    }
+      {
+        "id": "69d6e98e61af45b909d73fcf",
+        "unknown": false,
+        "gameMode": [
+          "regular",
+          "pve"
+        ],
+        "availableInGameEditions": [],
+        "illustrationConfig": null,
+        "isHidden": false,
+        "target": "69d6e9d62b682b029e34eed2",
+        "loyaltyLevel": 4,
+        "traderId": "690766de550bc322a810ea1e",
+        "items": [
+          {
+            "_id": "69d6e9d62b682b029e34eed2",
+            "_tpl": "68947a4be4bf255d1b0ca746",
+            "upd": {}
+          }
+        ],
+        "type": "AssortmentUnlock"
+      },
+      {
+        "id": "69d6e9a0a2ff18a794dc5c36",
+        "unknown": false,
+        "gameMode": [
+          "regular",
+          "pve"
+        ],
+        "availableInGameEditions": [],
+        "illustrationConfig": null,
+        "isHidden": false,
+        "target": "69d6e9cd943b5040ab813f01",
+        "loyaltyLevel": 4,
+        "traderId": "690766de550bc322a810ea1e",
+        "items": [
+          {
+            "_id": "69d6e9cd943b5040ab813f01",
+            "_tpl": "689479a4a733b1602007e2eb",
+            "upd": {}
+          }
+        ],
+        "type": "AssortmentUnlock"
+      },
+      {
+        "id": "69d6e9fc43f3803a46df0242",
+        "unknown": false,
+        "gameMode": [
+          "regular",
+          "pve"
+        ],
+        "availableInGameEditions": [],
+        "illustrationConfig": null,
+        "isHidden": false,
+        "target": "69d6e9fe768953f426ba9b1d",
+        "loyaltyLevel": 4,
+        "traderId": "690766de550bc322a810ea1e",
+        "items": [
+          {
+            "_id": "69d6e9fe768953f426ba9b1d",
+            "_tpl": "689b880fff8b4adc420f5b56",
+            "upd": {}
+          }
+        ],
+        "type": "AssortmentUnlock"
+      }
     ],
-  "conditions": {
-    "availableForFinish": [
+    "conditions": {
+      "availableForFinish": [
         {
           "availableAfter": 0,
           "conditionType": "Quest",
@@ -143,18 +143,18 @@
           "target": "6a6d684930253f787fd50a01",
           "visibilityConditions": []
         }
-    ],
-    "fail": []
-  },
-  "instantComplete": false,
-  "showNotificationsInGame": false,
-  "showProgress": false,
-  "prefab": "",
-  "rarity": "Rare",
-  "hidden": false,
-  "showConditions": false,
-  "progressBarEnabled": false,
-  "side": "Pmc",
-  "index": 3301
-}
+      ],
+      "fail": []
+    },
+    "instantComplete": false,
+    "showNotificationsInGame": false,
+    "showProgress": false,
+    "prefab": "",
+    "rarity": "Rare",
+    "hidden": false,
+    "showConditions": false,
+    "progressBarEnabled": false,
+    "side": "Pmc",
+    "index": 3301
+  }
 ]

@@ -1,33 +1,19 @@
 {
   "69f0eb8c02bba0856602897e": {
-
     "itemTplToClone": "638612b607dfed1ccb7206ba",
     "parentId": "550aa4cd4bdc2dd8348b456c",
     "handbookParentId": "5b5f731a86f774093e6cb4f9",
-
-
-    "overrideProperties": { 
-        "ExaminedByDefault": true,
-        "IsUnsaleable": true,
-        "IsUnbuyable": true,
-        "CanSellOnRagfair": true,
-        "CanRequireOnRagfair": true,
-        "addtoItemBlacklist": false,   
-
+    "overrideProperties": {
+      "IsUnsaleable": true,
+      "IsUnbuyable": true,
+      "CanRequireOnRagfair": true,
+      "addtoItemBlacklist": false,
       "Prefab": {
-
-        "path": "equipment/supressor_test1.bundle",
+        "path": "equipment/suppressor_m4sdk_fde.bundle",
         "rcid": ""
       },
-
-
-      "Width": 2,
-      "Height": 1,
       "Weight": 0.18
     },
-
-
-
     "locales": {
       "en": {
         "name": "AR-15 Griffin Armament M4SD-K 5.56x45 sound suppressor (FDE)",
@@ -39,23 +25,15 @@
         "shortName": "M4SD-K",
         "description": "O silenciador M4SD-K, projetado para uso com sistemas de armas de calibre 5,56x45. Só pode ser instalado em supressores de flash com interface de montagem SDQD. Fabricado pela Griffin Armament."
       }
-    
     },
-
     "fleaPriceRoubles": 117000,
-
     "handbookPriceRoubles": 77000,
-
     "addtoBots": true,
-
     "addtoModSlots": true,
-    
     "modSlot": [
       "mod_muzzle"
     ],
-
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",

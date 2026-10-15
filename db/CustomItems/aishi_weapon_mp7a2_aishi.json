@@ -1,0 +1,1224 @@
+{
+  "6cd78254487656f08cb22343": {
+    "itemTplToClone": "5bd70322209c4d00d7167b8f",
+    "parentId": "5447b5e04bdc2d62278b4567",
+    "handbookParentId": "5b5f796a86f774093f2ed3c0",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "aishiweapons/mp7a2_aishi/weapon_hk_mp7a2_46x30_container_black_custom_aishi.bundle",
+        "rcid": "weapon_hk_mp7a2_46x30_container_black_custom_aishi"
+      },
+      "Slots": [
+        {
+          "_id": "cb7e319fc97d56ccb7ab852c",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_magazine",
+          "_parent": "6cd78254487656f08cb22343",
+          "_props": {
+            "filters": [
+              {
+                "AnimationIndex": -1,
+                "Filter": [
+                  "5ba264f6d4351e0034777d52",
+                  "5ba2657ed4351e0035628ff2",
+                  "5ba26586d4351e44f824b340",
+                  "8b577ee9945a538d95a6c4a4"
+                ]
+              }
+            ]
+          },
+          "_proto": "55d30c394bdc2dae468b4577",
+          "_required": false
+        },
+        {
+          "_id": "2449e275b4eb554e94c65024",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_muzzle",
+          "_parent": "6cd78254487656f08cb22343",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ba26acdd4351e003562908e",
+                  "1a0fee6216175ed09db4bb92"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "c74c5cba00b85bc18bbd894f",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_sight_front",
+          "_parent": "6cd78254487656f08cb22343",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ba26b01d4351e0085325a51",
+                  "5dfa3d950dee1b22f862eae0",
+                  "5c17804b2e2216152006c02f",
+                  "5fb6567747ce63734e3fa1dc",
+                  "5bc09a30d4351e00367fb7c8",
+                  "5c18b90d2e2216152142466b",
+                  "5fc0fa362770a0045c59c677",
+                  "5894a73486f77426d259076c",
+                  "13c8c2a508d258958ae68af0"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "f07bb50d954654aab6dff2f8",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_sight_rear",
+          "_parent": "6cd78254487656f08cb22343",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ba26b17d4351e00367f9bdd",
+                  "5dfa3d7ac41b2312ea33362a",
+                  "5c1780312e221602b66cc189",
+                  "5fb6564947ce63734e3fa1da",
+                  "5bc09a18d4351e003562b68e",
+                  "5c18b9192e2216398b5a8104",
+                  "5fc0fa957283c4046c58147e",
+                  "5894a81786f77427140b8347"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "b982f544344757ae92d2d926",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_scope",
+          "_parent": "6cd78254487656f08cb22343",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "57ac965c24597706be5f975c",
+                  "57aca93d2459771f2c7e26db",
+                  "544a3f024bdc2d1d388b4568",
+                  "544a3a774bdc2d3a388b4567",
+                  "5d2dc3e548f035404a1a4798",
+                  "57adff4f24597737f373b6e6",
+                  "5c0517910db83400232ffee5",
+                  "591c4efa86f7741030027726",
+                  "570fd79bd2720bc7458b4583",
+                  "570fd6c2d2720bc6458b457f",
+                  "558022b54bdc2dac148b458d",
+                  "5c07dd120db834001c39092d",
+                  "5c0a2cec0db834001b7ce47d",
+                  "58491f3324597764bc48fa02",
+                  "584924ec24597768f12ae244",
+                  "5b30b0dc5acfc400153b7124",
+                  "6165ac8c290d254f5e6b2f6c",
+                  "60a23797a37c940de7062d02",
+                  "5d2da1e948f035477b1ce2ba",
+                  "5c0505e00db834001b735073",
+                  "609a63b6e2ff132951242d09",
+                  "584984812459776a704a82a6",
+                  "59f9d81586f7744c7506ee62",
+                  "570fd721d2720bc5458b4596",
+                  "57ae0171245977343c27bfcf",
+                  "5dfe6104585a0c3e995c7b82",
+                  "5d1b5e94d7ad1a2b865a96b0",
+                  "609bab8b455afd752b2e6138",
+                  "58d39d3d86f77445bb794ae7",
+                  "616554fe50224f204c1da2aa",
+                  "5c7d55f52e221644f31bff6a",
+                  "616584766ef05c2ce828ef57",
+                  "5b3b6dc75acfc47a8773fb1e",
+                  "615d8d878004cc50514c3233",
+                  "577d128124597739d65d0e56",
+                  "58d2664f86f7747fec5834f6",
+                  "5c1cdd302e221602b3137250",
+                  "61714b2467085e45ef140b2c",
+                  "5b31163c5acfc400153b71cb",
+                  "5a33b652c4a28232996e407c",
+                  "5a33b2c9c4a282000c5a9511",
+                  "59db7eed86f77461f8380365",
+                  "5a1ead28fcdbcb001912fa9f",
+                  "626bb8532c923541184624b4",
+                  "63fc449f5bd61c6cf3784a88",
+                  "6477772ea8a38bb2050ed4db",
+                  "6478641c19d732620e045e17",
+                  "64785e7c19d732620e045e15",
+                  "65392f611406374f82152ba5",
+                  "653931da5db71d30ab1d6296",
+                  "655f13e0a246670fb0373245",
+                  "67641a851b2899700609901a",
+                  "aaf7e0cb2d285c18b6d32048"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "ddda97f88bad54049742657c",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_tactical_000",
+          "_parent": "6cd78254487656f08cb22343",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "57fd23e32459772d0805bcf1",
+                  "544909bb4bdc2d6f028b4577",
+                  "5c06595c0db834001a66af6c",
+                  "5a7b483fe899ef0016170d15",
+                  "61605d88ffa6e502ac5e7eeb",
+                  "5c5952732e2216398b5abda2",
+                  "644a3df63b0b6f03e101e065",
+                  "68bedc0365e7dcf94f0cb0fc",
+                  "c3efbaaab97b59ecb9bbb1b3"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "79ac901daf5d528da8a96c6b",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_tactical_001",
+          "_parent": "6cd78254487656f08cb22343",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a800961159bd4315e3a1657",
+                  "57fd23e32459772d0805bcf1",
+                  "544909bb4bdc2d6f028b4577",
+                  "5c06595c0db834001a66af6c",
+                  "5cc9c20cd7f00c001336c65d",
+                  "5d2369418abbc306c62e0c80",
+                  "5b07dd285acfc4001754240d",
+                  "56def37dd2720bec348b456a",
+                  "5a7b483fe899ef0016170d15",
+                  "5a5f1ce64f39f90b401987bc",
+                  "560d657b4bdc2da74d8b4572",
+                  "5b3a337e5acfc4704b4a19a0",
+                  "5c5952732e2216398b5abda2",
+                  "57d17e212459775a1179a0f5",
+                  "6267c6396b642f77f56f5c1c",
+                  "6272370ee4013c5d7e31f418",
+                  "6272379924e29f06af4d5ecb",
+                  "626becf9582c3e319310b837",
+                  "644a3df63b0b6f03e101e065",
+                  "646f6322f43d0c5d62063715",
+                  "68bedc0365e7dcf94f0cb0fc",
+                  "c3efbaaab97b59ecb9bbb1b3",
+                  "a284b416da5454939109f6c1"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "30e851004b615099b65e6b5b",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_tactical_002",
+          "_parent": "6cd78254487656f08cb22343",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a800961159bd4315e3a1657",
+                  "57fd23e32459772d0805bcf1",
+                  "544909bb4bdc2d6f028b4577",
+                  "5c06595c0db834001a66af6c",
+                  "5cc9c20cd7f00c001336c65d",
+                  "5d2369418abbc306c62e0c80",
+                  "5b07dd285acfc4001754240d",
+                  "56def37dd2720bec348b456a",
+                  "5a7b483fe899ef0016170d15",
+                  "61605d88ffa6e502ac5e7eeb",
+                  "5a5f1ce64f39f90b401987bc",
+                  "560d657b4bdc2da74d8b4572",
+                  "5b3a337e5acfc4704b4a19a0",
+                  "5c5952732e2216398b5abda2",
+                  "57d17e212459775a1179a0f5",
+                  "6267c6396b642f77f56f5c1c",
+                  "6272370ee4013c5d7e31f418",
+                  "6272379924e29f06af4d5ecb",
+                  "626becf9582c3e319310b837",
+                  "644a3df63b0b6f03e101e065",
+                  "646f6322f43d0c5d62063715",
+                  "68bedc0365e7dcf94f0cb0fc",
+                  "c3efbaaab97b59ecb9bbb1b3"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "0f9d373c821d5cc1840ee3fd",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_stock",
+          "_parent": "6cd78254487656f08cb22343",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5bcf0213d4351e0085327c17",
+                  "5bd704e7209c4d00d7167c31",
+                  "903c4ffb7b575937818f3c5d",
+                  "f7080aaea57a589083f54de9"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "f59df0d382545bb7af989559",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_foregrip",
+          "_parent": "6cd78254487656f08cb22343",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5c7fc87d2e221644f31c0298",
+                  "5cda9bcfd7f00c0c0b53e900",
+                  "59f8a37386f7747af3328f06",
+                  "619386379fb0c665d5490dbe",
+                  "5c87ca002e221600114cb150",
+                  "588226d124597767ad33f787",
+                  "588226dd24597767ad33f789",
+                  "588226e62459776e3e094af7",
+                  "588226ef24597767af46e39c",
+                  "59fc48e086f77463b1118392",
+                  "5fce0cf655375d18a253eff0",
+                  "5cf4fb76d7f00c065703d3ac",
+                  "5b057b4f5acfc4771e1bd3e9",
+                  "5c791e872e2216001219c40a",
+                  "558032614bdc2de7118b4585",
+                  "58c157be86f77403c74b2bb6",
+                  "58c157c886f774032749fb06",
+                  "5f6340d3ca442212f4047eb2",
+                  "591af28e86f77414a27a9e1d",
+                  "5c1cd46f2e22164bef5cfedb",
+                  "5c1bc4812e22164bef5cfde7",
+                  "5c1bc5612e221602b5429350",
+                  "5c1bc5af2e221602b412949b",
+                  "5c1bc5fb2e221602b1779b32",
+                  "5c1bc7432e221602b412949d",
+                  "5c1bc7752e221602b1779b34",
+                  "64806bdd26c80811d408d37a",
+                  "64807a29e5ffe165600abc97",
+                  "648067db042be0705c0b3009",
+                  "65169d5b30425317755f8e25",
+                  "655df24fdf80b12750626d0a",
+                  "655dccfdbdcc6b5df71382b6",
+                  "661e52e29c8b4dadef008577",
+                  "661e53149c8b4dadef008579",
+                  "661e52415be02310ed07a07a",
+                  "661e52b5b099f32c28003586",
+                  "7095b61f529d598ea6a5bcb5"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "Chambers": [
+        {
+          "_id": "12fd2f9043ed5830a5fb2d28",
+          "_mergeSlotWithChildren": false,
+          "_name": "patron_in_weapon",
+          "_parent": "6cd78254487656f08cb22343",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ba26812d4351e003201fef1",
+                  "5ba26835d4351e0035628ff5",
+                  "5ba2678ad4351e44f824b344",
+                  "5ba26844d4351e00334c9475",
+                  "64b6979341772715af0f9c39"
+                ]
+              }
+            ]
+          },
+          "_proto": "55d4af244bdc2d962f8b4571",
+          "_required": false
+        }
+      ],
+      "Name": "HK MP7A2 4.6x30 submachine gun (Aishi)",
+      "ShortName": "MP7A2",
+      "Description": "MP7A2 is a further modification of the MP7A1 SMG. The key feature of this submachine gun is the replacement of the standard folding foregrip for a Picatinny rail, allowing mounting of various vertical foregrips. Manufactured by Heckler & Koch. Aishi Version.",
+      "BackgroundColor": "yellow",
+      "CanSellOnRagfair": false,
+      "Weight": 1.4615,
+      "BaseMalfunctionChance": 0.163818,
+      "DurabilityBurnRatio": 1.06375,
+      "HeatFactorGun": 1.00048,
+      "RecoilForceBack": 164.65,
+      "RecoilForceUp": 46.25,
+      "Ergonomics": 69.875,
+      "CoolFactorGun": 3.4056,
+      "ExaminedByDefault": false,
+      "InsuranceDisabled": true
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "handbookPriceRoubles": 45230,
+    "fleaPriceRoubles": 94755,
+    "locales": {
+      "en": {
+        "name": "HK MP7A2 4.6x30 submachine gun (Aishi)",
+        "shortName": "MP7A2",
+        "description": "MP7A2 is a further modification of the MP7A1 SMG. The key feature of this submachine gun is the replacement of the standard folding foregrip for a Picatinny rail, allowing mounting of various vertical foregrips. Manufactured by Heckler & Koch. Aishi Version."
+      },
+      "po": {
+        "name": "HK MP7A2 4.6x30 submachine gun (Aishi)",
+        "shortName": "MP7A2",
+        "description": "A MP7A2 é uma evolução da MP7A1. A característica chave dessa Submetralhadora é a substituição do grip vertical dobrável por um trilho Picatinny. Aishi Version."
+      }
+    },
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_id": "4225b3906d0b58c58adb91d5",
+        "_name": "TEMP1",
+        "_parent": "2b854cb07de15b50a8a3547f",
+        "_encyclopedia": "6cd78254487656f08cb22343",
+        "_items": [
+          {
+            "_id": "2b854cb07de15b50a8a3547f",
+            "_tpl": "6cd78254487656f08cb22343",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Repairable": {
+                "Durability": 100,
+                "MaxDurability": 100
+              },
+              "FireMode": {
+                "FireMode": "fullauto"
+              },
+              "SpawnedInSession": true,
+              "Foldable": {
+                "Folded": false
+              }
+            }
+          },
+          {
+            "_id": "2081e828463658f08d36bd17",
+            "_tpl": "8b577ee9945a538d95a6c4a4",
+            "parentId": "2b854cb07de15b50a8a3547f",
+            "slotId": "mod_magazine"
+          },
+          {
+            "_id": "750b987b37325421be5f7132",
+            "_tpl": "1a0fee6216175ed09db4bb92",
+            "parentId": "2b854cb07de15b50a8a3547f",
+            "slotId": "mod_muzzle"
+          },
+          {
+            "_id": "7eb0053b9970571b8b2a5ed4",
+            "_tpl": "13c8c2a508d258958ae68af0",
+            "parentId": "2b854cb07de15b50a8a3547f",
+            "slotId": "mod_sight_front",
+            "upd": {
+              "SpawnedInSession": true,
+              "Sight": {
+                "ScopesCurrentCalibPointIndexes": [
+                  0
+                ],
+                "ScopesSelectedModes": [
+                  0
+                ],
+                "SelectedScope": 0,
+                "ScopeZoomValue": 0
+              }
+            }
+          },
+          {
+            "_id": "b8ce1062c12d57af819df7ae",
+            "_tpl": "aaf7e0cb2d285c18b6d32048",
+            "parentId": "2b854cb07de15b50a8a3547f",
+            "slotId": "mod_scope",
+            "upd": {
+              "Sight": {
+                "ScopesCurrentCalibPointIndexes": [
+                  0
+                ],
+                "ScopesSelectedModes": [
+                  0
+                ],
+                "SelectedScope": 0,
+                "ScopeZoomValue": 0
+              }
+            }
+          },
+          {
+            "_id": "0f910b4ccbe8520e8a1156a3",
+            "_tpl": "c3efbaaab97b59ecb9bbb1b3",
+            "parentId": "2b854cb07de15b50a8a3547f",
+            "slotId": "mod_tactical_000",
+            "upd": {
+              "Light": {
+                "IsActive": true,
+                "SelectedMode": 0
+              }
+            }
+          },
+          {
+            "_id": "fb2809e341cc59688c4fc1c2",
+            "_tpl": "a284b416da5454939109f6c1",
+            "parentId": "2b854cb07de15b50a8a3547f",
+            "slotId": "mod_tactical_001"
+          },
+          {
+            "_id": "3141b60a9eca56cca55896f1",
+            "_tpl": "f7080aaea57a589083f54de9",
+            "parentId": "2b854cb07de15b50a8a3547f",
+            "slotId": "mod_stock",
+            "upd": {
+              "SpawnedInSession": true
+            }
+          },
+          {
+            "_id": "c739f3172fa8595c86a9316a",
+            "_tpl": "7095b61f529d598ea6a5bcb5",
+            "parentId": "2b854cb07de15b50a8a3547f",
+            "slotId": "mod_foregrip"
+          },
+          {
+            "_id": "ca8b9c94654f5f6c901bcef8",
+            "_tpl": "eb95ca01f4595bfa949a3c90",
+            "parentId": "750b987b37325421be5f7132",
+            "slotId": "mod_muzzle"
+          },
+          {
+            "_id": "2e9da0ee89bd53eea42be576",
+            "_tpl": "6bb5f3fa56c458d5acc31bbb",
+            "parentId": "fb2809e341cc59688c4fc1c2",
+            "slotId": "mod_tactical",
+            "upd": {
+              "Light": {
+                "IsActive": true,
+                "SelectedMode": 0
+              }
+            }
+          }
+        ],
+        "_type": "Preset",
+        "_changeWeaponName": true
+      }
+    ]
+  },
+  "8b577ee9945a538d95a6c4a4": {
+    "itemTplToClone": "5ba26586d4351e44f824b340",
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "overrideProperties": {
+      "Name": "HK MP7 4.6x30 40-round magazine (Aishi)",
+      "CanSellOnRagfair": false,
+      "Prefab": {
+        "path": "aishiweapons/mp7a2_aishi/mag_mp7_hk_std_46x30_40_custom_aishi.bundle",
+        "rcid": ""
+      },
+      "Cartridges": [
+        {
+          "_id": "8e5613a7f28a5e5a9ac8d384",
+          "_max_count": 40,
+          "_name": "cartridges",
+          "_parent": "8b577ee9945a538d95a6c4a4",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ba26812d4351e003201fef1",
+                  "5ba26835d4351e0035628ff5",
+                  "5ba2678ad4351e44f824b344",
+                  "5ba26844d4351e00334c9475",
+                  "64b6979341772715af0f9c39"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ],
+      "ShortName": "MP7",
+      "Description": "A standard 40-round 4.6x30 magazine for the MP7 SMGs, manufactured by Heckler & Koch. Aishi Version.",
+      "ExaminedByDefault": false,
+      "Weight": 0.185,
+      "MalfunctionChance": 0.04,
+      "Ergonomics": -3,
+      "InsuranceDisabled": true
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "handbookPriceRoubles": 12142,
+    "fleaPriceRoubles": 18313,
+    "locales": {
+      "en": {
+        "name": "HK MP7 4.6x30 40-round magazine (Aishi)",
+        "shortName": "MP7",
+        "description": "A standard 40-round 4.6x30 magazine for the MP7 SMGs, manufactured by Heckler & Koch. Aishi Version."
+      },
+      "po": {
+        "name": "HK MP7 4.6x30 40-round magazine (Aishi)",
+        "shortName": "MP7",
+        "description": "Carregador de 40 munições, calibre 4.6x30 para MP7. Aishi Version."
+      }
+    },
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_magazine"
+    ]
+  },
+  "f7080aaea57a589083f54de9": {
+    "itemTplToClone": "5bd704e7209c4d00d7167c31",
+    "parentId": "55818a594bdc2db9688b456a",
+    "handbookParentId": "5b5f757486f774093e6cb507",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "aishiweapons/mp7a2_aishi/stock_mp7_hk_a2_std_black_custom_aishi.bundle",
+        "rcid": ""
+      },
+      "Name": "HK MP7A2 stock (Aishi)",
+      "ShortName": "A2",
+      "Description": "A standard-issue retractable stock for the MP7A2 submachine gun. Manufactured by Heckler & Koch. Aishi Version.",
+      "CanSellOnRagfair": false,
+      "BackgroundColor": "yellow",
+      "ExaminedByDefault": false,
+      "Weight": 0.185,
+      "DurabilityBurnModificator": 0.92,
+      "HeatFactor": 0.92,
+      "Ergonomics": 4,
+      "Recoil": -13,
+      "CoolFactor": 1.08,
+      "InsuranceDisabled": true
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "handbookPriceRoubles": 2110,
+    "fleaPriceRoubles": 2110,
+    "locales": {
+      "en": {
+        "name": "HK MP7A2 stock (Aishi)",
+        "shortName": "A2",
+        "description": "A standard-issue retractable stock for the MP7A2 submachine gun. Manufactured by Heckler & Koch. Aishi Version."
+      },
+      "po": {
+        "name": "HK MP7A2 stock (Aishi)",
+        "shortName": "A2",
+        "description": "Coronha padrão e retrátil para a MP7A2. Aishi Version."
+      }
+    },
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_stock"
+    ]
+  },
+  "7095b61f529d598ea6a5bcb5": {
+    "itemTplToClone": "5b057b4f5acfc4771e1bd3e9",
+    "parentId": "55818af64bdc2d5b648b4570",
+    "handbookParentId": "5b5f71de86f774093f2ecf13",
+    "overrideProperties": {
+      "Name": "Stark SE-5 Express Forward foregrip (Aishi)",
+      "CanSellOnRagfair": false,
+      "Prefab": {
+        "path": "aishiweapons/mp7a2_aishi/foregrip_all_stark_se_5_express_grip_custom_aishi.bundle",
+        "rcid": ""
+      },
+      "BackgroundColor": "yellow",
+      "ShortName": "SE-5",
+      "Description": "The Stark SE-5 Express Forward tactical grip enables a more natural grip against the barrel axis. Thanks to that, it reduces recoil and improves the weapon control. Aishi Version.",
+      "ExaminedByDefault": false,
+      "Weight": 0.083,
+      "Ergonomics": 9,
+      "Recoil": -3,
+      "InsuranceDisabled": true
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "handbookPriceRoubles": 15604,
+    "fleaPriceRoubles": 26602,
+    "locales": {
+      "en": {
+        "name": "Stark SE-5 Express Forward foregrip (Aishi)",
+        "shortName": "SE-5",
+        "description": "The Stark SE-5 Express Forward tactical grip enables a more natural grip against the barrel axis. Thanks to that, it reduces recoil and improves the weapon control. Aishi Version."
+      },
+      "po": {
+        "name": "Stark SE-5 Express Forward foregrip (Aishi)",
+        "shortName": "SE-5",
+        "description": "Grip tático STARK SE-5 Express. Permite uma empunhadura mais natural contra o eixo do cano. Graças a isso, reduzindo o recuo e melhorando o controle da arma. Aishi Version."
+      }
+    },
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_foregrip",
+      "mod_handguard"
+    ]
+  },
+  "eb95ca01f4595bfa949a3c90": {
+    "itemTplToClone": "55d614004bdc2d86028b4568",
+    "parentId": "550aa4cd4bdc2dd8348b456c",
+    "handbookParentId": "5b5f731a86f774093e6cb4f9",
+    "overrideProperties": {
+      "Name": "SureFire SOCOM556-MONSTER 5.56x45 sound suppressor (Aishi)",
+      "CanSellOnRagfair": false,
+      "Prefab": {
+        "path": "aishiweapons/mp7a2_aishi/silencer_socom_surefire_socom556_monster_556x45_custom_aishi.bundle",
+        "rcid": ""
+      },
+      "BackgroundColor": "yellow",
+      "ShortName": "556-MONSTER",
+      "Description": "The SureFire SOCOM556-MONSTER 5.56x45 and .223 sound suppressor, can only be installed on compatible SureFire muzzle devices. Aishi Version.",
+      "ExaminedByDefault": false,
+      "Weight": 0.458,
+      "DurabilityBurnModificator": 1.5,
+      "HeatFactor": 1.05,
+      "Ergonomics": -14,
+      "Recoil": -7,
+      "CoolFactor": 1.11,
+      "InsuranceDisabled": true
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "handbookPriceRoubles": 43000,
+    "fleaPriceRoubles": 29691,
+    "locales": {
+      "en": {
+        "name": "SureFire SOCOM556-MONSTER 5.56x45 sound suppressor (Aishi)",
+        "shortName": "556-MONSTER",
+        "description": "The SureFire SOCOM556-MONSTER 5.56x45 and .223 sound suppressor, can only be installed on compatible SureFire muzzle devices. Aishi Version."
+      },
+      "po": {
+        "name": "SureFire SOCOM556-MONSTER 5.56x45 sound suppressor (Aishi)",
+        "shortName": "MONSTER",
+        "description": "O silenciador 5.56х45 e .223 Surefire SOCOM556-MONSTER, só pode ser instalado em quebra chamas Surefire compatíveis. Aishi Version."
+      }
+    },
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_muzzle"
+    ]
+  },
+  "1a0fee6216175ed09db4bb92": {
+    "itemTplToClone": "69985fa69f79621e1d0f58f5",
+    "parentId": "550aa4bf4bdc2dd6348b456b",
+    "handbookParentId": "5b5f724186f77447ed5636ad",
+    "overrideProperties": {
+      "Name": "HK MP7 SureFire SF3P 4.6x30 flash hider (Aishi)",
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false,
+      "Prefab": {
+        "path": "aishiweapons/mp7a2_aishi/muzzle_mp7_surefire_sf3p_556_mp7_flash_hider_46x30_custom_aishi.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_name": "mod_muzzle",
+          "_id": "6407e5773ca85535b244d311",
+          "_parent": "1a0fee6216175ed09db4bb92",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "55d6190f4bdc2d87028b4567",
+                  "55d614004bdc2d86028b4568",
+                  "5ea17bbc09aa976f2e7a51cd",
+                  "eb95ca01f4595bfa949a3c90"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ],
+      "BackgroundColor": "yellow",
+      "ShortName": "SF3P-MP7",
+      "Description": "A variant of the SureFire SF3P-556 three-prong flash hider designed specifically for HK MP7 series submachine guns. Allows installation of the compatible SureFire sound suppressors. Aishi Version.",
+      "ExaminedByDefault": false,
+      "Weight": 0.066,
+      "DurabilityBurnModificator": 0.9,
+      "HeatFactor": 0.91,
+      "Ergonomics": 0,
+      "Accuracy": 4,
+      "Recoil": -7,
+      "CoolFactor": 1.08,
+      "InsuranceDisabled": true,
+      "IsAlwaysAvailableForInsurance": false
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_muzzle"
+    ],
+    "locales": {
+      "en": {
+        "name": "HK MP7 SureFire SF3P 4.6x30 flash hider (Aishi)",
+        "shortName": "SF3P-MP7",
+        "description": "A variant of the SureFire SF3P-556 three-prong flash hider designed specifically for HK MP7 series submachine guns. Allows installation of the compatible SureFire sound suppressors. Aishi Version."
+      },
+      "po": {
+        "name": "HK MP7 SureFire SF3P 4.6x30 flash hider (Aishi)",
+        "shortName": "SF3P-MP7",
+        "description": "A variant of the SureFire SF3P-556 three-prong flash hider designed specifically for HK MP7 series submachine guns. Allows installation of the compatible SureFire sound suppressors. Aishi Version."
+      }
+    },
+    "handbookPriceRoubles": 6895,
+    "fleaPriceRoubles": 95006
+  },
+  "13c8c2a508d258958ae68af0": {
+    "itemTplToClone": "5ba26b01d4351e0085325a51",
+    "parentId": "55818ac54bdc2d5b648b456e",
+    "handbookParentId": "5b5f746686f77447ec5d7708",
+    "overrideProperties": {
+      "Name": "HK MP7 flip-up front sight (Aishi)",
+      "CanSellOnRagfair": false,
+      "Prefab": {
+        "path": "aishiweapons/mp7a2_aishi/sight_front_all_hk_mp7_std_custom_aishi.bundle",
+        "rcid": ""
+      },
+      "BackgroundColor": "yellow",
+      "ShortName": "MP7 FS",
+      "Description": "A removable folding flip-up front sight for MP7 SMGs, installed on the mount. Manufactured by Heckler & Koch. Aishi Version.",
+      "ExaminedByDefault": false,
+      "Weight": 0.12,
+      "InsuranceDisabled": true
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_sight_front"
+    ],
+    "locales": {
+      "en": {
+        "name": "HK MP7 flip-up front sight (Aishi)",
+        "shortName": "MP7 FS",
+        "description": "A removable folding flip-up front sight for MP7 SMGs, installed on the mount. Manufactured by Heckler & Koch. Aishi Version."
+      },
+      "po": {
+        "name": "HK MP7 flip-up front sight (Aishi)",
+        "shortName": "Massa MP7",
+        "description": "Massa de mira dobrável e removível para MP7, instalado no suporte. Fabricada pela Heckler & Koch. Aishi Version."
+      }
+    },
+    "handbookPriceRoubles": 602,
+    "fleaPriceRoubles": 602
+  },
+  "aaf7e0cb2d285c18b6d32048": {
+    "itemTplToClone": "58491f3324597764bc48fa02",
+    "parentId": "55818ad54bdc2ddc698b4569",
+    "handbookParentId": "5b5f742686f774093e6cb4ff",
+    "overrideProperties": {
+      "Name": "EOTech XPS3-0 holographic sight (Aishi)",
+      "CanSellOnRagfair": false,
+      "Prefab": {
+        "path": "aishiweapons/mp7a2_aishi/scope_all_eotech_xps3-0_custom_aishi.bundle",
+        "rcid": ""
+      },
+      "BackgroundColor": "yellow",
+      "ShortName": "XPS3-0",
+      "Description": "XPS3 is more compact than the other holographic sights, but just as effective. Moreover, such approach leaves more mounting space for additional equipment. Both hunters and armed forces operatives value it for small size and weight, which are particularly noticeable over long missions. The model 3-0 features a single-dot reticle of 1 MOA. Aishi Version.",
+      "ExaminedByDefault": false,
+      "Weight": 0.235,
+      "Ergonomics": -1,
+      "InsuranceDisabled": true
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_mount_003",
+      "mod_scope",
+      "mod_scope_000",
+      "mod_scope_001",
+      "mod_tactical",
+      "mod_tactical_000",
+      "mod_tactical_002"
+    ],
+    "locales": {
+      "en": {
+        "name": "EOTech XPS3-0 holographic sight (Aishi)",
+        "shortName": "XPS3-0",
+        "description": "XPS3 is more compact than the other holographic sights, but just as effective. Moreover, such approach leaves more mounting space for additional equipment. Both hunters and armed forces operatives value it for small size and weight, which are particularly noticeable over long missions. The model 3-0 features a single-dot reticle of 1 MOA. Aishi Version."
+      },
+      "po": {
+        "name": "EOTech XPS3-0 holographic sight (Aishi)",
+        "shortName": "XPS3-0",
+        "description": "O XPS3 é mais compacto do que os outras miras holográficas, mas tão eficaz quanto; Além disso, essa abordagem deixa mais espaço de montagem para equipamentos adicionais. Tanto os caçadores como as forças armadas as valorizam equipamentos pequenos e leves, que são particularmente notáveis ​​em missões longas. O modelo 3-0 apresenta um retículo de dois pontos de 1 MOA. Aishi Version."
+      }
+    },
+    "handbookPriceRoubles": 19985,
+    "fleaPriceRoubles": 41835
+  },
+  "c3efbaaab97b59ecb9bbb1b3": {
+    "itemTplToClone": "644a3df63b0b6f03e101e065",
+    "parentId": "55818b164bdc2ddc698b456c",
+    "handbookParentId": "5b5f737886f774093e6cb4fb",
+    "overrideProperties": {
+      "Name": "B.E. Meyers MAWL-C1+ tactical device (Aishi)",
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false,
+      "Prefab": {
+        "path": "aishiweapons/mp7a2_aishi/tactical_all_bemeyers_mawl_c1_plus_custom_aishi.bundle",
+        "rcid": ""
+      },
+      "BackgroundColor": "yellow",
+      "ShortName": "MAWL-C1+",
+      "Description": "Modular Advanced Weapon Laser C1+ (MAWL-C1+) produced by B.E. Meyers is a rugged, combat-proven and easy-to-use aiming system with integrated infrared and visible aim lasers as well as an infrared illuminator. Aishi Version.",
+      "ExaminedByDefault": false,
+      "Weight": 0.264,
+      "Ergonomics": -1,
+      "InsuranceDisabled": true
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_mount_001",
+      "mod_mount_002",
+      "mod_scope",
+      "mod_tactical",
+      "mod_tactical001",
+      "mod_tactical002",
+      "mod_tactical_000",
+      "mod_tactical_001",
+      "mod_tactical_002",
+      "mod_tactical_003",
+      "mod_tactical_004",
+      "mod_tactical_2"
+    ],
+    "locales": {
+      "en": {
+        "name": "B.E. Meyers MAWL-C1+ tactical device (Aishi)",
+        "shortName": "MAWL-C1+",
+        "description": "Modular Advanced Weapon Laser C1+ (MAWL-C1+) produced by B.E. Meyers is a rugged, combat-proven and easy-to-use aiming system with integrated infrared and visible aim lasers as well as an infrared illuminator. Aishi Version."
+      },
+      "po": {
+        "name": "B.E. Meyers MAWL-C1+ tactical device (Aishi)",
+        "shortName": "MAWL-C1+",
+        "description": "O Sistema de Laser de Arma Avançado Modular C1+ (MAWL-C1+), produzido pela B.E. Meyers, é um sistema de mira resistente, comprovado em combate e fácil de usar, com lasers de mira integrados infravermelho e visível, além de um iluminador infravermelho. Aishi Version."
+      }
+    },
+    "handbookPriceRoubles": 20537,
+    "fleaPriceRoubles": 28461
+  },
+  "a284b416da5454939109f6c1": {
+    "itemTplToClone": "689c8981bce76ccfbf01862f",
+    "parentId": "55818b224bdc2dde698b456f",
+    "handbookParentId": "5b5f755f86f77447ec5d770e",
+    "overrideProperties": {
+      "Name": "SureFire M600 Scout Light Thumbscrew Mount (Aishi)",
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false,
+      "Prefab": {
+        "path": "aishiweapons/mp7a2_aishi/mount_all_surefire_scout_thumbscrew_mount_custom_aishi.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_name": "mod_tactical",
+          "_id": "c24dbfdd36c257a28b67cdcd",
+          "_parent": "a284b416da5454939109f6c1",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "689c887cd18a3665b8045743",
+                  "6bb5f3fa56c458d5acc31bbb"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ],
+      "BackgroundColor": "yellow",
+      "ShortName": "M600",
+      "Description": "A Picatinny/Weaver mount for M600/M300 series weapon lights. Manufactured by SureFire. Aishi Version.",
+      "ExaminedByDefault": false,
+      "Weight": 0.024,
+      "HeatFactor": 0.92,
+      "Ergonomics": 0,
+      "CoolFactor": 1.08,
+      "InsuranceDisabled": true,
+      "IsAlwaysAvailableForInsurance": false
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_equipment",
+      "mod_foregrip",
+      "mod_mount",
+      "mod_mount_001",
+      "mod_mount_002",
+      "mod_tactical",
+      "mod_tactical001",
+      "mod_tactical002",
+      "mod_tactical_000",
+      "mod_tactical_001",
+      "mod_tactical_002",
+      "mod_tactical_003",
+      "mod_tactical_004",
+      "mod_tactical_2"
+    ],
+    "locales": {
+      "en": {
+        "name": "SureFire M600 Scout Light Thumbscrew Mount (Aishi)",
+        "shortName": "M600",
+        "description": "A Picatinny/Weaver mount for M600/M300 series weapon lights. Manufactured by SureFire. Aishi Version."
+      },
+      "po": {
+        "name": "SureFire M600 Scout Light Thumbscrew Mount (Aishi)",
+        "shortName": "M600",
+        "description": "A Picatinny/Weaver mount for M600/M300 series weapon lights. Manufactured by SureFire. Aishi Version."
+      }
+    },
+    "handbookPriceRoubles": 1900,
+    "fleaPriceRoubles": 73333
+  },
+  "6bb5f3fa56c458d5acc31bbb": {
+    "itemTplToClone": "689c887cd18a3665b8045743",
+    "parentId": "55818b084bdc2d5b648b4571",
+    "handbookParentId": "5b5f73ab86f774094242f195",
+    "overrideProperties": {
+      "Name": "SureFire M600 Ultra Scout Light (Aishi)",
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false,
+      "Prefab": {
+        "path": "aishiweapons/mp7a2_aishi/flashlight_surefire_m600_ultra_scout_custom_aishi.bundle",
+        "rcid": ""
+      },
+      "BackgroundColor": "yellow",
+      "ShortName": "M600U",
+      "Description": "A modern lightweight tactical weapon light, installed on special compatible mounts. Manufactured by SureFire. Aishi Version.",
+      "ExaminedByDefault": false,
+      "Weight": 0.207,
+      "Ergonomics": -1,
+      "InsuranceDisabled": true,
+      "IsAlwaysAvailableForInsurance": false
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_tactical"
+    ],
+    "locales": {
+      "en": {
+        "name": "SureFire M600 Ultra Scout Light (Aishi)",
+        "shortName": "M600U",
+        "description": "A modern lightweight tactical weapon light, installed on special compatible mounts. Manufactured by SureFire. Aishi Version."
+      },
+      "po": {
+        "name": "SureFire M600 Ultra Scout Light (Aishi)",
+        "shortName": "M600U",
+        "description": "A modern lightweight tactical weapon light, installed on special compatible mounts. Manufactured by SureFire. Aishi Version."
+      }
+    },
+    "handbookPriceRoubles": 12600,
+    "fleaPriceRoubles": 12599
+  },
+  "a804481b43da5f09bc39a0d9": {
+    "itemTplToClone": "5ba264f6d4351e0034777d52",
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "handbookPriceRoubles": 4026,
+    "fleaPriceRoubles": 4026,
+    "overrideProperties": {
+      "Weight": 0.092,
+      "MalfunctionChance": 0.01,
+      "Ergonomics": 3,
+      "ExaminedByDefault": false,
+      "CanSellOnRagfair": false,
+      "Prefab": {
+        "path": "aishiweapons/mp7a2_aishi/mag_mp7_hk_std_46x30_20_aishi.bundle",
+        "rcid": ""
+      },
+      "Cartridges": [
+        {
+          "_id": "e7c406711eed5dbf8236558d",
+          "_max_count": 20,
+          "_name": "cartridges",
+          "_parent": "a804481b43da5f09bc39a0d9",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ba26812d4351e003201fef1",
+                  "5ba26835d4351e0035628ff5",
+                  "5ba2678ad4351e44f824b344",
+                  "5ba26844d4351e00334c9475",
+                  "64b6979341772715af0f9c39"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ],
+      "Name": "HK MP7 4.6x30 20-round magazine (Aishi)",
+      "ShortName": "MP7",
+      "Description": "A standard 20-round 4.6x30 magazine for the MP7 SMGs, manufactured by Heckler & Koch. Aishi Modified Version.",
+      "InsuranceDisabled": true
+    },
+    "locales": {
+      "en": {
+        "name": "HK MP7 4.6x30 20-round magazine (Aishi)",
+        "shortName": "MP7",
+        "description": "A standard 20-round 4.6x30 magazine for the MP7 SMGs, manufactured by Heckler & Koch. Aishi Modified Version."
+      },
+      "po": {
+        "name": "HK MP7 4.6x30 20-round magazine (Aishi)",
+        "shortName": "MP7",
+        "description": "Carregador de 20 munições, calibre 4.6x30 para MP7. Aishi Modified Version."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_magazine"
+    ]
+  },
+  "5794ef94f0f0556ea8b94c2d": {
+    "itemTplToClone": "5ba2657ed4351e0035628ff2",
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "handbookPriceRoubles": 6001,
+    "fleaPriceRoubles": 6001,
+    "overrideProperties": {
+      "Weight": 0.138,
+      "MalfunctionChance": 0.02,
+      "Ergonomics": 0,
+      "ExaminedByDefault": false,
+      "CanSellOnRagfair": false,
+      "Prefab": {
+        "path": "aishiweapons/mp7a2_aishi/mag_mp7_hk_std_46x30_30_aishi.bundle",
+        "rcid": ""
+      },
+      "Cartridges": [
+        {
+          "_id": "de74147671ff5f8f9a160d99",
+          "_max_count": 30,
+          "_name": "cartridges",
+          "_parent": "5794ef94f0f0556ea8b94c2d",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ba26812d4351e003201fef1",
+                  "5ba26835d4351e0035628ff5",
+                  "5ba2678ad4351e44f824b344",
+                  "5ba26844d4351e00334c9475",
+                  "64b6979341772715af0f9c39"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ],
+      "Name": "HK MP7 4.6x30 30-round magazine (Aishi)",
+      "ShortName": "MP7",
+      "Description": "A standard 30-round 4.6x30 magazine for the MP7 SMGs, manufactured by Heckler & Koch. Aishi Modified Version.",
+      "InsuranceDisabled": true
+    },
+    "locales": {
+      "en": {
+        "name": "HK MP7 4.6x30 30-round magazine (Aishi)",
+        "shortName": "MP7",
+        "description": "A standard 30-round 4.6x30 magazine for the MP7 SMGs, manufactured by Heckler & Koch. Aishi Modified Version."
+      },
+      "po": {
+        "name": "HK MP7 4.6x30 30-round magazine (Aishi)",
+        "shortName": "MP7",
+        "description": "Carregador de 30 munições, calibre 4.6x30 para MP7. Aishi Modified Version."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_magazine"
+    ]
+  }
+}

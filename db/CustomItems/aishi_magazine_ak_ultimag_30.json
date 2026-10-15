@@ -1,0 +1,206 @@
+{
+  "fba628b96403501fb066b035": {
+    "itemTplToClone": "6272874a6c47bd74f92e2087",
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "handbookPriceRoubles": 2300,
+    "fleaPriceRoubles": 11977,
+    "overrideProperties": {
+      "Name": "AK 7.62x39 FAB Defense Ultimag 30R 30-round magazine (RAL 8000) (Tape)",
+      "Prefab": {
+        "path": "aishiweapons/magazines/ak_ultimag_30_ral8000_tape/mag_ak_fab_defense_ultimag_ak_30r_762x39_30_tape.bundle",
+        "rcid": ""
+      },
+      "Cartridges": [
+        {
+          "_id": "014bc60f560a5cf396b3794c",
+          "_max_count": 30,
+          "_name": "cartridges",
+          "_parent": "fba628b96403501fb066b035",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "59e655cb86f77411dc52a77b",
+                  "59e6542b86f77411dc52a77a",
+                  "59e6658b86f77411d949b250",
+                  "5f0596629e22f464da6bbdd9",
+                  "59e0d99486f7744a32234762",
+                  "59e4d3d286f774176a36250a",
+                  "5656d7c34bdc2d9d198b4587",
+                  "59e4cf5286f7741778269d8a",
+                  "59e4d24686f7741776641ac7",
+                  "601aa3d2b2bcb34913271e6d",
+                  "64b7af5a8532cf95ee0a0dbd",
+                  "64b7af734b75259c590fa895",
+                  "64b7af434b75259c590fa893"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ],
+      "ShortName": "Ultimag",
+      "Description": "A 30-round windowed polymer magazine for 7.62x39 AKs and compatible weapons, manufactured by FAB Defense. Can also be supplied with .366 TKM ammo for use with the corresponding caliber AK-compatible weapons. RAL 8000 Version. Tape Version. Change the tape color from the magazine menu in your stash.",
+      "CanRequireOnRagfair": true
+    },
+    "locales": {
+      "en": {
+        "name": "AK 7.62x39 FAB Defense Ultimag 30R 30-round magazine (RAL 8000) (Tape)",
+        "shortName": "Ultimag",
+        "description": "A 30-round windowed polymer magazine for 7.62x39 AKs and compatible weapons, manufactured by FAB Defense. Can also be supplied with .366 TKM ammo for use with the corresponding caliber AK-compatible weapons. RAL 8000 Version. Tape Version. Change the tape color from the magazine menu in your stash."
+      },
+      "po": {
+        "name": "AK 7.62x39 FAB Defense Ultimag 30R 30-round magazine (RAL 8000) (Tape)",
+        "shortName": "Ultimag",
+        "description": "Um carregador de polímero com janela de 30 munições para AKs 7.62x39 e armas compatíveis, fabricado pela FAB Defense. Também pode ser fornecido com munição .366 TKM para uso com as armas compatíveis com AK de calibre correspondente. RAL 8000 Version. Tape Version. Change the tape color from the magazine menu in your stash."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_magazine"
+    ]
+  },
+  "4865d3ad76ee54958044a60c": {
+    "itemTplToClone": "6272874a6c47bd74f92e2087",
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "handbookPriceRoubles": 2300,
+    "fleaPriceRoubles": 11977,
+    "overrideProperties": {
+      "Prefab": {
+        "path": "aishiweapons/magazines/ak_ultimag_30_tape/mag_ak_fab_defense_ultimag_ak_30r_762x39_30_tape.bundle",
+        "rcid": ""
+      },
+      "Cartridges": [
+        {
+          "_id": "dcd0f79536c658f799255ede",
+          "_max_count": 30,
+          "_name": "cartridges",
+          "_parent": "4865d3ad76ee54958044a60c",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "59e655cb86f77411dc52a77b",
+                  "59e6542b86f77411dc52a77a",
+                  "59e6658b86f77411d949b250",
+                  "5f0596629e22f464da6bbdd9",
+                  "59e0d99486f7744a32234762",
+                  "59e4d3d286f774176a36250a",
+                  "5656d7c34bdc2d9d198b4587",
+                  "59e4cf5286f7741778269d8a",
+                  "59e4d24686f7741776641ac7",
+                  "601aa3d2b2bcb34913271e6d",
+                  "64b7af5a8532cf95ee0a0dbd",
+                  "64b7af734b75259c590fa895",
+                  "64b7af434b75259c590fa893"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ],
+      "Name": "AK 7.62x39 FAB Defense Ultimag 30R 30-round magazine (Tape)",
+      "ShortName": "Ultimag",
+      "Description": "A 30-round windowed polymer magazine for 7.62x39 AKs and compatible weapons, manufactured by FAB Defense. Can also be supplied with .366 TKM ammo for use with the corresponding caliber AK-compatible weapons. Tape Version. Change the tape color from the magazine menu in your stash.",
+      "CanRequireOnRagfair": true
+    },
+    "locales": {
+      "en": {
+        "name": "AK 7.62x39 FAB Defense Ultimag 30R 30-round magazine (Tape)",
+        "shortName": "Ultimag",
+        "description": "A 30-round windowed polymer magazine for 7.62x39 AKs and compatible weapons, manufactured by FAB Defense. Can also be supplied with .366 TKM ammo for use with the corresponding caliber AK-compatible weapons. Tape Version. Change the tape color from the magazine menu in your stash."
+      },
+      "po": {
+        "name": "Carregador de 30 munições AK 7.62x39 FAB Defense Ultimag (Tape)",
+        "shortName": "Ultimag",
+        "description": "Um carregador de polímero com janela de 30 munições para AKs 7.62x39 e armas compatíveis, fabricado pela FAB Defense. Também pode ser fornecido com munição .366 TKM para uso com as armas compatíveis com AK de calibre correspondente. Tape Version. Change the tape color from the magazine menu in your stash."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_magazine"
+    ]
+  },
+  "7b6273cecf835787aacfeeae": {
+    "itemTplToClone": "6272874a6c47bd74f92e2087",
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "overrideProperties": {
+      "Name": "AK 7.62x39 FAB Defense Ultimag 30R 30-round magazine (RAL 8000)",
+      "Prefab": {
+        "path": "aishiweapons/rd704_ral8000/mag_ak_fab_defense_ultimag_ak_30r_762x39_30_ral8000.bundle",
+        "rcid": ""
+      },
+      "Cartridges": [
+        {
+          "_id": "4bd005211731579aad9d4859",
+          "_max_count": 30,
+          "_name": "cartridges",
+          "_parent": "7b6273cecf835787aacfeeae",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "59e655cb86f77411dc52a77b",
+                  "59e6542b86f77411dc52a77a",
+                  "59e6658b86f77411d949b250",
+                  "5f0596629e22f464da6bbdd9",
+                  "59e0d99486f7744a32234762",
+                  "59e4d3d286f774176a36250a",
+                  "5656d7c34bdc2d9d198b4587",
+                  "59e4cf5286f7741778269d8a",
+                  "59e4d24686f7741776641ac7",
+                  "601aa3d2b2bcb34913271e6d",
+                  "64b7af5a8532cf95ee0a0dbd",
+                  "64b7af734b75259c590fa895",
+                  "64b7af434b75259c590fa893"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ],
+      "ShortName": "Ultimag",
+      "Description": "A 30-round windowed polymer magazine for 7.62x39 AKs and compatible weapons, manufactured by FAB Defense. Can also be supplied with .366 TKM ammo for use with the corresponding caliber AK-compatible weapons. RAL 8000 Version.",
+      "CanRequireOnRagfair": true
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_magazine"
+    ],
+    "locales": {
+      "en": {
+        "name": "AK 7.62x39 FAB Defense Ultimag 30R 30-round magazine (RAL 8000)",
+        "shortName": "Ultimag",
+        "description": "A 30-round windowed polymer magazine for 7.62x39 AKs and compatible weapons, manufactured by FAB Defense. Can also be supplied with .366 TKM ammo for use with the corresponding caliber AK-compatible weapons. RAL 8000 Version."
+      },
+      "po": {
+        "name": "AK 7.62x39 FAB Defense Ultimag 30R 30-round magazine (RAL 8000)",
+        "shortName": "Ultimag",
+        "description": "Um carregador de polímero com janela de 30 munições para AKs 7.62x39 e armas compatíveis, fabricado pela FAB Defense. Também pode ser fornecido com munição .366 TKM para uso com as armas compatíveis com AK de calibre correspondente. RAL 8000 Version."
+      }
+    },
+    "handbookPriceRoubles": 2300,
+    "fleaPriceRoubles": 11977
+  }
+}

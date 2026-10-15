@@ -1,0 +1,31 @@
+{
+  "AishiAnomalyPanic": [
+    {
+      "BuffType": "HandsTremor",
+      "Chance": 1,
+      "Delay": 0,
+      "Duration": 60,
+      "Value": 1,
+      "AbsoluteValue": true,
+      "SkillName": ""
+    },
+    {
+      "BuffType": "ContusionBlur",
+      "Chance": 1,
+      "Delay": 0,
+      "Duration": 60,
+      "Value": 0.65,
+      "AbsoluteValue": true,
+      "SkillName": ""
+    },
+    {
+      "BuffType": "StaminaRate",
+      "Chance": 1,
+      "Delay": 0,
+      "Duration": 60,
+      "Value": -5,
+      "AbsoluteValue": true,
+      "SkillName": ""
+    }
+  ]
+}

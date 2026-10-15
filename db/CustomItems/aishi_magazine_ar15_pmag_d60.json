@@ -1,0 +1,155 @@
+{
+  "24205930efad5921a1fb8e1e": {
+    "itemTplToClone": "59c1383d86f774290a37e0ca",
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "overrideProperties": {
+      "IsUnsaleable": true,
+      "IsUnbuyable": true,
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": true,
+      "addtoItemBlacklist": false,
+      "Ergonomics": -2,
+      "Cartridges": [
+        {
+          "_id": "443fe3c756f252afbfd80045",
+          "_max_count": 60,
+          "_name": "cartridges",
+          "_parent": "24205930efad5921a1fb8e1e",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "59e6920f86f77411d82aa167",
+                  "59e6927d86f77411da468256",
+                  "54527a984bdc2d4e668b4567",
+                  "54527ac44bdc2d36668b4567",
+                  "59e68f6f86f7746c9f75e846",
+                  "59e6906286f7746c9f75e847",
+                  "59e690b686f7746c9f75e848",
+                  "59e6918f86f7746c9f75e849",
+                  "60194943740c5d77f6705eea",
+                  "601949593ae8f707c4608daa",
+                  "5c0d5ae286f7741e46554302",
+                  "5fbe3ffdf8b6a877a729ea82",
+                  "5fd20ff893a8961fc660a954",
+                  "619636be6db0f2477964e710",
+                  "6196364158ef8c428c287d9f",
+                  "6196365d58ef8c428c287da1",
+                  "64b8725c4b75259c590fa899",
+                  "692dc61870449aedfa85120f",
+                  "699b6b973e813e0eaa275b56"
+                ]
+              }
+            ]
+          },
+          "_proto": "69f0d292d652c74d8c591542"
+        }
+      ],
+      "Prefab": {
+        "path": "aishiweapons/magazines/ar15_pmag_d60_fde_tape/magazine_ar15_pmag_d60_fde_tape.bundle",
+        "rcid": ""
+      },
+      "Weight": 0.18,
+      "Name": "AR-15 5.56x45 Magpul PMAG D-60 STANAG 60-round magazine (Tape)",
+      "ShortName": "PMAG D60",
+      "Description": "The Magpul PMAG D-60 polymer 60-round magazine for 5.56x45 rounds. Tape Version. Change the tape color from the magazine menu in your stash."
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_magazine"
+    ],
+    "locales": {
+      "en": {
+        "name": "AR-15 5.56x45 Magpul PMAG D-60 STANAG 60-round magazine (Tape)",
+        "shortName": "PMAG D60",
+        "description": "The Magpul PMAG D-60 polymer 60-round magazine for 5.56x45 rounds. Tape Version. Change the tape color from the magazine menu in your stash."
+      },
+      "po": {
+        "name": "AR-15 5.56x45 Magpul PMAG D-60 STANAG 60-round magazine (Tape)",
+        "shortName": "PMAG D60",
+        "description": "O carregador Magpul PMAG D-60 de polímero com capacidade para 60 cartuchos de calibre 5,56x45. Tape Version. Change the tape color from the magazine menu in your stash."
+      }
+    },
+    "handbookPriceRoubles": 14755,
+    "fleaPriceRoubles": 44755
+  },
+  "f98ba8a74bc758cb9465f3b2": {
+    "itemTplToClone": "59c1383d86f774290a37e0ca",
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "overrideProperties": {
+      "Name": "AR-15 5.56x45 Magpul PMAG D-60 STANAG 60-round magazine (Tape)",
+      "Prefab": {
+        "path": "aishiweapons/magazines/ar15_pmag_d60_tape/mag_stanag_magpul_pmag_d-60_556x45_60_tape.bundle",
+        "rcid": ""
+      },
+      "Cartridges": [
+        {
+          "_id": "7adbc09619235ef2b17adfac",
+          "_max_count": 60,
+          "_name": "cartridges",
+          "_parent": "f98ba8a74bc758cb9465f3b2",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "59e6920f86f77411d82aa167",
+                  "59e6927d86f77411da468256",
+                  "54527a984bdc2d4e668b4567",
+                  "54527ac44bdc2d36668b4567",
+                  "59e68f6f86f7746c9f75e846",
+                  "59e6906286f7746c9f75e847",
+                  "59e690b686f7746c9f75e848",
+                  "59e6918f86f7746c9f75e849",
+                  "60194943740c5d77f6705eea",
+                  "601949593ae8f707c4608daa",
+                  "5c0d5ae286f7741e46554302",
+                  "5fbe3ffdf8b6a877a729ea82",
+                  "5fd20ff893a8961fc660a954",
+                  "619636be6db0f2477964e710",
+                  "6196364158ef8c428c287d9f",
+                  "6196365d58ef8c428c287da1",
+                  "64b8725c4b75259c590fa899"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ],
+      "ShortName": "PMAG D60",
+      "Description": "The Magpul PMAG D-60 polymer 60-round magazine for 5.56x45 rounds. Tape Version. Change the tape color from the magazine menu in your stash.",
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": true
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_magazine"
+    ],
+    "locales": {
+      "en": {
+        "name": "AR-15 5.56x45 Magpul PMAG D-60 STANAG 60-round magazine (Tape)",
+        "shortName": "PMAG D60",
+        "description": "The Magpul PMAG D-60 polymer 60-round magazine for 5.56x45 rounds. Tape Version. Change the tape color from the magazine menu in your stash."
+      },
+      "po": {
+        "name": "AR-15 5.56x45 Magpul PMAG D-60 STANAG 60-round magazine (Tape)",
+        "shortName": "PMAG D-60",
+        "description": "Carregador de polímero da empresa Magpul modelo PMAG D-60 com capacidade de 60 munições calibre 5.56x45 Tape Version. Change the tape color from the magazine menu in your stash."
+      }
+    },
+    "handbookPriceRoubles": 15413,
+    "fleaPriceRoubles": 15413
+  }
+}

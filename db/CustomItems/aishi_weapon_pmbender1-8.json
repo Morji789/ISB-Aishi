@@ -1,63 +1,47 @@
 {
   "6a34b11b12fc7ef0209ec45d": {
-
     "itemTplToClone": "617151c1d92c473c770214ab",
     "parentId": "55818ae44bdc2dde698b456c",
     "handbookParentId": "5b5f748386f774093e6cb501",
-
-
-    "overrideProperties": { 
-        "ExaminedByDefault": true,
-        "IsUnsaleable": true,
-        "IsUnbuyable": true,
-        "CanSellOnRagfair": true,
-        "CanRequireOnRagfair": true,
-        "addtoItemBlacklist": false,   
-        "Ergonomics": -2,
-        
-
-        "Prefab": {
+    "overrideProperties": {
+      "IsUnsaleable": true,
+      "IsUnbuyable": true,
+      "CanRequireOnRagfair": true,
+      "addtoItemBlacklist": false,
+      "Ergonomics": -2,
+      "Prefab": {
         "path": "equipment/scope_30mm_s&b_pm_ii_1_8x24_black.bundle",
         "rcid": ""
-        },
-
-        "Width": 2,
-        "Height": 1,
-        "Weight": 0.9,
-        "Grids": []
       },
-
-      "AimSensitivity": [
-        [
-          0.08,
-          0.6
-        ]
-      ],
-
-      "SightingRange": 2500,
-
-      "CalibrationDistances": [
-        [
-          50,
-          100,
-          150,
-          200,
-          250,
-          300,
-          350,
-          400,
-          450
-        ]
-      ],
-
-      "Zooms": [
-        [
-          1,
-          6
-        ]
-      ],
-      "sightModType": "optic",
-
+      "Grids": []
+    },
+    "AimSensitivity": [
+      [
+        0.08,
+        0.6
+      ]
+    ],
+    "SightingRange": 2500,
+    "CalibrationDistances": [
+      [
+        50,
+        100,
+        150,
+        200,
+        250,
+        300,
+        350,
+        400,
+        450
+      ]
+    ],
+    "Zooms": [
+      [
+        1,
+        6
+      ]
+    ],
+    "sightModType": "optic",
     "locales": {
       "en": {
         "name": "Schmidt & Bender PM II 1-8x24 30mm riflescope (Black)",
@@ -69,20 +53,15 @@
         "shortName": "PM II 1-8",
         "description": "A mira telescópica Schmidt & Bender PM II 1-8x24 foi originalmente desenvolvida para forças militares de elite, com o objetivo de proporcionar uma aquisição de alvo de alta qualidade e precisão milimétrica. Versão preta"
       }
-    
     },
-
     "fleaPriceRoubles": 110500,
-
     "handbookPriceRoubles": 50500,
-
     "addtoBots": true,
-
     "addtoModSlots": true,
-    "modSlot": ["mod_scope"],
-
+    "modSlot": [
+      "mod_scope"
+    ],
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",

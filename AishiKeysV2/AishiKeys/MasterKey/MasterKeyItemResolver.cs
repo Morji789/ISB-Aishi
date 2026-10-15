@@ -4,9 +4,6 @@ namespace AishiKeys.MasterKey
 {
     internal static class MasterKeyItemResolver
     {
-        internal static KeyComponent FindKeyComponent(Item item)
-        {
-            return item?.GetItemComponent<KeyComponent>();
-        }
+        internal static KeyComponent FindKeyComponent(Item item) => item?.GetItemComponent<KeyComponent>();
     }
 }

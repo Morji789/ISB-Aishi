@@ -1,70 +1,45 @@
 {
   "6a07e931698298899e8270e4": {
-
     "itemTplToClone": "628b9784bcf6e2659e09b8a2",
     "parentId": "5448e5284bdc2dcb718b4567",
     "handbookParentId": "5b5f6f8786f77447ed563642",
-
-
     "overrideProperties": {
-      "QuestItem": false,  
-      "ExaminedByDefault": false,
-      "IsUnsaleable": false,
       "CanSellOnRagfair": false,
-      "CanRequireOnRagfair": false,
-      "addtoItemBlacklist": true,   
-      "BackgroundColor": "default", 
-        
+      "addtoItemBlacklist": true,
       "Prefab": {
-
         "path": "equipment/item_equipment_rig_boss_big_pipe_black.bundle",
         "rcid": ""
       },
-
-
-      "Width": 3,
-      "Height": 3,
-
-
-      "Weight": 1.32
+      "Name": "S&S Precision PlateFrame plate carrier (USEC Intelligence Support Bureau)",
+      "ShortName": "PlateFrame",
+      "Description": "A plate carrier with a minimalistic, lightweight, semi rigid plastic design, which was configured by Big Pipe - member of the Goons squad. Manufactured by S&S Precision. (ISB SOF)"
     },
-
     "addWeaponPreset": false,
     "weaponPresets": [],
-
     "locales": {
       "en": {
         "name": "S&S Precision PlateFrame plate carrier (USEC Intelligence Support Bureau)",
         "shortName": "PlateFrame",
-        "description": "A plate carrier with a minimalistic, lightweight, semi rigid plastic design. Manufactured by S&S Precision."
+        "description": "A plate carrier with a minimalistic, lightweight, semi rigid plastic design, which was configured by Big Pipe - member of the Goons squad. Manufactured by S&S Precision. (ISB SOF)"
       },
-        "po": {
+      "po": {
         "name": "Colete Tático S&S Precision PlateFrame (Agência de Suporte a Inteligência da USEC)",
         "shortName": "PlateFrame",
-        "description": "Um colete de proteção com um design minimalista, leve e em plástico semirrígido. Fabricado pela S&S Precision."
+        "description": "O design de plástico semirrígido, leve e minimalista fornece uma plataforma de montagem rígida diferente de qualquer outro plate carrier no mercado. A estrutura oferece ao operador a capacidade de dimensionar sua carga para cima ou para baixo para atender aos requisitos operacionais. O PlateFrame permite a fácil fixação de bolsas de acessórios e acomoda bolsas MOLLE/PALS padrão. (ISB SOF)"
       }
     },
-
     "fleaPriceRoubles": 311999,
-
     "handbookPriceRoubles": 142398,
-
     "addtoHideoutPosterSlots": false,
-
-    "addtoInventorySlots": ["TacticalRig"],
-
+    "addtoInventorySlots": [
+      "TacticalRig"
+    ],
     "addtoStaticLootContainers": false,
-
     "CanSellOnRagfair": false,
-
     "IsAlwaysAvailableForInsurance": false,
-
     "InsuranceDisabled": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "StaticLootContainers": [
       {
         "ContainerName": "",

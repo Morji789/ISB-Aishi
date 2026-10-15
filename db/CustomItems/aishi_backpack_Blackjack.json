@@ -1,65 +1,40 @@
 {
   "693aeb052ca153e9abf1fe56": {
-
     "itemTplToClone": "5c0e774286f77468413cc5b2",
     "parentId": "5448e53e4bdc2d60728b4567",
     "handbookParentId": "5b5f6f6c86f774093f2ecf0b",
-
     "overrideProperties": {
-      "QuestItem": false,  
       "ExaminedByDefault": false,
-      "IsUnsaleable": false,
-      "CanSellOnRagfair": false,
-      "CanRequireOnRagfair": false,
-      "addtoItemBlacklist": true,   
-        
-
+      "addtoItemBlacklist": true,
       "Prefab": {
-
         "path": "equipment/item_equipment_backpack_blackjack_black.bundle",
         "rcid": ""
-      },
-
-      "Width": 5,
-      "Height": 7,
-
-
-      "Weight": 3.265
+      }
     },
-
     "locales": {
       "en": {
         "name": "Mystery Ranch Blackjack 50 backpack (USEC Intelligence Support Bureau)",
         "shortName": "Blackjack 50",
         "description": "A backpack made for long and successful raids, manufactured by Mystery Ranch. Black Version for ISB Special Forces"
       },
-        "po": {
+      "po": {
         "name": "Mochila Mystery Ranch Blackjack 50 (Agência de Suporte a Inteligência da USEC)",
         "shortName": "Blackjack 50",
         "description": "Uma mochila feita para expedições longas e bem-sucedidas, fabricada pela Mystery Ranch. Versão Preta das Forças Especiais da ISB."
       }
     },
-
     "fleaPriceRoubles": 294000,
-
     "handbookPriceRoubles": 136700,
-
-    "addtoInventorySlots": ["Backpack"],
-
+    "addtoInventorySlots": [
+      "Backpack"
+    ],
     "addtoBots": false,
-
     "IsAlwaysAvailableForInsurance": false,
-
     "InsuranceDisabled": false,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",

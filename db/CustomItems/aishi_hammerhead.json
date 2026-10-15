@@ -1,0 +1,81 @@
+{
+  "7f3d1490eb7e5442947f28f5": {
+    "itemTplToClone": "5c091a4e0db834001d5addc8",
+    "parentId": "5a341c4686f77469e155819e",
+    "handbookParentId": "5b47574386f77428ca22b330",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "equipment/aishi_hammerhead/hammerhead.bundle",
+        "rcid": ""
+      },
+      "Weight": 2.6,
+      "Width": 2,
+      "Height": 2,
+      "Grids": [],
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FaceCover",
+      "ExaminedByDefault": false,
+      "IsUnbuyable": false,
+      "IsUnsaleable": false,
+      "InsuranceDisabled": true,
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": false,
+      "BlocksFaceCover": false,
+      "BlocksHeadwear": true,
+      "BlocksEarpiece": false,
+      "BlocksEyewear": true,
+      "ConflictingItems": [],
+      "Slots": [],
+      "armorClass": "6",
+      "ArmorType": "Heavy",
+      "armorColliders": [
+        "ParietalHead",
+        "BackHead",
+        "Ears",
+        "Eyes",
+        "Jaw",
+        "NeckFront",
+        "NeckBack",
+        "HeadCommon"
+      ],
+      "armorPlateColliders": [],
+      "Durability": 160,
+      "MaxDurability": 160,
+      "ArmorMaterial": "UHMWPE",
+      "DeafStrength": "Low",
+      "FaceShieldComponent": false,
+      "HasHinge": false,
+      "MergesWithChildren": false
+    },
+    "locales": {
+      "en": {
+        "name": "Hammerhead Combat Helmet",
+        "shortName": "Hammerhead",
+        "description": "An experimental full-face combat mask with high protective capabilities, air filtration systems, night vision, and built-in flashlights."
+      },
+      "po": {
+        "name": "Capacete de combate Hammerhead",
+        "shortName": "Hammerhead",
+        "description": "Uma máscara fechada de combate experimental com alta capacidade de blindagem e sistemas de filtragem de ar e visão noturna e lanternas integradas."
+      }
+    },
+    "fleaPriceRoubles": 160000,
+    "handbookPriceRoubles": 96000,
+    "addtoInventorySlots": [
+      "FaceCover"
+    ],
+    "addtoBots": false,
+    "CanSellOnRagfair": true,
+    "CanRequireOnRagfair": false,
+    "addtoItemBlacklist": false,
+    "addtoStaticLootContainers": false,
+    "StaticLootContainers": [
+      {
+        "ContainerName": "",
+        "Probability": 0
+      }
+    ],
+    "addtoTraders": false
+  }
+}

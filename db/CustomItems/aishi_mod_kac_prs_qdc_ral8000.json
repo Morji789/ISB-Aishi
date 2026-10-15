@@ -1,0 +1,40 @@
+{
+  "88066a7866985ce4857be897": {
+    "itemTplToClone": "5dfa3d2b0dee1b22f862eade",
+    "parentId": "550aa4cd4bdc2dd8348b456c",
+    "handbookParentId": "5b5f731a86f774093e6cb4f9",
+    "overrideProperties": {
+      "Name": "KAC PRS/QDC 7.62x51 sound suppressor (RAL 8000)",
+      "Prefab": {
+        "path": "aishiweapons/mods/kac_prs_qdc_ral8000/silencer_qdc_kac_prs_qdc_762x51_ral8000.bundle",
+        "rcid": ""
+      },
+      "ShortName": "PRS QDC",
+      "Description": "Knight's Armament Company PRS QDC sound suppressor, which can be installed on compatible QDC Flash Suppressor Kit and QDC Muzzle Brake Kit muzzle devices. RAL 8000 Version.",
+      "CanRequireOnRagfair": true
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_muzzle"
+    ],
+    "locales": {
+      "en": {
+        "name": "KAC PRS/QDC 7.62x51 sound suppressor (RAL 8000)",
+        "shortName": "PRS QDC",
+        "description": "Knight's Armament Company PRS QDC sound suppressor, which can be installed on compatible QDC Flash Suppressor Kit and QDC Muzzle Brake Kit muzzle devices. RAL 8000 Version."
+      },
+      "po": {
+        "name": "KAC PRS/QDC 7.62x51 sound suppressor (RAL 8000)",
+        "shortName": "PRS QDC",
+        "description": "Supressor PRS QDC da Knight's Armament Company, o qual pode ser instalado sob um quebra chamas Knight's Armament compatível. RAL 8000 Version."
+      }
+    },
+    "handbookPriceRoubles": 43500,
+    "fleaPriceRoubles": 60735
+  }
+}

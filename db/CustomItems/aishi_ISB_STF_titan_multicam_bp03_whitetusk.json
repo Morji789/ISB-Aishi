@@ -1,0 +1,333 @@
+{
+  "0f7880bda029d3322f3eb603": {
+    "itemTplToClone": "69ce70df606696c00301a760",
+    "parentId": "5a341c4086f77401f2541505",
+    "handbookParentId": "5b47574386f77428ca22b330",
+    "overrideProperties": {
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "yellow",
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": false,
+      "ConflictingItems": [],
+      "Description": "White Tusk arctic variant of the Atlant Armour Titan helmet, fitted with modified class 5 integrated inserts. Retains the original helmet attachment and mount compatibility.",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "ExamineExperience": 4,
+      "ExamineTime": 1,
+      "ExaminedByDefault": false,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "Height": 2,
+      "HideEntrails": false,
+      "InsuranceDisabled": true,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": true,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "gear_helmet",
+      "LeftHandItem": false,
+      "LootExperience": 20,
+      "MergesWithChildren": true,
+      "Name": "Modified Atlant Armour Titan helmet (White Tusk Edition)",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "equipment/item_equipment_helmet_atlant_armor_titan_multicam_bp03_whitetusk.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RagfairLevelToTrade": 0,
+      "RarityPvE": "Not_exist",
+      "RepairCost": 626,
+      "RepairSpeed": 10,
+      "ShortName": "Titan WT",
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Weight": 1.58,
+      "Width": 2,
+      "CanPutIntoDuringTheRaid": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "Slots": [
+        {
+          "_name": "mod_nvg",
+          "_id": "e7ecaa9250453fcae60b301c",
+          "_parent": "0f7880bda029d3322f3eb603",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5c0558060db834001b735271",
+                  "5a16b8a9fcdbcb00165aa6ca",
+                  "689b8883b49f27df1c0873f8",
+                  "689dbded6c7e684817080c29"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_mount",
+          "_id": "2566c119e326913cc20678e0",
+          "_parent": "0f7880bda029d3322f3eb603",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a398b75c4a282000a51a266",
+                  "5a398ab9c4a282000c5a9842"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "Helmet_top",
+          "_id": "e6840afc748ae6b663c36b4b",
+          "_parent": "0f7880bda029d3322f3eb603",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "b1ba119a656172de3687fef2"
+                ],
+                "Plate": "b1ba119a656172de3687fef2",
+                "armorColliders": [
+                  "ParietalHead"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        },
+        {
+          "_name": "Helmet_back",
+          "_id": "d0ff90ec21f7fdf9bf0cfba0",
+          "_parent": "0f7880bda029d3322f3eb603",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "491ebd4b7f4271d4fddbf445"
+                ],
+                "Plate": "491ebd4b7f4271d4fddbf445",
+                "armorColliders": [
+                  "BackHead"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        },
+        {
+          "_name": "mod_equipment_001",
+          "_id": "4f9aa7a26524cd3505873e71",
+          "_parent": "0f7880bda029d3322f3eb603",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5c178a942e22164bef5ceca3",
+                  "69caa20ff3190e7dfe0c197f",
+                  "69cbd3188eeaa243ed09710e",
+                  "69cbd33bc293038df7002951",
+                  "69cbd35600ebef208805cc04",
+                  "5c1793902e221602b21d3de2",
+                  "69caa229512d14715e0fccdf",
+                  "69cbd32a05c5beb41b0781b3",
+                  "69cbd346d0e5ec2c8a0429c2",
+                  "69cbd36d8eeaa243ed097112"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ],
+      "BlocksEarpiece": false,
+      "BlocksEyewear": false,
+      "BlocksFaceCover": false,
+      "BlocksHeadwear": false,
+      "ArmorMaterial": "Combined",
+      "ArmorType": "Light",
+      "BlindnessProtection": 0,
+      "BluntThroughput": 0.1314,
+      "DeafStrength": "None",
+      "Durability": 0,
+      "FaceShieldComponent": false,
+      "FaceShieldMask": "NoMask",
+      "HasHinge": false,
+      "Indestructibility": 0.9,
+      "MaterialType": "Helmet",
+      "MaxDurability": 0,
+      "MetascoreGroup": "Defence",
+      "RicochetParams": {
+        "x": 0.9,
+        "y": 0.5,
+        "z": 75
+      },
+      "armorClass": "0",
+      "armorColliders": [],
+      "armorPlateColliders": [],
+      "mousePenalty": 0,
+      "speedPenaltyPercent": 0,
+      "weaponErgonomicPenalty": -2
+    },
+    "locales": {
+      "en": {
+        "name": "Modified Atlant Armour Titan helmet (White Tusk Edition)",
+        "shortName": "Titan",
+        "description": "White Tusk arctic variant of the Atlant Armour Titan helmet, fitted with modified class 5 integrated inserts. Retains the original helmet attachment and mount compatibility. Designed for Zofia, the leader of the Nine Tail Fox squadron, from ISB SOF."
+      },
+      "po": {
+        "name": "Capacete Atlant Armour Titan modificado (Edição White Tusk)",
+        "shortName": "Titan",
+        "description": "Versão ártica White Tusk do capacete Atlant Armour Titan, equipada com insertos integrados modificados de classe 5. Mantém a compatibilidade original com acessórios e suportes. Concebido para Zofia, o líder do esquadrão \"Nine Tail Fox\", da ISB SOF."
+      }
+    },
+    "fleaPriceRoubles": 170942,
+    "handbookPriceRoubles": 88842,
+    "addtoInventorySlots": [
+      "HeadWear"
+    ],
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_id": "c486b7205078bd3816f2f4b1",
+        "_type": "Preset",
+        "_changeWeaponName": false,
+        "_name": "Modified Atlant Armour Titan helmet (White Tusk Edition) Standard",
+        "_parent": "82e5a92dd3648c8e7cef00e3",
+        "_items": [
+          {
+            "_id": "82e5a92dd3648c8e7cef00e3",
+            "_tpl": "0f7880bda029d3322f3eb603"
+          },
+          {
+            "_id": "4d1dbec437bbca3905011a6b",
+            "_tpl": "b1ba119a656172de3687fef2",
+            "parentId": "82e5a92dd3648c8e7cef00e3",
+            "slotId": "Helmet_top"
+          },
+          {
+            "_id": "f2bd6a1d951a5e94bc282e84",
+            "_tpl": "491ebd4b7f4271d4fddbf445",
+            "parentId": "82e5a92dd3648c8e7cef00e3",
+            "slotId": "Helmet_back"
+          }
+        ],
+        "_encyclopedia": "0f7880bda029d3322f3eb603"
+      }
+    ]
+  },
+  "b1ba119a656172de3687fef2": {
+    "itemTplToClone": "657f9897f4c82973640b235e",
+    "parentId": "65649eb40bf0ed77b8044453",
+    "handbookParentId": "6564b96a189fe36f356d177c",
+    "overrideProperties": {
+      "InsuranceDisabled": true,
+      "CanSellOnRagfair": false,
+      "BackgroundColor": "yellow",
+      "ArmorMaterial": "Titan",
+      "ArmorType": "Heavy",
+      "armorClass": "5",
+      "Durability": 45,
+      "MaxDurability": 45,
+      "BluntThroughput": 0.1,
+      "RarityPvE": "Superrare"
+    },
+    "locales": {
+      "en": {
+        "name": "Modified Titan top insert (White Tusk)",
+        "shortName": "Titan WT",
+        "description": "Class 5 integrated protection for the White Tusk Titan."
+      },
+      "po": {
+        "name": "Inserto superior modificado do Titan (White Tusk)",
+        "shortName": "Titan WT",
+        "description": "Proteção integrada de classe 5 para o Titan White Tusk."
+      }
+    },
+    "fleaPriceRoubles": 19000,
+    "handbookPriceRoubles": 19000,
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false
+  },
+  "491ebd4b7f4271d4fddbf445": {
+    "itemTplToClone": "657f98fbada5fadd1f07a585",
+    "parentId": "65649eb40bf0ed77b8044453",
+    "handbookParentId": "6564b96a189fe36f356d177c",
+    "overrideProperties": {
+      "InsuranceDisabled": true,
+      "CanSellOnRagfair": false,
+      "BackgroundColor": "yellow",
+      "ArmorMaterial": "Titan",
+      "ArmorType": "Heavy",
+      "armorClass": "5",
+      "Durability": 45,
+      "MaxDurability": 45,
+      "BluntThroughput": 0.1,
+      "RarityPvE": "Superrare"
+    },
+    "locales": {
+      "en": {
+        "name": "Modified Titan back insert (White Tusk)",
+        "shortName": "Titan WT",
+        "description": "Class 5 integrated protection for the White Tusk Titan."
+      },
+      "po": {
+        "name": "Inserto traseiro modificado do Titan (White Tusk)",
+        "shortName": "Titan WT",
+        "description": "Proteção integrada de classe 5 para o Titan White Tusk."
+      }
+    },
+    "fleaPriceRoubles": 19000,
+    "handbookPriceRoubles": 19000,
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false
+  }
+}

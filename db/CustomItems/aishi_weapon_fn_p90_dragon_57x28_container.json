@@ -1,0 +1,515 @@
+{
+  "a3f35b5ff515570584c64f0f": {
+    "itemTplToClone": "5cc82d76e24e8d00134b4b83",
+    "parentId": "5447b5e04bdc2d62278b4567",
+    "handbookParentId": "5b5f796a86f774093f2ed3c0",
+    "handbookPriceRoubles": 26050,
+    "fleaPriceRoubles": 26050,
+    "overrideProperties": {
+      "Chambers": [
+        {
+          "_name": "patron_in_weapon",
+          "_id": "899ffbb89fbd5181a35e55bf",
+          "_parent": "a3f35b5ff515570584c64f0f",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5cc80f53e4a949000e1ea4f8",
+                  "5cc86832d7f00c000d3a6e6c",
+                  "5cc86840d7f00c002412c56c",
+                  "5cc80f67e4a949035e43bbba",
+                  "5cc80f38e4a949001152b560",
+                  "5cc80f8fe4a949033b0224a2",
+                  "5cc80f79e4a949033c7343b2"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_isPlateSlot": false,
+          "_isPatronSlot": true,
+          "_proto": "55d4af244bdc2d962f8b4571"
+        }
+      ],
+      "Grids": [],
+      "Slots": [
+        {
+          "_name": "mod_magazine",
+          "_id": "f7b4d6053f425feda420ec65",
+          "_parent": "a3f35b5ff515570584c64f0f",
+          "_props": {
+            "filters": [
+              {
+                "AnimationIndex": -1,
+                "Filter": [
+                  "5cc70093e4a949033c734312"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_isPlateSlot": false,
+          "_isPatronSlot": false,
+          "_proto": "55d30c394bdc2dae468b4577"
+        },
+        {
+          "_name": "mod_stock",
+          "_id": "911e5ff286e35e0c8b569924",
+          "_parent": "a3f35b5ff515570584c64f0f",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5cc700b9e4a949000f0f0f25",
+                  "5cebec10d7f00c065703d185",
+                  "edefcaa0007e5763ab71ab77"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": false,
+          "_isPlateSlot": false,
+          "_isPatronSlot": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_reciever",
+          "_id": "87d1ac412e9d54219845b058",
+          "_parent": "a3f35b5ff515570584c64f0f",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5cc700ede4a949033c734315",
+                  "5cc70102e4a949035e43ba74",
+                  "5cf7acfcd7f00c1084477cf2"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": false,
+          "_isPlateSlot": false,
+          "_isPatronSlot": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_barrel",
+          "_id": "0b6ec828e59d54d09acbb96a",
+          "_parent": "a3f35b5ff515570584c64f0f",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5cc701aae4a949000e1ea45c",
+                  "5cc701d7e4a94900100ac4e7"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": false,
+          "_isPlateSlot": false,
+          "_isPatronSlot": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_charge",
+          "_id": "8e9cb744d825516985b7e3e7",
+          "_parent": "a3f35b5ff515570584c64f0f",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5cc6ea78e4a949000e1ea3c1",
+                  "5cc6ea85e4a949000e1ea3c3"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": false,
+          "_isPlateSlot": false,
+          "_isPatronSlot": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ],
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "yellow",
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": false,
+      "ConflictingItems": [],
+      "Description": "FN P90, also known as the FN Project 1990, is a compact personal defense weapon (PDW) designed and manufactured by FN Herstal in Belgium. Created in response to NATO requests for a replacement for 9x19mm Parabellum firearms, the P90 was designed as a compact but powerful firearm for vehicle crews, operators of crew-served weapons, support personnel, special forces, and counter-terrorist groups. This particular weapon was customized and tuned to the specifications of Liam \"Scourge\", one of the Arena Champions, during his time with USEC. Modified for special operations, with optimized handling, accuracy, recoil control and reliability.",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "ExamineExperience": 8,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": true,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": true,
+      "ItemSound": "weap_ar",
+      "LeftHandItem": false,
+      "LootExperience": 20,
+      "MergesWithChildren": true,
+      "Name": "Modified FN P90 5.7x28 submachine gun (Scourge)",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "aishiweapons/p90_scourge/weapon_fn_p90_dragon_57x28_container_aishi.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Not_exist",
+      "RepairCost": 315,
+      "RepairSpeed": 15,
+      "ShortName": "Modified P90 Scourge",
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Weight": 0.438,
+      "Width": 2,
+      "CanPutIntoDuringTheRaid": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "AdjustCollimatorsToTrajectory": false,
+      "AimPlane": 0.25,
+      "AimSensitivity": 0.65,
+      "AllowFeed": true,
+      "AllowJam": true,
+      "AllowMisfire": true,
+      "AllowOverheat": true,
+      "AllowSlide": true,
+      "BaseMalfunctionChance": 0.11385,
+      "BoltAction": false,
+      "BurstShotsCount": 3,
+      "CameraSnap": 3.5,
+      "CameraToWeaponAngleSpeedRange": {
+        "x": 0.1,
+        "y": 0.2,
+        "z": 0
+      },
+      "CameraToWeaponAngleStep": 0.1,
+      "CanQueueSecondShot": true,
+      "CanUnloadAmmoByPlayer": true,
+      "CenterOfImpact": 0.15,
+      "CompactHandling": false,
+      "CoolFactorGun": 4.018,
+      "CoolFactorGunMods": 1,
+      "DeviationCurve": 2.25,
+      "DeviationMax": 11,
+      "DoubleActionAccuracyPenalty": 1.5,
+      "Durability": 140,
+      "DurabilityBurnRatio": 0.69,
+      "Ergonomics": 82.6,
+      "Foldable": false,
+      "FoldedSlot": "",
+      "HeatFactorByShot": 1.014,
+      "HeatFactorGun": 0.6,
+      "HipAccuracyRestorationDelay": 0.12,
+      "HipAccuracyRestorationSpeed": 9.8,
+      "HipInnaccuracyGain": 0.096,
+      "IronSightRange": 50,
+      "IsBeltMachineGun": false,
+      "IsFlareGun": false,
+      "IsGrenadeLauncher": false,
+      "IsMountable": true,
+      "IsOneoff": false,
+      "IsStationaryWeapon": false,
+      "ManualBoltCatch": false,
+      "MaxDurability": 140,
+      "MaxRepairDegradation": 0.03,
+      "MaxRepairKitDegradation": 0.027,
+      "MetascoreGroup": "Firepower",
+      "MinRepairDegradation": 0,
+      "MinRepairKitDegradation": 0,
+      "MountCameraSnapMultiplier": 3,
+      "MountHorizontalRecoilMultiplier": 0.6,
+      "MountReturnSpeedHandMultiplier": 1,
+      "MountVerticalRecoilMultiplier": 0.85,
+      "MountingHorizontalOutOfBreathMultiplier": 0.4,
+      "MountingPosition": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "MountingVerticalOutOfBreathMultiplier": 0.8,
+      "MustBoltBeOpennedForExternalReload": false,
+      "MustBoltBeOpennedForInternalReload": false,
+      "NoFiremodeOnBoltcatch": false,
+      "OperatingResource": 9100,
+      "PostRecoilHorizontalRangeHandRotation": {
+        "x": -2,
+        "y": 2,
+        "z": 0
+      },
+      "PostRecoilVerticalRangeHandRotation": {
+        "x": -1.3,
+        "y": 0,
+        "z": 0
+      },
+      "ProgressRecoilAngleOnStable": {
+        "x": 0,
+        "y": 30,
+        "z": 0
+      },
+      "RecoilAngle": 90,
+      "RecoilCamera": 0.024,
+      "RecoilCategoryMultiplierHandRotation": 0.2,
+      "RecoilCenter": {
+        "x": 0,
+        "y": -0.32,
+        "z": -0.02
+      },
+      "RecoilDampingHandRotation": 0.85,
+      "RecoilForceBack": 153,
+      "RecoilForceUp": 34.2,
+      "RecoilPosZMult": 1,
+      "RecoilReturnPathDampingHandRotation": 0.45,
+      "RecoilReturnPathOffsetHandRotation": 0.01,
+      "RecoilReturnSpeedHandRotation": 1.75,
+      "RecoilStableAngleIncreaseStep": 2.4,
+      "RecoilStableIndexShot": 4,
+      "RecolDispersion": 9,
+      "ReloadMode": "ExternalMagazine",
+      "RepairComplexity": 0,
+      "ResetAfterShot": false,
+      "Retractable": false,
+      "RotationCenter": {
+        "x": 0,
+        "y": -0.13,
+        "z": 0
+      },
+      "RotationCenterNoStock": {
+        "x": 0,
+        "y": -0.38,
+        "z": -0.11
+      },
+      "ShotsGroupSettings": [
+        {
+          "EndShotIndex": 200,
+          "ShotRecoilPositionStrength": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "ShotRecoilRadianRange": {
+            "x": 6,
+            "y": -6,
+            "z": 0
+          },
+          "ShotRecoilRotationStrength": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "StartShotIndex": 1
+        }
+      ],
+      "SightingRange": 100,
+      "SingleFireRate": 450,
+      "SizeReduceRight": 0,
+      "TacticalReloadFixation": 0.95,
+      "TacticalReloadStiffnes": {
+        "x": 0.95,
+        "y": 0.33,
+        "z": 0.95
+      },
+      "UseAltMountBone": false,
+      "Velocity": 1.5,
+      "WeaponRecoilSettings": {
+        "Enable": true,
+        "Values": [
+          {
+            "Enable": true,
+            "Target": "HandsRotation",
+            "Process": {
+              "ComponentType": "Y",
+              "CurveTimeMultiply": 1.4,
+              "CurveValueMultiply": 0.6,
+              "CurveAimingValueMultiply": 0.4,
+              "TransformationCurve": {
+                "Keys": [
+                  {
+                    "time": 0,
+                    "value": 0,
+                    "inTangent": 0,
+                    "outTangent": 0
+                  },
+                  {
+                    "time": 0.1,
+                    "value": 2,
+                    "inTangent": 0,
+                    "outTangent": 0
+                  },
+                  {
+                    "time": 0.3,
+                    "value": -0.75,
+                    "inTangent": 0,
+                    "outTangent": 0
+                  },
+                  {
+                    "time": 1,
+                    "value": 0,
+                    "inTangent": 0,
+                    "outTangent": 0
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Enable": true,
+            "Target": "HandsPosition",
+            "Process": {
+              "ComponentType": "Y",
+              "CurveTimeMultiply": 6,
+              "CurveValueMultiply": 0.003,
+              "CurveAimingValueMultiply": 0.002,
+              "TransformationCurve": {
+                "Keys": [
+                  {
+                    "time": 0,
+                    "value": 0,
+                    "inTangent": 0,
+                    "outTangent": 0
+                  },
+                  {
+                    "time": 0.1,
+                    "value": 2,
+                    "inTangent": 0,
+                    "outTangent": 0
+                  },
+                  {
+                    "time": 0.3,
+                    "value": -0.75,
+                    "inTangent": 0,
+                    "outTangent": 0
+                  },
+                  {
+                    "time": 1,
+                    "value": 0,
+                    "inTangent": 0,
+                    "outTangent": 0
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Enable": true,
+            "Target": "CameraRotation",
+            "Process": {
+              "ComponentType": "Z",
+              "CurveTimeMultiply": 0.75,
+              "CurveValueMultiply": 0.1,
+              "CurveAimingValueMultiply": 0.06,
+              "TransformationCurve": {
+                "Keys": [
+                  {
+                    "time": 0,
+                    "value": 0,
+                    "inTangent": 0,
+                    "outTangent": 0
+                  },
+                  {
+                    "time": 0.1,
+                    "value": 2,
+                    "inTangent": 0,
+                    "outTangent": 0
+                  },
+                  {
+                    "time": 0.3,
+                    "value": -0.75,
+                    "inTangent": 0,
+                    "outTangent": 0
+                  },
+                  {
+                    "time": 1,
+                    "value": 0,
+                    "inTangent": 0,
+                    "outTangent": 0
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      "WithAnimatorAiming": false,
+      "ammoCaliber": "Caliber57x28",
+      "bEffDist": 200,
+      "bFirerate": 910,
+      "bHearDist": 80,
+      "blockLeftStance": false,
+      "chamberAmmoCount": 1,
+      "defAmmo": "5cc80f8fe4a949033b0224a2",
+      "defMagType": "5cc70093e4a949033c734312",
+      "durabSpawnMax": 75,
+      "durabSpawnMin": 25,
+      "isBoltCatch": false,
+      "isChamberLoad": true,
+      "isFastReload": true,
+      "shotgunDispersion": 0,
+      "weapClass": "smg",
+      "weapFireType": [
+        "single",
+        "fullauto"
+      ],
+      "weapUseType": "primary"
+    },
+    "locales": {
+      "en": {
+        "name": "Modified FN P90 5.7x28 submachine gun (Scourge)",
+        "shortName": "Modified P90 Scourge",
+        "description": "FN P90, also known as the FN Project 1990, is a compact personal defense weapon (PDW) designed and manufactured by FN Herstal in Belgium. Created in response to NATO requests for a replacement for 9x19mm Parabellum firearms, the P90 was designed as a compact but powerful firearm for vehicle crews, operators of crew-served weapons, support personnel, special forces, and counter-terrorist groups. This particular weapon was customized and tuned to the specifications of Liam \"Scourge\", one of the Arena Champions, during his time with USEC. Modified for special operations, with optimized handling, accuracy, recoil control and reliability."
+      }
+    },
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": false,
+    "masteries": true,
+    "masterySections": [
+      {
+        "Level2": 200,
+        "Level3": 350,
+        "Name": "P90",
+        "Templates": [
+          "a3f35b5ff515570584c64f0f"
+        ]
+      }
+    ]
+  }
+}

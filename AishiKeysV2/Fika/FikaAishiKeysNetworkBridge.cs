@@ -15,16 +15,13 @@ namespace AishiKeys.Fika
     {
         private const int MaximumQueuedPayloads = 256;
         private const int MaximumPayloadLength = 65535;
-
         private readonly ManualLogSource _log;
-        private readonly object _queueLock = new object();
+        private readonly object _queueLock = new object ();
         private readonly Queue<string> _receivedPayloads = new Queue<string>();
-
         private IFikaNetworkManager _networkManager;
         private IFikaNetworkManager _registeredNetworkManager;
         private bool _initialized;
         private bool _isServer;
-
         internal FikaAishiKeysNetworkBridge(ManualLogSource log)
         {
             _log = log;
@@ -69,68 +66,57 @@ namespace AishiKeys.Fika
         {
             if (_initialized)
                 return;
-
             _initialized = true;
             Active = true;
-
-            FikaEventDispatcher.SubscribeEvent<FikaNetworkManagerCreatedEvent>(
-                OnNetworkManagerCreated);
-            FikaEventDispatcher.SubscribeEvent<FikaNetworkManagerDestroyedEvent>(
-                OnNetworkManagerDestroyed);
-            FikaEventDispatcher.SubscribeEvent<FikaRaidStartedEvent>(
-                OnRaidStarted);
-
+            FikaEventDispatcher.SubscribeEvent<FikaNetworkManagerCreatedEvent>(OnNetworkManagerCreated);
+            FikaEventDispatcher.SubscribeEvent<FikaNetworkManagerDestroyedEvent>(OnNetworkManagerDestroyed);
+            FikaEventDispatcher.SubscribeEvent<FikaRaidStartedEvent>(OnRaidStarted);
             EnsureNetworkManager();
-            _log.LogInfo(
-                "Aishi Keys Fika: direct network bridge initialized without reflection or runtime IL generation.");
+            _log.LogInfo("Aishi Keys Fika: direct network bridge initialized without reflection or runtime IL generation.");
         }
 
         public bool Broadcast(string payload)
         {
-            if (string.IsNullOrEmpty(payload) || payload.Length > MaximumPayloadLength ||
-                !Ready || !IsServer)
+            if (string.IsNullOrEmpty(payload) || payload.Length > MaximumPayloadLength || !Ready || !IsServer)
             {
                 return false;
             }
 
             try
             {
-                AishiKeysPacket packet = new AishiKeysPacket { Payload = payload };
-                _networkManager.SendData(
-                    ref packet,
-                    DeliveryMethod.ReliableOrdered,
-                    true);
+                AishiKeysPacket packet = new AishiKeysPacket
+                {
+                    Payload = payload
+                };
+                _networkManager.SendData(ref packet, DeliveryMethod.ReliableOrdered, true);
                 return true;
             }
             catch (Exception ex)
             {
-                _log.LogWarning(
-                    "Aishi Keys Fika: failed to broadcast packet: " + ex.Message);
+                _log.LogWarning("Aishi Keys Fika: failed to broadcast packet: " + ex.Message);
                 return false;
             }
         }
 
         public bool SendToServer(string payload)
         {
-            if (string.IsNullOrEmpty(payload) || payload.Length > MaximumPayloadLength ||
-                !Ready || IsServer)
+            if (string.IsNullOrEmpty(payload) || payload.Length > MaximumPayloadLength || !Ready || IsServer)
             {
                 return false;
             }
 
             try
             {
-                AishiKeysPacket packet = new AishiKeysPacket { Payload = payload };
-                _networkManager.SendData(
-                    ref packet,
-                    DeliveryMethod.ReliableOrdered,
-                    false);
+                AishiKeysPacket packet = new AishiKeysPacket
+                {
+                    Payload = payload
+                };
+                _networkManager.SendData(ref packet, DeliveryMethod.ReliableOrdered, false);
                 return true;
             }
             catch (Exception ex)
             {
-                _log.LogWarning(
-                    "Aishi Keys Fika: failed to send packet to authority: " + ex.Message);
+                _log.LogWarning("Aishi Keys Fika: failed to send packet to authority: " + ex.Message);
                 return false;
             }
         }
@@ -139,8 +125,7 @@ namespace AishiKeys.Fika
         {
             if (handler == null)
                 return;
-
-            while (TryDequeuePayload(out string payload))
+            for (int processed = 0; processed < 32 && TryDequeuePayload(out string payload); processed++)
             {
                 try
                 {
@@ -148,8 +133,7 @@ namespace AishiKeys.Fika
                 }
                 catch (Exception ex)
                 {
-                    _log.LogWarning(
-                        "Aishi Keys Fika: payload handler failed: " + ex.Message);
+                    _log.LogWarning("Aishi Keys Fika: payload handler failed: " + ex.Message);
                 }
             }
         }
@@ -158,19 +142,15 @@ namespace AishiKeys.Fika
         {
             if (_initialized)
             {
-                FikaEventDispatcher.UnsubscribeEvent<FikaNetworkManagerCreatedEvent>(
-                    OnNetworkManagerCreated);
-                FikaEventDispatcher.UnsubscribeEvent<FikaNetworkManagerDestroyedEvent>(
-                    OnNetworkManagerDestroyed);
-                FikaEventDispatcher.UnsubscribeEvent<FikaRaidStartedEvent>(
-                    OnRaidStarted);
+                FikaEventDispatcher.UnsubscribeEvent<FikaNetworkManagerCreatedEvent>(OnNetworkManagerCreated);
+                FikaEventDispatcher.UnsubscribeEvent<FikaNetworkManagerDestroyedEvent>(OnNetworkManagerDestroyed);
+                FikaEventDispatcher.UnsubscribeEvent<FikaRaidStartedEvent>(OnRaidStarted);
             }
 
             _initialized = false;
             Active = false;
             _networkManager = null;
             _registeredNetworkManager = null;
-
             lock (_queueLock)
                 _receivedPayloads.Clear();
         }
@@ -179,7 +159,6 @@ namespace AishiKeys.Fika
         {
             if (!Active || fikaEvent == null)
                 return;
-
             AttachNetworkManager(fikaEvent.Manager, "FikaNetworkManagerCreatedEvent");
         }
 
@@ -187,9 +166,7 @@ namespace AishiKeys.Fika
         {
             if (!Active || fikaEvent == null)
                 return;
-
-            if (_networkManager == null ||
-                ReferenceEquals(_networkManager, fikaEvent.Manager))
+            if (_networkManager == null || ReferenceEquals(_networkManager, fikaEvent.Manager))
             {
                 _networkManager = null;
                 _registeredNetworkManager = null;
@@ -203,7 +180,6 @@ namespace AishiKeys.Fika
         {
             if (!Active || fikaEvent == null)
                 return;
-
             _isServer = fikaEvent.IsServer;
             EnsureNetworkManager();
         }
@@ -212,30 +188,22 @@ namespace AishiKeys.Fika
         {
             if (!Active || _networkManager != null)
                 return;
-
             try
             {
                 if (!Singleton<IFikaNetworkManager>.Instantiated)
                     return;
-
-                AttachNetworkManager(
-                    Singleton<IFikaNetworkManager>.Instance,
-                    "Singleton<IFikaNetworkManager> fallback");
+                AttachNetworkManager(Singleton<IFikaNetworkManager>.Instance, "Singleton<IFikaNetworkManager> fallback");
             }
             catch (Exception ex)
             {
-                _log.LogDebug(
-                    "Aishi Keys Fika: network manager is not ready yet: " + ex.Message);
+                _log.LogDebug("Aishi Keys Fika: network manager is not ready yet: " + ex.Message);
             }
         }
 
-        private void AttachNetworkManager(
-            IFikaNetworkManager networkManager,
-            string source)
+        private void AttachNetworkManager(IFikaNetworkManager networkManager, string source)
         {
             if (!Active || networkManager == null)
                 return;
-
             if (ReferenceEquals(_registeredNetworkManager, networkManager))
             {
                 _networkManager = networkManager;
@@ -248,26 +216,19 @@ namespace AishiKeys.Fika
                 _networkManager = networkManager;
                 _registeredNetworkManager = networkManager;
                 RefreshRole();
-
-                _log.LogInfo(
-                    "Aishi Keys Fika: packet registered using " + source +
-                    ". manager=" + networkManager.GetType().FullName +
-                    ", server=" + _isServer +
-                    ", headless=" + IsHeadless + ".");
+                _log.LogInfo("Aishi Keys Fika: packet registered using " + source + ". manager=" + networkManager.GetType().FullName + ", server=" + _isServer + ", headless=" + IsHeadless + ".");
             }
             catch (Exception ex)
             {
                 _networkManager = null;
                 _registeredNetworkManager = null;
-                _log.LogError(
-                    "Aishi Keys Fika: packet registration failed: " + ex);
+                _log.LogError("Aishi Keys Fika: packet registration failed: " + ex);
             }
         }
 
         private void OnPacketReceived(AishiKeysPacket packet)
         {
-            if (!Active || string.IsNullOrEmpty(packet.Payload) ||
-                packet.Payload.Length > MaximumPayloadLength)
+            if (!Active || string.IsNullOrEmpty(packet.Payload) || packet.Payload.Length > MaximumPayloadLength)
             {
                 return;
             }
@@ -276,7 +237,6 @@ namespace AishiKeys.Fika
             {
                 while (_receivedPayloads.Count >= MaximumQueuedPayloads)
                     _receivedPayloads.Dequeue();
-
                 _receivedPayloads.Enqueue(packet.Payload);
             }
         }
@@ -308,7 +268,6 @@ namespace AishiKeys.Fika
 
             if (_networkManager == null)
                 return;
-
             string managerName = _networkManager.GetType().Name;
             if (managerName.IndexOf("Server", StringComparison.OrdinalIgnoreCase) >= 0)
                 _isServer = true;

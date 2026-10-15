@@ -1,285 +1,285 @@
 {
-    "Shoreline": [     
-        {
-            "locationId": "(-773.912, -58.760, 462.564)",
-            "probability": 0.25,
-            "template": {
-                "Id": "quest_container [85c9af3e-c0e9-4e44-81d4-b8baf1d9561a]",
-                "IsContainer": false,
-                "useGravity": true,
-                "randomRotation": false,
-                "Position": {
-                    "x": -779.833,
-                    "y": -59.221,
-                    "z": 495.031
-                },
-                "Rotation": {
-                    "x": 84.34,
-                    "y": 359.9892,
-                    "z": 359.958
-                },
-                "IsGroupPosition": false,
-                "GroupPositions": [
-                    {
-                        "Name": "groupPoint[0]",
-                        "Weight": 1,
-                        "Position": {
-                            "x": -779.833,
-                            "y": -59.221,
-                            "z": 495.031
-                        },
-                        "Rotation": {
-                          "x": 200,
-                          "y": 180,
-                          "z": 0
-                        }
-                    }
-                ],
-                "IsAlwaysSpawn": false,
-                "Root": "69652163bc904db1eef512cf",
-                "Items": [
-                    {
-                        "_id": "69652163bc904db1eef512cf",
-                        "_tpl": "6963cefaf6234b5806891f49",
-                        "upd": {
-                            "StackObjectsCount": 1
-                        }
-                    }
-                ]
-            },
-            "itemDistribution": [
-                {
-                    "composedKey": {
-                        "key": "696338786aa3fd1d273cdb24"
-                    },
-                    "relativeProbability": 1
-                }
-            ]
+  "Shoreline": [
+    {
+      "locationId": "(-773.912, -58.760, 462.564)",
+      "probability": 0.25,
+      "template": {
+        "Id": "quest_container [85c9af3e-c0e9-4e44-81d4-b8baf1d9561a]",
+        "IsContainer": false,
+        "useGravity": true,
+        "randomRotation": false,
+        "Position": {
+          "x": -779.833,
+          "y": -59.221,
+          "z": 495.031
         },
-        {
-            "locationId": "(-773.012, -58.760, 462.825)",
-            "probability": 0.25,
-            "template": {
-                "Id": "Dogtag [8c4dbceb-381a-4fbb-9de8-041e9de3cc3a]",
-                "IsContainer": false,
-                "useGravity": true,
-                "randomRotation": false,
-                "Position": {
-                    "x": -773.012,
-                    "y": -58.760,
-                    "z": 462.825
-                },
-                "Rotation": {
-                    "x": 200,
-                    "y": 180,
-                    "z": 0
-                },
-                "IsGroupPosition": true,
-                "GroupPositions": [],
-                "IsAlwaysSpawn": false,
-                "Root": "6965216917de76b34f732d1b",
-                "Items": [
-                    {
-                        "_id": "6965216917de76b34f732d1b",
-                        "_tpl": "6963dede566c81e5c5dc9b4a",
-                        "upd": {
-                            "StackObjectsCount": 1
-                        }
-                    }
-                ]
-            },
-            "itemDistribution": [
-                {
-                    "composedKey": {
-                        "key": "6963e63b836300b3f732b1fc"
-                    },
-                    "relativeProbability": 1
-                }
-            ]
+        "Rotation": {
+          "x": 84.34,
+          "y": 359.9892,
+          "z": 359.958
         },
-        {
-            "locationId": "(-772.014, -58.760, 462.929)",
-            "probability": 0.25,
-            "template": {
-                "Id": "Card [edb2d330-e8e4-4598-bf99-f4b60fb372bd]",
-                "IsContainer": false,
-                "useGravity": true,
-                "randomRotation": false,
-                "Position": {
-                    "x": -772.014,
-                    "y": -58.760,
-                    "z": 462.929
-                },
-                "Rotation": {
-                    "x": 200,
-                    "y": 90,
-                    "z": 0
-                },
-                "Scale": {
-                    "x": 2,
-                    "y": 2,
-                    "z": 2
-                },
-                "IsGroupPosition": true,
-                "GroupPositions": [],
-                "IsAlwaysSpawn": false,
-                "Root": "6965217173ca87426a12af2e",
-                "Items": [
-                    {
-                        "_id": "6965217173ca87426a12af2e",
-                        "_tpl": "6963e26f0dd99b3578894fa1",
-                        "upd": {
-                            "StackObjectsCount": 1
-                        }
-                    }
-                ]
+        "IsGroupPosition": false,
+        "GroupPositions": [
+          {
+            "Name": "groupPoint[0]",
+            "Weight": 1,
+            "Position": {
+              "x": -779.833,
+              "y": -59.221,
+              "z": 495.031
             },
-            "itemDistribution": [
-                {
-                    "composedKey": {
-                        "key": "6963e6a2f0ed30298afbf2dc"
-                    },
-                    "relativeProbability": 1
-                }
-            ]
-        },
+            "Rotation": {
+              "x": 200,
+              "y": 180,
+              "z": 0
+            }
+          }
+        ],
+        "IsAlwaysSpawn": false,
+        "Root": "69652163bc904db1eef512cf",
+        "Items": [
+          {
+            "_id": "69652163bc904db1eef512cf",
+            "_tpl": "6963cefaf6234b5806891f49",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      },
+      "itemDistribution": [
         {
-            "locationId": "(-772.014, -58.760, 462.929)",
-            "probability": 0.25,
-            "template": {
-                "Id": "Card [edb2d330-e8e4-4598-bf99-f4b60fb372bd]",
-                "IsContainer": false,
-                "useGravity": true,
-                "randomRotation": false,
-                "Position": {
-                    "x": -772.014,
-                    "y": -58.760,
-                    "z": 462.929
-                },
-                "Rotation": {
-                    "x": 200,
-                    "y": 90,
-                    "z": 0
-                },
-                "Scale": {
-                    "x": 2,
-                    "y": 2,
-                    "z": 2
-                },
-                "IsGroupPosition": true,
-                "GroupPositions": [],
-                "IsAlwaysSpawn": false,
-                "Root": "6965217173ca87426a12af2e",
-                "Items": [
-                    {
-                        "_id": "6965217173ca87426a12af2e",
-                        "_tpl": "6963e26f0dd99b3578894fa1",
-                        "upd": {
-                            "StackObjectsCount": 1
-                        }
-                    }
-                ]
-            },
-            "itemDistribution": [
-                {
-                    "composedKey": {
-                        "key": "6963e6a2f0ed30298afbf2dc"
-                    },
-                    "relativeProbability": 1
-                }
-            ]
-        },
-        {
-            "locationId": "(-599.058, -58.541, 479.427)",
-            "probability": 0.25,
-            "template": {
-                "Id": "Untar Docs [cf223fe0-6da4-4b12-8157-8b44a5cc3f10]",
-                "IsContainer": false,
-                "useGravity": true,
-                "randomRotation": false,
-                "Position": {
-                    "x": -599.058,
-                    "y": -58.541,
-                    "z": 479.427
-                },
-                "Rotation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                },
-                "Scale": {
-                    "x": 2,
-                    "y": 2,
-                    "z": 2
-                },
-                "IsGroupPosition": true,
-                "GroupPositions": [],
-                "IsAlwaysSpawn": false,
-                "Root": "69e59599e938aad6934b5506",
-                "Items": [
-                    {
-                        "_id": "69e59599e938aad6934b5506",
-                        "_tpl": "69e58c872c4f50f3899570be",
-                        "upd": {
-                            "StackObjectsCount": 1
-                        }
-                    }
-                ]
-            },
-            "itemDistribution": [
-                {
-                    "composedKey": {
-                        "key": "69e595c180c586d6d3bd7936"
-                    },
-                    "relativeProbability": 1
-                }
-            ]
-        },
-        {
-            "locationId": "(-597.582, -58.599, 478.644)",
-            "probability": 0.25,
-            "template": {
-                "Id": "Untar Drive [9838b671-2990-4d8f-9bce-0b6c30530c5a]",
-                "IsContainer": false,
-                "useGravity": true,
-                "randomRotation": false,
-                "Position": {
-                    "x": -597.582,
-                    "y": -58.599,
-                    "z": 478.644
-                },
-                "Rotation": {
-                    "x": 200,
-                    "y": 90,
-                    "z": 0
-                },
-                "Scale": {
-                    "x": 2,
-                    "y": 2,
-                    "z": 2
-                },
-                "IsGroupPosition": true,
-                "GroupPositions": [],
-                "IsAlwaysSpawn": false,
-                "Root": "69e596893aa76165d37b1933",
-                "Items": [
-                    {
-                        "_id": "69e596893aa76165d37b1933",
-                        "_tpl": "69e58ee426845b37bdc250fd",
-                        "upd": {
-                            "StackObjectsCount": 1
-                        }
-                    }
-                ]
-            },
-            "itemDistribution": [
-                {
-                    "composedKey": {
-                        "key": "69e5968e937c0adf1527cd87"
-                    },
-                    "relativeProbability": 1
-                }
-            ]
+          "composedKey": {
+            "key": "696338786aa3fd1d273cdb24"
+          },
+          "relativeProbability": 1
         }
-    ]
+      ]
+    },
+    {
+      "locationId": "(-773.012, -58.760, 462.825)",
+      "probability": 0.25,
+      "template": {
+        "Id": "Dogtag [8c4dbceb-381a-4fbb-9de8-041e9de3cc3a]",
+        "IsContainer": false,
+        "useGravity": true,
+        "randomRotation": false,
+        "Position": {
+          "x": -773.012,
+          "y": -58.76,
+          "z": 462.825
+        },
+        "Rotation": {
+          "x": 200,
+          "y": 180,
+          "z": 0
+        },
+        "IsGroupPosition": true,
+        "GroupPositions": [],
+        "IsAlwaysSpawn": false,
+        "Root": "6965216917de76b34f732d1b",
+        "Items": [
+          {
+            "_id": "6965216917de76b34f732d1b",
+            "_tpl": "6963dede566c81e5c5dc9b4a",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      },
+      "itemDistribution": [
+        {
+          "composedKey": {
+            "key": "6963e63b836300b3f732b1fc"
+          },
+          "relativeProbability": 1
+        }
+      ]
+    },
+    {
+      "locationId": "(-772.014, -58.760, 462.929)",
+      "probability": 0.25,
+      "template": {
+        "Id": "Card [edb2d330-e8e4-4598-bf99-f4b60fb372bd]",
+        "IsContainer": false,
+        "useGravity": true,
+        "randomRotation": false,
+        "Position": {
+          "x": -772.014,
+          "y": -58.76,
+          "z": 462.929
+        },
+        "Rotation": {
+          "x": 200,
+          "y": 90,
+          "z": 0
+        },
+        "Scale": {
+          "x": 2,
+          "y": 2,
+          "z": 2
+        },
+        "IsGroupPosition": true,
+        "GroupPositions": [],
+        "IsAlwaysSpawn": false,
+        "Root": "6965217173ca87426a12af2e",
+        "Items": [
+          {
+            "_id": "6965217173ca87426a12af2e",
+            "_tpl": "6963e26f0dd99b3578894fa1",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      },
+      "itemDistribution": [
+        {
+          "composedKey": {
+            "key": "6963e6a2f0ed30298afbf2dc"
+          },
+          "relativeProbability": 1
+        }
+      ]
+    },
+    {
+      "locationId": "(-772.014, -58.760, 462.929)",
+      "probability": 0.25,
+      "template": {
+        "Id": "Card [edb2d330-e8e4-4598-bf99-f4b60fb372bd]",
+        "IsContainer": false,
+        "useGravity": true,
+        "randomRotation": false,
+        "Position": {
+          "x": -772.014,
+          "y": -58.76,
+          "z": 462.929
+        },
+        "Rotation": {
+          "x": 200,
+          "y": 90,
+          "z": 0
+        },
+        "Scale": {
+          "x": 2,
+          "y": 2,
+          "z": 2
+        },
+        "IsGroupPosition": true,
+        "GroupPositions": [],
+        "IsAlwaysSpawn": false,
+        "Root": "6965217173ca87426a12af2e",
+        "Items": [
+          {
+            "_id": "6965217173ca87426a12af2e",
+            "_tpl": "6963e26f0dd99b3578894fa1",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      },
+      "itemDistribution": [
+        {
+          "composedKey": {
+            "key": "6963e6a2f0ed30298afbf2dc"
+          },
+          "relativeProbability": 1
+        }
+      ]
+    },
+    {
+      "locationId": "(-599.058, -58.541, 479.427)",
+      "probability": 0.25,
+      "template": {
+        "Id": "Untar Docs [cf223fe0-6da4-4b12-8157-8b44a5cc3f10]",
+        "IsContainer": false,
+        "useGravity": true,
+        "randomRotation": false,
+        "Position": {
+          "x": -599.058,
+          "y": -58.541,
+          "z": 479.427
+        },
+        "Rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "Scale": {
+          "x": 2,
+          "y": 2,
+          "z": 2
+        },
+        "IsGroupPosition": true,
+        "GroupPositions": [],
+        "IsAlwaysSpawn": false,
+        "Root": "69e59599e938aad6934b5506",
+        "Items": [
+          {
+            "_id": "69e59599e938aad6934b5506",
+            "_tpl": "69e58c872c4f50f3899570be",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      },
+      "itemDistribution": [
+        {
+          "composedKey": {
+            "key": "69e595c180c586d6d3bd7936"
+          },
+          "relativeProbability": 1
+        }
+      ]
+    },
+    {
+      "locationId": "(-597.582, -58.599, 478.644)",
+      "probability": 0.25,
+      "template": {
+        "Id": "Untar Drive [9838b671-2990-4d8f-9bce-0b6c30530c5a]",
+        "IsContainer": false,
+        "useGravity": true,
+        "randomRotation": false,
+        "Position": {
+          "x": -597.582,
+          "y": -58.599,
+          "z": 478.644
+        },
+        "Rotation": {
+          "x": 200,
+          "y": 90,
+          "z": 0
+        },
+        "Scale": {
+          "x": 2,
+          "y": 2,
+          "z": 2
+        },
+        "IsGroupPosition": true,
+        "GroupPositions": [],
+        "IsAlwaysSpawn": false,
+        "Root": "69e596893aa76165d37b1933",
+        "Items": [
+          {
+            "_id": "69e596893aa76165d37b1933",
+            "_tpl": "69e58ee426845b37bdc250fd",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      },
+      "itemDistribution": [
+        {
+          "composedKey": {
+            "key": "69e5968e937c0adf1527cd87"
+          },
+          "relativeProbability": 1
+        }
+      ]
+    }
+  ]
 }

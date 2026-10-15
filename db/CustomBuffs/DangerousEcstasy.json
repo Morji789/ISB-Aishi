@@ -1,117 +1,117 @@
 {
-    "DangerousEcstasy": [
-        {
-            "BuffType": "SkillRate",
-            "Chance": 1,
-            "Delay": 1,
-            "Duration": 480,
-            "Value": 15,
-            "AbsoluteValue": true,
-            "SkillName": "Endurance"
-        },
-        {
-            "BuffType": "SkillRate",
-            "Chance": 1,
-            "Delay": 1,
-            "Duration": 480,
-            "Value": 15,
-            "AbsoluteValue": true,
-            "SkillName": "Strength"
-        },
-        {
-            "BuffType": "SkillRate",
-            "Chance": 1,
-            "Delay": 1,
-            "Duration": 480,
-            "Value": 15,
-            "AbsoluteValue": true,
-            "SkillName": "Health"
-        },
-        {
-            "BuffType": "HealthRate",
-            "Chance": 1,
-            "Delay": 1,
-            "Duration": 15,
-            "Value": 35,
-            "AbsoluteValue": true,
-            "SkillName": ""
-        },
-        {
-            "BuffType": "RemoveAllBloodLosses",
-            "Chance": 1,
-            "Delay": 1,
-            "Duration": 90,
-            "AbsoluteValue": true,
-            "SkillName": ""
-        },
-        {
-            "BuffType": "WeightLimit",
-            "Chance": 1,
-            "Delay": 1,
-            "Duration": 180,
-            "Value": 25,
-            "AbsoluteValue": true,
-            "SkillName": ""
-        },
-        {
-            "BuffType": "StaminaRate",
-            "Chance": 1,
-            "Delay": 1,
-            "Duration": 280,
-            "Value": 10,
-            "AbsoluteValue": true,
-            "SkillName": ""
-        },
-        {
-            "BuffType": "MisfireEffect",
-            "Chance": 1,
-            "Delay": 60,
-            "Duration": 18,
-            "AbsoluteValue": true,
-            "SkillName": ""
-        },
-        {
-            "BuffType": "Contusion",
-            "Chance": 1,
-            "Delay": 30,
-            "Duration": 30,
-            "AbsoluteValue": true,
-            "SkillName": ""
-        },
-        {
-            "BuffType": "HandsTremor",
-            "Chance": 1,
-            "Delay": 30,
-            "Duration": 30,
-            "AbsoluteValue": true,
-            "SkillName": ""
-        },
-        {
-            "BuffType": "HealthRate",
-            "Chance": 1,
-            "Delay": 480,
-            "Duration": 6,
-            "Value": -2,
-            "AbsoluteValue": true,
-            "SkillName": ""
-        },
-        {
-            "BuffType": "SkillRate",
-            "Chance": 1,
-            "Delay": 1,
-            "Duration": 480,
-            "Value": -25,
-            "AbsoluteValue": true,
-            "SkillName": "Metabolism"
-        },
-        {
-            "BuffType": "SkillRate",
-            "Chance": 1,
-            "Delay": 1,
-            "Duration": 480,
-            "Value": -25,
-            "AbsoluteValue": true,
-            "SkillName": "Immunity"
-        }
-    ]
+  "DangerousEcstasy": [
+    {
+      "BuffType": "SkillRate",
+      "Chance": 1,
+      "Delay": 1,
+      "Duration": 480,
+      "Value": 15,
+      "AbsoluteValue": true,
+      "SkillName": "Endurance"
+    },
+    {
+      "BuffType": "SkillRate",
+      "Chance": 1,
+      "Delay": 1,
+      "Duration": 480,
+      "Value": 15,
+      "AbsoluteValue": true,
+      "SkillName": "Strength"
+    },
+    {
+      "BuffType": "SkillRate",
+      "Chance": 1,
+      "Delay": 1,
+      "Duration": 480,
+      "Value": 15,
+      "AbsoluteValue": true,
+      "SkillName": "Health"
+    },
+    {
+      "BuffType": "HealthRate",
+      "Chance": 1,
+      "Delay": 1,
+      "Duration": 15,
+      "Value": 35,
+      "AbsoluteValue": true,
+      "SkillName": ""
+    },
+    {
+      "BuffType": "RemoveAllBloodLosses",
+      "Chance": 1,
+      "Delay": 1,
+      "Duration": 90,
+      "AbsoluteValue": true,
+      "SkillName": ""
+    },
+    {
+      "BuffType": "WeightLimit",
+      "Chance": 1,
+      "Delay": 1,
+      "Duration": 180,
+      "Value": 25,
+      "AbsoluteValue": true,
+      "SkillName": ""
+    },
+    {
+      "BuffType": "StaminaRate",
+      "Chance": 1,
+      "Delay": 1,
+      "Duration": 280,
+      "Value": 10,
+      "AbsoluteValue": true,
+      "SkillName": ""
+    },
+    {
+      "BuffType": "MisfireEffect",
+      "Chance": 1,
+      "Delay": 60,
+      "Duration": 18,
+      "AbsoluteValue": true,
+      "SkillName": ""
+    },
+    {
+      "BuffType": "Contusion",
+      "Chance": 1,
+      "Delay": 30,
+      "Duration": 30,
+      "AbsoluteValue": true,
+      "SkillName": ""
+    },
+    {
+      "BuffType": "HandsTremor",
+      "Chance": 1,
+      "Delay": 30,
+      "Duration": 30,
+      "AbsoluteValue": true,
+      "SkillName": ""
+    },
+    {
+      "BuffType": "HealthRate",
+      "Chance": 1,
+      "Delay": 480,
+      "Duration": 6,
+      "Value": -2,
+      "AbsoluteValue": true,
+      "SkillName": ""
+    },
+    {
+      "BuffType": "SkillRate",
+      "Chance": 1,
+      "Delay": 1,
+      "Duration": 480,
+      "Value": -25,
+      "AbsoluteValue": true,
+      "SkillName": "Metabolism"
+    },
+    {
+      "BuffType": "SkillRate",
+      "Chance": 1,
+      "Delay": 1,
+      "Duration": 480,
+      "Value": -25,
+      "AbsoluteValue": true,
+      "SkillName": "Immunity"
+    }
+  ]
 }

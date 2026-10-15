@@ -1,0 +1,13 @@
+{
+  "AishiAnomalyInertia": [
+    {
+      "BuffType": "StaminaRate",
+      "Chance": 1,
+      "Delay": 0,
+      "Duration": 300,
+      "Value": 0,
+      "AbsoluteValue": true,
+      "SkillName": ""
+    }
+  ]
+}

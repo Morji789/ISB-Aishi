@@ -16,38 +16,28 @@ using System.Text.Json;
 using IOPath = System.IO.Path;
 
 namespace Aishi;
-
 public static class AishiRepeatables
 {
     public const string TraderId = "690766de550bc322a810ea1e";
-
     private const string HarmonyId = "com.samc137.aishi.repeatablesquestssys";
-
     private static readonly string[] SupportedQuestTypes = ["Elimination", "Completion", "Exploration"];
-
     private static readonly JsonSerializerOptions JsonOptions = new()
     {
         PropertyNameCaseInsensitive = true,
         ReadCommentHandling = JsonCommentHandling.Skip,
         AllowTrailingCommas = true
     };
-
     private static readonly object Sync = new();
-
     private static ILogger? _logger;
     private static TemplateTable? _templateTable;
     private static AishiRepeatablesConfig? _config;
     private static bool _initialized;
-
     [ThreadStatic]
     private static DailyExtraGenerationContext? _dailyExtraGeneration;
-
     [ThreadStatic]
     private static bool _forceGuaranteedDailyAishi;
-
     [ThreadStatic]
     private static CompletionGenerationContext? _completionGeneration;
-
     public static void Initialize(string pathToMod, TemplateTable templateTable, ILogger logger)
     {
         lock (Sync)
@@ -59,32 +49,34 @@ public static class AishiRepeatables
 
             _logger = logger;
             _templateTable = templateTable;
-
             var configPath = IOPath.Combine(pathToMod, "db", "AishiRepeatables.json");
-
             try
             {
                 if (!File.Exists(configPath))
                 {
                     logger.LogWarning($"[ISB Aishi] Repeatable config not found: {configPath}. Aishi repeatables will stay disabled.");
-                    _config = new AishiRepeatablesConfig { Enabled = false };
+                    _config = new AishiRepeatablesConfig
+                    {
+                        Enabled = false
+                    };
                     _initialized = true;
                     return;
                 }
 
                 var json = File.ReadAllText(configPath);
                 _config = JsonSerializer.Deserialize<AishiRepeatablesConfig>(json, JsonOptions);
-
                 if (_config is null)
                 {
                     logger.LogWarning("[ISB Aishi] AishiRepeatables.json could not be deserialized. Aishi repeatables will stay disabled.");
-                    _config = new AishiRepeatablesConfig { Enabled = false };
+                    _config = new AishiRepeatablesConfig
+                    {
+                        Enabled = false
+                    };
                     _initialized = true;
                     return;
                 }
 
                 NormalizeConfig(_config);
-
                 if (_config.Enabled)
                 {
                     var harmony = new Harmony(HarmonyId);
@@ -97,9 +89,7 @@ public static class AishiRepeatables
                     harmony.CreateClassProcessor(typeof(DailyQuestCountPatch)).Patch();
                     harmony.CreateClassProcessor(typeof(RandomDailyGenerationPatch)).Patch();
                     harmony.CreateClassProcessor(typeof(RandomQuestTypePatch)).Patch();
-
                     LogInformation("[ISB Aishi] Aishi daily/weekly quests loaded.");
-
                     if (_config.ForceAishiTempQuests)
                     {
                         LogInformation("[ISB Aishi] forceAishiTempQuests is ENABLED. Eligible Daily/Weekly quest types will be forced to Aishi.");
@@ -107,10 +97,7 @@ public static class AishiRepeatables
 
                     if (_config.GuaranteedDailyQuests.Max > 0)
                     {
-                        LogInformation(
-                            "[ISB Aishi] Guaranteed extra Daily quests set: {Min}-{Max} Aishi quest(s) per Daily reset.",
-                            _config.GuaranteedDailyQuests.Min,
-                            _config.GuaranteedDailyQuests.Max);
+                        LogInformation("[ISB Aishi] Guaranteed extra Daily quests set: {Min}-{Max} Aishi quest(s) per Daily reset.", _config.GuaranteedDailyQuests.Min, _config.GuaranteedDailyQuests.Max);
                     }
                 }
 
@@ -119,7 +106,10 @@ public static class AishiRepeatables
             catch (Exception ex)
             {
                 logger.LogError(ex, "[ISB Aishi] Failed to initialize Aishi repeatables. Aishi repeatables will stay disabled.");
-                _config = new AishiRepeatablesConfig { Enabled = false };
+                _config = new AishiRepeatablesConfig
+                {
+                    Enabled = false
+                };
                 _initialized = true;
             }
         }
@@ -136,19 +126,15 @@ public static class AishiRepeatables
     public static HashSet<string> GetQuestTypes(string repeatableName)
     {
         var preset = GetPreset(repeatableName);
-
         if (preset?.QuestTypes is null || preset.QuestTypes.Count == 0)
         {
-            return ["Elimination"];
+            return["Elimination"];
         }
 
         var result = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
-
         foreach (var type in preset.QuestTypes)
         {
-            var normalized = SupportedQuestTypes.FirstOrDefault(candidate =>
-                string.Equals(candidate, type, StringComparison.OrdinalIgnoreCase));
-
+            var normalized = SupportedQuestTypes.FirstOrDefault(candidate => string.Equals(candidate, type, StringComparison.OrdinalIgnoreCase));
             if (normalized is not null)
             {
                 result.Add(normalized);
@@ -158,7 +144,7 @@ public static class AishiRepeatables
         return result.Count > 0 ? result : ["Elimination"];
     }
 
-    private static void LogInformation(string message, params object?[] args)
+    private static void LogInformation(string message, params object? [] args)
     {
         if (ShowRepeatableQuestLogs)
         {
@@ -166,7 +152,7 @@ public static class AishiRepeatables
         }
     }
 
-    private static void LogDebug(string message, params object?[] args)
+    private static void LogDebug(string message, params object? [] args)
     {
         if (ShowRepeatableQuestLogs)
         {
@@ -196,9 +182,12 @@ public static class AishiRepeatables
 
     private static void NormalizeConfig(AishiRepeatablesConfig config)
     {
-        config.GuaranteedDailyQuests ??= new IntRange { Min = 1, Max = 2 };
+        config.GuaranteedDailyQuests ??= new IntRange
+        {
+            Min = 1,
+            Max = 2
+        };
         NormalizeRange(config.GuaranteedDailyQuests, 0);
-
         NormalizePreset(config.Daily);
         NormalizePreset(config.Weekly);
     }
@@ -209,7 +198,6 @@ public static class AishiRepeatables
         preset.Images ??= [];
         preset.Reroll ??= new RerollPreset();
         preset.Reroll.ChangeCost ??= [];
-
         preset.Elimination ??= new EliminationPreset();
         preset.Elimination.Targets ??= [];
         preset.Elimination.BodyParts ??= [];
@@ -220,7 +208,6 @@ public static class AishiRepeatables
         preset.Elimination.ConditionOverrides ??= new AdvancedEliminationConditionPreset();
         preset.Elimination.ConditionOverrides.WeaponCalibers ??= [];
         preset.Elimination.ConditionOverrides.Daytime ??= new DaytimePreset();
-
         foreach (var target in preset.Elimination.Targets)
         {
             target.Data ??= new TargetDataPreset();
@@ -245,8 +232,11 @@ public static class AishiRepeatables
         preset.Completion.RequiredItemTypeBlacklist ??= [];
         preset.Completion.ItemsWhitelist ??= [];
         preset.Completion.ItemsBlacklist ??= [];
-        preset.Completion.RequestedBulletCount ??= new IntRange { Min = 15, Max = 40 };
-
+        preset.Completion.RequestedBulletCount ??= new IntRange
+        {
+            Min = 15,
+            Max = 40
+        };
         foreach (var levelPool in preset.Completion.ItemsWhitelist)
         {
             levelPool.ItemIds ??= [];
@@ -261,20 +251,17 @@ public static class AishiRepeatables
         preset.Exploration.Locations ??= [];
         preset.Exploration.SpecificExits ??= new SpecificExitsPreset();
         preset.Exploration.SpecificExits.PassageRequirementWhitelist ??= [];
-
         preset.Rewards ??= new RewardPreset();
         preset.Rewards.Xp ??= new IntRange();
         preset.Rewards.Money ??= new MoneyRange();
         preset.Rewards.Standing ??= new DoubleRange();
         preset.Rewards.ItemRewards ??= new ItemRewardPreset();
         preset.Rewards.ItemRewards.Pool ??= [];
-
-        (preset.Elimination.MinKills, preset.Elimination.MaxKills) = NormalizePair(
-            preset.Elimination.MinKills, preset.Elimination.MaxKills, 1);
-        (preset.Elimination.MinPmcKills, preset.Elimination.MaxPmcKills) = NormalizePair(
-            preset.Elimination.MinPmcKills, preset.Elimination.MaxPmcKills, 1);
-        (preset.Elimination.MinBossKills, preset.Elimination.MaxBossKills) = NormalizePair(
-            preset.Elimination.MinBossKills, preset.Elimination.MaxBossKills, 1);
+        preset.Rewards.SkillRewards ??= new SkillRewardPreset();
+        AishiSkillRewards.Normalize(preset.Rewards.SkillRewards);
+        (preset.Elimination.MinKills, preset.Elimination.MaxKills) = NormalizePair(preset.Elimination.MinKills, preset.Elimination.MaxKills, 1);
+        (preset.Elimination.MinPmcKills, preset.Elimination.MaxPmcKills) = NormalizePair(preset.Elimination.MinPmcKills, preset.Elimination.MaxPmcKills, 1);
+        (preset.Elimination.MinBossKills, preset.Elimination.MaxBossKills) = NormalizePair(preset.Elimination.MinBossKills, preset.Elimination.MaxBossKills, 1);
         NormalizeRange(preset.Completion.RequestedItemCount, 1);
         NormalizeRange(preset.Completion.UniqueItemCount, 1);
         NormalizeRange(preset.Completion.RequestedBulletCount, 1);
@@ -282,15 +269,9 @@ public static class AishiRepeatables
         NormalizeRange(preset.Rewards.Xp, 0);
         NormalizeRange(preset.Rewards.Money, 0);
         NormalizeRange(preset.Rewards.ItemRewards, 0);
-
         if (preset.Elimination.Targets.Count == 0)
         {
-            preset.Elimination.Targets.Add(new TargetPreset
-            {
-                Key = "Savage",
-                RelativeProbability = 1,
-                Data = new TargetDataPreset { IsBoss = false, IsPmc = false }
-            });
+            preset.Elimination.Targets.Add(new TargetPreset { Key = "Savage", RelativeProbability = 1, Data = new TargetDataPreset { IsBoss = false, IsPmc = false } });
         }
 
         if (preset.Elimination.Locations.Count == 0)
@@ -298,13 +279,8 @@ public static class AishiRepeatables
             preset.Elimination.Locations.Add("any");
         }
 
-        (preset.Exploration.MinExtracts, preset.Exploration.MaxExtracts) = NormalizePair(
-            preset.Exploration.MinExtracts, preset.Exploration.MaxExtracts, 1);
-        (preset.Exploration.MinExtractsWithSpecificExit, preset.Exploration.MaxExtractsWithSpecificExit) = NormalizePair(
-            preset.Exploration.MinExtractsWithSpecificExit,
-            preset.Exploration.MaxExtractsWithSpecificExit,
-            1);
-
+        (preset.Exploration.MinExtracts, preset.Exploration.MaxExtracts) = NormalizePair(preset.Exploration.MinExtracts, preset.Exploration.MaxExtracts, 1);
+        (preset.Exploration.MinExtractsWithSpecificExit, preset.Exploration.MaxExtractsWithSpecificExit) = NormalizePair(preset.Exploration.MinExtractsWithSpecificExit, preset.Exploration.MaxExtractsWithSpecificExit, 1);
         if (preset.Completion.UniqueItemCount.Max > preset.Completion.RequestedItemCount.Max)
         {
             preset.Completion.UniqueItemCount.Max = preset.Completion.RequestedItemCount.Max;
@@ -320,7 +296,6 @@ public static class AishiRepeatables
     {
         min = Math.Max(floor, min);
         max = Math.Max(floor, max);
-
         if (max < min)
         {
             (min, max) = (max, min);
@@ -333,7 +308,6 @@ public static class AishiRepeatables
     {
         range.Min = Math.Max(floor, range.Min);
         range.Max = Math.Max(floor, range.Max);
-
         if (range.Max < range.Min)
         {
             (range.Min, range.Max) = (range.Max, range.Min);
@@ -342,7 +316,7 @@ public static class AishiRepeatables
 
     private static string? GetQuestImage(RepeatablePreset preset, string questType)
     {
-        foreach (var (type, image) in preset.Images)
+        foreach (var(type, image)in preset.Images)
         {
             if (string.Equals(type, questType, StringComparison.OrdinalIgnoreCase) && !string.IsNullOrWhiteSpace(image))
             {
@@ -361,19 +335,8 @@ public static class AishiRepeatables
             quest.Image = image;
         }
 
-        quest.ChangeCost = preset.Reroll.ChangeCost
-            .Where(cost => MongoId.IsValidMongoId(cost.TemplateId) && cost.Count >= 0)
-            .Select(cost => new ChangeCost
-            {
-                TemplateId = new MongoId(cost.TemplateId),
-                Count = cost.Count
-            })
-            .ToList();
-
-        LogDebug(
-            "[ISB Aishi] Applied custom {RepeatableName} {QuestType} image/reroll settings.",
-            repeatableName,
-            questType);
+        quest.ChangeCost = preset.Reroll.ChangeCost.Where(cost => MongoId.IsValidMongoId(cost.TemplateId) && cost.Count >= 0).Select(cost => new ChangeCost { TemplateId = new MongoId(cost.TemplateId), Count = cost.Count }).ToList();
+        LogDebug("[ISB Aishi] Applied custom {RepeatableName} {QuestType} image/reroll settings.", repeatableName, questType);
     }
 
     private static Dictionary<string, List<Reward>>? BuildRewards(RepeatablePreset preset, string repeatableName)
@@ -386,22 +349,11 @@ public static class AishiRepeatables
                 ["Started"] = [],
                 ["Fail"] = []
             };
-
             var rewardIndex = -1;
-
             var xp = NextInclusive(preset.Rewards.Xp.Min, preset.Rewards.Xp.Max);
             if (xp > 0)
             {
-                rewards["Success"].Add(new Reward
-                {
-                    Id = new MongoId(),
-                    Unknown = false,
-                    GameMode = [],
-                    AvailableInGameEditions = [],
-                    Index = rewardIndex++,
-                    Value = xp,
-                    Type = RewardType.Experience
-                });
+                rewards["Success"].Add(new Reward { Id = new MongoId(), Unknown = false, GameMode = [], AvailableInGameEditions = [], Index = rewardIndex++, Value = xp, Type = RewardType.Experience });
             }
 
             var moneyAmount = NextInclusive(preset.Rewards.Money.Min, preset.Rewards.Money.Max);
@@ -415,17 +367,14 @@ public static class AishiRepeatables
             standing = Math.Round(standing, 3, MidpointRounding.AwayFromZero);
             if (standing > 0)
             {
-                rewards["Success"].Add(new Reward
-                {
-                    Id = new MongoId(),
-                    Unknown = false,
-                    GameMode = [],
-                    AvailableInGameEditions = [],
-                    Target = TraderId,
-                    Value = standing,
-                    Type = RewardType.TraderStanding,
-                    Index = rewardIndex++
-                });
+                rewards["Success"].Add(new Reward { Id = new MongoId(), Unknown = false, GameMode = [], AvailableInGameEditions = [], Target = TraderId, Value = standing, Type = RewardType.TraderStanding, Index = rewardIndex++ });
+            }
+
+            var skillReward = AishiSkillRewards.Create(preset.Rewards.SkillRewards, rewardIndex);
+            if (skillReward != null)
+            {
+                rewards["Success"].Add(skillReward);
+                rewardIndex++;
             }
 
             foreach (var item in ChooseItemRewards(preset.Rewards.ItemRewards))
@@ -433,15 +382,7 @@ public static class AishiRepeatables
                 rewards["Success"].Add(CreateItemReward(item.Tpl, item.Amount, rewardIndex++, true));
             }
 
-            LogInformation(
-                "[ISB Aishi] Custom {RepeatableName} rewards generated: {Xp} XP, {Money} {Currency}, {Standing} standing, {ItemCount} custom item reward(s).",
-                repeatableName,
-                xp,
-                moneyAmount,
-                preset.Rewards.Money.Currency,
-                standing,
-                rewards["Success"].Count(reward => reward.Type == RewardType.Item) - (moneyAmount > 0 ? 1 : 0));
-
+            LogInformation("[ISB Aishi] Custom {RepeatableName} rewards generated: {Xp} XP, {Money} {Currency}, {Standing} standing, {ItemCount} custom item reward(s).", repeatableName, xp, moneyAmount, preset.Rewards.Money.Currency, standing, rewards["Success"].Count(reward => reward.Type == RewardType.Item) - (moneyAmount > 0 ? 1 : 0));
             return rewards;
         }
         catch (Exception ex)
@@ -454,11 +395,7 @@ public static class AishiRepeatables
     private static List<ChosenRewardItem> ChooseItemRewards(ItemRewardPreset itemConfig)
     {
         var result = new List<ChosenRewardItem>();
-
-        var pool = itemConfig.Pool
-            .Where(item => item.Weight > 0 && IsValidItemTpl(item.Tpl, "reward"))
-            .ToList();
-
+        var pool = itemConfig.Pool.Where(item => item.Weight > 0 && IsValidItemTpl(item.Tpl, "reward")).ToList();
         if (pool.Count == 0)
         {
             return result;
@@ -471,7 +408,6 @@ public static class AishiRepeatables
         }
 
         var workingPool = new List<ItemRewardEntry>(pool);
-
         for (var i = 0; i < desiredCount && workingPool.Count > 0; i++)
         {
             var chosen = DrawWeighted(workingPool);
@@ -480,12 +416,7 @@ public static class AishiRepeatables
                 break;
             }
 
-            result.Add(new ChosenRewardItem
-            {
-                Tpl = new MongoId(chosen.Tpl),
-                Amount = NextInclusive(chosen.MinAmount, chosen.MaxAmount)
-            });
-
+            result.Add(new ChosenRewardItem { Tpl = new MongoId(chosen.Tpl), Amount = NextInclusive(chosen.MinAmount, chosen.MaxAmount) });
             if (!itemConfig.AllowDuplicates)
             {
                 workingPool.Remove(chosen);
@@ -504,7 +435,6 @@ public static class AishiRepeatables
         }
 
         var roll = Random.Shared.NextDouble() * totalWeight;
-
         foreach (var item in pool)
         {
             roll -= Math.Max(0, item.Weight);
@@ -543,7 +473,6 @@ public static class AishiRepeatables
     private static Reward CreateItemReward(MongoId tpl, double amount, int index, bool foundInRaid)
     {
         var rootId = new MongoId();
-
         return new Reward
         {
             Id = new MongoId(),
@@ -556,18 +485,17 @@ public static class AishiRepeatables
             IsEncoded = false,
             FindInRaid = foundInRaid,
             Type = RewardType.Item,
-            Items =
-            [
-                new Item
+            Items = [new Item
+            {
+                Id = rootId,
+                Template = tpl,
+                Upd = new Upd
                 {
-                    Id = rootId,
-                    Template = tpl,
-                    Upd = new Upd
-                    {
-                        StackObjectsCount = amount,
-                        SpawnedInSession = foundInRaid
-                    }
+                    StackObjectsCount = amount,
+                    SpawnedInSession = foundInRaid
                 }
+            }
+
             ]
         };
     }
@@ -622,11 +550,7 @@ public static class AishiRepeatables
         return chance > 0 && Random.Shared.NextDouble() * 100d < Math.Clamp(chance, 0d, 100d);
     }
 
-    private static void ApplyEliminationPreset(
-        int pmcLevel,
-        RepeatablePreset preset,
-        ref QuestTypePool questTypePool,
-        ref RepeatableQuestConfig repeatableConfig)
+    private static void ApplyEliminationPreset(int pmcLevel, RepeatablePreset preset, ref QuestTypePool questTypePool, ref RepeatableQuestConfig repeatableConfig)
     {
         var settings = preset.Elimination;
         if (settings.Targets.Count == 0)
@@ -634,9 +558,7 @@ public static class AishiRepeatables
             return;
         }
 
-        var baseConfig = repeatableConfig.QuestConfig.Elimination.FirstOrDefault(config =>
-            pmcLevel >= config.LevelRange.Min && pmcLevel <= config.LevelRange.Max);
-
+        var baseConfig = repeatableConfig.QuestConfig.Elimination.FirstOrDefault(config => pmcLevel >= config.LevelRange.Min && pmcLevel <= config.LevelRange.Max);
         baseConfig ??= repeatableConfig.QuestConfig.Elimination.FirstOrDefault();
         if (baseConfig is null)
         {
@@ -644,18 +566,7 @@ public static class AishiRepeatables
             return;
         }
 
-        var targets = settings.Targets
-            .Where(target => !string.IsNullOrWhiteSpace(target.Key) && target.RelativeProbability > 0)
-            .Select(target => new ProbabilityObject<string, BossInfo>(
-                target.Key,
-                target.RelativeProbability,
-                new BossInfo
-                {
-                    IsBoss = target.Data.IsBoss,
-                    IsPmc = target.Data.IsPmc || string.Equals(target.Key, "AnyPmc", StringComparison.OrdinalIgnoreCase)
-                }))
-            .ToList();
-
+        var targets = settings.Targets.Where(target => !string.IsNullOrWhiteSpace(target.Key) && target.RelativeProbability > 0).Select(target => new ProbabilityObject<string, BossInfo>(target.Key, target.RelativeProbability, new BossInfo { IsBoss = target.Data.IsBoss, IsPmc = target.Data.IsPmc || string.Equals(target.Key, "AnyPmc", StringComparison.OrdinalIgnoreCase) })).ToList();
         if (targets.Count == 0)
         {
             return;
@@ -681,7 +592,6 @@ public static class AishiRepeatables
 
         var locationNames = BuildEliminationLocationPool(settings.Locations, repeatableConfig.Locations);
         var hasSpecificLocation = locationNames.Any(location => !string.Equals(location, "any", StringComparison.OrdinalIgnoreCase));
-
         var customElimination = baseConfig with
         {
             Targets = targets,
@@ -703,19 +613,12 @@ public static class AishiRepeatables
             WeaponCategoryRequirements = weaponCategories,
             WeaponRequirements = weaponRequirements
         };
-
         if (customElimination.WeaponCategoryRequirementChance > 0)
         {
-            _logger?.LogWarning(
-                "[ISB Aishi] weaponCategoryRequirementChance is enabled for {RepeatableName}.",
-                repeatableConfig.Name);
+            _logger?.LogWarning("[ISB Aishi] weaponCategoryRequirementChance is enabled for {RepeatableName}.", repeatableConfig.Name);
         }
 
-        var targetLocations = targets.ToDictionary(
-            target => target.Key!,
-            _ => new TargetLocation { Locations = new List<string>(locationNames) },
-            StringComparer.OrdinalIgnoreCase);
-
+        var targetLocations = targets.ToDictionary(target => target.Key!, _ => new TargetLocation { Locations = new List<string>(locationNames) }, StringComparer.OrdinalIgnoreCase);
         questTypePool = questTypePool with
         {
             Types = new List<string>(questTypePool.Types),
@@ -727,7 +630,6 @@ public static class AishiRepeatables
                 }
             }
         };
-
         repeatableConfig = repeatableConfig with
         {
             QuestConfig = repeatableConfig.QuestConfig with
@@ -740,14 +642,9 @@ public static class AishiRepeatables
     private static List<ProbabilityObject<string, List<string>>> BuildStringProbabilityList(List<WeightedStringListPreset> entries)
     {
         var result = new List<ProbabilityObject<string, List<string>>>();
-
         foreach (var entry in entries.Where(entry => !string.IsNullOrWhiteSpace(entry.Key) && entry.RelativeProbability > 0))
         {
-            var data = entry.Data
-                .Where(value => !string.IsNullOrWhiteSpace(value))
-                .Distinct(StringComparer.OrdinalIgnoreCase)
-                .ToList();
-
+            var data = entry.Data.Where(value => !string.IsNullOrWhiteSpace(value)).Distinct(StringComparer.OrdinalIgnoreCase).ToList();
             if (data.Count == 0)
             {
                 continue;
@@ -759,20 +656,12 @@ public static class AishiRepeatables
         return result;
     }
 
-    private static List<ProbabilityObject<string, List<MongoId>>> BuildMongoProbabilityList(
-        List<WeightedMongoListPreset> entries,
-        string purpose)
+    private static List<ProbabilityObject<string, List<MongoId>>> BuildMongoProbabilityList(List<WeightedMongoListPreset> entries, string purpose)
     {
         var result = new List<ProbabilityObject<string, List<MongoId>>>();
-
         foreach (var entry in entries.Where(entry => !string.IsNullOrWhiteSpace(entry.Key) && entry.RelativeProbability > 0))
         {
-            var data = entry.Data
-                .Where(value => MongoId.IsValidMongoId(value))
-                .Select(value => new MongoId(value))
-                .Distinct()
-                .ToList();
-
+            var data = entry.Data.Where(value => MongoId.IsValidMongoId(value)).Select(value => new MongoId(value)).Distinct().ToList();
             if (data.Count == 0)
             {
                 if (entry.Data.Count > 0)
@@ -789,12 +678,9 @@ public static class AishiRepeatables
         return result;
     }
 
-    private static List<string> BuildEliminationLocationPool(
-        List<string> configuredLocations,
-        Dictionary<ELocationName, List<string>> availableLocations)
+    private static List<string> BuildEliminationLocationPool(List<string> configuredLocations, Dictionary<ELocationName, List<string>> availableLocations)
     {
         var locations = new List<string>();
-
         foreach (var configured in configuredLocations)
         {
             if (string.Equals(configured, "any", StringComparison.OrdinalIgnoreCase))
@@ -841,32 +727,23 @@ public static class AishiRepeatables
 
     private static void ApplyAdvancedEliminationCondition(RepeatableQuest quest, AdvancedEliminationConditionPreset settings)
     {
-        var counterCreator = quest.Conditions.AvailableForFinish?
-            .FirstOrDefault(condition => string.Equals(condition.ConditionType, "CounterCreator", StringComparison.OrdinalIgnoreCase));
-
+        var counterCreator = quest.Conditions.AvailableForFinish?.FirstOrDefault(condition => string.Equals(condition.ConditionType, "CounterCreator", StringComparison.OrdinalIgnoreCase));
         if (counterCreator is null)
         {
             return;
         }
 
         counterCreator.OneSessionOnly = settings.OneSessionOnly;
-
-        var killCondition = counterCreator.Counter?.Conditions?
-            .FirstOrDefault(condition => string.Equals(condition.ConditionType, "Kills", StringComparison.OrdinalIgnoreCase));
-
+        var killCondition = counterCreator.Counter?.Conditions?.FirstOrDefault(condition => string.Equals(condition.ConditionType, "Kills", StringComparison.OrdinalIgnoreCase));
         if (killCondition is null)
         {
             return;
         }
 
         killCondition.ResetOnSessionEnd = settings.ResetOnSessionEnd;
-
         if (settings.WeaponCalibers.Count > 0 && RollChance(settings.WeaponCaliberChance))
         {
-            killCondition.WeaponCaliber = settings.WeaponCalibers
-                .Where(caliber => !string.IsNullOrWhiteSpace(caliber))
-                .Distinct(StringComparer.OrdinalIgnoreCase)
-                .ToList();
+            killCondition.WeaponCaliber = settings.WeaponCalibers.Where(caliber => !string.IsNullOrWhiteSpace(caliber)).Distinct(StringComparer.OrdinalIgnoreCase).ToList();
         }
 
         if (RollChance(settings.DaytimeChance))
@@ -879,15 +756,10 @@ public static class AishiRepeatables
         }
     }
 
-    private static void ApplyCompletionPreset(
-        int pmcLevel,
-        RepeatablePreset preset,
-        ref RepeatableQuestConfig repeatableConfig)
+    private static void ApplyCompletionPreset(int pmcLevel, RepeatablePreset preset, ref RepeatableQuestConfig repeatableConfig)
     {
         var settings = preset.Completion;
-        var baseConfig = repeatableConfig.QuestConfig.CompletionConfig.FirstOrDefault(config =>
-            pmcLevel >= config.LevelRange.Min && pmcLevel <= config.LevelRange.Max);
-
+        var baseConfig = repeatableConfig.QuestConfig.CompletionConfig.FirstOrDefault(config => pmcLevel >= config.LevelRange.Min && pmcLevel <= config.LevelRange.Max);
         baseConfig ??= repeatableConfig.QuestConfig.CompletionConfig.FirstOrDefault();
         if (baseConfig is null)
         {
@@ -895,11 +767,7 @@ public static class AishiRepeatables
             return;
         }
 
-        var blacklist = settings.RequiredItemTypeBlacklist
-            .Where(MongoId.IsValidMongoId)
-            .Select(value => new MongoId(value))
-            .ToHashSet();
-
+        var blacklist = settings.RequiredItemTypeBlacklist.Where(MongoId.IsValidMongoId).Select(value => new MongoId(value)).ToHashSet();
         var customCompletion = baseConfig with
         {
             RequestedItemCount = new MinMax<int>(settings.RequestedItemCount.Min, settings.RequestedItemCount.Max),
@@ -908,12 +776,9 @@ public static class AishiRepeatables
             UseWhitelist = false,
             UseBlacklist = false,
             RequiredItemsAreFiR = settings.RequiredItemsAreFiR,
-            RequiredItemMinDurabilityMinMax = new MinMax<int>(
-                settings.RequiredItemMinDurabilityMinMax.Min,
-                settings.RequiredItemMinDurabilityMinMax.Max),
+            RequiredItemMinDurabilityMinMax = new MinMax<int>(settings.RequiredItemMinDurabilityMinMax.Min, settings.RequiredItemMinDurabilityMinMax.Max),
             RequiredItemTypeBlacklist = blacklist
         };
-
         repeatableConfig = repeatableConfig with
         {
             QuestConfig = repeatableConfig.QuestConfig with
@@ -943,13 +808,9 @@ public static class AishiRepeatables
         return BuildLevelItemPool(settings.ItemsBlacklist, pmcLevel, "completion itemsBlacklist");
     }
 
-    private static HashSet<MongoId> BuildLevelItemPool(
-        List<LevelItemPoolPreset> levelPools,
-        int pmcLevel,
-        string purpose)
+    private static HashSet<MongoId> BuildLevelItemPool(List<LevelItemPoolPreset> levelPools, int pmcLevel, string purpose)
     {
         var result = new HashSet<MongoId>();
-
         foreach (var levelPool in levelPools.Where(pool => pmcLevel >= pool.MinPlayerLevel))
         {
             foreach (var tpl in levelPool.ItemIds)
@@ -964,16 +825,10 @@ public static class AishiRepeatables
         return result;
     }
 
-    private static void ApplyExplorationPreset(
-        int pmcLevel,
-        RepeatablePreset preset,
-        ref QuestTypePool questTypePool,
-        ref RepeatableQuestConfig repeatableConfig)
+    private static void ApplyExplorationPreset(int pmcLevel, RepeatablePreset preset, ref QuestTypePool questTypePool, ref RepeatableQuestConfig repeatableConfig)
     {
         var settings = preset.Exploration;
-        var baseConfig = repeatableConfig.QuestConfig.ExplorationConfig.FirstOrDefault(config =>
-            pmcLevel >= config.LevelRange.Min && pmcLevel <= config.LevelRange.Max);
-
+        var baseConfig = repeatableConfig.QuestConfig.ExplorationConfig.FirstOrDefault(config => pmcLevel >= config.LevelRange.Min && pmcLevel <= config.LevelRange.Max);
         baseConfig ??= repeatableConfig.QuestConfig.ExplorationConfig.FirstOrDefault();
         if (baseConfig is null)
         {
@@ -981,10 +836,7 @@ public static class AishiRepeatables
             return;
         }
 
-        var passageWhitelist = settings.SpecificExits.PassageRequirementWhitelist.Count > 0
-            ? new HashSet<string>(settings.SpecificExits.PassageRequirementWhitelist, StringComparer.OrdinalIgnoreCase)
-            : baseConfig.SpecificExits.PassageRequirementWhitelist;
-
+        var passageWhitelist = settings.SpecificExits.PassageRequirementWhitelist.Count > 0 ? new HashSet<string>(settings.SpecificExits.PassageRequirementWhitelist, StringComparer.OrdinalIgnoreCase) : baseConfig.SpecificExits.PassageRequirementWhitelist;
         var customExploration = baseConfig with
         {
             MinimumExtracts = settings.MinExtracts,
@@ -997,17 +849,13 @@ public static class AishiRepeatables
                 PassageRequirementWhitelist = passageWhitelist
             }
         };
-
         var existingLocations = questTypePool.Pool.Exploration.Locations;
         if (existingLocations is not null && settings.Locations.Count > 0)
         {
-            var useVanillaLocations = settings.Locations.Any(location =>
-                string.Equals(location, "any", StringComparison.OrdinalIgnoreCase));
-
+            var useVanillaLocations = settings.Locations.Any(location => string.Equals(location, "any", StringComparison.OrdinalIgnoreCase));
             if (!useVanillaLocations)
             {
                 var filtered = new Dictionary<ELocationName, List<string>>();
-
                 foreach (var configured in settings.Locations)
                 {
                     if (!Enum.TryParse<ELocationName>(configured, true, out var parsed))
@@ -1054,10 +902,7 @@ public static class AishiRepeatables
     [HarmonyPatch(typeof(RepeatableQuestRewardGenerator), nameof(RepeatableQuestRewardGenerator.GenerateReward))]
     private static class RewardGeneratorPatch
     {
-        private static void Postfix(
-            MongoId traderId,
-            RepeatableQuestConfig repeatableConfig,
-            ref Dictionary<string, List<Reward>>? __result)
+        private static void Postfix(MongoId traderId, RepeatableQuestConfig repeatableConfig, ref Dictionary<string, List<Reward>>? __result)
         {
             if (!traderId.Equals(TraderId))
             {
@@ -1081,11 +926,7 @@ public static class AishiRepeatables
     [HarmonyPatch(typeof(RepeatableQuestController), "DrawRandomTraderId")]
     private static class TraderSelectionPatch
     {
-        private static void Postfix(
-            Dictionary<MongoId, TraderInfo> traderInfos,
-            string questType,
-            RepeatableQuestConfig repeatableConfig,
-            ref MongoId __result)
+        private static void Postfix(Dictionary<MongoId, TraderInfo> traderInfos, string questType, RepeatableQuestConfig repeatableConfig, ref MongoId __result)
         {
             if (_config?.Enabled != true)
             {
@@ -1107,52 +948,32 @@ public static class AishiRepeatables
             var aishiId = new MongoId(TraderId);
             var whitelistEntry = repeatableConfig.TraderWhitelist.FirstOrDefault(entry => entry.TraderId == aishiId);
             var aishiInWhitelist = whitelistEntry is not null && whitelistEntry.QuestTypes.Contains(questType);
-            var aishiUnlocked = traderInfos.TryGetValue(aishiId, out var traderInfo)
-                && traderInfo.Unlocked.GetValueOrDefault(false);
-
+            var aishiUnlocked = traderInfos.TryGetValue(aishiId, out var traderInfo) && traderInfo.Unlocked.GetValueOrDefault(false);
             var forceTempQuest = _config.ForceAishiTempQuests;
-            var forceGuaranteedDaily = _forceGuaranteedDailyAishi
-                && string.Equals(repeatableConfig.Name, "Daily", StringComparison.OrdinalIgnoreCase);
-
+            var forceGuaranteedDaily = _forceGuaranteedDailyAishi && string.Equals(repeatableConfig.Name, "Daily", StringComparison.OrdinalIgnoreCase);
             if (forceTempQuest || forceGuaranteedDaily)
             {
                 var forceSource = forceGuaranteedDaily ? "guaranteedDailyQuests" : "forceAishiTempQuests";
-
                 if (!aishiInWhitelist)
                 {
-                    _logger?.LogWarning(
-                        "[ISB Aishi] {ForceSource} could not force {RepeatableName} {QuestType}: Aishi is not in the eligible trader whitelist.",
-                        forceSource,
-                        repeatableConfig.Name,
-                        questType);
+                    _logger?.LogWarning("[ISB Aishi] {ForceSource} could not force {RepeatableName} {QuestType}: Aishi is not in the eligible trader whitelist.", forceSource, repeatableConfig.Name, questType);
                     return;
                 }
 
                 if (!aishiUnlocked)
                 {
-                    _logger?.LogWarning(
-                        "[ISB Aishi] {ForceSource} could not force {RepeatableName} {QuestType}: Aishi is locked in the current profile.",
-                        forceSource,
-                        repeatableConfig.Name,
-                        questType);
+                    _logger?.LogWarning("[ISB Aishi] {ForceSource} could not force {RepeatableName} {QuestType}: Aishi is locked in the current profile.", forceSource, repeatableConfig.Name, questType);
                     return;
                 }
 
                 __result = aishiId;
-                LogInformation(
-                    "[ISB Aishi] {ForceSource} forced {RepeatableName} {QuestType} operational task to Aishi.",
-                    forceSource,
-                    repeatableConfig.Name,
-                    questType);
+                LogInformation("[ISB Aishi] {ForceSource} forced {RepeatableName} {QuestType} operational task to Aishi.", forceSource, repeatableConfig.Name, questType);
                 return;
             }
 
             if (__result == aishiId)
             {
-                LogInformation(
-                    "[ISB Aishi] RNG selected Aishi for {RepeatableName} {QuestType} operational task.",
-                    repeatableConfig.Name,
-                    questType);
+                LogInformation("[ISB Aishi] RNG selected Aishi for {RepeatableName} {QuestType} operational task.", repeatableConfig.Name, questType);
             }
         }
     }
@@ -1160,11 +981,7 @@ public static class AishiRepeatables
     [HarmonyPatch(typeof(EliminationQuestGenerator), nameof(EliminationQuestGenerator.Generate))]
     private static class EliminationGeneratorPatch
     {
-        private static void Prefix(
-            int pmcLevel,
-            MongoId traderId,
-            ref QuestTypePool questTypePool,
-            ref RepeatableQuestConfig repeatableConfig)
+        private static void Prefix(int pmcLevel, MongoId traderId, ref QuestTypePool questTypePool, ref RepeatableQuestConfig repeatableConfig)
         {
             if (!traderId.Equals(TraderId))
             {
@@ -1187,10 +1004,7 @@ public static class AishiRepeatables
             }
         }
 
-        private static void Postfix(
-            MongoId traderId,
-            RepeatableQuestConfig repeatableConfig,
-            ref RepeatableQuest? __result)
+        private static void Postfix(MongoId traderId, RepeatableQuestConfig repeatableConfig, ref RepeatableQuest? __result)
         {
             if (__result is null || !traderId.Equals(TraderId))
             {
@@ -1211,13 +1025,9 @@ public static class AishiRepeatables
     [HarmonyPatch(typeof(CompletionQuestGenerator), nameof(CompletionQuestGenerator.Generate))]
     private static class CompletionGeneratorPatch
     {
-        private static void Prefix(
-            int pmcLevel,
-            MongoId traderId,
-            ref RepeatableQuestConfig repeatableConfig)
+        private static void Prefix(int pmcLevel, MongoId traderId, ref RepeatableQuestConfig repeatableConfig)
         {
             _completionGeneration = null;
-
             if (!traderId.Equals(TraderId))
             {
                 return;
@@ -1244,10 +1054,7 @@ public static class AishiRepeatables
             }
         }
 
-        private static void Postfix(
-            MongoId traderId,
-            RepeatableQuestConfig repeatableConfig,
-            ref RepeatableQuest? __result)
+        private static void Postfix(MongoId traderId, RepeatableQuestConfig repeatableConfig, ref RepeatableQuest? __result)
         {
             try
             {
@@ -1285,15 +1092,12 @@ public static class AishiRepeatables
             var settings = context.Preset.Completion;
             var whitelist = BuildCompletionWhitelist(settings, context.PmcLevel);
             var blacklist = BuildCompletionBlacklist(settings, context.PmcLevel);
-
             if (whitelist is not null)
             {
                 if (whitelist.Count == 0)
                 {
                     __result.Clear();
-                    _logger?.LogError(
-                        "[ISB Aishi] Completion useWhitelist is enabled, but itemsWhitelist contains no valid items for PMC level {PmcLevel}.",
-                        context.PmcLevel);
+                    _logger?.LogError("[ISB Aishi] Completion useWhitelist is enabled, but itemsWhitelist contains no valid items for PMC level {PmcLevel}.", context.PmcLevel);
                     return;
                 }
 
@@ -1307,8 +1111,7 @@ public static class AishiRepeatables
 
             if (__result.Count == 0 && (whitelist is not null || blacklist is not null))
             {
-                _logger?.LogError(
-                    "[ISB Aishi] Completion objective pool became empty after Aishi itemsWhitelist/itemsBlacklist filtering.");
+                _logger?.LogError("[ISB Aishi] Completion objective pool became empty after Aishi itemsWhitelist/itemsBlacklist filtering.");
             }
         }
     }
@@ -1316,11 +1119,7 @@ public static class AishiRepeatables
     [HarmonyPatch(typeof(ExplorationQuestGenerator), nameof(ExplorationQuestGenerator.Generate))]
     private static class ExplorationGeneratorPatch
     {
-        private static void Prefix(
-            int pmcLevel,
-            MongoId traderId,
-            ref QuestTypePool questTypePool,
-            ref RepeatableQuestConfig repeatableConfig)
+        private static void Prefix(int pmcLevel, MongoId traderId, ref QuestTypePool questTypePool, ref RepeatableQuestConfig repeatableConfig)
         {
             if (!traderId.Equals(TraderId))
             {
@@ -1343,10 +1142,7 @@ public static class AishiRepeatables
             }
         }
 
-        private static void Postfix(
-            MongoId traderId,
-            RepeatableQuestConfig repeatableConfig,
-            ref RepeatableQuest? __result)
+        private static void Postfix(MongoId traderId, RepeatableQuestConfig repeatableConfig, ref RepeatableQuest? __result)
         {
             if (__result is null || !traderId.Equals(TraderId))
             {
@@ -1366,17 +1162,11 @@ public static class AishiRepeatables
     [HarmonyPatch(typeof(RepeatableQuestController), "GetQuestCount")]
     private static class DailyQuestCountPatch
     {
-        private static void Postfix(
-            RepeatableQuestConfig repeatableConfig,
-            SptProfile fullProfile,
-            ref int __result)
+        private static void Postfix(RepeatableQuestConfig repeatableConfig, SptProfile fullProfile, ref int __result)
         {
             _dailyExtraGeneration = null;
             _forceGuaranteedDailyAishi = false;
-
-            if (_config?.Enabled != true
-                || !string.Equals(repeatableConfig.Name, "Daily", StringComparison.OrdinalIgnoreCase)
-                || _config.Daily.Enabled != true)
+            if (_config?.Enabled != true || !string.Equals(repeatableConfig.Name, "Daily", StringComparison.OrdinalIgnoreCase) || _config.Daily.Enabled != true)
             {
                 return;
             }
@@ -1388,8 +1178,7 @@ public static class AishiRepeatables
             }
 
             var aishiId = new MongoId(TraderId);
-            if (!fullProfile.CharacterData.PmcData.TradersInfo.TryGetValue(aishiId, out var aishiInfo)
-                || !aishiInfo.Unlocked.GetValueOrDefault(false))
+            if (!fullProfile.CharacterData.PmcData.TradersInfo.TryGetValue(aishiId, out var aishiInfo) || !aishiInfo.Unlocked.GetValueOrDefault(false))
             {
                 LogInformation("[ISB Aishi] Guaranteed Daily extras skipped because Aishi is locked for this profile.");
                 return;
@@ -1407,14 +1196,8 @@ public static class AishiRepeatables
                 BaseRandomSlots = Math.Max(0, baseQuestCount - 3),
                 ExtraSlots = extraCount
             };
-
             __result += extraCount;
-
-            LogInformation(
-                "[ISB Aishi] Daily reset will generate {ExtraCount} guaranteed extra Aishi quest(s). Quest count: {BaseCount} -> {TotalCount}.",
-                extraCount,
-                baseQuestCount,
-                __result);
+            LogInformation("[ISB Aishi] Daily reset will generate {ExtraCount} guaranteed extra Aishi quest(s). Quest count: {BaseCount} -> {TotalCount}.", extraCount, baseQuestCount, __result);
         }
     }
 
@@ -1424,10 +1207,8 @@ public static class AishiRepeatables
         private static void Prefix(RepeatableQuestConfig repeatableConfig)
         {
             _forceGuaranteedDailyAishi = false;
-
             var context = _dailyExtraGeneration;
-            if (context is null
-                || !string.Equals(repeatableConfig.Name, "Daily", StringComparison.OrdinalIgnoreCase))
+            if (context is null || !string.Equals(repeatableConfig.Name, "Daily", StringComparison.OrdinalIgnoreCase))
             {
                 return;
             }
@@ -1440,19 +1221,13 @@ public static class AishiRepeatables
 
             context.ExtraCallsStarted++;
             _forceGuaranteedDailyAishi = true;
-
-            LogInformation(
-                "[ISB Aishi] Generating guaranteed Aishi Daily extra {Current}/{Total}.",
-                context.ExtraCallsStarted,
-                context.ExtraSlots);
+            LogInformation("[ISB Aishi] Generating guaranteed Aishi Daily extra {Current}/{Total}.", context.ExtraCallsStarted, context.ExtraSlots);
         }
 
         private static void Postfix()
         {
             _forceGuaranteedDailyAishi = false;
-
-            if (_dailyExtraGeneration is not null
-                && _dailyExtraGeneration.ExtraCallsStarted >= _dailyExtraGeneration.ExtraSlots)
+            if (_dailyExtraGeneration is not null && _dailyExtraGeneration.ExtraCallsStarted >= _dailyExtraGeneration.ExtraSlots)
             {
                 _dailyExtraGeneration = null;
             }
@@ -1462,25 +1237,18 @@ public static class AishiRepeatables
     [HarmonyPatch(typeof(RepeatableQuestController), nameof(RepeatableQuestController.PickAndGenerateRandomRepeatableQuest))]
     private static class RandomQuestTypePatch
     {
-        private static void Prefix(
-            RepeatableQuestConfig repeatableConfig,
-            ref QuestTypePool questTypePool)
+        private static void Prefix(RepeatableQuestConfig repeatableConfig, ref QuestTypePool questTypePool)
         {
-            if (!_forceGuaranteedDailyAishi
-                || !string.Equals(repeatableConfig.Name, "Daily", StringComparison.OrdinalIgnoreCase))
+            if (!_forceGuaranteedDailyAishi || !string.Equals(repeatableConfig.Name, "Daily", StringComparison.OrdinalIgnoreCase))
             {
                 return;
             }
 
             var configuredTypes = GetQuestTypes("Daily");
-            var allowedTypes = questTypePool.Types
-                .Where(type => configuredTypes.Contains(type))
-                .ToList();
-
+            var allowedTypes = questTypePool.Types.Where(type => configuredTypes.Contains(type)).ToList();
             if (allowedTypes.Count == 0)
             {
-                _logger?.LogWarning(
-                    "[ISB Aishi] No configured Aishi quest type is available for a guaranteed Daily extra.");
+                _logger?.LogWarning("[ISB Aishi] No configured Aishi quest type is available for a guaranteed Daily extra.");
                 return;
             }
 
@@ -1490,7 +1258,6 @@ public static class AishiRepeatables
             };
         }
     }
-
 }
 
 public sealed class AishiRepeatablesConfig
@@ -1498,7 +1265,11 @@ public sealed class AishiRepeatablesConfig
     public bool Enabled { get; set; } = true;
     public bool ForceAishiTempQuests { get; set; }
     public bool ShowRepeatableQuestLogs { get; set; }
-    public IntRange GuaranteedDailyQuests { get; set; } = new() { Min = 1, Max = 2 };
+    public IntRange GuaranteedDailyQuests { get; set; } = new()
+    {
+        Min = 1,
+        Max = 2
+    };
     public RepeatablePreset Daily { get; set; } = new();
     public RepeatablePreset Weekly { get; set; } = new();
 }
@@ -1532,7 +1303,6 @@ public sealed class EliminationPreset
     public int BodyPartChance { get; set; }
     public List<WeightedStringListPreset> BodyParts { get; set; } = [];
     public int SpecificLocationChance { get; set; }
-
     public List<string> Locations { get; set; } = ["any"];
     public List<string> DistLocationBlacklist { get; set; } = [];
     public double DistProb { get; set; }
@@ -1548,7 +1318,6 @@ public sealed class EliminationPreset
     public int WeaponCategoryRequirementChance { get; set; }
     public List<WeightedMongoListPreset> WeaponCategoryRequirements { get; set; } = [];
     public List<WeightedMongoListPreset> WeaponRequirements { get; set; } = [];
-
     public AdvancedEliminationConditionPreset ConditionOverrides { get; set; } = new();
 }
 
@@ -1597,15 +1366,30 @@ public sealed class DaytimePreset
 
 public sealed class CompletionPreset
 {
-    public IntRange RequestedItemCount { get; set; } = new() { Min = 1, Max = 3 };
-    public IntRange UniqueItemCount { get; set; } = new() { Min = 1, Max = 1 };
-    public IntRange RequestedBulletCount { get; set; } = new() { Min = 15, Max = 40 };
+    public IntRange RequestedItemCount { get; set; } = new()
+    {
+        Min = 1,
+        Max = 3
+    };
+    public IntRange UniqueItemCount { get; set; } = new()
+    {
+        Min = 1,
+        Max = 1
+    };
+    public IntRange RequestedBulletCount { get; set; } = new()
+    {
+        Min = 15,
+        Max = 40
+    };
     public bool UseWhitelist { get; set; }
     public bool UseBlacklist { get; set; }
     public bool RequiredItemsAreFiR { get; set; } = true;
-    public IntRange RequiredItemMinDurabilityMinMax { get; set; } = new() { Min = 0, Max = 100 };
+    public IntRange RequiredItemMinDurabilityMinMax { get; set; } = new()
+    {
+        Min = 0,
+        Max = 100
+    };
     public List<string> RequiredItemTypeBlacklist { get; set; } = [];
-
     public List<LevelItemPoolPreset> ItemsWhitelist { get; set; } = [];
     public List<LevelItemPoolPreset> ItemsBlacklist { get; set; } = [];
 }
@@ -1638,6 +1422,7 @@ public sealed class RewardPreset
     public MoneyRange Money { get; set; } = new();
     public DoubleRange Standing { get; set; } = new();
     public ItemRewardPreset ItemRewards { get; set; } = new();
+    public SkillRewardPreset SkillRewards { get; set; } = new();
 }
 
 public class IntRange

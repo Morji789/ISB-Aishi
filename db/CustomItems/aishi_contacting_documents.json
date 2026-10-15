@@ -1,122 +1,80 @@
 {
   "690e15d7799d853668054517": {
-
     "itemTplToClone": "590c651286f7741e566b6461",
     "parentId": "5448ecbe4bdc2d60728b4568",
     "handbookParentId": "5b47574386f77428ca22b341",
-
-
     "overrideProperties": {
-      "QuestItem": true,  
-      "ExaminedByDefault": true,
-        
-
+      "QuestItem": true,
       "Prefab": {
-
         "path": "assets/content/items/infosubject/item_thin_diary.bundle",
         "rcid": ""
       },
-
-
       "Width": 2,
-      "Height": 1,
-
-
       "Weight": 0.16,
-
-
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "Diary with contact details for Aishi and her team.",
         "shortName": "ISB Diary",
         "description": "A Diary containing a variety of information on how to contact Aishi or any of its associates."
       },
-           "po": {
+      "po": {
         "name": "Diário com informações de contato da ISB",
         "shortName": "Diário da ISB",
         "description": "Um Diário que contem uma variedade de informações sobre como é possível entrar em contato com Aishi qualquer um de seus associados."
       }
     },
-
     "fleaPriceRoubles": 1,
-
     "handbookPriceRoubles": 1,
-
     "addtoHideoutPosterSlots": false,
-
     "addPosterToMaps": false,
-
     "posterSpawnProbability": 0,
-
     "addtoStatuetteSlots": false,
-
     "addCaliberToAllCloneLocations": false,
-
     "addtoStaticAmmo": false,
-
     "staticAmmoProbability": 0,
-
     "addtoBots": false,
-
     "addtoSpecialSlots": false,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "addtoModSlots": false,
-
-    "modSlot": [""],
-
+    "modSlot": [
+      ""
+    ],
     "addtoHallOfFame": false,
-
     "hallOfFameSlots": [
-      "bigTrophies", 
-      "smallTrophies", 
+      "bigTrophies",
+      "smallTrophies",
       "dogTags"
     ],
-
     "addtoGeneratorAsFuel": false,
-
     "generatorFuelSlotStages": [
       "1",
       "2",
       "3"
     ],
-
     "addtoEmptyPropSlots": false,
-
     "emptyPropSlot": {
       "itemToAddTo": "628a66b41d5e41750e314f34",
       "modSlot": "mod_muzzle"
     },
-
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",
         "Probability": 0
       }
     ],
-
-
     "addtoSecureFilters": false,
-
     "addtoTraders": false,
-
-    "traders": {
-          },
-          "barters": [
-            {
-              "count": 0,
-              "_tpl": "0" 
-            }
-          ]
+    "traders": {},
+    "barters": [
+      {
+        "count": 0,
+        "_tpl": "0"
+      }
+    ]
   }
 }

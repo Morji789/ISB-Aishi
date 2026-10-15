@@ -1,0 +1,297 @@
+{
+  "bc01ebb960aa585297259fa5": {
+    "itemTplToClone": "5648a69d4bdc2ded0b8b457b",
+    "parentId": "5448e5284bdc2dcb718b4567",
+    "handbookParentId": "5b5f6f8786f77447ed563642",
+    "overrideProperties": {
+      "Description": "A custom-made chest rig for wearing on top of body armor in urban operations. Sturdy and versatile, it features both MOLLE and ALICE attachment systems. DPM Desert Version.",
+      "Grids": [
+        {
+          "_id": "67c3fea8d0455170920184a3",
+          "_name": "1",
+          "_parent": "bc01ebb960aa585297259fa5",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "46aabff3eab052dcb41e36ac",
+          "_name": "2",
+          "_parent": "bc01ebb960aa585297259fa5",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "f171371bfb0155bbaf2be207",
+          "_name": "3",
+          "_parent": "bc01ebb960aa585297259fa5",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "564033b505895180a79b14e9",
+          "_name": "4",
+          "_parent": "bc01ebb960aa585297259fa5",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "540615e979ba5ae7873be62c",
+          "_name": "5",
+          "_parent": "bc01ebb960aa585297259fa5",
+          "_props": {
+            "cellsH": 2,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "7abc751f7a2153ae9c7ea8d7",
+          "_name": "6",
+          "_parent": "bc01ebb960aa585297259fa5",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "598d588b55d158899664d375",
+          "_name": "7",
+          "_parent": "bc01ebb960aa585297259fa5",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "0d9723c14fa45c6998662a39",
+          "_name": "8",
+          "_parent": "bc01ebb960aa585297259fa5",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "4656ba5b5c21516fad5f2520",
+          "_name": "9",
+          "_parent": "bc01ebb960aa585297259fa5",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "a3bbaac4a6ff5eb2b49e57ea",
+          "_name": "10",
+          "_parent": "bc01ebb960aa585297259fa5",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "d4280c158e0c5f0585d3aadc",
+          "_name": "11",
+          "_parent": "bc01ebb960aa585297259fa5",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        }
+      ],
+      "Name": "BlackRock chest rig (DPM Desert)",
+      "Prefab": {
+        "path": "equipment/item_equipment_rig_blackrock_dpm_desert_aishi.bundle",
+        "rcid": ""
+      },
+      "ShortName": "BlackRock",
+      "Slots": []
+    },
+    "locales": {
+      "en": {
+        "name": "BlackRock chest rig (DPM Desert)",
+        "shortName": "BlackRock",
+        "description": "A custom-made chest rig for wearing on top of body armor in urban operations. Sturdy and versatile, it features both MOLLE and ALICE attachment systems. DPM Desert Version."
+      }
+    },
+    "handbookPriceRoubles": 52910,
+    "fleaPriceRoubles": 44700,
+    "addtoInventorySlots": [],
+    "addtoBots": false,
+    "addtoTraders": false,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": false
+  }
+}

@@ -1,0 +1,652 @@
+{
+  "7c035e445456522b8dfb749d": {
+    "itemTplToClone": "5ba26383d4351e00334c93d9",
+    "parentId": "5447b5e04bdc2d62278b4567",
+    "handbookParentId": "5b5f796a86f774093f2ed3c0",
+    "overrideProperties": {
+      "Name": "HK MP7A1 4.6x30 submachine gun (FDE)",
+      "CanSellOnRagfair": false,
+      "Prefab": {
+        "path": "aishiweapons/mp7a1_fde/weapon_hk_mp7a1_46x30_container_detail_fde.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_id": "4c912fba686358418f392f5b",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_magazine",
+          "_parent": "7c035e445456522b8dfb749d",
+          "_props": {
+            "filters": [
+              {
+                "AnimationIndex": -1,
+                "Filter": [
+                  "5ba264f6d4351e0034777d52",
+                  "5ba2657ed4351e0035628ff2",
+                  "5ba26586d4351e44f824b340"
+                ]
+              }
+            ]
+          },
+          "_proto": "55d30c394bdc2dae468b4577",
+          "_required": false
+        },
+        {
+          "_id": "ec015ff48f9556588c0cc2da",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_muzzle",
+          "_parent": "7c035e445456522b8dfb749d",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ba26acdd4351e003562908e"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "04bb71022bdd5fbbaef40703",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_sight_front",
+          "_parent": "7c035e445456522b8dfb749d",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ba26b01d4351e0085325a51",
+                  "5dfa3d950dee1b22f862eae0",
+                  "5c17804b2e2216152006c02f",
+                  "5fb6567747ce63734e3fa1dc",
+                  "5bc09a30d4351e00367fb7c8",
+                  "5c18b90d2e2216152142466b",
+                  "5fc0fa362770a0045c59c677",
+                  "5894a73486f77426d259076c"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "8369a8f42add5d90ac938cd2",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_sight_rear",
+          "_parent": "7c035e445456522b8dfb749d",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ba26b17d4351e00367f9bdd",
+                  "5dfa3d7ac41b2312ea33362a",
+                  "5c1780312e221602b66cc189",
+                  "5fb6564947ce63734e3fa1da",
+                  "5bc09a18d4351e003562b68e",
+                  "5c18b9192e2216398b5a8104",
+                  "5fc0fa957283c4046c58147e",
+                  "5894a81786f77427140b8347"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "37b3133540385479aec13ad9",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_scope",
+          "_parent": "7c035e445456522b8dfb749d",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "57ac965c24597706be5f975c",
+                  "57aca93d2459771f2c7e26db",
+                  "544a3f024bdc2d1d388b4568",
+                  "544a3a774bdc2d3a388b4567",
+                  "5d2dc3e548f035404a1a4798",
+                  "57adff4f24597737f373b6e6",
+                  "5c0517910db83400232ffee5",
+                  "591c4efa86f7741030027726",
+                  "570fd79bd2720bc7458b4583",
+                  "570fd6c2d2720bc6458b457f",
+                  "558022b54bdc2dac148b458d",
+                  "5c07dd120db834001c39092d",
+                  "5c0a2cec0db834001b7ce47d",
+                  "58491f3324597764bc48fa02",
+                  "584924ec24597768f12ae244",
+                  "5b30b0dc5acfc400153b7124",
+                  "6165ac8c290d254f5e6b2f6c",
+                  "60a23797a37c940de7062d02",
+                  "5d2da1e948f035477b1ce2ba",
+                  "5c0505e00db834001b735073",
+                  "609a63b6e2ff132951242d09",
+                  "584984812459776a704a82a6",
+                  "59f9d81586f7744c7506ee62",
+                  "570fd721d2720bc5458b4596",
+                  "57ae0171245977343c27bfcf",
+                  "5dfe6104585a0c3e995c7b82",
+                  "5d1b5e94d7ad1a2b865a96b0",
+                  "609bab8b455afd752b2e6138",
+                  "58d39d3d86f77445bb794ae7",
+                  "616554fe50224f204c1da2aa",
+                  "5c7d55f52e221644f31bff6a",
+                  "616584766ef05c2ce828ef57",
+                  "5b3b6dc75acfc47a8773fb1e",
+                  "615d8d878004cc50514c3233",
+                  "577d128124597739d65d0e56",
+                  "58d2664f86f7747fec5834f6",
+                  "5c1cdd302e221602b3137250",
+                  "61714b2467085e45ef140b2c",
+                  "5b31163c5acfc400153b71cb",
+                  "5a33b652c4a28232996e407c",
+                  "5a33b2c9c4a282000c5a9511",
+                  "59db7eed86f77461f8380365",
+                  "5a1ead28fcdbcb001912fa9f",
+                  "626bb8532c923541184624b4",
+                  "63fc449f5bd61c6cf3784a88",
+                  "6477772ea8a38bb2050ed4db",
+                  "6478641c19d732620e045e17",
+                  "64785e7c19d732620e045e15",
+                  "65392f611406374f82152ba5",
+                  "653931da5db71d30ab1d6296",
+                  "655f13e0a246670fb0373245",
+                  "67641a851b2899700609901a"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "d2fee631ce0f5950a72a9aaf",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_tactical_000",
+          "_parent": "7c035e445456522b8dfb749d",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "57fd23e32459772d0805bcf1",
+                  "544909bb4bdc2d6f028b4577",
+                  "5a7b483fe899ef0016170d15",
+                  "61605d88ffa6e502ac5e7eeb",
+                  "5c5952732e2216398b5abda2",
+                  "644a3df63b0b6f03e101e065"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "b9c2b33fe0eb543a884cca30",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_tactical_001",
+          "_parent": "7c035e445456522b8dfb749d",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a800961159bd4315e3a1657",
+                  "57fd23e32459772d0805bcf1",
+                  "544909bb4bdc2d6f028b4577",
+                  "5c06595c0db834001a66af6c",
+                  "5cc9c20cd7f00c001336c65d",
+                  "5d2369418abbc306c62e0c80",
+                  "5b07dd285acfc4001754240d",
+                  "56def37dd2720bec348b456a",
+                  "5a7b483fe899ef0016170d15",
+                  "5a5f1ce64f39f90b401987bc",
+                  "560d657b4bdc2da74d8b4572",
+                  "5b3a337e5acfc4704b4a19a0",
+                  "5c5952732e2216398b5abda2",
+                  "57d17e212459775a1179a0f5",
+                  "6267c6396b642f77f56f5c1c",
+                  "6272370ee4013c5d7e31f418",
+                  "6272379924e29f06af4d5ecb",
+                  "626becf9582c3e319310b837",
+                  "644a3df63b0b6f03e101e065",
+                  "646f6322f43d0c5d62063715"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "9670b5cb79b45280b2fb4712",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_tactical_002",
+          "_parent": "7c035e445456522b8dfb749d",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a800961159bd4315e3a1657",
+                  "57fd23e32459772d0805bcf1",
+                  "544909bb4bdc2d6f028b4577",
+                  "5c06595c0db834001a66af6c",
+                  "5cc9c20cd7f00c001336c65d",
+                  "5d2369418abbc306c62e0c80",
+                  "5b07dd285acfc4001754240d",
+                  "56def37dd2720bec348b456a",
+                  "5a7b483fe899ef0016170d15",
+                  "61605d88ffa6e502ac5e7eeb",
+                  "5a5f1ce64f39f90b401987bc",
+                  "560d657b4bdc2da74d8b4572",
+                  "5b3a337e5acfc4704b4a19a0",
+                  "5c5952732e2216398b5abda2",
+                  "57d17e212459775a1179a0f5",
+                  "6267c6396b642f77f56f5c1c",
+                  "6272370ee4013c5d7e31f418",
+                  "6272379924e29f06af4d5ecb",
+                  "626becf9582c3e319310b837",
+                  "644a3df63b0b6f03e101e065",
+                  "646f6322f43d0c5d62063715"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "9503c1868d885182858ebee0",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_stock",
+          "_parent": "7c035e445456522b8dfb749d",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5bcf0213d4351e0085327c17",
+                  "5bd704e7209c4d00d7167c31",
+                  "98d24843ffc856518553886f"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        }
+      ],
+      "Chambers": [
+        {
+          "_id": "02a4a13f567853c7b3f76c95",
+          "_mergeSlotWithChildren": false,
+          "_name": "patron_in_weapon",
+          "_parent": "7c035e445456522b8dfb749d",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ba26812d4351e003201fef1",
+                  "5ba26835d4351e0035628ff5",
+                  "5ba2678ad4351e44f824b344",
+                  "5ba26844d4351e00334c9475",
+                  "64b6979341772715af0f9c39"
+                ]
+              }
+            ]
+          },
+          "_proto": "55d4af244bdc2d962f8b4571",
+          "_required": false
+        }
+      ],
+      "ShortName": "MP7A1",
+      "Description": "The HK MP7 submachine gun is extremely compact, lightweight, can be used in very confined spaces, and is practically recoil-free. It can be carried continuously, making it the ideal personal weapon for the soldier of today. Those who carry it will be suitably armed for the broadest range of operations. Manufactured by Heckler & Koch. FDE Version."
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "handbookPriceRoubles": 44288,
+    "fleaPriceRoubles": 82167,
+    "locales": {
+      "en": {
+        "name": "HK MP7A1 4.6x30 submachine gun (FDE)",
+        "shortName": "MP7A1",
+        "description": "The HK MP7 submachine gun is extremely compact, lightweight, can be used in very confined spaces, and is practically recoil-free. It can be carried continuously, making it the ideal personal weapon for the soldier of today. Those who carry it will be suitably armed for the broadest range of operations. Manufactured by Heckler & Koch. FDE Version."
+      },
+      "po": {
+        "name": "HK MP7A1 4.6x30 submachine gun (FDE)",
+        "shortName": "MP7A1",
+        "description": "A MP7 é extremamente compacta, leve, pode ser usado em espaços muito confinados, e praticamente não tem recuo. Pode ser carregada continuamente, se tornando uma arma ideal para o soldado de hoje em dia. Aqueles que carregam ela estarão bem armados para qualquer operação. FDE Version."
+      }
+    },
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_id": "bd0f06be9b9959609e2216cc",
+        "_type": "Preset",
+        "_changeWeaponName": false,
+        "_name": "MP7A1 FDE",
+        "_parent": "834fd1da657b5145ab900961",
+        "_items": [
+          {
+            "_id": "834fd1da657b5145ab900961",
+            "_tpl": "7c035e445456522b8dfb749d",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Repairable": {
+                "Durability": 100,
+                "MaxDurability": 100
+              },
+              "FireMode": {
+                "FireMode": "fullauto"
+              },
+              "Foldable": {
+                "Folded": false
+              }
+            }
+          },
+          {
+            "_id": "c4cc6f482e80584b939e2ce1",
+            "_tpl": "5ba26586d4351e44f824b340",
+            "parentId": "834fd1da657b5145ab900961",
+            "slotId": "mod_magazine",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "2b4aefe553375d4980b48f36",
+            "_tpl": "69985fa69f79621e1d0f58f5",
+            "parentId": "834fd1da657b5145ab900961",
+            "slotId": "mod_muzzle",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "98b049b5c60e5023b703d303",
+            "_tpl": "5ba26b01d4351e0085325a51",
+            "parentId": "834fd1da657b5145ab900961",
+            "slotId": "mod_sight_front",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Sight": {
+                "ScopesCurrentCalibPointIndexes": [
+                  0
+                ],
+                "ScopesSelectedModes": [
+                  0
+                ],
+                "SelectedScope": 0,
+                "ScopeZoomValue": 0
+              }
+            }
+          },
+          {
+            "_id": "fea1ec5309e85ec59911ce9c",
+            "_tpl": "5bc09a18d4351e003562b68e",
+            "parentId": "834fd1da657b5145ab900961",
+            "slotId": "mod_sight_rear",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Sight": {
+                "ScopesCurrentCalibPointIndexes": [
+                  0
+                ],
+                "ScopesSelectedModes": [
+                  0
+                ],
+                "SelectedScope": 0,
+                "ScopeZoomValue": 0
+              }
+            }
+          },
+          {
+            "_id": "e71a10b166535e9d9ee6332e",
+            "_tpl": "58491f3324597764bc48fa02",
+            "parentId": "834fd1da657b5145ab900961",
+            "slotId": "mod_scope",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Sight": {
+                "ScopesCurrentCalibPointIndexes": [
+                  0
+                ],
+                "ScopesSelectedModes": [
+                  0
+                ],
+                "SelectedScope": 0,
+                "ScopeZoomValue": 0
+              }
+            }
+          },
+          {
+            "_id": "409c161c46435cbbb2c3d202",
+            "_tpl": "644a3df63b0b6f03e101e065",
+            "parentId": "834fd1da657b5145ab900961",
+            "slotId": "mod_tactical_000",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Light": {
+                "IsActive": true,
+                "SelectedMode": 0
+              }
+            }
+          },
+          {
+            "_id": "08098352088b5f3cbc54cccb",
+            "_tpl": "56def37dd2720bec348b456a",
+            "parentId": "834fd1da657b5145ab900961",
+            "slotId": "mod_tactical_001",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Light": {
+                "IsActive": true,
+                "SelectedMode": 0
+              }
+            }
+          },
+          {
+            "_id": "65b9392af5e857629ee20f9e",
+            "_tpl": "69985e9146e48aa39d06a685",
+            "parentId": "834fd1da657b5145ab900961",
+            "slotId": "mod_stock",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "5c5b32b5dffa5e40b06bd91e",
+            "_tpl": "55d614004bdc2d86028b4568",
+            "parentId": "2b4aefe553375d4980b48f36",
+            "slotId": "mod_muzzle",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "66d385f1bff358918b12b1af",
+            "_tpl": "69985e7819f8713b630de3d6",
+            "parentId": "65b9392af5e857629ee20f9e",
+            "slotId": "mod_stock",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ],
+        "_encyclopedia": "7c035e445456522b8dfb749d"
+      }
+    ]
+  },
+  "98d24843ffc856518553886f": {
+    "itemTplToClone": "5bcf0213d4351e0085327c17",
+    "parentId": "55818a594bdc2db9688b456a",
+    "handbookParentId": "5b5f757486f774093e6cb507",
+    "overrideProperties": {
+      "Name": "HK MP7A1 stock (FDE)",
+      "CanSellOnRagfair": false,
+      "Prefab": {
+        "path": "aishiweapons/mp7a1_fde/stock_mp7_hk_a1_std_detail_fde.bundle",
+        "rcid": ""
+      },
+      "ShortName": "A1",
+      "Description": "A standard-issue retractable stock for the MP7A1 submachine gun. Manufactured by Heckler & Koch. FDE Version."
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "handbookPriceRoubles": 2111,
+    "fleaPriceRoubles": 2111,
+    "locales": {
+      "en": {
+        "name": "HK MP7A1 stock (FDE)",
+        "shortName": "A1",
+        "description": "A standard-issue retractable stock for the MP7A1 submachine gun. Manufactured by Heckler & Koch. FDE Version."
+      },
+      "po": {
+        "name": "HK MP7A1 stock (FDE)",
+        "shortName": "A1",
+        "description": "Coronha padrão e retrátil para a MP7A1. FDE Version."
+      }
+    },
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_stock"
+    ]
+  },
+  "ef505f9cf2e05ef7bd384c04": {
+    "itemTplToClone": "5ba264f6d4351e0034777d52",
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "aishiweapons/mp7a1_fde/mag_mp7_hk_std_46x30_20_finishes_fde.bundle",
+        "rcid": ""
+      },
+      "Cartridges": [
+        {
+          "_id": "4e1c3b225cb05b5b82c678b9",
+          "_max_count": 20,
+          "_name": "cartridges",
+          "_parent": "ef505f9cf2e05ef7bd384c04",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ba26812d4351e003201fef1",
+                  "5ba26835d4351e0035628ff5",
+                  "5ba2678ad4351e44f824b344",
+                  "5ba26844d4351e00334c9475",
+                  "64b6979341772715af0f9c39"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ],
+      "Name": "HK MP7 4.6x30 20-round magazine (FDE)",
+      "ShortName": "MP7",
+      "Description": "A standard 20-round 4.6x30 magazine for the MP7 SMGs, manufactured by Heckler & Koch. FDE Version.",
+      "CanSellOnRagfair": false
+    },
+    "handbookPriceRoubles": 4026,
+    "fleaPriceRoubles": 5946,
+    "locales": {
+      "en": {
+        "name": "HK MP7 4.6x30 20-round magazine (FDE)",
+        "shortName": "MP7",
+        "description": "A standard 20-round 4.6x30 magazine for the MP7 SMGs, manufactured by Heckler & Koch. FDE Version."
+      },
+      "po": {
+        "name": "HK MP7 4.6x30 20-round magazine (FDE)",
+        "shortName": "MP7",
+        "description": "Carregador de 20 munições, calibre 4.6x30 para MP7. FDE Version."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_magazine"
+    ]
+  },
+  "b1612c1383345037a162831c": {
+    "itemTplToClone": "5ba2657ed4351e0035628ff2",
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "aishiweapons/mp7a1_fde/mag_mp7_hk_std_46x30_30_fde.bundle",
+        "rcid": ""
+      },
+      "Cartridges": [
+        {
+          "_id": "de35fa55a99453968f0fd62b",
+          "_max_count": 30,
+          "_name": "cartridges",
+          "_parent": "b1612c1383345037a162831c",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ba26812d4351e003201fef1",
+                  "5ba26835d4351e0035628ff5",
+                  "5ba2678ad4351e44f824b344",
+                  "5ba26844d4351e00334c9475",
+                  "64b6979341772715af0f9c39"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ],
+      "Name": "HK MP7 4.6x30 30-round magazine (FDE)",
+      "ShortName": "MP7",
+      "Description": "A standard 30-round 4.6x30 magazine for the MP7 SMGs, manufactured by Heckler & Koch. FDE Version.",
+      "CanSellOnRagfair": false
+    },
+    "handbookPriceRoubles": 6001,
+    "fleaPriceRoubles": 18171,
+    "locales": {
+      "en": {
+        "name": "HK MP7 4.6x30 30-round magazine (FDE)",
+        "shortName": "MP7",
+        "description": "A standard 30-round 4.6x30 magazine for the MP7 SMGs, manufactured by Heckler & Koch. FDE Version."
+      },
+      "po": {
+        "name": "HK MP7 4.6x30 30-round magazine (FDE)",
+        "shortName": "MP7",
+        "description": "Carregador de 30 munições, calibre 4.6x30 para MP7. FDE Version."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_magazine"
+    ]
+  }
+}

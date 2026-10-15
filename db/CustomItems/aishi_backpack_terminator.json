@@ -1,32 +1,18 @@
 {
   "6a12667fec1b599645cd7183": {
-
     "itemTplToClone": "59e763f286f7742ee57895da",
     "parentId": "5448e53e4bdc2d60728b4567",
     "handbookParentId": "5b5f6f6c86f774093f2ecf0b",
-
     "overrideProperties": {
-      "QuestItem": false,  
       "ExaminedByDefault": false,
-      "IsUnsaleable": false,
-      "CanSellOnRagfair": false,
-      "CanRequireOnRagfair": false,
       "InsuranceDisabled": true,
-      "addtoItemBlacklist": false,   
-        
-
+      "addtoItemBlacklist": false,
       "Prefab": {
-
         "path": "equipment/item_equipment_backpack_f4terminator_black.bundle",
         "rcid": ""
       },
-
-      "Width": 5,
       "Height": 8,
-
-
       "Weight": 2.25,
-
       "Grids": [
         {
           "_name": "main",
@@ -64,47 +50,36 @@
         }
       ]
     },
-
     "locales": {
       "en": {
         "name": "Extended Eberlestock F4 Terminator load bearing backpack (USEC Intelligence Support Bureau)",
         "shortName": "F4 Terminator",
         "description": "An extremely versatile full-format load bearing backpack for military use. Manufactured by Eberlestock."
       },
-        "po": {
+      "po": {
         "name": "Mochila Eberlestock F4 Terminator expandida (Agência de Suporte a Inteligência da USEC)",
         "shortName": "F4",
         "description": "Uma mochila extremamente versátil de formato completo para uso militar. Fabricada pela Eberlestock."
       }
     },
-
     "fleaPriceRoubles": 150480,
-
     "handbookPriceRoubles": 90480,
-
-    "addtoInventorySlots": ["Backpack"],
-
+    "addtoInventorySlots": [
+      "Backpack"
+    ],
     "addtoBots": true,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "IsAlwaysAvailableForInsurance": false,
-
     "InsuranceDisabled": true,
-
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",
         "Probability": 0
       }
     ],
-
     "addtoSecureFilters": false
   }
 }

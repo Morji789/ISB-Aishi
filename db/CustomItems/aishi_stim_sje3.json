@@ -1,32 +1,19 @@
 {
   "692bbee2e2bf5108b9310186": {
-
     "itemTplToClone": "5fca13ca637ee0341a484f46",
     "parentId": "5448f3a64bdc2d60728b456a",
     "handbookParentId": "5b47574386f77428ca22b33a",
-
-
-    "overrideProperties": { 
-        "ExaminedByDefault": false,
-        "IsUnsaleable": true,
-        "IsUnbuyable": true,
-        "CanSellOnRagfair": false,
-        "medUseTime": 2,
-        "StimulatorBuffs": "DangerousEcstasy",
-        
-
+    "overrideProperties": {
+      "IsUnsaleable": true,
+      "IsUnbuyable": true,
+      "CanSellOnRagfair": false,
+      "StimulatorBuffs": "DangerousEcstasy",
       "Prefab": {
-
         "path": "equipment/isb_stim_sje3_loot.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
-      "Height": 1,
       "Weight": 0.09,
-
-        "effects_damage": {
+      "effects_damage": {
         "Contusion": {
           "delay": 0,
           "duration": 5,
@@ -38,10 +25,8 @@
           "fadeOut": 0
         }
       },
-
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "SJE3 TGLabs combat stimulant injector",
@@ -54,15 +39,10 @@
         "description": "Um estimulante experimental da TerraGroup que causa um efeito de êxtase extremamente perigoso. Ele foi descontinuado devido a constantes fracassos nos experimentos. A ISB retomou o projeto o tornando mais seguro e adaptando."
       }
     },
-
     "fleaPriceRoubles": 1175000,
-
     "handbookPriceRoubles": 500000,
-
     "addtoBots": true,
-
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",

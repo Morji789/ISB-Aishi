@@ -1,0 +1,107 @@
+{
+  "d365c02ec4a35cb7be897982": {
+    "itemTplToClone": "689c8b454b91399db3085f2a",
+    "parentId": "55818b224bdc2dde698b456f",
+    "handbookParentId": "5b5f755f86f77447ec5d770e",
+    "handbookPriceRoubles": 2200,
+    "fleaPriceRoubles": 12000,
+    "overrideProperties": {
+      "BackgroundColor": "blue",
+      "Prefab": {
+        "path": "aishiweapons/mods/scout_light_ral8000/mount_m_lok_arisaka_inline_scout_mount_ral8000.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_name": "mod_tactical",
+          "_id": "935796517889595aa17e4ab7",
+          "_parent": "d365c02ec4a35cb7be897982",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "689c887cd18a3665b8045743"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ],
+      "Name": "Arisaka Inline Scout Mount M-LOK (RAL 8000)",
+      "ShortName": "Inline M-LOK",
+      "Description": "A weapon light mount designed for M-LOK interface. Manufactured by Arisaka. RAL 8000 Version.",
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": true
+    },
+    "locales": {
+      "en": {
+        "name": "Arisaka Inline Scout Mount M-LOK (RAL 8000)",
+        "shortName": "Inline M-LOK",
+        "description": "A weapon light mount designed for M-LOK interface. Manufactured by Arisaka. RAL 8000 Version."
+      },
+      "po": {
+        "name": "Arisaka Inline Scout Mount M-LOK (RAL 8000)",
+        "shortName": "Inline M-LOK",
+        "description": "A weapon light mount designed for M-LOK interface. Manufactured by Arisaka. RAL 8000 Version."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_mount",
+      "mod_mount_000",
+      "mod_mount_001",
+      "mod_mount_002",
+      "mod_mount_003",
+      "mod_mount_004"
+    ]
+  },
+  "0878b569e56e5844b58c7b1f": {
+    "itemTplToClone": "689c887cd18a3665b8045743",
+    "parentId": "55818b084bdc2d5b648b4571",
+    "handbookParentId": "5b5f73ab86f774094242f195",
+    "handbookPriceRoubles": 12600,
+    "fleaPriceRoubles": 12599,
+    "overrideProperties": {
+      "BackgroundColor": "blue",
+      "Prefab": {
+        "path": "aishiweapons/mods/scout_light_ral8000/flashlight_surefire_m600_ultra_scout_ral8000.bundle",
+        "rcid": ""
+      },
+      "Name": "SureFire M600 Ultra Scout Light (RAL 8000)",
+      "ShortName": "M600U",
+      "Description": "A modern lightweight tactical weapon light, installed on special compatible mounts. Manufactured by SureFire. RAL 8000 Version.",
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": true
+    },
+    "locales": {
+      "en": {
+        "name": "SureFire M600 Ultra Scout Light (RAL 8000)",
+        "shortName": "M600U",
+        "description": "A modern lightweight tactical weapon light, installed on special compatible mounts. Manufactured by SureFire. RAL 8000 Version."
+      },
+      "po": {
+        "name": "SureFire M600 Ultra Scout Light (RAL 8000)",
+        "shortName": "M600U",
+        "description": "A modern lightweight tactical weapon light, installed on special compatible mounts. Manufactured by SureFire. RAL 8000 Version."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_tactical"
+    ]
+  }
+}

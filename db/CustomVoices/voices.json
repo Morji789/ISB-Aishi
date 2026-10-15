@@ -1,0 +1,11 @@
+{
+  "d29399edad3fdbee2b33b825": {
+    "locales": {
+      "en": "Zofia",
+      "po": "Zofia"
+    },
+    "name": "ISB_HJ_01",
+    "addVoiceToPlayer": true,
+    "bundlePath": "aishi/voices/isb_hj_01_voice.bundle"
+  }
+}

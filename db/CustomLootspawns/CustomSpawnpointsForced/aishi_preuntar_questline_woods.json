@@ -1,45 +1,45 @@
 {
-    "Woods": [     
+  "Woods": [
+    {
+      "locationId": "(-528.824, -0.340, 283.388)",
+      "probability": 0.25,
+      "template": {
+        "Id": "quest_docs [862f2e3d-5816-44f8-810d-da9c632dbb58]",
+        "IsContainer": false,
+        "useGravity": true,
+        "randomRotation": false,
+        "Position": {
+          "x": -528.824,
+          "y": -0.34,
+          "z": 283.388
+        },
+        "Rotation": {
+          "x": 84.34,
+          "y": 359.9892,
+          "z": 359.958
+        },
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "IsAlwaysSpawn": false,
+        "Root": "69e57646c42dfc7a9d4c34fd",
+        "Items": [
+          {
+            "_id": "69e57646c42dfc7a9d4c34fd",
+            "_tpl": "69e5613a079c7bc64a33bb77",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      },
+      "itemDistribution": [
         {
-            "locationId": "(-528.824, -0.340, 283.388)",
-            "probability": 0.25,
-            "template": {
-                "Id": "quest_docs [862f2e3d-5816-44f8-810d-da9c632dbb58]",
-                "IsContainer": false,
-                "useGravity": true,
-                "randomRotation": false,
-                "Position": {
-                    "x": -528.824,
-                    "y": -0.340,
-                    "z": 283.388
-                },
-                "Rotation": {
-                    "x": 84.34,
-                    "y": 359.9892,
-                    "z": 359.958
-                },
-                "IsGroupPosition": false,
-                "GroupPositions": [],
-                "IsAlwaysSpawn": false,
-                "Root": "69e57646c42dfc7a9d4c34fd",
-                "Items": [
-                    {
-                        "_id": "69e57646c42dfc7a9d4c34fd",
-                        "_tpl": "69e5613a079c7bc64a33bb77",
-                        "upd": {
-                            "StackObjectsCount": 1
-                        }
-                    }
-                ]
-            },
-            "itemDistribution": [
-                {
-                    "composedKey": {
-                        "key": "69e5764caeddc0b120fab142"
-                    },
-                    "relativeProbability": 1
-                }
-            ]
+          "composedKey": {
+            "key": "69e5764caeddc0b120fab142"
+          },
+          "relativeProbability": 1
         }
-    ]
+      ]
+    }
+  ]
 }

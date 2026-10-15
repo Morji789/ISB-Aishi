@@ -1,81 +1,48 @@
 {
   "6a222d3dc7ebe3f5fbc2b01d": {
-
     "itemTplToClone": "678f84bb9e85556ca60f0362",
     "parentId": "5a341c4686f77469e155819e",
     "handbookParentId": "5b47574386f77428ca22b32f",
-
     "overrideProperties": {
-      "QuestItem": false,  
-      "ExaminedByDefault": false,
-      "CanSellOnRagfair": false,
-      "CanRequireOnRagfair": false,
-      "addtoItemBlacklist": true,  
+      "addtoItemBlacklist": true,
       "InsuranceDisabled": true,
-      "armorClass": "6",
       "BackgroundColor": "yellow",
       "IsUnbuyable": true,
       "BlindnessProtection": 0.7,
       "Durability": 50,
       "MaxDurability": 50,
       "Unlootable": false,
-      "UnlootableFromSide": [
-        "Bear",
-        "Usec",
-        "Savage"
-      ],
-      "UnlootableFromSlot": "FaceCover", 
-        
-
       "Prefab": {
-
         "path": "clothing/tagilla/item_equipment_facecover_welding_gorilla_variant.bundle",
         "rcid": ""
       },
-
-
-      "Width": 2,
-      "Height": 2,
-
-
       "Weight": 0.75,
-
-    "Grids": []
+      "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "Tagilla's welding mask \"Swineherd\"",
         "shortName": "Swineherd",
         "description": "An armored steel welding mask of Tagilla - the Bossman of Factory. Painted with the special \"Swineherd\" art."
       },
-        "po": {
+      "po": {
         "name": "Tagilla's welding mask \"Swineherd\"",
         "shortName": "Swineherd",
         "description": "An armored steel welding mask of Tagilla - the Bossman of Factory. Painted with the special \"Swineherd\" art."
       }
     },
-
     "fleaPriceRoubles": 125000,
-
     "handbookPriceRoubles": 25900,
-
-    "addtoInventorySlots": ["FaceCover"],
-
+    "addtoInventorySlots": [
+      "FaceCover"
+    ],
     "addtoBots": false,
-
     "CanSellOnRagfair": false,
-
     "IsAlwaysAvailableForInsurance": false,
-
     "InsuranceDisabled": true,
-
     "CanRequireOnRagfair": false,
-    
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",

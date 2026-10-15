@@ -1,77 +1,51 @@
 {
   "69e90614c926337ef78d0730": {
-
     "itemTplToClone": "679ba90d269ddfea47012159",
     "parentId": "5447e1d04bdc2dff2f8b4567",
     "handbookParentId": "5b5f7a0886f77409407a7f96",
-
     "overrideProperties": {
-      "QuestItem": false,  
-      "ExaminedByDefault": false,
       "InsuranceDisabled": true,
-      "CanSellOnRagfair": false,
-      "CanRequireOnRagfair": false,
-      "addtoItemBlacklist": true,  
+      "addtoItemBlacklist": true,
       "BackgroundColor": "yellow",
       "IsUnbuyable": true,
       "knifeHitStabDam": 100,
       "Durability": 5,
-      "Unlootable": true,
-        
-
       "Prefab": {
-
         "path": "assets/content/weapons/labris/weapon_labris_axe_container.bundle",
         "rcid": ""
       },
-
-
-      "Width": 5,
-      "Height": 5,
-
-
       "Weight": 5,
-
-    "Grids": []
+      "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "Chained Labrys",
         "shortName": "Labrys",
         "description": "A two-handed axe made out of a sewer hatch... With that weight, a single blow is enough to split a skull, whether the blade is sharp or not."
       },
-        "po": {
+      "po": {
         "name": "\"Chained Labrys\"",
         "shortName": "Labrys",
         "description": "Um machado de duas mãos feito com uma tampa de bueiro... Com aquele peso, basta um único golpe para rachar um crânio, esteja a lâmina afiada ou não."
       }
     },
-
-    "fleaPriceRoubles": 999999,
-
-    "handbookPriceRoubles": 999999,
-
-    "addtoInventorySlots": ["Sheath"],
-
+    "fleaPriceRoubles": 9999999,
+    "handbookPriceRoubles": 9999999,
+    "addtoInventorySlots": [
+      "Sheath"
+    ],
     "addtoBots": false,
-
     "CanSellOnRagfair": false,
-
     "CanRequireOnRagfair": false,
-
     "Unlootable": true,
     "UnlootableFromSide": [
-        "Bear",
-        "Usec",
-        "Savage"
-      ],
-      "UnlootableFromSlot": "Sheath", 
-    
-    "addtoItemBlacklist": true, 
-
+      "Bear",
+      "Usec",
+      "Savage"
+    ],
+    "UnlootableFromSlot": "Sheath",
+    "addtoItemBlacklist": true,
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",

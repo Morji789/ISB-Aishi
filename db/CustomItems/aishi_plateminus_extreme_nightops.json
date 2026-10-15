@@ -1,0 +1,734 @@
+{
+  "e1e4b956da175d83acfbb112": {
+    "itemTplToClone": "5c0e746986f7741453628fe5",
+    "parentId": "5448e5284bdc2dcb718b4567",
+    "handbookParentId": "5b5f6f8786f77447ed563642",
+    "overrideProperties": {
+      "Grids": [
+        {
+          "_name": "1",
+          "_id": "edc94683c31c5fec82f9c21d",
+          "_parent": "e1e4b956da175d83acfbb112",
+          "_props": {
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "cellsH": 1,
+            "cellsV": 1,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "2",
+          "_id": "4ecfeb702c195790969f05c1",
+          "_parent": "e1e4b956da175d83acfbb112",
+          "_props": {
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "cellsH": 1,
+            "cellsV": 1,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "3",
+          "_id": "8ec33348c81c5f8a8c0800b6",
+          "_parent": "e1e4b956da175d83acfbb112",
+          "_props": {
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "cellsH": 1,
+            "cellsV": 1,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "4",
+          "_id": "f307a0724038567b9e091f4d",
+          "_parent": "e1e4b956da175d83acfbb112",
+          "_props": {
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "cellsH": 2,
+            "cellsV": 1,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "5",
+          "_id": "87c0dc3e3c20517a98b889b1",
+          "_parent": "e1e4b956da175d83acfbb112",
+          "_props": {
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "cellsH": 2,
+            "cellsV": 1,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "6",
+          "_id": "451fdbf17d8d5efeb0648a9b",
+          "_parent": "e1e4b956da175d83acfbb112",
+          "_props": {
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "cellsH": 2,
+            "cellsV": 1,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "7",
+          "_id": "b9d2790276e0521ea57fd5fa",
+          "_parent": "e1e4b956da175d83acfbb112",
+          "_props": {
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "cellsH": 2,
+            "cellsV": 1,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "8",
+          "_id": "482d7c5f14e055309c15de33",
+          "_parent": "e1e4b956da175d83acfbb112",
+          "_props": {
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "cellsH": 2,
+            "cellsV": 1,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "9",
+          "_id": "a9393af61829552ebd1cb52d",
+          "_parent": "e1e4b956da175d83acfbb112",
+          "_props": {
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "cellsH": 2,
+            "cellsV": 1,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "10",
+          "_id": "efad08b5e2a754349b336748",
+          "_parent": "e1e4b956da175d83acfbb112",
+          "_props": {
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "cellsH": 2,
+            "cellsV": 1,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "11",
+          "_id": "db131d73ceab5a898649710d",
+          "_parent": "e1e4b956da175d83acfbb112",
+          "_props": {
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "cellsH": 2,
+            "cellsV": 1,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "12",
+          "_id": "9df7262fc4d8575ca374333b",
+          "_parent": "e1e4b956da175d83acfbb112",
+          "_props": {
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "cellsH": 2,
+            "cellsV": 1,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "13",
+          "_id": "20e59698e0a653d9bc5abb1d",
+          "_parent": "e1e4b956da175d83acfbb112",
+          "_props": {
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "cellsH": 2,
+            "cellsV": 1,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        }
+      ],
+      "Slots": [
+        {
+          "_name": "Front_plate",
+          "_id": "a754394e53e455879eb0515a",
+          "_parent": "e1e4b956da175d83acfbb112",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "656f9d5900d62bcd2e02407c",
+                  "656fa8d700d62bcd2e024084",
+                  "656fa99800d62bcd2e024088",
+                  "656fae5f7c2d57afe200c0d7",
+                  "656faf0ca0dce000a2020f77",
+                  "656fa0fb498d1b7e3e071d9c",
+                  "656fa76500d62bcd2e024080",
+                  "656fafe3498d1b7e3e071da4",
+                  "656fa25e94b480b8a500c0e0",
+                  "656fad8c498d1b7e3e071da0",
+                  "656fa61e94b480b8a500c0e8",
+                  "656fb21fa0dce000a2020f7c",
+                  "656fb0bd7c2d57afe200c0dc",
+                  "656fac30c6baea13cd07e10c",
+                  "656f9fa0498d1b7e3e071d98",
+                  "656fa53d94b480b8a500c0e4",
+                  "655746010177119f4a097ff7",
+                  "64afdcb83efdfea28601d041",
+                  "6943c85be2f21398e70378cc"
+                ],
+                "Plate": "",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_chest"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": true,
+          "_isPlateSlot": true,
+          "_isPatronSlot": false,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        },
+        {
+          "_name": "Back_plate",
+          "_id": "4bf37245985d5e2abe07df58",
+          "_parent": "e1e4b956da175d83acfbb112",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "656f9d5900d62bcd2e02407c",
+                  "656fa8d700d62bcd2e024084",
+                  "656fa99800d62bcd2e024088",
+                  "656fae5f7c2d57afe200c0d7",
+                  "656faf0ca0dce000a2020f77",
+                  "656fa0fb498d1b7e3e071d9c",
+                  "656fafe3498d1b7e3e071da4",
+                  "656fa76500d62bcd2e024080",
+                  "656fad8c498d1b7e3e071da0",
+                  "656fa25e94b480b8a500c0e0",
+                  "656fa61e94b480b8a500c0e8",
+                  "656fac30c6baea13cd07e10c",
+                  "656fb0bd7c2d57afe200c0dc",
+                  "656fb21fa0dce000a2020f7c",
+                  "656f9fa0498d1b7e3e071d98",
+                  "656fa53d94b480b8a500c0e4",
+                  "655746010177119f4a097ff7",
+                  "64afdcb83efdfea28601d041",
+                  "6943c85be2f21398e70378cc"
+                ],
+                "Plate": "",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_back"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": true,
+          "_isPlateSlot": true,
+          "_isPatronSlot": false,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        },
+        {
+          "_name": "Left_side_plate",
+          "_id": "05a9cd9197c35a35b73ac53d",
+          "_parent": "e1e4b956da175d83acfbb112",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6557458f83942d705f0c4962",
+                  "64afdb577bb3bfe8fe03fd1d"
+                ],
+                "Plate": "",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SSAPI_side_left_high"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": true,
+          "_isPlateSlot": true,
+          "_isPatronSlot": false,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        },
+        {
+          "_name": "Right_side_plate",
+          "_id": "3517bad82c1a52abb8af870e",
+          "_parent": "e1e4b956da175d83acfbb112",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "64afdb577bb3bfe8fe03fd1d",
+                  "6557458f83942d705f0c4962"
+                ],
+                "Plate": "",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SSAPI_side_right_high"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": true,
+          "_isPlateSlot": true,
+          "_isPatronSlot": false,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        },
+        {
+          "_name": "Soft_armor_front",
+          "_id": "86f77bdee91c5117aaa09346",
+          "_parent": "e1e4b956da175d83acfbb112",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "2379779702065d808af863f7"
+                ],
+                "Plate": "2379779702065d808af863f7",
+                "armorColliders": [
+                  "RibcageUp"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_isPlateSlot": true,
+          "_isPatronSlot": false,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        },
+        {
+          "_name": "Soft_armor_back",
+          "_id": "d08706ea58b05a69bd9d84a2",
+          "_parent": "e1e4b956da175d83acfbb112",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "cfdd47406da054399441de9d"
+                ],
+                "Plate": "cfdd47406da054399441de9d",
+                "armorColliders": [
+                  "SpineTop"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_isPlateSlot": true,
+          "_isPatronSlot": false,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        },
+        {
+          "_name": "Soft_armor_left",
+          "_id": "94f5b8a5101551f9869c672c",
+          "_parent": "e1e4b956da175d83acfbb112",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "be3a9b7ec34055b084825791"
+                ],
+                "Plate": "be3a9b7ec34055b084825791",
+                "armorColliders": [
+                  "LeftSideChestDown"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_isPlateSlot": true,
+          "_isPatronSlot": false,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        },
+        {
+          "_name": "soft_armor_right",
+          "_id": "0999820d653c5899b02f6dc7",
+          "_parent": "e1e4b956da175d83acfbb112",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "17f315f790a153b6993cd1c6"
+                ],
+                "Plate": "17f315f790a153b6993cd1c6",
+                "armorColliders": [
+                  "RightSideChestDown"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_isPlateSlot": true,
+          "_isPatronSlot": false,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        }
+      ],
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "default",
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": false,
+      "ConflictingItems": [],
+      "Description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes in a Coyote Brown color with a rather unique pouch setup. (Night Ops)",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "ExamineExperience": 10,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "Height": 4,
+      "HideEntrails": true,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsLockedafterEquip": false,
+      "IsNotDeletableFromQuestStashAfterQuestComplete": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "gear_generic",
+      "LeftHandItem": false,
+      "LootExperience": 60,
+      "MergesWithChildren": false,
+      "Name": "Blue Force Gear PLATEminus V2 Plate Carrier (Night Ops)",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "equipment/item_equipment_plateminus_extreme_nightops_aishi.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RagfairLevelToTrade": 0,
+      "RarityPvE": "Not_exist",
+      "RepairCost": 190,
+      "RepairSpeed": 0,
+      "ShortName": "PLATEminus V2",
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Weight": 2.45,
+      "Width": 3,
+      "CanPutIntoDuringTheRaid": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "BlocksArmorVest": true,
+      "SearchSound": "looting_body_extended",
+      "ArmorMaterial": "Aramid",
+      "ArmorType": "Light",
+      "BluntThroughput": 0.34,
+      "MetascoreGroup": "Utility",
+      "RigLayoutName": "aishi_live11_plateminus_extreme",
+      "armorClass": 0,
+      "armorZone": [],
+      "mousePenalty": 0,
+      "speedPenaltyPercent": 0,
+      "weaponErgonomicPenalty": 0
+    },
+    "locales": {
+      "en": {
+        "name": "Blue Force Gear PLATEminus V2 Plate Carrier (Night Ops)",
+        "shortName": "PLATEminus V2",
+        "description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes in a Coyote Brown color with a rather unique pouch setup. (Night Ops)"
+      },
+      "pt": {
+        "name": "Blue Force Gear PLATEminus V2 Plate Carrier (Night Ops)",
+        "shortName": "PLATEminus V2",
+        "description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes in a Coyote Brown color with a rather unique pouch setup. (Night Ops)"
+      },
+      "po": {
+        "name": "Blue Force Gear PLATEminus V2 Plate Carrier (Night Ops)",
+        "shortName": "PLATEminus V2",
+        "description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes in a Coyote Brown color with a rather unique pouch setup. (Night Ops)"
+      }
+    },
+    "handbookPriceRoubles": 18032,
+    "fleaPriceRoubles": 18032,
+    "addtoInventorySlots": [],
+    "addtoBots": false,
+    "addtoTraders": false,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": false,
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_id": "41ac1eaae66f5868a7bf6358",
+        "_type": "Preset",
+        "_changeWeaponName": false,
+        "_name": "Blue Force Gear PLATEminus V2 Plate Carrier (Night Ops)",
+        "_parent": "581194dbc836502b93443407",
+        "_items": [
+          {
+            "_id": "581194dbc836502b93443407",
+            "_tpl": "e1e4b956da175d83acfbb112"
+          },
+          {
+            "_id": "f78cb475ae085451aa1626a5",
+            "_tpl": "2379779702065d808af863f7",
+            "parentId": "581194dbc836502b93443407",
+            "slotId": "Soft_armor_front",
+            "upd": {
+              "Repairable": {
+                "Durability": 26,
+                "MaxDurability": 26
+              }
+            }
+          },
+          {
+            "_id": "c8edc28d2b535fdf93179aac",
+            "_tpl": "cfdd47406da054399441de9d",
+            "parentId": "581194dbc836502b93443407",
+            "slotId": "Soft_armor_back",
+            "upd": {
+              "Repairable": {
+                "Durability": 26,
+                "MaxDurability": 26
+              }
+            }
+          },
+          {
+            "_id": "f5eec265b2da523989eb3f7a",
+            "_tpl": "be3a9b7ec34055b084825791",
+            "parentId": "581194dbc836502b93443407",
+            "slotId": "Soft_armor_left",
+            "upd": {
+              "Repairable": {
+                "Durability": 8,
+                "MaxDurability": 8
+              }
+            }
+          },
+          {
+            "_id": "0ca1da8300945dbb8fbcccc1",
+            "_tpl": "17f315f790a153b6993cd1c6",
+            "parentId": "581194dbc836502b93443407",
+            "slotId": "soft_armor_right",
+            "upd": {
+              "Repairable": {
+                "Durability": 8,
+                "MaxDurability": 8
+              }
+            }
+          }
+        ],
+        "_encyclopedia": "e1e4b956da175d83acfbb112"
+      }
+    ]
+  }
+}

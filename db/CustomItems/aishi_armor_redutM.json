@@ -1,33 +1,20 @@
 {
   "6a07e91cbe3fc4e84a5e6fb2": {
-
     "itemTplToClone": "5ca2151486f774244a3b8d30",
     "parentId": "5448e54d4bdc2dcc718b4568",
     "handbookParentId": "5b5f701386f774093f2ecf0f",
-
-
     "overrideProperties": {
-      "QuestItem": false,  
       "ExaminedByDefault": false,
-      "IsUnsaleable": false,
-      "addtoItemBlacklist": true,      
+      "addtoItemBlacklist": true,
       "Prefab": {
-
         "path": "equipment/item_equipment_armor_redut_m_black.bundle",
         "rcid": ""
       },
-
-
-      "Width": 3,
-      "Height": 4,
-
-
-      "Weight": 7.7,
-
-
-      "Grids": []
+      "Grids": [],
+      "Name": "FORT Redut-M body armor (USEC Intelligence Support Bureau)",
+      "ShortName": "Redut-M",
+      "Description": "“Redut-M” is a modified version of the well-proven Redut body armor, which is in service of special units of the FSB. The vest is based on advanced technologies in the field of individual armor. Due to the optimized form of armor elements and the outer cover with a special damping-ventilation system, the Redut M armored vest has excellent functional qualities, which facilitates active actions, including those associated with the use of vehicles and in confined spaces. (ISB SOF)"
     },
-
     "addWeaponPreset": true,
     "weaponPresets": [
       {
@@ -111,50 +98,37 @@
         "_type": "Preset"
       }
     ],
-
     "locales": {
       "en": {
         "name": "FORT Redut-M body armor (USEC Intelligence Support Bureau)",
         "shortName": "Redut-M",
-        "description": "“Redut-M” is a modified version of the well-proven Redut body armor, which is in service of special units of the FSB. The vest is based on advanced technologies in the field of individual armor. Due to the optimized form of armor elements and the outer cover with a special damping-ventilation system, the Redut M armored vest has excellent functional qualities, which facilitates active actions, including those associated with the use of vehicles and in confined spaces."
+        "description": "“Redut-M” is a modified version of the well-proven Redut body armor, which is in service of special units of the FSB. The vest is based on advanced technologies in the field of individual armor. Due to the optimized form of armor elements and the outer cover with a special damping-ventilation system, the Redut M armored vest has excellent functional qualities, which facilitates active actions, including those associated with the use of vehicles and in confined spaces. (ISB SOF)"
       },
-        "po": {
+      "po": {
         "name": "Colete FORT Redut-M (Agência de Suporte a Inteligência da USEC)",
         "shortName": "Redut-M",
-        "description": "O “Redut-M” é uma versão modificada do colete à prova de balas Redut, amplamente comprovado e em serviço nas unidades especiais do FSB. O colete baseia-se em tecnologias avançadas no campo da blindagem individual. Graças à forma otimizada dos elementos de blindagem e ao revestimento externo com um sistema especial de amortecimento e ventilação, o colete à prova de balas Redut-M apresenta excelentes qualidades funcionais, o que facilita ações dinâmicas, incluindo aquelas associadas ao uso de veículos e em espaços confinados."
+        "description": "\"Redut M\" é uma versão modificada da armadura comprovada Redut, que está em serviço das unidades especiais do FSB. O colete é baseado em tecnologia avançada no campo da armadura individual. Devido à otimização dos elementos externos e o sistema de ventilação especial, a armadura Redut M tem uma excelente versatilidade, o que facilita as ações ativas, incluindo aquelas associadas com o uso de veículos e em espaços confinados. (ISB SOF)"
       }
     },
-
     "fleaPriceRoubles": 82900,
-
     "handbookPriceRoubles": 6120,
-
     "CanSellOnRagfair": false,
-
     "CanRequireOnRagfair": false,
-    
-    "addtoItemBlacklist": true,    
-
-    "addtoInventorySlots": ["BodyArmor"],
-
+    "addtoItemBlacklist": true,
+    "addtoInventorySlots": [
+      "BodyArmor"
+    ],
     "IsAlwaysAvailableForInsurance": false,
-
     "InsuranceDisabled": false,
-
     "addtoBots": false,
-
     "addtoEmptyPropSlots": false,
-
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",
         "Probability": 0
       }
     ],
-
-
     "addtoSecureFilters": false
   }
 }

@@ -1,41 +1,27 @@
 {
   "693a2a8c8ca17192ef82abae": {
-
     "itemTplToClone": "5df8a4d786f77412672a1e3b",
     "parentId": "5448e53e4bdc2d60728b4567",
     "handbookParentId": "5b5f6f6c86f774093f2ecf0b",
-
     "overrideProperties": {
-      "QuestItem": false,  
       "ExaminedByDefault": false,
-      "IsUnsaleable": false,
-      "CanSellOnRagfair": false,
-      "CanRequireOnRagfair": false,
-      "addtoItemBlacklist": true,   
-        
-
+      "addtoItemBlacklist": true,
+      "InsuranceDisabled": true,
       "Prefab": {
-
         "path": "equipment/item_equipment_backpack_6sh118_isbedition.bundle",
         "rcid": ""
       },
-
-      "Width": 6,
-      "Height": 7,
-
-
-      "Weight": 3.5,
-
       "Grids": [
         {
-          "_id": "5df8a4d786f77412672a1e3d",
           "_name": "main",
-          "_parent": "5df8a4d786f77412672a1e3b",
+          "_id": "6a126b7c91e825639daa6eff",
+          "_parent": "6a126adc0d1adc1541f74ad4",
           "_props": {
-            "cellsH": 6,
-            "cellsV": 8,
             "filters": [
               {
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ],
                 "ExcludedFilter": [
                   "5448bf274bdc2dfc2f8b456a",
                   "5c093db286f7740a1b2617e3",
@@ -48,62 +34,50 @@
                   "59fb042886f7746c5005a7b2",
                   "59fb023c86f7746d0d4b423c",
                   "5b6d9ce188a4501afc1b2b25"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
                 ]
               }
             ],
-            "isSortingTable": false,
+            "cellsH": 6,
+            "cellsV": 9,
+            "minCount": 0,
             "maxCount": 0,
             "maxWeight": 0,
-            "minCount": 0
+            "isSortingTable": false
           },
-          "_proto": "55d329c24bdc2d892f8b4567"
+          "_proto": "6a126b785e87c884684d1447"
         }
       ]
     },
-
     "locales": {
       "en": {
-        "name": "6Sh118 raid backpack (USEC Intelligence Support Bureau)",
+        "name": "Extended 6Sh118 raid backpack (USEC Intelligence Support Bureau)",
         "shortName": "6Sh118",
         "description": "The 6Sh118 raid backpack is part of the 2nd generation \"Ratnik\" gear kit for combat. The 6Sh118 tactical army backpack is a modernization of the 6B38 Permyachka model raid backpack. The raid 6Sh118 backpack is designed to carry fire support equipment, weapons, ammunition, elements of mountain equipment, as well as the personal belongings of individual soldiers. The backpack can be used during combat operations, long hikes, and raid events. Customized Black Version for ISB Special Forces"
       },
-        "po": {
+      "po": {
         "name": "Mochila de incursão 6SH118 (Agência de Suporte a Inteligência da USEC)",
         "shortName": "6Sh118",
         "description": "A mochila de assalto 6Sh118 faz parte do kit de equipamento de combate “Ratnik” de 2ª geração. A mochila tática militar 6Sh118 é uma modernização do modelo de mochila de assalto 6B38 Permyachka. A mochila de assalto 6Sh118 foi projetada para transportar equipamentos de apoio de fogo, armas, munições, equipamentos de montanha, bem como os pertences pessoais de soldados individuais. A mochila pode ser usada durante operações de combate, longas caminhadas e eventos de assalto. Versão preta personalizada para as Forças Especiais ISB"
       }
     },
-
     "fleaPriceRoubles": 358022,
-
     "handbookPriceRoubles": 160000,
-
-    "addtoInventorySlots": ["Backpack"],
-
+    "addtoInventorySlots": [
+      "Backpack"
+    ],
     "addtoBots": false,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
     "IsAlwaysAvailableForInsurance": false,
-
-    "InsuranceDisabled": false,
-
-    "addtoItemBlacklist": true, 
-
+    "InsuranceDisabled": true,
+    "addtoItemBlacklist": true,
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",
         "Probability": 0
       }
     ],
-
     "addtoSecureFilters": false
   }
 }

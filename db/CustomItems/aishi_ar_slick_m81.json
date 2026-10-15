@@ -1,0 +1,204 @@
+{
+  "d0dae3a5077d5b13b8b2c432": {
+    "itemTplToClone": "5e4abb5086f77406975c9342",
+    "parentId": "5448e54d4bdc2dcc718b4568",
+    "handbookParentId": "5b5f701386f774093f2ecf0f",
+    "overrideProperties": {
+      "Description": "A simple yet effective plate carrier by London Bridge Trading company. The most minimalistic design intended for use with chest rigs. M81 US Woodland Version.",
+      "Grids": [],
+      "Name": "LBT-6094A Slick Plate Carrier (M81 US Woodland)",
+      "Prefab": {
+        "path": "equipment/ar_slick_m81_aishi.bundle",
+        "rcid": ""
+      },
+      "ShortName": "Slick",
+      "Slots": [
+        {
+          "_id": "07d7fc90c1465a7382a9c8ae",
+          "_mergeSlotWithChildren": true,
+          "_name": "Front_plate",
+          "_parent": "d0dae3a5077d5b13b8b2c432",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "656f9d5900d62bcd2e02407c",
+                  "656fa8d700d62bcd2e024084",
+                  "656fa99800d62bcd2e024088",
+                  "656fae5f7c2d57afe200c0d7",
+                  "656faf0ca0dce000a2020f77",
+                  "656fa0fb498d1b7e3e071d9c",
+                  "656fafe3498d1b7e3e071da4",
+                  "656fa76500d62bcd2e024080",
+                  "656fa25e94b480b8a500c0e0",
+                  "656fad8c498d1b7e3e071da0",
+                  "656fa61e94b480b8a500c0e8",
+                  "656fb21fa0dce000a2020f7c",
+                  "656fac30c6baea13cd07e10c",
+                  "656fb0bd7c2d57afe200c0dc",
+                  "656f9fa0498d1b7e3e071d98",
+                  "656fa53d94b480b8a500c0e4",
+                  "655746010177119f4a097ff7",
+                  "64afdcb83efdfea28601d041"
+                ],
+                "Plate": "656fa76500d62bcd2e024080",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_chest"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": false
+        },
+        {
+          "_id": "141548a484735614a3918c97",
+          "_mergeSlotWithChildren": true,
+          "_name": "Back_plate",
+          "_parent": "d0dae3a5077d5b13b8b2c432",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "656f9d5900d62bcd2e02407c",
+                  "656fa8d700d62bcd2e024084",
+                  "656fa99800d62bcd2e024088",
+                  "656fae5f7c2d57afe200c0d7",
+                  "656faf0ca0dce000a2020f77",
+                  "656fa0fb498d1b7e3e071d9c",
+                  "656fafe3498d1b7e3e071da4",
+                  "656fa76500d62bcd2e024080",
+                  "656fa25e94b480b8a500c0e0",
+                  "656fad8c498d1b7e3e071da0",
+                  "656fa61e94b480b8a500c0e8",
+                  "656fb21fa0dce000a2020f7c",
+                  "656fac30c6baea13cd07e10c",
+                  "656fb0bd7c2d57afe200c0dc",
+                  "656f9fa0498d1b7e3e071d98",
+                  "656fa53d94b480b8a500c0e4",
+                  "655746010177119f4a097ff7",
+                  "64afdcb83efdfea28601d041"
+                ],
+                "Plate": "656fa76500d62bcd2e024080",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_back"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": false
+        },
+        {
+          "_id": "e925a35fc09c5df19ff9c8c0",
+          "_mergeSlotWithChildren": true,
+          "_name": "Soft_armor_front",
+          "_parent": "d0dae3a5077d5b13b8b2c432",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6575e71760703324250610c3"
+                ],
+                "Plate": "6575e71760703324250610c3",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_chest"
+                ],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        },
+        {
+          "_id": "7092271e793b52aba6fa7d64",
+          "_mergeSlotWithChildren": true,
+          "_name": "Soft_armor_back",
+          "_parent": "d0dae3a5077d5b13b8b2c432",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6575e72660703324250610c7"
+                ],
+                "Plate": "6575e72660703324250610c7",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_back"
+                ],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "LBT-6094A Slick Plate Carrier (M81 US Woodland)",
+        "shortName": "Slick",
+        "description": "A simple yet effective plate carrier by London Bridge Trading company. The most minimalistic design intended for use with chest rigs. M81 US Woodland Version."
+      }
+    },
+    "handbookPriceRoubles": 16523,
+    "fleaPriceRoubles": 167229,
+    "addtoInventorySlots": [],
+    "addtoBots": false,
+    "addtoTraders": false,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": false,
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_changeWeaponName": false,
+        "_encyclopedia": "d0dae3a5077d5b13b8b2c432",
+        "_id": "0b13a434ffcd5d829922aa21",
+        "_items": [
+          {
+            "_id": "33211429b46f5fef9923fa00",
+            "_tpl": "d0dae3a5077d5b13b8b2c432"
+          },
+          {
+            "_id": "182ab55b776d5ab7bb1bb8ef",
+            "_tpl": "6575e71760703324250610c3",
+            "parentId": "33211429b46f5fef9923fa00",
+            "slotId": "Soft_armor_front"
+          },
+          {
+            "_id": "be4e58059c0455d0972d6ba3",
+            "_tpl": "6575e72660703324250610c7",
+            "parentId": "33211429b46f5fef9923fa00",
+            "slotId": "Soft_armor_back"
+          },
+          {
+            "_id": "fc8ee91338e9566dbe801c41",
+            "_tpl": "656fa76500d62bcd2e024080",
+            "parentId": "33211429b46f5fef9923fa00",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "aad1acc54fb1526ca81bef6c",
+            "_tpl": "656fa76500d62bcd2e024080",
+            "parentId": "33211429b46f5fef9923fa00",
+            "slotId": "Back_plate"
+          }
+        ],
+        "_name": "LBT-6094A Slick Plate Carrier (M81 US Woodland)",
+        "_parent": "33211429b46f5fef9923fa00",
+        "_type": "Preset"
+      }
+    ]
+  }
+}

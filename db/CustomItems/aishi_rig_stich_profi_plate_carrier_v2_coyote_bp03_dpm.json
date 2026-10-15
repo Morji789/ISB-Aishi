@@ -1,0 +1,549 @@
+{
+  "759493a3ff8059c3a9a8c3e6": {
+    "itemTplToClone": "5c0e746986f7741453628fe5",
+    "parentId": "5448e5284bdc2dcb718b4567",
+    "handbookParentId": "5b5f6f8786f77447ed563642",
+    "overrideProperties": {
+      "BluntThroughput": 0.2403,
+      "CanSellOnRagfair": false,
+      "Description": "An improved lightweight version of the standard plate carrier manufactured by Stich Profi. DPM Woodland Version.",
+      "Grids": [
+        {
+          "_name": "1",
+          "_id": "72215ae4a719581fb23a7759",
+          "_parent": "759493a3ff8059c3a9a8c3e6",
+          "_props": {
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "cellsH": 2,
+            "cellsV": 1,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "2",
+          "_id": "29eeab88b4945191a00c56df",
+          "_parent": "759493a3ff8059c3a9a8c3e6",
+          "_props": {
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "cellsH": 2,
+            "cellsV": 1,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "3",
+          "_id": "6554f65fa6755a489916d692",
+          "_parent": "759493a3ff8059c3a9a8c3e6",
+          "_props": {
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "cellsH": 1,
+            "cellsV": 3,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "4",
+          "_id": "dd47cee3e0545446ae3b2562",
+          "_parent": "759493a3ff8059c3a9a8c3e6",
+          "_props": {
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "cellsH": 1,
+            "cellsV": 3,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "5",
+          "_id": "12744811e18a5cf28239f8b9",
+          "_parent": "759493a3ff8059c3a9a8c3e6",
+          "_props": {
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "cellsH": 1,
+            "cellsV": 3,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "6",
+          "_id": "219ef4f1f4e25576ad998b3d",
+          "_parent": "759493a3ff8059c3a9a8c3e6",
+          "_props": {
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "cellsH": 1,
+            "cellsV": 3,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "7",
+          "_id": "0e338224ac785f9fa1a78194",
+          "_parent": "759493a3ff8059c3a9a8c3e6",
+          "_props": {
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "cellsH": 2,
+            "cellsV": 2,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        }
+      ],
+      "Height": 4,
+      "Name": "WARTECH TV-110 plate carrier (DPM Woodland)",
+      "Prefab": {
+        "path": "equipment/item_equipment_rig_stich_profi_plate_carrier_v2_coyote_bp03_dpm_aishi.bundle",
+        "rcid": ""
+      },
+      "RarityPvE": "Not_exist",
+      "RepairCost": 612,
+      "RigLayoutName": "rig_stich_profi",
+      "ShortName": "TV-110",
+      "Slots": [
+        {
+          "_name": "Front_plate",
+          "_id": "fca41aa816615326bf3de914",
+          "_parent": "759493a3ff8059c3a9a8c3e6",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "656f9d5900d62bcd2e02407c",
+                  "656fa8d700d62bcd2e024084",
+                  "656fa99800d62bcd2e024088",
+                  "656fae5f7c2d57afe200c0d7",
+                  "656faf0ca0dce000a2020f77",
+                  "656fa76500d62bcd2e024080",
+                  "656fa0fb498d1b7e3e071d9c",
+                  "656fafe3498d1b7e3e071da4",
+                  "656fa25e94b480b8a500c0e0",
+                  "656fad8c498d1b7e3e071da0",
+                  "656fa61e94b480b8a500c0e8",
+                  "656fb21fa0dce000a2020f7c",
+                  "656fac30c6baea13cd07e10c",
+                  "656fb0bd7c2d57afe200c0dc",
+                  "656f9fa0498d1b7e3e071d98",
+                  "656fa53d94b480b8a500c0e4",
+                  "655746010177119f4a097ff7",
+                  "64afdcb83efdfea28601d041",
+                  "65573fa5655447403702a816",
+                  "64afc71497cf3a403c01ff38",
+                  "6943c85be2f21398e70378cc"
+                ],
+                "Plate": "656fa0fb498d1b7e3e071d9c",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_chest"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        },
+        {
+          "_name": "Back_plate",
+          "_id": "20463351d9a2543388d37b92",
+          "_parent": "759493a3ff8059c3a9a8c3e6",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "656f9d5900d62bcd2e02407c",
+                  "656fa8d700d62bcd2e024084",
+                  "656fa99800d62bcd2e024088",
+                  "656fae5f7c2d57afe200c0d7",
+                  "656faf0ca0dce000a2020f77",
+                  "656fa0fb498d1b7e3e071d9c",
+                  "656fa76500d62bcd2e024080",
+                  "656fa25e94b480b8a500c0e0",
+                  "656fafe3498d1b7e3e071da4",
+                  "656fad8c498d1b7e3e071da0",
+                  "656fa61e94b480b8a500c0e8",
+                  "656fb21fa0dce000a2020f7c",
+                  "656fac30c6baea13cd07e10c",
+                  "656fb0bd7c2d57afe200c0dc",
+                  "656f9fa0498d1b7e3e071d98",
+                  "656fa53d94b480b8a500c0e4",
+                  "655746010177119f4a097ff7",
+                  "64afdcb83efdfea28601d041",
+                  "65573fa5655447403702a816",
+                  "64afc71497cf3a403c01ff38",
+                  "6943c85be2f21398e70378cc"
+                ],
+                "Plate": "656fa0fb498d1b7e3e071d9c",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_back"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        },
+        {
+          "_name": "Left_side_plate",
+          "_id": "3a585c90e66754fd99b28295",
+          "_parent": "759493a3ff8059c3a9a8c3e6",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6557458f83942d705f0c4962",
+                  "64afdb577bb3bfe8fe03fd1d",
+                  "64afd81707e2cf40e903a316"
+                ],
+                "Plate": "64afd81707e2cf40e903a316",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SSAPI_side_left_high"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        },
+        {
+          "_name": "Right_side_plate",
+          "_id": "a8cc8417815259beb490342e",
+          "_parent": "759493a3ff8059c3a9a8c3e6",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6557458f83942d705f0c4962",
+                  "64afdb577bb3bfe8fe03fd1d",
+                  "64afd81707e2cf40e903a316"
+                ],
+                "Plate": "64afd81707e2cf40e903a316",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SSAPI_side_right_high"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        },
+        {
+          "_name": "Soft_armor_front",
+          "_id": "95227ac12f265e56a2eb894c",
+          "_parent": "759493a3ff8059c3a9a8c3e6",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "66b884f4c5d72b02774886eb"
+                ],
+                "Plate": "66b884f4c5d72b02774886eb",
+                "armorColliders": [
+                  "RibcageUp",
+                  "RibcageLow"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        },
+        {
+          "_name": "Soft_armor_back",
+          "_id": "8f9e3979dd7f5accaeba2a32",
+          "_parent": "759493a3ff8059c3a9a8c3e6",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "66b884eaacff495a29492849"
+                ],
+                "Plate": "66b884eaacff495a29492849",
+                "armorColliders": [
+                  "SpineDown",
+                  "SpineTop"
+                ],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_back"
+                ],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        },
+        {
+          "_name": "Soft_armor_left",
+          "_id": "62214e36e7dc5f7b899a98e7",
+          "_parent": "759493a3ff8059c3a9a8c3e6",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "66b8851678bbc0200425fa03"
+                ],
+                "Plate": "66b8851678bbc0200425fa03",
+                "armorColliders": [
+                  "LeftSideChestDown"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        },
+        {
+          "_name": "soft_armor_right",
+          "_id": "103c9019f73456eaaa376a26",
+          "_parent": "759493a3ff8059c3a9a8c3e6",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "66b88521a7f72d197e70be3b"
+                ],
+                "Plate": "66b88521a7f72d197e70be3b",
+                "armorColliders": [
+                  "RightSideChestDown"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        },
+        {
+          "_name": "Groin",
+          "_id": "a774d69e4cba5bd3bfe0bbef",
+          "_parent": "759493a3ff8059c3a9a8c3e6",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "66b884fd7994640992013b37"
+                ],
+                "Plate": "66b884fd7994640992013b37",
+                "armorColliders": [
+                  "Pelvis"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        }
+      ],
+      "Weight": 2.2,
+      "Width": 3,
+      "mousePenalty": -2,
+      "speedPenaltyPercent": -4,
+      "weaponErgonomicPenalty": -2,
+      "RagfairLevelToTrade": 0
+    },
+    "locales": {
+      "en": {
+        "name": "WARTECH TV-110 plate carrier (DPM Woodland)",
+        "shortName": "TV-110",
+        "description": "An improved lightweight version of the standard plate carrier manufactured by Stich Profi. DPM Woodland Version."
+      }
+    },
+    "handbookPriceRoubles": 3513,
+    "fleaPriceRoubles": 90614,
+    "addtoInventorySlots": [],
+    "addtoBots": false,
+    "addtoTraders": false,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": false,
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_id": "f6160a605435570d98ce5e1d",
+        "_type": "Preset",
+        "_changeWeaponName": false,
+        "_name": "Stich Profi Plate Carrier V2 (DPM Woodland)",
+        "_parent": "0f82611d6e7f58f79ca37741",
+        "_items": [
+          {
+            "_id": "0f82611d6e7f58f79ca37741",
+            "_tpl": "759493a3ff8059c3a9a8c3e6"
+          },
+          {
+            "_id": "49f3af67a4765c0ba8b461c9",
+            "_tpl": "66b884f4c5d72b02774886eb",
+            "parentId": "0f82611d6e7f58f79ca37741",
+            "slotId": "Soft_armor_front"
+          },
+          {
+            "_id": "9ccfff8aabaf5481849392b5",
+            "_tpl": "66b884eaacff495a29492849",
+            "parentId": "0f82611d6e7f58f79ca37741",
+            "slotId": "Soft_armor_back"
+          },
+          {
+            "_id": "f2c7146fac0a5e7c9edf855b",
+            "_tpl": "66b8851678bbc0200425fa03",
+            "parentId": "0f82611d6e7f58f79ca37741",
+            "slotId": "Soft_armor_left"
+          },
+          {
+            "_id": "d85f8a1967bd526a81a09c14",
+            "_tpl": "66b88521a7f72d197e70be3b",
+            "parentId": "0f82611d6e7f58f79ca37741",
+            "slotId": "soft_armor_right"
+          },
+          {
+            "_id": "5e2b0b62916d5026be65af27",
+            "_tpl": "66b884fd7994640992013b37",
+            "parentId": "0f82611d6e7f58f79ca37741",
+            "slotId": "Groin"
+          },
+          {
+            "_id": "ab506d8bf99a5461b74d2ca6",
+            "_tpl": "656fa0fb498d1b7e3e071d9c",
+            "parentId": "0f82611d6e7f58f79ca37741",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "b800e2316304598e814013e3",
+            "_tpl": "656fa0fb498d1b7e3e071d9c",
+            "parentId": "0f82611d6e7f58f79ca37741",
+            "slotId": "Back_plate"
+          },
+          {
+            "_id": "7dbdbda292845c6b8dbfd193",
+            "_tpl": "64afd81707e2cf40e903a316",
+            "parentId": "0f82611d6e7f58f79ca37741",
+            "slotId": "Left_side_plate"
+          },
+          {
+            "_id": "3ddef015db9d5eb795900dc7",
+            "_tpl": "64afd81707e2cf40e903a316",
+            "parentId": "0f82611d6e7f58f79ca37741",
+            "slotId": "Right_side_plate"
+          }
+        ],
+        "_encyclopedia": "759493a3ff8059c3a9a8c3e6"
+      }
+    ]
+  }
+}

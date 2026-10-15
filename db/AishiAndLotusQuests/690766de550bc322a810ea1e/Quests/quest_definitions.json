@@ -32,34 +32,34 @@
     "conditions": {
       "AvailableForFinish": [
         {
-            "conditionType": "PlaceBeacon",
-            "dynamicLocale": false,
-            "globalQuestCounterId": "",
-            "id": "6a6ab094783b46ba47b5772b",
-            "index": 1,
-            "parentId": "",
-            "plantTime": 8,
-            "target": [
-             "5ac78a9b86f7741cca0bbd8d"
-            ],
-            "value": 1,
-            "visibilityConditions": [],
-            "zoneId": "aishi_reserve_antena_1"
+          "conditionType": "PlaceBeacon",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6a6ab094783b46ba47b5772b",
+          "index": 1,
+          "parentId": "",
+          "plantTime": 8,
+          "target": [
+            "5ac78a9b86f7741cca0bbd8d"
+          ],
+          "value": 1,
+          "visibilityConditions": [],
+          "zoneId": "aishi_reserve_antena_1"
         },
         {
-            "conditionType": "PlaceBeacon",
-            "dynamicLocale": false,
-            "globalQuestCounterId": "",
-            "id": "6a6ab14a2dca8e1e627b78f0",
-            "index": 1,
-            "parentId": "",
-            "plantTime": 8,
-            "target": [
-             "5ac78a9b86f7741cca0bbd8d"
-            ],
-            "value": 1,
-            "visibilityConditions": [],
-            "zoneId": "aishi_reserve_antena_2"
+          "conditionType": "PlaceBeacon",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6a6ab14a2dca8e1e627b78f0",
+          "index": 1,
+          "parentId": "",
+          "plantTime": 8,
+          "target": [
+            "5ac78a9b86f7741cca0bbd8d"
+          ],
+          "value": 1,
+          "visibilityConditions": [],
+          "zoneId": "aishi_reserve_antena_2"
         }
       ],
       "AvailableForStart": [
@@ -111,13 +111,13 @@
           "index": 1,
           "target": "690766de550bc322a810ea1e",
           "type": "TraderStanding",
-          "value": "0.02",
+          "value": 0.05,
           "unknown": false
         }
       ]
     }
   },
-      "6a6ab405957e20e3ed0af439": {
+  "6a6ab405957e20e3ed0af439": {
     "QuestName": "Raider Purge",
     "_id": "6a6ab405957e20e3ed0af439",
     "acceptPlayerMessage": "6a6ab405957e20e3ed0af439 acceptPlayerMessage",
@@ -128,36 +128,36 @@
     "completePlayerMessage": "6a6ab405957e20e3ed0af439 completePlayerMessage",
     "conditions": {
       "AvailableForFinish": [
-            {
-        "conditionType": "CounterCreator",
-        "counter": {
-          "conditions": [
-            {
-              "bodyPart": [],
-              "conditionType": "Kills",
-              "dynamicLocale": false,
-              "id": "6a6ab40a49e569ab0a02a770",
-              "distance": {},
-              "savageRole": [
-                "pmcBot"
-              ],
-              "target": "Savage",
-              "weapon": []
-            }
-          ],
-          "id": "6a6ab40d3023ac0ab22893ef"
-        },
-        "doNotResetIfCounterCompleted": false,
-        "dynamicLocale": false,
-        "globalQuestCounterId": "",
-        "id": "6a6ab40e060af6fe3c0d533e",
-        "index": 0,
-        "oneSessionOnly": false,
-        "parentId": "",
-        "type": "Elimination",
-        "value": "25",
-        "visibilityConditions": []
-      }
+        {
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "conditionType": "Kills",
+                "dynamicLocale": false,
+                "id": "6a6ab40a49e569ab0a02a770",
+                "distance": {},
+                "savageRole": [
+                  "pmcBot"
+                ],
+                "target": "Savage",
+                "weapon": []
+              }
+            ],
+            "id": "6a6ab40d3023ac0ab22893ef"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6a6ab40e060af6fe3c0d533e",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": "25",
+          "visibilityConditions": []
+        }
       ],
       "AvailableForStart": [
         {
@@ -222,7 +222,7 @@
           "target": "690766de550bc322a810ea1e",
           "type": "TraderStanding",
           "unknown": false,
-          "value": 0.03
+          "value": 0.05
         },
         {
           "availableInGameEditions": [],
@@ -251,8 +251,8 @@
     "status": 0,
     "successMessageText": "6a6ab405957e20e3ed0af439 successMessageText",
     "traderId": "690766de550bc322a810ea1e",
-                "type": "Multi"
-            },
+    "type": "Multi"
+  },
   "6a6be0db93f4ebb01828169d": {
     "QuestName": "Light of Lotus? ",
     "_id": "6a6be0db93f4ebb01828169d",
@@ -350,7 +350,7 @@
           "status": [
             2
           ],
-          "target": "6a6bd1104381057dc49ab3ff",
+          "target": "6a6bf9b4e9edcd20cefd27ad",
           "visibilityConditions": []
         }
       ],
@@ -392,7 +392,7 @@
           "index": 1,
           "target": "690766de550bc322a810ea1e",
           "type": "TraderStanding",
-          "value": "0.02",
+          "value": 0.05,
           "unknown": false
         },
         {

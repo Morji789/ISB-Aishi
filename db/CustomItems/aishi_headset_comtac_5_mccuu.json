@@ -1,0 +1,31 @@
+{
+  "7f862d28802a511186f9dc59": {
+    "itemTplToClone": "66b5f693acff495a294927e3",
+    "parentId": "5645bcb74bdc2ded0b8b4578",
+    "handbookParentId": "5b5f6f3c86f774094242ef87",
+    "handbookPriceRoubles": 83896,
+    "fleaPriceRoubles": 83896,
+    "overrideProperties": {
+      "Prefab": {
+        "path": "equipment/item_equipment_headset_comtac_5_mccuu_aishi.bundle",
+        "rcid": ""
+      },
+      "Name": "Peltor ComTac V headset (MCCUU)",
+      "ShortName": "ComTac V",
+      "Description": "A communication headset equipped with a microphone and omnidirectional high-fidelity speakers that are optimized for voice communication and capable of picking up sounds with high sensitivity. Manufactured by 3M Peltor. (MCCUU)"
+    },
+    "locales": {
+      "en": {
+        "name": "Peltor ComTac V headset (MCCUU)",
+        "shortName": "ComTac V",
+        "description": "A communication headset equipped with a microphone and omnidirectional high-fidelity speakers that are optimized for voice communication and capable of picking up sounds with high sensitivity. Manufactured by 3M Peltor. (MCCUU)"
+      }
+    },
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoModSlots": false,
+    "addtoInventorySlots": [
+      "Earpiece"
+    ]
+  }
+}

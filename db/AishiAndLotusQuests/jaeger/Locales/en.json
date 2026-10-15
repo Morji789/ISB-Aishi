@@ -1,12 +1,11 @@
 {
-    "6a6abd124b41bb872e356393 name": "Unexpected",
-    "6a6abd124b41bb872e356393 description": "I already know... Honestly, I almost never have contact with this sort of Federation Fence created. These Scavs just cause headaches, but if it involves Aishi, we'll take a look.",
-    "6a6abd124b41bb872e356393 successMessageText": "The ink isn't that dry, this isn't that old. And \"Black Division\"? I'll talk to Partisan, and as for you, you'd better talk to Aishi.",
-    "6a6abdafcc34b3e9ce356398": "Find the document Fence mentioned in The Lab",
-    "6a6abe25460a67bea735639c": "Hand over the found document",
-
-    "6a6ac726864c233c4ea30e11 name": "Networking",
-    "6a6ac726864c233c4ea30e11 description": "Partisan is back. He reported that recently there have been several strange movements in TerraGroup facilities, mainly in Ground Zero and The Lab itself at the Streets of Tarkov entrance.\n\nA lot of documents were left behind, and I know someone who has some very good employees when it comes to researching and gathering intel.\n\nWork with Lotus for a bit, and who knows, maybe she'll consider our position.",
-    "6a6ac726864c233c4ea30e11 successMessageText": "Very good, partner! Maybe this will have a positive outcome.",
-    "6a6accfd59a421f7faeef57c": "Reach Loyalty Level 2 with Lotus"
+  "6a6abd124b41bb872e356393 name": "Unexpected",
+  "6a6abd124b41bb872e356393 description": "I already know... Honestly, I almost never have contact with this sort of Federation Fence created. These Scavs just cause headaches, but if it involves Aishi, we'll take a look.",
+  "6a6abd124b41bb872e356393 successMessageText": "The ink isn't that dry, this isn't that old. And \"Black Division\"? I'll talk to Partisan, and as for you, you'd better talk to Aishi.",
+  "6a6abdafcc34b3e9ce356398": "Find the document Fence mentioned in The Lab",
+  "6a6abe25460a67bea735639c": "Hand over the found document",
+  "6a6ac726864c233c4ea30e11 name": "Networking",
+  "6a6ac726864c233c4ea30e11 description": "Partisan is back. He reported that recently there have been several strange movements in TerraGroup facilities, mainly in Ground Zero and The Lab itself at the Streets of Tarkov entrance.\n\nA lot of documents were left behind, and I know someone who has some very good employees when it comes to researching and gathering intel.\n\nWork with Lotus for a bit, and who knows, maybe she'll consider our position.",
+  "6a6ac726864c233c4ea30e11 successMessageText": "Very good, partner! Maybe this will have a positive outcome.",
+  "6a6accfd59a421f7faeef57c": "Reach Loyalty Level 2 with Lotus"
 }

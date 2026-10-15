@@ -1,0 +1,628 @@
+{
+  "ac2355e3037f5066a6af52a3": {
+    "itemTplToClone": "68a5f30248f18317750ab20b",
+    "parentId": "65649eb40bf0ed77b8044453",
+    "handbookParentId": "6564b96a189fe36f356d177c",
+    "overrideProperties": {
+      "Name": "LV-119 GhostBuster class 5 front soft armor insert",
+      "ShortName": "GB C5 front",
+      "Description": "Exclusive class 5 front insert for the Wedge GhostBuster LV-119. Original material, weight and 44 durability preserved.",
+      "armorClass": 5
+    },
+    "locales": {
+      "en": {
+        "name": "LV-119 GhostBuster class 5 front soft armor insert",
+        "shortName": "GB C5 front",
+        "description": "Exclusive class 5 front insert for the Wedge GhostBuster LV-119. Original material, weight and 44 durability preserved."
+      },
+      "po": {
+        "name": "LV-119 GhostBuster class 5 front soft armor insert",
+        "shortName": "GB C5 front",
+        "description": "Exclusive class 5 front insert for the Wedge GhostBuster LV-119. Original material, weight and 44 durability preserved."
+      }
+    },
+    "handbookPriceRoubles": 8000,
+    "fleaPriceRoubles": 8000,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoItemBlacklist": true
+  },
+  "d84c0f0331dd5b10be0029f5": {
+    "itemTplToClone": "68a5f3a348f18317750ab4be",
+    "parentId": "65649eb40bf0ed77b8044453",
+    "handbookParentId": "6564b96a189fe36f356d177c",
+    "overrideProperties": {
+      "Name": "LV-119 GhostBuster class 5 back soft armor insert",
+      "ShortName": "GB C5 back",
+      "Description": "Exclusive class 5 back insert for the Wedge GhostBuster LV-119. Original material, weight and 44 durability preserved.",
+      "armorClass": 5
+    },
+    "locales": {
+      "en": {
+        "name": "LV-119 GhostBuster class 5 back soft armor insert",
+        "shortName": "GB C5 back",
+        "description": "Exclusive class 5 back insert for the Wedge GhostBuster LV-119. Original material, weight and 44 durability preserved."
+      },
+      "po": {
+        "name": "LV-119 GhostBuster class 5 back soft armor insert",
+        "shortName": "GB C5 back",
+        "description": "Exclusive class 5 back insert for the Wedge GhostBuster LV-119. Original material, weight and 44 durability preserved."
+      }
+    },
+    "handbookPriceRoubles": 8000,
+    "fleaPriceRoubles": 8000,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoItemBlacklist": true
+  },
+  "109f634519a753018fbb71ff": {
+    "itemTplToClone": "69e2441a18cb3157560855ec",
+    "parentId": "5448e5284bdc2dcb718b4567",
+    "handbookParentId": "5b5f6f8786f77447ed563642",
+    "overrideProperties": {
+      "Name": "Spiritus Systems LV-119 Plate Carrier (Black Division)",
+      "ShortName": "LV-119",
+      "Description": "A highly customizable modular plate carrier by Spiritus Systems, built for maximum comfort in combat. This MultiCam Black version setup is built by a Black Division operative with the callsign The Wedge.",
+      "Slots": [
+        {
+          "_name": "Front_plate",
+          "_id": "789c86b4bd7e5cd0ae6c1663",
+          "_parent": "69e2441a18cb3157560855ec",
+          "_props": {
+            "filters": [
+              {
+                "locked": false,
+                "Plate": "656fa53d94b480b8a500c0e4",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_chest"
+                ],
+                "Filter": [
+                  "656f9d5900d62bcd2e02407c",
+                  "656fa8d700d62bcd2e024084",
+                  "656fa99800d62bcd2e024088",
+                  "656fae5f7c2d57afe200c0d7",
+                  "656faf0ca0dce000a2020f77",
+                  "656fa0fb498d1b7e3e071d9c",
+                  "656fa76500d62bcd2e024080",
+                  "656fafe3498d1b7e3e071da4",
+                  "656fa25e94b480b8a500c0e0",
+                  "656fad8c498d1b7e3e071da0",
+                  "656fa61e94b480b8a500c0e8",
+                  "656fb21fa0dce000a2020f7c",
+                  "656fb0bd7c2d57afe200c0dc",
+                  "656fac30c6baea13cd07e10c",
+                  "656f9fa0498d1b7e3e071d98",
+                  "656fa53d94b480b8a500c0e4",
+                  "655746010177119f4a097ff7",
+                  "64afdcb83efdfea28601d041",
+                  "6943c85be2f21398e70378cc",
+                  "692644216a57eab92f4d703b"
+                ],
+                "bluntDamageReduceFromSoftArmor": true
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        },
+        {
+          "_name": "Back_plate",
+          "_id": "3283a41ac40d5013bf7c9956",
+          "_parent": "69e2441a18cb3157560855ec",
+          "_props": {
+            "filters": [
+              {
+                "locked": false,
+                "Plate": "656fa53d94b480b8a500c0e4",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_back"
+                ],
+                "Filter": [
+                  "656f9d5900d62bcd2e02407c",
+                  "656fa8d700d62bcd2e024084",
+                  "656fa99800d62bcd2e024088",
+                  "656fae5f7c2d57afe200c0d7",
+                  "656faf0ca0dce000a2020f77",
+                  "656fa0fb498d1b7e3e071d9c",
+                  "656fafe3498d1b7e3e071da4",
+                  "656fa76500d62bcd2e024080",
+                  "656fad8c498d1b7e3e071da0",
+                  "656fa25e94b480b8a500c0e0",
+                  "656fa61e94b480b8a500c0e8",
+                  "656fac30c6baea13cd07e10c",
+                  "656fb0bd7c2d57afe200c0dc",
+                  "656fb21fa0dce000a2020f7c",
+                  "656f9fa0498d1b7e3e071d98",
+                  "656fa53d94b480b8a500c0e4",
+                  "655746010177119f4a097ff7",
+                  "64afdcb83efdfea28601d041",
+                  "6943c85be2f21398e70378cc",
+                  "692644216a57eab92f4d703b"
+                ],
+                "bluntDamageReduceFromSoftArmor": true
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        },
+        {
+          "_name": "Soft_armor_front",
+          "_id": "03ebda6bfbdd556d915965c0",
+          "_parent": "69e2441a18cb3157560855ec",
+          "_props": {
+            "filters": [
+              {
+                "locked": true,
+                "Plate": "ac2355e3037f5066a6af52a3",
+                "armorColliders": [
+                  "RibcageUp"
+                ],
+                "armorPlateColliders": [],
+                "Filter": [
+                  "ac2355e3037f5066a6af52a3"
+                ],
+                "bluntDamageReduceFromSoftArmor": false
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        },
+        {
+          "_name": "Soft_armor_back",
+          "_id": "7f3e7cb3f7aa53c6b01839f6",
+          "_parent": "69e2441a18cb3157560855ec",
+          "_props": {
+            "filters": [
+              {
+                "locked": true,
+                "Plate": "d84c0f0331dd5b10be0029f5",
+                "armorColliders": [
+                  "SpineTop"
+                ],
+                "armorPlateColliders": [],
+                "Filter": [
+                  "d84c0f0331dd5b10be0029f5"
+                ],
+                "bluntDamageReduceFromSoftArmor": false
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        }
+      ],
+      "Prefab": {
+        "path": "equipment/isb_ghostbuster/item_equipment_armor_spiritus_wedge_rrh.bundle",
+        "rcid": ""
+      },
+      "Grids": [
+        {
+          "_name": "1",
+          "_id": "bd8f6806ad675e908403234c",
+          "_parent": "69e2441a18cb3157560855ec",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ],
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ]
+              }
+            ],
+            "cellsH": 1,
+            "cellsV": 1,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "2",
+          "_id": "542dd494b3d55c8fbc3fe488",
+          "_parent": "69e2441a18cb3157560855ec",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ],
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ]
+              }
+            ],
+            "cellsH": 1,
+            "cellsV": 1,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "3",
+          "_id": "7a589ded6d80565dad01a9f9",
+          "_parent": "69e2441a18cb3157560855ec",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ],
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ]
+              }
+            ],
+            "cellsH": 1,
+            "cellsV": 1,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "4",
+          "_id": "36cef55620405c75ba462679",
+          "_parent": "69e2441a18cb3157560855ec",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ],
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ]
+              }
+            ],
+            "cellsH": 1,
+            "cellsV": 1,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "5",
+          "_id": "90b03ca3d664589984d847b1",
+          "_parent": "69e2441a18cb3157560855ec",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ],
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ]
+              }
+            ],
+            "cellsH": 1,
+            "cellsV": 2,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "6",
+          "_id": "c60be49995e25ed39c0a86a4",
+          "_parent": "69e2441a18cb3157560855ec",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ],
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ]
+              }
+            ],
+            "cellsH": 1,
+            "cellsV": 2,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "7",
+          "_id": "bf9561741f545f6aaa3b8431",
+          "_parent": "69e2441a18cb3157560855ec",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ],
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ]
+              }
+            ],
+            "cellsH": 1,
+            "cellsV": 2,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "8",
+          "_id": "47e82e37f7c25d9db1af6175",
+          "_parent": "69e2441a18cb3157560855ec",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ],
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ]
+              }
+            ],
+            "cellsH": 1,
+            "cellsV": 2,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "9",
+          "_id": "99adf90238395a30967dc61f",
+          "_parent": "69e2441a18cb3157560855ec",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ],
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ]
+              }
+            ],
+            "cellsH": 1,
+            "cellsV": 2,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "10",
+          "_id": "b18b86ee92b851238f07fbeb",
+          "_parent": "69e2441a18cb3157560855ec",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ],
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ]
+              }
+            ],
+            "cellsH": 1,
+            "cellsV": 2,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "11",
+          "_id": "f7f8bd37402a5ae98a713fdc",
+          "_parent": "69e2441a18cb3157560855ec",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ],
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ]
+              }
+            ],
+            "cellsH": 1,
+            "cellsV": 2,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "12",
+          "_id": "08c7bf83c45858b297a0b579",
+          "_parent": "69e2441a18cb3157560855ec",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ],
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ]
+              }
+            ],
+            "cellsH": 1,
+            "cellsV": 2,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "13",
+          "_id": "ad03e2dd2c535c5aba04e6a8",
+          "_parent": "69e2441a18cb3157560855ec",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ],
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ]
+              }
+            ],
+            "cellsH": 1,
+            "cellsV": 2,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "14",
+          "_id": "ef44643bce1b5c4489d70c92",
+          "_parent": "69e2441a18cb3157560855ec",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ],
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ]
+              }
+            ],
+            "cellsH": 1,
+            "cellsV": 2,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "15",
+          "_id": "491570e32c9b5fb098986c6d",
+          "_parent": "69e2441a18cb3157560855ec",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ],
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ]
+              }
+            ],
+            "cellsH": 2,
+            "cellsV": 2,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Spiritus Systems LV-119 Plate Carrier (Black Division)",
+        "shortName": "LV-119",
+        "description": "A highly customizable modular plate carrier by Spiritus Systems, built for maximum comfort in combat. This MultiCam Black version setup is built by a Black Division operative with the callsign The Wedge."
+      },
+      "po": {
+        "name": "Spiritus Systems LV-119 Plate Carrier (Black Division)",
+        "shortName": "LV-119",
+        "description": "A highly customizable modular plate carrier by Spiritus Systems, built for maximum comfort in combat. This MultiCam Black version setup is built by a Black Division operative with the callsign The Wedge."
+      }
+    },
+    "handbookPriceRoubles": 19580,
+    "fleaPriceRoubles": 19580,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_id": "10386f9b06e471061888567b",
+        "_type": "Preset",
+        "_changeWeaponName": false,
+        "_name": "Spiritus Systems LV-119 Plate Carrier (Black Division)",
+        "_parent": "85af1c148d9adfc6a8347e71",
+        "_items": [
+          {
+            "_id": "85af1c148d9adfc6a8347e71",
+            "_tpl": "109f634519a753018fbb71ff"
+          },
+          {
+            "_id": "34e8fbca6c10077c5a0c055d",
+            "_tpl": "656fa53d94b480b8a500c0e4",
+            "parentId": "85af1c148d9adfc6a8347e71",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "d2868e5cda7dce57cf2efc7e",
+            "_tpl": "656fa53d94b480b8a500c0e4",
+            "parentId": "85af1c148d9adfc6a8347e71",
+            "slotId": "Back_plate"
+          },
+          {
+            "_id": "bb6bae05e74ac01e492fe09a",
+            "_tpl": "ac2355e3037f5066a6af52a3",
+            "parentId": "85af1c148d9adfc6a8347e71",
+            "slotId": "Soft_armor_front"
+          },
+          {
+            "_id": "b4e28e9405863a576230b36d",
+            "_tpl": "d84c0f0331dd5b10be0029f5",
+            "parentId": "85af1c148d9adfc6a8347e71",
+            "slotId": "Soft_armor_back"
+          }
+        ],
+        "_encyclopedia": "109f634519a753018fbb71ff"
+      }
+    ]
+  }
+}

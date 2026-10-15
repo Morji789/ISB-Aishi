@@ -1,39 +1,32 @@
 {
   "69e97f550b197e4084c986f6": {
-
     "itemTplToClone": "68947a4be4bf255d1b0ca746",
     "parentId": "5448e5284bdc2dcb718b4567",
     "handbookParentId": "5b5f6f8786f77447ed563642",
-
-
     "overrideProperties": {
-      "QuestItem": false,  
+      "QuestItem": false,
       "ExaminedByDefault": false,
       "IsUnsaleable": false,
       "InsuranceDisabled": true,
       "CanSellOnRagfair": false,
       "CanRequireOnRagfair": false,
-      "addtoItemBlacklist": true,    
+      "addtoItemBlacklist": true,
       "BackgroundColor": "yellow",
-        
       "Prefab": {
-
         "path": "equipment/item_equipment_rig_bd4_firstspear_blackV2.bundle",
         "rcid": ""
       },
-
-
       "Width": 4,
       "Height": 4,
-
-
-     "Weight": 12.1
+      "Weight": 12.1,
+      "Name": "First Spear Siege-R Optimized M.A.S.S. Plate Carrier (White Tusk Edition)",
+      "ShortName": "Siege-R",
+      "Description": "A Siege-R Optimized plate carrier equipped with the M.A.S.S. Shoulder System. Provides reliable all-around protection while offering ample workspace for equipment placement. Black version. (White Tusk Edition)"
     },
-
     "addWeaponPreset": true,
     "weaponPresets": [
       {
-        "_id": "69efe37363e9daa77c9b66ba",
+        "_id": "6aadf4396dad69c995b0da35",
         "_type": "Preset",
         "_changeWeaponName": false,
         "_name": "First Spear Siege-R Optimized M.A.S.S. Plate Carrier (ISB Edition)",
@@ -119,38 +112,29 @@
         "_encyclopedia": "69e97f550b197e4084c986f6"
       }
     ],
-
     "locales": {
       "en": {
-        "name": "First Spear Siege-R Optimized M.A.S.S. Plate Carrier (ISB STF-A Edition)",
-        "shortName": "Siege-R ISBE V2",
-        "description": "A Siege-R Optimized plate carrier equipped with the M.A.S.S. Shoulder System. Provides reliable all-around protection while offering ample workspace for equipment placement. Special edition for the Apex Squadron leader, Loghan of ISB SOF."
+        "name": "First Spear Siege-R Optimized M.A.S.S. Plate Carrier (White Tusk Edition)",
+        "shortName": "Siege-R",
+        "description": "A Siege-R Optimized plate carrier equipped with the M.A.S.S. Shoulder System. Provides reliable all-around protection while offering ample workspace for equipment placement. Black version. (White Tusk Edition)"
       },
-        "po": {
-        "name": "Colete Tático First Spear Siege-R Optimized M.A.S.S. (Edição ISB STF-A)",
-        "shortName": "Siege-R EISB V2",
-        "description": "Um porta-placas otimizado para cerco, equipado com o sistema de ombro M.A.S.S. Oferece proteção confiável em todas as direções, ao mesmo tempo em que proporciona amplo espaço de trabalho para a colocação de equipamentos. Versão especial para o líder do esquadrão Apex, Loghan da ISB SOF."
+      "po": {
+        "name": "Plate carrier First Spear Siege-R Optimized M.A.S.S. (White Tusk Edition)",
+        "shortName": "Siege-R",
+        "description": "Um plate carrier Siege-R Optimized equipado com o sistema de proteção de ombros M.A.S.S. Oferece proteção confiável em todas as direções e amplo espaço para posicionar equipamentos. Versão preta. (White Tusk Edition)"
       }
     },
-
     "fleaPriceRoubles": 113572,
-    
     "handbookPriceRoubles": 18511,
-
     "IsAlwaysAvailableForInsurance": false,
-
     "InsuranceDisabled": true,
-
-    "addtoInventorySlots": ["TacticalRig"],
-
+    "addtoInventorySlots": [
+      "TacticalRig"
+    ],
     "addtoStaticLootContainers": false,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "StaticLootContainers": [
       {
         "ContainerName": "",
@@ -159,14 +143,11 @@
     ]
   },
   "69eb9ab4a518a569e3693de9": {
-
     "itemTplToClone": "68a5eaab48f18317750a0b92",
     "parentId": "65649eb40bf0ed77b8044453",
     "handbookParentId": "6564b96a189fe36f356d177c",
-
-
     "overrideProperties": {
-      "QuestItem": false,  
+      "QuestItem": false,
       "ExaminedByDefault": true,
       "PushToFleaBlacklist": true,
       "MaterialType": "BodyArmor",
@@ -175,56 +156,41 @@
       "ArmorType": "Heavy",
       "BackgroundColor": "yellow",
       "ItemSound": "gear_armor",
-      "armorPlateColliders":  [
-          "Plate_Granit_SAPI_chest",
-          "Plate_Granit_SAPI_back"
+      "armorPlateColliders": [
+        "Plate_Granit_SAPI_chest",
+        "Plate_Granit_SAPI_back"
       ],
       "armorClass": "6",
       "Durability": 75,
       "MaxDurability": 75,
       "BluntThroughput": 0.1,
-      "RarityPvE":"Superrare"
-       },
-        "Prefab": {
-
-        "path": "assets/content/items/equipment/armor_plates/soft_armor_front.bundle",
-        "rcid": ""
-        },
-
-
-        "Width": 1,
-        "Height": 1,
-
-
-        "Weight": 0,
-
-
-        "Grids": [
-        ],
-
+      "RarityPvE": "Superrare"
+    },
+    "Prefab": {
+      "path": "assets/content/items/equipment/armor_plates/soft_armor_front.bundle",
+      "rcid": ""
+    },
+    "Width": 1,
+    "Height": 1,
+    "Weight": 0,
+    "Grids": [],
     "locales": {
       "en": {
         "name": "Modified aramid insert",
         "shortName": "Modified aramid insert",
         "description": "Modified aramid insert"
       },
-        "po": {
-            "name": "Modified aramid insert",
-            "shortName": "Modified aramid insert",
-            "description": "Modified aramid insert"
+      "po": {
+        "name": "Modified aramid insert",
+        "shortName": "Modified aramid insert",
+        "description": "Modified aramid insert"
       }
     },
-
-    "fleaPriceRoubles": 0,
-
-    "handbookPriceRoubles": 0,
-
+    "fleaPriceRoubles": 29400,
+    "handbookPriceRoubles": 29400,
     "InsuranceDisabled": true,
-
     "addtoInventorySlots": [],
-
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",
@@ -233,14 +199,11 @@
     ]
   },
   "69eb9afecf8ecad78737ab87": {
-
     "itemTplToClone": "68a5ea26200341f12e08de79",
     "parentId": "65649eb40bf0ed77b8044453",
     "handbookParentId": "6564b96a189fe36f356d177c",
-
-
     "overrideProperties": {
-      "QuestItem": false,  
+      "QuestItem": false,
       "ExaminedByDefault": true,
       "PushToFleaBlacklist": true,
       "MaterialType": "BodyArmor",
@@ -249,56 +212,41 @@
       "ArmorType": "Heavy",
       "BackgroundColor": "yellow",
       "ItemSound": "gear_armor",
-      "armorPlateColliders":  [
-          "Plate_Granit_SAPI_chest",
-          "Plate_Granit_SAPI_back"
+      "armorPlateColliders": [
+        "Plate_Granit_SAPI_chest",
+        "Plate_Granit_SAPI_back"
       ],
       "armorClass": "6",
       "Durability": 75,
       "MaxDurability": 75,
       "BluntThroughput": 0.1,
-      "RarityPvE":"Superrare"
-       },
-        "Prefab": {
-
-        "path": "assets/content/items/equipment/armor_plates/soft_armor_back.bundle",
-        "rcid": ""
-        },
-
-
-        "Width": 1,
-        "Height": 1,
-
-
-        "Weight": 0,
-
-
-        "Grids": [
-        ],
-
+      "RarityPvE": "Superrare"
+    },
+    "Prefab": {
+      "path": "assets/content/items/equipment/armor_plates/soft_armor_back.bundle",
+      "rcid": ""
+    },
+    "Width": 1,
+    "Height": 1,
+    "Weight": 0,
+    "Grids": [],
     "locales": {
       "en": {
         "name": "Modified aramid insert",
         "shortName": "Modified aramid insert",
         "description": "Modified aramid insert"
       },
-        "po": {
-            "name": "Modified aramid insert",
-            "shortName": "Modified aramid insert",
-            "description": "Modified aramid insert"
+      "po": {
+        "name": "Modified aramid insert",
+        "shortName": "Modified aramid insert",
+        "description": "Modified aramid insert"
       }
     },
-
-    "fleaPriceRoubles": 0,
-
-    "handbookPriceRoubles": 0,
-
+    "fleaPriceRoubles": 29400,
+    "handbookPriceRoubles": 29400,
     "InsuranceDisabled": true,
-
     "addtoInventorySlots": [],
-
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",
@@ -307,14 +255,11 @@
     ]
   },
   "69eb9b5fb83cefe5297f85fd": {
-
     "itemTplToClone": "68a5eb4c200341f12e08e7d1",
     "parentId": "65649eb40bf0ed77b8044453",
     "handbookParentId": "6564b96a189fe36f356d177c",
-
-
     "overrideProperties": {
-      "QuestItem": false,  
+      "QuestItem": false,
       "ExaminedByDefault": true,
       "PushToFleaBlacklist": true,
       "MaterialType": "BodyArmor",
@@ -323,56 +268,41 @@
       "ArmorType": "Heavy",
       "BackgroundColor": "yellow",
       "ItemSound": "gear_armor",
-      "armorPlateColliders":  [
-          "Plate_Granit_SAPI_chest",
-          "Plate_Granit_SAPI_back"
+      "armorPlateColliders": [
+        "Plate_Granit_SAPI_chest",
+        "Plate_Granit_SAPI_back"
       ],
       "armorClass": "5",
       "Durability": 75,
       "MaxDurability": 75,
       "BluntThroughput": 0.1,
-      "RarityPvE":"Superrare"
-       },
-        "Prefab": {
-
-        "path": "assets/content/items/equipment/armor_plates/soft_armor_left.bundle",
-        "rcid": ""
-        },
-
-
-        "Width": 1,
-        "Height": 1,
-
-
-        "Weight": 0,
-
-
-        "Grids": [
-        ],
-
+      "RarityPvE": "Superrare"
+    },
+    "Prefab": {
+      "path": "assets/content/items/equipment/armor_plates/soft_armor_left.bundle",
+      "rcid": ""
+    },
+    "Width": 1,
+    "Height": 1,
+    "Weight": 0,
+    "Grids": [],
     "locales": {
       "en": {
         "name": "Modified aramid insert",
         "shortName": "Modified aramid insert",
         "description": "Modified aramid insert"
       },
-        "po": {
-            "name": "Modified aramid insert",
-            "shortName": "Modified aramid insert",
-            "description": "Modified aramid insert"
+      "po": {
+        "name": "Modified aramid insert",
+        "shortName": "Modified aramid insert",
+        "description": "Modified aramid insert"
       }
     },
-
-    "fleaPriceRoubles": 0,
-
-    "handbookPriceRoubles": 0,
-
+    "fleaPriceRoubles": 25000,
+    "handbookPriceRoubles": 25000,
     "InsuranceDisabled": true,
-
     "addtoInventorySlots": [],
-
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",
@@ -381,14 +311,11 @@
     ]
   },
   "69eb9bc687c136384bdf0769": {
-
     "itemTplToClone": "68a5eba93acdf023050b1c15",
     "parentId": "65649eb40bf0ed77b8044453",
     "handbookParentId": "6564b96a189fe36f356d177c",
-
-
     "overrideProperties": {
-      "QuestItem": false,  
+      "QuestItem": false,
       "ExaminedByDefault": true,
       "PushToFleaBlacklist": true,
       "MaterialType": "BodyArmor",
@@ -397,56 +324,41 @@
       "ArmorType": "Heavy",
       "BackgroundColor": "yellow",
       "ItemSound": "gear_armor",
-      "armorPlateColliders":  [
-          "Plate_Granit_SAPI_chest",
-          "Plate_Granit_SAPI_back"
+      "armorPlateColliders": [
+        "Plate_Granit_SAPI_chest",
+        "Plate_Granit_SAPI_back"
       ],
       "armorClass": "5",
       "Durability": 75,
       "MaxDurability": 75,
       "BluntThroughput": 0.1,
-      "RarityPvE":"Superrare"
-       },
-        "Prefab": {
-
-        "path": "assets/content/items/equipment/armor_plates/soft_armor_right.bundle",
-        "rcid": ""
-        },
-
-
-        "Width": 1,
-        "Height": 1,
-
-
-        "Weight": 0,
-
-
-        "Grids": [
-        ],
-
+      "RarityPvE": "Superrare"
+    },
+    "Prefab": {
+      "path": "assets/content/items/equipment/armor_plates/soft_armor_right.bundle",
+      "rcid": ""
+    },
+    "Width": 1,
+    "Height": 1,
+    "Weight": 0,
+    "Grids": [],
     "locales": {
       "en": {
         "name": "Modified aramid insert",
         "shortName": "Modified aramid insert",
         "description": "Modified aramid insert"
       },
-        "po": {
-            "name": "Modified aramid insert",
-            "shortName": "Modified aramid insert",
-            "description": "Modified aramid insert"
+      "po": {
+        "name": "Modified aramid insert",
+        "shortName": "Modified aramid insert",
+        "description": "Modified aramid insert"
       }
     },
-
-    "fleaPriceRoubles": 0,
-
-    "handbookPriceRoubles": 0,
-
+    "fleaPriceRoubles": 25000,
+    "handbookPriceRoubles": 25000,
     "InsuranceDisabled": true,
-
     "addtoInventorySlots": [],
-
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",
@@ -455,14 +367,11 @@
     ]
   },
   "69eb9c95641f4b74ac0ddee8": {
-
     "itemTplToClone": "68a5ea756e534ad0110eca16",
     "parentId": "65649eb40bf0ed77b8044453",
     "handbookParentId": "6564b96a189fe36f356d177c",
-
-
     "overrideProperties": {
-      "QuestItem": false,  
+      "QuestItem": false,
       "ExaminedByDefault": true,
       "PushToFleaBlacklist": true,
       "MaterialType": "BodyArmor",
@@ -471,56 +380,41 @@
       "ArmorType": "Heavy",
       "BackgroundColor": "yellow",
       "ItemSound": "gear_armor",
-      "armorPlateColliders":  [
-          "Plate_Granit_SAPI_chest",
-          "Plate_Granit_SAPI_back"
+      "armorPlateColliders": [
+        "Plate_Granit_SAPI_chest",
+        "Plate_Granit_SAPI_back"
       ],
       "armorClass": "4",
       "Durability": 75,
       "MaxDurability": 75,
       "BluntThroughput": 0.1,
-      "RarityPvE":"Superrare"
-       },
-        "Prefab": {
-
-        "path": "assets/content/items/equipment/armor_plates/collar.bundle",
-        "rcid": ""
-        },
-
-
-        "Width": 1,
-        "Height": 1,
-
-
-        "Weight": 0,
-
-
-        "Grids": [
-        ],
-
+      "RarityPvE": "Superrare"
+    },
+    "Prefab": {
+      "path": "assets/content/items/equipment/armor_plates/collar.bundle",
+      "rcid": ""
+    },
+    "Width": 1,
+    "Height": 1,
+    "Weight": 0,
+    "Grids": [],
     "locales": {
       "en": {
         "name": "Modified aramid insert",
         "shortName": "Modified aramid insert",
         "description": "Modified aramid insert"
       },
-        "po": {
-            "name": "Modified aramid insert",
-            "shortName": "Modified aramid insert",
-            "description": "Modified aramid insert"
+      "po": {
+        "name": "Modified aramid insert",
+        "shortName": "Modified aramid insert",
+        "description": "Modified aramid insert"
       }
     },
-
-    "fleaPriceRoubles": 0,
-
-    "handbookPriceRoubles": 0,
-
+    "fleaPriceRoubles": 21400,
+    "handbookPriceRoubles": 21400,
     "InsuranceDisabled": true,
-
     "addtoInventorySlots": [],
-
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",
@@ -529,14 +423,11 @@
     ]
   },
   "69eb9cb8f7190defda7fae35": {
-
     "itemTplToClone": "68a5eb16c4e56258880dfe96",
     "parentId": "65649eb40bf0ed77b8044453",
     "handbookParentId": "6564b96a189fe36f356d177c",
-
-
     "overrideProperties": {
-      "QuestItem": false,  
+      "QuestItem": false,
       "ExaminedByDefault": true,
       "PushToFleaBlacklist": true,
       "MaterialType": "BodyArmor",
@@ -545,56 +436,41 @@
       "ArmorType": "Heavy",
       "BackgroundColor": "yellow",
       "ItemSound": "gear_armor",
-      "armorPlateColliders":  [
-          "Plate_Granit_SAPI_chest",
-          "Plate_Granit_SAPI_back"
+      "armorPlateColliders": [
+        "Plate_Granit_SAPI_chest",
+        "Plate_Granit_SAPI_back"
       ],
       "armorClass": "4",
       "Durability": 75,
       "MaxDurability": 75,
       "BluntThroughput": 0.1,
-      "RarityPvE":"Superrare"
-       },
-        "Prefab": {
-
-        "path": "assets/content/items/equipment/armor_plates/shoulder_l.bundle",
-        "rcid": ""
-        },
-
-
-        "Width": 1,
-        "Height": 1,
-
-
-        "Weight": 0,
-
-
-        "Grids": [
-        ],
-
+      "RarityPvE": "Superrare"
+    },
+    "Prefab": {
+      "path": "assets/content/items/equipment/armor_plates/shoulder_l.bundle",
+      "rcid": ""
+    },
+    "Width": 1,
+    "Height": 1,
+    "Weight": 0,
+    "Grids": [],
     "locales": {
       "en": {
         "name": "Modified aramid insert",
         "shortName": "Modified aramid insert",
         "description": "Modified aramid insert"
       },
-        "po": {
-            "name": "Modified aramid insert",
-            "shortName": "Modified aramid insert",
-            "description": "Modified aramid insert"
+      "po": {
+        "name": "Modified aramid insert",
+        "shortName": "Modified aramid insert",
+        "description": "Modified aramid insert"
       }
     },
-
-    "fleaPriceRoubles": 0,
-
-    "handbookPriceRoubles": 0,
-
+    "fleaPriceRoubles": 21400,
+    "handbookPriceRoubles": 21400,
     "InsuranceDisabled": true,
-
     "addtoInventorySlots": [],
-
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",
@@ -603,14 +479,11 @@
     ]
   },
   "69eb9cf5ea68c8c4b96d32fe": {
-
     "itemTplToClone": "68a5eb856e534ad0110efa05",
     "parentId": "65649eb40bf0ed77b8044453",
     "handbookParentId": "6564b96a189fe36f356d177c",
-
-
     "overrideProperties": {
-      "QuestItem": false,  
+      "QuestItem": false,
       "ExaminedByDefault": true,
       "PushToFleaBlacklist": true,
       "MaterialType": "BodyArmor",
@@ -619,62 +492,44 @@
       "ArmorType": "Heavy",
       "BackgroundColor": "yellow",
       "ItemSound": "gear_armor",
-      "armorPlateColliders":  [
-          "Plate_Granit_SAPI_chest",
-          "Plate_Granit_SAPI_back"
+      "armorPlateColliders": [
+        "Plate_Granit_SAPI_chest",
+        "Plate_Granit_SAPI_back"
       ],
       "armorClass": "4",
       "Durability": 75,
       "MaxDurability": 75,
       "BluntThroughput": 0.1,
-      "RarityPvE":"Superrare"
-       },
-        "Prefab": {
-
-        "path": "assets/content/items/equipment/armor_plates/shoulder_r.bundle",
-        "rcid": ""
-        },
-
-
-        "Width": 1,
-        "Height": 1,
-
-
-        "Weight": 0,
-
-
-        "Grids": [
-        ],
-
+      "RarityPvE": "Superrare"
+    },
+    "Prefab": {
+      "path": "assets/content/items/equipment/armor_plates/shoulder_r.bundle",
+      "rcid": ""
+    },
+    "Width": 1,
+    "Height": 1,
+    "Weight": 0,
+    "Grids": [],
     "locales": {
       "en": {
         "name": "Modified aramid insert",
         "shortName": "Modified aramid insert",
         "description": "Modified aramid insert"
       },
-        "po": {
-            "name": "Modified aramid insert",
-            "shortName": "Modified aramid insert",
-            "description": "Modified aramid insert"
+      "po": {
+        "name": "Modified aramid insert",
+        "shortName": "Modified aramid insert",
+        "description": "Modified aramid insert"
       }
     },
-
-    "fleaPriceRoubles": 0,
-
-    "handbookPriceRoubles": 0,
-
+    "fleaPriceRoubles": 21400,
+    "handbookPriceRoubles": 21400,
     "InsuranceDisabled": true,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "addtoInventorySlots": [],
-
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",
@@ -683,14 +538,11 @@
     ]
   },
   "69eb9d795b4e3846c7e534e3": {
-
     "itemTplToClone": "68a5eadd2c125bac5a097cbf",
     "parentId": "65649eb40bf0ed77b8044453",
     "handbookParentId": "6564b96a189fe36f356d177c",
-
-
     "overrideProperties": {
-      "QuestItem": false,  
+      "QuestItem": false,
       "ExaminedByDefault": true,
       "PushToFleaBlacklist": true,
       "MaterialType": "BodyArmor",
@@ -699,62 +551,44 @@
       "ArmorType": "Heavy",
       "BackgroundColor": "yellow",
       "ItemSound": "gear_armor",
-      "armorPlateColliders":  [
-          "Plate_Granit_SAPI_chest",
-          "Plate_Granit_SAPI_back"
+      "armorPlateColliders": [
+        "Plate_Granit_SAPI_chest",
+        "Plate_Granit_SAPI_back"
       ],
       "armorClass": "4",
       "Durability": 75,
       "MaxDurability": 75,
       "BluntThroughput": 0.1,
-      "RarityPvE":"Superrare"
-       },
-        "Prefab": {
-
-        "path": "assets/content/items/equipment/armor_plates/groin.bundle",
-        "rcid": ""
-        },
-
-
-        "Width": 1,
-        "Height": 1,
-
-
-        "Weight": 0,
-
-
-        "Grids": [
-        ],
-
+      "RarityPvE": "Superrare"
+    },
+    "Prefab": {
+      "path": "assets/content/items/equipment/armor_plates/groin.bundle",
+      "rcid": ""
+    },
+    "Width": 1,
+    "Height": 1,
+    "Weight": 0,
+    "Grids": [],
     "locales": {
       "en": {
         "name": "Modified aramid insert",
         "shortName": "Modified aramid insert",
         "description": "Modified aramid insert"
       },
-        "po": {
-            "name": "Modified aramid insert",
-            "shortName": "Modified aramid insert",
-            "description": "Modified aramid insert"
+      "po": {
+        "name": "Modified aramid insert",
+        "shortName": "Modified aramid insert",
+        "description": "Modified aramid insert"
       }
     },
-
-    "fleaPriceRoubles": 0,
-
-    "handbookPriceRoubles": 0,
-
+    "fleaPriceRoubles": 21400,
+    "handbookPriceRoubles": 21400,
     "InsuranceDisabled": true,
-
     "addtoInventorySlots": [],
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",

@@ -1,0 +1,489 @@
+{
+  "ce186fdb92105a228cf3aa01": {
+    "itemTplToClone": "66b6295178bbc0200425f995",
+    "parentId": "5448e5284bdc2dcb718b4567",
+    "handbookParentId": "5b5f6f8786f77447ed563642",
+    "overrideProperties": {
+      "Description": "A plate carrier designed for Granit and SAPI plates, made of heavy-duty materials with IR remission. Equipped with ROC buckles for quick donning and doffing. The inner sides are made of soft fabric and equipped with vent pads for increased comfort. Manufactured by Stich Profi. CP MultiCam Version.",
+      "Grids": [
+        {
+          "_id": "759048573e3359eb9c69e7e9",
+          "_name": "1",
+          "_parent": "ce186fdb92105a228cf3aa01",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "70bbe1fde12f558c985aa61d",
+          "_name": "2",
+          "_parent": "ce186fdb92105a228cf3aa01",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "2e551916f60e5401b899ff70",
+          "_name": "3",
+          "_parent": "ce186fdb92105a228cf3aa01",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "bbbecf0321995174b3e2c4bb",
+          "_name": "4",
+          "_parent": "ce186fdb92105a228cf3aa01",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "8136da1558c5542a88442f3a",
+          "_name": "5",
+          "_parent": "ce186fdb92105a228cf3aa01",
+          "_props": {
+            "cellsH": 2,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "4d00cf056f1554b7a32a6d79",
+          "_name": "6",
+          "_parent": "ce186fdb92105a228cf3aa01",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 3,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "aeb69e822436576c8e4e96d6",
+          "_name": "7",
+          "_parent": "ce186fdb92105a228cf3aa01",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 3,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        }
+      ],
+      "Name": "Stich Profi Stich Defense mod.2 plate carrier (CP MultiCam)",
+      "Prefab": {
+        "path": "equipment/item_equipment_rig_stich_defence_mod_2_multicam_aishi.bundle",
+        "rcid": ""
+      },
+      "ShortName": "SD mod.2",
+      "Slots": [
+        {
+          "_id": "d2bc6d4eb5605afe986d3590",
+          "_mergeSlotWithChildren": true,
+          "_name": "Front_plate",
+          "_parent": "ce186fdb92105a228cf3aa01",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "656f9d5900d62bcd2e02407c",
+                  "656fa8d700d62bcd2e024084",
+                  "656fa99800d62bcd2e024088",
+                  "656fae5f7c2d57afe200c0d7",
+                  "656faf0ca0dce000a2020f77",
+                  "656fa0fb498d1b7e3e071d9c",
+                  "656fafe3498d1b7e3e071da4",
+                  "656fa76500d62bcd2e024080",
+                  "656fa25e94b480b8a500c0e0",
+                  "656fad8c498d1b7e3e071da0",
+                  "656fa61e94b480b8a500c0e8",
+                  "656fb21fa0dce000a2020f7c",
+                  "656fac30c6baea13cd07e10c",
+                  "656fb0bd7c2d57afe200c0dc",
+                  "656f9fa0498d1b7e3e071d98",
+                  "656fa53d94b480b8a500c0e4",
+                  "655746010177119f4a097ff7",
+                  "64afdcb83efdfea28601d041",
+                  "64afc71497cf3a403c01ff38",
+                  "65573fa5655447403702a816"
+                ],
+                "Plate": "656fafe3498d1b7e3e071da4",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_chest"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": false
+        },
+        {
+          "_id": "df0cb2896fdb50b49aecef70",
+          "_mergeSlotWithChildren": true,
+          "_name": "Back_plate",
+          "_parent": "ce186fdb92105a228cf3aa01",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "656f9d5900d62bcd2e02407c",
+                  "656fa8d700d62bcd2e024084",
+                  "656fae5f7c2d57afe200c0d7",
+                  "656fa99800d62bcd2e024088",
+                  "656faf0ca0dce000a2020f77",
+                  "656fa0fb498d1b7e3e071d9c",
+                  "656fafe3498d1b7e3e071da4",
+                  "656fa76500d62bcd2e024080",
+                  "656fa25e94b480b8a500c0e0",
+                  "656fad8c498d1b7e3e071da0",
+                  "656fa61e94b480b8a500c0e8",
+                  "656fb21fa0dce000a2020f7c",
+                  "656fac30c6baea13cd07e10c",
+                  "656fb0bd7c2d57afe200c0dc",
+                  "656f9fa0498d1b7e3e071d98",
+                  "656fa53d94b480b8a500c0e4",
+                  "655746010177119f4a097ff7",
+                  "64afdcb83efdfea28601d041",
+                  "65573fa5655447403702a816",
+                  "64afc71497cf3a403c01ff38"
+                ],
+                "Plate": "656fafe3498d1b7e3e071da4",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_back"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": false
+        },
+        {
+          "_id": "e6520f2cd8945b528f50edf9",
+          "_mergeSlotWithChildren": true,
+          "_name": "Left_side_plate",
+          "_parent": "ce186fdb92105a228cf3aa01",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6557458f83942d705f0c4962",
+                  "64afdb577bb3bfe8fe03fd1d",
+                  "64afd81707e2cf40e903a316"
+                ],
+                "Plate": "",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SSAPI_side_left_high"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": false
+        },
+        {
+          "_id": "9a80fdfb6e94577ca26f8757",
+          "_mergeSlotWithChildren": true,
+          "_name": "Right_side_plate",
+          "_parent": "ce186fdb92105a228cf3aa01",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6557458f83942d705f0c4962",
+                  "64afdb577bb3bfe8fe03fd1d",
+                  "64afd81707e2cf40e903a316"
+                ],
+                "Plate": "",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SSAPI_side_right_high"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": false
+        },
+        {
+          "_id": "28b86993d9c35f6ba37dace5",
+          "_mergeSlotWithChildren": true,
+          "_name": "Soft_armor_front",
+          "_parent": "ce186fdb92105a228cf3aa01",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "66b8b217c5d72b02774887b4"
+                ],
+                "Plate": "66b8b217c5d72b02774887b4",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_chest"
+                ],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        },
+        {
+          "_id": "f6aef5519eb35e68b9fad1d9",
+          "_mergeSlotWithChildren": true,
+          "_name": "Soft_armor_back",
+          "_parent": "ce186fdb92105a228cf3aa01",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "66b8b20c5891c84aab75cb96"
+                ],
+                "Plate": "66b8b20c5891c84aab75cb96",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_back"
+                ],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        },
+        {
+          "_id": "05ff10bbb5345f8da979f0fd",
+          "_mergeSlotWithChildren": true,
+          "_name": "Soft_armor_left",
+          "_parent": "ce186fdb92105a228cf3aa01",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "66b8b223a7f72d197e70bed3"
+                ],
+                "Plate": "66b8b223a7f72d197e70bed3",
+                "armorColliders": [
+                  "LeftSideChestDown"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        },
+        {
+          "_id": "27723ceeddae56edaee1c151",
+          "_mergeSlotWithChildren": true,
+          "_name": "soft_armor_right",
+          "_parent": "ce186fdb92105a228cf3aa01",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "66b8b22b78bbc0200425fb20"
+                ],
+                "Plate": "66b8b22b78bbc0200425fb20",
+                "armorColliders": [
+                  "RightSideChestDown"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Stich Profi Stich Defense mod.2 plate carrier (CP MultiCam)",
+        "shortName": "SD mod.2",
+        "description": "A plate carrier designed for Granit and SAPI plates, made of heavy-duty materials with IR remission. Equipped with ROC buckles for quick donning and doffing. The inner sides are made of soft fabric and equipped with vent pads for increased comfort. Manufactured by Stich Profi. CP MultiCam Version."
+      }
+    },
+    "handbookPriceRoubles": 9984,
+    "fleaPriceRoubles": 119043,
+    "addtoInventorySlots": [],
+    "addtoBots": false,
+    "addtoTraders": false,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": false,
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_changeWeaponName": false,
+        "_encyclopedia": "ce186fdb92105a228cf3aa01",
+        "_id": "dbdc74e9df035a70aff54d7f",
+        "_items": [
+          {
+            "_id": "9fabb0fad2be5fe39eca8b8c",
+            "_tpl": "ce186fdb92105a228cf3aa01"
+          },
+          {
+            "_id": "cad93997bcb056cebde41fc5",
+            "_tpl": "66b8b217c5d72b02774887b4",
+            "parentId": "9fabb0fad2be5fe39eca8b8c",
+            "slotId": "Soft_armor_front"
+          },
+          {
+            "_id": "479407d9e8b95283b2cbec49",
+            "_tpl": "66b8b20c5891c84aab75cb96",
+            "parentId": "9fabb0fad2be5fe39eca8b8c",
+            "slotId": "Soft_armor_back"
+          },
+          {
+            "_id": "0f09144671e055e0b846ece6",
+            "_tpl": "66b8b223a7f72d197e70bed3",
+            "parentId": "9fabb0fad2be5fe39eca8b8c",
+            "slotId": "Soft_armor_left"
+          },
+          {
+            "_id": "f9e383a0d467538e9fd2efde",
+            "_tpl": "66b8b22b78bbc0200425fb20",
+            "parentId": "9fabb0fad2be5fe39eca8b8c",
+            "slotId": "soft_armor_right"
+          },
+          {
+            "_id": "4fc2b1837c8e56a797e34ec3",
+            "_tpl": "656fafe3498d1b7e3e071da4",
+            "parentId": "9fabb0fad2be5fe39eca8b8c",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "a0cc8bd4f19558a98dd939aa",
+            "_tpl": "656fafe3498d1b7e3e071da4",
+            "parentId": "9fabb0fad2be5fe39eca8b8c",
+            "slotId": "Back_plate"
+          }
+        ],
+        "_name": "Stich Profi Stich Defense mod.2 plate carrier (CP MultiCam)",
+        "_parent": "9fabb0fad2be5fe39eca8b8c",
+        "_type": "Preset"
+      }
+    ]
+  }
+}

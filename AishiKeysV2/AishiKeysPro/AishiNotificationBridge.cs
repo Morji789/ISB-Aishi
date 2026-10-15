@@ -9,7 +9,6 @@ namespace AishiKeysPro
     {
         private static MethodInfo _displayMethod;
         private static bool _resolved;
-
         public static void Display(string message, float duration, int iconType, Color color)
         {
             MethodInfo method = ResolveDisplayMethod();
@@ -42,10 +41,8 @@ namespace AishiKeysPro
             }
 
             _resolved = true;
-
             Type[] types;
             Assembly assembly = typeof(Player).Assembly;
-
             try
             {
                 types = assembly.GetTypes();
@@ -68,7 +65,6 @@ namespace AishiKeysPro
                 }
 
                 MethodInfo[] methods;
-
                 try
                 {
                     methods = type.GetMethods(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Static);
@@ -104,7 +100,6 @@ namespace AishiKeysPro
         {
             Type nullableType = Nullable.GetUnderlyingType(targetType);
             Type effectiveType = nullableType ?? targetType;
-
             if (effectiveType.IsEnum)
             {
                 return Enum.ToObject(effectiveType, value);
@@ -122,7 +117,6 @@ namespace AishiKeysPro
         {
             Type nullableType = Nullable.GetUnderlyingType(targetType);
             Type effectiveType = nullableType ?? targetType;
-
             if (effectiveType == typeof(Color) || effectiveType.IsAssignableFrom(typeof(Color)))
             {
                 return color;

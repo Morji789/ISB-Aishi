@@ -1,0 +1,877 @@
+{
+  "0743de38a7cf1bd20d6159fe": {
+    "itemTplToClone": "69d28cdc274c032dd804afe0",
+    "parentId": "5448e5284bdc2dcb718b4567",
+    "handbookParentId": "5b5f6f8786f77447ed563642",
+    "overrideProperties": {
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "yellow",
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": false,
+      "ConflictingItems": [],
+      "Description": "A specialized body armor developed for the FSB’s Special Purpose Center, featuring high functionality and modularity. Lightweight, White Tusk Arctic version.",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "ExamineExperience": 10,
+      "ExamineTime": 1,
+      "ExaminedByDefault": false,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "Height": 4,
+      "HideEntrails": true,
+      "InsuranceDisabled": true,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": true,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "gear_generic",
+      "LeftHandItem": false,
+      "LootExperience": 80,
+      "MergesWithChildren": false,
+      "Name": "FORT Gladiator-S plate carrier (Lightweight, White Tusk Arctic)",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "equipment/item_equipment_armor_gladiator_s_mltcm_whitetusk.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RagfairLevelToTrade": 0,
+      "RarityPvE": "Not_exist",
+      "RepairCost": 108,
+      "RepairSpeed": 0,
+      "ShortName": "Gladiator-S",
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Weight": 4.83,
+      "Width": 3,
+      "CanPutIntoDuringTheRaid": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [
+        {
+          "_name": "1",
+          "_id": "cc00380538099510075b4b1f",
+          "_parent": "0743de38a7cf1bd20d6159fe",
+          "_props": {
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "cellsH": 1,
+            "cellsV": 1,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "2",
+          "_id": "d4a8449ed752b2eb75e4d4c7",
+          "_parent": "0743de38a7cf1bd20d6159fe",
+          "_props": {
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "cellsH": 1,
+            "cellsV": 1,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "3",
+          "_id": "60307ddd82ff9b73a3812785",
+          "_parent": "0743de38a7cf1bd20d6159fe",
+          "_props": {
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "cellsH": 1,
+            "cellsV": 1,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "4",
+          "_id": "374d796c08db72c4c3050896",
+          "_parent": "0743de38a7cf1bd20d6159fe",
+          "_props": {
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "cellsH": 1,
+            "cellsV": 1,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "5",
+          "_id": "313f0e38713df19565bc3af5",
+          "_parent": "0743de38a7cf1bd20d6159fe",
+          "_props": {
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "cellsH": 1,
+            "cellsV": 1,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "6",
+          "_id": "08069174501e351131df3c80",
+          "_parent": "0743de38a7cf1bd20d6159fe",
+          "_props": {
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "cellsH": 1,
+            "cellsV": 1,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "7",
+          "_id": "ab705cdb8e5caf9cc31b79e2",
+          "_parent": "0743de38a7cf1bd20d6159fe",
+          "_props": {
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "cellsH": 1,
+            "cellsV": 2,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "8",
+          "_id": "7054b8c6eb45049506cf3af5",
+          "_parent": "0743de38a7cf1bd20d6159fe",
+          "_props": {
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "cellsH": 1,
+            "cellsV": 2,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "9",
+          "_id": "1f1205c609ff40f43af57fce",
+          "_parent": "0743de38a7cf1bd20d6159fe",
+          "_props": {
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "cellsH": 1,
+            "cellsV": 2,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "10",
+          "_id": "19b6cabd481126c6c96e6dbe",
+          "_parent": "0743de38a7cf1bd20d6159fe",
+          "_props": {
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "cellsH": 1,
+            "cellsV": 2,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "11",
+          "_id": "999044525367876796abe569",
+          "_parent": "0743de38a7cf1bd20d6159fe",
+          "_props": {
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "cellsH": 1,
+            "cellsV": 2,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "12",
+          "_id": "2ac44cc82f47dc3023e0811e",
+          "_parent": "0743de38a7cf1bd20d6159fe",
+          "_props": {
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "cellsH": 1,
+            "cellsV": 2,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "13",
+          "_id": "8bbae3a23aa8e846de09aed1",
+          "_parent": "0743de38a7cf1bd20d6159fe",
+          "_props": {
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "cellsH": 2,
+            "cellsV": 2,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        }
+      ],
+      "Slots": [
+        {
+          "_name": "Front_plate",
+          "_id": "ed798938c3eec6d55f45bb89",
+          "_parent": "0743de38a7cf1bd20d6159fe",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "656f9d5900d62bcd2e02407c",
+                  "656fa8d700d62bcd2e024084",
+                  "656fa99800d62bcd2e024088",
+                  "656fae5f7c2d57afe200c0d7",
+                  "656faf0ca0dce000a2020f77",
+                  "656fa0fb498d1b7e3e071d9c",
+                  "656fafe3498d1b7e3e071da4",
+                  "656fa76500d62bcd2e024080",
+                  "656fa25e94b480b8a500c0e0",
+                  "656fad8c498d1b7e3e071da0",
+                  "656fa61e94b480b8a500c0e8",
+                  "656fb21fa0dce000a2020f7c",
+                  "656fac30c6baea13cd07e10c",
+                  "656fb0bd7c2d57afe200c0dc",
+                  "656f9fa0498d1b7e3e071d98",
+                  "656fa53d94b480b8a500c0e4",
+                  "655746010177119f4a097ff7",
+                  "64afdcb83efdfea28601d041",
+                  "6943c85be2f21398e70378cc",
+                  "65573fa5655447403702a816",
+                  "64afc71497cf3a403c01ff38"
+                ],
+                "Plate": "64afc71497cf3a403c01ff38",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_chest"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        },
+        {
+          "_name": "Back_plate",
+          "_id": "5aa2d874d5207a7a9488d4f0",
+          "_parent": "0743de38a7cf1bd20d6159fe",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "656f9d5900d62bcd2e02407c",
+                  "656fa8d700d62bcd2e024084",
+                  "656fa99800d62bcd2e024088",
+                  "656fae5f7c2d57afe200c0d7",
+                  "656faf0ca0dce000a2020f77",
+                  "656fa0fb498d1b7e3e071d9c",
+                  "656fafe3498d1b7e3e071da4",
+                  "656fa76500d62bcd2e024080",
+                  "656fa25e94b480b8a500c0e0",
+                  "656fa61e94b480b8a500c0e8",
+                  "656fad8c498d1b7e3e071da0",
+                  "656fb21fa0dce000a2020f7c",
+                  "656fac30c6baea13cd07e10c",
+                  "656fb0bd7c2d57afe200c0dc",
+                  "656f9fa0498d1b7e3e071d98",
+                  "656fa53d94b480b8a500c0e4",
+                  "655746010177119f4a097ff7",
+                  "64afdcb83efdfea28601d041",
+                  "6943c85be2f21398e70378cc",
+                  "65573fa5655447403702a816",
+                  "64afc71497cf3a403c01ff38"
+                ],
+                "Plate": "64afc71497cf3a403c01ff38",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_back"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        },
+        {
+          "_name": "Soft_armor_front",
+          "_id": "2ddfc3cf960d56b59529f6a0",
+          "_parent": "0743de38a7cf1bd20d6159fe",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "7b1568a60c1ba51890fdf3ea"
+                ],
+                "Plate": "7b1568a60c1ba51890fdf3ea",
+                "armorColliders": [
+                  "RibcageLow",
+                  "RibcageUp"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        },
+        {
+          "_name": "Soft_armor_back",
+          "_id": "2790a1d25b015e6a9c46a36c",
+          "_parent": "0743de38a7cf1bd20d6159fe",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "3aba08d3ee3ee948768d510b"
+                ],
+                "Plate": "3aba08d3ee3ee948768d510b",
+                "armorColliders": [
+                  "SpineTop",
+                  "SpineDown"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        },
+        {
+          "_name": "Soft_armor_left",
+          "_id": "634f88235a23303561cdfb9f",
+          "_parent": "0743de38a7cf1bd20d6159fe",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "a447cf7e9f7bdba6b0e84295"
+                ],
+                "Plate": "a447cf7e9f7bdba6b0e84295",
+                "armorColliders": [
+                  "LeftSideChestDown"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        },
+        {
+          "_name": "Soft_armor_right",
+          "_id": "bd59a06f8ef310fea7088302",
+          "_parent": "0743de38a7cf1bd20d6159fe",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "0b58589aa5f8190c34e36e79"
+                ],
+                "Plate": "0b58589aa5f8190c34e36e79",
+                "armorColliders": [
+                  "RightSideChestDown"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        },
+        {
+          "_name": "Groin",
+          "_id": "da8169ff3e77fd46a83ea0b7",
+          "_parent": "0743de38a7cf1bd20d6159fe",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "865299f33353ca900257e11e"
+                ],
+                "Plate": "865299f33353ca900257e11e",
+                "armorColliders": [
+                  "Pelvis"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        }
+      ],
+      "BlocksArmorVest": true,
+      "SearchSound": "looting_body_extended",
+      "ArmorMaterial": "Aramid",
+      "ArmorType": "Heavy",
+      "BluntThroughput": 0.35,
+      "MetascoreGroup": "Utility",
+      "RigLayoutName": "gladiator_s_mc",
+      "armorClass": "0",
+      "armorZone": [],
+      "mousePenalty": -3.5,
+      "speedPenaltyPercent": -5,
+      "weaponErgonomicPenalty": -3
+    },
+    "locales": {
+      "en": {
+        "name": "FORT Gladiator-S plate carrier (Lightweight, White Tusk)",
+        "shortName": "Gladiator-S",
+        "description": "A specialized body armor developed for the FSB’s Special Purpose Center, featuring high functionality and modularity. Lightweight, White Tusk Arctic version."
+      },
+      "po": {
+        "name": "FORT Gladiator-S plate carrier (Leve, White Tusk)",
+        "shortName": "Gladiator-S",
+        "description": "A specialized body armor developed for the FSB’s Special Purpose Center, featuring high functionality and modularity. Leve, White Tusk Ártico version."
+      }
+    },
+    "fleaPriceRoubles": 515900,
+    "handbookPriceRoubles": 219580,
+    "addtoInventorySlots": [
+      "TacticalRig"
+    ],
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_id": "9f87346b3c6a1ba0cbb01657",
+        "_type": "Preset",
+        "_changeWeaponName": false,
+        "_name": "Modified FORT Gladiator-S plate carrier (White Tusk Arctic Edition) Standard",
+        "_parent": "e4383b4ed052b4fa69a88c88",
+        "_items": [
+          {
+            "_id": "e4383b4ed052b4fa69a88c88",
+            "_tpl": "0743de38a7cf1bd20d6159fe"
+          },
+          {
+            "_id": "865ee3a86e631124b8d75fd3",
+            "_tpl": "7b1568a60c1ba51890fdf3ea",
+            "parentId": "e4383b4ed052b4fa69a88c88",
+            "slotId": "Soft_armor_front"
+          },
+          {
+            "_id": "12e158083c8d2b85481ff3ef",
+            "_tpl": "3aba08d3ee3ee948768d510b",
+            "parentId": "e4383b4ed052b4fa69a88c88",
+            "slotId": "Soft_armor_back"
+          },
+          {
+            "_id": "6f16ac730ae62cba330e8d0a",
+            "_tpl": "a447cf7e9f7bdba6b0e84295",
+            "parentId": "e4383b4ed052b4fa69a88c88",
+            "slotId": "Soft_armor_left"
+          },
+          {
+            "_id": "7038b3ae020bc14441b33264",
+            "_tpl": "0b58589aa5f8190c34e36e79",
+            "parentId": "e4383b4ed052b4fa69a88c88",
+            "slotId": "Soft_armor_right"
+          },
+          {
+            "_id": "116076eefe7fc041b5d078c3",
+            "_tpl": "865299f33353ca900257e11e",
+            "parentId": "e4383b4ed052b4fa69a88c88",
+            "slotId": "Groin"
+          },
+          {
+            "_id": "04f8d1cf48c21a58e92b481e",
+            "_tpl": "64afc71497cf3a403c01ff38",
+            "parentId": "e4383b4ed052b4fa69a88c88",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "7930ca64cf5c172e0044c64b",
+            "_tpl": "64afc71497cf3a403c01ff38",
+            "parentId": "e4383b4ed052b4fa69a88c88",
+            "slotId": "Back_plate"
+          }
+        ],
+        "_encyclopedia": "0743de38a7cf1bd20d6159fe"
+      }
+    ]
+  },
+  "7b1568a60c1ba51890fdf3ea": {
+    "itemTplToClone": "69d417691b47755f0f0aa678",
+    "parentId": "65649eb40bf0ed77b8044453",
+    "handbookParentId": "6564b96a189fe36f356d177c",
+    "overrideProperties": {
+      "QuestItem": false,
+      "ExaminedByDefault": true,
+      "IsUnsaleable": false,
+      "InsuranceDisabled": true,
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false,
+      "BackgroundColor": "yellow",
+      "ArmorMaterial": "Ceramic",
+      "ArmorType": "Heavy",
+      "armorClass": "5",
+      "Durability": 75,
+      "MaxDurability": 75,
+      "BluntThroughput": 0.1,
+      "RarityPvE": "Superrare"
+    },
+    "locales": {
+      "en": {
+        "name": "Modified Gladiator-S front insert (White Tusk)",
+        "shortName": "Gladiator-S WT",
+        "description": "Class 6 integrated protection for the White Tusk Gladiator-S."
+      },
+      "po": {
+        "name": "Inserto frontal modificado do Gladiator-S (White Tusk)",
+        "shortName": "Gladiator-S WT",
+        "description": "Proteção integrada de classe 6 para o Gladiator-S White Tusk."
+      }
+    },
+    "fleaPriceRoubles": 25000,
+    "handbookPriceRoubles": 25000,
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false
+  },
+  "3aba08d3ee3ee948768d510b": {
+    "itemTplToClone": "69d416249db8f66e870a8a65",
+    "parentId": "65649eb40bf0ed77b8044453",
+    "handbookParentId": "6564b96a189fe36f356d177c",
+    "overrideProperties": {
+      "QuestItem": false,
+      "ExaminedByDefault": true,
+      "IsUnsaleable": false,
+      "InsuranceDisabled": true,
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false,
+      "BackgroundColor": "yellow",
+      "ArmorMaterial": "Ceramic",
+      "ArmorType": "Heavy",
+      "armorClass": "5",
+      "Durability": 75,
+      "MaxDurability": 75,
+      "BluntThroughput": 0.1,
+      "RarityPvE": "Superrare"
+    },
+    "locales": {
+      "en": {
+        "name": "Modified Gladiator-S back insert (White Tusk)",
+        "shortName": "Gladiator-S WT",
+        "description": "Class 6 integrated protection for the White Tusk Gladiator-S."
+      },
+      "po": {
+        "name": "Inserto traseiro modificado do Gladiator-S (White Tusk)",
+        "shortName": "Gladiator-S WT",
+        "description": "Proteção integrada de classe 6 para o Gladiator-S White Tusk."
+      }
+    },
+    "fleaPriceRoubles": 25000,
+    "handbookPriceRoubles": 25000,
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false
+  },
+  "a447cf7e9f7bdba6b0e84295": {
+    "itemTplToClone": "69d42a54fe02b60eed07a3cb",
+    "parentId": "65649eb40bf0ed77b8044453",
+    "handbookParentId": "6564b96a189fe36f356d177c",
+    "overrideProperties": {
+      "QuestItem": false,
+      "ExaminedByDefault": true,
+      "IsUnsaleable": false,
+      "InsuranceDisabled": true,
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false,
+      "BackgroundColor": "yellow",
+      "ArmorMaterial": "Ceramic",
+      "ArmorType": "Heavy",
+      "armorClass": "5",
+      "Durability": 75,
+      "MaxDurability": 75,
+      "BluntThroughput": 0.1,
+      "RarityPvE": "Superrare"
+    },
+    "locales": {
+      "en": {
+        "name": "Modified Gladiator-S left side insert (White Tusk)",
+        "shortName": "Gladiator-S WT",
+        "description": "Class 6 integrated protection for the White Tusk Gladiator-S."
+      },
+      "po": {
+        "name": "Inserto lateral esquerdo modificado do Gladiator-S (White Tusk)",
+        "shortName": "Gladiator-S WT",
+        "description": "Proteção integrada de classe 6 para o Gladiator-S White Tusk."
+      }
+    },
+    "fleaPriceRoubles": 25000,
+    "handbookPriceRoubles": 25000,
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false
+  },
+  "0b58589aa5f8190c34e36e79": {
+    "itemTplToClone": "69d429f7944e2afebd028bf8",
+    "parentId": "65649eb40bf0ed77b8044453",
+    "handbookParentId": "6564b96a189fe36f356d177c",
+    "overrideProperties": {
+      "QuestItem": false,
+      "ExaminedByDefault": true,
+      "IsUnsaleable": false,
+      "InsuranceDisabled": true,
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false,
+      "BackgroundColor": "yellow",
+      "ArmorMaterial": "Ceramic",
+      "ArmorType": "Heavy",
+      "armorClass": "5",
+      "Durability": 75,
+      "MaxDurability": 75,
+      "BluntThroughput": 0.1,
+      "RarityPvE": "Superrare"
+    },
+    "locales": {
+      "en": {
+        "name": "Modified Gladiator-S right side insert (White Tusk)",
+        "shortName": "Gladiator-S WT",
+        "description": "Class 6 integrated protection for the White Tusk Gladiator-S."
+      },
+      "po": {
+        "name": "Inserto lateral direito modificado do Gladiator-S (White Tusk)",
+        "shortName": "Gladiator-S WT",
+        "description": "Proteção integrada de classe 6 para o Gladiator-S White Tusk."
+      }
+    },
+    "fleaPriceRoubles": 25000,
+    "handbookPriceRoubles": 25000,
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false
+  },
+  "865299f33353ca900257e11e": {
+    "itemTplToClone": "69d42490d91a53e51e0f940e",
+    "parentId": "65649eb40bf0ed77b8044453",
+    "handbookParentId": "6564b96a189fe36f356d177c",
+    "overrideProperties": {
+      "QuestItem": false,
+      "ExaminedByDefault": true,
+      "IsUnsaleable": false,
+      "InsuranceDisabled": true,
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false,
+      "BackgroundColor": "yellow",
+      "ArmorMaterial": "Ceramic",
+      "ArmorType": "Heavy",
+      "armorClass": "5",
+      "Durability": 75,
+      "MaxDurability": 75,
+      "BluntThroughput": 0.1,
+      "RarityPvE": "Superrare"
+    },
+    "locales": {
+      "en": {
+        "name": "Modified Gladiator-S groin insert (White Tusk)",
+        "shortName": "Gladiator-S WT",
+        "description": "Class 6 integrated protection for the White Tusk Gladiator-S."
+      },
+      "po": {
+        "name": "Inserto da virilha modificado do Gladiator-S (White Tusk)",
+        "shortName": "Gladiator-S WT",
+        "description": "Proteção integrada de classe 6 para o Gladiator-S White Tusk."
+      }
+    },
+    "fleaPriceRoubles": 25000,
+    "handbookPriceRoubles": 25000,
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false
+  }
+}

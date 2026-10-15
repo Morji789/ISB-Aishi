@@ -1,36 +1,20 @@
 {
   "694479f61287f9a2b1060a7f": {
-
     "itemTplToClone": "62e910aaf957f2915e0a5e36",
     "parentId": "5c164d2286f774194c5e69fa",
     "handbookParentId": "5c518ed586f774119a772aee",
-
-
     "overrideProperties": {
-      "QuestItem": false,  
-      "ExaminedByDefault": false,
-      "CanSellOnRagfair": false,
       "InsuranceDisabled": true,
-      "CanRequireOnRagfair": false,
-      "addtoItemBlacklist": true,  
+      "addtoItemBlacklist": true,
       "MaximumNumberOfUsage": 0,
       "BackgroundColor": "violet",
-        
-
       "Prefab": {
-
-        "path": "quests/aishikeycardv2.bundle",
+        "path": "quests/aishi_masterkey.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
-      "Height": 1,
-      "Weight": 0.010,
-
+      "Weight": 0.01,
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "Masterkey issued to the Deputy Director of ISB, \"Juna Aishi\".",
@@ -42,49 +26,32 @@
         "shortName": "CM Aishi",
         "description": "O cartão pessoal de Aishi. Ele foi emitido pela USEC utilizando os protocolos de mais alto nível de segurança. Ele é usado para acessar áreas restritas da TerraGroup e equipado com uma chave especial."
       }
-    
     },
-
     "fleaPriceRoubles": 8975870,
-
     "handbookPriceRoubles": 3950700,
-
     "addtoBots": false,
-
     "Unlootable": true,
     "UnlootableFromSide": [
-        "Bear",
-        "Usec",
-        "Savage"
-      ],
-      
+      "Bear",
+      "Usec",
+      "Savage"
+    ],
     "UnlootableFromSlot": "SpecialSlot",
-
     "IsSpecialSlotOnly": true,
-
     "addtoSpecialSlots": true,
-
     "CanSellOnRagfair": false,
-
     "CanRequireOnRagfair": false,
-    
-    "addtoItemBlacklist": true, 
-    
+    "addtoItemBlacklist": true,
     "IsUnremovable": true,
-
     "IsUnsaleable": true,
-
     "addtoSecureFilters": false,
-
     "addtoTraders": false,
-
-    "traders": {
-          },
-          "barters": [
-            {
-              "count": 0,
-              "_tpl": "0" 
-            }
-          ]
+    "traders": {},
+    "barters": [
+      {
+        "count": 0,
+        "_tpl": "0"
+      }
+    ]
   }
 }

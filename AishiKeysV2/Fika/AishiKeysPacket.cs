@@ -5,7 +5,6 @@ namespace AishiKeys.Fika
     public struct AishiKeysPacket : INetSerializable
     {
         public string Payload;
-
         public void Serialize(NetDataWriter writer)
         {
             writer.PutLargeString(Payload ?? string.Empty);

@@ -1,0 +1,495 @@
+{
+  "dea3b4d4670e523381e82172": {
+    "itemTplToClone": "5c0e746986f7741453628fe5",
+    "parentId": "5448e5284bdc2dcb718b4567",
+    "handbookParentId": "5b5f6f8786f77447ed563642",
+    "overrideProperties": {
+      "BackgroundColor": "yellow",
+      "CanSellOnRagfair": false,
+      "Description": "A specialized body armor developed for the FSB’s Special Purpose Center, featuring high functionality and modularity. Black Camo version.",
+      "Height": 4,
+      "LootExperience": 80,
+      "Name": "FORT Gladiator-S plate carrier (Black Camo)",
+      "Prefab": {
+        "path": "equipment/item_equipment_armor_gladiator_s_light_blk_midnight.bundle",
+        "rcid": ""
+      },
+      "RagfairLevelToTrade": 0,
+      "RarityPvE": "Not_exist",
+      "RepairCost": 132,
+      "ShortName": "Gladiator-S",
+      "Weight": 3.05,
+      "Width": 3,
+      "Grids": [
+        {
+          "_name": "1",
+          "_id": "3597e41d0e965f82b5b78e8c",
+          "_parent": "dea3b4d4670e523381e82172",
+          "_props": {
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "cellsH": 1,
+            "cellsV": 1,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "2",
+          "_id": "b21f9bd8735c5e34a6211289",
+          "_parent": "dea3b4d4670e523381e82172",
+          "_props": {
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "cellsH": 1,
+            "cellsV": 1,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "3",
+          "_id": "5d3707b278c35910aa873e2e",
+          "_parent": "dea3b4d4670e523381e82172",
+          "_props": {
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "cellsH": 2,
+            "cellsV": 1,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "4",
+          "_id": "7c0d2bc60d735204858ee2f5",
+          "_parent": "dea3b4d4670e523381e82172",
+          "_props": {
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "cellsH": 1,
+            "cellsV": 2,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "5",
+          "_id": "4d30c65a039750dab23c4046",
+          "_parent": "dea3b4d4670e523381e82172",
+          "_props": {
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "cellsH": 1,
+            "cellsV": 2,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "6",
+          "_id": "711e770f830a5d93b9dff923",
+          "_parent": "dea3b4d4670e523381e82172",
+          "_props": {
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "cellsH": 1,
+            "cellsV": 2,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "7",
+          "_id": "7f9c5c2264ec5ee9bd7668e9",
+          "_parent": "dea3b4d4670e523381e82172",
+          "_props": {
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "cellsH": 1,
+            "cellsV": 2,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "8",
+          "_id": "342acf94a94859cb817a8bd1",
+          "_parent": "dea3b4d4670e523381e82172",
+          "_props": {
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "cellsH": 2,
+            "cellsV": 2,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "9",
+          "_id": "b414c51be0c259f4b95e0e83",
+          "_parent": "dea3b4d4670e523381e82172",
+          "_props": {
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "cellsH": 2,
+            "cellsV": 2,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        }
+      ],
+      "Slots": [
+        {
+          "_name": "Front_plate",
+          "_id": "d763935a6835548e95eb36de",
+          "_parent": "dea3b4d4670e523381e82172",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "656f9d5900d62bcd2e02407c",
+                  "656fa8d700d62bcd2e024084",
+                  "656fa99800d62bcd2e024088",
+                  "656fae5f7c2d57afe200c0d7",
+                  "656faf0ca0dce000a2020f77",
+                  "656fa0fb498d1b7e3e071d9c",
+                  "656fafe3498d1b7e3e071da4",
+                  "656fa76500d62bcd2e024080",
+                  "656fa25e94b480b8a500c0e0",
+                  "656fad8c498d1b7e3e071da0",
+                  "656fa61e94b480b8a500c0e8",
+                  "656fb21fa0dce000a2020f7c",
+                  "656fac30c6baea13cd07e10c",
+                  "656fb0bd7c2d57afe200c0dc",
+                  "656f9fa0498d1b7e3e071d98",
+                  "656fa53d94b480b8a500c0e4",
+                  "655746010177119f4a097ff7",
+                  "64afdcb83efdfea28601d041",
+                  "6943c85be2f21398e70378cc",
+                  "65573fa5655447403702a816",
+                  "64afc71497cf3a403c01ff38"
+                ],
+                "Plate": "65573fa5655447403702a816",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_chest"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        },
+        {
+          "_name": "Back_plate",
+          "_id": "db9ab60c401d59f2849e0561",
+          "_parent": "dea3b4d4670e523381e82172",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "656f9d5900d62bcd2e02407c",
+                  "656fa8d700d62bcd2e024084",
+                  "656fa99800d62bcd2e024088",
+                  "656fae5f7c2d57afe200c0d7",
+                  "656faf0ca0dce000a2020f77",
+                  "656fa0fb498d1b7e3e071d9c",
+                  "656fafe3498d1b7e3e071da4",
+                  "656fa76500d62bcd2e024080",
+                  "656fa25e94b480b8a500c0e0",
+                  "656fa61e94b480b8a500c0e8",
+                  "656fad8c498d1b7e3e071da0",
+                  "656fb21fa0dce000a2020f7c",
+                  "656fac30c6baea13cd07e10c",
+                  "656fb0bd7c2d57afe200c0dc",
+                  "656f9fa0498d1b7e3e071d98",
+                  "656fa53d94b480b8a500c0e4",
+                  "655746010177119f4a097ff7",
+                  "64afdcb83efdfea28601d041",
+                  "6943c85be2f21398e70378cc",
+                  "64afc71497cf3a403c01ff38",
+                  "65573fa5655447403702a816"
+                ],
+                "Plate": "65573fa5655447403702a816",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_back"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        },
+        {
+          "_name": "Soft_armor_front",
+          "_id": "dbf0e988d7f45e1980c8ab28",
+          "_parent": "dea3b4d4670e523381e82172",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "69d417691b47755f0f0aa678"
+                ],
+                "Plate": "69d417691b47755f0f0aa678",
+                "armorColliders": [
+                  "RibcageUp",
+                  "RibcageLow"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        },
+        {
+          "_name": "Soft_armor_back",
+          "_id": "9385671f1275508dbc6a8c82",
+          "_parent": "dea3b4d4670e523381e82172",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "69d416249db8f66e870a8a65"
+                ],
+                "Plate": "69d416249db8f66e870a8a65",
+                "armorColliders": [
+                  "SpineTop",
+                  "SpineDown"
+                ],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_back"
+                ],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        },
+        {
+          "_name": "Groin",
+          "_id": "6714b8c5e46f5aa6b89e111e",
+          "_parent": "dea3b4d4670e523381e82172",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "69d420d442d213e3a201ce3f"
+                ],
+                "Plate": "69d420d442d213e3a201ce3f",
+                "armorColliders": [
+                  "Pelvis"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        }
+      ],
+      "RigLayoutName": "gladiator_s_light_blk",
+      "mousePenalty": -0.5,
+      "weaponErgonomicPenalty": -0.5
+    },
+    "locales": {
+      "en": {
+        "name": "FORT Gladiator-S plate carrier (Black Camo)",
+        "shortName": "Gladiator-S",
+        "description": "A specialized body armor developed for the FSB’s Special Purpose Center, featuring high functionality and modularity. Black Camo version."
+      },
+      "po": {
+        "name": "FORT Gladiator-S plate carrier (Camuflagem Preta)",
+        "shortName": "Gladiator-S",
+        "description": "A specialized body armor developed for the FSB’s Special Purpose Center, featuring high functionality and modularity. Camuflagem Preta version."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "fleaPriceRoubles": 320000,
+    "handbookPriceRoubles": 320000,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "staticLootContainers": [],
+    "addtoHallOfFame": false,
+    "hallOfFameSlots": [],
+    "addtoSpecialSlots": false,
+    "addtoHideoutPosterSlots": false,
+    "addPosterToMaps": false,
+    "posterSpawnProbability": 0,
+    "addtoStatuetteSlots": false,
+    "addCaliberToAllCloneLocations": false,
+    "addtoStaticAmmo": false,
+    "staticAmmoProbability": 0,
+    "addtoSecureFilters": false,
+    "masteries": false,
+    "masterySections": [],
+    "addtoTraders": false,
+    "traders": {},
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_id": "c0f7bd2a845a5f1bba8d76f8",
+        "_type": "Preset",
+        "_changeWeaponName": false,
+        "_name": "Gladiator S - Midnight Standard",
+        "_parent": "a98646a8e5f457a190534033",
+        "_items": [
+          {
+            "_id": "a98646a8e5f457a190534033",
+            "_tpl": "dea3b4d4670e523381e82172"
+          },
+          {
+            "_id": "2f8227251af05116ba8c5887",
+            "_tpl": "69d417691b47755f0f0aa678",
+            "parentId": "a98646a8e5f457a190534033",
+            "slotId": "Soft_armor_front"
+          },
+          {
+            "_id": "a643951f16b151c38bb5c77e",
+            "_tpl": "69d416249db8f66e870a8a65",
+            "parentId": "a98646a8e5f457a190534033",
+            "slotId": "Soft_armor_back"
+          },
+          {
+            "_id": "ad3285fd0e395c2596b79dcd",
+            "_tpl": "69d420d442d213e3a201ce3f",
+            "parentId": "a98646a8e5f457a190534033",
+            "slotId": "Groin"
+          },
+          {
+            "_id": "cebf73b91d2556c6bf13a909",
+            "_tpl": "65573fa5655447403702a816",
+            "parentId": "a98646a8e5f457a190534033",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "82ecc81d06995df3a227ecf1",
+            "_tpl": "65573fa5655447403702a816",
+            "parentId": "a98646a8e5f457a190534033",
+            "slotId": "Back_plate"
+          }
+        ],
+        "_encyclopedia": "dea3b4d4670e523381e82172"
+      }
+    ],
+    "addtoItemBlacklist": true
+  }
+}

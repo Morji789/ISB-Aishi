@@ -1,6 +1,6 @@
 {
-"69a9e71f596a6d5cc7ad6cd8 name": "Fishing for Information (Skier)",
-    "69a9e71f596a6d5cc7ad6cd8 description": "Hey comrade, how's it going? You know how business is, there are things we hear around, but they're more complicated than they seem, so I really can't help you with this Lighthouse thing.",
-    "69a9e71f596a6d5cc7ad6cd8 successMessageText": "See you around!",
-    "69a9f28fa26c189bc6569092": "Talk to Skier about the events at Lighthouse"
+  "69a9e71f596a6d5cc7ad6cd8 name": "Fishing for Information (Skier)",
+  "69a9e71f596a6d5cc7ad6cd8 description": "Hey comrade, how's it going? You know how business is, there are things we hear around, but they're more complicated than they seem, so I really can't help you with this Lighthouse thing.",
+  "69a9e71f596a6d5cc7ad6cd8 successMessageText": "See you around!",
+  "69a9f28fa26c189bc6569092": "Talk to Skier about the events at Lighthouse"
 }

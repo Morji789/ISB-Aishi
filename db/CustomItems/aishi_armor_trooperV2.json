@@ -1,171 +1,22 @@
 {
   "6a0d09c36f85033057ae496a": {
-
     "itemTplToClone": "5c0e655586f774045612eeb2",
     "parentId": "5448e54d4bdc2dcc718b4568",
     "handbookParentId": "5b5f701386f774093f2ecf0f",
-
-
     "overrideProperties": {
-      "QuestItem": false,  
       "ExaminedByDefault": false,
-      "IsUnsaleable": false,
       "CanSellOnRagfair": false,
-      "CanRequireOnRagfair": false,
-      "InsuranceDisabled": true, 
-      "BackgroundColor": "yellow", 
-      "Slots": [
-        {
-          "_id": "6a0d09c5aa87b3bffb7f3ec7",
-          "_mergeSlotWithChildren": true,
-          "_name": "Front_plate",
-          "_parent": "5c0e655586f774045612eeb2",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "656f9d5900d62bcd2e02407c",
-                  "656fa8d700d62bcd2e024084",
-                  "656fa99800d62bcd2e024088",
-                  "656fae5f7c2d57afe200c0d7",
-                  "656faf0ca0dce000a2020f77",
-                  "656fa0fb498d1b7e3e071d9c",
-                  "656fafe3498d1b7e3e071da4",
-                  "656fa76500d62bcd2e024080",
-                  "656fa25e94b480b8a500c0e0",
-                  "656fad8c498d1b7e3e071da0",
-                  "656fa61e94b480b8a500c0e8",
-                  "656fb21fa0dce000a2020f7c",
-                  "656fac30c6baea13cd07e10c",
-                  "656fb0bd7c2d57afe200c0dc",
-                  "656f9fa0498d1b7e3e071d98",
-                  "656fa53d94b480b8a500c0e4",
-                  "655746010177119f4a097ff7",
-                  "64afdcb83efdfea28601d041",
-                  "692644216a57eab92f4d703b"
-                ],
-                "Plate": "656fa76500d62bcd2e024080",
-                "armorColliders": [],
-                "armorPlateColliders": [
-                  "Plate_Granit_SAPI_chest"
-                ],
-                "bluntDamageReduceFromSoftArmor": true,
-                "locked": false
-              }
-            ]
-          },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": false
-        },
-        {
-          "_id": "6a0d09c82735842a77fb7d1e",
-          "_mergeSlotWithChildren": true,
-          "_name": "Back_plate",
-          "_parent": "5c0e655586f774045612eeb2",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "656f9d5900d62bcd2e02407c",
-                  "656fa8d700d62bcd2e024084",
-                  "656fa99800d62bcd2e024088",
-                  "656fae5f7c2d57afe200c0d7",
-                  "656faf0ca0dce000a2020f77",
-                  "656fa0fb498d1b7e3e071d9c",
-                  "656fafe3498d1b7e3e071da4",
-                  "656fa76500d62bcd2e024080",
-                  "656fa25e94b480b8a500c0e0",
-                  "656fad8c498d1b7e3e071da0",
-                  "656fa61e94b480b8a500c0e8",
-                  "656fb21fa0dce000a2020f7c",
-                  "656fac30c6baea13cd07e10c",
-                  "656fb0bd7c2d57afe200c0dc",
-                  "656f9fa0498d1b7e3e071d98",
-                  "656fa53d94b480b8a500c0e4",
-                  "655746010177119f4a097ff7",
-                  "64afdcb83efdfea28601d041",
-                  "692644216a57eab92f4d703b"
-                ],
-                "Plate": "656fa76500d62bcd2e024080",
-                "armorColliders": [],
-                "armorPlateColliders": [
-                  "Plate_Granit_SAPI_back"
-                ],
-                "bluntDamageReduceFromSoftArmor": true,
-                "locked": false
-              }
-            ]
-          },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": false
-        },
-        {
-          "_id": "6575e7bdf6a13a7b7100ada1",
-          "_mergeSlotWithChildren": true,
-          "_name": "Soft_armor_front",
-          "_parent": "6a0d09c36f85033057ae496a",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "693a0f621394c111098e05c1"
-                ],
-                "Plate": "693a0f621394c111098e05c1",
-                "armorColliders": [],
-                "armorPlateColliders": [
-                  "Plate_Granit_SAPI_chest"
-                ],
-                "bluntDamageReduceFromSoftArmor": true,
-                "locked": true
-              }
-            ]
-          },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": true
-        },
-        {
-          "_id": "6575e7bdf6a13a7b7100ada2",
-          "_mergeSlotWithChildren": true,
-          "_name": "Soft_armor_back",
-          "_parent": "6a0d09c36f85033057ae496a",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "693a0faffbf227a34cd7f15a"
-                ],
-                "Plate": "693a0faffbf227a34cd7f15a",
-                "armorColliders": [],
-                "armorPlateColliders": [
-                  "Plate_Granit_SAPI_back"
-                ],
-                "bluntDamageReduceFromSoftArmor": true,
-                "locked": true
-              }
-            ]
-          },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": true
-        }
-      ],
-        
+      "InsuranceDisabled": true,
+      "BackgroundColor": "yellow",
       "Prefab": {
-
-        "path": "equipment/item_equipment_armor_isb_trooper_V2.bundle",
+        "path": "equipment/item_equipment_armor_isb_trooper_V2_custom.bundle",
         "rcid": ""
       },
-
-
-      "Width": 3,
-      "Height": 3,
-
-
-      "Weight": 4.1,
-
-
-      "Grids": []
+      "Grids": [],
+      "Name": "Custom ISB SOF HighCom Trooper TFO body armor (Version II)",
+      "ShortName": "ISB Trooper II",
+      "Description": "A plate armor vest by HighCom, popular among USEC PMCs. MultiCam camouflage version. (ISB SOF II)"
     },
-
     "addWeaponPreset": true,
     "weaponPresets": [
       {
@@ -207,36 +58,28 @@
         "_type": "Preset"
       }
     ],
-
     "locales": {
       "en": {
         "name": "Custom ISB SOF HighCom Trooper TFO body armor (Version II)",
         "shortName": "ISB Trooper II",
-        "description": "A plate armor vest by HighCom, modified by ISB Special Forces."
+        "description": "A plate armor vest by HighCom, popular among USEC PMCs. MultiCam camouflage version. (ISB SOF II)"
       },
-        "po": {
+      "po": {
         "name": "HighCom Trooper TFO body armor modificado das Forças Especiais da ISB (Versão II)",
         "shortName": "ISB Trooper II",
-        "description": "Um colete de blindagem de placas da HighCom, modificado pelas Forças Especiais da ISB."
+        "description": "Um colete blindado da HighCom, popular entre os PMCs da USEC. Versão de camuflagem MultiCam. (ISB SOF II)"
       }
     },
-
     "fleaPriceRoubles": 212250,
-
     "handbookPriceRoubles": 214150,
-
-    "addtoInventorySlots": ["BodyArmor"],
-
+    "addtoInventorySlots": [
+      "BodyArmor"
+    ],
     "addtoBots": false,
-
     "IsAlwaysAvailableForInsurance": false,
-
     "InsuranceDisabled": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",

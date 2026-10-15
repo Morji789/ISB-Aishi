@@ -1,52 +1,52 @@
 {
-"690766de550bc322a810ea1e": {
-  "items": [
-    {
-      "_id": "6a13a3b21b7b8ce41175fa85",
-      "_tpl": "69fd2542b93f3b8fa8d387a0",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999999,
-        "BuyRestrictionMax": 1,
-        "BuyRestrictionCurrent": 0
-      }
-    },
-    {
-      "_id": "6a321fbe05719aaba6b60376",
-      "_tpl": "6a321d846b38e922175d1878",
-      "parentId": "hideout",
-      "slotId": "hideout",
-      "upd": {
-        "UnlimitedCount": true,
-        "StackObjectsCount": 9999999,
-        "BuyRestrictionMax": 1,
-        "BuyRestrictionCurrent": 0
-      }
-    }
-  ],
-  "barter_scheme": {
-    "6a13a3b21b7b8ce41175fa85": [
-      [
-        {
-          "count": 7590,
-          "_tpl": "5696686a4bdc2da3298b456a"
+  "690766de550bc322a810ea1e": {
+    "items": [
+      {
+        "_id": "6a13a3b21b7b8ce41175fa85",
+        "_tpl": "69fd2542b93f3b8fa8d387a0",
+        "parentId": "hideout",
+        "slotId": "hideout",
+        "upd": {
+          "UnlimitedCount": true,
+          "StackObjectsCount": 9999999,
+          "BuyRestrictionMax": 1,
+          "BuyRestrictionCurrent": 0
         }
-      ]
+      },
+      {
+        "_id": "6a321fbe05719aaba6b60376",
+        "_tpl": "6a321d846b38e922175d1878",
+        "parentId": "hideout",
+        "slotId": "hideout",
+        "upd": {
+          "UnlimitedCount": true,
+          "StackObjectsCount": 9999999,
+          "BuyRestrictionMax": 1,
+          "BuyRestrictionCurrent": 0
+        }
+      }
     ],
-    "6a321fbe05719aaba6b60376": [
-      [
-        {
-          "count": 7590,
-          "_tpl": "5696686a4bdc2da3298b456a"
-        }
+    "barter_scheme": {
+      "6a13a3b21b7b8ce41175fa85": [
+        [
+          {
+            "count": 7590,
+            "_tpl": "5696686a4bdc2da3298b456a"
+          }
+        ]
+      ],
+      "6a321fbe05719aaba6b60376": [
+        [
+          {
+            "count": 7590,
+            "_tpl": "5696686a4bdc2da3298b456a"
+          }
+        ]
       ]
-    ]
-  },
-  "loyal_level_items": {
-    "6a13a3b21b7b8ce41175fa85": 4,
-    "6a321fbe05719aaba6b60376": 4
+    },
+    "loyal_level_items": {
+      "6a13a3b21b7b8ce41175fa85": 4,
+      "6a321fbe05719aaba6b60376": 4
+    }
   }
-}
 }

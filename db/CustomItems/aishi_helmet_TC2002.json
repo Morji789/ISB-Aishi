@@ -1,43 +1,25 @@
 {
   "6a0136a1fae06fd4bbd20288": {
-
     "itemTplToClone": "5d5e9c74a4b9364855191c40",
     "parentId": "5a341c4086f77401f2541505",
     "handbookParentId": "5b47574386f77428ca22b330",
-
-
     "overrideProperties": {
-      "QuestItem": false,
       "BackgroundColor": "yellow",
-      "IsUnsaleable": false,
       "CanSellOnRagfair": false,
-      "CanRequireOnRagfair": false,
       "InsuranceDisabled": true,
-      "addtoItemBlacklist": true,   
+      "addtoItemBlacklist": true,
       "ExaminedByDefault": false,
       "PushToFleaBlacklist": true,
-      "Durability": 0,
-      "MaxDurability": 0,
-        
-
       "Prefab": {
-
         "path": "equipment/item_equipment_helmet_tc2002_black.bundle",
         "rcid": ""
       },
-
-
-      "Width": 2,
-      "Height": 2,
-
-
-      "Weight": 1.650,
-
-
-      "Grids": [
-      ]
+      "Weight": 1.65,
+      "Grids": [],
+      "Name": "MSA ACH TC-2002 MICH Series helmet (Black)",
+      "ShortName": "TC-2002",
+      "Description": "The MSA Advanced Combat Helmet (ACH) delivers advanced ballistic, fragmentation, and impact head protection, with comfort for long-term use. The helmet’s low-profile design reduces the risk of interference in target acquisition and ensures compatibility with NVGs and headsets. Black Version."
     },
-
     "addWeaponPreset": true,
     "weaponPresets": [
       {
@@ -67,40 +49,30 @@
         "_encyclopedia": "6a0136a1fae06fd4bbd20288"
       }
     ],
-
     "locales": {
       "en": {
         "name": "Modified MSA ACH TC-2002 MICH Series helmet (Black)",
-        "shortName": "ISB TC-2002",
+        "shortName": "TC-2002",
         "description": "The MSA Advanced Combat Helmet (ACH) delivers advanced ballistic, fragmentation, and impact head protection, with comfort for long-term use. The helmet’s low-profile design reduces the risk of interference in target acquisition and ensures compatibility with NVGs and headsets."
       },
-        "po": {
-        "name": "Capacete MSA ACH TC-2002 MICH Series modificado (Preto)",
-        "shortName": "ISB TC-2002",
-        "description": "O Capacete de Combate Avançado (ACH) da MSA oferece proteção avançada contra balas, fragmentos e impactos na cabeça, além de conforto para uso prolongado. O design discreto do capacete reduz o risco de interferência na aquisição de alvos e garante compatibilidade com visores noturnos e fones de ouvido."
+      "po": {
+        "name": "Capacete MSA ACH TC-2002 MICH Series (Preto)",
+        "shortName": "TC-2002",
+        "description": "O capacete MSA Advanced Combat Helmet (ACH) oferece uma proteção avançada de balística, fragmentação e impacto para a cabeça, com conforto para uso a longo prazo. O perfil baixo do capacete reduz o risco de interferência na visualização do alvo e assegura a compatibilidade com dispositivos de visão noturna e headsets. Versão Preto."
       }
     },
-
     "fleaPriceRoubles": 442400,
-
     "handbookPriceRoubles": 354900,
-
-    "addtoInventorySlots": ["HeadWear"],
-
+    "addtoInventorySlots": [
+      "HeadWear"
+    ],
     "addtoBots": false,
-
     "CanSellOnRagfair": false,
-
     "IsAlwaysAvailableForInsurance": false,
-
     "InsuranceDisabled": true,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",
@@ -109,62 +81,42 @@
     ]
   },
   "6a054c5db5d07c4a582512e5": {
-
     "itemTplToClone": "657f8b94f92cd718b70154ff",
     "parentId": "65649eb40bf0ed77b8044453",
     "handbookParentId": "6564b96a189fe36f356d177c",
-
-
     "overrideProperties": {
-      "QuestItem": false,  
-      "ExaminedByDefault": true,
-      "IsUnsaleable": false,
       "InsuranceDisabled": true,
       "CanSellOnRagfair": false,
-      "MaterialType": "Helmet",
       "ArmorMaterial": "Titan",
-      "ArmorType": "Heavy",
       "BackgroundColor": "yellow",
-      "ItemSound": "gear_armor",
-      "armorPlateColliders":  [],
       "armorClass": "5",
       "Durability": 32,
       "MaxDurability": 32,
       "BluntThroughput": 0.1,
-      "RarityPvE":"Superrare",
+      "RarityPvE": "Superrare",
       "Prefab": {
-
         "path": "assets/content/items/equipment/armor_plates/helmet_top.bundle",
         "rcid": ""
       }
-      },
-
-
-        "Width": 1,
-        "Height": 1,
-
-
-        "Weight": 0,
-
-
-        "Grids": [
-        ],
-
+    },
+    "Width": 1,
+    "Height": 1,
+    "Weight": 0,
+    "Grids": [],
     "locales": {
       "en": {
-          "name": "Modified Hybrid composite materials",
-          "shortName": "Modified Hybrid composite materials",
-          "description": "Modified Hybrid composite materials"
+        "name": "Modified Hybrid composite materials",
+        "shortName": "Modified Hybrid composite materials",
+        "description": "Modified Hybrid composite materials"
       },
-        "po": {
-          "name": "Modified Hybrid composite materials",
-          "shortName": "Modified Hybrid composite materials",
-          "description": "Modified Hybrid composite materials"
+      "po": {
+        "name": "Modified Hybrid composite materials",
+        "shortName": "Modified Hybrid composite materials",
+        "description": "Modified Hybrid composite materials"
       }
     },
-
-    "fleaPriceRoubles": 0,
-    "handbookPriceRoubles": 0, 
+    "fleaPriceRoubles": 16400,
+    "handbookPriceRoubles": 16400,
     "addtoBots": false,
     "addtoStaticLootContainers": false,
     "StaticLootContainers": [
@@ -175,62 +127,42 @@
     ]
   },
   "6a054c696d34713a0329e755": {
-
     "itemTplToClone": "657f8b43f92cd718b70154fb",
     "parentId": "65649eb40bf0ed77b8044453",
     "handbookParentId": "6564b96a189fe36f356d177c",
-
-
     "overrideProperties": {
-      "QuestItem": false,  
-      "ExaminedByDefault": true,
-      "IsUnsaleable": false,
       "InsuranceDisabled": true,
       "CanSellOnRagfair": false,
-      "MaterialType": "Helmet",
       "ArmorMaterial": "Titan",
-      "ArmorType": "Heavy",
       "BackgroundColor": "yellow",
-      "ItemSound": "gear_armor",
-      "armorPlateColliders":  [],
       "armorClass": "5",
       "Durability": 32,
       "MaxDurability": 32,
       "BluntThroughput": 0.1,
-      "RarityPvE":"Superrare",
+      "RarityPvE": "Superrare",
       "Prefab": {
-
         "path": "assets/content/items/equipment/armor_plates/helmet_back.bundle",
         "rcid": ""
       }
-      },
-
-
-        "Width": 1,
-        "Height": 1,
-
-
-        "Weight": 0,
-
-
-        "Grids": [
-        ],
-
+    },
+    "Width": 1,
+    "Height": 1,
+    "Weight": 0,
+    "Grids": [],
     "locales": {
       "en": {
-          "name": "Modified Hybrid composite materials",
-          "shortName": "Modified Hybrid composite materials",
-          "description": "Modified Hybrid composite materials"
+        "name": "Modified Hybrid composite materials",
+        "shortName": "Modified Hybrid composite materials",
+        "description": "Modified Hybrid composite materials"
       },
-        "po": {
-          "name": "Modified Hybrid composite materials",
-          "shortName": "Modified Hybrid composite materials",
-          "description": "Modified Hybrid composite materials"
+      "po": {
+        "name": "Modified Hybrid composite materials",
+        "shortName": "Modified Hybrid composite materials",
+        "description": "Modified Hybrid composite materials"
       }
     },
-
-    "fleaPriceRoubles": 0,
-    "handbookPriceRoubles": 0, 
+    "fleaPriceRoubles": 16400,
+    "handbookPriceRoubles": 16400,
     "addtoBots": false,
     "addtoStaticLootContainers": false,
     "StaticLootContainers": [

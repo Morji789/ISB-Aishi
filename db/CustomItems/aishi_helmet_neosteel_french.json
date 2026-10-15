@@ -1,0 +1,166 @@
+{
+  "e61c9197a5a75e2fbc3b62e3": {
+    "itemTplToClone": "65709d2d21b9f815e208ff95",
+    "parentId": "5a341c4086f77401f2541505",
+    "handbookParentId": "5b47574386f77428ca22b330",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "equipment/item_equipment_helmet_neosteel_french_aishi.bundle",
+        "rcid": ""
+      },
+      "Name": "Diamond Age NeoSteel High Cut helmet (French Woodland)",
+      "ShortName": "NeoSteel (French Woodland)",
+      "Description": "The Diamond Age NeoSteel helmet features a unique design that combines high-strength steel with composite materials to provide advanced protection against ballistic and impact threats. It is designed to withstand high velocity impacts and can provide protection against a variety of threats. French Woodland Version.",
+      "Slots": [
+        {
+          "_id": "49d9f4fe2b6359d09334fe11",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_equipment_000",
+          "_parent": "e61c9197a5a75e2fbc3b62e3",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6570a88c8f221f3b210353b7"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "5fe67c3862a7580585b850b5",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount",
+          "_parent": "e61c9197a5a75e2fbc3b62e3",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5b7be47f5acfc400170e2dd2"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "8800e9c8637d561ea6621ffe",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_nvg",
+          "_parent": "e61c9197a5a75e2fbc3b62e3",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a16b8a9fcdbcb00165aa6ca",
+                  "5c0558060db834001b735271"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "d3c94a01895656af8f074b2f",
+          "_mergeSlotWithChildren": true,
+          "_name": "Helmet_top",
+          "_parent": "e61c9197a5a75e2fbc3b62e3",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "657f9eb7e9433140ad0baf86"
+                ],
+                "Plate": "657f9eb7e9433140ad0baf86",
+                "armorColliders": [
+                  "ParietalHead"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        },
+        {
+          "_id": "de91cf1a4f2a588b9c0efaf5",
+          "_mergeSlotWithChildren": true,
+          "_name": "Helmet_back",
+          "_parent": "e61c9197a5a75e2fbc3b62e3",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "657f9ef6c6679fefb3051e1f"
+                ],
+                "Plate": "657f9ef6c6679fefb3051e1f",
+                "armorColliders": [
+                  "BackHead"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Diamond Age NeoSteel High Cut helmet (French Woodland)",
+        "shortName": "NeoSteel",
+        "description": "The Diamond Age NeoSteel helmet features a unique design that combines high-strength steel with composite materials to provide advanced protection against ballistic and impact threats. It is designed to withstand high velocity impacts and can provide protection against a variety of threats. French Woodland Version."
+      }
+    },
+    "handbookPriceRoubles": 5288,
+    "fleaPriceRoubles": 5288,
+    "addtoInventorySlots": [
+      "HeadWear"
+    ],
+    "addtoBots": false,
+    "addtoTraders": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_id": "51a615c06a1b5cd580cc2ed9",
+        "_type": "Preset",
+        "_changeWeaponName": false,
+        "_name": "Diamond Age NeoSteel High Cut helmet (French Woodland)",
+        "_parent": "665b74ea81ca58388c36180a",
+        "_encyclopedia": "e61c9197a5a75e2fbc3b62e3",
+        "_items": [
+          {
+            "_id": "665b74ea81ca58388c36180a",
+            "_tpl": "e61c9197a5a75e2fbc3b62e3"
+          },
+          {
+            "_id": "11595bf531ce54d9af6c3af3",
+            "_tpl": "657f9eb7e9433140ad0baf86",
+            "parentId": "665b74ea81ca58388c36180a",
+            "slotId": "Helmet_top"
+          },
+          {
+            "_id": "de728b74fe765384a507c0c5",
+            "_tpl": "657f9ef6c6679fefb3051e1f",
+            "parentId": "665b74ea81ca58388c36180a",
+            "slotId": "Helmet_back"
+          }
+        ]
+      }
+    ]
+  }
+}

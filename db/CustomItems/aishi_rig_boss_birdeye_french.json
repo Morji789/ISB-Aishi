@@ -1,0 +1,225 @@
+{
+  "442f50dfaecf5d4cbf8d4dde": {
+    "itemTplToClone": "628baf0b967de16aab5a4f36",
+    "parentId": "5448e5284bdc2dcb718b4567",
+    "handbookParentId": "5b5f6f8786f77447ed563642",
+    "overrideProperties": {
+      "Description": "A tactical load-bearing system designed to carry magazines, grenades, and special equipment, while using low-profile body armor. Manufactured by London Bridge Trading. Special configuration by Birdeye, member of the Goons squad. French Woodland Version.",
+      "Grids": [
+        {
+          "_id": "61afe2f1643c5aca928213ae",
+          "_name": "1",
+          "_parent": "442f50dfaecf5d4cbf8d4dde",
+          "_props": {
+            "cellsH": 2,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "00115ca920b956e38310a4f3",
+          "_name": "2",
+          "_parent": "442f50dfaecf5d4cbf8d4dde",
+          "_props": {
+            "cellsH": 2,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "d1177a5a24f054328be25ff6",
+          "_name": "3",
+          "_parent": "442f50dfaecf5d4cbf8d4dde",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "50b5ac6eb3e15b3485907310",
+          "_name": "4",
+          "_parent": "442f50dfaecf5d4cbf8d4dde",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "72c37be376745a13a8b62aa8",
+          "_name": "5",
+          "_parent": "442f50dfaecf5d4cbf8d4dde",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "1447f482b646543bb001e8a2",
+          "_name": "6",
+          "_parent": "442f50dfaecf5d4cbf8d4dde",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "5671d5825d8259aabe5fbe47",
+          "_name": "7",
+          "_parent": "442f50dfaecf5d4cbf8d4dde",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "92512f126ff15b92a35fa37b",
+          "_name": "8",
+          "_parent": "442f50dfaecf5d4cbf8d4dde",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        }
+      ],
+      "Name": "LBT-1961A Load Bearing Chest Rig (French Woodland)",
+      "Prefab": {
+        "path": "equipment/item_equipment_rig_boss_birdeye_french_aishi.bundle",
+        "rcid": ""
+      },
+      "ShortName": "LBCR GE",
+      "Slots": []
+    },
+    "locales": {
+      "en": {
+        "name": "LBT-1961A Load Bearing Chest Rig (French Woodland)",
+        "shortName": "LBCR GE",
+        "description": "A tactical load-bearing system designed to carry magazines, grenades, and special equipment, while using low-profile body armor. Manufactured by London Bridge Trading. Special configuration by Birdeye, member of the Goons squad. French Woodland Version."
+      }
+    },
+    "handbookPriceRoubles": 63700,
+    "fleaPriceRoubles": 64438,
+    "addtoInventorySlots": [],
+    "addtoBots": false,
+    "addtoTraders": false,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": false
+  }
+}

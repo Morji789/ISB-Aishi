@@ -1,45 +1,32 @@
 {
   "699b42cc85f85eadd558c083": {
-
     "itemTplToClone": "6576f4708ca9c4381d16cd9d",
     "parentId": "5485a8684bdc2da71d8b4567",
     "handbookParentId": "5b47574386f77428ca22b33b",
-
-
-    "overrideProperties": { 
+    "overrideProperties": {
       "ExaminedByDefault": false,
-        "IsUnsaleable": true,
-        "IsUnbuyable": true,
-        "BallisticCoeficient": 0.115,
-        "MisfireChance": 0.03,
-        "HeatFactor": 0.95,
-        "MalfMisfireChance": 0.10,
-        "DurabilityBurnModificator": 1.0,
-        "Damage": 44,
-        "ArmorDamage": 55,
-        "PenetrationPower":48,
-        "PenetrationChanceObstacle": 0.5,
-        "PenetrationDamageMod": 0.125,
-        "InitialSpeed": 590,
-        "ammoAccr": 2,
-        "ammoRec": 12, 
-
-        
-
+      "IsUnsaleable": true,
+      "IsUnbuyable": true,
+      "BallisticCoeficient": 0.115,
+      "MisfireChance": 0.03,
+      "HeatFactor": 0.95,
+      "MalfMisfireChance": 0.1,
+      "DurabilityBurnModificator": 1.0,
+      "Damage": 44,
+      "ArmorDamage": 55,
+      "PenetrationPower": 48,
+      "PenetrationChanceObstacle": 0.5,
+      "PenetrationDamageMod": 0.125,
+      "InitialSpeed": 590,
+      "ammoAccr": 2,
+      "ammoRec": 12,
       "Prefab": {
-
         "path": "ammo/patron_9x21_7n42.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
-      "Height": 1,
       "Weight": 0.025,
-
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "9x21mm 7N31 AP",
@@ -51,29 +38,17 @@
         "shortName": "7N31 AP",
         "description": "A munição 7N31 de 9x19 mm é um cartucho russo de alto calibre projetado especificamente para uso por forças especiais e outras tropas, com o objetivo de melhorar a capacidade de penetração da munição. Com um penetrador de aço endurecido de alta densidade e uma carga potente, a 7N31 apresenta maior velocidade e funcionamento confiável, mesmo quando disparada de armas de cano curto. A capacidade dessa munição de penetrar coletes balísticos e coberturas leves com mais eficiência do que as balas comuns de 9x19 mm torna-a adequada para combates em ambiente urbano e contra inimigos protegidos."
       }
-    
     },
-
     "fleaPriceRoubles": 2995,
-
     "handbookPriceRoubles": 1190,
-
     "addCaliberToAllCloneLocations": true,
-
     "addtoStaticAmmo": true,
-
     "CanSellOnRagfair": false,
-
     "CanRequireOnRagfair": false,
-    
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "staticAmmoProbability": 100,
-
     "addtoBots": true,
-
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",

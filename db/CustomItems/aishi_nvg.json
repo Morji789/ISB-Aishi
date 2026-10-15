@@ -1,90 +1,58 @@
 {
   "694b2e29274ab9b2a319b6ed": {
-
     "itemTplToClone": "5c0558060db834001b735271",
     "parentId": "5a2c3a9486f774688b05e574",
     "handbookParentId": "5b5f749986f774094242f199",
-
-
     "overrideProperties": {
-      "QuestItem": false,
       "BackgroundColor": "yellow",
-      "IsUnsaleable": false,
-      "CanSellOnRagfair": false,
-      "CanRequireOnRagfair": false,
-      "addtoItemBlacklist": true,  
+      "addtoItemBlacklist": true,
       "ExaminedByDefault": false,
       "PushToFleaBlacklist": true,
       "InsuranceDisabled": true,
-      "sightModType": "iron",
       "Color": {
         "r": 95,
         "g": 255,
         "b": 236,
         "a": 254
       },
-
-      "Mask": "Anvis",
-      "MaskSize": 1.50,     
+      "MaskSize": 1.5,
       "NoiseIntensity": 0.002,
       "NoiseScale": 6,
-
       "Prefab": {
-
         "path": "equipment/item_equipment_nvg_l3_gpnvg-18_anvis.bundle",
         "rcid": ""
       },
-
-
-      "Width": 2,
-      "Height": 1,
-
-
       "Weight": 0.9,
-
-
-      "Grids": [
-      ]
+      "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "Modified L3Harris GPNVG-18 night vision goggles (Black)",
         "shortName": "GPNVG-18 V2",
         "description": "The modified GPNVG-18 (Ground Panoramic Night Vision Goggles) is a panoramic night vision system that, unlike the standard configuration, uses image intensifier tubes with white phosphor, providing better contrast, depth perception, and reduced eye strain during prolonged use; the device retains its distinctive design with four independent tubes—two facing forward and two angled to the sides—allowing for an expanded 97-degree field of view, while its housing has been refined with a non-reflective matte black finish for greater discretion in urban environments and night operations."
       },
-        "po": {
+      "po": {
         "name": "Modified L3Harris GPNVG-18 night vision goggles",
         "shortName": "GPNVG-18 V2",
         "description": "O GPNVG-18 (Ground Panoramic Night Vision Goggles) modificado é um sistema de visão noturna panorâmica que, diferente da configuração padrão, utiliza tubos intensificadores de imagem com fósforo branco, proporcionando melhor contraste, percepção de profundidade e menor fadiga visual durante uso prolongado; o dispositivo mantém seu design característico com quatro tubos independentes — dois direcionados para frente e dois angulados para as laterais — permitindo um campo de visão ampliado de 97 graus, enquanto sua carcaça foi refinada com um revestimento preto fosco não refletivo para maior discrição em ambientes urbanos e operações noturnas."
       }
     },
-
     "fleaPriceRoubles": 489202,
-
     "handbookPriceRoubles": 208592,
-
     "addtoBots": true,
-
     "addtoModSlots": true,
-
     "CanSellOnRagfair": false,
-
     "CanRequireOnRagfair": false,
-    
-    "addtoItemBlacklist": true, 
-
-    "modSlot": ["mod_nvg"],
-
+    "addtoItemBlacklist": true,
+    "modSlot": [
+      "mod_nvg"
+    ],
     "addtoEmptyPropSlots": true,
-
     "emptyPropSlot": {
       "itemToAddTo": "692497f0e4b9e93740b14c13",
       "modSlot": "mod_nvg"
     },
-
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",

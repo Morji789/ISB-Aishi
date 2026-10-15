@@ -11,8 +11,8 @@
         "description": "USEC Mission Tactical jacket"
       }
     },
-    "topBundlePath": "clothing/usec_mission/teste2.bundle",
-    "handsBundlePath": "clothing/usec_mission/teste2_hand.bundle",
+    "topBundlePath": "clothing/usec_mission/top_usec_mission_black.bundle",
+    "handsBundlePath": "clothing/usec_mission/hands_usec_mission_black.bundle",
     "traderId": "690766de550bc322a810ea1e",
     "loyaltyLevel": 2,
     "profileLevel": 25,
@@ -34,8 +34,8 @@
         "description": "USEC Mission Tactical jacket"
       }
     },
-    "topBundlePath": "clothing/usec_mission/teste2_daytime.bundle",
-    "handsBundlePath": "clothing/usec_mission/teste2_hand_daytime.bundle",
+    "topBundlePath": "clothing/usec_mission/top_usec_mission_marpat.bundle",
+    "handsBundlePath": "clothing/usec_mission/hands_usec_mission_marpat.bundle",
     "traderId": "690766de550bc322a810ea1e",
     "loyaltyLevel": 2,
     "profileLevel": 25,
@@ -104,11 +104,11 @@
       }
     },
     "topBundlePath": "clothing/usec_woodland/isb_usec_woodland_top.bundle",
-    "handsBundlePath": "clothing/usec_mission/teste2_hand.bundle",
+    "handsBundlePath": "clothing/usec_mission/hands_usec_mission_black.bundle",
     "traderId": "690766de550bc322a810ea1e",
     "loyaltyLevel": 4,
     "profileLevel": 40,
-    "standing": 0.40,
+    "standing": 0.4,
     "currencyId": "MONEY_DOLLARS",
     "price": 2000,
     "questRequirements": [],
@@ -127,11 +127,11 @@
       }
     },
     "topBundlePath": "clothing/usec_mission/tshirt_usec_combatshirt_isb.bundle",
-    "handsBundlePath": "clothing/usec_mission/teste2_hand.bundle",
+    "handsBundlePath": "clothing/usec_mission/hands_usec_mission_black.bundle",
     "traderId": "690766de550bc322a810ea1e",
     "loyaltyLevel": 2,
     "profileLevel": 20,
-    "standing": 0.30,
+    "standing": 0.3,
     "currencyId": "MONEY_DOLLARS",
     "price": 4000,
     "questRequirements": [],
@@ -150,11 +150,11 @@
       }
     },
     "topBundlePath": "clothing/usec_woodland/isb_V1_usec_woodland_top_daytime.bundle",
-    "handsBundlePath": "clothing/usec_mission/teste2_hand.bundle",
+    "handsBundlePath": "clothing/usec_mission/hands_usec_mission_black.bundle",
     "traderId": "690766de550bc322a810ea1e",
     "loyaltyLevel": 4,
     "profileLevel": 40,
-    "standing": 0.40,
+    "standing": 0.4,
     "currencyId": "MONEY_DOLLARS",
     "price": 2000,
     "questRequirements": [],
@@ -172,16 +172,20 @@
         "description": "ISB x RUAF Ballistic Uniform"
       }
     },
-    "topBundlePath": "clothing/ruaf_ballistic/teste3_top.bundle",
-    "handsBundlePath": "clothing/ruaf_ballistic/teste3_hands.bundle",
+    "topBundlePath": "clothing/ruaf_ballistic/top_ruaf_ballistic_black.bundle",
+    "handsBundlePath": "clothing/ruaf_ballistic/hands_ruaf_ballistic_black.bundle",
     "traderId": "690766de550bc322a810ea1e",
     "loyaltyLevel": 4,
     "profileLevel": 45,
-    "standing": 0.50,
+    "standing": 0.5,
     "currencyId": "MONEY_DOLLARS",
     "price": 2000,
-    "questRequirements": ["6917f4864286e5bd06fc451d"],
-    "achievementRequirements": ["694176555b56f8b3181945b1"]
+    "questRequirements": [
+      "6917f4864286e5bd06fc451d"
+    ],
+    "achievementRequirements": [
+      "694176555b56f8b3181945b1"
+    ]
   },
   {
     "type": "top",
@@ -195,12 +199,12 @@
         "description": "ISB x RUAF Ballistic Uniform"
       }
     },
-    "topBundlePath": "clothing/ruaf_ballistic/teste3_top_daytime.bundle",
-    "handsBundlePath": "clothing/ruaf_ballistic/teste3_hands_daytime.bundle",
+    "topBundlePath": "clothing/ruaf_ballistic/top_ruaf_ballistic_marpat.bundle",
+    "handsBundlePath": "clothing/ruaf_ballistic/hands_ruaf_ballistic_marpat.bundle",
     "traderId": "690766de550bc322a810ea1e",
     "loyaltyLevel": 4,
     "profileLevel": 45,
-    "standing": 0.50,
+    "standing": 0.5,
     "currencyId": "MONEY_DOLLARS",
     "price": 2000,
     "questRequirements": [],
@@ -226,8 +230,12 @@
     "standing": 0.35,
     "currencyId": "MONEY_DOLLARS",
     "price": 1500,
-    "questRequirements": ["6917f4864286e5bd06fc451d"],
-    "achievementRequirements": ["694176509df5de06f529631f"]
+    "questRequirements": [
+      "6917f4864286e5bd06fc451d"
+    ],
+    "achievementRequirements": [
+      "694176509df5de06f529631f"
+    ]
   },
   {
     "type": "top",
@@ -249,8 +257,12 @@
     "standing": 0.35,
     "currencyId": "MONEY_DOLLARS",
     "price": 1500,
-    "questRequirements": ["6917f4864286e5bd06fc451d"],
-    "achievementRequirements": ["694176509df5de06f529631f"]
+    "questRequirements": [
+      "6917f4864286e5bd06fc451d"
+    ],
+    "achievementRequirements": [
+      "694176509df5de06f529631f"
+    ]
   },
   {
     "type": "top",
@@ -330,7 +342,11 @@
     "locales": {
       "en": {
         "name": "Black Division Squad Leader",
-        "description": "BD1 Tactical Clothes"
+        "description": "Black Division Squad Leader Combat Shirt"
+      },
+      "po": {
+        "name": "Black Division Squad Leader",
+        "description": "Black Division Squad Leader Combat Shirt"
       }
     },
     "topBundlePath": "assets/content/characters/character/prefabs/top_bd_team_leader_01.bundle",
@@ -338,11 +354,13 @@
     "traderId": "690766de550bc322a810ea1e",
     "loyaltyLevel": 4,
     "profileLevel": 55,
-    "standing": 0.60,
+    "standing": 0.6,
     "currencyId": "MONEY_DOLLARS",
     "price": 15000,
     "questRequirements": [],
-    "achievementRequirements": ["694176555b56f8b3181945b1"]
+    "achievementRequirements": [
+      "694176555b56f8b3181945b1"
+    ]
   },
   {
     "type": "top",
@@ -353,7 +371,11 @@
     "locales": {
       "en": {
         "name": "Black Division Specialist Operator",
-        "description": "BD2 Tactical Clothes"
+        "description": "Black Division Specialist Operative Combat Shirt"
+      },
+      "po": {
+        "name": "Black Division Specialist Operator",
+        "description": "Black Division Specialist Operative Combat Shirt"
       }
     },
     "topBundlePath": "assets/content/characters/character/prefabs/top_bd_operator_02.bundle",
@@ -361,11 +383,13 @@
     "traderId": "690766de550bc322a810ea1e",
     "loyaltyLevel": 4,
     "profileLevel": 45,
-    "standing": 0.50,
+    "standing": 0.5,
     "currencyId": "MONEY_DOLLARS",
     "price": 7500,
     "questRequirements": [],
-    "achievementRequirements": ["694176555b56f8b3181945b1"]
+    "achievementRequirements": [
+      "694176555b56f8b3181945b1"
+    ]
   },
   {
     "type": "top",
@@ -376,19 +400,25 @@
     "locales": {
       "en": {
         "name": "Black Division Scout Operator",
-        "description": "BD3 Tactical Clothes"
+        "description": "Black Division Scout Operative Combat Shirt"
+      },
+      "po": {
+        "name": "Black Division Scout Operator",
+        "description": "Black Division Scout Operative Combat Shirt"
       }
     },
-    "topBundlePath": "assets/content/characters/character/prefabs/top_bd_operator_03.bundle",
-    "handsBundlePath": "fphands/top_operator_bd3_hands.bundle",
+    "topBundlePath": "clothing/black_division_scout/top_bd_scout.bundle",
+    "handsBundlePath": "clothing/black_division_scout/hands_bd_scout.bundle",
     "traderId": "690766de550bc322a810ea1e",
     "loyaltyLevel": 4,
     "profileLevel": 45,
-    "standing": 0.50,
+    "standing": 0.5,
     "currencyId": "MONEY_DOLLARS",
     "price": 7500,
     "questRequirements": [],
-    "achievementRequirements": ["694176555b56f8b3181945b1"]
+    "achievementRequirements": [
+      "694176555b56f8b3181945b1"
+    ]
   },
   {
     "type": "top",
@@ -399,7 +429,11 @@
     "locales": {
       "en": {
         "name": "Black Division Heavy Operator",
-        "description": "BD4 Tactical Clothes"
+        "description": "Black Division Heavy Operative Combat Shirt"
+      },
+      "po": {
+        "name": "Black Division Heavy Operator",
+        "description": "Black Division Heavy Operative Combat Shirt"
       }
     },
     "topBundlePath": "assets/content/characters/character/prefabs/top_bd_operator_04.bundle",
@@ -407,11 +441,13 @@
     "traderId": "690766de550bc322a810ea1e",
     "loyaltyLevel": 3,
     "profileLevel": 30,
-    "standing": 0.40,
+    "standing": 0.4,
     "currencyId": "MONEY_DOLLARS",
     "price": 2500,
     "questRequirements": [],
-    "achievementRequirements": ["694176555b56f8b3181945b1"]
+    "achievementRequirements": [
+      "694176555b56f8b3181945b1"
+    ]
   },
   {
     "type": "top",
@@ -422,7 +458,11 @@
     "locales": {
       "en": {
         "name": "Black Division Nocturnal",
-        "description": "BD Nocturnal"
+        "description": "Black Division Nocturnal Combat Shirt"
+      },
+      "po": {
+        "name": "Black Division Nocturnal",
+        "description": "Black Division Nocturnal Combat Shirt"
       }
     },
     "topBundlePath": "assets/content/characters/character/prefabs/tshirt_bp_bd_set_2.bundle",
@@ -430,11 +470,13 @@
     "traderId": "690766de550bc322a810ea1e",
     "loyaltyLevel": 3,
     "profileLevel": 30,
-    "standing": 0.40,
+    "standing": 0.4,
     "currencyId": "MONEY_DOLLARS",
     "price": 2500,
     "questRequirements": [],
-    "achievementRequirements": ["694176555b56f8b3181945b1"]
+    "achievementRequirements": [
+      "694176555b56f8b3181945b1"
+    ]
   },
   {
     "type": "top",
@@ -445,7 +487,11 @@
     "locales": {
       "en": {
         "name": "Black Division Scorpion",
-        "description": "BD Scorpion"
+        "description": "Black Division Scorpion Combat Shirt"
+      },
+      "po": {
+        "name": "Black Division Scorpion",
+        "description": "Black Division Scorpion Combat Shirt"
       }
     },
     "topBundlePath": "assets/content/characters/character/prefabs/tshirt_bp_bd_set_1.bundle",
@@ -453,11 +499,13 @@
     "traderId": "690766de550bc322a810ea1e",
     "loyaltyLevel": 3,
     "profileLevel": 30,
-    "standing": 0.40,
+    "standing": 0.4,
     "currencyId": "MONEY_DOLLARS",
     "price": 2500,
     "questRequirements": [],
-    "achievementRequirements": ["694176555b56f8b3181945b1"]
+    "achievementRequirements": [
+      "694176555b56f8b3181945b1"
+    ]
   },
   {
     "type": "top",
@@ -476,7 +524,7 @@
     "traderId": "690766de550bc322a810ea1e",
     "loyaltyLevel": 4,
     "profileLevel": 40,
-    "standing": 0.50,
+    "standing": 0.5,
     "currencyId": "MONEY_DOLLARS",
     "price": 5500,
     "questRequirements": [],
@@ -545,7 +593,7 @@
     "traderId": "690766de550bc322a810ea1e",
     "loyaltyLevel": 4,
     "profileLevel": 45,
-    "standing": 0.60,
+    "standing": 0.6,
     "currencyId": "MONEY_DOLLARS",
     "price": 6500,
     "questRequirements": [],
@@ -568,7 +616,7 @@
     "traderId": "690766de550bc322a810ea1e",
     "loyaltyLevel": 4,
     "profileLevel": 45,
-    "standing": 0.60,
+    "standing": 0.6,
     "currencyId": "MONEY_DOLLARS",
     "price": 6500,
     "questRequirements": [],
@@ -583,7 +631,7 @@
     "locales": {
       "en": {
         "name": "ISB STF White Tusk - Champion",
-        "description": "ISB STF-A Tactical Clothing"
+        "description": "White Tusk Tactical Clothing"
       }
     },
     "topBundlePath": "clothing/angels_champion/top_angels_champion.bundle",
@@ -591,11 +639,13 @@
     "traderId": "690766de550bc322a810ea1e",
     "loyaltyLevel": 4,
     "profileLevel": 50,
-    "standing": 1.00,
+    "standing": 1.0,
     "currencyId": "MONEY_DOLLARS",
     "price": 30000,
     "questRequirements": [],
-    "achievementRequirements": [ "694176555b56f8b3181945b1" ]
+    "achievementRequirements": [
+      "694176555b56f8b3181945b1"
+    ]
   },
   {
     "type": "top",
@@ -606,7 +656,7 @@
     "locales": {
       "en": {
         "name": "ISB STF White Tusk - Artic Squadron",
-        "description": "ISB STF-A Tactical Clothing"
+        "description": "White Tusk Tactical Clothing"
       }
     },
     "topBundlePath": "clothing/angels_gold/top_angels_crusader.bundle",
@@ -614,11 +664,13 @@
     "traderId": "690766de550bc322a810ea1e",
     "loyaltyLevel": 4,
     "profileLevel": 50,
-    "standing": 1.00,
+    "standing": 1.0,
     "currencyId": "MONEY_DOLLARS",
     "price": 30000,
     "questRequirements": [],
-    "achievementRequirements": [ "694176555b56f8b3181945b1" ]
+    "achievementRequirements": [
+      "694176555b56f8b3181945b1"
+    ]
   },
   {
     "type": "top",
@@ -629,7 +681,7 @@
     "locales": {
       "en": {
         "name": "ISB STF White Tusk - USEC Flexion",
-        "description": "ISB STF-A Tactical Clothing"
+        "description": "White Tusk Tactical Clothing"
       }
     },
     "topBundlePath": "clothing/angens_flexion/top_angels_softshell.bundle",
@@ -637,11 +689,13 @@
     "traderId": "690766de550bc322a810ea1e",
     "loyaltyLevel": 4,
     "profileLevel": 50,
-    "standing": 1.00,
+    "standing": 1.0,
     "currencyId": "MONEY_DOLLARS",
     "price": 30000,
     "questRequirements": [],
-    "achievementRequirements": [ "694176555b56f8b3181945b1" ]
+    "achievementRequirements": [
+      "694176555b56f8b3181945b1"
+    ]
   },
   {
     "type": "top",
@@ -652,7 +706,7 @@
     "locales": {
       "en": {
         "name": "ISB STF White Tusk - Lonsdale",
-        "description": "ISB STF-A Tactical Clothing"
+        "description": "White Tusk Tactical Clothing"
       }
     },
     "topBundlePath": "clothing/commanders/top_arena_bear_longdale_ISB.bundle",
@@ -660,11 +714,13 @@
     "traderId": "690766de550bc322a810ea1e",
     "loyaltyLevel": 4,
     "profileLevel": 50,
-    "standing": 1.00,
+    "standing": 1.0,
     "currencyId": "MONEY_DOLLARS",
     "price": 30000,
     "questRequirements": [],
-    "achievementRequirements": [ "694176555b56f8b3181945b1" ]
+    "achievementRequirements": [
+      "694176555b56f8b3181945b1"
+    ]
   },
   {
     "type": "top",
@@ -675,7 +731,7 @@
     "locales": {
       "en": {
         "name": "ISB STF White Tusk - Alone in Icebreaker",
-        "description": "ISB STF-A Tactical Clothing"
+        "description": "White Tusk Tactical Clothing"
       }
     },
     "topBundlePath": "clothing/commanders/top_arena_usec_vintage_ISB.bundle",
@@ -683,11 +739,13 @@
     "traderId": "690766de550bc322a810ea1e",
     "loyaltyLevel": 4,
     "profileLevel": 50,
-    "standing": 1.00,
+    "standing": 1.0,
     "currencyId": "MONEY_DOLLARS",
     "price": 30000,
     "questRequirements": [],
-    "achievementRequirements": [ "694176555b56f8b3181945b1" ]
+    "achievementRequirements": [
+      "694176555b56f8b3181945b1"
+    ]
   },
   {
     "type": "top",
@@ -709,8 +767,14 @@
     "standing": 0.65,
     "currencyId": "MONEY_DOLLARS",
     "price": 6500,
-    "questRequirements": ["6917f4864286e5bd06fc451d", "69153dcab3aae4e9422e48a0", "691551f21744ab25e3e9ff77"],
-    "achievementRequirements": ["694178105154d75f7a0cfd10"]
+    "questRequirements": [
+      "6917f4864286e5bd06fc451d",
+      "69153dcab3aae4e9422e48a0",
+      "691551f21744ab25e3e9ff77"
+    ],
+    "achievementRequirements": [
+      "694178105154d75f7a0cfd10"
+    ]
   },
   {
     "type": "top",
@@ -732,8 +796,13 @@
     "standing": 0.45,
     "currencyId": "MONEY_DOLLARS",
     "price": 4500,
-    "questRequirements": ["6912ceca14c4d7453878e335", "69142292070bcc615773f970"],
-    "achievementRequirements": ["6924c9c60db281e82adaf1df"]
+    "questRequirements": [
+      "6912ceca14c4d7453878e335",
+      "69142292070bcc615773f970"
+    ],
+    "achievementRequirements": [
+      "6924c9c60db281e82adaf1df"
+    ]
   },
   {
     "type": "top",
@@ -755,8 +824,14 @@
     "standing": 0.45,
     "currencyId": "MONEY_DOLLARS",
     "price": 3000,
-    "questRequirements": ["6914eaa069904863f3247ecd", "691509a8317f46ac275c10c4", "691514d147e21d507ab4c72f"],
-    "achievementRequirements": ["6924bcbfcb0c0c86b8f1aff6"]
+    "questRequirements": [
+      "6914eaa069904863f3247ecd",
+      "691509a8317f46ac275c10c4",
+      "691514d147e21d507ab4c72f"
+    ],
+    "achievementRequirements": [
+      "6924bcbfcb0c0c86b8f1aff6"
+    ]
   },
   {
     "type": "top",
@@ -921,6 +996,29 @@
   },
   {
     "type": "top",
+    "suiteId": "6a9f508b5f2ec058c20c5da6",
+    "outfitId": "6a9f508cdcb9d18422570fee",
+    "topId": "6a9f508dc5a8cdf27aa501ff",
+    "handsId": "6a9f508f50c6fc1918ba6c1d",
+    "locales": {
+      "en": {
+        "name": "The Desert 6",
+        "description": "Combat shirt in six-color desert camouflage."
+      }
+    },
+    "topBundlePath": "clothing/usec_infiltrator_6desert/tshirt_usec_combatshirt_6desert.bundle",
+    "handsBundlePath": "clothing/usec_infiltrator_6desert/hands_usec_combatshirt.skin_6desert.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 2,
+    "profileLevel": 10,
+    "standing": 0.45,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 2000,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "top",
     "suiteId": "6a179e3d31ecadf25019162a",
     "outfitId": "6a179e3e3ce286ff0de8ccfd",
     "topId": "6a179e3f61647aaaec8e2008",
@@ -939,7 +1037,9 @@
     "standing": 0.65,
     "currencyId": "MONEY_DOLLARS",
     "price": 25000,
-    "questRequirements": [ "691551f21744ab25e3e9ff77" ],
+    "questRequirements": [
+      "691551f21744ab25e3e9ff77"
+    ],
     "achievementRequirements": []
   },
   {
@@ -955,7 +1055,7 @@
       }
     },
     "topBundlePath": "clothing/wedge/backport_top_boss_wedge_variant.bundle",
-    "handsBundlePath": "clothing/wedge/wedge_hands_backport.bundle",
+    "handsBundlePath": "clothing/wedge/hands_wedge_golden.bundle",
     "traderId": "690766de550bc322a810ea1e",
     "loyaltyLevel": 3,
     "profileLevel": 35,
@@ -978,14 +1078,16 @@
       }
     },
     "topBundlePath": "clothing/wedge/backport_top_boss_wedge_variant_V2.bundle",
-    "handsBundlePath": "clothing/wedge/wedge_hands_backport.bundle",
+    "handsBundlePath": "clothing/wedge/hands_wedge_coal.bundle",
     "traderId": "690766de550bc322a810ea1e",
     "loyaltyLevel": 3,
     "profileLevel": 45,
     "standing": 0.65,
     "currencyId": "MONEY_DOLLARS",
     "price": 15000,
-    "questRequirements": [ "691551f21744ab25e3e9ff77" ],
+    "questRequirements": [
+      "691551f21744ab25e3e9ff77"
+    ],
     "achievementRequirements": []
   },
   {
@@ -1001,14 +1103,16 @@
       }
     },
     "topBundlePath": "clothing/wedge/backport_top_boss_wedge_variant_V3.bundle",
-    "handsBundlePath": "clothing/wedge/wedge_hands_backport.bundle",
+    "handsBundlePath": "clothing/wedge/hands_wedge_moonlight.bundle",
     "traderId": "690766de550bc322a810ea1e",
     "loyaltyLevel": 3,
     "profileLevel": 35,
     "standing": 0.45,
     "currencyId": "MONEY_DOLLARS",
     "price": 13000,
-    "questRequirements": [ "691551f21744ab25e3e9ff77" ],
+    "questRequirements": [
+      "691551f21744ab25e3e9ff77"
+    ],
     "achievementRequirements": []
   },
   {
@@ -1102,5 +1206,1256 @@
     "price": 1000,
     "questRequirements": [],
     "achievementRequirements": []
-  }     
+  },
+  {
+    "type": "top",
+    "suiteId": "6f3b0e324bd038d1e1d8141e",
+    "outfitId": "943a27b430a63f52a7772b76",
+    "topId": "4c7f8f5a33033425f04efec1",
+    "handsId": "0feedcee81fc4b57e593ae00",
+    "locales": {
+      "en": {
+        "name": "ISB White Tusk - Arctic Coat",
+        "description": "White Tusk Tactical Clothing"
+      },
+      "po": {
+        "name": "ISB White Tusk - Casaco Ártico",
+        "description": "White Tusk Tactical Clothing"
+      }
+    },
+    "topBundlePath": "clothing/wedge/isb_wt_wedge_coat.bundle",
+    "handsBundlePath": "clothing/wedge/hands_wedge_arctic.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 35,
+    "standing": 0.55,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 10000,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "top",
+    "suiteId": "d5fddab80f4f4a218bd0851f",
+    "outfitId": "3a39666ddebe4b1c8316a651",
+    "locales": {
+      "en": {
+        "name": "ISB White Tusk - Spearthrower Jacket",
+        "description": "White Tusk Tactical Clothing"
+      },
+      "po": {
+        "name": "ISB White Tusk - Jaqueta Spearthrower",
+        "description": "White Tusk Tactical Clothing"
+      }
+    },
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 35,
+    "standing": 0.55,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 10000,
+    "questRequirements": [],
+    "achievementRequirements": [],
+    "topId": "2b448963cdd646b1b65f0820",
+    "handsId": "729a57fe257c4b35afbaf0b6",
+    "topBundlePath": "clothing/spearthrower/spearthrower_pcu_top.bundle",
+    "handsBundlePath": "clothing/spearthrower/spearthrower_pcu_hands.bundle"
+  },
+  {
+    "type": "top",
+    "suiteId": "b7c765cf52f1f4af94543a76",
+    "outfitId": "6cddcb414c42db79293a48e9",
+    "topId": "d42298d2f64f7c26ea84d596",
+    "handsId": "ea386cf3b1d30936637997c9",
+    "locales": {
+      "en": {
+        "name": "MTF Epsilon-11 Nine-Tailed Fox",
+        "description": "MTF Epsilon-11 Nine-Tailed Fox combat shirt"
+      },
+      "po": {
+        "name": "MTF Epsilon-11 Nine-Tailed Fox",
+        "description": "Camisa de combate MTF Epsilon-11 Nine-Tailed Fox"
+      }
+    },
+    "topBundlePath": "clothing/nine_tailed_fox/isb_mtf_nine_tailed_fox_upper.bundle",
+    "handsBundlePath": "clothing/nine_tailed_fox/isb_mtf_nine_tailed_fox_hands.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 50,
+    "standing": 1.0,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 30000,
+    "questRequirements": [],
+    "achievementRequirements": [
+      "1d9f3fb317d15e2a77957327"
+    ]
+  },
+  {
+    "type": "top",
+    "suiteId": "8e00cb5a8fe19fe03d54acab",
+    "outfitId": "9e5c69099b1307ee4f3a8e7c",
+    "topId": "8caa1d103986acdaf5755e21",
+    "handsId": "6cb16fdcdf643536fc21fec9",
+    "locales": {
+      "en": {
+        "name": "MTF Alpha-1 Red Right Hand",
+        "description": "MTF Alpha-1 Red Right Hand combat shirt"
+      },
+      "po": {
+        "name": "MTF Alpha-1 Red Right Hand",
+        "description": "Camisa de combate MTF Alpha-1 Red Right Hand"
+      }
+    },
+    "topBundlePath": "clothing/red_right_hand/isb_red_right_hand_top.bundle",
+    "handsBundlePath": "clothing/red_right_hand/isb_red_right_hand_hands.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 50,
+    "standing": 1.0,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 30000,
+    "questRequirements": [],
+    "achievementRequirements": [
+      "9df3731674b1b81ebec38ce4"
+    ]
+  },
+  {
+    "type": "top",
+    "suiteId": "5e7222d20edbd732573f0142",
+    "outfitId": "1f719aa87b345aeeaaef117c",
+    "topId": "2e9055a90a327237fc22f912",
+    "handsId": "097ef7fc33bd4cfe8397af87",
+    "locales": {
+      "en": {
+        "name": "Black Division Red Right Hand",
+        "description": "Black Division Red Right Hand Combat Shirt"
+      },
+      "po": {
+        "name": "Black Division Red Right Hand",
+        "description": "Black Division Red Right Hand combat shirt"
+      }
+    },
+    "topBundlePath": "clothing/black_division_red_right_hand/isb_black_division_red_right_hand_top.bundle",
+    "handsBundlePath": "clothing/black_division_red_right_hand/isb_black_division_red_right_hand_hands.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 50,
+    "standing": 1.0,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 30000,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "top",
+    "suiteId": "d2d888b48d6e51539c94f3e7",
+    "outfitId": "c7220fec9f815cb0b482f22a",
+    "topId": "808c7fa6f3e55e26bcc7f32f",
+    "handsId": "1778d859a0e5574e9e3c85b2",
+    "locales": {
+      "en": {
+        "name": "Black Division Squad Leader (No Patches)",
+        "description": "Black Division Squad Leader Combat Shirt"
+      },
+      "po": {
+        "name": "Black Division Squad Leader (No Patches)",
+        "description": "Black Division Squad Leader Combat Shirt"
+      }
+    },
+    "topBundlePath": "clothing/black_division_no_patches/top_bd_team_leader_01_no_patches.bundle",
+    "handsBundlePath": "clothing/black_division_no_patches/top_team_leader_bd1_hands_no_patches.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 55,
+    "standing": 0.6,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 7500,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "top",
+    "suiteId": "db8ae2e15cfb52a1ba56adaa",
+    "outfitId": "136a2b04b6385c64a6917715",
+    "topId": "4e448a3bca135dd78e593fa5",
+    "handsId": "ed4a0d7b94195910b3730e83",
+    "locales": {
+      "en": {
+        "name": "Black Division Specialist Operative (No Patches)",
+        "description": "Black Division Specialist Operative Combat Shirt"
+      },
+      "po": {
+        "name": "Black Division Specialist Operative (No Patches)",
+        "description": "Black Division Specialist Operative Combat Shirt"
+      }
+    },
+    "topBundlePath": "clothing/black_division_no_patches/top_bd_operator_02_no_patches.bundle",
+    "handsBundlePath": "clothing/black_division_no_patches/top_operator_bd2_hands_no_patches.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 45,
+    "standing": 0.5,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 3750,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "top",
+    "suiteId": "1481bfa57efa556fa5ee3e43",
+    "outfitId": "2ae1db1a23cb552d82d7d529",
+    "topId": "3fc1520e414e5028873d3ac2",
+    "handsId": "ad9f217e44035667b1e15c3c",
+    "locales": {
+      "en": {
+        "name": "Black Division Scout Operative (No Patches)",
+        "description": "Black Division Scout Operative Combat Shirt"
+      },
+      "po": {
+        "name": "Black Division Scout Operative (No Patches)",
+        "description": "Black Division Scout Operative Combat Shirt"
+      }
+    },
+    "topBundlePath": "clothing/black_division_no_patches/top_bd_operator_03_no_patches.bundle",
+    "handsBundlePath": "clothing/black_division_no_patches/top_operator_bd3_hands_no_patches.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 45,
+    "standing": 0.5,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 3750,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "top",
+    "suiteId": "9618dbc8823a5cad8dc7826a",
+    "outfitId": "07e0e97f7fa05815ad87b9c1",
+    "topId": "d3cd86be7bba5d22b19521f4",
+    "handsId": "fe08743156df5b1aa87b03c1",
+    "locales": {
+      "en": {
+        "name": "Black Division Heavy Operative (No Patches)",
+        "description": "Black Division Heavy Operative Combat Shirt"
+      },
+      "po": {
+        "name": "Black Division Heavy Operative (No Patches)",
+        "description": "Black Division Heavy Operative Combat Shirt"
+      }
+    },
+    "topBundlePath": "clothing/black_division_no_patches/top_bd_operator_04_no_patches.bundle",
+    "handsBundlePath": "clothing/black_division_no_patches/top_operator_bd4_hands_no_patches.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 30,
+    "standing": 0.4,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 1250,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "top",
+    "suiteId": "6e0426e7ce1b54c9896b8ec5",
+    "outfitId": "45495f621ab55e09a857164c",
+    "topId": "1059db60a5da57149c5a3964",
+    "handsId": "72617042ef1c550e9e099c35",
+    "locales": {
+      "en": {
+        "name": "Black Division Nocturnal (No Patches)",
+        "description": "Black Division Nocturnal Combat Shirt"
+      },
+      "po": {
+        "name": "Black Division Nocturnal (No Patches)",
+        "description": "Black Division Nocturnal Combat Shirt"
+      }
+    },
+    "topBundlePath": "clothing/black_division_no_patches/tshirt_bp_bd_set_2_no_patches.bundle",
+    "handsBundlePath": "clothing/black_division_no_patches/hands_bp_bd_set2_no_patches.skin.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 30,
+    "standing": 0.4,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 1250,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "top",
+    "suiteId": "2214bd3904765e5ea9bb011d",
+    "outfitId": "f1ced35aa5e95a618068523b",
+    "topId": "f43ac142a6ea5089813529ca",
+    "handsId": "11c027bedfeb5559b5acea3f",
+    "locales": {
+      "en": {
+        "name": "Black Division Scorpion (No Patches)",
+        "description": "Black Division Scorpion Combat Shirt"
+      },
+      "po": {
+        "name": "Black Division Scorpion (No Patches)",
+        "description": "Black Division Scorpion Combat Shirt"
+      }
+    },
+    "topBundlePath": "clothing/black_division_no_patches/tshirt_bp_bd_set_1_no_patches.bundle",
+    "handsBundlePath": "clothing/black_division_no_patches/hands_bp_bd_set1_no_patches.skin.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 30,
+    "standing": 0.4,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 1250,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "top",
+    "suiteId": "2d2bc180e2f251abaf0e4ae8",
+    "outfitId": "80d35d0554fb52188411e5aa",
+    "topId": "f216e719738556d3bb53344a",
+    "handsId": "e544ac0d737c50c9abfe40ef",
+    "locales": {
+      "en": {
+        "name": "Black Division Red Right Hand (No Patches)",
+        "description": "Black Division Red Right Hand Combat Shirt"
+      },
+      "po": {
+        "name": "Black Division Red Right Hand (No Patches)",
+        "description": "Black Division Red Right Hand combat shirt"
+      }
+    },
+    "topBundlePath": "clothing/black_division_no_patches/isb_black_division_red_right_hand_top_no_patches.bundle",
+    "handsBundlePath": "clothing/black_division_no_patches/isb_black_division_red_right_hand_hands_no_patches.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 50,
+    "standing": 1.0,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 15000,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "top",
+    "suiteId": "e8d13de25c3f5acbbd441735",
+    "outfitId": "eeca7854d0e0539aa3407f94",
+    "topId": "cd1671acd34154518e137087",
+    "handsId": "5cc2375ca7475c038de53efe",
+    "locales": {
+      "en": {
+        "name": "Black Division Squad Leader (Urban Ops - No Patches)",
+        "description": "Black Division Squad Leader Combat Shirt"
+      },
+      "po": {
+        "name": "Black Division Squad Leader (Urban Ops - No Patches)",
+        "description": "Black Division Squad Leader Combat Shirt"
+      }
+    },
+    "topBundlePath": "clothing/black_division_urban/top_bd_team_leader_01_urban.bundle",
+    "handsBundlePath": "clothing/black_division_urban/top_team_leader_bd1_hands_urban.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 55,
+    "standing": 0.6,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 7500,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "top",
+    "suiteId": "06a4a3abcd4a5c8fbef39d53",
+    "outfitId": "6718e6b741b55bf29825ccc4",
+    "topId": "7551e5fd473a519da4b379c1",
+    "handsId": "3511cc9dc5c651b89a0515fb",
+    "locales": {
+      "en": {
+        "name": "Black Division Specialist Operative (Urban Ops - No Patches)",
+        "description": "Black Division Specialist Operative Combat Shirt"
+      },
+      "po": {
+        "name": "Black Division Specialist Operative (Urban Ops - No Patches)",
+        "description": "Black Division Specialist Operative Combat Shirt"
+      }
+    },
+    "topBundlePath": "clothing/black_division_urban/top_bd_operator_02_urban.bundle",
+    "handsBundlePath": "clothing/black_division_urban/top_operator_bd2_hands_urban.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 45,
+    "standing": 0.5,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 3750,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "top",
+    "suiteId": "19c81b3139745fbe87d359a6",
+    "outfitId": "59eadd92121d5ba9bbfad28a",
+    "topId": "aef55cef144c507898ac04c2",
+    "handsId": "d7665b83fbee5afb9335f011",
+    "locales": {
+      "en": {
+        "name": "Black Division Scout Operative (Urban Ops - No Patches)",
+        "description": "Black Division Scout Operative Combat Shirt"
+      },
+      "po": {
+        "name": "Black Division Scout Operative (Urban Ops - No Patches)",
+        "description": "Black Division Scout Operative Combat Shirt"
+      }
+    },
+    "topBundlePath": "clothing/black_division_urban/top_bd_operator_03_urban.bundle",
+    "handsBundlePath": "clothing/black_division_urban/top_operator_bd3_hands_urban.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 45,
+    "standing": 0.5,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 3750,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "top",
+    "suiteId": "1ff762f3c46c5d3f831e4402",
+    "outfitId": "8aaf9de8be2a568e8952d954",
+    "topId": "ae2060704d0e565384bbaee9",
+    "handsId": "6e459f9b42025db58fb373ee",
+    "locales": {
+      "en": {
+        "name": "Black Division Heavy Operative (Urban Ops - No Patches)",
+        "description": "Black Division Heavy Operative Combat Shirt"
+      },
+      "po": {
+        "name": "Black Division Heavy Operative (Urban Ops - No Patches)",
+        "description": "Black Division Heavy Operative Combat Shirt"
+      }
+    },
+    "topBundlePath": "clothing/black_division_urban/top_bd_operator_04_urban.bundle",
+    "handsBundlePath": "clothing/black_division_urban/top_operator_bd4_hands_urban.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 30,
+    "standing": 0.4,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 1250,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "top",
+    "suiteId": "4765c3540f655819af282222",
+    "outfitId": "8b4645966a9d57a7930d3dd5",
+    "topId": "10dba31b42545ab88a935906",
+    "handsId": "04450aa3260457a381ca2bb1",
+    "locales": {
+      "en": {
+        "name": "Black Division Squad Leader (Moonlight - No Patches)",
+        "description": "Black Division Squad Leader Combat Shirt"
+      },
+      "po": {
+        "name": "Black Division Squad Leader (Moonlight - No Patches)",
+        "description": "Black Division Squad Leader Combat Shirt"
+      }
+    },
+    "topBundlePath": "clothing/black_division_moonlight/top_bd_team_leader_01_moonlight.bundle",
+    "handsBundlePath": "clothing/black_division_moonlight/top_team_leader_bd1_hands_moonlight.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 55,
+    "standing": 0.6,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 7500,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "top",
+    "suiteId": "e5d0d3f709fe584790411f1b",
+    "outfitId": "5b887c60cb3a5c7daf74040f",
+    "topId": "44f6837abe5a525c9ff02423",
+    "handsId": "36f256602b905185b64c8f89",
+    "locales": {
+      "en": {
+        "name": "Black Division Specialist Operative (Moonlight - No Patches)",
+        "description": "Black Division Specialist Operative Combat Shirt"
+      },
+      "po": {
+        "name": "Black Division Specialist Operative (Moonlight - No Patches)",
+        "description": "Black Division Specialist Operative Combat Shirt"
+      }
+    },
+    "topBundlePath": "clothing/black_division_moonlight/top_bd_operator_02_moonlight.bundle",
+    "handsBundlePath": "clothing/black_division_moonlight/top_operator_bd2_hands_moonlight.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 45,
+    "standing": 0.5,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 3750,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "top",
+    "suiteId": "9bc873b68e4a5ec58612f17a",
+    "outfitId": "4289e8c85ad950729630f1f8",
+    "topId": "ad68e915c99a5df3a347a7d6",
+    "handsId": "9374f93da5535a529b29db06",
+    "locales": {
+      "en": {
+        "name": "Black Division Scout Operative (Moonlight - No Patches)",
+        "description": "Black Division Scout Operative Combat Shirt"
+      },
+      "po": {
+        "name": "Black Division Scout Operative (Moonlight - No Patches)",
+        "description": "Black Division Scout Operative Combat Shirt"
+      }
+    },
+    "topBundlePath": "clothing/black_division_moonlight/top_bd_operator_03_moonlight.bundle",
+    "handsBundlePath": "clothing/black_division_moonlight/top_operator_bd3_hands_moonlight.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 45,
+    "standing": 0.5,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 3750,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "top",
+    "suiteId": "3a9f15dd3a5c594a93cfbfbe",
+    "outfitId": "ab715364fe2d5410b9c18e1d",
+    "topId": "a07196dacab450e993b6c960",
+    "handsId": "613a12172a2c535f9524df16",
+    "locales": {
+      "en": {
+        "name": "Black Division Heavy Operative (Moonlight - No Patches)",
+        "description": "Black Division Heavy Operative Combat Shirt"
+      },
+      "po": {
+        "name": "Black Division Heavy Operative (Moonlight - No Patches)",
+        "description": "Black Division Heavy Operative Combat Shirt"
+      }
+    },
+    "topBundlePath": "clothing/black_division_moonlight/top_bd_operator_04_moonlight.bundle",
+    "handsBundlePath": "clothing/black_division_moonlight/top_operator_bd4_hands_moonlight.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 30,
+    "standing": 0.4,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 1250,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "top",
+    "suiteId": "d6eb65835e4f5ca6a759eecd",
+    "outfitId": "b2d1e6c633575507b9b83ee8",
+    "topId": "8aa2ba4fd9265f6d91087db8",
+    "handsId": "88c2db326d945a62bd71f460",
+    "topBundlePath": "clothing/kollontay_black/top_boss_kolontai_black.bundle",
+    "handsBundlePath": "clothing/kollontay_black/hands_boss_kolontai_black.skin.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "locales": {
+      "en": {
+        "name": "ISB JUGGERNAUT (Black)",
+        "description": "ISB JUGGERNAUT combat shirt. Black version of Kollontay's uniform."
+      },
+      "po": {
+        "name": "ISB JUGGERNAUT (Black)",
+        "description": "ISB JUGGERNAUT combat shirt. Black version of Kollontay's uniform."
+      }
+    },
+    "loyaltyLevel": 3,
+    "profileLevel": 30,
+    "standing": 0.4,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 2500,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "top",
+    "suiteId": "b6eace2010145abbbd8287d9",
+    "outfitId": "57733868d7cc54f2b3051b26",
+    "topId": "c3b69b58be9952279baa9099",
+    "handsId": "369c6cb184275f60bceb6da5",
+    "topBundlePath": "clothing/raider_arctic/top_wild_scavelite_arctic.bundle",
+    "handsBundlePath": "clothing/raider_arctic/hands_scav_scavelite_arctic.skin.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "locales": {
+      "en": {
+        "name": "White Tusk Hero (Arctic)",
+        "description": "White Tusk Tactical Clothing"
+      },
+      "po": {
+        "name": "White Tusk Hero (Arctic)",
+        "description": "White Tusk Tactical Clothing"
+      }
+    },
+    "loyaltyLevel": 3,
+    "profileLevel": 30,
+    "standing": 0.4,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 2500,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "top",
+    "suiteId": "4ed8d567efec59a5b63a2907",
+    "outfitId": "bdd44afe20985c658ac8f209",
+    "topId": "9df468704d755a41a0e9b0bc",
+    "handsId": "708f8304e4e2563ea48ebfb5",
+    "locales": {
+      "en": {
+        "name": "MTF Alpha-1 Red Right Hand Specialist",
+        "description": "MTF Alpha-1 Red Right Hand Specialist combat shirt"
+      },
+      "po": {
+        "name": "MTF Alpha-1 Red Right Hand Specialist",
+        "description": "Camisa de combate MTF Alpha-1 Red Right Hand Specialist"
+      }
+    },
+    "topBundlePath": "clothing/red_right_hand_heavy/top_bd_operator_04_rrh.bundle",
+    "handsBundlePath": "clothing/red_right_hand_heavy/top_operator_bd4_hands_rrh.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 30,
+    "standing": 0.4,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 2500,
+    "questRequirements": [],
+    "achievementRequirements": [
+      "9df3731674b1b81ebec38ce4"
+    ]
+  },
+  {
+    "type": "top",
+    "suiteId": "1516b19890445cd9b7dceac4",
+    "outfitId": "e9bda9d663e05df48be4afc0",
+    "topId": "2eca0bac9ad154f9869c4725",
+    "handsId": "138d632b9a175129907a8225",
+    "locales": {
+      "en": {
+        "name": "MTF Epsilon-11 Nine-Tailed Fox",
+        "description": "MTF Epsilon-11 Nine-Tailed Fox combat shirt"
+      },
+      "po": {
+        "name": "MTF Epsilon-11 Nine-Tailed Fox",
+        "description": "Camisa de combate MTF Epsilon-11 Nine-Tailed Fox"
+      }
+    },
+    "topBundlePath": "clothing/nine_tailed_fox_leader/top_bd_team_leader_01_ntf.bundle",
+    "handsBundlePath": "clothing/nine_tailed_fox_leader/top_team_leader_bd1_hands_ntf.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 55,
+    "standing": 0.6,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 15000,
+    "questRequirements": [],
+    "achievementRequirements": [
+      "1d9f3fb317d15e2a77957327"
+    ]
+  },
+  {
+    "type": "top",
+    "suiteId": "7915971e72b651df8da6e957",
+    "outfitId": "8891e0bd66a153c1b84c0165",
+    "topId": "2874ff420ec351098248ace1",
+    "handsId": "23170823243754be97945a7e",
+    "locales": {
+      "en": {
+        "name": "Black Division Squad Leader (Desert Camo - No Patches)",
+        "description": "Black Division Squad Leader Combat Shirt"
+      },
+      "po": {
+        "name": "Black Division Squad Leader (Desert Camo - No Patches)",
+        "description": "Black Division Squad Leader Combat Shirt"
+      }
+    },
+    "topBundlePath": "clothing/black_division_desert/top_bd_team_leader_01_desert.bundle",
+    "handsBundlePath": "clothing/black_division_desert/top_team_leader_bd1_hands_desert.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 55,
+    "standing": 0.6,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 7500,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "top",
+    "suiteId": "12042dadca2456d78f746db7",
+    "outfitId": "67e15eb9d5945044b1edb174",
+    "topId": "b7dbc1d2017d56eaa70e11e9",
+    "handsId": "029d5fcbd6ac585aa5167b7a",
+    "locales": {
+      "en": {
+        "name": "Black Division Specialist Operative (Desert Camo - No Patches)",
+        "description": "Black Division Specialist Operative Combat Shirt"
+      },
+      "po": {
+        "name": "Black Division Specialist Operative (Desert Camo - No Patches)",
+        "description": "Black Division Specialist Operative Combat Shirt"
+      }
+    },
+    "topBundlePath": "clothing/black_division_desert/top_bd_operator_02_desert.bundle",
+    "handsBundlePath": "clothing/black_division_desert/top_operator_bd2_hands_desert.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 45,
+    "standing": 0.5,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 3750,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "top",
+    "suiteId": "ac2aa88218e65ff590fb196a",
+    "outfitId": "36f94079d8995b40a7f2be98",
+    "topId": "df51d50fde805abc97ee8d2e",
+    "handsId": "a01eda6f9a8b505ab0bb657a",
+    "locales": {
+      "en": {
+        "name": "Black Division Scout Operative (Desert Camo - No Patches)",
+        "description": "Black Division Scout Operative Combat Shirt"
+      },
+      "po": {
+        "name": "Black Division Scout Operative (Desert Camo - No Patches)",
+        "description": "Black Division Scout Operative Combat Shirt"
+      }
+    },
+    "topBundlePath": "clothing/black_division_desert/top_bd_operator_03_desert.bundle",
+    "handsBundlePath": "clothing/black_division_desert/top_operator_bd3_hands_desert.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 45,
+    "standing": 0.5,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 3750,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "top",
+    "suiteId": "b31304560a93580ab278de47",
+    "outfitId": "30f2a03208105c118f6092f7",
+    "topId": "b9abf13a77e15cb5910810bb",
+    "handsId": "94e787a6654752a28af1eb48",
+    "locales": {
+      "en": {
+        "name": "Black Division Heavy Operative (Desert Camo - No Patches)",
+        "description": "Black Division Heavy Operative Combat Shirt"
+      },
+      "po": {
+        "name": "Black Division Heavy Operative (Desert Camo - No Patches)",
+        "description": "Black Division Heavy Operative Combat Shirt"
+      }
+    },
+    "topBundlePath": "clothing/black_division_desert/top_bd_operator_04_desert.bundle",
+    "handsBundlePath": "clothing/black_division_desert/top_operator_bd4_hands_desert.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 30,
+    "standing": 0.4,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 1250,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "top",
+    "suiteId": "0f930ae2a7b654f4800d3ec4",
+    "outfitId": "b7a4dd19545a53ce85caca6a",
+    "topId": "7f6a0a8e92185b5e9196531b",
+    "handsId": "8484cef1241956a2a9bd039a",
+    "locales": {
+      "en": {
+        "name": "Black Division Nocturnal (Desert Camo - No Patches)",
+        "description": "Black Division Nocturnal Combat Shirt"
+      },
+      "po": {
+        "name": "Black Division Nocturnal (Desert Camo - No Patches)",
+        "description": "Black Division Nocturnal Combat Shirt"
+      }
+    },
+    "topBundlePath": "clothing/black_division_desert/tshirt_bp_bd_set_2_desert.bundle",
+    "handsBundlePath": "clothing/black_division_desert/hands_bp_bd_set2_desert.skin.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 30,
+    "standing": 0.4,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 1250,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "top",
+    "suiteId": "d499aff4c4e752fba1f615cc",
+    "outfitId": "e9cc89847732503294ee7cf4",
+    "topId": "6771178c5b925eb2ad45d8e1",
+    "handsId": "4604b22464ee544981dd884b",
+    "locales": {
+      "en": {
+        "name": "Black Division Scorpion (Desert Camo - No Patches)",
+        "description": "Black Division Scorpion Combat Shirt"
+      },
+      "po": {
+        "name": "Black Division Scorpion (Desert Camo - No Patches)",
+        "description": "Black Division Scorpion Combat Shirt"
+      }
+    },
+    "topBundlePath": "clothing/black_division_desert/tshirt_bp_bd_set_1_desert.bundle",
+    "handsBundlePath": "clothing/black_division_desert/hands_bp_bd_set1_desert.skin.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 30,
+    "standing": 0.4,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 1250,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "top",
+    "suiteId": "c0c3d46d700d575bb183136d",
+    "outfitId": "9c9aca1c92a2562e974f13e2",
+    "topId": "97494e7bd32f509bab06b3ad",
+    "handsId": "0fffc8ac571e5bba89901cd3",
+    "locales": {
+      "en": {
+        "name": "Black Division Red Right Hand (Desert Camo - No Patches)",
+        "description": "Black Division Red Right Hand Combat Shirt"
+      },
+      "po": {
+        "name": "Black Division Red Right Hand (Desert Camo - No Patches)",
+        "description": "Black Division Red Right Hand combat shirt"
+      }
+    },
+    "topBundlePath": "clothing/black_division_desert/isb_black_division_red_right_hand_top_desert.bundle",
+    "handsBundlePath": "clothing/black_division_desert/isb_black_division_red_right_hand_hands_desert.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 50,
+    "standing": 1.0,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 15000,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "top",
+    "suiteId": "4be3434fbf415498ab43da6b",
+    "outfitId": "ace7e67665005d3da24b3353",
+    "topId": "4ff8c7f23d8f51619d005c79",
+    "handsId": "4eac6552a0ff545eaab12610",
+    "locales": {
+      "en": {
+        "name": "Black Division Squad Leader (Urban Ops)",
+        "description": "Black Division Squad Leader Combat Shirt"
+      },
+      "po": {
+        "name": "Black Division Squad Leader (Urban Ops)",
+        "description": "Black Division Squad Leader Combat Shirt"
+      }
+    },
+    "topBundlePath": "clothing/black_division_urban_patches/top_bd_team_leader_01_urban_patches.bundle",
+    "handsBundlePath": "clothing/black_division_urban_patches/top_team_leader_bd1_hands_urban_patches.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 55,
+    "standing": 0.6,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 15000,
+    "questRequirements": [],
+    "achievementRequirements": [
+      "694176555b56f8b3181945b1"
+    ]
+  },
+  {
+    "type": "top",
+    "suiteId": "b69e5670e71a5321adc62f2b",
+    "outfitId": "0874e8599f975283a7ea0064",
+    "topId": "58b936cc6a645f318667e2e6",
+    "handsId": "739c2c35c20d5d58b1aa43ee",
+    "locales": {
+      "en": {
+        "name": "Black Division Specialist Operative (Urban Ops)",
+        "description": "Black Division Specialist Operative Combat Shirt"
+      },
+      "po": {
+        "name": "Black Division Specialist Operative (Urban Ops)",
+        "description": "Black Division Specialist Operative Combat Shirt"
+      }
+    },
+    "topBundlePath": "clothing/black_division_urban_patches/top_bd_operator_02_urban_patches.bundle",
+    "handsBundlePath": "clothing/black_division_urban_patches/top_operator_bd2_hands_urban_patches.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 45,
+    "standing": 0.5,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 7500,
+    "questRequirements": [],
+    "achievementRequirements": [
+      "694176555b56f8b3181945b1"
+    ]
+  },
+  {
+    "type": "top",
+    "suiteId": "26271a72e29b535fbc7727b0",
+    "outfitId": "ea995085b481522284adec25",
+    "topId": "3747db9d73775ba4ac068330",
+    "handsId": "c7e5ec6524c155dfaa59ae6a",
+    "locales": {
+      "en": {
+        "name": "Black Division Scout Operative (Urban Ops)",
+        "description": "Black Division Scout Operative Combat Shirt"
+      },
+      "po": {
+        "name": "Black Division Scout Operative (Urban Ops)",
+        "description": "Black Division Scout Operative Combat Shirt"
+      }
+    },
+    "topBundlePath": "clothing/black_division_urban_patches/top_bd_operator_03_urban_patches.bundle",
+    "handsBundlePath": "clothing/black_division_urban_patches/top_operator_bd3_hands_urban_patches.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 45,
+    "standing": 0.5,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 7500,
+    "questRequirements": [],
+    "achievementRequirements": [
+      "694176555b56f8b3181945b1"
+    ]
+  },
+  {
+    "type": "top",
+    "suiteId": "b5fd5abc1ec9583082af4a38",
+    "outfitId": "4a3531f459ac54eab2e0dc88",
+    "topId": "2d631c97fc2a5af4a13a74be",
+    "handsId": "bc16c8ab1d54522eb01b3fad",
+    "locales": {
+      "en": {
+        "name": "Black Division Heavy Operative (Urban Ops)",
+        "description": "Black Division Heavy Operative Combat Shirt"
+      },
+      "po": {
+        "name": "Black Division Heavy Operative (Urban Ops)",
+        "description": "Black Division Heavy Operative Combat Shirt"
+      }
+    },
+    "topBundlePath": "clothing/black_division_urban_patches/top_bd_operator_04_urban_patches.bundle",
+    "handsBundlePath": "clothing/black_division_urban_patches/top_operator_bd4_hands_urban_patches.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 30,
+    "standing": 0.4,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 2500,
+    "questRequirements": [],
+    "achievementRequirements": [
+      "694176555b56f8b3181945b1"
+    ]
+  },
+  {
+    "type": "top",
+    "suiteId": "2fa4643d869c5fac985a7ebd",
+    "outfitId": "009b490d4d465861a34d6066",
+    "topId": "8e13a20c6b755872a8e4f7a5",
+    "handsId": "a1230e9c6a7c58889bbbdf0b",
+    "locales": {
+      "en": {
+        "name": "Black Division Squad Leader (Moonlight)",
+        "description": "Black Division Squad Leader Combat Shirt"
+      },
+      "po": {
+        "name": "Black Division Squad Leader (Moonlight)",
+        "description": "Black Division Squad Leader Combat Shirt"
+      }
+    },
+    "topBundlePath": "clothing/black_division_moonlight_patches/top_bd_team_leader_01_moonlight_patches.bundle",
+    "handsBundlePath": "clothing/black_division_moonlight_patches/top_team_leader_bd1_hands_moonlight_patches.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 55,
+    "standing": 0.6,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 15000,
+    "questRequirements": [],
+    "achievementRequirements": [
+      "694176555b56f8b3181945b1"
+    ]
+  },
+  {
+    "type": "top",
+    "suiteId": "0fb68046c72859b2b1705170",
+    "outfitId": "f7aa9768ab255cff88e6c9f8",
+    "topId": "e54d9f35740050b8bc593974",
+    "handsId": "fe4aed74e6d65ba79fe1480b",
+    "locales": {
+      "en": {
+        "name": "Black Division Specialist Operative (Moonlight)",
+        "description": "Black Division Specialist Operative Combat Shirt"
+      },
+      "po": {
+        "name": "Black Division Specialist Operative (Moonlight)",
+        "description": "Black Division Specialist Operative Combat Shirt"
+      }
+    },
+    "topBundlePath": "clothing/black_division_moonlight_patches/top_bd_operator_02_moonlight_patches.bundle",
+    "handsBundlePath": "clothing/black_division_moonlight_patches/top_operator_bd2_hands_moonlight_patches.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 45,
+    "standing": 0.5,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 7500,
+    "questRequirements": [],
+    "achievementRequirements": [
+      "694176555b56f8b3181945b1"
+    ]
+  },
+  {
+    "type": "top",
+    "suiteId": "30ca97e4b0365fb39daac1da",
+    "outfitId": "801581ac8ade58c8b76eec68",
+    "topId": "a612cbd1676e56c78c06b02e",
+    "handsId": "d876dab6285556ad9365f535",
+    "locales": {
+      "en": {
+        "name": "Black Division Scout Operative (Moonlight)",
+        "description": "Black Division Scout Operative Combat Shirt"
+      },
+      "po": {
+        "name": "Black Division Scout Operative (Moonlight)",
+        "description": "Black Division Scout Operative Combat Shirt"
+      }
+    },
+    "topBundlePath": "clothing/black_division_moonlight_patches/top_bd_operator_03_moonlight_patches.bundle",
+    "handsBundlePath": "clothing/black_division_moonlight_patches/top_operator_bd3_hands_moonlight_patches.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 45,
+    "standing": 0.5,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 7500,
+    "questRequirements": [],
+    "achievementRequirements": [
+      "694176555b56f8b3181945b1"
+    ]
+  },
+  {
+    "type": "top",
+    "suiteId": "3a3996a3ebe95a98a636c500",
+    "outfitId": "9847b09086fe535f9155f3a6",
+    "topId": "6fa895a7ca5a571d9dc0eb8b",
+    "handsId": "4b00f466db815694b97460d3",
+    "locales": {
+      "en": {
+        "name": "Black Division Heavy Operative (Moonlight)",
+        "description": "Black Division Heavy Operative Combat Shirt"
+      },
+      "po": {
+        "name": "Black Division Heavy Operative (Moonlight)",
+        "description": "Black Division Heavy Operative Combat Shirt"
+      }
+    },
+    "topBundlePath": "clothing/black_division_moonlight_patches/top_bd_operator_04_moonlight_patches.bundle",
+    "handsBundlePath": "clothing/black_division_moonlight_patches/top_operator_bd4_hands_moonlight_patches.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 30,
+    "standing": 0.4,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 2500,
+    "questRequirements": [],
+    "achievementRequirements": [
+      "694176555b56f8b3181945b1"
+    ]
+  },
+  {
+    "type": "top",
+    "suiteId": "9f1efad5a530557abd6ef845",
+    "outfitId": "266df14a4e6d53388f4e9dc3",
+    "topId": "a4e6399524555ccebd5fc9ff",
+    "handsId": "39063752879c59dd92bf99be",
+    "locales": {
+      "en": {
+        "name": "Black Division Squad Leader (Desert Camo)",
+        "description": "Black Division Squad Leader Combat Shirt"
+      },
+      "po": {
+        "name": "Black Division Squad Leader (Desert Camo)",
+        "description": "Black Division Squad Leader Combat Shirt"
+      }
+    },
+    "topBundlePath": "clothing/black_division_desert_patches/top_bd_team_leader_01_desert_patches.bundle",
+    "handsBundlePath": "clothing/black_division_desert_patches/top_team_leader_bd1_hands_desert_patches.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 55,
+    "standing": 0.6,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 15000,
+    "questRequirements": [],
+    "achievementRequirements": [
+      "694176555b56f8b3181945b1"
+    ]
+  },
+  {
+    "type": "top",
+    "suiteId": "c7a8a1bd65545604bde0dd81",
+    "outfitId": "8caa6c8c417c551d9322e420",
+    "topId": "7d1443898bb65c81a66b38ad",
+    "handsId": "14b51446083554a0918547b2",
+    "locales": {
+      "en": {
+        "name": "Black Division Specialist Operative (Desert Camo)",
+        "description": "Black Division Specialist Operative Combat Shirt"
+      },
+      "po": {
+        "name": "Black Division Specialist Operative (Desert Camo)",
+        "description": "Black Division Specialist Operative Combat Shirt"
+      }
+    },
+    "topBundlePath": "clothing/black_division_desert_patches/top_bd_operator_02_desert_patches.bundle",
+    "handsBundlePath": "clothing/black_division_desert_patches/top_operator_bd2_hands_desert_patches.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 45,
+    "standing": 0.5,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 7500,
+    "questRequirements": [],
+    "achievementRequirements": [
+      "694176555b56f8b3181945b1"
+    ]
+  },
+  {
+    "type": "top",
+    "suiteId": "63c9f5a72edf5c789df64982",
+    "outfitId": "e4d1422206585a07856c3a73",
+    "topId": "a7aba95dab355014b2d6783b",
+    "handsId": "4fa2cc1ff774593390d6a835",
+    "locales": {
+      "en": {
+        "name": "Black Division Scout Operative (Desert Camo)",
+        "description": "Black Division Scout Operative Combat Shirt"
+      },
+      "po": {
+        "name": "Black Division Scout Operative (Desert Camo)",
+        "description": "Black Division Scout Operative Combat Shirt"
+      }
+    },
+    "topBundlePath": "clothing/black_division_desert_patches/top_bd_operator_03_desert_patches.bundle",
+    "handsBundlePath": "clothing/black_division_desert_patches/top_operator_bd3_hands_desert_patches.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 45,
+    "standing": 0.5,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 7500,
+    "questRequirements": [],
+    "achievementRequirements": [
+      "694176555b56f8b3181945b1"
+    ]
+  },
+  {
+    "type": "top",
+    "suiteId": "f6e94164f35d5e8d94fa810a",
+    "outfitId": "4f528cab26c151669ae11727",
+    "topId": "e95f889c5ab357a7b199b88e",
+    "handsId": "40dd2aa8082f541f8b2ad284",
+    "locales": {
+      "en": {
+        "name": "Black Division Heavy Operative (Desert Camo)",
+        "description": "Black Division Heavy Operative Combat Shirt"
+      },
+      "po": {
+        "name": "Black Division Heavy Operative (Desert Camo)",
+        "description": "Black Division Heavy Operative Combat Shirt"
+      }
+    },
+    "topBundlePath": "clothing/black_division_desert_patches/top_bd_operator_04_desert_patches.bundle",
+    "handsBundlePath": "clothing/black_division_desert_patches/top_operator_bd4_hands_desert_patches.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 30,
+    "standing": 0.4,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 2500,
+    "questRequirements": [],
+    "achievementRequirements": [
+      "694176555b56f8b3181945b1"
+    ]
+  },
+  {
+    "type": "top",
+    "suiteId": "eaab25722756ba2968e181b4",
+    "outfitId": "c42037b2b3093dd05c139a3d",
+    "topId": "53f7c24f7d18767251e2c5a3",
+    "handsId": "ea7b3bb88bcab4f4f10726d7",
+    "locales": {
+      "en": {
+        "name": "ISB Team Leader - Corporate Espionage (Red Right Hand)",
+        "description": "Black Division Tactical Coat"
+      },
+      "po": {
+        "name": "ISB Team Leader - Espionagem Corporativa (Red Right Hand)",
+        "description": "Black Division Tactical Coat"
+      }
+    },
+    "topBundlePath": "clothing/wedge/red_right_hand/top_wedge_red_right_hand.bundle",
+    "handsBundlePath": "clothing/wedge/red_right_hand/hands_wedge_red_right_hand.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 45,
+    "standing": 0.65,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 25000,
+    "questRequirements": [
+      "691551f21744ab25e3e9ff77"
+    ],
+    "achievementRequirements": []
+  },
+  {
+    "type": "top",
+    "suiteId": "e34020084fed486f37ad6aaa",
+    "outfitId": "fbcc59ca27230cbd74831298",
+    "topId": "44c80403270dbb6206fb58fe",
+    "handsId": "f8b2b94fb3ac877463a2dc07",
+    "locales": {
+      "en": {
+        "name": "ISB Team Leader - Corporate Espionage (Night Ops - Obsidian)",
+        "description": "Black Division Tactical Coat"
+      },
+      "po": {
+        "name": "ISB Team Leader - Espionagem Corporativa (Night Ops - Obsidian)",
+        "description": "Black Division Tactical Coat"
+      }
+    },
+    "topBundlePath": "clothing/wedge/night_ops/top_wedge_night_ops.bundle",
+    "handsBundlePath": "clothing/wedge/night_ops/hands_wedge_night_ops.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 45,
+    "standing": 0.65,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 25000,
+    "questRequirements": [
+      "691551f21744ab25e3e9ff77"
+    ],
+    "achievementRequirements": []
+  }
 ]

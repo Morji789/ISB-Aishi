@@ -1,67 +1,44 @@
 {
   "6a279c95534fb23d302b6b27": {
-
     "itemTplToClone": "60363c0c92ec1c31037959f5",
     "parentId": "5a341c4686f77469e155819e",
     "handbookParentId": "5b47574386f77428ca22b32f",
-
     "overrideProperties": {
-      "QuestItem": false,  
-      "ExaminedByDefault": true,
-      "Unlootable": false,
       "UnlootableFromSide": [
         "Bear",
         "Usec",
         "Savage"
       ],
-      "UnlootableFromSlot": "FaceCover", 
-        
-
+      "UnlootableFromSlot": "FaceCover",
       "Prefab": {
-
         "path": "equipment/item_equipment_isb_armored_gas_mask.bundle",
         "rcid": ""
       },
-
-
-      "Width": 2,
-      "Height": 2,
-
-
       "Weight": 0.15,
-
-    "Grids": []
+      "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "Unix 5000 Gas Mask",
         "shortName": "U-5000",
         "description": "A military-grade gas mask for individual protection produced by JSC “Sorbent.”"
       },
-        "po": {
+      "po": {
         "name": "Máscara de gás Unix 5000",
         "shortName": "U-5000",
         "description": "Uma mascara de gás de nível militar para proteção individual produzida pela JSC “Sorbent”."
       }
     },
-
     "fleaPriceRoubles": 25492,
-
     "handbookPriceRoubles": 13130,
-
-    "addtoInventorySlots": ["FaceCover"],
-
+    "addtoInventorySlots": [
+      "FaceCover"
+    ],
     "addtoBots": true,
-
     "CanSellOnRagfair": true,
-
     "CanRequireOnRagfair": true,
-    
-    "addtoItemBlacklist": false, 
-
+    "addtoItemBlacklist": false,
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",

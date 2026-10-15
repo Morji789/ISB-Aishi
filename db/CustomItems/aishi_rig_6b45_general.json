@@ -1,33 +1,23 @@
 {
   "696dc61aea4264c0d6dddd53": {
-
     "itemTplToClone": "68948ad72c87773b9f06d73f",
     "parentId": "5448e5284bdc2dcb718b4567",
     "handbookParentId": "5b5f6f8786f77447ed563642",
-
-
     "overrideProperties": {
-      "QuestItem": false,  
+      "QuestItem": false,
       "ExaminedByDefault": false,
       "IsUnsaleable": false,
       "InsuranceDisabled": false,
       "CanSellOnRagfair": false,
       "CanRequireOnRagfair": false,
-      "addtoItemBlacklist": true,       
+      "addtoItemBlacklist": true,
       "Prefab": {
-
         "path": "equipment/item_equipment_rig_6b45_general_black.bundle",
         "rcid": ""
       },
-
-
       "Width": 3,
       "Height": 4,
-
-
       "Weight": 4.36,
-
-
       "Grids": [
         {
           "_id": "ab8ed84f5aba1a9403fda9b4",
@@ -245,9 +235,11 @@
           },
           "_proto": "55d329c24bdc2d892f8b4567"
         }
-      ]
+      ],
+      "Name": "6B45 body armor (USEC Intelligence Support Bureau)",
+      "ShortName": "6B45",
+      "Description": "The 6B45 body armor, designed to protect personnel from shrapnel and small arms fire. Part of the Ratnik equipment system and has been in production since the 2010s as a replacement for the 6B43 model. USEC Intelligence Support Bureau version."
     },
-
     "addWeaponPreset": true,
     "weaponPresets": [
       {
@@ -319,49 +311,36 @@
         "_encyclopedia": "696dc61aea4264c0d6dddd53"
       }
     ],
-
     "locales": {
       "en": {
-        "name": "6B45 Armored Rig General Purpose Layout (USEC Intelligence Support Bureau)",
-        "shortName": "6B45.GP",
-        "description": "A full plate carrier setup built on the 6B45 vest. This setup gives the user a compact yet versatile space for carrying essential gear. Black Camo variant for ISB Special Forces."
+        "name": "6B45 body armor (USEC Intelligence Support Bureau)",
+        "shortName": "6B45",
+        "description": "The 6B45 body armor, designed to protect personnel from shrapnel and small arms fire. Part of the Ratnik equipment system and has been in production since the 2010s as a replacement for the 6B43 model. USEC Intelligence Support Bureau version."
       },
       "po": {
-        "name": "Colete Tático Blindado 6B45 Layout de Uso Geral (Agência de Suporte a Inteligência da USEC)",
-        "shortName": "6B45.GP",
-        "description": "Um conjunto completo de porta-placas montado sobre o colete 6B45. Esta configuração oferece ao usuário um espaço compacto, porém versátil, para o transporte de equipamentos essenciais. Variante com Camuflagem Preta para as Forças Especiais da ISB."
+        "name": "6B45 body armor (Agência de Suporte a Inteligência da USEC)",
+        "shortName": "6B45",
+        "description": "The 6B45 body armor, designed to protect personnel from shrapnel and small arms fire. Part of the Ratnik equipment system and has been in production since the 2010s as a replacement for the 6B43 model. Agência de Suporte a Inteligência da USEC version."
       }
     },
-
     "fleaPriceRoubles": 46283,
-
     "handbookPriceRoubles": 9685,
-
-
-    "addtoInventorySlots": ["BodyArmor"],
-
+    "addtoInventorySlots": [
+      "BodyArmor"
+    ],
     "IsAlwaysAvailableForInsurance": false,
-
     "addtoBots": false,
-
     "addtoEmptyPropSlots": false,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",
         "Probability": 0
       }
     ],
-
-
     "addtoSecureFilters": false
   }
 }

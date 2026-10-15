@@ -1,0 +1,169 @@
+{
+  "928abe790c2a5dd9ba70ce1f": {
+    "_id": "928abe790c2a5dd9ba70ce1f",
+    "_type": "Preset",
+    "_changeWeaponName": false,
+    "_name": "ISB P90 Scourge",
+    "_parent": "a5052822f4b9579799d49001",
+    "_items": [
+      {
+        "_id": "a5052822f4b9579799d49001",
+        "_tpl": "a3f35b5ff515570584c64f0f",
+        "upd": {
+          "Repairable": {
+            "Durability": 140,
+            "MaxDurability": 140
+          },
+          "FireMode": {
+            "FireMode": "single"
+          }
+        }
+      },
+      {
+        "_id": "73f7a05d36705f06ab05b9e5",
+        "_tpl": "5cc70093e4a949033c734312",
+        "parentId": "a5052822f4b9579799d49001",
+        "slotId": "mod_magazine"
+      },
+      {
+        "_id": "1db8fb52f5d15e8d855610c9",
+        "_tpl": "edefcaa0007e5763ab71ab77",
+        "parentId": "a5052822f4b9579799d49001",
+        "slotId": "mod_stock"
+      },
+      {
+        "_id": "cce50a85040456c394f24672",
+        "_tpl": "5cc70102e4a949035e43ba74",
+        "parentId": "a5052822f4b9579799d49001",
+        "slotId": "mod_reciever"
+      },
+      {
+        "_id": "8894262fab455075a56bf2e3",
+        "_tpl": "5cc701aae4a949000e1ea45c",
+        "parentId": "a5052822f4b9579799d49001",
+        "slotId": "mod_barrel"
+      },
+      {
+        "_id": "c2b8142bbea3572ba90332e9",
+        "_tpl": "5cc6ea78e4a949000e1ea3c1",
+        "parentId": "a5052822f4b9579799d49001",
+        "slotId": "mod_charge"
+      },
+      {
+        "_id": "e9eeae6441195fa0b96eb544",
+        "_tpl": "57aa4a5282da5d119374d7cf",
+        "parentId": "1db8fb52f5d15e8d855610c9",
+        "slotId": "mod_foregrip"
+      },
+      {
+        "_id": "277758e2949959108f54617d",
+        "_tpl": "a1174d4983a8509baa081dd5",
+        "parentId": "1db8fb52f5d15e8d855610c9",
+        "slotId": "mod_stock_000"
+      },
+      {
+        "_id": "330dc09238355915a4defb17",
+        "_tpl": "5cc7015ae4a949001152b4c6",
+        "parentId": "cce50a85040456c394f24672",
+        "slotId": "mod_mount_000"
+      },
+      {
+        "_id": "207dccb01a4a52139cf3466d",
+        "_tpl": "5cc70146e4a949000d73bf6b",
+        "parentId": "cce50a85040456c394f24672",
+        "slotId": "mod_mount_001"
+      },
+      {
+        "_id": "46827c8fab275c9ebad06d6a",
+        "_tpl": "5cc70146e4a949000d73bf6b",
+        "parentId": "cce50a85040456c394f24672",
+        "slotId": "mod_mount_002"
+      },
+      {
+        "_id": "0a1a265e20625cc68245693e",
+        "_tpl": "3cd57334e65a5ba798d24634",
+        "parentId": "8894262fab455075a56bf2e3",
+        "slotId": "mod_muzzle"
+      },
+      {
+        "_id": "0ff38ec792c355ea82c3e847",
+        "_tpl": "6269220d70b6c02e665f2635",
+        "parentId": "e9eeae6441195fa0b96eb544",
+        "slotId": "mod_mount_000"
+      },
+      {
+        "_id": "3a14d25d64cf5055a57e9f94",
+        "_tpl": "644a3df63b0b6f03e101e065",
+        "parentId": "e9eeae6441195fa0b96eb544",
+        "slotId": "mod_tactical",
+        "upd": {
+          "Light": {
+            "IsActive": true,
+            "SelectedMode": 0
+          }
+        }
+      },
+      {
+        "_id": "1e17fbdaec735df1b97447ae",
+        "_tpl": "5b057b4f5acfc4771e1bd3e9",
+        "parentId": "e9eeae6441195fa0b96eb544",
+        "slotId": "mod_foregrip"
+      },
+      {
+        "_id": "ee8dfcc470315ad2bc58bef4",
+        "_tpl": "689c8981bce76ccfbf01862f",
+        "parentId": "0ff38ec792c355ea82c3e847",
+        "slotId": "mod_tactical"
+      },
+      {
+        "_id": "78b271f211825a8287e66458",
+        "_tpl": "689c887cd18a3665b8045743",
+        "parentId": "ee8dfcc470315ad2bc58bef4",
+        "slotId": "mod_tactical",
+        "upd": {
+          "Light": {
+            "IsActive": true,
+            "SelectedMode": 0
+          }
+        }
+      },
+      {
+        "_id": "ae8c99c207cd57988c399887",
+        "_tpl": "58491f3324597764bc48fa02",
+        "parentId": "330dc09238355915a4defb17",
+        "slotId": "mod_scope",
+        "upd": {
+          "Sight": {
+            "ScopesCurrentCalibPointIndexes": [
+              0
+            ],
+            "ScopesSelectedModes": [
+              0
+            ],
+            "SelectedScope": 0,
+            "ScopeZoomValue": 0
+          }
+        }
+      },
+      {
+        "_id": "802e08003bcb5c5f8c4ed0f9",
+        "_tpl": "68caac500bfe742288085e1e",
+        "parentId": "0a1a265e20625cc68245693e",
+        "slotId": "mod_muzzle"
+      },
+      {
+        "_id": "4b9a2fcc9d635f02984992d9",
+        "_tpl": "68caac96933990601c07f476",
+        "parentId": "802e08003bcb5c5f8c4ed0f9",
+        "slotId": "mod_mount"
+      },
+      {
+        "_id": "bfaca62abd9e50698f9742d9",
+        "_tpl": "68caad12269e10396503acfe",
+        "parentId": "4b9a2fcc9d635f02984992d9",
+        "slotId": "mod_muzzle"
+      }
+    ],
+    "_encyclopedia": "a3f35b5ff515570584c64f0f"
+  }
+}

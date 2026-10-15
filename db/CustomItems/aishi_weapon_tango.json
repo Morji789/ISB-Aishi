@@ -1,64 +1,49 @@
 {
   "69fa5313cc7338d9dec96f77": {
-
     "itemTplToClone": "6567e7681265c8a131069b0f",
     "parentId": "55818ae44bdc2dde698b456c",
     "handbookParentId": "5b5f748386f774093e6cb501",
-
-
-    "overrideProperties": { 
-        "ExaminedByDefault": true,
-        "IsUnsaleable": true,
-        "IsUnbuyable": true,
-        "CanSellOnRagfair": true,
-        "CanRequireOnRagfair": true,
-        "addtoItemBlacklist": false,   
-        "Ergonomics": -2,
-        
-
-        "Prefab": {
+    "overrideProperties": {
+      "IsUnsaleable": true,
+      "IsUnbuyable": true,
+      "CanRequireOnRagfair": true,
+      "addtoItemBlacklist": false,
+      "Ergonomics": -2,
+      "Prefab": {
         "path": "equipment/item_equipment_scope_tango.bundle",
         "rcid": ""
-        },
-
-        "Width": 2,
-        "Height": 1,
-        "Weight": 0.79,
-        "Grids": []
       },
-
-      "AimSensitivity": [
-        [
-          0.1,
-          0.6
-        ]
-      ],
-
-      "SightingRange": 2500,
-
-      "CalibrationDistances": [
-        [
-          50,
-          100,
-          150,
-          200,
-          250,
-          300,
-          350,
-          400,
-          450,
-          500
-        ]
-      ],
-
-      "Zooms": [
-        [
-          1,
-          6
-        ]
-      ],
-      "sightModType": "optic",
-
+      "Weight": 0.79,
+      "Grids": []
+    },
+    "AimSensitivity": [
+      [
+        0.1,
+        0.6
+      ]
+    ],
+    "SightingRange": 2500,
+    "CalibrationDistances": [
+      [
+        50,
+        100,
+        150,
+        200,
+        250,
+        300,
+        350,
+        400,
+        450,
+        500
+      ]
+    ],
+    "Zooms": [
+      [
+        1,
+        6
+      ]
+    ],
+    "sightModType": "optic",
     "locales": {
       "en": {
         "name": "SIG Sauer TANGO6T 1-6x24 30mm riflescope (Black)",
@@ -70,20 +55,15 @@
         "shortName": "TANGO6T",
         "description": "A TANGO6T é uma mira óptica variável de baixo consumo de energia, robusta e bem construída. Este modelo oferece ampliação de 1x a 6x e um retículo no primeiro plano focal. Esta mira telescópica é ideal para distâncias curtas e médias, bem como para caça em áreas remotas. Fabricada pela SIG Sauer. Versão preta"
       }
-    
     },
-
-    "fleaPriceRoubles": 125000,
-
-    "handbookPriceRoubles": 700000,
-
+    "fleaPriceRoubles": 135000,
+    "handbookPriceRoubles": 100000,
     "addtoBots": true,
-
     "addtoModSlots": true,
-    "modSlot": ["mod_scope"],
-
+    "modSlot": [
+      "mod_scope"
+    ],
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",

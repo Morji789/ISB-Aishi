@@ -1,70 +1,42 @@
 {
   "69277a7a146fb09981386959": {
-
     "itemTplToClone": "657bc285aab96fccee08bea3",
     "parentId": "65649eb40bf0ed77b8044453",
     "handbookParentId": "6564b96a189fe36f356d177c",
-
-
     "overrideProperties": {
-      "QuestItem": false,  
-      "ExaminedByDefault": true,
-      "IsUnsaleable": false,
       "InsuranceDisabled": true,
       "CanSellOnRagfair": false,
-      "CanRequireOnRagfair": false,
-        "MaterialType": "Helmet",
-        "ArmorMaterial": "Titan",
-        "ArmorType": "Heavy",
-        "BackgroundColor": "yellow",
-        "ItemSound": "gear_armor",
-        "armorPlateColliders":  [],
-        "armorClass": "5",
-        "Durability": 50,
-        "MaxDurability": 50,
-        "BluntThroughput": 0.1,
-        "RarityPvE":"Superrare"
-      },
-        "Prefab": {
-
-        "path": "assets/content/items/equipment/armor_plates/helmet_top.bundle",
-        "rcid": ""
-        },
-
-
-        "Width": 1,
-        "Height": 1,
-
-
-        "Weight": 0,
-
-
-        "Grids": [
-        ],
-
+      "BackgroundColor": "yellow",
+      "Durability": 50,
+      "MaxDurability": 50,
+      "BluntThroughput": 0.1,
+      "RarityPvE": "Superrare"
+    },
+    "Prefab": {
+      "path": "assets/content/items/equipment/armor_plates/helmet_top.bundle",
+      "rcid": ""
+    },
+    "Width": 1,
+    "Height": 1,
+    "Weight": 0,
+    "Grids": [],
     "locales": {
       "en": {
         "name": "Modified hybrid composite materials",
         "shortName": "Modified hybrid composite materials",
         "description": "Modified hybrid composite materials"
       },
-        "po": {
-            "name": "Modified hybrid composite materials",
-            "shortName": "Modified hybrid composite materials",
-            "description": "Modified hybrid composite materials"
+      "po": {
+        "name": "Modified hybrid composite materials",
+        "shortName": "Modified hybrid composite materials",
+        "description": "Modified hybrid composite materials"
       }
     },
-
-    "fleaPriceRoubles": 0,
-
-    "handbookPriceRoubles": 0, 
-
+    "fleaPriceRoubles": 20000,
+    "handbookPriceRoubles": 20000,
     "addtoBots": false,
-
     "addtoStaticLootContainers": false,
-    
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "StaticLootContainers": [
       {
         "ContainerName": "",

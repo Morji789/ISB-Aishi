@@ -1,0 +1,908 @@
+{
+  "9c16b7be0acc599faffb6086": {
+    "itemTplToClone": "6895bb82c4519957df062f82",
+    "parentId": "5447b5f14bdc2d61278b4567",
+    "handbookParentId": "5b5f78fc86f77409407a7f90",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "aishiweapons/model1_ral8000/weapon_radian_ar15_model1_fa_556x45_container_finishes_ral8000.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_name": "mod_pistol_grip",
+          "_id": "261a570de99756a68e0182dd",
+          "_parent": "9c16b7be0acc599faffb6086",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5c0e2ff6d174af02a1659d4a",
+                  "5a33e75ac4a2826c6e06d759",
+                  "55d4b9964bdc2d1d4e8b456e",
+                  "571659bb2459771fb2755a12",
+                  "602e71bd53a60014f9705bfa",
+                  "6113c3586c780c1e710c90bc",
+                  "6113cc78d3a39d50044c065a",
+                  "6113cce3d92c473c770200c7",
+                  "5cc9bcaed7f00c011c04e179",
+                  "5bb20e18d4351e00320205d5",
+                  "5bb20e0ed4351e3bac1212dc",
+                  "6193dcd0f8ee7e52e4210a28",
+                  "5d025cc1d7ad1a53845279ef",
+                  "5c6d7b3d2e221600114c9b7d",
+                  "57c55efc2459772d2c6271e7",
+                  "57af48872459771f0b2ebf11",
+                  "57c55f092459772d291a8463",
+                  "57c55f112459772d28133310",
+                  "57c55f172459772d27602381",
+                  "5a339805c4a2826c6e06d73d",
+                  "55802f5d4bdc2dac148b458f",
+                  "5d15cf3bd7ad1a67e71518b2",
+                  "59db3a1d86f77429e05b4e92",
+                  "5fbcbd6c187fea44d52eda14",
+                  "59db3acc86f7742a2c4ab912",
+                  "59db3b0886f77429d72fb895",
+                  "615d8faecabb9b7ad90f4d5d",
+                  "5b07db875acfc40dc528a5f6",
+                  "63f5feead259b42f0b4d6d0f",
+                  "652911675ae2ae97b80fdf3c"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_magazine",
+          "_id": "e7ffaa82774b5443964d1483",
+          "_parent": "9c16b7be0acc599faffb6086",
+          "_props": {
+            "filters": [
+              {
+                "AnimationIndex": -1,
+                "Filter": [
+                  "55d4887d4bdc2d962f8b4570",
+                  "61840bedd92c473c77021635",
+                  "61840d85568c120fdd2962a5",
+                  "5c05413a0db834001c390617",
+                  "5c6d450c2e221600114c997d",
+                  "5c6d42cb2e2216000e69d7d1",
+                  "59c1383d86f774290a37e0ca",
+                  "5aaa5e60e5b5b000140293d6",
+                  "5448c1d04bdc2dff2f8b4569",
+                  "5aaa5dfee5b5b000140293d3",
+                  "5d1340b3d7ad1a0b52682ed7",
+                  "544a378f4bdc2d30388b4567",
+                  "5d1340bdd7ad1a0e8d245aab",
+                  "55802d5f4bdc2dac148b458e",
+                  "5d1340cad7ad1a0b0b249869",
+                  "6241c2c2117ad530666a5108",
+                  "5c6592372e221600133e47d7",
+                  "544a37c44bdc2d25388b4567",
+                  "5c6d46132e221601da357d56",
+                  "6761765f1f08ed5e8800b7a6",
+                  "68a63b73c92ee33ffa01bf57"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c394bdc2dae468b4577"
+        },
+        {
+          "_name": "mod_reciever",
+          "_id": "7cd3fc345557556e976f8825",
+          "_parent": "9c16b7be0acc599faffb6086",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5c0e2f26d174af02a9625114",
+                  "55d355e64bdc2d962f8b4569",
+                  "5d4405aaa4b9361e6a4e6bd3",
+                  "5c07a8770db8340023300450",
+                  "59bfe68886f7746004266202",
+                  "63f5ed14534b2c3d5479a677",
+                  "6895becad55f0ebf6a0c0311",
+                  "68a63b90e1fb670852024659",
+                  "68a63b9b8e1fe612970728f7",
+                  "27a61cf47bf55b869bcfee7c"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_stock",
+          "_id": "fcc49ac04dca5d8791b49636",
+          "_parent": "9c16b7be0acc599faffb6086",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a33ca0fc4a282000d72292f",
+                  "5c0faeddd174af02a962601f",
+                  "5649be884bdc2d79388b4577",
+                  "5d120a10d7ad1a4e1026ba85",
+                  "5b0800175acfc400153aebd4",
+                  "5947e98b86f774778f1448bc",
+                  "5947eab886f77475961d96c5",
+                  "602e3f1254072b51b239f713",
+                  "5c793fb92e221644f31bfb64",
+                  "5c793fc42e221600114ca25d",
+                  "591aef7986f774139d495f03",
+                  "591af10186f774139d495f0e",
+                  "627254cc9c563e6e442c398f",
+                  "638de3603a1a4031d8260b8c",
+                  "6761777a1f08ed5e8800b7ac"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_charge",
+          "_id": "fb6178a4d75154499454cfbe",
+          "_parent": "9c16b7be0acc599faffb6086",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5c0faf68d174af02a96260b8",
+                  "56ea7165d2720b6e518b4583",
+                  "55d44fd14bdc2d962f8b456e",
+                  "5ea16d4d5aad6446a939753d",
+                  "5bb20dbcd4351e44f824c04e",
+                  "6033749e88382f4fab3fd2c5",
+                  "5b2240bf5acfc40dc528af69",
+                  "5d44334ba4b9362b346d1948",
+                  "5f633ff5c444ce7e3c30a006",
+                  "651bf5617b3b552ef6712cb7",
+                  "6895bf08e2d16810ba0bf43e"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ],
+      "Chambers": [
+        {
+          "_name": "patron_in_weapon",
+          "_id": "1e4ecb79c136554783f7ba22",
+          "_parent": "9c16b7be0acc599faffb6086",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "59e6920f86f77411d82aa167",
+                  "59e6927d86f77411da468256",
+                  "54527a984bdc2d4e668b4567",
+                  "54527ac44bdc2d36668b4567",
+                  "59e68f6f86f7746c9f75e846",
+                  "59e6906286f7746c9f75e847",
+                  "59e690b686f7746c9f75e848",
+                  "59e6918f86f7746c9f75e849",
+                  "60194943740c5d77f6705eea",
+                  "601949593ae8f707c4608daa",
+                  "5c0d5ae286f7741e46554302"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d4af244bdc2d962f8b4571"
+        }
+      ],
+      "Name": "Radian Weapons Model 1 FA 5.56x45 assault rifle (RAL 8000)",
+      "ShortName": "Model 1",
+      "Description": "Radian Model 1 Full Auto, an AR-15 platform assault rifle chambered for 5.56x45 NATO. The rifle is positioned as a reliable, high-quality, and accurate system for professional and sporting use. Manufactured by Radian Weapons. RAL 8000 Version.",
+      "BackgroundColor": "black",
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
+    },
+    "handbookPriceRoubles": 26397,
+    "fleaPriceRoubles": 276759,
+    "locales": {
+      "en": {
+        "name": "Radian Weapons Model 1 FA 5.56x45 assault rifle (RAL 8000)",
+        "shortName": "Model 1",
+        "description": "Radian Model 1 Full Auto, an AR-15 platform assault rifle chambered for 5.56x45 NATO. The rifle is positioned as a reliable, high-quality, and accurate system for professional and sporting use. Manufactured by Radian Weapons. RAL 8000 Version."
+      },
+      "po": {
+        "name": "Radian Weapons Model 1 FA 5.56x45 assault rifle (RAL 8000)",
+        "shortName": "Model 1",
+        "description": "Radian Model 1 Full Auto, an AR-15 platform assault rifle chambered for 5.56x45 NATO. The rifle is positioned as a reliable, high-quality, and accurate system for professional and sporting use. Manufactured by Radian Weapons. RAL 8000 Version."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_id": "fd39dd5ccd615954bce2febf",
+        "_type": "Preset",
+        "_changeWeaponName": false,
+        "_name": "RAL 8000 MODEL 1",
+        "_parent": "4b0fee3d04e45330ac5554a7",
+        "_items": [
+          {
+            "_id": "4b0fee3d04e45330ac5554a7",
+            "_tpl": "9c16b7be0acc599faffb6086",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Repairable": {
+                "Durability": 100,
+                "MaxDurability": 100
+              },
+              "FireMode": {
+                "FireMode": "fullauto"
+              }
+            }
+          },
+          {
+            "_id": "fd33ef4042ac5c12b6e67e45",
+            "_tpl": "5a339805c4a2826c6e06d73d",
+            "parentId": "4b0fee3d04e45330ac5554a7",
+            "slotId": "mod_pistol_grip",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "6c7eabeea2935bb8ab812c5a",
+            "_tpl": "8805ece53da85942823c9c35",
+            "parentId": "4b0fee3d04e45330ac5554a7",
+            "slotId": "mod_magazine",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "b0b71d101c055a09b67e6bf4",
+            "_tpl": "27a61cf47bf55b869bcfee7c",
+            "parentId": "4b0fee3d04e45330ac5554a7",
+            "slotId": "mod_reciever",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "068010ef60f35e60904d1f6f",
+            "_tpl": "5c793fb92e221644f31bfb64",
+            "parentId": "4b0fee3d04e45330ac5554a7",
+            "slotId": "mod_stock",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "68c7ba7aa1d15318aaa03947",
+            "_tpl": "6895bf08e2d16810ba0bf43e",
+            "parentId": "4b0fee3d04e45330ac5554a7",
+            "slotId": "mod_charge",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "30451ae9e9475eaeab8ececf",
+            "_tpl": "5c0a2cec0db834001b7ce47d",
+            "parentId": "b0b71d101c055a09b67e6bf4",
+            "slotId": "mod_scope",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Sight": {
+                "ScopesCurrentCalibPointIndexes": [
+                  0
+                ],
+                "ScopesSelectedModes": [
+                  0
+                ],
+                "SelectedScope": 0,
+                "ScopeZoomValue": 0
+              }
+            }
+          },
+          {
+            "_id": "fcc6ec10d08c5e559064cdd8",
+            "_tpl": "63d3d44a2a49307baf09386d",
+            "parentId": "b0b71d101c055a09b67e6bf4",
+            "slotId": "mod_barrel",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "9149f2e5dec455d49cda7776",
+            "_tpl": "e873e0b977025e6d81d9a0a2",
+            "parentId": "b0b71d101c055a09b67e6bf4",
+            "slotId": "mod_handguard",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "176858c0d93d526a8d3ca299",
+            "_tpl": "5c18b9192e2216398b5a8104",
+            "parentId": "b0b71d101c055a09b67e6bf4",
+            "slotId": "mod_sight_rear",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Sight": {
+                "ScopesCurrentCalibPointIndexes": [
+                  0
+                ],
+                "ScopesSelectedModes": [
+                  0
+                ],
+                "SelectedScope": 0,
+                "ScopeZoomValue": 0
+              }
+            }
+          },
+          {
+            "_id": "f65a90b654715816bab94a87",
+            "_tpl": "6a15bfa58d059ca69c0a78c0",
+            "parentId": "068010ef60f35e60904d1f6f",
+            "slotId": "mod_stock_000",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "70df7a275f46513bb21fbab2",
+            "_tpl": "6a3cea96194a2625b40c863d",
+            "parentId": "fcc6ec10d08c5e559064cdd8",
+            "slotId": "mod_muzzle",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "4a226fc2897d55119d215cf6",
+            "_tpl": "56eabcd4d2720b66698b4574",
+            "parentId": "fcc6ec10d08c5e559064cdd8",
+            "slotId": "mod_gas_block",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "9e608d83d5d959b1ab27e728",
+            "_tpl": "544909bb4bdc2d6f028b4577",
+            "parentId": "9149f2e5dec455d49cda7776",
+            "slotId": "mod_tactical_000",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Light": {
+                "IsActive": true,
+                "SelectedMode": 0
+              }
+            }
+          },
+          {
+            "_id": "b0b8a71e64fd5cdca0fec0bf",
+            "_tpl": "d365c02ec4a35cb7be897982",
+            "parentId": "9149f2e5dec455d49cda7776",
+            "slotId": "mod_mount_000",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "9fdea0099c855c3fbe11335d",
+            "_tpl": "5c18b90d2e2216152142466b",
+            "parentId": "9149f2e5dec455d49cda7776",
+            "slotId": "mod_sight_front",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Sight": {
+                "ScopesCurrentCalibPointIndexes": [
+                  0
+                ],
+                "ScopesSelectedModes": [
+                  0
+                ],
+                "SelectedScope": 0,
+                "ScopeZoomValue": 0
+              }
+            }
+          },
+          {
+            "_id": "204bf5cd73185541adf44d9f",
+            "_tpl": "651a8e529829226ceb67c319",
+            "parentId": "9149f2e5dec455d49cda7776",
+            "slotId": "mod_foregrip",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "88daa1f8c4b2577dabc08728",
+            "_tpl": "b8a6f585d9ae50918f5b09ac",
+            "parentId": "70df7a275f46513bb21fbab2",
+            "slotId": "mod_muzzle",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "574404b24ba95a8788bb56e4",
+            "_tpl": "0878b569e56e5844b58c7b1f",
+            "parentId": "b0b8a71e64fd5cdca0fec0bf",
+            "slotId": "mod_tactical",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Light": {
+                "IsActive": true,
+                "SelectedMode": 0
+              }
+            }
+          }
+        ],
+        "_encyclopedia": "9c16b7be0acc599faffb6086"
+      }
+    ]
+  },
+  "e873e0b977025e6d81d9a0a2": {
+    "itemTplToClone": "6895bd19d55f0ebf6a0c0306",
+    "parentId": "55818a104bdc2db9688b4569",
+    "handbookParentId": "5b5f75e486f77447ec5d7712",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "aishiweapons/model1_ral8000/handguard_ar15_radian_model1_m_lok_14_inch_finishes_ral8000.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_name": "mod_scope",
+          "_id": "e4f6d8445ae357b5add9de2f",
+          "_parent": "e873e0b977025e6d81d9a0a2",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5649a2464bdc2d91118b45a8"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_tactical_000",
+          "_id": "98b2fc241fe357c9bd454e96",
+          "_parent": "e873e0b977025e6d81d9a0a2",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "57fd23e32459772d0805bcf1",
+                  "544909bb4bdc2d6f028b4577",
+                  "5d10b49bd7ad1a1a560708b0",
+                  "5c06595c0db834001a66af6c",
+                  "5a7b483fe899ef0016170d15",
+                  "61605d88ffa6e502ac5e7eeb",
+                  "5c5952732e2216398b5abda2",
+                  "644a3df63b0b6f03e101e065",
+                  "68bedc0365e7dcf94f0cb0fc"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_mount_000",
+          "_id": "2be4bfa09929560a84782d53",
+          "_parent": "e873e0b977025e6d81d9a0a2",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5b7be47f5acfc400170e2dd2",
+                  "6269545d0e57f218e4548ca2",
+                  "6269220d70b6c02e665f2635",
+                  "669a6a4a525be1d2d004b8eb"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_mount_001",
+          "_id": "cbbdcc0f44b157cf9f7d889f",
+          "_parent": "e873e0b977025e6d81d9a0a2",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5b7be47f5acfc400170e2dd2",
+                  "6269545d0e57f218e4548ca2",
+                  "6269220d70b6c02e665f2635",
+                  "669a6a4a525be1d2d004b8eb"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_mount_002",
+          "_id": "f3b9cc2d2653570a9eda289c",
+          "_parent": "e873e0b977025e6d81d9a0a2",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5b7be47f5acfc400170e2dd2",
+                  "6269545d0e57f218e4548ca2",
+                  "6269220d70b6c02e665f2635",
+                  "669a6a4a525be1d2d004b8eb",
+                  "671126b049e181972e0681fa"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_sight_front",
+          "_id": "3bcf70aa32e7547892236f9e",
+          "_parent": "e873e0b977025e6d81d9a0a2",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ba26b01d4351e0085325a51",
+                  "5dfa3d950dee1b22f862eae0",
+                  "5c17804b2e2216152006c02f",
+                  "5fb6567747ce63734e3fa1dc",
+                  "5bc09a30d4351e00367fb7c8",
+                  "5c18b90d2e2216152142466b",
+                  "5fc0fa362770a0045c59c677",
+                  "5894a73486f77426d259076c",
+                  "55d4af3a4bdc2d972f8b456f"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_foregrip",
+          "_id": "860ccdb6d4795dcb8e3d0db1",
+          "_parent": "e873e0b977025e6d81d9a0a2",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "57cffb66245977632f391a99",
+                  "57cffcd624597763133760c5",
+                  "57cffcdd24597763f5110006",
+                  "57cffce524597763b31685d8",
+                  "5b7be4895acfc400170e2dd5",
+                  "651a8bf3a8520e48047bf708",
+                  "651a8e529829226ceb67c319",
+                  "665d5d9e338229cfd6078da1",
+                  "665edce564fb556f940ab32a"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ],
+      "Name": "AR-15 Radian Model 1 14 inch handguard (RAL 8000)",
+      "ShortName": "Radian 14\"",
+      "Description": "A precision CNC machined 14 inch handguard, equipped with an M-LOK interface for installation of additional equipment. Manufactured by Radian Weapons. RAL 8000 Version.",
+      "BackgroundColor": "blue",
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": true
+    },
+    "handbookPriceRoubles": 22900,
+    "fleaPriceRoubles": 150000,
+    "locales": {
+      "en": {
+        "name": "AR-15 Radian Model 1 14 inch handguard (RAL 8000)",
+        "shortName": "Radian 14\"",
+        "description": "A precision CNC machined 14 inch handguard, equipped with an M-LOK interface for installation of additional equipment. Manufactured by Radian Weapons. RAL 8000 Version."
+      },
+      "po": {
+        "name": "AR-15 Radian Model 1 14 inch handguard (RAL 8000)",
+        "shortName": "Radian 14\"",
+        "description": "A precision CNC machined 14 inch handguard, equipped with an M-LOK interface for installation of additional equipment. Manufactured by Radian Weapons. RAL 8000 Version."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_handguard"
+    ]
+  },
+  "27a61cf47bf55b869bcfee7c": {
+    "itemTplToClone": "6895becad55f0ebf6a0c0311",
+    "parentId": "55818a304bdc2db5418b457d",
+    "handbookParentId": "5b5f764186f77447ec5d7714",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "aishiweapons/model1_ral8000/reciever_ar15_radian_model1_std_finishes_ral8000.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_name": "mod_scope",
+          "_id": "70de6823624652b19a64c905",
+          "_parent": "27a61cf47bf55b869bcfee7c",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "57ac965c24597706be5f975c",
+                  "57aca93d2459771f2c7e26db",
+                  "544a3f024bdc2d1d388b4568",
+                  "544a3a774bdc2d3a388b4567",
+                  "5d2dc3e548f035404a1a4798",
+                  "57adff4f24597737f373b6e6",
+                  "5c0517910db83400232ffee5",
+                  "591c4efa86f7741030027726",
+                  "570fd79bd2720bc7458b4583",
+                  "570fd6c2d2720bc6458b457f",
+                  "558022b54bdc2dac148b458d",
+                  "5c07dd120db834001c39092d",
+                  "5c0a2cec0db834001b7ce47d",
+                  "58491f3324597764bc48fa02",
+                  "584924ec24597768f12ae244",
+                  "5b30b0dc5acfc400153b7124",
+                  "6165ac8c290d254f5e6b2f6c",
+                  "60a23797a37c940de7062d02",
+                  "5d2da1e948f035477b1ce2ba",
+                  "5c0505e00db834001b735073",
+                  "609a63b6e2ff132951242d09",
+                  "584984812459776a704a82a6",
+                  "59f9d81586f7744c7506ee62",
+                  "570fd721d2720bc5458b4596",
+                  "57ae0171245977343c27bfcf",
+                  "5dfe6104585a0c3e995c7b82",
+                  "544a3d0a4bdc2d1b388b4567",
+                  "5d1b5e94d7ad1a2b865a96b0",
+                  "609bab8b455afd752b2e6138",
+                  "58d39d3d86f77445bb794ae7",
+                  "616554fe50224f204c1da2aa",
+                  "5c7d55f52e221644f31bff6a",
+                  "616584766ef05c2ce828ef57",
+                  "5b3b6dc75acfc47a8773fb1e",
+                  "615d8d878004cc50514c3233",
+                  "5b2389515acfc4771e1be0c0",
+                  "577d128124597739d65d0e56",
+                  "618b9643526131765025ab35",
+                  "618bab21526131765025ab3f",
+                  "5c86592b2e2216000e69e77c",
+                  "5a37ca54c4a282000d72296a",
+                  "5d0a29fed7ad1a002769ad08",
+                  "5c064c400db834001d23f468",
+                  "58d2664f86f7747fec5834f6",
+                  "57c69dd424597774c03b7bbc",
+                  "5b3b99265acfc4704b4a1afb",
+                  "5aa66a9be5b5b0214e506e89",
+                  "5aa66c72e5b5b00016327c93",
+                  "5c1cdd302e221602b3137250",
+                  "61714b2467085e45ef140b2c",
+                  "6171407e50224f204c1da3c5",
+                  "61713cc4d8e3106d9806c109",
+                  "5b31163c5acfc400153b71cb",
+                  "5a33b652c4a28232996e407c",
+                  "5a33b2c9c4a282000c5a9511",
+                  "59db7eed86f77461f8380365",
+                  "5a1ead28fcdbcb001912fa9f",
+                  "5dff77c759400025ea5150cf",
+                  "626bb8532c923541184624b4",
+                  "62811f461d5df4475f46a332",
+                  "63fc449f5bd61c6cf3784a88",
+                  "6477772ea8a38bb2050ed4db",
+                  "6478641c19d732620e045e17",
+                  "64785e7c19d732620e045e15",
+                  "65392f611406374f82152ba5",
+                  "653931da5db71d30ab1d6296",
+                  "655f13e0a246670fb0373245",
+                  "6567e751a715f85433025998",
+                  "6761759e7ee06333f108bf86",
+                  "67641a851b2899700609901a",
+                  "68a5ab09c44fa287ba0a97b5",
+                  "688a0bf28cdd409ce60911ce",
+                  "68caacc7933990601c07f479",
+                  "68caacb4c8ac87b10507c5a6"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_barrel",
+          "_id": "064b5fcc1c6c5f2c9e33a047",
+          "_parent": "27a61cf47bf55b869bcfee7c",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "55d35ee94bdc2d61338b4568",
+                  "55d3632e4bdc2d972f8b4569",
+                  "5d440b93a4b9364276578d4b",
+                  "5d440b9fa4b93601354d480c",
+                  "5c0e2f94d174af029f650d56",
+                  "63d3ce0446bd475bcb50f55f",
+                  "63d3d44a2a49307baf09386d",
+                  "68a86bd51d1284a8e20e39d5",
+                  "68caabc3f42a4476cf0be2a6",
+                  "68caaa93269e10396503acf6",
+                  "68a63ac58e1fe612970728f2"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_handguard",
+          "_id": "6effe976da4c50b89dc9381a",
+          "_parent": "27a61cf47bf55b869bcfee7c",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5c0e2f5cd174af02a012cfc9",
+                  "619b5db699fb192e7430664f",
+                  "5b2cfa535acfc432ff4db7a0",
+                  "5ae30db85acfc408fb139a05",
+                  "5c9a25172e2216000f20314e",
+                  "55f84c3c4bdc2d5f408b4576",
+                  "588b56d02459771481110ae2",
+                  "5c9a26332e2216001219ea70",
+                  "5ea16ada09aa976f2e7a51be",
+                  "5ea16acdfadf1d18c87b0784",
+                  "55d459824bdc2d892f8b4573",
+                  "5d122e7bd7ad1a07102d6d7f",
+                  "5d123102d7ad1a004e475fe5",
+                  "5d4405f0a4b9361e6a4e6bd9",
+                  "5c78f2792e221600106f4683",
+                  "5c78f26f2e221601da3581d1",
+                  "5c78f2492e221600114c9f04",
+                  "5c78f2612e221600114c9f0d",
+                  "6034e3e20ddce744014cb878",
+                  "6034e3d953a60014f970617b",
+                  "6034e3cb0ddce744014cb870",
+                  "5c6d5d8b2e221644fc630b39",
+                  "5d00e0cbd7ad1a6c6566a42d",
+                  "5d00f63bd7ad1a59283b1c1e",
+                  "6087e0336d0bd7580617bb7a",
+                  "595cf16b86f77427440c32e2",
+                  "63888bbd28e5cc32cc09d2b6",
+                  "63f4ba71f31d4a33b87bd046",
+                  "640b20359ab20e15ee445fa9",
+                  "647de824196bf69818044c93",
+                  "6895bd19d55f0ebf6a0c0306",
+                  "e873e0b977025e6d81d9a0a2"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_sight_rear",
+          "_id": "5db15b42821b5a358774f925",
+          "_parent": "27a61cf47bf55b869bcfee7c",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5bb20e49d4351e3bac1212de",
+                  "5ba26b17d4351e00367f9bdd",
+                  "5dfa3d7ac41b2312ea33362a",
+                  "5c1780312e221602b66cc189",
+                  "5fb6564947ce63734e3fa1da",
+                  "5bc09a18d4351e003562b68e",
+                  "5c18b9192e2216398b5a8104",
+                  "5fc0fa957283c4046c58147e",
+                  "5894a81786f77427140b8347",
+                  "55d5f46a4bdc2d1b198b4567",
+                  "5ae30bad5acfc400185c2dc4"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ],
+      "Name": "AR-15 Radian Weapons Model 1 5.56x45 upper receiver (RAL 8000)",
+      "ShortName": "Model 1",
+      "Description": "A precision CNC machined upper receiver for the AR-15 platform. Manufactured by Radian Weapons. RAL 8000 Version.",
+      "BackgroundColor": "blue",
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": true
+    },
+    "handbookPriceRoubles": 34845,
+    "fleaPriceRoubles": 345345,
+    "locales": {
+      "en": {
+        "name": "AR-15 Radian Weapons Model 1 5.56x45 upper receiver (RAL 8000)",
+        "shortName": "Model 1",
+        "description": "A precision CNC machined upper receiver for the AR-15 platform. Manufactured by Radian Weapons. RAL 8000 Version."
+      },
+      "po": {
+        "name": "AR-15 Radian Weapons Model 1 5.56x45 upper receiver (RAL 8000)",
+        "shortName": "Model 1",
+        "description": "A precision CNC machined upper receiver for the AR-15 platform. Manufactured by Radian Weapons. RAL 8000 Version."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_reciever"
+    ]
+  }
+}

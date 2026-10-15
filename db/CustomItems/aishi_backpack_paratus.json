@@ -1,32 +1,17 @@
 {
   "6a12553381219c9c8d5e5e0e": {
-
     "itemTplToClone": "59e763f286f7742ee57895da",
     "parentId": "5448e53e4bdc2d60728b4567",
     "handbookParentId": "5b5f6f6c86f774093f2ecf0b",
-
     "overrideProperties": {
-      "QuestItem": false,  
       "ExaminedByDefault": false,
-      "IsUnsaleable": false,
-      "CanSellOnRagfair": false,
-      "CanRequireOnRagfair": false,
       "InsuranceDisabled": true,
-      "addtoItemBlacklist": false,   
-        
-
+      "addtoItemBlacklist": false,
       "Prefab": {
-
         "path": "equipment/item_equipment_backpack_paratus_3_day_black.bundle",
         "rcid": ""
       },
-
-      "Width": 5,
-      "Height": 7,
-
-
       "Weight": 2.25,
-
       "Grids": [
         {
           "_name": "main",
@@ -64,47 +49,36 @@
         }
       ]
     },
-
     "locales": {
       "en": {
         "name": "Extended 3V Gear Paratus 3-Day Operator's Tactical backpack (USEC Intelligence Support Bureau)",
         "shortName": "Paratus",
         "description": "A modular, PVC-backed, polyester backpack for PMC operators who are going to be traversing across the rugged terrain of the Norvinsk region."
       },
-        "po": {
+      "po": {
         "name": "Mochila 3V G Paratus 3-Day Operator's Tactical expandida (Agência de Suporte a Inteligência da USEC)",
         "shortName": "Paratus",
         "description": "Uma mochila modular de poliéster com revestimento de PVC destinada a operadores da PMC que irão percorrer o terreno acidentado da região de Norvinsk."
       }
     },
-
     "fleaPriceRoubles": 108900,
-
     "handbookPriceRoubles": 78900,
-
-    "addtoInventorySlots": ["Backpack"],
-
+    "addtoInventorySlots": [
+      "Backpack"
+    ],
     "addtoBots": true,
-
     "CanSellOnRagfair": false,
-
     "IsAlwaysAvailableForInsurance": false,
-
     "InsuranceDisabled": true,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",
         "Probability": 0
       }
     ],
-
     "addtoSecureFilters": false
   }
 }

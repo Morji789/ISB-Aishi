@@ -1,6 +1,6 @@
 {
-"69aa071620304e3c448378fc name": "Fishing for Information (Ragman)",
-    "69aa071620304e3c448378fc description": "That's not very common in Tarkov, did anyone get hurt? Well, I'd like to help if I could, but I don't know anything. I hope you find the answers you're looking for, mercenary!",
-    "69aa071620304e3c448378fc successMessageText": "Good luck, mercenary!",
-    "69b3a69b466316f7fd06e5dc": "Talk to Ragman about the events at Lighthouse"
+  "69aa071620304e3c448378fc name": "Fishing for Information (Ragman)",
+  "69aa071620304e3c448378fc description": "That's not very common in Tarkov, did anyone get hurt? Well, I'd like to help if I could, but I don't know anything. I hope you find the answers you're looking for, mercenary!",
+  "69aa071620304e3c448378fc successMessageText": "Good luck, mercenary!",
+  "69b3a69b466316f7fd06e5dc": "Talk to Ragman about the events at Lighthouse"
 }

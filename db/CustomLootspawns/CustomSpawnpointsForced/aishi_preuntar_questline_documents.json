@@ -1,86 +1,86 @@
 {
-    "Shoreline": [     
-        {
-            "locationId": "(-320.650, -2.955, -75.661)",
-            "probability": 0.25,
-            "template": {
-                "Id": "698964b3838a4c00fb9d239a",
-                "IsContainer": false,
-                "useGravity": true,
-                "randomRotation": false,
-                "Position": {
-                    "x": -320.650,
-                    "y": -2.955,
-                    "z": -75.661
-                },
-                "Rotation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                },
-                "IsGroupPosition": false,
-                "GroupPositions": [],
-                "IsAlwaysSpawn": false,
-                "Root": "698964b7454abbf461f1a507",
-                "Items": [
-                    {
-                        "_id": "698964b7454abbf461f1a507",
-                        "_tpl": "69895ab4bac10fe7a55b5fba",
-                        "upd": {
-                            "StackObjectsCount": 1
-                        }
-                    }
-                ]
-            },
-            "itemDistribution": [
-                {
-                    "composedKey": {
-                        "key": "698964c848e3eaaf4319b240"
-                    },
-                    "relativeProbability": 1
-                }
-            ]
+  "Shoreline": [
+    {
+      "locationId": "(-320.650, -2.955, -75.661)",
+      "probability": 0.25,
+      "template": {
+        "Id": "698964b3838a4c00fb9d239a",
+        "IsContainer": false,
+        "useGravity": true,
+        "randomRotation": false,
+        "Position": {
+          "x": -320.65,
+          "y": -2.955,
+          "z": -75.661
         },
+        "Rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "IsAlwaysSpawn": false,
+        "Root": "698964b7454abbf461f1a507",
+        "Items": [
+          {
+            "_id": "698964b7454abbf461f1a507",
+            "_tpl": "69895ab4bac10fe7a55b5fba",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      },
+      "itemDistribution": [
         {
-            "locationId": "(100.244 -44.303 107.008)",
-            "probability": 0.25,
-            "template": {
-                "Id": "698964be82d5681d20e266ed",
-                "IsContainer": false,
-                "useGravity": true,
-                "randomRotation": false,
-                "Position": {
-                    "x": 100.244,
-                    "y": -44.303,
-                    "z": 107.008
-                },
-                "Rotation": {
-                    "x": 275,
-                    "y": 0,
-                    "z": 0
-                },
-                "IsGroupPosition": false,
-                "GroupPositions": [],
-                "IsAlwaysSpawn": false,
-                "Root": "698964c123dcf96ffea464a7",
-                "Items": [
-                    {
-                        "_id": "698964c123dcf96ffea464a7",
-                        "_tpl": "69895d2ebf2c588cb5503924",
-                        "upd": {
-                            "StackObjectsCount": 1
-                        }
-                    }
-                ]
-            },
-            "itemDistribution": [
-                {
-                    "composedKey": {
-                        "key": "698964c5e47a3985d61915fa"
-                    },
-                    "relativeProbability": 1
-                }
-            ]
+          "composedKey": {
+            "key": "698964c848e3eaaf4319b240"
+          },
+          "relativeProbability": 1
         }
-    ]
+      ]
+    },
+    {
+      "locationId": "(100.244 -44.303 107.008)",
+      "probability": 0.25,
+      "template": {
+        "Id": "698964be82d5681d20e266ed",
+        "IsContainer": false,
+        "useGravity": true,
+        "randomRotation": false,
+        "Position": {
+          "x": 100.244,
+          "y": -44.303,
+          "z": 107.008
+        },
+        "Rotation": {
+          "x": 275,
+          "y": 0,
+          "z": 0
+        },
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "IsAlwaysSpawn": false,
+        "Root": "698964c123dcf96ffea464a7",
+        "Items": [
+          {
+            "_id": "698964c123dcf96ffea464a7",
+            "_tpl": "69895d2ebf2c588cb5503924",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      },
+      "itemDistribution": [
+        {
+          "composedKey": {
+            "key": "698964c5e47a3985d61915fa"
+          },
+          "relativeProbability": 1
+        }
+      ]
+    }
+  ]
 }

@@ -1,0 +1,29 @@
+[
+  {
+    "type": "top",
+    "suiteId": "ca159cc5bcda5a77b0eb3a97",
+    "outfitId": "85a64435d1055f4488e7a2ac",
+    "topId": "a10385d64ada5494a71a51fc",
+    "handsId": "7bf16e935ea95e509f0bc161",
+    "locales": {
+      "en": {
+        "name": "Roze's Virago Upper - Nightops",
+        "description": "Roze's Virago Upper - Nightops tactical clothing."
+      },
+      "po": {
+        "name": "Roze's Virago Upper - Nightops",
+        "description": "Roze's Virago Upper - Nightops / roupa tática."
+      }
+    },
+    "topBundlePath": "clothing/roze_nightops/roze_virago_top_nightops.bundle",
+    "handsBundlePath": "clothing/roze_nightops/roze_virago_hands_nightops.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 30,
+    "standing": 0.4,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 2500,
+    "questRequirements": [],
+    "achievementRequirements": []
+  }
+]

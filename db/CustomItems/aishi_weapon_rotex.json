@@ -1,33 +1,18 @@
 {
   "6a36c4a9048318267fba37a9": {
-
     "itemTplToClone": "5ba26ae8d4351e00367f9bdb",
     "parentId": "550aa4cd4bdc2dd8348b456c",
     "handbookParentId": "5b5f731a86f774093e6cb4f9",
-
-
-    "overrideProperties": { 
-        "ExaminedByDefault": true,
-        "IsUnsaleable": true,
-        "IsUnbuyable": true,
-        "CanSellOnRagfair": true,
-        "CanRequireOnRagfair": true,
-        "addtoItemBlacklist": false,   
-
+    "overrideProperties": {
+      "IsUnsaleable": true,
+      "IsUnbuyable": true,
+      "CanRequireOnRagfair": true,
+      "addtoItemBlacklist": false,
       "Prefab": {
-
         "path": "equipment/silencer_mp7_bt_rotex_2_46x30_tan.bundle",
         "rcid": ""
-      },
-
-
-      "Width": 2,
-      "Height": 1,
-      "Weight": 0.607
+      }
     },
-
-
-
     "locales": {
       "en": {
         "name": "HK MP7 B&T Rotex 2 4.6x30 sound suppressor (Tan)",
@@ -39,23 +24,15 @@
         "shortName": "Rotex 2",
         "description": "O Rotex 2 é um silenciador de 4,6 x 30 mm fabricado pela Brügger & Thomet. É instalado nas submetralhadoras HK MP7. Versão na cor bege."
       }
-    
     },
-
     "fleaPriceRoubles": 99150,
-
     "handbookPriceRoubles": 62790,
-
     "addtoBots": true,
-
     "addtoModSlots": true,
-    
     "modSlot": [
       "mod_muzzle"
     ],
-
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",
@@ -64,57 +41,42 @@
     ]
   },
   "6a36c59807f70ebddae4b757": {
-
     "itemTplToClone": "5ba26586d4351e44f824b340",
     "parentId": "5448bc234bdc2d3c308b4569",
     "handbookParentId": "5b5f754a86f774094242f19b",
-
-
-    "overrideProperties": { 
-        "ExaminedByDefault": true,
-        "IsUnsaleable": true,
-        "IsUnbuyable": true,
-        "CanSellOnRagfair": true,
-        "CanRequireOnRagfair": true,
-        "addtoItemBlacklist": false,   
-        "Ergonomics": -2,
-        "CanPutIntoDuringTheRaid": true,
-        "Cartridges": [
-          {
-        "_id": "6a36c5b357777419e17b0d21",
-        "_max_count": 40,
-        "_name": "cartridges",
-        "_parent": "6a36c59807f70ebddae4b757",
-        "_props": {
-          "filters": [
-            {
-              "Filter": [
-                "5ba26812d4351e003201fef1",
-                "5ba26835d4351e0035628ff5",
-                "5ba2678ad4351e44f824b344",
-                "5ba26844d4351e00334c9475",
-                "64b6979341772715af0f9c39"
-              ]
-            }
-          ]
-        },
-        "_proto": "6a36c5b6f798d043fd104421"
-          }
-        ],
+    "overrideProperties": {
+      "IsUnsaleable": true,
+      "IsUnbuyable": true,
+      "CanRequireOnRagfair": true,
+      "addtoItemBlacklist": false,
+      "Ergonomics": -2,
+      "Cartridges": [
+        {
+          "_id": "6a36c5b357777419e17b0d21",
+          "_max_count": 40,
+          "_name": "cartridges",
+          "_parent": "6a36c59807f70ebddae4b757",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ba26812d4351e003201fef1",
+                  "5ba26835d4351e0035628ff5",
+                  "5ba2678ad4351e44f824b344",
+                  "5ba26844d4351e00334c9475",
+                  "64b6979341772715af0f9c39"
+                ]
+              }
+            ]
+          },
+          "_proto": "6a36c5b6f798d043fd104421"
+        }
+      ],
       "Prefab": {
-
         "path": "equipment/mag_mp7_hk_std_46x30_40_tan.bundle",
         "rcid": ""
-      },
-
-
-      "Width": 1,
-      "Height": 2,
-      "Weight": 0.2
+      }
     },
-
-
-
     "locales": {
       "en": {
         "name": "HK MP7 4.6x30 40-round magazine (Tan)",
@@ -126,29 +88,18 @@
         "shortName": "MP7",
         "description": "Um carregador padrão de 40 cartuchos, calibre 4,6x30, para as submetralhadoras MP7, fabricado pela Heckler & Koch. Versão na cor bege."
       }
-    
     },
-
     "fleaPriceRoubles": 31505,
-
     "handbookPriceRoubles": 13142,
-
     "addtoBots": true,
-
     "addtoModSlots": true,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": false, 
-    
+    "addtoItemBlacklist": false,
     "modSlot": [
       "mod_magazine"
     ],
-
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",

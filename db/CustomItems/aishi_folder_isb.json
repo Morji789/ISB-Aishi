@@ -1,30 +1,18 @@
 {
   "693a3be2c852f2c79c4fa10f": {
-
     "itemTplToClone": "5c12613b86f7743bbe2c3f76",
     "parentId": "5448ecbe4bdc2d60728b4568",
     "handbookParentId": "5b47574386f77428ca22b341",
-
-
     "overrideProperties": {
-      "QuestItem": false,  
-      "ExaminedByDefault": true,
-        
-
       "Prefab": {
-
         "path": "intel/item_intel_folder_isb.bundle",
         "rcid": ""
       },
-
-
       "Width": 1,
       "Height": 2,
       "Weight": 0.26,
-
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "Intelligence Support Bureau intel plans",
@@ -36,85 +24,57 @@
         "shortName": "Intel da ASI",
         "description": "Esses arquivos incluem a documentação relevante relativa ao ISB (Intelligence Support Bureau), uma organização auxiliar da USEC dedicada a atividades de inteligência e contra-espionagem. Este documento será útil para quem desejar saber mais sobre o trabalho dessa agência secreta ou de seus membros."
       }
-    
     },
-
-    "fleaPriceRoubles": 1,
-
-    "handbookPriceRoubles": 1,
-
+    "fleaPriceRoubles": 418264,
+    "handbookPriceRoubles": 69000,
     "addtoHideoutPosterSlots": false,
-
     "addPosterToMaps": false,
-
     "posterSpawnProbability": 0,
-
     "addtoStatuetteSlots": false,
-
     "addCaliberToAllCloneLocations": false,
-
     "addtoStaticAmmo": false,
-
     "staticAmmoProbability": 0,
-
     "addtoBots": false,
-
     "addtoSpecialSlots": false,
-
     "addtoModSlots": false,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
-    "modSlot": [""],
-
+    "addtoItemBlacklist": true,
+    "modSlot": [
+      ""
+    ],
     "addtoHallOfFame": false,
-
     "hallOfFameSlots": [
-      "bigTrophies", 
-      "smallTrophies", 
+      "bigTrophies",
+      "smallTrophies",
       "dogTags"
     ],
-
     "addtoGeneratorAsFuel": false,
-
     "generatorFuelSlotStages": [
       "1",
       "2",
       "3"
     ],
-
     "addtoEmptyPropSlots": false,
-
     "emptyPropSlot": {
       "itemToAddTo": "",
       "modSlot": ""
     },
-
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",
         "Probability": 0
       }
     ],
-
-
     "addtoSecureFilters": false,
-
     "addtoTraders": false,
-
-    "traders": {
-          },
-          "barters": [
-            {
-              "count": 0,
-              "_tpl": "0" 
-            }
-          ]
+    "traders": {},
+    "barters": [
+      {
+        "count": 0,
+        "_tpl": "0"
+      }
+    ]
   }
 }

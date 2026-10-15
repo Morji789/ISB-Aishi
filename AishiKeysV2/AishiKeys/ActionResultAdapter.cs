@@ -8,15 +8,12 @@ namespace AishiKeys
 {
     internal static class ActionResultAdapter
     {
-        private const BindingFlags InstanceFlags =
-            BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic;
-
+        private const BindingFlags InstanceFlags = BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic;
         internal static IEnumerable<object> EnumerateActions(object result)
         {
             object collection = GetMemberValue(result, "Actions");
             if (!(collection is IEnumerable enumerable))
                 yield break;
-
             foreach (object action in enumerable)
             {
                 if (action != null)
@@ -24,20 +21,14 @@ namespace AishiKeys
             }
         }
 
-        internal static bool TryAddAction(
-            object result,
-            string name,
-            bool disabled,
-            Action callback)
+        internal static bool TryAddAction(object result, string name, bool disabled, Action callback)
         {
             object collection = GetMemberValue(result, "Actions");
             if (collection == null)
                 return false;
-
             Type actionType = ResolveCollectionElementType(collection);
             if (actionType == null)
                 return false;
-
             object action;
             try
             {
@@ -48,10 +39,7 @@ namespace AishiKeys
                 return false;
             }
 
-            if (action == null ||
-                !TrySetMemberValue(action, "Name", name) ||
-                !TrySetMemberValue(action, "Disabled", disabled) ||
-                !TrySetMemberValue(action, "Action", callback))
+            if (action == null || !TrySetMemberValue(action, "Name", name) || !TrySetMemberValue(action, "Disabled", disabled) || !TrySetMemberValue(action, "Action", callback))
             {
                 return false;
             }
@@ -73,7 +61,6 @@ namespace AishiKeys
         {
             if (instance == null)
                 return null;
-
             Type type = instance.GetType();
             PropertyInfo property = type.GetProperty(name, InstanceFlags);
             if (property != null && property.GetIndexParameters().Length == 0)
@@ -106,7 +93,6 @@ namespace AishiKeys
         {
             if (instance == null)
                 return false;
-
             Type type = instance.GetType();
             PropertyInfo property = type.GetProperty(name, InstanceFlags);
             if (property != null && property.CanWrite && property.GetIndexParameters().Length == 0)
@@ -148,15 +134,12 @@ namespace AishiKeys
         private static bool TryConvertValue(object value, Type targetType, out object converted)
         {
             converted = null;
-
             if (targetType == null)
                 return false;
-
             if (value == null)
             {
                 if (!targetType.IsValueType || Nullable.GetUnderlyingType(targetType) != null)
                     return true;
-
                 return false;
             }
 
@@ -170,9 +153,7 @@ namespace AishiKeys
             {
                 try
                 {
-                    converted = sourceDelegate.Target == null
-                        ? Delegate.CreateDelegate(targetType, sourceDelegate.Method)
-                        : Delegate.CreateDelegate(targetType, sourceDelegate.Target, sourceDelegate.Method);
+                    converted = sourceDelegate.Target == null ? Delegate.CreateDelegate(targetType, sourceDelegate.Method) : Delegate.CreateDelegate(targetType, sourceDelegate.Target, sourceDelegate.Method);
                     return converted != null;
                 }
                 catch
@@ -187,18 +168,16 @@ namespace AishiKeys
         private static Type ResolveCollectionElementType(object collection)
         {
             Type collectionType = collection.GetType();
-            IEnumerable<Type> types = new[] { collectionType }
-                .Concat(collectionType.GetInterfaces());
-
+            IEnumerable<Type> types = new[]
+            {
+                collectionType
+            }.Concat(collectionType.GetInterfaces());
             foreach (Type type in types)
             {
                 if (!type.IsGenericType)
                     continue;
-
                 Type definition = type.GetGenericTypeDefinition();
-                if (definition == typeof(ICollection<>) ||
-                    definition == typeof(IList<>) ||
-                    definition == typeof(IEnumerable<>))
+                if (definition == typeof(ICollection<>) || definition == typeof(IList<>) || definition == typeof(IEnumerable<>))
                 {
                     Type elementType = type.GetGenericArguments()[0];
                     if (elementType != typeof(object))
@@ -232,16 +211,9 @@ namespace AishiKeys
                 }
             }
 
-            MethodInfo addMethod = collection.GetType()
-                .GetMethods(InstanceFlags)
-                .Where(method => string.Equals(method.Name, "Add", StringComparison.Ordinal))
-                .Where(method => method.GetParameters().Length == 1)
-                .FirstOrDefault(method =>
-                    method.GetParameters()[0].ParameterType.IsInstanceOfType(value));
-
+            MethodInfo addMethod = collection.GetType().GetMethods(InstanceFlags).Where(method => string.Equals(method.Name, "Add", StringComparison.Ordinal)).Where(method => method.GetParameters().Length == 1).FirstOrDefault(method => method.GetParameters()[0].ParameterType.IsInstanceOfType(value));
             if (addMethod == null)
                 return false;
-
             try
             {
                 addMethod.Invoke(collection, new[] { value });

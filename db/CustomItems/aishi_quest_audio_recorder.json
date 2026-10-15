@@ -1,30 +1,16 @@
 {
   "6943505f5ebe991629d48f0d": {
-
     "itemTplToClone": "590a3efd86f77437d351a25b",
     "parentId": "5448ecbe4bdc2d60728b4568",
     "handbookParentId": "5b47574386f77428ca22b341",
-
-
     "overrideProperties": {
-      "QuestItem": false,  
-      "ExaminedByDefault": true,
-        
-
       "Prefab": {
-
         "path": "quests/quest_item_info_audio_recorder1.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
-      "Height": 2,
       "Weight": 0.23,
-
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "H4n Pro Audio Recorder",
@@ -36,85 +22,57 @@
         "shortName": "H4n PRO",
         "description": "Um equipamento de alta qualidade em captação de áudio o H4n fabricado pela Zoom Corporation é referência em gravação de som e qualidade de áudio. O H4n Pro é o \"padrão ouro\" para cineastas independentes e qualquer pessoa que precise gravar sons com alta confiabilidade."
       }
-    
     },
-
-    "fleaPriceRoubles": 1,
-
-    "handbookPriceRoubles": 1,
-
+    "fleaPriceRoubles": 24836,
+    "handbookPriceRoubles": 21697,
     "addtoHideoutPosterSlots": false,
-
     "addPosterToMaps": false,
-
     "posterSpawnProbability": 0,
-
     "addtoStatuetteSlots": false,
-
     "addCaliberToAllCloneLocations": false,
-
     "addtoStaticAmmo": false,
-
     "staticAmmoProbability": 0,
-
     "addtoBots": false,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "addtoSpecialSlots": false,
-
     "addtoModSlots": false,
-
-    "modSlot": [""],
-
+    "modSlot": [
+      ""
+    ],
     "addtoHallOfFame": false,
-
     "hallOfFameSlots": [
-      "bigTrophies", 
-      "smallTrophies", 
+      "bigTrophies",
+      "smallTrophies",
       "dogTags"
     ],
-
     "addtoGeneratorAsFuel": false,
-
     "generatorFuelSlotStages": [
       "1",
       "2",
       "3"
     ],
-
     "addtoEmptyPropSlots": false,
-
     "emptyPropSlot": {
       "itemToAddTo": "",
       "modSlot": ""
     },
-
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",
         "Probability": 0
       }
     ],
-
-
     "addtoSecureFilters": false,
-
     "addtoTraders": false,
-
-    "traders": {
-          },
-          "barters": [
-            {
-              "count": 0,
-              "_tpl": "0" 
-            }
-          ]
+    "traders": {},
+    "barters": [
+      {
+        "count": 0,
+        "_tpl": "0"
+      }
+    ]
   }
 }

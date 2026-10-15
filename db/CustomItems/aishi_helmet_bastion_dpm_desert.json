@@ -1,0 +1,131 @@
+{
+  "6db14eedb7735d47aa2b3815": {
+    "itemTplToClone": "66b5f65ca7f72d197e70bcd6",
+    "parentId": "5a341c4086f77401f2541505",
+    "handbookParentId": "5b47574386f77428ca22b330",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "equipment/item_equipment_helmet_bastion_dpm_desert_aishi.bundle",
+        "rcid": ""
+      },
+      "Name": "Ballistic Armor Co. Bastion helmet (DPM Desert)",
+      "ShortName": "BAC Bastion (DPM Desert)",
+      "Description": "The Bastion NIJ level IIIA tactical helmet designed for law enforcement and civilian use. Equipped with M-LOK interface rails for mounting additional equipment. Manufactured by Ballistic Armor Co. DPM Desert version.",
+      "CanSellOnRagfair": false,
+      "Slots": [
+        {
+          "_id": "3e8a4f2bbca654cfaecf8a0e",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_nvg",
+          "_parent": "6db14eedb7735d47aa2b3815",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5c0558060db834001b735271",
+                  "5a16b8a9fcdbcb00165aa6ca"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "3107b1a20b585dde878f2876",
+          "_mergeSlotWithChildren": true,
+          "_name": "Helmet_top",
+          "_parent": "6db14eedb7735d47aa2b3815",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "66b61cfae98be930d701c029"
+                ],
+                "Plate": "66b61cfae98be930d701c029",
+                "armorColliders": [
+                  "ParietalHead"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        },
+        {
+          "_id": "08e02e7d185155f69f2c6ac9",
+          "_mergeSlotWithChildren": true,
+          "_name": "Helmet_back",
+          "_parent": "6db14eedb7735d47aa2b3815",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "66b61ce0c5d72b027748867e"
+                ],
+                "Plate": "66b61ce0c5d72b027748867e",
+                "armorColliders": [
+                  "BackHead"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Ballistic Armor Co. Bastion helmet (DPM Desert)",
+        "shortName": "BAC Bastion",
+        "description": "The Bastion NIJ level IIIA tactical helmet designed for law enforcement and civilian use. Equipped with M-LOK interface rails for mounting additional equipment. Manufactured by Ballistic Armor Co. DPM Desert version."
+      }
+    },
+    "handbookPriceRoubles": 13205,
+    "fleaPriceRoubles": 13205,
+    "addtoInventorySlots": [
+      "HeadWear"
+    ],
+    "addtoBots": false,
+    "addtoTraders": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_id": "dc84fe7b8aea5350a163587e",
+        "_type": "Preset",
+        "_changeWeaponName": false,
+        "_name": "Ballistic Armor Co. Bastion helmet (DPM Desert)",
+        "_parent": "eaad326820ad595a93a9057a",
+        "_encyclopedia": "6db14eedb7735d47aa2b3815",
+        "_items": [
+          {
+            "_id": "eaad326820ad595a93a9057a",
+            "_tpl": "6db14eedb7735d47aa2b3815"
+          },
+          {
+            "_id": "87a32e47495c590eabfc2756",
+            "_tpl": "66b61cfae98be930d701c029",
+            "parentId": "eaad326820ad595a93a9057a",
+            "slotId": "Helmet_top"
+          },
+          {
+            "_id": "f1f68888310552f7b2310e1b",
+            "_tpl": "66b61ce0c5d72b027748867e",
+            "parentId": "eaad326820ad595a93a9057a",
+            "slotId": "Helmet_back"
+          }
+        ]
+      }
+    ]
+  }
+}

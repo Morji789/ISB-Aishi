@@ -1,0 +1,144 @@
+{
+  "21facf3305b055d18e098abb": {
+    "itemTplToClone": "63737f448b28897f2802b874",
+    "parentId": "5448e54d4bdc2dcc718b4568",
+    "handbookParentId": "5b5f701386f774093f2ecf0f",
+    "overrideProperties": {
+      "Description": "A plate carrier by Hexatac. A minimalistic version designed to be used with chest rigs. Black Camo Version.",
+      "Grids": [],
+      "Name": "Hexatac HPC Plate Carrier (Black Camo)",
+      "Prefab": {
+        "path": "equipment/item_equipment_armor_hexatac_blackcamo_aishi.bundle",
+        "rcid": ""
+      },
+      "ShortName": "HPC",
+      "Slots": [
+        {
+          "_id": "4f78a6460e0153dc9b7e29c1",
+          "_mergeSlotWithChildren": true,
+          "_name": "Front_plate",
+          "_parent": "21facf3305b055d18e098abb",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "656f9d5900d62bcd2e02407c",
+                  "656fa8d700d62bcd2e024084",
+                  "656fa99800d62bcd2e024088",
+                  "656fae5f7c2d57afe200c0d7",
+                  "656faf0ca0dce000a2020f77",
+                  "656fafe3498d1b7e3e071da4",
+                  "656fa0fb498d1b7e3e071d9c",
+                  "656fa76500d62bcd2e024080",
+                  "656fad8c498d1b7e3e071da0",
+                  "656fa25e94b480b8a500c0e0",
+                  "656fa61e94b480b8a500c0e8",
+                  "656fb21fa0dce000a2020f7c",
+                  "656fac30c6baea13cd07e10c",
+                  "656fb0bd7c2d57afe200c0dc",
+                  "656f9fa0498d1b7e3e071d98",
+                  "656fa53d94b480b8a500c0e4",
+                  "655746010177119f4a097ff7",
+                  "64afdcb83efdfea28601d041"
+                ],
+                "Plate": "656fae5f7c2d57afe200c0d7",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_chest"
+                ],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": false
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": false
+        },
+        {
+          "_id": "f8cc09b09bda5e0e9ad5bfdd",
+          "_mergeSlotWithChildren": true,
+          "_name": "Back_plate",
+          "_parent": "21facf3305b055d18e098abb",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "656f9d5900d62bcd2e02407c",
+                  "656fa8d700d62bcd2e024084",
+                  "656fa99800d62bcd2e024088",
+                  "656fae5f7c2d57afe200c0d7",
+                  "656faf0ca0dce000a2020f77",
+                  "656fa0fb498d1b7e3e071d9c",
+                  "656fafe3498d1b7e3e071da4",
+                  "656fa25e94b480b8a500c0e0",
+                  "656fa76500d62bcd2e024080",
+                  "656fad8c498d1b7e3e071da0",
+                  "656fa61e94b480b8a500c0e8",
+                  "656fb21fa0dce000a2020f7c",
+                  "656fac30c6baea13cd07e10c",
+                  "656fb0bd7c2d57afe200c0dc",
+                  "656f9fa0498d1b7e3e071d98",
+                  "656fa53d94b480b8a500c0e4",
+                  "655746010177119f4a097ff7",
+                  "64afdcb83efdfea28601d041"
+                ],
+                "Plate": "656fae5f7c2d57afe200c0d7",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_back"
+                ],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": false
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": false
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Hexatac HPC Plate Carrier (Black Camo)",
+        "shortName": "HPC",
+        "description": "A plate carrier by Hexatac. A minimalistic version designed to be used with chest rigs. Black Camo Version."
+      }
+    },
+    "handbookPriceRoubles": 70717,
+    "fleaPriceRoubles": 47509,
+    "addtoInventorySlots": [],
+    "addtoBots": false,
+    "addtoTraders": false,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": false,
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_changeWeaponName": false,
+        "_encyclopedia": "21facf3305b055d18e098abb",
+        "_id": "54e9a96fc76650adb6f9ca88",
+        "_items": [
+          {
+            "_id": "1b1e041d290e5cff89cffcdc",
+            "_tpl": "21facf3305b055d18e098abb"
+          },
+          {
+            "_id": "e17316b776dc56b996e198d6",
+            "_tpl": "656fae5f7c2d57afe200c0d7",
+            "parentId": "1b1e041d290e5cff89cffcdc",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "b16fe19853e55ef8b7611b22",
+            "_tpl": "656fae5f7c2d57afe200c0d7",
+            "parentId": "1b1e041d290e5cff89cffcdc",
+            "slotId": "Back_plate"
+          }
+        ],
+        "_name": "Hexatac HPC Plate Carrier (Black Camo)",
+        "_parent": "1b1e041d290e5cff89cffcdc",
+        "_type": "Preset"
+      }
+    ]
+  }
+}

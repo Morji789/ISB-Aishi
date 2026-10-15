@@ -1,0 +1,204 @@
+{
+  "24fb9988bd3f5bf998104c84": {
+    "itemTplToClone": "5e4abb5086f77406975c9342",
+    "parentId": "5448e54d4bdc2dcc718b4568",
+    "handbookParentId": "5b5f701386f774093f2ecf0f",
+    "overrideProperties": {
+      "Description": "A simple yet effective plate carrier by London Bridge Trading company. The most minimalistic design intended for use with chest rigs. French Woodland Version.",
+      "Grids": [],
+      "Name": "LBT-6094A Slick Plate Carrier (French Woodland)",
+      "Prefab": {
+        "path": "equipment/ar_slick_french_aishi.bundle",
+        "rcid": ""
+      },
+      "ShortName": "Slick",
+      "Slots": [
+        {
+          "_id": "f26db50d40615a82a1e08843",
+          "_mergeSlotWithChildren": true,
+          "_name": "Front_plate",
+          "_parent": "24fb9988bd3f5bf998104c84",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "656f9d5900d62bcd2e02407c",
+                  "656fa8d700d62bcd2e024084",
+                  "656fa99800d62bcd2e024088",
+                  "656fae5f7c2d57afe200c0d7",
+                  "656faf0ca0dce000a2020f77",
+                  "656fa0fb498d1b7e3e071d9c",
+                  "656fafe3498d1b7e3e071da4",
+                  "656fa76500d62bcd2e024080",
+                  "656fa25e94b480b8a500c0e0",
+                  "656fad8c498d1b7e3e071da0",
+                  "656fa61e94b480b8a500c0e8",
+                  "656fb21fa0dce000a2020f7c",
+                  "656fac30c6baea13cd07e10c",
+                  "656fb0bd7c2d57afe200c0dc",
+                  "656f9fa0498d1b7e3e071d98",
+                  "656fa53d94b480b8a500c0e4",
+                  "655746010177119f4a097ff7",
+                  "64afdcb83efdfea28601d041"
+                ],
+                "Plate": "656fa76500d62bcd2e024080",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_chest"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": false
+        },
+        {
+          "_id": "cd53fa607f655245a9a63719",
+          "_mergeSlotWithChildren": true,
+          "_name": "Back_plate",
+          "_parent": "24fb9988bd3f5bf998104c84",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "656f9d5900d62bcd2e02407c",
+                  "656fa8d700d62bcd2e024084",
+                  "656fa99800d62bcd2e024088",
+                  "656fae5f7c2d57afe200c0d7",
+                  "656faf0ca0dce000a2020f77",
+                  "656fa0fb498d1b7e3e071d9c",
+                  "656fafe3498d1b7e3e071da4",
+                  "656fa76500d62bcd2e024080",
+                  "656fa25e94b480b8a500c0e0",
+                  "656fad8c498d1b7e3e071da0",
+                  "656fa61e94b480b8a500c0e8",
+                  "656fb21fa0dce000a2020f7c",
+                  "656fac30c6baea13cd07e10c",
+                  "656fb0bd7c2d57afe200c0dc",
+                  "656f9fa0498d1b7e3e071d98",
+                  "656fa53d94b480b8a500c0e4",
+                  "655746010177119f4a097ff7",
+                  "64afdcb83efdfea28601d041"
+                ],
+                "Plate": "656fa76500d62bcd2e024080",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_back"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": false
+        },
+        {
+          "_id": "ef6067fe1f4758148648cc13",
+          "_mergeSlotWithChildren": true,
+          "_name": "Soft_armor_front",
+          "_parent": "24fb9988bd3f5bf998104c84",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6575e71760703324250610c3"
+                ],
+                "Plate": "6575e71760703324250610c3",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_chest"
+                ],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        },
+        {
+          "_id": "f1c1cd5d0d435437aa223ddb",
+          "_mergeSlotWithChildren": true,
+          "_name": "Soft_armor_back",
+          "_parent": "24fb9988bd3f5bf998104c84",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6575e72660703324250610c7"
+                ],
+                "Plate": "6575e72660703324250610c7",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_back"
+                ],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "LBT-6094A Slick Plate Carrier (French Woodland)",
+        "shortName": "Slick",
+        "description": "A simple yet effective plate carrier by London Bridge Trading company. The most minimalistic design intended for use with chest rigs. French Woodland Version."
+      }
+    },
+    "handbookPriceRoubles": 16523,
+    "fleaPriceRoubles": 167229,
+    "addtoInventorySlots": [],
+    "addtoBots": false,
+    "addtoTraders": false,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": false,
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_changeWeaponName": false,
+        "_encyclopedia": "24fb9988bd3f5bf998104c84",
+        "_id": "578c852ca01456a0b189e2fd",
+        "_items": [
+          {
+            "_id": "fb69591495ce5ad8a4815b28",
+            "_tpl": "24fb9988bd3f5bf998104c84"
+          },
+          {
+            "_id": "ec9c768a1ec1502ab59e0d8c",
+            "_tpl": "6575e71760703324250610c3",
+            "parentId": "fb69591495ce5ad8a4815b28",
+            "slotId": "Soft_armor_front"
+          },
+          {
+            "_id": "1356627a28275dc193f9477e",
+            "_tpl": "6575e72660703324250610c7",
+            "parentId": "fb69591495ce5ad8a4815b28",
+            "slotId": "Soft_armor_back"
+          },
+          {
+            "_id": "56684dba64425b73a3b8e35d",
+            "_tpl": "656fa76500d62bcd2e024080",
+            "parentId": "fb69591495ce5ad8a4815b28",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "f1b8bddaa14f54b59d546612",
+            "_tpl": "656fa76500d62bcd2e024080",
+            "parentId": "fb69591495ce5ad8a4815b28",
+            "slotId": "Back_plate"
+          }
+        ],
+        "_name": "LBT-6094A Slick Plate Carrier (French Woodland)",
+        "_parent": "fb69591495ce5ad8a4815b28",
+        "_type": "Preset"
+      }
+    ]
+  }
+}

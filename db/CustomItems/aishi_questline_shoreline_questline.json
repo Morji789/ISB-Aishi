@@ -1,32 +1,19 @@
 {
   "6961ce32b53e77c8567378f6": {
-
     "itemTplToClone": "590c621186f774138d11ea29",
     "parentId": "5448ecbe4bdc2d60728b4568",
     "handbookParentId": "5b47574386f77428ca22b341",
-
-
     "overrideProperties": {
-      "QuestItem": true,  
+      "QuestItem": true,
       "ExaminedByDefault": false,
       "BackgroundColor": "yellow",
-
-        
-
       "Prefab": {
-
         "path": "quests/quest_item_pendrive.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
-      "Height": 1,
       "Weight": 0.15,
-
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "Military flash drive with data for an outdated tracking application",
@@ -38,113 +25,74 @@
         "shortName": "Pendrive",
         "description": "Um pendrive criptografado com informações de um software de rastreamento de ponta porém desatualizado e que requer modificações."
       }
-    
     },
-
     "fleaPriceRoubles": 1,
-
     "handbookPriceRoubles": 1,
-
     "addtoHideoutPosterSlots": false,
-
     "addPosterToMaps": false,
-
     "posterSpawnProbability": 0,
-
     "addtoStatuetteSlots": false,
-
     "addCaliberToAllCloneLocations": false,
-
     "addtoStaticAmmo": false,
-
     "staticAmmoProbability": 0,
-
     "addtoBots": false,
-
     "addtoSpecialSlots": false,
-
     "addtoModSlots": false,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
-    "modSlot": [""],
-
+    "addtoItemBlacklist": true,
+    "modSlot": [
+      ""
+    ],
     "addtoHallOfFame": false,
-
     "hallOfFameSlots": [
-      "bigTrophies", 
-      "smallTrophies", 
+      "bigTrophies",
+      "smallTrophies",
       "dogTags"
     ],
-
     "addtoGeneratorAsFuel": false,
-
     "generatorFuelSlotStages": [
       "1",
       "2",
       "3"
     ],
-
     "addtoEmptyPropSlots": false,
-
     "emptyPropSlot": {
       "itemToAddTo": "",
       "modSlot": ""
     },
-
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",
         "Probability": 0
       }
     ],
-
-
     "addtoSecureFilters": false,
-
     "addtoTraders": false,
-
-    "traders": {
-          },
-          "barters": [
-            {
-              "count": 0,
-              "_tpl": "0" 
-            }
-          ]
+    "traders": {},
+    "barters": [
+      {
+        "count": 0,
+        "_tpl": "0"
+      }
+    ]
   },
   "6a6d234944cd24f0ae3243c6": {
-
     "itemTplToClone": "6389c8c5dbfd5e4b95197e6b",
     "parentId": "5448ecbe4bdc2d60728b4568",
     "handbookParentId": "5b619f1a86f77450a702a6f3",
-
     "overrideProperties": {
-      "ExaminedByDefault": false,
       "QuestItem": true,
       "BackgroundColor": "yellow",
-        
-
       "Prefab": {
-
         "path": "assets/content/items/quest/item_quest_envelope/item_quest_envelope.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
       "Height": 1,
       "Weight": 0.06,
-
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "Sealed TerraGroup letter containing operational details",
@@ -156,44 +104,26 @@
         "shortName": "Carta TG",
         "description": "Uma carta selada que deveria ser entregue a uma oficial da TerraGroup responsável pelos últimos grupos de evacuação no Terminal. \n\n[CONFIDENCIAL] DESTRUA APÓS LER \n\n[CONFIDENCIAL] DESTRUA APÓS LER \n\n[CONFIDENCIAL] DESTRUA APÓS LER \n\nDe: Almen James\nPara: Rostova Rais \n\nBoa tarde senhora Rais, o fato de eu estar escrevendo isso utilizando nossos protocolos analogicos já mostra a importância desse recado. \n\nA evacuação ainda não terminou, eu imploro, suplico para que a senhora reconsidere e atrase o começo da nova fase da operação de limpeza. \n\nTemos muitos cientistas e funcionarios esperando evacuação, se os novos contratados começarem a operação você sabe exatamente o que vai acontecer, muitas coisas importantes serão perdidas além de vidas. Por favor, atrase o começo da operação LIMPEZA. \n\nAtenciosamente, Almen James\nPesquisador Chefe da TerraGroup Labs"
       }
-    
     },
-
     "fleaPriceRoubles": 1,
-
     "handbookPriceRoubles": 1,
-
     "addtoItemBlacklist": true
   },
   "69628cbc7ff0cc09cfde00e2": {
-
     "itemTplToClone": "6389c8c5dbfd5e4b95197e6b",
     "parentId": "5448ecbe4bdc2d60728b4568",
     "handbookParentId": "5b47574386f77428ca22b341",
-
-
     "overrideProperties": {
-      "QuestItem": false,  
-      "ExaminedByDefault": false,
       "CanSellOnRagfair": false,
-      "CanRequireOnRagfair": false,
       "BackgroundColor": "yellow",
-        
-
       "Prefab": {
-
         "path": "quests/quest_item_pendrive.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
       "Height": 1,
       "Weight": 0.15,
-
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "Military flash drive with data for an fixed and upgraded tracking application",
@@ -205,79 +135,46 @@
         "shortName": "Pendrive",
         "description": "Um pendrive criptografado com informações de um software de rastreamento de ponta já atualizado e com aprimoramentos de ponta."
       }
-    
     },
-
-    "fleaPriceRoubles": 1,
-
-    "handbookPriceRoubles": 1,
-
+    "fleaPriceRoubles": 750000,
+    "handbookPriceRoubles": 750000,
     "addtoHideoutPosterSlots": false,
-
     "addPosterToMaps": false,
-
     "posterSpawnProbability": 0,
-
     "addtoStatuetteSlots": false,
-
     "addCaliberToAllCloneLocations": false,
-
     "addtoStaticAmmo": false,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "staticAmmoProbability": 0,
-
     "addtoBots": false,
-
     "addtoGeneratorAsFuel": false,
-
     "generatorFuelSlotStages": [
       "1",
       "2",
       "3"
     ],
-
     "addtoEmptyPropSlots": false,
-
     "emptyPropSlot": {
       "itemToAddTo": "",
       "modSlot": ""
     },
-
     "addtoSecureFilters": false
   },
   "69628e8dd443134f2aa0e9fe": {
-
     "itemTplToClone": "5bc9b720d4351e450201234b",
     "parentId": "5448ecbe4bdc2d60728b4568",
     "handbookParentId": "5b47574386f77428ca22b341",
-
-
     "overrideProperties": {
-      "QuestItem": false,  
-      "ExaminedByDefault": false,
       "BackgroundColor": "yellow",
-        
-
       "Prefab": {
-
         "path": "assets/content/items/barter/item_barter_valuable_1gphone/item_barter_valuable_1gphone.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
-      "Height": 1,
       "Weight": 0.15,
-
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "Golden 1GPhone with a dormant tracking application",
@@ -289,78 +186,49 @@
         "shortName": "1GPhone Mod",
         "description": "Um 1GPhone Dourado que passou por modificações para uma instalação de um aplicativo de rastreamento em profunda hibernação."
       }
-    
     },
-
-    "fleaPriceRoubles": 1,
-
-    "handbookPriceRoubles": 1,
-
+    "fleaPriceRoubles": 44639,
+    "handbookPriceRoubles": 44639,
     "addtoHideoutPosterSlots": false,
-
     "addPosterToMaps": false,
-
     "posterSpawnProbability": 0,
-
     "addtoStatuetteSlots": false,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "addCaliberToAllCloneLocations": false,
-
     "addtoStaticAmmo": false,
-
     "staticAmmoProbability": 0,
-
     "addtoBots": false,
-
     "addtoGeneratorAsFuel": false,
-
     "generatorFuelSlotStages": [
       "1",
       "2",
       "3"
     ],
-
     "addtoEmptyPropSlots": false,
-
     "emptyPropSlot": {
       "itemToAddTo": "",
       "modSlot": ""
     },
-
     "addtoSecureFilters": false
   },
   "6963cefaf6234b5806891f49": {
-
     "itemTplToClone": "5d03794386f77420415576f5",
     "parentId": "5448ecbe4bdc2d60728b4568",
     "handbookParentId": "5b5f6fd286f774093f2ecf0d",
-
     "overrideProperties": {
       "ExaminedByDefault": true,
       "QuestItem": true,
       "BackgroundColor": "yellow",
-        
-
       "Prefab": {
-
         "path": "assets/content/items/containers/item_container_case_kompromat/item_container_case_kompromat.bundle",
         "rcid": ""
       },
-
-
       "Width": 2,
-      "Height": 2,
       "Weight": 0.06,
-
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "Unregistered secure container model with unknown documents",
@@ -372,39 +240,24 @@
         "shortName": "C.Desconhecido",
         "description": "Um container seguro de um modelo não registrado avariado por uma queda. Ele aparenta conter papeis em seu interior."
       }
-    
     },
-
     "fleaPriceRoubles": 1,
-
     "handbookPriceRoubles": 1
   },
   "6963dede566c81e5c5dc9b4a": {
-
     "itemTplToClone": "59f32bb586f774757e1e8442",
     "parentId": "590c745b86f7743cc433c5f2",
     "handbookParentId": "5b47574386f77428ca22b2f4",
-
     "overrideProperties": {
-      "ExaminedByDefault": true,
       "QuestItem": true,
       "BackgroundColor": "yellow",
-        
-
       "Prefab": {
-
         "path": "assets/content/items/barter/item_barter_dogtags_story/item_barter_dogtags_story_04_for_humanity.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
-      "Height": 1,
       "Weight": 0.06,
-
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "USEC dogtag with unique markings",
@@ -416,46 +269,29 @@
         "shortName": "Dogtag",
         "description": "Uma dogtag personalizada de um PMC da USEC com marcações relacionadas a salvação da humanidade e uma luta constante contra alguém."
       }
-    
     },
-
     "fleaPriceRoubles": 1,
-
     "handbookPriceRoubles": 1,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
     "addtoItemBlacklist": true
   },
   "6963e26f0dd99b3578894fa1": {
-
     "itemTplToClone": "5c1d0f4986f7744bb01837fa",
     "parentId": "5c164d2286f774194c5e69fa",
     "handbookParentId": "5c518ed586f774119a772aee",
-
     "overrideProperties": {
       "ExaminedByDefault": true,
       "QuestItem": true,
       "BackgroundColor": "yellow",
       "MaximumNumberOfUsage": 0,
-        
-
       "Prefab": {
-
         "path": "assets/content/items/spec/item_keycard_lab/item_keycard_quest_rfid_unknown.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
-      "Height": 1,
       "Weight": 0.06,
-
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "Custom RFID Keycard with unknown certificates and credentials",
@@ -467,17 +303,11 @@
         "shortName": "RFID",
         "description": "Um cartão com marcações da TerraGroup que possui informações codificadas que levam acesso a um lugar desconhecido. Ele foi danificado e não está mais operacional."
       }
-    
     },
-
     "fleaPriceRoubles": 1,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "handbookPriceRoubles": 1
   }
 }

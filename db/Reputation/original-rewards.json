@@ -1,0 +1,806 @@
+[
+  {
+    "questId": "6a6bf9b4e9edcd20cefd27ad",
+    "phase": "Success",
+    "rewardId": "6a6bfb37b765122814fd27ba",
+    "value": 0.03
+  },
+  {
+    "questId": "6a6aa8e25ce77038f78f5360",
+    "phase": "Success",
+    "rewardId": "6a6aa9d11c2af9ab308f5365",
+    "value": 0.02
+  },
+  {
+    "questId": "6a6ab405957e20e3ed0af439",
+    "phase": "Success",
+    "rewardId": "691548cef625b0dee59d22eb",
+    "value": 0.03
+  },
+  {
+    "questId": "6a6be0db93f4ebb01828169d",
+    "phase": "Success",
+    "rewardId": "6a6be57365a7dd47672816a6",
+    "value": 0.02
+  },
+  {
+    "questId": "69085a524e8082229957904c",
+    "phase": "Success",
+    "rewardId": "60c89c0c80b2027f403dd992",
+    "value": 0.01
+  },
+  {
+    "questId": "6908cc9eba0a887c798e1f11",
+    "phase": "Success",
+    "rewardId": "6908cd65e34c60db7b77df0f",
+    "value": 0.01
+  },
+  {
+    "questId": "6908e22349d63fbaf2dd3b9a",
+    "phase": "Success",
+    "rewardId": "6908e2d88d5a3e049bdefc77",
+    "value": 0.02
+  },
+  {
+    "questId": "690a2def6c4ba5b7f1e9457d",
+    "phase": "Success",
+    "rewardId": "690a30c699e133e68c9f1e99",
+    "value": 0.02
+  },
+  {
+    "questId": "6a4de4da46604165ad7d0ce1",
+    "phase": "Success",
+    "rewardId": "6a4de58102a93ad0877d0ce9",
+    "value": -0.04
+  },
+  {
+    "questId": "6a7d316935bfdf8609748f7a",
+    "phase": "Success",
+    "rewardId": "6a7d3345ce32aa1527f3322f",
+    "value": 0.01
+  },
+  {
+    "questId": "690a553efc51c1efb8c22ded",
+    "phase": "Success",
+    "rewardId": "690a5516888eeb96d3dc56b0",
+    "value": 0.02
+  },
+  {
+    "questId": "690a659d592d4e5a142036bb",
+    "phase": "Success",
+    "rewardId": "60cca8fe5f9e6175514de2d6",
+    "value": 0.02
+  },
+  {
+    "questId": "690ad6e0f4aac3c28195d97c",
+    "phase": "Success",
+    "rewardId": "690ad7b049f9ab0a9b7c65b8",
+    "value": 0.02
+  },
+  {
+    "questId": "690adfb8b6469342b3cbfabc",
+    "phase": "Success",
+    "rewardId": "690ad7b049f9ab0a9b7c65b8",
+    "value": 0.02
+  },
+  {
+    "questId": "6a4de6851d3fc0503f000c17",
+    "phase": "Success",
+    "rewardId": "6a4de6f69c0c87de71000c21",
+    "value": 0.01
+  },
+  {
+    "questId": "690af2bed4521bca8e6a2fb9",
+    "phase": "Success",
+    "rewardId": "60c8bf529339363e8f0c6ae1",
+    "value": 0.06
+  },
+  {
+    "questId": "690af7eaf5a597ebc0b602f6",
+    "phase": "Success",
+    "rewardId": "690c45b42fa2950700509e0a",
+    "value": 0.06
+  },
+  {
+    "questId": "6910218dea9506c0857ab999",
+    "phase": "Success",
+    "rewardId": "691023a6706e118be60e28f8",
+    "value": 0.03
+  },
+  {
+    "questId": "6912aa3f56e36f28b556c7f4",
+    "phase": "Success",
+    "rewardId": "6912bd5125c0bf73f53580f5",
+    "value": 0.01
+  },
+  {
+    "questId": "6912c61d527bc3f9790b5776",
+    "phase": "Success",
+    "rewardId": "6912c6e50599b3936dc46a81",
+    "value": 0.02
+  },
+  {
+    "questId": "6912c8df72a190f1caae8298",
+    "phase": "Success",
+    "rewardId": "6912ca4f21c7c97a84648f6b",
+    "value": 0.03
+  },
+  {
+    "questId": "6912cbdcf7e36ec0ee1de240",
+    "phase": "Success",
+    "rewardId": "6912ccd11c03e3ed78551ee2",
+    "value": 0.04
+  },
+  {
+    "questId": "6912ceca14c4d7453878e335",
+    "phase": "Success",
+    "rewardId": "6912cf89a7de60843ac8a591",
+    "value": 0.05
+  },
+  {
+    "questId": "6913af3e41d70209e1c9dc13",
+    "phase": "Success",
+    "rewardId": "6913b221581718616d2d673d",
+    "value": 0.01
+  },
+  {
+    "questId": "6913fe5afc7a709d1e0aeba6",
+    "phase": "Success",
+    "rewardId": "6913feb1074ad9f77a2d11f7",
+    "value": 0.01
+  },
+  {
+    "questId": "69141e39dc0b928717fdd14b",
+    "phase": "Success",
+    "rewardId": "69141ebf9847319713ce7545",
+    "value": 0.01
+  },
+  {
+    "questId": "69142292070bcc615773f970",
+    "phase": "Success",
+    "rewardId": "6914a2effc0ce5d5b151728f",
+    "value": 0.01
+  },
+  {
+    "questId": "6914f92790fe68c14629e795",
+    "phase": "Success",
+    "rewardId": "6914f977ac9b7e0b2240bca4",
+    "value": 0.01
+  },
+  {
+    "questId": "6914eaa069904863f3247ecd",
+    "phase": "Success",
+    "rewardId": "6914ec6dbdb4563ae469db96",
+    "value": 0.01
+  },
+  {
+    "questId": "69150a9cc13d182f8d1e6636",
+    "phase": "Success",
+    "rewardId": "69150fa1f7ab6889be0b520a",
+    "value": 0.01
+  },
+  {
+    "questId": "691509a8317f46ac275c10c4",
+    "phase": "Success",
+    "rewardId": "691509c90268ccd5d03ddcc1",
+    "value": 0.01
+  },
+  {
+    "questId": "691514d147e21d507ab4c72f",
+    "phase": "Success",
+    "rewardId": "6915198061dc168a9479543d",
+    "value": 0.01
+  },
+  {
+    "questId": "69151f4a0c51debb169cc953",
+    "phase": "Success",
+    "rewardId": "691520a50575bbf17376177c",
+    "value": 0.01
+  },
+  {
+    "questId": "69153dcab3aae4e9422e48a0",
+    "phase": "Success",
+    "rewardId": "69152770becc81b904991b1c",
+    "value": 0.02
+  },
+  {
+    "questId": "691526e16db665e1712d6246",
+    "phase": "Success",
+    "rewardId": "691548cef625b0dee59d22eb",
+    "value": 0.03
+  },
+  {
+    "questId": "6960292c08a0653253dcd002",
+    "phase": "Success",
+    "rewardId": "6960292c146591c62c1cb652",
+    "value": 0.04
+  },
+  {
+    "questId": "691551f21744ab25e3e9ff77",
+    "phase": "Success",
+    "rewardId": "6915532817e751ef593207f2",
+    "value": 0.04
+  },
+  {
+    "questId": "69156abce46a469364c4a8ff",
+    "phase": "Success",
+    "rewardId": "69156c52d4c74a6abac0bd8c",
+    "value": 0.01
+  },
+  {
+    "questId": "69156f0aaf9e9c284214e0db",
+    "phase": "Success",
+    "rewardId": "6a8a58c5574ab34dae7d5a3a",
+    "value": 0.01
+  },
+  {
+    "questId": "69157484c8721ef63f2ecd6d",
+    "phase": "Success",
+    "rewardId": "6915756df64a9042ebd52ec6",
+    "value": 0.01
+  },
+  {
+    "questId": "6915f6edfd13e8f758865cb6",
+    "phase": "Success",
+    "rewardId": "6915f7266ddffd24dfbfadb6",
+    "value": 0.01
+  },
+  {
+    "questId": "691749d56952436319da14c4",
+    "phase": "Success",
+    "rewardId": "69174c03068073ac2e3c6b0c",
+    "value": 0.02
+  },
+  {
+    "questId": "6917555e3dc047dac768f90a",
+    "phase": "Success",
+    "rewardId": "6917549b5d9cb209313799c5",
+    "value": 0.03
+  },
+  {
+    "questId": "6917c69ad2e7971e1ca792c1",
+    "phase": "Success",
+    "rewardId": "6917549b5d9cb209313799c5",
+    "value": 0.04
+  },
+  {
+    "questId": "6917f4864286e5bd06fc451d",
+    "phase": "Success",
+    "rewardId": "6917f4fb9c03b104c59ea849",
+    "value": 0.1
+  },
+  {
+    "questId": "6a6a30b9ba24bd7648105576",
+    "phase": "Success",
+    "rewardId": "6a6a3165df7fea8dbf10557e",
+    "value": 0.05
+  },
+  {
+    "questId": "6927c77a68a96ac088d64954",
+    "phase": "Success",
+    "rewardId": "6927c79a5b67e50abfdbd229",
+    "value": 0.01
+  },
+  {
+    "questId": "692a6a8bfe6ebf8a133bea5e",
+    "phase": "Success",
+    "rewardId": "6929e52058f545af49e3011d",
+    "value": 0.01
+  },
+  {
+    "questId": "692a6e6ad008d27306f38d5c",
+    "phase": "Success",
+    "rewardId": "692a6f06557b911154fb88e2",
+    "value": 0.01
+  },
+  {
+    "questId": "692a796ed1317f01a0d461e1",
+    "phase": "Success",
+    "rewardId": "692a7a69c24565b43689fb61",
+    "value": 0.03
+  },
+  {
+    "questId": "692d248d323b786edd54307e",
+    "phase": "Success",
+    "rewardId": "692d265c1c2d38e69e3b7d16",
+    "value": 0.01
+  },
+  {
+    "questId": "692d2b4e5f3b1677b9c04834",
+    "phase": "Success",
+    "rewardId": "692d2c983638bc0872d8e60d",
+    "value": 0.01
+  },
+  {
+    "questId": "692d310cbdf122e5296a2c12",
+    "phase": "Success",
+    "rewardId": "692d3372f530bacf000e30a3",
+    "value": 0.03
+  },
+  {
+    "questId": "692dd0b1cda5a668af01ce3f",
+    "phase": "Success",
+    "rewardId": "692dd127b9b19d779b4d33f2",
+    "value": 0.01
+  },
+  {
+    "questId": "692e70c70f46140eb149e9b0",
+    "phase": "Success",
+    "rewardId": "692e716a1a99e1b1fa9c7275",
+    "value": 0.01
+  },
+  {
+    "questId": "692e773e3b10698b80de19dd",
+    "phase": "Success",
+    "rewardId": "692e76e663aa1a7e28520c25",
+    "value": 0.01
+  },
+  {
+    "questId": "692e891b499e7bf623c9a0d7",
+    "phase": "Success",
+    "rewardId": "692e88379312cfdb405a0ad4",
+    "value": 0.01
+  },
+  {
+    "questId": "69350f8110244587c320fcc3",
+    "phase": "Success",
+    "rewardId": "693518e0ff6b9a0a1e7aea9c",
+    "value": 0.01
+  },
+  {
+    "questId": "693519f2c89a1eeb05ec90dc",
+    "phase": "Success",
+    "rewardId": "69351c34e004cb449155de76",
+    "value": 0.01
+  },
+  {
+    "questId": "69351fe6f2a1ecd7e63f6e56",
+    "phase": "Success",
+    "rewardId": "693523f1818e4f169a060236",
+    "value": 0.01
+  },
+  {
+    "questId": "6935ab7b4bc7b94f846f07f7",
+    "phase": "Success",
+    "rewardId": "6935ac7fb8b95f612578ec62",
+    "value": 0.01
+  },
+  {
+    "questId": "6935b1eef317678182e816a2",
+    "phase": "Success",
+    "rewardId": "6935b22fb1f9e5df754b88fa",
+    "value": 0.02
+  },
+  {
+    "questId": "6935b53d3e8600e7f38ae82f",
+    "phase": "Success",
+    "rewardId": "6935b4d75c8a0f94ba9432e1",
+    "value": 0.01
+  },
+  {
+    "questId": "693622dadbceda0ed3ce9b86",
+    "phase": "Success",
+    "rewardId": "6935c6d3b785c101bd3bbde0",
+    "value": 0.02
+  },
+  {
+    "questId": "6936559e123339477ce19f4f",
+    "phase": "Success",
+    "rewardId": "693655efda1dff3fa678520a",
+    "value": 0.03
+  },
+  {
+    "questId": "6936586cb6fd4a7c0c4575c2",
+    "phase": "Success",
+    "rewardId": "693658c28e232777fef826c7",
+    "value": 0.02
+  },
+  {
+    "questId": "6936612433e457ba05d926d8",
+    "phase": "Success",
+    "rewardId": "69366874baaea84357e0cd2a",
+    "value": 0.03
+  },
+  {
+    "questId": "694bf7616e308ab55b47cef6",
+    "phase": "Success",
+    "rewardId": "694bf78a1d1316c812761ee7",
+    "value": 0.02
+  },
+  {
+    "questId": "694bfb731131e30433a6d95f",
+    "phase": "Success",
+    "rewardId": "694bfdd77edf67b82ec68aab",
+    "value": 0.02
+  },
+  {
+    "questId": "69614f3852b2d48240d8d604",
+    "phase": "Success",
+    "rewardId": "69614f3817a46ab56e1cd129",
+    "value": 0.03
+  },
+  {
+    "questId": "6961dfcf46370012416ab8a9",
+    "phase": "Success",
+    "rewardId": "6961dfcfc78fbc4307902089",
+    "value": 0.03
+  },
+  {
+    "questId": "69628af1245be7fe53193f4c",
+    "phase": "Success",
+    "rewardId": "69628af14b210bc774bb816f",
+    "value": 0.03
+  },
+  {
+    "questId": "6961a8cf8e0990358ff6db97",
+    "phase": "Success",
+    "rewardId": "6961a8cf8af863bd6bcbbc55",
+    "value": 0.02
+  },
+  {
+    "questId": "6962f2798e50b93c4bccd95b",
+    "phase": "Success",
+    "rewardId": "6962f2795521a2370d57b24f",
+    "value": 0.01
+  },
+  {
+    "questId": "6963c6ff4dae57a2dec4ef82",
+    "phase": "Success",
+    "rewardId": "6a39a4a83a2b551dc353362b",
+    "value": 0.02
+  },
+  {
+    "questId": "69648a944599e194c4f71339",
+    "phase": "Success",
+    "rewardId": "6963d5fc951a03f22df2c426",
+    "value": 0.02
+  },
+  {
+    "questId": "6966997707f67fea67fe3e18",
+    "phase": "Success",
+    "rewardId": "696699771196d0cef568cd75",
+    "value": 0.02
+  },
+  {
+    "questId": "69892a1e2a1bffdacffb1b70",
+    "phase": "Success",
+    "rewardId": "69892a1e3197a5ebc3f8668c",
+    "value": 0.02
+  },
+  {
+    "questId": "6989641b1ee424d6c211066f",
+    "phase": "Success",
+    "rewardId": "6989641b35cf7f3ec25f86dd",
+    "value": 0.03
+  },
+  {
+    "questId": "698a7d1a29aa7cda419b8fbf",
+    "phase": "Success",
+    "rewardId": "698a843c5a0a66a52d1fb1f2",
+    "value": 0.01
+  },
+  {
+    "questId": "698a82e7f718234ac7702f3d",
+    "phase": "Success",
+    "rewardId": "698a8722dc74410a60fc772d",
+    "value": 0.01
+  },
+  {
+    "questId": "69a4ae470be691089eeaab09",
+    "phase": "Success",
+    "rewardId": "69a4a98b261393000ca50936",
+    "value": 0.03
+  },
+  {
+    "questId": "69b387e8956508586537b309",
+    "phase": "Success",
+    "rewardId": "69b387e89c404055b822dc12",
+    "value": 0.01
+  },
+  {
+    "questId": "69b43d6bab729e30d1339eaa",
+    "phase": "Success",
+    "rewardId": "69b43d8b5ba92f92e46560ac",
+    "value": 0.01
+  },
+  {
+    "questId": "69b4501e1b72aba5140989fe",
+    "phase": "Success",
+    "rewardId": "69b4501e65cbd6f81ff66f8e",
+    "value": 0.01
+  },
+  {
+    "questId": "69b59b1983251afdcdc79efc",
+    "phase": "Success",
+    "rewardId": "69b59b1939078d6e3357e14d",
+    "value": 0.03
+  },
+  {
+    "questId": "69e5737ac3095fb436e8d7cc",
+    "phase": "Success",
+    "rewardId": "69e5737a8cf1a31724943029",
+    "value": 0.01
+  },
+  {
+    "questId": "69e59b40d943343162400671",
+    "phase": "Success",
+    "rewardId": "69e59b40074664e0be8a1d75",
+    "value": 0.02
+  },
+  {
+    "questId": "69eb030da45329478b565651",
+    "phase": "Success",
+    "rewardId": "69eb030d867f4def012b7ef7",
+    "value": 0.01
+  },
+  {
+    "questId": "69ec636b09e1a0e9b511a7e5",
+    "phase": "Success",
+    "rewardId": "69ec636bd902c8a453cbe870",
+    "value": 0.02
+  },
+  {
+    "questId": "6a3cb7cff815823fa45ce5d8",
+    "phase": "Success",
+    "rewardId": "6a3da3b9768ad52e58fff3dd",
+    "value": 0.01
+  },
+  {
+    "questId": "6a3db1cab8a16aeffe0b456d",
+    "phase": "Success",
+    "rewardId": "6a3db1cab6dddc7ddb38da0a",
+    "value": 0.02
+  },
+  {
+    "questId": "6a61340adcbc9728913c5d1a",
+    "phase": "Success",
+    "rewardId": "6a6135e2ee198075f23c5d26",
+    "value": 0.02
+  },
+  {
+    "questId": "6a616a90b61bd3ebefa646c3",
+    "phase": "Success",
+    "rewardId": "6a616fe6026ebe876ea646d3",
+    "value": 0.03
+  },
+  {
+    "questId": "6a61720444238176fd1217ae",
+    "phase": "Success",
+    "rewardId": "6a6183fb2bc58871ed1217da",
+    "value": 0.03
+  },
+  {
+    "questId": "6a61916627589288ff590365",
+    "phase": "Success",
+    "rewardId": "6a6196b76df64c2fa2590379",
+    "value": 0.01
+  },
+  {
+    "questId": "6a619e8e5b0bb16d5b09ee17",
+    "phase": "Success",
+    "rewardId": "6a61a9a5a7a065f42d09ee35",
+    "value": 0.01
+  },
+  {
+    "questId": "6a6695c403c45274988758fe",
+    "phase": "Success",
+    "rewardId": "6a669c0c55dbcf3259875910",
+    "value": 0.03
+  },
+  {
+    "questId": "6a66ad2a3fb733233d32a26e",
+    "phase": "Success",
+    "rewardId": "6a66c34611b144df0c2daa3f",
+    "value": 0.04
+  },
+  {
+    "questId": "6a67dba824293fdf6e9ba83e",
+    "phase": "Success",
+    "rewardId": "6a67fbcfc49d140d239ba853",
+    "value": 0.02
+  },
+  {
+    "questId": "6a680e36dc45fd15657209c2",
+    "phase": "Success",
+    "rewardId": "6a680fbdc2879ea31ef22784",
+    "value": 0.02
+  },
+  {
+    "questId": "6a68172d4c48714815c5bcb8",
+    "phase": "Success",
+    "rewardId": "6a681c0d2e4da60b15c5bcd7",
+    "value": 0.2
+  },
+  {
+    "questId": "6a6930180b052dcd27aa3b7c",
+    "phase": "Success",
+    "rewardId": "6a69428d65f47a5021444bcd",
+    "value": 0.2
+  },
+  {
+    "questId": "690d8ad1750d535b2e9bc135",
+    "phase": "Fail",
+    "rewardId": "690e2b28ee22e5944dd8e3c2",
+    "value": -0.01
+  },
+  {
+    "questId": "690a239a90debae535eb1ac3",
+    "phase": "Success",
+    "rewardId": "690a25363aa811036961d690",
+    "value": -0.06
+  },
+  {
+    "questId": "69116657e03993e509cc307a",
+    "phase": "Success",
+    "rewardId": "691169e49bb0369e75ce1c9a",
+    "value": 0.02
+  },
+  {
+    "questId": "691240a442a8c7334f0aa46e",
+    "phase": "Success",
+    "rewardId": "6912427e339c124f6bd573d6",
+    "value": 0.03
+  },
+  {
+    "questId": "691242e82f0f4e08fcbcd657",
+    "phase": "Success",
+    "rewardId": "6912427e339c124f6bd573d6",
+    "value": 0.03
+  },
+  {
+    "questId": "69667e55c24001ace1f3b128",
+    "phase": "Success",
+    "rewardId": "69667e55bd3d3377b03ec61d",
+    "value": 0.02
+  },
+  {
+    "questId": "6a3cb815f609da9f045ce5df",
+    "phase": "Success",
+    "rewardId": "6a3cbc89711b6af79e5ce5eb",
+    "value": 0.02
+  },
+  {
+    "questId": "69a9e3cfe2ad4cc47d96cf22",
+    "phase": "Success",
+    "rewardId": "69a9f27ffa7aabd450cd939a",
+    "value": 0.01
+  },
+  {
+    "questId": "69b59f5cd76c01b7117e2712",
+    "phase": "Success",
+    "rewardId": "69b59f5c05b3f9b60599022a",
+    "value": 0.02
+  },
+  {
+    "questId": "5f369eeac01a188bc7dc06d0",
+    "phase": "Success",
+    "rewardId": "a8429bca88cd3b36d6f95c72",
+    "value": 0.02
+  },
+  {
+    "questId": "935421a346e854a6d2337c37",
+    "phase": "Success",
+    "rewardId": "04eb5cd9e70f5cb43fd04e53",
+    "value": 0.02
+  },
+  {
+    "questId": "f999ba37e8dda410954c0c1f",
+    "phase": "Success",
+    "rewardId": "1ba904bfea879a0e3ed51851",
+    "value": 0.02
+  },
+  {
+    "questId": "4660ba9168903321ed40bfee",
+    "phase": "Success",
+    "rewardId": "77eee462d48b18eb07afb2b6",
+    "value": 0.02
+  },
+  {
+    "questId": "6a8f758e89e9b37443ceab22",
+    "phase": "Success",
+    "rewardId": "6a8f795d50868ccd959a2383",
+    "value": -0.03
+  },
+  {
+    "questId": "0ca9dfa7d14d42f2bd5acdb0",
+    "phase": "Success",
+    "rewardId": "a6f2308d3ddb4f8117264f2b",
+    "value": 0.03
+  },
+  {
+    "questId": "db3b1511110c41cdbab6d4f6",
+    "phase": "Success",
+    "rewardId": "27d40e74c6ae26f06390ff45",
+    "value": 0.04
+  },
+  {
+    "questId": "0b69f84d68d74db7b5dea117",
+    "phase": "Success",
+    "rewardId": "26386f32cfdb02bf737a6583",
+    "value": 0.03
+  },
+  {
+    "questId": "8b708ff6d7e641e38f6f2be0",
+    "phase": "Success",
+    "rewardId": "bf495415ff5ce20e05d8526d",
+    "value": 0.05
+  },
+  {
+    "questId": "8367ca4830984afeb8551aaa",
+    "phase": "Success",
+    "rewardId": "7f078302ff823423e35f1853",
+    "value": 0.03
+  },
+  {
+    "questId": "a3f407eb22cd41769e6f4c5f",
+    "phase": "Success",
+    "rewardId": "771a8ab370934aed2af258c7",
+    "value": 0.07
+  },
+  {
+    "questId": "5387285ba1624dab9ac06d72",
+    "phase": "Success",
+    "rewardId": "71539fbced061e42369d8e76",
+    "value": 0.05
+  },
+  {
+    "questId": "52588eccea984354a13b53f4",
+    "phase": "Fail",
+    "rewardId": "12edb40f211c5170b24d0740",
+    "value": -0.05
+  },
+  {
+    "questId": "52588eccea984354a13b53f4",
+    "phase": "Success",
+    "rewardId": "35ad002b7d0d953ecc945f08",
+    "value": 0.04
+  },
+  {
+    "questId": "1184c00a9ec847be987be767",
+    "phase": "Fail",
+    "rewardId": "6ed92ee9fcc35a6fb4f37598",
+    "value": -0.05
+  },
+  {
+    "questId": "1184c00a9ec847be987be767",
+    "phase": "Success",
+    "rewardId": "bb2a1eb0f58411c09fe231e4",
+    "value": 0.04
+  },
+  {
+    "questId": "cd993bfe6ed447dcaab85d04",
+    "phase": "Fail",
+    "rewardId": "b9e09cdbf4cb5559b776b7b6",
+    "value": -0.05
+  },
+  {
+    "questId": "cd993bfe6ed447dcaab85d04",
+    "phase": "Success",
+    "rewardId": "4ffd9cd31c13dcfc39a6361a",
+    "value": 0.04
+  },
+  {
+    "questId": "35dc82a3c84b4c0a8a0646d8",
+    "phase": "Success",
+    "rewardId": "091aded1aad25566c6e1db88",
+    "value": 0.04
+  },
+  {
+    "questId": "10413f0d043844c6a69a88db",
+    "phase": "Success",
+    "rewardId": "8aaea3c682bbe52992c21f70",
+    "value": 0.04
+  },
+  {
+    "questId": "637a389d84da48a4a34dfd17",
+    "phase": "Success",
+    "rewardId": "d194b279237ce4b9ec722f5d",
+    "value": 0.04
+  },
+  {
+    "questId": "b8432fd547b146bfa8b77dd6",
+    "phase": "Success",
+    "rewardId": "eb8fe6b9d98825206456160c",
+    "value": 0.04
+  }
+]

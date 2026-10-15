@@ -1,0 +1,225 @@
+{
+  "7de7f35b757e553d80605086": {
+    "itemTplToClone": "628baf0b967de16aab5a4f36",
+    "parentId": "5448e5284bdc2dcb718b4567",
+    "handbookParentId": "5b5f6f8786f77447ed563642",
+    "overrideProperties": {
+      "Description": "A tactical load-bearing system designed to carry magazines, grenades, and special equipment, while using low-profile body armor. Manufactured by London Bridge Trading. Special configuration by Birdeye, member of the Goons squad. Coyote Version.",
+      "Grids": [
+        {
+          "_id": "b41a033ca18859699cd2f856",
+          "_name": "1",
+          "_parent": "7de7f35b757e553d80605086",
+          "_props": {
+            "cellsH": 2,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "34c68d43c9135de8a1a9fc6c",
+          "_name": "2",
+          "_parent": "7de7f35b757e553d80605086",
+          "_props": {
+            "cellsH": 2,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "1b4e0d237daf5d069d997506",
+          "_name": "3",
+          "_parent": "7de7f35b757e553d80605086",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "3b0a7e12a30554b99c18ac2c",
+          "_name": "4",
+          "_parent": "7de7f35b757e553d80605086",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "e93942260014541a8aee7149",
+          "_name": "5",
+          "_parent": "7de7f35b757e553d80605086",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "755ce016dc505b3c80f80bcc",
+          "_name": "6",
+          "_parent": "7de7f35b757e553d80605086",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "cae7c943a27c5208abfaf416",
+          "_name": "7",
+          "_parent": "7de7f35b757e553d80605086",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "526a1bfaaf0e5bb3849f9818",
+          "_name": "8",
+          "_parent": "7de7f35b757e553d80605086",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        }
+      ],
+      "Name": "LBT-1961A Load Bearing Chest Rig (Coyote)",
+      "Prefab": {
+        "path": "equipment/item_equipment_rig_boss_birdeye_coyote_aishi.bundle",
+        "rcid": ""
+      },
+      "ShortName": "LBCR GE",
+      "Slots": []
+    },
+    "locales": {
+      "en": {
+        "name": "LBT-1961A Load Bearing Chest Rig (Coyote)",
+        "shortName": "LBCR GE",
+        "description": "A tactical load-bearing system designed to carry magazines, grenades, and special equipment, while using low-profile body armor. Manufactured by London Bridge Trading. Special configuration by Birdeye, member of the Goons squad. Coyote Version."
+      }
+    },
+    "handbookPriceRoubles": 63700,
+    "fleaPriceRoubles": 64438,
+    "addtoInventorySlots": [],
+    "addtoBots": false,
+    "addtoTraders": false,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": false
+  }
+}

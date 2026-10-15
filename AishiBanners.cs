@@ -9,15 +9,9 @@ using System.Reflection;
 using Path = System.IO.Path;
 
 namespace Aishi;
-
 [Injectable(TypePriority = OnLoadOrder.PostLoad + 90100)]
-public class AddBanners(
-    ModHelper modHelper,
-    ImageRouter imageRouter,
-    LocationTable locationTable)
-    : IOnLoad
+public class AddBanners(ModHelper modHelper, ImageRouter imageRouter, LocationTable locationTable) : IOnLoad
 {
-    private const bool ReplaceExistingBanners = false;
     private const bool EnableIsbBanner = true;
     private const bool EnableIsbWtBanner = true;
     private const bool EnableRuafBanner = true;
@@ -33,51 +27,43 @@ public class AddBanners(
     private const bool EnableBloodhoundsBanner = true;
     private const bool EnableSmugglersBanner = true;
     private const bool EnableCultGangBanner = true;
-
     private static readonly List<BannerDefinition> BannerDefinitions = new()
     {
-        new BannerDefinition("isb_banner", "isb_banner.png", EnableIsbBanner, new[] { "laboratory", "rezervbase", "factory4_day", "factory4_night", "sandbox", "sandbox_high", "labyrinth", "lighthouse", "shoreline", "suburbs" }),
-        new BannerDefinition("wt_banner", "wt_banner.png", EnableIsbWtBanner, new[] { "laboratory", "rezervbase", "factory4_day", "factory4_night", "sandbox", "sandbox_high", "labyrinth", "lighthouse", "shoreline", "suburbs" }),
+        new BannerDefinition("ghostbusters_banner", "ghostbusters_banner.png", true, new[] { "laboratory" }),
+        new BannerDefinition("isb_banner", "isb_banner.png", EnableIsbBanner, new[] { "laboratory", "rezervbase", "factory4_day", "factory4_night", "sandbox", "sandbox_high", "labyrinth", "lighthouse", "shoreline", "icebreaker" }),
+        new BannerDefinition("wt_banner", "wt_banner.png", EnableIsbWtBanner, new[] { "laboratory", "rezervbase", "factory4_day", "factory4_night", "sandbox", "sandbox_high", "labyrinth", "lighthouse", "shoreline", "icebreaker" }),
         new BannerDefinition("ruaf_banner", "ruaf_banner.png", EnableRuafBanner, new[] { "bigmap", "woods", "interchange", "shoreline", "tarkovstreets", "lighthouse" }),
         new BannerDefinition("untar_banner", "untar_banner.png", EnableUntarBanner, new[] { "bigmap", "woods", "interchange", "shoreline", "tarkovstreets" }),
-        new BannerDefinition("blackdiv_banner", "blackdiv_banner.png", EnableBlackDivBanner, new[] { "laboratory", "rezervbase", "factory4_day", "factory4_night", "sandbox", "sandbox_high", "labyrinth", "lighthouse", "shoreline", "interchange", "tarkovstreets", "bigmap", "suburbs" }),
-        new BannerDefinition("wedge_banner", "wedge_banner.png", EnableWedgeBanner, new[] { "laboratory", "rezervbase", "factory4_day", "factory4_night", "sandbox", "sandbox_high", "labyrinth", "lighthouse", "shoreline", "interchange", "tarkovstreets", "bigmap", "suburbs" }),
+        new BannerDefinition("blackdiv_banner", "blackdiv_banner.png", EnableBlackDivBanner, new[] { "laboratory", "rezervbase", "factory4_day", "factory4_night", "sandbox", "sandbox_high", "labyrinth", "lighthouse", "shoreline", "interchange", "tarkovstreets", "bigmap", "icebreaker" }),
+        new BannerDefinition("wedge_banner", "wedge_banner.png", EnableWedgeBanner, new[] { "laboratory", "rezervbase", "factory4_day", "factory4_night", "sandbox", "sandbox_high", "labyrinth", "lighthouse", "shoreline", "interchange", "tarkovstreets", "bigmap", "icebreaker" }),
         new BannerDefinition("cultist_banner", "cultist_banner.png", EnableCultistBanner, new[] { "woods", "factory4_night", "shoreline", "bigmap", "sandbox_high", "sandbox" }),
         new BannerDefinition("omon_banner", "omon_banner.png", EnableOmonBanner, new[] { "" }),
         new BannerDefinition("rem_banner", "rem_banner.png", EnableRemBanner, new[] { "bigmap", "woods", "interchange", "shoreline", "tarkovstreets", "lighthouse" }),
-        new BannerDefinition("rogues_banner", "rogues_banner.png", EnableRoguesBanner, new[] { "lighthouse", "suburbs" }),
+        new BannerDefinition("rogues_banner", "rogues_banner.png", EnableRoguesBanner, new[] { "lighthouse", "icebreaker" }),
         new BannerDefinition("pillagers_banner", "pillagers_banner.png", EnablePillagerBanner, new[] { "lighthouse", "shoreline", "interchange", "bigmap", "woods" }),
         new BannerDefinition("cleanupcrew_banner", "cleanupcrew_banner.png", EnableCleanupCrewBanner, new[] { "woods", "factory4_day", "shoreline", "bigmap" }),
         new BannerDefinition("bloodhounds_banner", "bloodhounds_banner.png", EnableBloodhoundsBanner, new[] { "bigmap", "woods", "shoreline" }),
         new BannerDefinition("smugglers_banner", "smugglers_banner.png", EnableSmugglersBanner, new[] { "bigmap", "woods", "interchange", "shoreline", "tarkovstreets", "lighthouse", "rezervbase", "sandbox_high" }),
         new BannerDefinition("cultgang_banner", "cultgang_banner.png", EnableCultGangBanner, new[] { "woods", "factory4_night", "shoreline", "bigmap", "sandbox_high", "sandbox" }),
     };
-
     private static readonly List<MapCoverDefinition> MapCoverDefinitions = new()
     {
-        new MapCoverDefinition("suburbs", "icebreaker_cover", "icebreaker_cover.png"),
+        new MapCoverDefinition("icebreaker", "icebreaker_cover", "icebreaker_cover.png"),
     };
-
     public Task OnLoadAsync(CancellationToken cancellationToken)
     {
         cancellationToken.ThrowIfCancellationRequested();
         var pathToMod = modHelper.GetAbsolutePathToModFolder(Assembly.GetExecutingAssembly());
-
-        var activeBanners = BannerDefinitions
-            .Where(banner => banner.Enabled)
-            .ToList();
-
+        var activeBanners = BannerDefinitions.Where(banner => banner.Enabled).ToList();
         if (activeBanners.Count == 0)
         {
             return Task.CompletedTask;
         }
 
         var registeredBanners = new List<BannerDefinition>();
-
         foreach (var banner in activeBanners)
         {
             var imagePath = Path.Combine(pathToMod, "db", "banners", banner.FileName);
-
             if (!File.Exists(imagePath))
             {
                 continue;
@@ -88,11 +74,9 @@ public class AddBanners(
         }
 
         var registeredCovers = new List<MapCoverDefinition>();
-
         foreach (var cover in MapCoverDefinitions)
         {
             var imagePath = Path.Combine(pathToMod, "db", "banners", cover.FileName);
-
             if (!File.Exists(imagePath))
             {
                 continue;
@@ -108,25 +92,16 @@ public class AddBanners(
         }
 
         var locationDictionary = locationTable.GetDictionary();
-
         foreach (var entry in locationDictionary)
         {
             var locationBase = entry.Value?.Base;
-
             if (locationBase?.Banners == null)
             {
                 continue;
             }
 
-            if (ReplaceExistingBanners)
-            {
-                locationBase.Banners.Clear();
-            }
-
             var mapKey = NormalizeMapKey(entry.Key);
-
             var cover = registeredCovers.FirstOrDefault(c => NormalizeMapKey(c.MapKey) == mapKey);
-
             if (cover != null)
             {
                 var coverBanner = new Banner
@@ -134,7 +109,6 @@ public class AddBanners(
                     Id = cover.Id,
                     Picture = cover.CreatePicture()
                 };
-
                 if (locationBase.Banners.Count == 0)
                 {
                     locationBase.Banners.Add(coverBanner);
@@ -153,18 +127,13 @@ public class AddBanners(
                 }
 
                 var existingBanner = locationBase.Banners.FirstOrDefault(existing => existing.Id == banner.Id);
-
                 if (existingBanner != null)
                 {
                     existingBanner.Picture = banner.CreatePicture();
                     continue;
                 }
 
-                locationBase.Banners.Add(new Banner
-                {
-                    Id = banner.Id,
-                    Picture = banner.CreatePicture()
-                });
+                locationBase.Banners.Add(new Banner { Id = banner.Id, Picture = banner.CreatePicture() });
             }
 
             ShuffleBanners(locationBase.Banners);
@@ -190,11 +159,8 @@ public class AddBanners(
     private sealed record BannerDefinition(string Id, string FileName, bool Enabled, string[] Maps)
     {
         private string FileNameWithoutExtension => Path.GetFileNameWithoutExtension(FileName).ToLowerInvariant();
-
         public string RouteKey => $"/files/banners/{FileNameWithoutExtension}";
-
         public string PicPath => $"banners/{FileName}";
-
         public string PicType => Path.GetExtension(FileName).TrimStart('.').ToLowerInvariant();
 
         public bool AppearsOnMap(string normalizedMapKey)
@@ -222,11 +188,8 @@ public class AddBanners(
     private sealed record MapCoverDefinition(string MapKey, string Id, string FileName)
     {
         private string FileNameWithoutExtension => Path.GetFileNameWithoutExtension(FileName).ToLowerInvariant();
-
         public string RouteKey => $"/files/banners/{FileNameWithoutExtension}";
-
         public string PicPath => $"banners/{FileName}";
-
         public string PicType => Path.GetExtension(FileName).TrimStart('.').ToLowerInvariant();
 
         public Pic CreatePicture()

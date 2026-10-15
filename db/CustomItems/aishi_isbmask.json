@@ -1,81 +1,54 @@
 {
   "6939d6ae15efda5797902659": {
-
     "itemTplToClone": "6570aead4d84f81fd002a033",
     "parentId": "5a341c4686f77469e155819e",
     "handbookParentId": "5b47574386f77428ca22b32f",
-
     "overrideProperties": {
-      "QuestItem": false,  
       "ExaminedByDefault": false,
-      "CanSellOnRagfair": false,
-      "CanRequireOnRagfair": false,
-      "addtoItemBlacklist": true,  
+      "addtoItemBlacklist": true,
       "InsuranceDisabled": true,
       "armorClass": "3",
       "BackgroundColor": "yellow",
       "IsUnbuyable": true,
-      "BlindnessProtection": 0.2,
       "Durability": 50,
       "MaxDurability": 50,
-      "Unlootable": false,
       "UnlootableFromSide": [
         "Bear",
         "Usec",
         "Savage"
       ],
-      "UnlootableFromSlot": "FaceCover", 
-        
-
+      "UnlootableFromSlot": "FaceCover",
       "Prefab": {
-
         "path": "equipment/item_equipment_isb_armored_gas_mask.bundle",
         "rcid": ""
       },
-
-
-      "Width": 2,
-      "Height": 2,
-
-
       "Weight": 0.452,
-
-    "Grids": []
+      "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "Modified Unix 5000 Gas Mask (USEC Intelligence Support Bureau)",
         "shortName": "U-5000",
         "description": "A military-grade gas mask for individual protection produced by JSC “Sorbent.” The design was stolen by ISB in a counterintelligence operation and adapted to provide an armored visor."
       },
-        "po": {
+      "po": {
         "name": "Máscara de gás Unix 5000 modificada (Agência de Suporte a Inteligência da USEC)",
         "shortName": "U-5000",
         "description": "Uma mascara de gás de nível militar para proteção individual produzida pela JSC “Sorbent”. O projeto foi roubado pela ISB em uma operação de contrainteligência e adaptado para fornecer um visor blindado."
       }
     },
-
     "fleaPriceRoubles": 98492,
-
     "handbookPriceRoubles": 82130,
-
-    "addtoInventorySlots": ["FaceCover"],
-
+    "addtoInventorySlots": [
+      "FaceCover"
+    ],
     "addtoBots": false,
-
     "CanSellOnRagfair": true,
-
     "CanRequireOnRagfair": true,
-
     "IsAlwaysAvailableForInsurance": false,
-
     "InsuranceDisabled": true,
-    
-    "addtoItemBlacklist": false, 
-
+    "addtoItemBlacklist": false,
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",

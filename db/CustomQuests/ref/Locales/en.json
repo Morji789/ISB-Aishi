@@ -1,21 +1,19 @@
 {
-    "69a9e3cfe2ad4cc47d96cf22 name": "Fishing for information (Ref)",
-    "69a9e3cfe2ad4cc47d96cf22 description": "Hello, mercenary. It's been a while, how have you been? Hmm... I see, you came all the way here to ask about what happened at Lighthouse. How would you react to knowing that you are the first person to seek me out because of it? Can you imagine why?\n\nMany in Tarkov try to be discreet, and I won't lie to you. It's strange for you, as a good friend, to come talk about this after reports of people dressed in black carrying out coordinated attacks across all locations, eliminating associates... friends, soldiers...\n\nYou didn't come here on your own. Hand this over to whoever sent you, and they'll know what to do.",
-    "69a9e3cfe2ad4cc47d96cf22 successMessageText": "Great, my friend! We shall do good business together.",
-    "69a9f273383891154396e01b": "Talk to Ref about the events at Lighthouse",
-    "69b38b50225151bb40f5747d": "Hand over the documents to your contractor.",
-
-    "69b44c601144e4b33bdb9e9c name": "Long-Term Planning",
-    "69b44c601144e4b33bdb9e9c description": "I knew you'd be back! That wasn't enough, was it? So, let's get down to business! We need to replace the batteries for some of the armored vehicles we have here in the arenas. Depending on your progress, I'll decide what we do next.",
-    "69b44c601144e4b33bdb9e9c successMessageText": "Thank you very much, friend. This will be very beneficial for both sides in the end. I look forward to your next contact.",
-    "69b44adc398be5799d1ac296": "Find 2 6-STEN-140-M military batteries (Found in Raid)",
-    "69b44af0f86dab54d3a47cda": "Hand over two 6-STEN-140-M military batteries",
-    "69b44bb32fcf4f908ca20090": "Hand over 8 AKM 7.62x39 assault rifles",
-    "69b44d13a9e4415ba113b3e7": "Inform your contractor about a sum of 50 Million Roubles to be paid.",
-
-    "69b59f5cd76c01b7117e2712 name": "Businessman",
-    "69b59f5cd76c01b7117e2712 description": "Did your bosses accept the terms? Then we have a deal. 50 million, no more, no less—and I guarantee you'll find out something very interesting.",
-    "69b59f5cd76c01b7117e2712 successMessageText": "Nice work, partner! You get it, don't you? It's just business.",
-    "69b59ef8a9842c3eccdf8411": "Collect a total of 50,000,000 Roubles",
-    "69b59f1bf825fe81820f6516": "Hand over a total of 50,000,000 Roubles"
+  "69a9e3cfe2ad4cc47d96cf22 name": "Fishing for information (Ref)",
+  "69a9e3cfe2ad4cc47d96cf22 description": "Hello, mercenary. It's been a while, how have you been? Hmm... I see, you came all the way here to ask about what happened at Lighthouse. How would you react to knowing that you are the first person to seek me out because of it? Can you imagine why?\n\nMany in Tarkov try to be discreet, and I won't lie to you. It's strange for you, as a good friend, to come talk about this after reports of people dressed in black carrying out coordinated attacks across all locations, eliminating associates... friends, soldiers...\n\nYou didn't come here on your own. Hand this over to whoever sent you, and they'll know what to do.",
+  "69a9e3cfe2ad4cc47d96cf22 successMessageText": "Great, my friend! We shall do good business together.",
+  "69a9f273383891154396e01b": "Talk to Ref about the events at Lighthouse",
+  "69b38b50225151bb40f5747d": "Hand over the documents to your contractor.",
+  "69b44c601144e4b33bdb9e9c name": "Long-Term Planning",
+  "69b44c601144e4b33bdb9e9c description": "I knew you'd be back! That wasn't enough, was it? So, let's get down to business! We need to replace the batteries for some of the armored vehicles we have here in the arenas. Depending on your progress, I'll decide what we do next.",
+  "69b44c601144e4b33bdb9e9c successMessageText": "Thank you very much, friend. This will be very beneficial for both sides in the end. I look forward to your next contact.",
+  "69b44adc398be5799d1ac296": "Find 2 6-STEN-140-M military batteries (Found in Raid)",
+  "69b44af0f86dab54d3a47cda": "Hand over two 6-STEN-140-M military batteries",
+  "69b44bb32fcf4f908ca20090": "Hand over 8 AKM 7.62x39 assault rifles",
+  "69b44d13a9e4415ba113b3e7": "Inform your contractor about a sum of 50 Million Roubles to be paid.",
+  "69b59f5cd76c01b7117e2712 name": "Businessman",
+  "69b59f5cd76c01b7117e2712 description": "Did your bosses accept the terms? Then we have a deal. 50 million, no more, no less—and I guarantee you'll find out something very interesting.",
+  "69b59f5cd76c01b7117e2712 successMessageText": "Nice work, partner! You get it, don't you? It's just business.",
+  "69b59ef8a9842c3eccdf8411": "Collect a total of 50,000,000 Roubles",
+  "69b59f1bf825fe81820f6516": "Hand over a total of 50,000,000 Roubles"
 }

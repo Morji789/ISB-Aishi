@@ -1,0 +1,108 @@
+[
+  {
+    "type": "top",
+    "locales": {
+      "en": {
+        "name": "Unit of Hope - Desert Six",
+        "description": "Unit of Hope Collection"
+      },
+      "po": {
+        "name": "Unit of Hope - Desert Six",
+        "description": "Unit of Hope Collection"
+      }
+    },
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 35,
+    "standing": 0.45,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 3000,
+    "questRequirements": [],
+    "achievementRequirements": [],
+    "suiteId": "a083303ee044a3b13ef9f33a",
+    "outfitId": "8f6a503cd5b2e6d4521c7097",
+    "topId": "bd125bcb3044ff3f28e4666e",
+    "handsId": "fdaad98da90f5183d7eeaf65",
+    "topBundlePath": "clothing/unit_of_hope/pcu_ironsight/top_pcu_ironsight.bundle",
+    "handsBundlePath": "clothing/unit_of_hope/pcu_ironsight/hands_pcu_ironsight.bundle"
+  },
+  {
+    "type": "bottom",
+    "locales": {
+      "en": {
+        "name": "Unit of Hope - Desert Six",
+        "description": "Unit of Hope Collection"
+      },
+      "po": {
+        "name": "Unit of Hope - Desert Six",
+        "description": "Unit of Hope Collection"
+      }
+    },
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 35,
+    "standing": 0.45,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 1500,
+    "questRequirements": [],
+    "achievementRequirements": [],
+    "suiteId": "c2f6a310e2a0cee9345238f0",
+    "outfitId": "ffbc618cac0029c01358d949",
+    "bottomId": "7727134e1cc7f188ac2a6441",
+    "bottomBundlePath": "clothing/unit_of_hope/reitar/pants_reitar_desert_six.bundle"
+  },
+  {
+    "type": "top",
+    "locales": {
+      "en": {
+        "name": "Unit of Hope - Casual (Black)",
+        "description": "Unit of Hope Collection"
+      },
+      "po": {
+        "name": "Unit of Hope - Casual (Black)",
+        "description": "Unit of Hope Collection"
+      }
+    },
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 35,
+    "standing": 0.45,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 3000,
+    "questRequirements": [],
+    "achievementRequirements": [],
+    "suiteId": "12da8300a205cbcd8e4c14cf",
+    "outfitId": "fb2d844f69e70fbe45497b6b",
+    "topId": "60e5b6f3ad5910185d8c5155",
+    "handsId": "1c41dfdab4ae75de799551dd",
+    "topBundlePath": "clothing/unit_of_hope/cult_black/top_cult_black.bundle",
+    "handsBundlePath": "clothing/unit_of_hope/cult_black/hands_cult_black.bundle"
+  },
+  {
+    "type": "top",
+    "locales": {
+      "en": {
+        "name": "Unit of Hope - Casual (White)",
+        "description": "Unit of Hope Collection"
+      },
+      "po": {
+        "name": "Unit of Hope - Casual (White)",
+        "description": "Unit of Hope Collection"
+      }
+    },
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 35,
+    "standing": 0.45,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 3000,
+    "questRequirements": [],
+    "achievementRequirements": [],
+    "suiteId": "75722f5b39439f36a8f9d7c3",
+    "outfitId": "de971ebddb88da6027931d21",
+    "topId": "73b115d786d906ab660e8120",
+    "handsId": "07af517ba076344f82bb7875",
+    "topBundlePath": "clothing/unit_of_hope/cult_white/top_cult_white.bundle",
+    "handsBundlePath": "clothing/unit_of_hope/cult_white/hands_cult_white.bundle"
+  }
+]

@@ -1,25 +1,15 @@
 {
   "6988145ba9682d977f9359a2": {
-
     "itemTplToClone": "5c093ca986f7740a1867ab12",
     "parentId": "5448bf274bdc2dfc2f8b456a",
     "handbookParentId": "5b5f6fd286f774093f2ecf0d",
-
-
-    "overrideProperties": { 
-        "ExaminedByDefault": false,
-        "IsUnsaleable": true,
-        "IsUnbuyable": true,
-        "CanSellOnRagfair": false,
-        
-
+    "overrideProperties": {
+      "IsUnsaleable": true,
+      "IsUnbuyable": true,
       "Prefab": {
-
         "path": "quests/quest_container_pelicancase.bundle",
         "rcid": ""
       },
-
-      "GridLayoutName": "",
       "Grids": [
         {
           "_id": "6988154d427741776e6f853f",
@@ -175,12 +165,10 @@
           "_proto": "55d329c24bdc2d892f8b4567"
         }
       ],
-
       "Width": 2,
       "Height": 2,
-      "Weight": 1.60
+      "Weight": 1.6
     },
-
     "locales": {
       "en": {
         "name": "Secure Container \"Pelican\"",
@@ -192,21 +180,13 @@
         "shortName": "Pelican",
         "description": "Um container seguro montado a mão pelo operador \"suspensy\" como uma encomenda especial para a ISB. Desenvolvido com blindagem revestida e trava especial, se torna um container especial para os melhores operadores conhecidos."
       }
-    
     },
-
     "fleaPriceRoubles": 6000000,
-
     "handbookPriceRoubles": 6000000,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",

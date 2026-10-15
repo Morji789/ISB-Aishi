@@ -1,0 +1,34 @@
+{
+  "2b20c487a99515b22b11ff78": {
+    "itemTplToClone": "5672cb724bdc2dc2088b456b",
+    "parentId": "5447e0e74bdc2d3c308b4567",
+    "handbookParentId": "5b47574386f77428ca22b345",
+    "overrideProperties": {
+      "CanSellOnRagfair": false,
+      "IsSpecialSlotOnly": true,
+      "Prefab": {
+        "path": "equipment/isb_anomaly_detector.bundle",
+        "rcid": ""
+      },
+      "MaxResource": 5,
+      "Resource": 5
+    },
+    "locales": {
+      "en": {
+        "name": "ISB Anomalous Property Detector",
+        "shortName": "ISB Detector",
+        "description": "A modified detector capable of revealing anomalous properties of objects."
+      },
+      "po": {
+        "name": "Detector de Propriedades Anômalas da ISB",
+        "shortName": "Detector ISB",
+        "description": "Um detector modificado capaz de revelar propriedades anômalas de itens."
+      }
+    },
+    "fleaPriceRoubles": 80000,
+    "handbookPriceRoubles": 80000,
+    "addtoSpecialSlots": true,
+    "addtoSecureFilters": true,
+    "addtoItemBlacklist": true
+  }
+}

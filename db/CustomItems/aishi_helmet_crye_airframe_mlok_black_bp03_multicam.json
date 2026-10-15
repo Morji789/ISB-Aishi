@@ -1,0 +1,182 @@
+{
+  "0684b0c47f5a584e8854376d": {
+    "itemTplToClone": "5c17a7ed2e2216152142459c",
+    "parentId": "5a341c4086f77401f2541505",
+    "handbookParentId": "5b47574386f77428ca22b330",
+    "overrideProperties": {
+      "Description": "The AirFrame ballistic helmet sets the standards in protection, comfort, and modularity. The unique overlapping shell design of the AirFrame creates an integrated vent that provides passive cooling and can reduce the damaging effects of explosive blast waves. Equipped with M-LOK rails. Manufactured by Crye Precision. CP MultiCam version.",
+      "Name": "Crye Precision AirFrame M-LOK helmet (CP MultiCam)",
+      "Prefab": {
+        "path": "equipment/item_equipment_helmet_crye_airframe_mlok_black_bp03_multicam_aishi.bundle",
+        "rcid": ""
+      },
+      "RagfairLevelToTrade": 0,
+      "RarityPvE": "Not_exist",
+      "RepairCost": 626,
+      "ShortName": "AirFrame M-LOK (CP MultiCam)",
+      "Grids": [],
+      "Slots": [
+        {
+          "_name": "mod_nvg",
+          "_id": "5666804a008f5796a1cda62f",
+          "_parent": "0684b0c47f5a584e8854376d",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5c0558060db834001b735271",
+                  "5a16b8a9fcdbcb00165aa6ca",
+                  "689b8883b49f27df1c0873f8",
+                  "689dbded6c7e684817080c29"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_mount",
+          "_id": "7c86a89032845ec0b10033f3",
+          "_parent": "0684b0c47f5a584e8854376d",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "669a6a4a525be1d2d004b8eb",
+                  "5b7be47f5acfc400170e2dd2"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_equipment_001",
+          "_id": "f95074b62ac951fda506066a",
+          "_parent": "0684b0c47f5a584e8854376d",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5c178a942e22164bef5ceca3",
+                  "5c1793902e221602b21d3de2",
+                  "69caa20ff3190e7dfe0c197f",
+                  "69cbd3188eeaa243ed09710e",
+                  "69cbd33bc293038df7002951",
+                  "69cbd35600ebef208805cc04",
+                  "69caa229512d14715e0fccdf",
+                  "69cbd32a05c5beb41b0781b3",
+                  "69cbd346d0e5ec2c8a0429c2",
+                  "69cbd36d8eeaa243ed097112"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "Helmet_top",
+          "_id": "ab105308e3965c248610ea41",
+          "_parent": "0684b0c47f5a584e8854376d",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "657f9897f4c82973640b235e"
+                ],
+                "Plate": "657f9897f4c82973640b235e",
+                "armorColliders": [
+                  "ParietalHead"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        },
+        {
+          "_name": "Helmet_back",
+          "_id": "48a6104abd5652bcab04f1b9",
+          "_parent": "0684b0c47f5a584e8854376d",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "657f98fbada5fadd1f07a585"
+                ],
+                "Plate": "657f98fbada5fadd1f07a585",
+                "armorColliders": [
+                  "BackHead"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Crye Precision AirFrame M-LOK helmet (CP MultiCam)",
+        "shortName": "AirFrame",
+        "description": "The AirFrame ballistic helmet sets the standards in protection, comfort, and modularity. The unique overlapping shell design of the AirFrame creates an integrated vent that provides passive cooling and can reduce the damaging effects of explosive blast waves. Equipped with M-LOK rails. Manufactured by Crye Precision. CP MultiCam version."
+      }
+    },
+    "handbookPriceRoubles": 5685,
+    "fleaPriceRoubles": 5685,
+    "addtoInventorySlots": [
+      "HeadWear"
+    ],
+    "addtoBots": false,
+    "addtoTraders": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_id": "e8f9452e0c3352dd8a115912",
+        "_type": "Preset",
+        "_changeWeaponName": false,
+        "_name": "Crye Precision AirFrame M-LOK helmet (CP MultiCam)",
+        "_parent": "e5622d98159e5517847e4adf",
+        "_encyclopedia": "0684b0c47f5a584e8854376d",
+        "_items": [
+          {
+            "_id": "e5622d98159e5517847e4adf",
+            "_tpl": "0684b0c47f5a584e8854376d"
+          },
+          {
+            "_id": "6bc93df74f3358ed9dbfed1e",
+            "_tpl": "657f9897f4c82973640b235e",
+            "parentId": "e5622d98159e5517847e4adf",
+            "slotId": "Helmet_top"
+          },
+          {
+            "_id": "2382ef133f7f5418aeaea4d0",
+            "_tpl": "657f98fbada5fadd1f07a585",
+            "parentId": "e5622d98159e5517847e4adf",
+            "slotId": "Helmet_back"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,31 +1,16 @@
 {
   "6a12643e06424c709d450e7c": {
-
     "itemTplToClone": "67458794e21e5d724e066976",
     "parentId": "5448e53e4bdc2d60728b4567",
     "handbookParentId": "5b5f6f6c86f774093f2ecf0b",
-
     "overrideProperties": {
-      "QuestItem": false,  
       "ExaminedByDefault": false,
-      "IsUnsaleable": false,
       "CanSellOnRagfair": false,
-      "CanRequireOnRagfair": false,
-      "addtoItemBlacklist": false,   
-        
-
+      "addtoItemBlacklist": false,
       "Prefab": {
-
         "path": "equipment/item_equipment_backpack_lbt1476a_slick_black.bundle",
         "rcid": ""
       },
-
-      "Width": 4,
-      "Height": 5,
-
-
-      "Weight": 1.133,
-
       "Grids": [
         {
           "_name": "main",
@@ -63,47 +48,36 @@
         }
       ]
     },
-
     "locales": {
       "en": {
         "name": "LBT-1476A 3Day Pack (USEC Intelligence Support Bureau)",
         "shortName": "LBT-1476A",
         "description": "A medium-size 3-day backpack designed for both military and tourist use. Manufactured by London Bridge Trading. Black Camo Version"
       },
-        "po": {
+      "po": {
         "name": "Mochila para 3 Dias LBT-1476A (Agência de Suporte a Inteligência da USEC)",
         "shortName": "LBT-1476A",
         "description": "Uma mochila de tamanho médio para 3 dias, projetada tanto para uso militar quanto turístico. Fabricada pela London Bridge Trading. Versão em camuflagem preta"
       }
     },
-
     "fleaPriceRoubles": 35500,
-
     "handbookPriceRoubles": 28500,
-
-    "addtoInventorySlots": ["Backpack"],
-
+    "addtoInventorySlots": [
+      "Backpack"
+    ],
     "addtoBots": true,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
     "IsAlwaysAvailableForInsurance": false,
-
     "InsuranceDisabled": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",
         "Probability": 0
       }
     ],
-
     "addtoSecureFilters": false
   }
 }

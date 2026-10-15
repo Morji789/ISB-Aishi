@@ -1,35 +1,18 @@
 {
   "6a0a5091eb733b78d06f82b2": {
-
     "itemTplToClone": "5c1d0f4986f7744bb01837fa",
     "parentId": "5c164d2286f774194c5e69fa",
     "handbookParentId": "5c518ed586f774119a772aee",
-
-
     "overrideProperties": {
-      "QuestItem": false,  
-      "ExaminedByDefault": false,
       "CanSellOnRagfair": false,
-      "CanRequireOnRagfair": false,
-      "addtoItemBlacklist": true,  
+      "addtoItemBlacklist": true,
       "MaximumNumberOfUsage": 30,
-      "BackgroundColor": "violet",
-        
-
       "Prefab": {
-
         "path": "quests/quest_item_tgl_masterkey.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
-      "Height": 1,
-      "Weight": 0.010,
-
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "TerraGroup High-Level Access Keycard",
@@ -41,49 +24,32 @@
         "shortName": "TG C",
         "description": "Um cartão de acesso pertencente a um executivo de alto escalão da TerraGroup."
       }
-    
     },
-
     "fleaPriceRoubles": 8975870,
-
     "handbookPriceRoubles": 3950700,
-
     "addtoBots": false,
-
     "Unlootable": true,
     "UnlootableFromSide": [
-        "Bear",
-        "Usec",
-        "Savage"
-      ],
-      
+      "Bear",
+      "Usec",
+      "Savage"
+    ],
     "UnlootableFromSlot": "SpecialSlot",
-
     "IsSpecialSlotOnly": false,
-
     "addtoSpecialSlots": false,
-
     "IsUnremovable": false,
-
     "CanSellOnRagfair": false,
-
     "CanRequireOnRagfair": false,
-    
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "IsUnsaleable": true,
-
     "addtoSecureFilters": false,
-
     "addtoTraders": false,
-
-    "traders": {
-          },
-          "barters": [
-            {
-              "count": 0,
-              "_tpl": "0" 
-            }
-          ]
+    "traders": {},
+    "barters": [
+      {
+        "count": 0,
+        "_tpl": "0"
+      }
+    ]
   }
 }

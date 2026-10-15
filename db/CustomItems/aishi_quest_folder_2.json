@@ -1,30 +1,18 @@
 {
   "692d302aa11c340bc5198946": {
-
     "itemTplToClone": "5c12613b86f7743bbe2c3f76",
     "parentId": "5448ecbe4bdc2d60728b4568",
     "handbookParentId": "5b47574386f77428ca22b341",
-
-
     "overrideProperties": {
-      "QuestItem": true,  
-      "ExaminedByDefault": true,
-        
-
+      "QuestItem": true,
       "Prefab": {
-
         "path": "assets/content/items/infosubject/item_info_intelligence/quest_military_secret_documents_1.bundle",
         "rcid": ""
       },
-
-
       "Width": 1,
-      "Height": 1,
       "Weight": 0.26,
-
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "Original plans for the SV-98",
@@ -36,85 +24,57 @@
         "shortName": "BP do SV98",
         "description": "Um arquétipo para um SV-98 barato que estará disponível para Scavs e PMCs"
       }
-    
     },
-
     "fleaPriceRoubles": 1,
-
     "handbookPriceRoubles": 1,
-
     "addtoHideoutPosterSlots": false,
-
     "addPosterToMaps": false,
-
     "posterSpawnProbability": 0,
-
     "addtoStatuetteSlots": false,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "addCaliberToAllCloneLocations": false,
-
     "addtoStaticAmmo": false,
-
     "staticAmmoProbability": 0,
-
     "addtoBots": false,
-
     "addtoSpecialSlots": false,
-
     "addtoModSlots": false,
-
-    "modSlot": [""],
-
+    "modSlot": [
+      ""
+    ],
     "addtoHallOfFame": false,
-
     "hallOfFameSlots": [
-      "bigTrophies", 
-      "smallTrophies", 
+      "bigTrophies",
+      "smallTrophies",
       "dogTags"
     ],
-
     "addtoGeneratorAsFuel": false,
-
     "generatorFuelSlotStages": [
       "1",
       "2",
       "3"
     ],
-
     "addtoEmptyPropSlots": false,
-
     "emptyPropSlot": {
       "itemToAddTo": "",
       "modSlot": ""
     },
-
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",
         "Probability": 0
       }
     ],
-
-
     "addtoSecureFilters": false,
-
     "addtoTraders": false,
-
-    "traders": {
-          },
-          "barters": [
-            {
-              "count": 0,
-              "_tpl": "0" 
-            }
-          ]
+    "traders": {},
+    "barters": [
+      {
+        "count": 0,
+        "_tpl": "0"
+      }
+    ]
   }
 }

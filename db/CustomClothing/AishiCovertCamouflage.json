@@ -1,0 +1,117 @@
+[
+  {
+    "type": "top",
+    "suiteId": "aeb56bf47a4a5a20b16f8617",
+    "outfitId": "685e784467515138ac88d45d",
+    "topId": "49e650f3918050f2874784b3",
+    "handsId": "4bc624356b265272b745bdfa",
+    "locales": {
+      "en": {
+        "name": "USEC ISB Black Camouflage (No Patches)",
+        "description": "ISB Black Camo Uniform"
+      }
+    },
+    "topBundlePath": "clothing/isb_camouflage_black/top_isb_camouflage_black_no_patches.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 40,
+    "standing": 0.4,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 2000,
+    "questRequirements": [],
+    "achievementRequirements": [],
+    "handsBundlePath": "clothing/usec_mission/hands_usec_mission_black.bundle"
+  },
+  {
+    "type": "top",
+    "suiteId": "d0aaf0fdfa255968aacd630f",
+    "outfitId": "54f94d244398576e8323c52e",
+    "topId": "80033fe2121558489030f633",
+    "handsId": "04e90939fc175fdb9a04045c",
+    "locales": {
+      "en": {
+        "name": "USEC ISB MARPAT Camouflage (No Patches)",
+        "description": "ISB MARPAT Camo Uniform"
+      }
+    },
+    "topBundlePath": "clothing/isb_camouflage_marpat/top_isb_camouflage_marpat_no_patches.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 40,
+    "standing": 0.4,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 2000,
+    "questRequirements": [],
+    "achievementRequirements": [],
+    "handsBundlePath": "clothing/usec_mission/hands_usec_mission_black.bundle"
+  },
+  {
+    "type": "top",
+    "suiteId": "cce29c00a3015f1b907cd250",
+    "outfitId": "21f6acaf93605139880862f6",
+    "topId": "bd37a8df89e85ba09134db91",
+    "handsId": "410bfe446d175fbe868552e4",
+    "locales": {
+      "en": {
+        "name": "USEC ISB Black Camouflage (Moonlight) (No Patches)",
+        "description": "ISB Black Camo Uniform"
+      }
+    },
+    "topBundlePath": "clothing/isb_camouflage_moonlight/top_isb_camouflage_moonlight_no_patches.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 40,
+    "standing": 0.4,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 2000,
+    "questRequirements": [],
+    "achievementRequirements": [],
+    "handsBundlePath": "clothing/isb_camouflage_moonlight/hands_isb_camouflage_moonlight.bundle"
+  },
+  {
+    "type": "top",
+    "suiteId": "45ae421dadbd5151a5a51052",
+    "outfitId": "63a9b91d63fb50f98af7323e",
+    "topId": "38b7aa03539056218e9ef21b",
+    "handsId": "2743a2b03bac5b019ac6549c",
+    "locales": {
+      "en": {
+        "name": "USEC ISB Black Camouflage (Red Camo) (No Patches)",
+        "description": "ISB Black Camo Uniform"
+      }
+    },
+    "topBundlePath": "clothing/isb_camouflage_red_camo/top_isb_camouflage_red_camo_no_patches.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 40,
+    "standing": 0.4,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 2000,
+    "questRequirements": [],
+    "achievementRequirements": [],
+    "handsBundlePath": "clothing/isb_camouflage_red_camo/hands_isb_camouflage_red_camo.bundle"
+  },
+  {
+    "type": "top",
+    "suiteId": "cd6b1202580552739d9fab0b",
+    "outfitId": "f72f3808387f5d329c019e63",
+    "topId": "50a091ef70b75916bec444b0",
+    "handsId": "991f537a0d85596e925c3fab",
+    "locales": {
+      "en": {
+        "name": "USEC ISB Black Camouflage (Multicam Black) (No Patches)",
+        "description": "ISB Black Camo Uniform"
+      }
+    },
+    "topBundlePath": "clothing/isb_camouflage_multicam_black/top_isb_camouflage_multicam_black_no_patches.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 40,
+    "standing": 0.4,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 2000,
+    "questRequirements": [],
+    "achievementRequirements": [],
+    "handsBundlePath": "clothing/isb_camouflage_multicam_black/hands_isb_camouflage_multicam_black.bundle"
+  }
+]

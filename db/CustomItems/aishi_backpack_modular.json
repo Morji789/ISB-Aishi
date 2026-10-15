@@ -1,32 +1,23 @@
 {
   "6a111c7164b1373374405287": {
-
     "itemTplToClone": "68947a8ce4bf255d1b0ca759",
     "parentId": "5448e53e4bdc2d60728b4567",
     "handbookParentId": "5b5f6f6c86f774093f2ecf0b",
-
     "overrideProperties": {
-      "QuestItem": false,  
+      "QuestItem": false,
       "ExaminedByDefault": false,
       "IsUnsaleable": false,
       "CanSellOnRagfair": false,
       "CanRequireOnRagfair": false,
       "InsuranceDisabled": true,
-      "addtoItemBlacklist": false,   
-        
-
+      "addtoItemBlacklist": false,
       "Prefab": {
-
         "path": "equipment/item_equipment_backpack_pack45_ISB.bundle",
         "rcid": ""
       },
-
       "Width": 5,
       "Height": 8,
-
-
       "Weight": 3.2,
-
       "Grids": [
         {
           "_name": "main",
@@ -64,47 +55,36 @@
         }
       ]
     },
-
     "locales": {
       "en": {
         "name": "Extended Tasmanian Tiger Modular Pack 45 Plus (USEC Intelligence Support Bureau)",
         "shortName": "Modular Pack 45",
         "description": "The TT Modular Pack 45 is a system that can be customized to suit the user’s needs. The top flap can be raised to increase capacity or removed entirely if required. External straps allow attachment of bulky gear or equipment that needs to remain easily accessible. Black Version"
       },
-        "po": {
+      "po": {
         "name": "Mochila estendida Modular Tasmanian Tiger 45 Plus (Agência de Suporte a Inteligência da USEC)",
         "shortName": "Mod. Pack 45",
         "description": "O TT Modular Pack 45 é um sistema que pode ser personalizado para atender às necessidades do usuário. A aba superior pode ser levantada para aumentar a capacidade ou removida totalmente, se necessário. As alças externas permitem prender itens volumosos ou equipamentos que precisam ficar facilmente acessíveis. Versão em preto"
       }
     },
-
     "fleaPriceRoubles": 418022,
-
     "handbookPriceRoubles": 220000,
-
-    "addtoInventorySlots": ["Backpack"],
-
+    "addtoInventorySlots": [
+      "Backpack"
+    ],
     "addtoBots": true,
-
     "CanSellOnRagfair": false,
-
     "IsAlwaysAvailableForInsurance": false,
-
     "InsuranceDisabled": true,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",
         "Probability": 0
       }
     ],
-
     "addtoSecureFilters": false
   }
 }

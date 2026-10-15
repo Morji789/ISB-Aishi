@@ -1,0 +1,184 @@
+{
+  "0f2011e9cceb5fd386efcce6": {
+    "itemTplToClone": "69f9ec5a7596e93e340c0a1e",
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "handbookPriceRoubles": 3200,
+    "fleaPriceRoubles": 7040,
+    "overrideProperties": {
+      "Prefab": {
+        "path": "aishiweapons/magazines/qbz191_30_ral8000_tape/mag_qbz191_norinco_58x42_30_tape.bundle",
+        "rcid": ""
+      },
+      "Cartridges": [
+        {
+          "_name": "cartridges",
+          "_id": "462edb535d8e5a5b80f79dd3",
+          "_parent": "0f2011e9cceb5fd386efcce6",
+          "_max_count": 30,
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6a07208057b2695f9d001e63",
+                  "6a42661705016139300b2085",
+                  "6a42662fcb506840dd053827",
+                  "6a426637ddc63098d100ae67"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ],
+      "Name": "QBZ-191 5.8x42 30-round magazine (RAL 8000) (Tape)",
+      "ShortName": "QBZ-191",
+      "Description": "A 30-round 5.8x42 polymer magazine for the QBZ-191 assault rifle. RAL 8000 Version. Tape Version. Change the tape color from the magazine menu in your stash.",
+      "BackgroundColor": "yellow",
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": true
+    },
+    "locales": {
+      "en": {
+        "name": "QBZ-191 5.8x42 30-round magazine (RAL 8000) (Tape)",
+        "shortName": "QBZ-191",
+        "description": "A 30-round 5.8x42 polymer magazine for the QBZ-191 assault rifle. RAL 8000 Version. Tape Version. Change the tape color from the magazine menu in your stash."
+      },
+      "po": {
+        "name": "QBZ-191 5.8x42 30-round magazine (RAL 8000) (Tape)",
+        "shortName": "QBZ-191",
+        "description": "A 30-round 5.8x42 polymer magazine for the QBZ-191 assault rifle. RAL 8000 Version. Tape Version. Change the tape color from the magazine menu in your stash."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_magazine"
+    ]
+  },
+  "6b7ebec521a9577485088938": {
+    "itemTplToClone": "69f9ec5a7596e93e340c0a1e",
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "handbookPriceRoubles": 3200,
+    "fleaPriceRoubles": 7040,
+    "overrideProperties": {
+      "Prefab": {
+        "path": "aishiweapons/magazines/qbz191_30_tape/mag_qbz191_norinco_58x42_30_tape.bundle",
+        "rcid": ""
+      },
+      "Cartridges": [
+        {
+          "_name": "cartridges",
+          "_id": "f888e42bf16752448d3388f8",
+          "_parent": "6b7ebec521a9577485088938",
+          "_max_count": 30,
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6a07208057b2695f9d001e63",
+                  "6a42661705016139300b2085",
+                  "6a42662fcb506840dd053827",
+                  "6a426637ddc63098d100ae67"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ],
+      "Name": "QBZ-191 5.8x42 30-round magazine (Tape)",
+      "ShortName": "QBZ-191",
+      "Description": "A 30-round 5.8x42 polymer magazine for the QBZ-191 assault rifle. Tape Version. Change the tape color from the magazine menu in your stash.",
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": true
+    },
+    "locales": {
+      "en": {
+        "name": "QBZ-191 5.8x42 30-round magazine (Tape)",
+        "shortName": "QBZ-191",
+        "description": "A 30-round 5.8x42 polymer magazine for the QBZ-191 assault rifle. Tape Version. Change the tape color from the magazine menu in your stash."
+      },
+      "po": {
+        "name": "QBZ-191 5.8x42 30-round magazine (Tape)",
+        "shortName": "QBZ-191",
+        "description": "A 30-round 5.8x42 polymer magazine for the QBZ-191 assault rifle. Tape Version. Change the tape color from the magazine menu in your stash."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_magazine"
+    ]
+  },
+  "8b49d50621665612a5f2173d": {
+    "itemTplToClone": "69f9ec5a7596e93e340c0a1e",
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "aishiweapons/qbz191_ral8000/mag_qbz191_norinco_58x42_30_additional_parts_ral8000.bundle",
+        "rcid": ""
+      },
+      "Cartridges": [
+        {
+          "_name": "cartridges",
+          "_id": "6aee739e1e085cbe98779367",
+          "_parent": "8b49d50621665612a5f2173d",
+          "_max_count": 30,
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6a07208057b2695f9d001e63",
+                  "6a42661705016139300b2085",
+                  "6a42662fcb506840dd053827",
+                  "6a426637ddc63098d100ae67"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ],
+      "Name": "QBZ-191 5.8x42 30-round magazine (RAL 8000)",
+      "ShortName": "QBZ-191",
+      "Description": "A 30-round 5.8x42 polymer magazine for the QBZ-191 assault rifle. RAL 8000 Version.",
+      "BackgroundColor": "yellow",
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": true
+    },
+    "handbookPriceRoubles": 3200,
+    "fleaPriceRoubles": 7040,
+    "locales": {
+      "en": {
+        "name": "QBZ-191 5.8x42 30-round magazine (RAL 8000)",
+        "shortName": "QBZ-191",
+        "description": "A 30-round 5.8x42 polymer magazine for the QBZ-191 assault rifle. RAL 8000 Version."
+      },
+      "po": {
+        "name": "QBZ-191 5.8x42 30-round magazine (RAL 8000)",
+        "shortName": "QBZ-191",
+        "description": "A 30-round 5.8x42 polymer magazine for the QBZ-191 assault rifle. RAL 8000 Version."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_magazine"
+    ]
+  }
+}

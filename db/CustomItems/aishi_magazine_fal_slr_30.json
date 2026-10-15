@@ -1,0 +1,191 @@
+{
+  "6ca8efce63275c0097d30bc3": {
+    "itemTplToClone": "5b7d37845acfc400170e2f87",
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "handbookPriceRoubles": 4609,
+    "fleaPriceRoubles": 29891,
+    "overrideProperties": {
+      "Name": "SA58/FAL/SLR 7.62x51 30-round magazine (RAL 8000) (Tape)",
+      "CanRequireOnRagfair": true,
+      "Prefab": {
+        "path": "aishiweapons/magazines/fal_slr_30_ral8000_tape/mag_fal_sarco_fal_l1a1_orig_762x51_30_tape.bundle",
+        "rcid": ""
+      },
+      "Cartridges": [
+        {
+          "_id": "4f56d48e28cc5c2e8e627d04",
+          "_max_count": 30,
+          "_name": "cartridges",
+          "_parent": "6ca8efce63275c0097d30bc3",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a6086ea4f39f99cd479502f",
+                  "5a608bf24f39f98ffc77720e",
+                  "58dd3ad986f77403051cba8f",
+                  "5e023e53d4353e3302577c4c",
+                  "5efb0c1bd79ff02a1f5e68d9",
+                  "5e023e6e34d52a55c3304f71",
+                  "5e023e88277cce2b522ff2b1",
+                  "6768c25aa7b238f14a08d3f6"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ],
+      "ShortName": "L1A1",
+      "Description": "A 30-round double-stack steel 7.62x51 magazine for L1A1 Self-Loading Rifle (SLR), a British version of FN FAL. RAL 8000 Version. Tape Version. Change the tape color from the magazine menu in your stash."
+    },
+    "locales": {
+      "en": {
+        "name": "SA58/FAL/SLR 7.62x51 30-round magazine (RAL 8000) (Tape)",
+        "shortName": "L1A1",
+        "description": "A 30-round double-stack steel 7.62x51 magazine for L1A1 Self-Loading Rifle (SLR), a British version of FN FAL. RAL 8000 Version. Tape Version. Change the tape color from the magazine menu in your stash."
+      },
+      "po": {
+        "name": "SA58/FAL/SLR 7.62x51 30-round magazine (RAL 8000) (Tape)",
+        "shortName": "L1A1 30 7.62x51",
+        "description": "Carregador britânico original de aço para FAL/SA-58, fileira dupla de alimentação, com capacidade de 30 munições calibre 7.62x51 NATO. RAL 8000 Version. Tape Version. Change the tape color from the magazine menu in your stash."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_magazine"
+    ]
+  },
+  "83bb868f4cd45d7d9883f10a": {
+    "itemTplToClone": "5b7d37845acfc400170e2f87",
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "handbookPriceRoubles": 4609,
+    "fleaPriceRoubles": 29891,
+    "overrideProperties": {
+      "Prefab": {
+        "path": "aishiweapons/magazines/fal_slr_30_tape/mag_fal_sarco_fal_l1a1_orig_762x51_30_tape.bundle",
+        "rcid": ""
+      },
+      "Cartridges": [
+        {
+          "_id": "afa471f8768854659aedc946",
+          "_max_count": 30,
+          "_name": "cartridges",
+          "_parent": "83bb868f4cd45d7d9883f10a",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a6086ea4f39f99cd479502f",
+                  "5a608bf24f39f98ffc77720e",
+                  "58dd3ad986f77403051cba8f",
+                  "5e023e53d4353e3302577c4c",
+                  "5efb0c1bd79ff02a1f5e68d9",
+                  "5e023e6e34d52a55c3304f71",
+                  "5e023e88277cce2b522ff2b1",
+                  "6768c25aa7b238f14a08d3f6"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ],
+      "Name": "SA58/FAL/SLR 7.62x51 30-round magazine (Tape)",
+      "ShortName": "L1A1",
+      "Description": "A 30-round double-stack steel 7.62x51 magazine for L1A1 Self-Loading Rifle (SLR), a British version of FN FAL. Tape Version. Change the tape color from the magazine menu in your stash.",
+      "CanRequireOnRagfair": true
+    },
+    "locales": {
+      "en": {
+        "name": "SA58/FAL/SLR 7.62x51 30-round magazine (Tape)",
+        "shortName": "L1A1",
+        "description": "A 30-round double-stack steel 7.62x51 magazine for L1A1 Self-Loading Rifle (SLR), a British version of FN FAL. Tape Version. Change the tape color from the magazine menu in your stash."
+      },
+      "po": {
+        "name": "Carregador de 30 munições britânico 7.62x51 para SA-58/FAL/SLR (Tape)",
+        "shortName": "L1A1 30 7.62x51",
+        "description": "Carregador britânico original de aço para FAL/SA-58, fileira dupla de alimentação, com capacidade de 30 munições calibre 7.62x51 NATO. Tape Version. Change the tape color from the magazine menu in your stash."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_magazine"
+    ]
+  },
+  "54caa064650556708af1dc97": {
+    "itemTplToClone": "5b7d37845acfc400170e2f87",
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "overrideProperties": {
+      "Name": "SA58/FAL/SLR 7.62x51 30-round magazine (RAL 8000)",
+      "CanRequireOnRagfair": true,
+      "Prefab": {
+        "path": "aishiweapons/sa58_ral8000/mag_fal_sarco_fal_l1a1_orig_762x51_30_ral8000.bundle",
+        "rcid": ""
+      },
+      "Cartridges": [
+        {
+          "_id": "ac31412d01475d46987dbc51",
+          "_max_count": 30,
+          "_name": "cartridges",
+          "_parent": "54caa064650556708af1dc97",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a6086ea4f39f99cd479502f",
+                  "5a608bf24f39f98ffc77720e",
+                  "58dd3ad986f77403051cba8f",
+                  "5e023e53d4353e3302577c4c",
+                  "5efb0c1bd79ff02a1f5e68d9",
+                  "5e023e6e34d52a55c3304f71",
+                  "5e023e88277cce2b522ff2b1",
+                  "6768c25aa7b238f14a08d3f6"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ],
+      "ShortName": "L1A1",
+      "Description": "A 30-round double-stack steel 7.62x51 magazine for L1A1 Self-Loading Rifle (SLR), a British version of FN FAL. RAL 8000 Version."
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "handbookPriceRoubles": 4609,
+    "fleaPriceRoubles": 29891,
+    "locales": {
+      "en": {
+        "name": "SA58/FAL/SLR 7.62x51 30-round magazine (RAL 8000)",
+        "shortName": "L1A1",
+        "description": "A 30-round double-stack steel 7.62x51 magazine for L1A1 Self-Loading Rifle (SLR), a British version of FN FAL. RAL 8000 Version."
+      },
+      "po": {
+        "name": "SA58/FAL/SLR 7.62x51 30-round magazine (RAL 8000)",
+        "shortName": "L1A1 30 7.62x51",
+        "description": "Carregador britânico original de aço para FAL/SA-58, fileira dupla de alimentação, com capacidade de 30 munições calibre 7.62x51 NATO. RAL 8000 Version."
+      }
+    },
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_magazine"
+    ]
+  }
+}

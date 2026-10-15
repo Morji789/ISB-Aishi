@@ -1,46 +1,34 @@
 {
   "699b54a97d3c1c9f69f616b6": {
-
     "itemTplToClone": "6529243824cbe3c74a05e5c1",
     "parentId": "5485a8684bdc2da71d8b4567",
     "handbookParentId": "5b47574386f77428ca22b33b",
-
-
-    "overrideProperties": { 
+    "overrideProperties": {
       "ExaminedByDefault": false,
-        "IsUnsaleable": true,
-        "IsUnbuyable": true,
-        "BallisticCoeficient": 0.215,
-        "MisfireChance": 0.125,
-        "MalfMisfireChance": 0.155,
-        "MalfFeedChance":0.050,
-        "DurabilityBurnModificator": 1.0,
-        "HeatFactor": 2.5,
-        "InitialSpeed": 1005,
-        "Damage": 65,
-        "ArmorDamage": 75,
-        "PenetrationPower":55 ,
-        "PenetrationChanceObstacle": 0.5,
-        "PenetrationDamageMod": 0.125,
-        "ammoAccr": 6,
-        "ammoRec": 15, 
-
-        
-
+      "IsUnsaleable": true,
+      "IsUnbuyable": true,
+      "BallisticCoeficient": 0.215,
+      "MisfireChance": 0.125,
+      "MalfMisfireChance": 0.155,
+      "MalfFeedChance": 0.05,
+      "DurabilityBurnModificator": 1.0,
+      "HeatFactor": 2.5,
+      "InitialSpeed": 1005,
+      "Damage": 65,
+      "ArmorDamage": 75,
+      "PenetrationPower": 55,
+      "PenetrationChanceObstacle": 0.5,
+      "PenetrationDamageMod": 0.125,
+      "ammoAccr": 6,
+      "ammoRec": 15,
+      "StackMaxSize": 50,
       "Prefab": {
-
         "path": "ammo/patron_mod68x51.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
-      "Height": 1,
       "Weight": 0.025,
-
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "6.8x51mm SIG XM1184 AP",
@@ -52,29 +40,17 @@
         "shortName": "XM1184-AP",
         "description": "O cartucho .277 Fury 6,8×51 mm (.277 FURY) XM1184 AP é um cartucho de rifle de nível militar perfurante de blindagem destinado às futuras gerações de veículos de combate; o invólucro utilizado neste calibre é fabricado com uma combinação de bimetal composta por aço inoxidável fixado ao corpo do invólucro de latão, a fim de suportar a alta pressão na câmara de forma a garantir um funcionamento confiável em condições adversas. A munição em si é carregada com um núcleo penetrador endurecido e oferece excelentes propriedades balísticas com maior letalidade em comparação com outros cartuchos, como o 5,56x45 mm e o 7,62x51 mm."
       }
-    
     },
-
     "fleaPriceRoubles": 5995,
-
     "handbookPriceRoubles": 3190,
-
     "addCaliberToAllCloneLocations": true,
-
     "addtoStaticAmmo": true,
-
     "staticAmmoProbability": 100,
-
     "addtoBots": true,
-
     "CanSellOnRagfair": false,
-
     "CanRequireOnRagfair": false,
-    
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",

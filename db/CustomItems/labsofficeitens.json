@@ -1,0 +1,137 @@
+{
+  "e875fa2b6553908dc57716f6": {
+    "itemTplToClone": "590c621186f774138d11ea29",
+    "parentId": "5448ecbe4bdc2d60728b4568",
+    "handbookParentId": "5b47574386f77428ca22b341",
+    "overrideProperties": {
+      "CanSellOnRagfair": false,
+      "Prefab": {
+        "path": "assets/content/items/infosubject/item_info_flash_card_hash_prapor.bundle",
+        "rcid": ""
+      },
+      "Weight": 0.05,
+      "BackgroundColor": "yellow",
+      "DiscardLimit": -1,
+      "Grids": []
+    },
+    "locales": {
+      "en": {
+        "name": "Modified C.A.S.S.I.E. flash drive",
+        "shortName": "C.A.S.S.I.E. Mod",
+        "description": "A modified C.A.S.S.I.E. flash drive. Install it in the Labs server block to expose the current decontamination emergency code."
+      },
+      "po": {
+        "name": "Pendrive C.A.S.S.I.E. modificado",
+        "shortName": "C.A.S.S.I.E. Mod",
+        "description": "Pendrive modificado da C.A.S.S.I.E. Instale-o no bloco de servidores da Labs para revelar o código de emergência da descontaminação da incursão atual."
+      }
+    },
+    "fleaPriceRoubles": 65000,
+    "handbookPriceRoubles": 65000,
+    "CanSellOnRagfair": false,
+    "CanRequireOnRagfair": false,
+    "addtoItemBlacklist": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "addtoTraders": false,
+    "addtoSecureFilters": false
+  },
+  "4a4661aa041c7a92541e1933": {
+    "itemTplToClone": "590c621186f774138d11ea29",
+    "parentId": "57864a66245977548f04a81f",
+    "handbookParentId": "5b47574386f77428ca22b2f3",
+    "overrideProperties": {
+      "CanSellOnRagfair": false,
+      "Weight": 0.1,
+      "BackgroundColor": "yellow",
+      "Grids": []
+    },
+    "locales": {
+      "en": {
+        "name": "C.A.S.S.I.E. data flash drive",
+        "shortName": "Data",
+        "description": "Internal system data such as credentials, existing modules, timers, and C.A.S.S.I.E. configuration files."
+      },
+      "po": {
+        "name": "Pendrive com dados da C.A.S.S.I.E.",
+        "shortName": "Dados",
+        "description": "Dados internos do sistema como credenciais, módulos existentes, temporizadores e arquivos de configuração de C.A.S.S.I.E."
+      }
+    },
+    "fleaPriceRoubles": 45000,
+    "handbookPriceRoubles": 45000,
+    "addtoItemBlacklist": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "addtoTraders": false,
+    "addtoSecureFilters": true
+  },
+  "02505e86dbddb393d4bae17f": {
+    "itemTplToClone": "590c392f86f77444754deb29",
+    "parentId": "57864a66245977548f04a81f",
+    "handbookParentId": "5b47574386f77428ca22b2f3",
+    "overrideProperties": {
+      "CanSellOnRagfair": false,
+      "Weight": 0.1,
+      "BackgroundColor": "yellow",
+      "Grids": [],
+      "DiscardLimit": -1
+    },
+    "locales": {
+      "en": {
+        "name": "SSD with C.A.S.S.I.E. system files",
+        "shortName": "CASSIE SSD",
+        "description": "An SSD containing all the C.A.S.S.I.E. system data downloaded from the terminal at the Labs office."
+      },
+      "po": {
+        "name": "SSD com os arquivos do sistema C.A.S.S.I.E.",
+        "shortName": "SSD CASSIE",
+        "description": "Um SSD contendo todas as informações do sistema C.A.S.S.I.E. baixadas do terminal do escritório da Labs."
+      }
+    },
+    "fleaPriceRoubles": 45000,
+    "handbookPriceRoubles": 45000,
+    "addtoItemBlacklist": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "addtoTraders": false,
+    "addtoSecureFilters": false
+  },
+  "264f194ae30547c55dfbf0d9": {
+    "itemTplToClone": "5448ba0b4bdc2d02308b456c",
+    "parentId": "5c99f98d86f7745c314214b3",
+    "handbookParentId": "5b47574386f77428ca22b2ed",
+    "overrideProperties": {
+      "CanSellOnRagfair": false,
+      "ExaminedByDefault": true,
+      "BackgroundColor": "yellow",
+      "Prefab": {
+        "path": "quests/item_barter_energy_greenbat_modified_ISB_V2.bundle",
+        "rcid": ""
+      },
+      "MaximumNumberOfUsage": 2,
+      "Weight": 0.18,
+      "ItemSound": "generic",
+      "Grids": []
+    },
+    "locales": {
+      "en": {
+        "name": "Modified low-frequency battery",
+        "shortName": "LF Battery",
+        "description": "Two charges. Powers the isolated office door and safe readers in Labs. Requires a toolset, which is not consumed."
+      },
+      "po": {
+        "name": "Bateria de baixa frequência modificada",
+        "shortName": "Bateria BF",
+        "description": "Duas cargas. Alimenta os leitores isolados da porta e do cofre do escritório da Labs. Exige um toolset, que não é consumido."
+      }
+    },
+    "fleaPriceRoubles": 100000,
+    "handbookPriceRoubles": 100000,
+    "addtoItemBlacklist": true,
+    "CanSellOnRagfair": false,
+    "CanRequireOnRagfair": false,
+    "addtoBots": false,
+    "addtoSecureFilters": true
+  }
+}

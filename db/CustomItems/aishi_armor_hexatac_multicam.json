@@ -1,0 +1,144 @@
+{
+  "d92d1947548a5d82a52c325c": {
+    "itemTplToClone": "63737f448b28897f2802b874",
+    "parentId": "5448e54d4bdc2dcc718b4568",
+    "handbookParentId": "5b5f701386f774093f2ecf0f",
+    "overrideProperties": {
+      "Description": "A plate carrier by Hexatac. A minimalistic version designed to be used with chest rigs. CP MultiCam Version.",
+      "Grids": [],
+      "Name": "Hexatac HPC Plate Carrier (CP MultiCam)",
+      "Prefab": {
+        "path": "equipment/item_equipment_armor_hexatac_multicam_aishi.bundle",
+        "rcid": ""
+      },
+      "ShortName": "HPC",
+      "Slots": [
+        {
+          "_id": "295754376af551f08ac84b5b",
+          "_mergeSlotWithChildren": true,
+          "_name": "Front_plate",
+          "_parent": "d92d1947548a5d82a52c325c",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "656f9d5900d62bcd2e02407c",
+                  "656fa8d700d62bcd2e024084",
+                  "656fa99800d62bcd2e024088",
+                  "656fae5f7c2d57afe200c0d7",
+                  "656faf0ca0dce000a2020f77",
+                  "656fafe3498d1b7e3e071da4",
+                  "656fa0fb498d1b7e3e071d9c",
+                  "656fa76500d62bcd2e024080",
+                  "656fad8c498d1b7e3e071da0",
+                  "656fa25e94b480b8a500c0e0",
+                  "656fa61e94b480b8a500c0e8",
+                  "656fb21fa0dce000a2020f7c",
+                  "656fac30c6baea13cd07e10c",
+                  "656fb0bd7c2d57afe200c0dc",
+                  "656f9fa0498d1b7e3e071d98",
+                  "656fa53d94b480b8a500c0e4",
+                  "655746010177119f4a097ff7",
+                  "64afdcb83efdfea28601d041"
+                ],
+                "Plate": "656fae5f7c2d57afe200c0d7",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_chest"
+                ],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": false
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": false
+        },
+        {
+          "_id": "23f9cd4728ee5695a5682263",
+          "_mergeSlotWithChildren": true,
+          "_name": "Back_plate",
+          "_parent": "d92d1947548a5d82a52c325c",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "656f9d5900d62bcd2e02407c",
+                  "656fa8d700d62bcd2e024084",
+                  "656fa99800d62bcd2e024088",
+                  "656fae5f7c2d57afe200c0d7",
+                  "656faf0ca0dce000a2020f77",
+                  "656fa0fb498d1b7e3e071d9c",
+                  "656fafe3498d1b7e3e071da4",
+                  "656fa25e94b480b8a500c0e0",
+                  "656fa76500d62bcd2e024080",
+                  "656fad8c498d1b7e3e071da0",
+                  "656fa61e94b480b8a500c0e8",
+                  "656fb21fa0dce000a2020f7c",
+                  "656fac30c6baea13cd07e10c",
+                  "656fb0bd7c2d57afe200c0dc",
+                  "656f9fa0498d1b7e3e071d98",
+                  "656fa53d94b480b8a500c0e4",
+                  "655746010177119f4a097ff7",
+                  "64afdcb83efdfea28601d041"
+                ],
+                "Plate": "656fae5f7c2d57afe200c0d7",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_back"
+                ],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": false
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": false
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Hexatac HPC Plate Carrier (CP MultiCam)",
+        "shortName": "HPC",
+        "description": "A plate carrier by Hexatac. A minimalistic version designed to be used with chest rigs. CP MultiCam Version."
+      }
+    },
+    "handbookPriceRoubles": 70717,
+    "fleaPriceRoubles": 47509,
+    "addtoInventorySlots": [],
+    "addtoBots": false,
+    "addtoTraders": false,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": false,
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_changeWeaponName": false,
+        "_encyclopedia": "d92d1947548a5d82a52c325c",
+        "_id": "126ddc5d79525acbafd0c68d",
+        "_items": [
+          {
+            "_id": "b7a49e4ecc3e507ba14bee86",
+            "_tpl": "d92d1947548a5d82a52c325c"
+          },
+          {
+            "_id": "141234c051935c508e580252",
+            "_tpl": "656fae5f7c2d57afe200c0d7",
+            "parentId": "b7a49e4ecc3e507ba14bee86",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "db8329831e0250ae878ec4df",
+            "_tpl": "656fae5f7c2d57afe200c0d7",
+            "parentId": "b7a49e4ecc3e507ba14bee86",
+            "slotId": "Back_plate"
+          }
+        ],
+        "_name": "Hexatac HPC Plate Carrier (CP MultiCam)",
+        "_parent": "b7a49e4ecc3e507ba14bee86",
+        "_type": "Preset"
+      }
+    ]
+  }
+}

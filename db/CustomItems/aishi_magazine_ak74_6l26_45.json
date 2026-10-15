@@ -1,0 +1,70 @@
+{
+  "a9faa557e9c259a9b3149f60": {
+    "itemTplToClone": "55d481904bdc2d8c2f8b456a",
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "handbookPriceRoubles": 3765,
+    "fleaPriceRoubles": 10116,
+    "overrideProperties": {
+      "Prefab": {
+        "path": "aishiweapons/magazines/ak74_6l26_45_tape/mag_ak74_izhmash_6l26_545x39_45_tape.bundle",
+        "rcid": ""
+      },
+      "Cartridges": [
+        {
+          "_id": "ab9a3f97265a5f279e4e7120",
+          "_max_count": 45,
+          "_name": "cartridges",
+          "_parent": "a9faa557e9c259a9b3149f60",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5c0d5e4486f77478390952fe",
+                  "61962b617c6c7b169525f168",
+                  "56dfef82d2720bbd668b4567",
+                  "56dff026d2720bb8668b4567",
+                  "56dff061d2720bb5668b4567",
+                  "56dff0bed2720bb0668b4567",
+                  "56dff216d2720bbd668b4568",
+                  "56dff2ced2720bb4668b4567",
+                  "56dff338d2720bbd668b4569",
+                  "56dff3afd2720bba668b4567",
+                  "56dff421d2720b5f5a8b4567",
+                  "56dff4a2d2720bbd668b456a",
+                  "56dff4ecd2720b5f5a8b4568"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ],
+      "Name": "AK-74 5.45x39 6L26 45-round magazine (Tape)",
+      "ShortName": "6L26",
+      "Description": "A 45-round 5.45x39 polymer Izhmash 6L26 magazine for AK-74 and compatible systems. Tape Version. Change the tape color from the magazine menu in your stash.",
+      "CanRequireOnRagfair": true
+    },
+    "locales": {
+      "en": {
+        "name": "AK-74 5.45x39 6L26 45-round magazine (Tape)",
+        "shortName": "6L26",
+        "description": "A 45-round 5.45x39 polymer Izhmash 6L26 magazine for AK-74 and compatible systems. Tape Version. Change the tape color from the magazine menu in your stash."
+      },
+      "po": {
+        "name": "Carregador de 45 munições 6L26 5.45x39 para AK-74 e compatíveis (Tape)",
+        "shortName": "6L26",
+        "description": "Carregador de 45 munições feito de polímero para calibre 5.45x39, para AK-74 e seus compatíveis. Produzido pela Izhmekh. Tape Version. Change the tape color from the magazine menu in your stash."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_magazine"
+    ]
+  }
+}

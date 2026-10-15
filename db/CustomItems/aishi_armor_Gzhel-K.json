@@ -1,32 +1,19 @@
 {
   "693ada08f776b05c34f460a5": {
-
     "itemTplToClone": "5ab8e79e86f7742d8b372e78",
     "parentId": "5448e54d4bdc2dcc718b4568",
     "handbookParentId": "5b5f701386f774093f2ecf0f",
-
-
     "overrideProperties": {
-      "QuestItem": false,  
       "ExaminedByDefault": false,
-      "IsUnsaleable": false,    
       "Prefab": {
-
         "path": "equipment/item_equipment_armor_gjel_black.bundle",
         "rcid": ""
       },
-
-
-      "Width": 3,
-      "Height": 3,
-
-
-      "Weight": 2.95,
-
-
-      "Grids": []
+      "Grids": [],
+      "Name": "BNTI Gzhel-K body armor (USEC Intelligence Support Bureau)",
+      "ShortName": "Gzhel-K",
+      "Description": "The Gzhel assault bulletproof vest is designed for assault units of the Ministry of Internal Affairs and other law enforcement agencies. (ISB SOF)"
     },
-
     "addWeaponPreset": true,
     "weaponPresets": [
       {
@@ -98,50 +85,37 @@
         "_type": "Preset"
       }
     ],
-
     "locales": {
       "en": {
         "name": "BNTI Gzhel-K body armor (USEC Intelligence Support Bureau)",
         "shortName": "Gzhel-K",
-        "description": "The Gzhel assault bulletproof vest is designed for assault units of the Ministry of Internal Affairs and other law enforcement agencies. Custom Black Version for ISB Special Forces"
+        "description": "The Gzhel assault bulletproof vest is designed for assault units of the Ministry of Internal Affairs and other law enforcement agencies. (ISB SOF)"
       },
-        "po": {
+      "po": {
         "name": "BNTI Gzhel-K body armor (Agência de Suporte a Inteligência da USEC)",
         "shortName": "Gzhel-K",
-        "description": "O colete à prova de balas Gzhel foi concebido para unidades de assalto do Ministério do Interior e outras agências policiais. Versão preta personalizada para as Forças Especiais da ISB."
+        "description": "O colete à prova de balas Gzhel foi projetado para unidades especias do Ministério de Assuntos Internos Russos e outras agências executivas. (ISB SOF)"
       }
     },
-
     "fleaPriceRoubles": 95800,
-
     "handbookPriceRoubles": 4000,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true,   
-
-    "addtoInventorySlots": ["BodyArmor"],
-
+    "addtoItemBlacklist": true,
+    "addtoInventorySlots": [
+      "BodyArmor"
+    ],
     "IsAlwaysAvailableForInsurance": false,
-
     "InsuranceDisabled": false,
-
     "addtoBots": false,
-
     "addtoEmptyPropSlots": false,
-
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",
         "Probability": 0
       }
     ],
-
-
     "addtoSecureFilters": false
   }
 }

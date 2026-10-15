@@ -1,110 +1,48 @@
 {
   "6a126adc0d1adc1541f74ad4": {
-
     "itemTplToClone": "59e763f286f7742ee57895da",
     "parentId": "5448e53e4bdc2d60728b4567",
     "handbookParentId": "5b5f6f6c86f774093f2ecf0b",
-
     "overrideProperties": {
-      "QuestItem": false,  
       "ExaminedByDefault": false,
-      "IsUnsaleable": false,
-      "CanSellOnRagfair": false,
-      "CanRequireOnRagfair": false,
-      "InsuranceDisabled": true,
-      "addtoItemBlacklist": false,   
-        
-
+      "addtoItemBlacklist": false,
       "Prefab": {
-
         "path": "equipment/item_equipment_backpack_pilgrim_black.bundle",
         "rcid": ""
       },
-
-      "Width": 5,
       "Height": 8,
-
-
-      "Weight": 2.25,
-
-      "Grids": [
-        {
-          "_name": "main",
-          "_id": "6a126b7c91e825639daa6eff",
-          "_parent": "6a126adc0d1adc1541f74ad4",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ],
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a",
-                  "5c093db286f7740a1b2617e3",
-                  "5e2af55f86f7746d4159f07c",
-                  "5c0a840b86f7742ffa4f2482",
-                  "5b7c710788a4506dec015957",
-                  "5c127c4486f7745625356c13",
-                  "5aafbcd986f7745e590fff23",
-                  "59fb016586f7746d0d4b423a",
-                  "59fb042886f7746c5005a7b2",
-                  "59fb023c86f7746d0d4b423c",
-                  "5b6d9ce188a4501afc1b2b25"
-                ]
-              }
-            ],
-            "cellsH": 6,
-            "cellsV": 9,
-            "minCount": 0,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "isSortingTable": false
-          },
-          "_proto": "6a126b785e87c884684d1447"
-        }
-      ]
+      "Weight": 2.25
     },
-
     "locales": {
       "en": {
-        "name": "Extended Pilgrim backpack (USEC Intelligence Support Bureau)",
+        "name": "Pilgrim backpack (USEC Intelligence Support Bureau)",
         "shortName": "Pilgrim",
         "description": "A large backpack that is perfect for the tourist on a raid."
       },
-        "po": {
-        "name": "Mochila Pilgrim expandida (USEC Intelligence Support Bureau)",
+      "po": {
+        "name": "Mochila Pilgrim (USEC Intelligence Support Bureau)",
         "shortName": "Pilgrim",
         "description": "Uma mochila grande, perfeita para o turista em uma excursão."
       }
     },
-
     "fleaPriceRoubles": 138999,
-
     "handbookPriceRoubles": 98999,
-
-    "addtoInventorySlots": ["Backpack"],
-
+    "addtoInventorySlots": [
+      "Backpack"
+    ],
     "addtoBots": true,
-
     "CanSellOnRagfair": false,
-
     "IsAlwaysAvailableForInsurance": false,
-
-    "InsuranceDisabled": true,
-    
+    "InsuranceDisabled": false,
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",
         "Probability": 0
       }
     ],
-
     "addtoSecureFilters": false
   }
 }

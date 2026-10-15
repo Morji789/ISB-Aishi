@@ -1,67 +1,44 @@
 {
   "6a279d1b7bb85ffaa461cd9e": {
-
     "itemTplToClone": "60363c0c92ec1c31037959f5",
     "parentId": "5a341c4686f77469e155819e",
     "handbookParentId": "5b47574386f77428ca22b32f",
-
     "overrideProperties": {
-      "QuestItem": false,  
-      "ExaminedByDefault": true,
-      "Unlootable": false,
       "UnlootableFromSide": [
         "Bear",
         "Usec",
         "Savage"
       ],
-      "UnlootableFromSlot": "FaceCover", 
-        
-
+      "UnlootableFromSlot": "FaceCover",
       "Prefab": {
-
         "path": "equipment/item_equipment_isb_armored_gas_mask2.bundle",
         "rcid": ""
       },
-
-
-      "Width": 2,
-      "Height": 2,
-
-
       "Weight": 0.45,
-
-    "Grids": []
+      "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "MSA G1 SCBA Gas Mask",
         "shortName": "MSA G1 SCBA",
         "description": "A military-grade gas mask for individual protection produced by MSA."
       },
-        "po": {
+      "po": {
         "name": "Máscara de gás MSA G1 SCBA",
         "shortName": "MSA G1 SCBA",
         "description": "Uma mascara de gás de nível militar para proteção individual produzida pela MSA”."
       }
     },
-
     "fleaPriceRoubles": 20945,
-
     "handbookPriceRoubles": 10845,
-
-    "addtoInventorySlots": ["FaceCover"],
-
+    "addtoInventorySlots": [
+      "FaceCover"
+    ],
     "addtoBots": true,
-
     "CanSellOnRagfair": true,
-
     "CanRequireOnRagfair": true,
-    
-    "addtoItemBlacklist": false, 
-
+    "addtoItemBlacklist": false,
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",

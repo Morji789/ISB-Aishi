@@ -1,16 +1,13 @@
 {
   "692dd013f000b7372c0610fe": {
-
     "itemTplToClone": "65702681bfc87b3a3409325f",
     "parentId": "543be5cb4bdc2deb348b4568",
     "handbookParentId": "5b47574386f77428ca22b33c",
-
-
-    "overrideProperties": { 
+    "overrideProperties": {
       "ExaminedByDefault": false,
-        "IsUnsaleable": true,
-        "IsUnbuyable": true,
-        "StackSlots": [
+      "IsUnsaleable": true,
+      "IsUnbuyable": true,
+      "StackSlots": [
         {
           "_id": "692dd020ce68019947a40bfb",
           "_max_count": 100,
@@ -28,23 +25,14 @@
           "_proto": "5748538b2459770af276a261"
         }
       ],
-
-        
-
       "Prefab": {
-
         "path": "assets/content/items/ammo/boxes/item_ammo_box_5_56x45mm_100_crtg.bundle",
         "rcid": ""
       },
-
-
       "Width": 1,
-      "Height": 1,
-      "Weight": 0.250,
-
+      "Weight": 0.25,
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "5.56x45mm Nammo AP4 ammo pack (100 pcs)",
@@ -56,29 +44,17 @@
         "shortName": "AP45",
         "description": "Um pacote de munição 5.56x45mm Nammo AP4, 100 cartuchos."
       }
-    
     },
-
     "fleaPriceRoubles": 403495,
-
     "handbookPriceRoubles": 221190,
-
     "addCaliberToAllCloneLocations": true,
-
     "addtoStaticAmmo": false,
-
     "staticAmmoProbability": 100,
-
     "addtoBots": true,
-
     "CanSellOnRagfair": false,
-
     "CanRequireOnRagfair": false,
-    
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "addtoStaticLootContainers": true,
-
     "staticLootContainers": [
       {
         "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",

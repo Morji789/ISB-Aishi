@@ -1,13 +1,81 @@
 [
-{
-  "id": "694176509df5de06f529631f",
-  "description": "694176509df5de06f529631f description",
-  "name": "694176509df5de06f529631f name",
-  "imageUrl": "/files/achievement/ISB-UN01.png",
-  "assetPath": "",
-  "rewards": [],
-  "conditions": {
-    "availableForFinish": [
+  {
+    "id": "694176509df5de06f529631f",
+    "description": "694176509df5de06f529631f description",
+    "name": "694176509df5de06f529631f name",
+    "imageUrl": "/files/achievement/ISB-UN01.png",
+    "assetPath": "",
+    "rewards": [
+      {
+        "id": "820193058c6923a9b680dee0",
+        "index": 0,
+        "type": "Item",
+        "target": "b4738d3de14014fb1f19886d",
+        "value": "1",
+        "items": [
+          {
+            "_id": "b4738d3de14014fb1f19886d",
+            "_tpl": "69b8289f8ec3dce259c4036a",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ],
+        "findInRaid": true,
+        "availableInGameEditions": [],
+        "unknown": false
+      },
+      {
+        "id": "e0f902889e4290be5a97e6bb",
+        "index": 1,
+        "type": "Item",
+        "target": "0f92bfa4a6311b673300c934",
+        "value": "1",
+        "items": [
+          {
+            "_id": "0f92bfa4a6311b673300c934",
+            "_tpl": "66b5f65ca7f72d197e70bcd6",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ],
+        "findInRaid": true,
+        "availableInGameEditions": [],
+        "unknown": false
+      },
+      {
+        "id": "6681f56ea971b56914eb261d",
+        "index": 2,
+        "type": "Item",
+        "target": "a105cd62b140e6f652ee6af6",
+        "value": "10",
+        "items": [
+          {
+            "_id": "a105cd62b140e6f652ee6af6",
+            "_tpl": "65702558cfc010a0f5006a25",
+            "upd": {
+              "StackObjectsCount": 10
+            }
+          },
+          {
+            "_id": "6c1629b39ddd46abd525ccff",
+            "_tpl": "58dd3ad986f77403051cba8f",
+            "parentId": "a105cd62b140e6f652ee6af6",
+            "slotId": "cartridges",
+            "location": 0,
+            "upd": {
+              "StackObjectsCount": 20
+            }
+          }
+        ],
+        "findInRaid": true,
+        "availableInGameEditions": [],
+        "unknown": false
+      }
+    ],
+    "conditions": {
+      "availableForFinish": [
         {
           "availableAfter": 0,
           "conditionType": "Quest",
@@ -24,18 +92,18 @@
           "target": "6a3db1cab8a16aeffe0b456d",
           "visibilityConditions": []
         }
-    ],
-    "fail": []
-  },
-  "instantComplete": false,
-  "showNotificationsInGame": false,
-  "showProgress": false,
-  "prefab": "",
-  "rarity": "Common",
-  "hidden": false,
-  "showConditions": false,
-  "progressBarEnabled": false,
-  "side": "Pmc",
-  "index": 3301
-}
+      ],
+      "fail": []
+    },
+    "instantComplete": false,
+    "showNotificationsInGame": false,
+    "showProgress": false,
+    "prefab": "",
+    "rarity": "Common",
+    "hidden": false,
+    "showConditions": false,
+    "progressBarEnabled": false,
+    "side": "Pmc",
+    "index": 3301
+  }
 ]

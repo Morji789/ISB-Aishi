@@ -1,16 +1,13 @@
 {
   "699b5493b88594edb24c683a": {
-
     "itemTplToClone": "67600a516f01341c9106ab4c",
     "parentId": "543be5cb4bdc2deb348b4568",
     "handbookParentId": "5b47574386f77428ca22b33c",
-
-
-    "overrideProperties": { 
+    "overrideProperties": {
       "ExaminedByDefault": false,
-        "IsUnsaleable": true,
-        "IsUnbuyable": true,
-        "StackSlots": [
+      "IsUnsaleable": true,
+      "IsUnbuyable": true,
+      "StackSlots": [
         {
           "_id": "699b54a97d3c1c9f69f616b6",
           "_max_count": 20,
@@ -28,23 +25,13 @@
           "_proto": "699b549e6f3af48efd25f703"
         }
       ],
-
-        
-
       "Prefab": {
-
         "path": "assets/content/items/ammo/boxes/item_ammo_box_68x51.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
-      "Height": 1,
       "Weight": 0.125,
-
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "6.8x51mm SIG XM1184 AP ammo pack (20 pcs)",
@@ -56,29 +43,17 @@
         "shortName": "XM1184-AP",
         "description": "Um pacote de munição 6.8x51mm SIG XM1184 AP, 20 cartuchos."
       }
-    
     },
-
     "fleaPriceRoubles": 94750,
-
     "handbookPriceRoubles": 13500,
-
     "addCaliberToAllCloneLocations": true,
-
     "addtoStaticAmmo": false,
-
     "staticAmmoProbability": 100,
-
     "addtoBots": true,
-
     "CanSellOnRagfair": false,
-
     "CanRequireOnRagfair": false,
-    
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "addtoStaticLootContainers": true,
-
     "staticLootContainers": [
       {
         "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",

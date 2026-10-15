@@ -1,0 +1,76 @@
+{
+  "13b140e5489a542b969bce99": {
+    "itemTplToClone": "6a16f3a28873771c3704a132",
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "overrideProperties": {
+      "Name": "AR-15 5.56x45 Daniel Defense 32-round magazine (Tape)",
+      "Prefab": {
+        "path": "aishiweapons/magazines/ar15_daniel_defense_32_tape/mag_stanag_dd_mag_556x45_32_tape.bundle",
+        "rcid": ""
+      },
+      "Cartridges": [
+        {
+          "_name": "cartridges",
+          "_id": "9ee93c4c877d5609bc615853",
+          "_parent": "13b140e5489a542b969bce99",
+          "_max_count": 32,
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "59e6920f86f77411d82aa167",
+                  "59e6927d86f77411da468256",
+                  "54527a984bdc2d4e668b4567",
+                  "54527ac44bdc2d36668b4567",
+                  "59e68f6f86f7746c9f75e846",
+                  "59e6906286f7746c9f75e847",
+                  "59e690b686f7746c9f75e848",
+                  "59e6918f86f7746c9f75e849",
+                  "60194943740c5d77f6705eea",
+                  "601949593ae8f707c4608daa",
+                  "5c0d5ae286f7741e46554302",
+                  "5fbe3ffdf8b6a877a729ea82",
+                  "5fd20ff893a8961fc660a954",
+                  "619636be6db0f2477964e710",
+                  "6196364158ef8c428c287d9f",
+                  "6196365d58ef8c428c287da1",
+                  "64b8725c4b75259c590fa899"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ],
+      "BackgroundColor": "yellow",
+      "ShortName": "DD",
+      "Description": "A 32-round polymer magazine designed for 5.56x45 ammunition. Manufactured by Daniel Defense. Tape Version. Change the tape color from the magazine menu in your stash.",
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": true
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_magazine"
+    ],
+    "locales": {
+      "en": {
+        "name": "AR-15 5.56x45 Daniel Defense 32-round magazine (Tape)",
+        "shortName": "DD",
+        "description": "A 32-round polymer magazine designed for 5.56x45 ammunition. Manufactured by Daniel Defense. Tape Version. Change the tape color from the magazine menu in your stash."
+      },
+      "po": {
+        "name": "AR-15 5.56x45 Daniel Defense 32-round magazine (Tape)",
+        "shortName": "DD",
+        "description": "A 32-round polymer magazine designed for 5.56x45 ammunition. Manufactured by Daniel Defense. Tape Version. Change the tape color from the magazine menu in your stash."
+      }
+    },
+    "handbookPriceRoubles": 4629,
+    "fleaPriceRoubles": 10183
+  }
+}

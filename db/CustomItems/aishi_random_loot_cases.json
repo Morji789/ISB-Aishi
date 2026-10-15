@@ -1,0 +1,155 @@
+{
+  "c5c72a7a3bf1f02421a145bb": {
+    "itemTplToClone": "665829424de4820934746ce6",
+    "parentId": "62f109593b54472778797866",
+    "handbookParentId": "5b5f6fd286f774093f2ecf0d",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "BackgroundColor": "yellow",
+      "Prefab": {
+        "path": "containers/anomalous_containment/item_container_anomalous_containment.bundle",
+        "rcid": ""
+      },
+      "Width": 3,
+      "Weight": 6,
+      "Grids": [],
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
+    },
+    "locales": {
+      "en": {
+        "name": "Anomalous Containment Case",
+        "shortName": "Containment Box",
+        "description": "An anomalous containment box. It contains anomalous items that were under investigation by TerraGroup. The contents of the box may be dangerous and unstable."
+      },
+      "po": {
+        "name": "Maleta de contenção de anômalos",
+        "shortName": "Maleta anômala",
+        "description": "Uma caixa de contenção anômala. Contem itens anômalos que estavam sob pesquisa da TerraGroup. O conteúdo da caixa pode ser perigoso e instável."
+      }
+    },
+    "isRandomLootContainer": true,
+    "randomLootContainerRewards": {
+      "rewardCount": 3,
+      "foundInRaid": true,
+      "rewardTplPool": {
+        "b27508815b9307ccd1bffa36": 1,
+        "1800c994e11cfa35b423e8ed": 1,
+        "6183f2a51cb013b5ab62a796": 1,
+        "fac4f1a658ad562cddde72c6": 1,
+        "72eb2bb2416ee48ee80d63d4": 1,
+        "a38cbf3abbfdcbedaa1b9a0e": 1,
+        "b543125009b989d7287b58ab": 1,
+        "9644da05612ad219e7fc4387": 1,
+        "cd19a7a32ec3820a6ea48800": 1,
+        "1254eb68d298789e43b45ed3": 1,
+        "36be503998aadd53701c57e3": 1,
+        "f131c988930a86c7e5610c57": 1,
+        "45e6cfe53aabe0b5e846cad5": 1,
+        "9df4b9812799170d2f7295f7": 1,
+        "57d2c307a64e179e8995e061": 1,
+        "90c688feeba7c89aa1a3c8a7": 1,
+        "4a2e4aaef50cda01112c41b2": 1,
+        "73cc246044b1d66dd70aedb7": 1,
+        "06f0d5bdc44c4ddcd0759d31": 1,
+        "a8d639d499ac25709f630d2c": 1,
+        "922129d70c57a265f61ee8b1": 1,
+        "d180bb453e8bb2027c5fa540": 1,
+        "51574a824fe10af4518191af": 1,
+        "0056a97d873bba252113c74b": 1,
+        "ae711ed0c5878f74a4264e27": 1,
+        "d94f4a94edf1050b40c93cdb": 1,
+        "eee72a686853f282c7cd01da": 1,
+        "25dd7397974f7d7940ad9742": 1,
+        "68c80d9fb3ef768bbe58a072": 1,
+        "d88925f5ddd4cd8795d5c9bd": 1,
+        "a2c16b836b441dc953652bd6": 1,
+        "571e1ce5aa8a32c10b70d206": 1,
+        "3ddc22a4b7e5ba67ee38edf9": 1,
+        "b7e0639e756abd3bbb872c2c": 1,
+        "337052e7f499ba2f52dfa089": 1,
+        "397495f6cda093c895814c0f": 1,
+        "e57cfb4c1b58a40f9032db70": 1
+      }
+    },
+    "addtoItemBlacklist": true,
+    "CanSellOnRagfair": false,
+    "CanRequireOnRagfair": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "addtoTraders": false,
+    "handbookPriceRoubles": 225000,
+    "fleaPriceRoubles": 225000
+  },
+  "05c26946e5101112654ff5c0": {
+    "itemTplToClone": "665829424de4820934746ce6",
+    "parentId": "62f109593b54472778797866",
+    "handbookParentId": "5b5f6fd286f774093f2ecf0d",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "BackgroundColor": "yellow",
+      "Prefab": {
+        "path": "containers/aishi_weapon_case/item_container_aishi_weapon_case.bundle",
+        "rcid": ""
+      },
+      "Weight": 9,
+      "Grids": []
+    },
+    "locales": {
+      "en": {
+        "name": "ISB Weapon Case",
+        "shortName": "ISB W.Case",
+        "description": "A sealed weapon case. It includes weapons used by the ISB, as well as modified versions of those weapons."
+      },
+      "po": {
+        "name": "Maleta de Armas da ISB",
+        "shortName": "Armas ISB",
+        "description": "Uma maleta de armas lacrada. Contem armas utilizadas pela ISB além de suas versões modificadas."
+      }
+    },
+    "isRandomLootContainer": true,
+    "randomLootContainerRewards": {
+      "rewardCount": 2,
+      "foundInRaid": true,
+      "rewardTplPool": {
+        "6933764646149ffb28ed75e0": 1,
+        "69fca77d3a0b02c8aec59eb4": 1,
+        "6a1e14b82ce3a438f4b6b2e8": 1,
+        "642260b62a82540dbf9bfc36": 1,
+        "b3d61fbd952d5c4c8c9187c5": 1,
+        "1e42a15d2f63539693e5c7f8": 1,
+        "cb80fe3f3cfb52b5a87e6094": 1,
+        "efcffd19f0435f04a82374c2": 1,
+        "1a17ed32613c5cb6a7c961da": 1,
+        "18e10187041456dbaa900de2": 1,
+        "260061e8303c5f779db7db20": 1,
+        "9c16b7be0acc599faffb6086": 1,
+        "6a4d24532666085a03d7b1e3": 1,
+        "69842a195bdc0574dbdf25ca": 1,
+        "7c035e445456522b8dfb749d": 1,
+        "03539977e9ae5795a74b30b9": 1,
+        "0be7b355555056dc92995312": 1,
+        "69f586053cad5a4bb4cd61ee": 1,
+        "69f572b4492391522e8fb0de": 1,
+        "f9c3104d5f3852ffa9f3bab8": 1,
+        "8fbcdfe7577d5fefbb207557": 1,
+        "9c0d097975b25ceca897c853": 1,
+        "7b0c1938f1745313a76e2aa9": 1,
+        "cf57ac872fca521998e54395": 1,
+        "69f67aaf276f5880ea08136f": 1,
+        "6fe40d1ffec95b6ab6610a4a": 1,
+        "9e99618280a4576e8e3e1f64": 1,
+        "dfba67dbc6035b6aa1ebc594": 1,
+        "c3cf0be1b21a5beab925f904": 1
+      }
+    },
+    "addtoItemBlacklist": true,
+    "CanSellOnRagfair": false,
+    "CanRequireOnRagfair": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "addtoTraders": false,
+    "handbookPriceRoubles": 450000,
+    "fleaPriceRoubles": 450000
+  }
+}

@@ -1,8 +1,19 @@
 {
-    "690e2689cbd10f2ac5e766eb name": "Interception",
-    "690e2689cbd10f2ac5e766eb description": "I heard you're looking for information about some people. They are led by an extremely dangerous woman; her operations put Tarkov and everyone involved at risk. Don't hand this over to anyone but me.",
-    "6937a89eda352f46b8a30100": "Locate the Diary in the Lighthouse Chalet",
-    "690e26a05d880ff9624676c3": "Hand over the Diary",
-    "690e2689cbd10f2ac5e766eb successMessageText": "Great",
-    "690e2689cbd10f2ac5e766eb failMessageText": "Don't say I didn't warn you"
+  "690e2689cbd10f2ac5e766eb name": "Interception",
+  "690e2689cbd10f2ac5e766eb description": "I heard you're looking for information about some people. They are led by an extremely dangerous woman; her operations put Tarkov and everyone involved at risk. Don't hand this over to anyone but me.",
+  "6937a89eda352f46b8a30100": "Locate the Diary in the Lighthouse Chalet",
+  "690e26a05d880ff9624676c3": "Hand over the Diary",
+  "690e2689cbd10f2ac5e766eb successMessageText": "Great",
+  "690e2689cbd10f2ac5e766eb failMessageText": "Don't say I didn't warn you",
+  "c3dd45d0da2679c60db3c3cb name": "Fast Travel",
+  "c3dd45d0da2679c60db3c3cb description": "Maybe you've already heard of this ISB. Well, their leader is pretty... pragmatic. Anyway, maybe giving you a little nudge and helping you connect with her could be beneficial—are you interested? Why not chip in a little?",
+  "c3dd45d0da2679c60db3c3cb successMessageText": "Hm...",
+  "c3dd45d0da2679c60db3c3cb acceptPlayerMessage": "Deal.",
+  "c3dd45d0da2679c60db3c3cb failMessageText": "You already have a direct contact.",
+  "c3dd45d0da2679c60db3c3cb completePlayerMessage": "",
+  "c3dd45d0da2679c60db3c3cb startedMessageText": "",
+  "c3dd45d0da2679c60db3c3cb changeQuestMessageText": "",
+  "c3dd45d0da2679c60db3c3cb declinePlayerMessage": "",
+  "c3dd45d0da2679c60db3c3cb note": "",
+  "f3ea573061656070b2292e20": "Hand over 500,000 roubles to Fence"
 }

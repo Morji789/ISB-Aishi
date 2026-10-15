@@ -1,0 +1,27 @@
+[
+  {
+    "type": "bottom",
+    "suiteId": "2100f2798c91562f96bf3fcc",
+    "outfitId": "19b22d9bf84550f1877cfbfa",
+    "bottomId": "f56db025728253908cd389d3",
+    "locales": {
+      "en": {
+        "name": "Roze's Virago Lower - Nightops",
+        "description": "Roze's Virago Lower - Nightops tactical clothing."
+      },
+      "po": {
+        "name": "Roze's Virago Lower - Nightops",
+        "description": "Roze's Virago Lower - Nightops / roupa tática."
+      }
+    },
+    "bottomBundlePath": "clothing/roze_nightops/roze_virago_bottom_nightops.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 30,
+    "standing": 0.4,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 2500,
+    "questRequirements": [],
+    "achievementRequirements": []
+  }
+]

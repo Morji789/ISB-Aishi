@@ -1,0 +1,166 @@
+{
+  "e74bf4cdc3665c3e8df06767": {
+    "itemTplToClone": "65709d2d21b9f815e208ff95",
+    "parentId": "5a341c4086f77401f2541505",
+    "handbookParentId": "5b47574386f77428ca22b330",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "equipment/item_equipment_helmet_neosteel_green_multicam_aishi.bundle",
+        "rcid": ""
+      },
+      "Name": "Diamond Age NeoSteel High Cut helmet (Green MultiCam)",
+      "ShortName": "NeoSteel (Green MultiCam)",
+      "Description": "The Diamond Age NeoSteel helmet features a unique design that combines high-strength steel with composite materials to provide advanced protection against ballistic and impact threats. It is designed to withstand high velocity impacts and can provide protection against a variety of threats. Green MultiCam Version.",
+      "Slots": [
+        {
+          "_id": "86fff55ffa54556f9c9e0ca0",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_equipment_000",
+          "_parent": "e74bf4cdc3665c3e8df06767",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6570a88c8f221f3b210353b7"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "b630f80ee8ed5b2c8cba423c",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount",
+          "_parent": "e74bf4cdc3665c3e8df06767",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5b7be47f5acfc400170e2dd2"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "c5d641141aa555d1be022623",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_nvg",
+          "_parent": "e74bf4cdc3665c3e8df06767",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a16b8a9fcdbcb00165aa6ca",
+                  "5c0558060db834001b735271"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "47e4feed43d751829d4653f6",
+          "_mergeSlotWithChildren": true,
+          "_name": "Helmet_top",
+          "_parent": "e74bf4cdc3665c3e8df06767",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "657f9eb7e9433140ad0baf86"
+                ],
+                "Plate": "657f9eb7e9433140ad0baf86",
+                "armorColliders": [
+                  "ParietalHead"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        },
+        {
+          "_id": "ae33f5d92af650bdba6db13b",
+          "_mergeSlotWithChildren": true,
+          "_name": "Helmet_back",
+          "_parent": "e74bf4cdc3665c3e8df06767",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "657f9ef6c6679fefb3051e1f"
+                ],
+                "Plate": "657f9ef6c6679fefb3051e1f",
+                "armorColliders": [
+                  "BackHead"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Diamond Age NeoSteel High Cut helmet (Green MultiCam)",
+        "shortName": "NeoSteel",
+        "description": "The Diamond Age NeoSteel helmet features a unique design that combines high-strength steel with composite materials to provide advanced protection against ballistic and impact threats. It is designed to withstand high velocity impacts and can provide protection against a variety of threats. Green MultiCam Version."
+      }
+    },
+    "handbookPriceRoubles": 5288,
+    "fleaPriceRoubles": 5288,
+    "addtoInventorySlots": [
+      "HeadWear"
+    ],
+    "addtoBots": false,
+    "addtoTraders": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_id": "f9fb39c0fcfd532e86609514",
+        "_type": "Preset",
+        "_changeWeaponName": false,
+        "_name": "Diamond Age NeoSteel High Cut helmet (Green MultiCam)",
+        "_parent": "edf6a73a4f9a52d7b3ee59bd",
+        "_encyclopedia": "e74bf4cdc3665c3e8df06767",
+        "_items": [
+          {
+            "_id": "edf6a73a4f9a52d7b3ee59bd",
+            "_tpl": "e74bf4cdc3665c3e8df06767"
+          },
+          {
+            "_id": "c1ea1edff6f25ffea9eefbbc",
+            "_tpl": "657f9eb7e9433140ad0baf86",
+            "parentId": "edf6a73a4f9a52d7b3ee59bd",
+            "slotId": "Helmet_top"
+          },
+          {
+            "_id": "b2c8f2ec40f8588a976c5167",
+            "_tpl": "657f9ef6c6679fefb3051e1f",
+            "parentId": "edf6a73a4f9a52d7b3ee59bd",
+            "slotId": "Helmet_back"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,34 +1,20 @@
 {
   "694204bc230f3fb07068884f": {
-
     "itemTplToClone": "5e4ac41886f77406a511c9a8",
     "parentId": "5448e5284bdc2dcb718b4567",
     "handbookParentId": "5b5f6f8786f77447ed563642",
-
-
     "overrideProperties": {
-      "QuestItem": false,  
       "ExaminedByDefault": false,
-      "IsUnsaleable": false,
       "CanSellOnRagfair": false,
-      "CanRequireOnRagfair": false,
-      "addtoItemBlacklist": true,   
-      "BackgroundColor": "default", 
-        
+      "addtoItemBlacklist": true,
       "Prefab": {
-
         "path": "equipment/item_equipment_rig_cr_arscpc_black.bundle",
         "rcid": ""
       },
-
-
-      "Width": 4,
-      "Height": 3,
-
-
-      "Weight": 2.75
+      "Name": "Ars Arma CPC MOD.1 plate carrier (USEC Intelligence Support Bureau)",
+      "ShortName": "CPC MOD.1",
+      "Description": "The first generation of the modified CPC plate carrier originally designed by Crye Precision and adapted by Ars Arma for use by special forces of the Russian Federation. This modular body armor is based on a polymer harness that fits the thorax, which avoids the plate carrier backlash during active movement and also contributes to a more even distribution of weight. Made in the assault configuration of pouches. Manufactured by Ars Arma. (ISB SOF)"
     },
-
     "addWeaponPreset": true,
     "weaponPresets": [
       {
@@ -94,38 +80,29 @@
         "_type": "Preset"
       }
     ],
-
     "locales": {
       "en": {
         "name": "Ars Arma CPC MOD.1 plate carrier (USEC Intelligence Support Bureau)",
         "shortName": "CPC MOD.1",
-        "description": "The first generation of the modified CPC plate carrier originally designed by Crye Precision and adapted by Ars Arma for use by special forces of the Russian Federation. This modular body armor is based on a polymer harness that fits the thorax, which avoids the plate carrier backlash during active movement and also contributes to a more even distribution of weight. Made in the assault configuration of pouches. Manufactured by Ars Arma. Black Camo version for ISB Special Forces."
+        "description": "The first generation of the modified CPC plate carrier originally designed by Crye Precision and adapted by Ars Arma for use by special forces of the Russian Federation. This modular body armor is based on a polymer harness that fits the thorax, which avoids the plate carrier backlash during active movement and also contributes to a more even distribution of weight. Made in the assault configuration of pouches. Manufactured by Ars Arma. (ISB SOF)"
       },
-        "po": {
+      "po": {
         "name": "Colete Tático Ars Arma CPC MOD.1 (Agência de Suporte a Inteligência da USEC)",
         "shortName": "CPC MOD.1",
-        "description": "A primeira geração do porta-placas CPC modificado, originalmente projetado pela Crye Precision e adaptado pela Ars Arma para uso pelas forças especiais da Federação Russa. Esta armadura modular é baseada em um arnês de polímero que se ajusta ao tórax, o que evita o recuo do porta-placas durante movimentos ativos e também contribui para uma distribuição mais uniforme do peso. Fabricado na configuração de bolsas de assalto. Fabricado pela Ars Arma. Versão Black Camo para as Forças Especiais ISB."
+        "description": "A primeira geração de modificações da armadura CPC projetada pela Crye Precision e adaptada pela Ars Arms para uso pelas forças especiais da federação Russa. Esta armadura modular é baseada em um espartilho que encaixa no corpo, o que evita o balanço da armadura durante movimentos bruscos e também contribui para uma distribuição de peso uniforme. Feito na configuração de assalto de bolsos e elementos blindados. (ISB SOF)"
       }
     },
-
     "fleaPriceRoubles": 275900,
-
     "handbookPriceRoubles": 3950,
-
-    "addtoInventorySlots": ["TacticalRig"],
-
+    "addtoInventorySlots": [
+      "TacticalRig"
+    ],
     "addtoStaticLootContainers": false,
-
     "IsAlwaysAvailableForInsurance": false,
-
     "InsuranceDisabled": false,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "StaticLootContainers": [
       {
         "ContainerName": "",

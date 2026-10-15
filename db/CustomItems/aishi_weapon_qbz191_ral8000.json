@@ -1,0 +1,1399 @@
+{
+  "57ed69ef8afa5360adbe7063": {
+    "itemTplToClone": "69fa0173c5a215197a0e0c85",
+    "parentId": "55818b224bdc2dde698b456f",
+    "handbookParentId": "5b5f755f86f77447ec5d770e",
+    "overrideProperties": {
+      "Name": "Norinco long rail (RAL 8000)",
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": true,
+      "Prefab": {
+        "path": "aishiweapons/qbz191_ral8000/mount_qbz191_norinco_long_rail_ral8000.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_name": "mod_foregrip",
+          "_id": "9028b88e312651efa6a04c70",
+          "_parent": "57ed69ef8afa5360adbe7063",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5c7fc87d2e221644f31c0298",
+                  "5cda9bcfd7f00c0c0b53e900",
+                  "59f8a37386f7747af3328f06",
+                  "5a7dbfc1159bd40016548fde",
+                  "619386379fb0c665d5490dbe",
+                  "5c87ca002e221600114cb150",
+                  "588226d124597767ad33f787",
+                  "588226dd24597767ad33f789",
+                  "588226e62459776e3e094af7",
+                  "588226ef24597767af46e39c",
+                  "59fc48e086f77463b1118392",
+                  "5fce0cf655375d18a253eff0",
+                  "5cf4fb76d7f00c065703d3ac",
+                  "5b057b4f5acfc4771e1bd3e9",
+                  "5c791e872e2216001219c40a",
+                  "558032614bdc2de7118b4585",
+                  "58c157be86f77403c74b2bb6",
+                  "58c157c886f774032749fb06",
+                  "5f6340d3ca442212f4047eb2",
+                  "591af28e86f77414a27a9e1d",
+                  "5c1cd46f2e22164bef5cfedb",
+                  "5c1bc4812e22164bef5cfde7",
+                  "5c1bc5612e221602b5429350",
+                  "5c1bc5af2e221602b412949b",
+                  "5c1bc5fb2e221602b1779b32",
+                  "5c1bc7432e221602b412949d",
+                  "5c1bc7752e221602b1779b34",
+                  "64806bdd26c80811d408d37a",
+                  "64807a29e5ffe165600abc97",
+                  "648067db042be0705c0b3009",
+                  "65169d5b30425317755f8e25",
+                  "655df24fdf80b12750626d0a",
+                  "655dccfdbdcc6b5df71382b6",
+                  "661e52e29c8b4dadef008577",
+                  "661e53149c8b4dadef008579",
+                  "661e52415be02310ed07a07a",
+                  "661e52b5b099f32c28003586",
+                  "6984b690b457c5047e0c01fa",
+                  "6984b74a5aab442620032fe6",
+                  "6a16f3711c209e26040a5410",
+                  "6a16f3811c209e26040a5413"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_isPlateSlot": false,
+          "_isPatronSlot": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ],
+      "BackgroundColor": "blue",
+      "ShortName": "Norinco",
+      "Description": "A long rail for standard-issue Norinco QBZ-191 assault rifle handguards. Allows installation of front grips. RAL 8000 Version."
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "handbookPriceRoubles": 2125,
+    "fleaPriceRoubles": 4675,
+    "locales": {
+      "en": {
+        "name": "Norinco long rail (RAL 8000)",
+        "shortName": "Norinco",
+        "description": "A long rail for standard-issue Norinco QBZ-191 assault rifle handguards. Allows installation of front grips. RAL 8000 Version."
+      },
+      "po": {
+        "name": "Norinco long rail (RAL 8000)",
+        "shortName": "Norinco",
+        "description": "A long rail for standard-issue Norinco QBZ-191 assault rifle handguards. Allows installation of front grips. RAL 8000 Version."
+      }
+    },
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_foregrip"
+    ]
+  },
+  "c11cebf56d0a5f119b5c8b89": {
+    "itemTplToClone": "69f9f1356b45e1d5210c6961",
+    "parentId": "55818a104bdc2db9688b4569",
+    "handbookParentId": "5b5f75e486f77447ec5d7712",
+    "overrideProperties": {
+      "Name": "QBZ-191 Jia Zhou TRS M-LOK 13.5 inch handguard (RAL 8000)",
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": true,
+      "Prefab": {
+        "path": "aishiweapons/qbz191_ral8000/handguard_qbz191_jia_zhou_trs_135_inch_mlok_ral8000.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_name": "mod_mount_001",
+          "_id": "e9aca329d8a85b5e835fa5b4",
+          "_parent": "c11cebf56d0a5f119b5c8b89",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5b7be47f5acfc400170e2dd2",
+                  "6269220d70b6c02e665f2635",
+                  "6269545d0e57f218e4548ca2",
+                  "669a6a4a525be1d2d004b8eb",
+                  "689c8b454b91399db3085f2a"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_isPlateSlot": false,
+          "_isPatronSlot": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_mount_000",
+          "_id": "28a453147b3a596fb68a6250",
+          "_parent": "c11cebf56d0a5f119b5c8b89",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5b7be47f5acfc400170e2dd2",
+                  "6269220d70b6c02e665f2635",
+                  "6269545d0e57f218e4548ca2",
+                  "669a6a4a525be1d2d004b8eb",
+                  "689c8b454b91399db3085f2a"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_isPlateSlot": false,
+          "_isPatronSlot": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_tactical",
+          "_id": "f9940cef3b675038a8d235c0",
+          "_parent": "c11cebf56d0a5f119b5c8b89",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "57fd23e32459772d0805bcf1",
+                  "544909bb4bdc2d6f028b4577",
+                  "5d10b49bd7ad1a1a560708b0",
+                  "5c06595c0db834001a66af6c",
+                  "5d2369418abbc306c62e0c80",
+                  "5a7b483fe899ef0016170d15",
+                  "61605d88ffa6e502ac5e7eeb",
+                  "644a3df63b0b6f03e101e065",
+                  "68bedc0365e7dcf94f0cb0fc",
+                  "6a186ccfbe0d66d438005e4e"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_isPlateSlot": false,
+          "_isPatronSlot": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_foregrip",
+          "_id": "e6561172a6965fcbb024c70e",
+          "_parent": "c11cebf56d0a5f119b5c8b89",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "57cffb66245977632f391a99",
+                  "57cffcd624597763133760c5",
+                  "57cffcdd24597763f5110006",
+                  "57cffce524597763b31685d8",
+                  "5b7be4895acfc400170e2dd5",
+                  "651a8bf3a8520e48047bf708",
+                  "651a8e529829226ceb67c319",
+                  "665d5d9e338229cfd6078da1",
+                  "665edce564fb556f940ab32a"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_isPlateSlot": false,
+          "_isPatronSlot": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_sight_front",
+          "_id": "8ac9750bf1ea5a57baa3e1c0",
+          "_parent": "c11cebf56d0a5f119b5c8b89",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ba26b01d4351e0085325a51",
+                  "5dfa3d950dee1b22f862eae0",
+                  "5c17804b2e2216152006c02f",
+                  "5fb6567747ce63734e3fa1dc",
+                  "5bc09a30d4351e00367fb7c8",
+                  "5c18b90d2e2216152142466b",
+                  "5fc0fa362770a0045c59c677",
+                  "5894a73486f77426d259076c",
+                  "55d4af3a4bdc2d972f8b456f",
+                  "6a3ceadb6280cb85bc03f99a",
+                  "6a15785370efdef7be017253"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_isPlateSlot": false,
+          "_isPatronSlot": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_scope",
+          "_id": "7d17d8458ae254e5af864cc0",
+          "_parent": "c11cebf56d0a5f119b5c8b89",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5649a2464bdc2d91118b45a8"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_isPlateSlot": false,
+          "_isPatronSlot": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_mount_002",
+          "_id": "79630d96d2015c3aaff5d338",
+          "_parent": "c11cebf56d0a5f119b5c8b89",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "671126b049e181972e0681fa",
+                  "689c8b454b91399db3085f2a",
+                  "669a6a4a525be1d2d004b8eb",
+                  "5b7be47f5acfc400170e2dd2",
+                  "6269220d70b6c02e665f2635"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_isPlateSlot": false,
+          "_isPatronSlot": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ],
+      "BackgroundColor": "blue",
+      "ShortName": "TRS 13.5\"",
+      "Description": "The Jia Zhou TRS 13.5 inch handguard for QBZ-191, equipped with an M-LOK interface for the installation of additional devices and accessories. RAL 8000 Version."
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "handbookPriceRoubles": 29500,
+    "fleaPriceRoubles": 64900,
+    "locales": {
+      "en": {
+        "name": "QBZ-191 Jia Zhou TRS M-LOK 13.5 inch handguard (RAL 8000)",
+        "shortName": "TRS 13.5\"",
+        "description": "The Jia Zhou TRS 13.5 inch handguard for QBZ-191, equipped with an M-LOK interface for the installation of additional devices and accessories. RAL 8000 Version."
+      },
+      "po": {
+        "name": "QBZ-191 Jia Zhou TRS M-LOK 13.5 inch handguard (RAL 8000)",
+        "shortName": "TRS 13.5\"",
+        "description": "The Jia Zhou TRS 13.5 inch handguard for QBZ-191, equipped with an M-LOK interface for the installation of additional devices and accessories. RAL 8000 Version."
+      }
+    },
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_handguard"
+    ]
+  },
+  "0fba997d84065cbfb4aeee6e": {
+    "itemTplToClone": "69f9f12c25db06fcf60a88f1",
+    "parentId": "55818a104bdc2db9688b4569",
+    "handbookParentId": "5b5f75e486f77447ec5d7712",
+    "overrideProperties": {
+      "Name": "QBZ-191 Jia Zhou TRS M-LOK 10 inch handguard (RAL 8000)",
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": true,
+      "Prefab": {
+        "path": "aishiweapons/qbz191_ral8000/handguard_qbz191_jia_zhou_trs_10_inch_mlok_ral8000.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_name": "mod_mount_000",
+          "_id": "cbaed0b0b95c56b386d928e4",
+          "_parent": "0fba997d84065cbfb4aeee6e",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5b7be47f5acfc400170e2dd2",
+                  "6269220d70b6c02e665f2635",
+                  "669a6a4a525be1d2d004b8eb",
+                  "689c8b454b91399db3085f2a"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_isPlateSlot": false,
+          "_isPatronSlot": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_mount_001",
+          "_id": "18075bee977b56598c59bbc7",
+          "_parent": "0fba997d84065cbfb4aeee6e",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5b7be47f5acfc400170e2dd2",
+                  "6269220d70b6c02e665f2635",
+                  "669a6a4a525be1d2d004b8eb",
+                  "689c8b454b91399db3085f2a"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_isPlateSlot": false,
+          "_isPatronSlot": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_foregrip",
+          "_id": "bb94c0dd4319501da84bcf1d",
+          "_parent": "0fba997d84065cbfb4aeee6e",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "57cffb66245977632f391a99",
+                  "57cffcd624597763133760c5",
+                  "57cffcdd24597763f5110006",
+                  "57cffce524597763b31685d8",
+                  "5b7be4895acfc400170e2dd5",
+                  "651a8bf3a8520e48047bf708",
+                  "651a8e529829226ceb67c319",
+                  "665d5d9e338229cfd6078da1",
+                  "665edce564fb556f940ab32a"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_isPlateSlot": false,
+          "_isPatronSlot": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_sight_front",
+          "_id": "70a42fd976565bcf83f10d55",
+          "_parent": "0fba997d84065cbfb4aeee6e",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ba26b01d4351e0085325a51",
+                  "5dfa3d950dee1b22f862eae0",
+                  "5c17804b2e2216152006c02f",
+                  "5fb6567747ce63734e3fa1dc",
+                  "5bc09a30d4351e00367fb7c8",
+                  "5c18b90d2e2216152142466b",
+                  "5fc0fa362770a0045c59c677",
+                  "5894a73486f77426d259076c",
+                  "55d4af3a4bdc2d972f8b456f",
+                  "6a3ceadb6280cb85bc03f99a",
+                  "6a15785370efdef7be017253"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_isPlateSlot": false,
+          "_isPatronSlot": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_tactical",
+          "_id": "adb8022a90745c7eacc6703f",
+          "_parent": "0fba997d84065cbfb4aeee6e",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "57fd23e32459772d0805bcf1",
+                  "544909bb4bdc2d6f028b4577",
+                  "5d10b49bd7ad1a1a560708b0",
+                  "5c06595c0db834001a66af6c",
+                  "5d2369418abbc306c62e0c80",
+                  "5a7b483fe899ef0016170d15",
+                  "61605d88ffa6e502ac5e7eeb",
+                  "644a3df63b0b6f03e101e065",
+                  "68bedc0365e7dcf94f0cb0fc",
+                  "5649a2464bdc2d91118b45a8",
+                  "6a186ccfbe0d66d438005e4e"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_isPlateSlot": false,
+          "_isPatronSlot": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_mount_002",
+          "_id": "c643351c18f85242bf80d606",
+          "_parent": "0fba997d84065cbfb4aeee6e",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "671126b049e181972e0681fa",
+                  "689c8b454b91399db3085f2a",
+                  "6269220d70b6c02e665f2635"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_isPlateSlot": false,
+          "_isPatronSlot": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ],
+      "BackgroundColor": "blue",
+      "ShortName": "TRS 10\"",
+      "Description": "The Jia Zhou TRS 10 inch handguard for QBZ-191, equipped with an M-LOK interface for the installation of additional devices and accessories. RAL 8000 Version."
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "handbookPriceRoubles": 16100,
+    "fleaPriceRoubles": 35420,
+    "locales": {
+      "en": {
+        "name": "QBZ-191 Jia Zhou TRS M-LOK 10 inch handguard (RAL 8000)",
+        "shortName": "TRS 10\"",
+        "description": "The Jia Zhou TRS 10 inch handguard for QBZ-191, equipped with an M-LOK interface for the installation of additional devices and accessories. RAL 8000 Version."
+      },
+      "po": {
+        "name": "QBZ-191 Jia Zhou TRS M-LOK 10 inch handguard (RAL 8000)",
+        "shortName": "TRS 10\"",
+        "description": "The Jia Zhou TRS 10 inch handguard for QBZ-191, equipped with an M-LOK interface for the installation of additional devices and accessories. RAL 8000 Version."
+      }
+    },
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_handguard"
+    ]
+  },
+  "f9c3104d5f3852ffa9f3bab8": {
+    "itemTplToClone": "69f9ebbcaae020b0db02f65d",
+    "parentId": "5447b5f14bdc2d61278b4567",
+    "handbookParentId": "5b5f78fc86f77409407a7f90",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "aishiweapons/qbz191_ral8000/weapon_norinco_qbz191_58x42_container_additional_parts_ral8000.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_name": "mod_pistol_grip",
+          "_id": "a3f0a80476915fbfb602b704",
+          "_parent": "f9c3104d5f3852ffa9f3bab8",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "69f9ecb8df2c2358a9041858",
+                  "ae0f924b9c7f55fa81771a81"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": false,
+          "_isPlateSlot": false,
+          "_isPatronSlot": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_magazine",
+          "_id": "5033f1ae5bbe591cb39128f3",
+          "_parent": "f9c3104d5f3852ffa9f3bab8",
+          "_props": {
+            "filters": [
+              {
+                "AnimationIndex": -1,
+                "Filter": [
+                  "69f9ec5a7596e93e340c0a1e",
+                  "8b49d50621665612a5f2173d"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_isPlateSlot": false,
+          "_isPatronSlot": false,
+          "_proto": "55d30c394bdc2dae468b4577"
+        },
+        {
+          "_name": "mod_reciever",
+          "_id": "a94595076c16505fb383c3d1",
+          "_parent": "f9c3104d5f3852ffa9f3bab8",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "69f9ecc5df2c2358a904185c",
+                  "9dac6a7309455efcb6657b10"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": false,
+          "_isPlateSlot": false,
+          "_isPatronSlot": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_stock",
+          "_id": "626ae26312b6592a8f465370",
+          "_parent": "f9c3104d5f3852ffa9f3bab8",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "69f9f0c325db06fcf60a88e6",
+                  "7c3fa5be301e51acb03a834d"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": false,
+          "_isPlateSlot": false,
+          "_isPatronSlot": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ],
+      "Chambers": [
+        {
+          "_name": "patron_in_weapon",
+          "_id": "eb2ce79e944958c685be8d43",
+          "_parent": "f9c3104d5f3852ffa9f3bab8",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6a07208057b2695f9d001e63",
+                  "6a42661705016139300b2085",
+                  "6a42662fcb506840dd053827",
+                  "6a426637ddc63098d100ae67"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_isPlateSlot": false,
+          "_isPatronSlot": true,
+          "_proto": "55d4af244bdc2d962f8b4571"
+        }
+      ],
+      "Name": "Norinco QBZ-191 5.8x42 assault rifle (RAL 8000)",
+      "ShortName": "QBZ-191",
+      "Description": "A Chinese 5.8x42 assault rifle developed by Norinco as the successor to the QBZ-95. Featuring a conventional layout, fully ambidextrous controls, and a full-length optics rail, it was designed to improve ergonomics, modularity, and overall combat effectiveness. RAL 8000 Version.",
+      "BackgroundColor": "black",
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
+    },
+    "handbookPriceRoubles": 18900,
+    "fleaPriceRoubles": 138718,
+    "locales": {
+      "en": {
+        "name": "Norinco QBZ-191 5.8x42 assault rifle (RAL 8000)",
+        "shortName": "QBZ-191",
+        "description": "A Chinese 5.8x42 assault rifle developed by Norinco as the successor to the QBZ-95. Featuring a conventional layout, fully ambidextrous controls, and a full-length optics rail, it was designed to improve ergonomics, modularity, and overall combat effectiveness. RAL 8000 Version."
+      },
+      "po": {
+        "name": "Norinco QBZ-191 5.8x42 assault rifle (RAL 8000)",
+        "shortName": "QBZ-191",
+        "description": "A Chinese 5.8x42 assault rifle developed by Norinco as the successor to the QBZ-95. Featuring a conventional layout, fully ambidextrous controls, and a full-length optics rail, it was designed to improve ergonomics, modularity, and overall combat effectiveness. RAL 8000 Version."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_id": "f1e792bbd80858e7a5ba9c49",
+        "_type": "Preset",
+        "_changeWeaponName": false,
+        "_name": "RAL 8000 QBZ",
+        "_parent": "45f1b184105a5901ac6a44b2",
+        "_items": [
+          {
+            "_id": "45f1b184105a5901ac6a44b2",
+            "_tpl": "f9c3104d5f3852ffa9f3bab8",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Repairable": {
+                "Durability": 100,
+                "MaxDurability": 100
+              },
+              "FireMode": {
+                "FireMode": "fullauto"
+              }
+            }
+          },
+          {
+            "_id": "9e44050c9aaf5bffbda76672",
+            "_tpl": "ae0f924b9c7f55fa81771a81",
+            "parentId": "45f1b184105a5901ac6a44b2",
+            "slotId": "mod_pistol_grip",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "ed0b31aea8d55b6591007a00",
+            "_tpl": "8b49d50621665612a5f2173d",
+            "parentId": "45f1b184105a5901ac6a44b2",
+            "slotId": "mod_magazine",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "df5c6ae940575a97a41774ca",
+            "_tpl": "9dac6a7309455efcb6657b10",
+            "parentId": "45f1b184105a5901ac6a44b2",
+            "slotId": "mod_reciever",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "6b5555c5dfa25c6b8922fb76",
+            "_tpl": "7c3fa5be301e51acb03a834d",
+            "parentId": "45f1b184105a5901ac6a44b2",
+            "slotId": "mod_stock",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "2eed0ec1c15e521eb832199d",
+            "_tpl": "57aca93d2459771f2c7e26db",
+            "parentId": "df5c6ae940575a97a41774ca",
+            "slotId": "mod_scope",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Sight": {
+                "ScopesCurrentCalibPointIndexes": [
+                  0,
+                  0
+                ],
+                "ScopesSelectedModes": [
+                  0,
+                  0
+                ],
+                "SelectedScope": 0,
+                "ScopeZoomValue": 0
+              }
+            }
+          },
+          {
+            "_id": "fa3fa2eff26750ef952fce8c",
+            "_tpl": "69fb18608a19a890b70a6ba4",
+            "parentId": "df5c6ae940575a97a41774ca",
+            "slotId": "mod_barrel",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "6b01e391925a55b8a57cb661",
+            "_tpl": "c11cebf56d0a5f119b5c8b89",
+            "parentId": "df5c6ae940575a97a41774ca",
+            "slotId": "mod_handguard",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "77274d32654d58f99d908b49",
+            "_tpl": "69f9f0a86b45e1d5210c6955",
+            "parentId": "df5c6ae940575a97a41774ca",
+            "slotId": "mod_sight_rear",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Sight": {
+                "ScopesCurrentCalibPointIndexes": [
+                  0
+                ],
+                "ScopesSelectedModes": [
+                  0
+                ],
+                "SelectedScope": 0,
+                "ScopeZoomValue": 0
+              }
+            }
+          },
+          {
+            "_id": "14f4464b5cb05262b53d14fd",
+            "_tpl": "7a3d70fe2e3452f1b3714a66",
+            "parentId": "6b5555c5dfa25c6b8922fb76",
+            "slotId": "mod_stock_000",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "2c834fa9d36558d98feef566",
+            "_tpl": "69f9eca1ddaf0c377d0eb74e",
+            "parentId": "fa3fa2eff26750ef952fce8c",
+            "slotId": "mod_muzzle",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "3d7794a580bd51c3b166d867",
+            "_tpl": "69f9ec0cddaf0c377d0eb748",
+            "parentId": "fa3fa2eff26750ef952fce8c",
+            "slotId": "mod_gas_block",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "c3b3f3e8e34c54158590cc04",
+            "_tpl": "d365c02ec4a35cb7be897982",
+            "parentId": "6b01e391925a55b8a57cb661",
+            "slotId": "mod_mount_000",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "e105f30081d75e3eaf86e247",
+            "_tpl": "544909bb4bdc2d6f028b4577",
+            "parentId": "6b01e391925a55b8a57cb661",
+            "slotId": "mod_tactical",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Light": {
+                "IsActive": true,
+                "SelectedMode": 0
+              }
+            }
+          },
+          {
+            "_id": "de72d9b89a1b5fcda6b6bb32",
+            "_tpl": "5b7be4895acfc400170e2dd5",
+            "parentId": "6b01e391925a55b8a57cb661",
+            "slotId": "mod_foregrip",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "b00ee9569edd512ca1b83621",
+            "_tpl": "5095530cfb6659a2b17c688e",
+            "parentId": "2c834fa9d36558d98feef566",
+            "slotId": "mod_muzzle",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "bdf9ee7e4bba535eb3de3b9b",
+            "_tpl": "0878b569e56e5844b58c7b1f",
+            "parentId": "c3b3f3e8e34c54158590cc04",
+            "slotId": "mod_tactical",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Light": {
+                "IsActive": true,
+                "SelectedMode": 0
+              }
+            }
+          },
+          {
+            "_id": "ce8b9cf9889d50478f14fb71",
+            "_tpl": "588226dd24597767ad33f789",
+            "parentId": "de72d9b89a1b5fcda6b6bb32",
+            "slotId": "mod_foregrip",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ],
+        "_encyclopedia": "f9c3104d5f3852ffa9f3bab8"
+      }
+    ]
+  },
+  "9dac6a7309455efcb6657b10": {
+    "itemTplToClone": "69f9ecc5df2c2358a904185c",
+    "parentId": "55818a304bdc2db5418b457d",
+    "handbookParentId": "5b5f764186f77447ec5d7714",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "aishiweapons/qbz191_ral8000/reciever_qbz191_norinco_191_std_additional_parts_ral8000.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_name": "mod_scope",
+          "_id": "c5ef9c2527605b188100370d",
+          "_parent": "9dac6a7309455efcb6657b10",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "57ac965c24597706be5f975c",
+                  "57aca93d2459771f2c7e26db",
+                  "544a3f024bdc2d1d388b4568",
+                  "544a3a774bdc2d3a388b4567",
+                  "5d2dc3e548f035404a1a4798",
+                  "57adff4f24597737f373b6e6",
+                  "5c0517910db83400232ffee5",
+                  "591c4efa86f7741030027726",
+                  "570fd79bd2720bc7458b4583",
+                  "570fd6c2d2720bc6458b457f",
+                  "558022b54bdc2dac148b458d",
+                  "5c07dd120db834001c39092d",
+                  "5c0a2cec0db834001b7ce47d",
+                  "58491f3324597764bc48fa02",
+                  "584924ec24597768f12ae244",
+                  "5b30b0dc5acfc400153b7124",
+                  "6165ac8c290d254f5e6b2f6c",
+                  "60a23797a37c940de7062d02",
+                  "5d2da1e948f035477b1ce2ba",
+                  "5c0505e00db834001b735073",
+                  "609a63b6e2ff132951242d09",
+                  "584984812459776a704a82a6",
+                  "59f9d81586f7744c7506ee62",
+                  "570fd721d2720bc5458b4596",
+                  "57ae0171245977343c27bfcf",
+                  "5dfe6104585a0c3e995c7b82",
+                  "544a3d0a4bdc2d1b388b4567",
+                  "5d1b5e94d7ad1a2b865a96b0",
+                  "609bab8b455afd752b2e6138",
+                  "58d39d3d86f77445bb794ae7",
+                  "616554fe50224f204c1da2aa",
+                  "5c7d55f52e221644f31bff6a",
+                  "616584766ef05c2ce828ef57",
+                  "5b3b6dc75acfc47a8773fb1e",
+                  "615d8d878004cc50514c3233",
+                  "5b2389515acfc4771e1be0c0",
+                  "577d128124597739d65d0e56",
+                  "618b9643526131765025ab35",
+                  "618bab21526131765025ab3f",
+                  "5c86592b2e2216000e69e77c",
+                  "5a37ca54c4a282000d72296a",
+                  "5d0a29fed7ad1a002769ad08",
+                  "5c064c400db834001d23f468",
+                  "58d2664f86f7747fec5834f6",
+                  "57c69dd424597774c03b7bbc",
+                  "5b3b99265acfc4704b4a1afb",
+                  "5aa66a9be5b5b0214e506e89",
+                  "5aa66c72e5b5b00016327c93",
+                  "5c1cdd302e221602b3137250",
+                  "61714b2467085e45ef140b2c",
+                  "6171407e50224f204c1da3c5",
+                  "61713cc4d8e3106d9806c109",
+                  "5b31163c5acfc400153b71cb",
+                  "5a33b652c4a28232996e407c",
+                  "5a33b2c9c4a282000c5a9511",
+                  "59db7eed86f77461f8380365",
+                  "5a1ead28fcdbcb001912fa9f",
+                  "5dff77c759400025ea5150cf",
+                  "626bb8532c923541184624b4",
+                  "62811f461d5df4475f46a332",
+                  "63fc449f5bd61c6cf3784a88",
+                  "6477772ea8a38bb2050ed4db",
+                  "6478641c19d732620e045e17",
+                  "64785e7c19d732620e045e15",
+                  "65392f611406374f82152ba5",
+                  "653931da5db71d30ab1d6296",
+                  "655f13e0a246670fb0373245",
+                  "6567e751a715f85433025998",
+                  "6761759e7ee06333f108bf86",
+                  "67641a851b2899700609901a",
+                  "68a5ab09c44fa287ba0a97b5",
+                  "68caacc7933990601c07f479",
+                  "688a0bf28cdd409ce60911ce",
+                  "6985bed26be2752c150e6898",
+                  "6985beb1812f88c79b0eed39",
+                  "69f9ec80aae020b0db02f670",
+                  "6a3ceaf01ac10a22850e295a",
+                  "6a16dc17b7b9778bee072c65",
+                  "6a16dc0b82cfbdc3ab09f58a",
+                  "6a18508bae175e037a0be420"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_isPlateSlot": false,
+          "_isPatronSlot": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_barrel",
+          "_id": "1cff64b8830156ae93064568",
+          "_parent": "9dac6a7309455efcb6657b10",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "69f9ebf07596e93e340c0a16",
+                  "69fb18608a19a890b70a6ba4"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": false,
+          "_isPlateSlot": false,
+          "_isPatronSlot": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_handguard",
+          "_id": "6d1c651c040c5784ba4eae2e",
+          "_parent": "9dac6a7309455efcb6657b10",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "69f9f12c25db06fcf60a88f1",
+                  "69f9f1356b45e1d5210c6961",
+                  "69f9f111df2c2358a904186f",
+                  "6974eab74eae55e3b73a1e4c"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": false,
+          "_isPlateSlot": false,
+          "_isPatronSlot": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_sight_rear",
+          "_id": "3ad60e58c31c5cad8826f6f7",
+          "_parent": "9dac6a7309455efcb6657b10",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "69f9f0a86b45e1d5210c6955"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_isPlateSlot": false,
+          "_isPatronSlot": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ],
+      "Name": "QBZ-191 5.8x42 upper receiver (RAL 8000)",
+      "ShortName": "QBZ upper",
+      "Description": "An upper receiver for the QBZ-191 assault rifle manufactured by Norinco. Equipped with a mount for attaching additional devices. RAL 8000 Version.",
+      "BackgroundColor": "blue",
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": true
+    },
+    "handbookPriceRoubles": 12198,
+    "fleaPriceRoubles": 26835,
+    "locales": {
+      "en": {
+        "name": "QBZ-191 5.8x42 upper receiver (RAL 8000)",
+        "shortName": "QBZ upper",
+        "description": "An upper receiver for the QBZ-191 assault rifle manufactured by Norinco. Equipped with a mount for attaching additional devices. RAL 8000 Version."
+      },
+      "po": {
+        "name": "QBZ-191 5.8x42 upper receiver (RAL 8000)",
+        "shortName": "QBZ upper",
+        "description": "An upper receiver for the QBZ-191 assault rifle manufactured by Norinco. Equipped with a mount for attaching additional devices. RAL 8000 Version."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_reciever"
+    ]
+  },
+  "7a3d70fe2e3452f1b3714a66": {
+    "itemTplToClone": "69f9f0b58676a3db2a096808",
+    "parentId": "55818a594bdc2db9688b456a",
+    "handbookParentId": "5b5f757486f774093e6cb507",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "aishiweapons/qbz191_ral8000/stock_qbz191_norinco_191_stock_std_additional_parts_ral8000.bundle",
+        "rcid": ""
+      },
+      "Name": "QBZ-191 buttstock (RAL 8000)",
+      "ShortName": "QBZ-191",
+      "Description": "A standard-issue adjustable stock for the QBZ-191 assault rifle. Manufactured by Norinco. RAL 8000 Version.",
+      "BackgroundColor": "blue",
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": true
+    },
+    "handbookPriceRoubles": 10890,
+    "fleaPriceRoubles": 23958,
+    "locales": {
+      "en": {
+        "name": "QBZ-191 buttstock (RAL 8000)",
+        "shortName": "QBZ-191",
+        "description": "A standard-issue adjustable stock for the QBZ-191 assault rifle. Manufactured by Norinco. RAL 8000 Version."
+      },
+      "po": {
+        "name": "QBZ-191 buttstock (RAL 8000)",
+        "shortName": "QBZ-191",
+        "description": "A standard-issue adjustable stock for the QBZ-191 assault rifle. Manufactured by Norinco. RAL 8000 Version."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_stock_000"
+    ]
+  },
+  "6974eab74eae55e3b73a1e4c": {
+    "itemTplToClone": "69f9f111df2c2358a904186f",
+    "parentId": "55818a104bdc2db9688b4569",
+    "handbookParentId": "5b5f75e486f77447ec5d7712",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "aishiweapons/qbz191_ral8000/handguard_qbz191_norinco_191_polymer_std_additional_parts_ral8000.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_name": "mod_tactical",
+          "_id": "05ea12e465305437b815a479",
+          "_parent": "6974eab74eae55e3b73a1e4c",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "57fd23e32459772d0805bcf1",
+                  "544909bb4bdc2d6f028b4577",
+                  "5d10b49bd7ad1a1a560708b0",
+                  "5c06595c0db834001a66af6c",
+                  "5d2369418abbc306c62e0c80",
+                  "5a7b483fe899ef0016170d15",
+                  "61605d88ffa6e502ac5e7eeb",
+                  "644a3df63b0b6f03e101e065",
+                  "68bedc0365e7dcf94f0cb0fc",
+                  "5649a2464bdc2d91118b45a8",
+                  "6a186ccfbe0d66d438005e4e"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_isPlateSlot": false,
+          "_isPatronSlot": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_mount_000",
+          "_id": "fdf90574d99359789636ae9a",
+          "_parent": "6974eab74eae55e3b73a1e4c",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "69fa0168e72acd254602c64a"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_isPlateSlot": false,
+          "_isPatronSlot": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_mount_001",
+          "_id": "546d6c0638335762bce220bb",
+          "_parent": "6974eab74eae55e3b73a1e4c",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "69fa0168e72acd254602c64a"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_isPlateSlot": false,
+          "_isPatronSlot": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_foregrip",
+          "_id": "8a46dcfa299258d39b7e6d5e",
+          "_parent": "6974eab74eae55e3b73a1e4c",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "69fa0173c5a215197a0e0c85"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_isPlateSlot": false,
+          "_isPatronSlot": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ],
+      "Name": "QBZ-191 polymer handguard (RAL 8000)",
+      "ShortName": "QBZ HG",
+      "Description": "A standard-issue polymer handguard for the QBZ-191 assault rifle. Manufactured by Norinco. RAL 8000 Version.",
+      "BackgroundColor": "blue",
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": true
+    },
+    "handbookPriceRoubles": 9800,
+    "fleaPriceRoubles": 21560,
+    "locales": {
+      "en": {
+        "name": "QBZ-191 polymer handguard (RAL 8000)",
+        "shortName": "QBZ HG",
+        "description": "A standard-issue polymer handguard for the QBZ-191 assault rifle. Manufactured by Norinco. RAL 8000 Version."
+      },
+      "po": {
+        "name": "QBZ-191 polymer handguard (RAL 8000)",
+        "shortName": "QBZ HG",
+        "description": "A standard-issue polymer handguard for the QBZ-191 assault rifle. Manufactured by Norinco. RAL 8000 Version."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_handguard"
+    ]
+  },
+  "5095530cfb6659a2b17c688e": {
+    "itemTplToClone": "69f9f0d3df2c2358a9041867",
+    "parentId": "550aa4cd4bdc2dd8348b456c",
+    "handbookParentId": "5b5f731a86f774093e6cb4f9",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "aishiweapons/qbz191_ral8000/silencer_qbz191_norinco_vqx191_58x42_ral8000.bundle",
+        "rcid": ""
+      },
+      "Name": "Norinco VQX-191 5.8x42 sound suppressor (RAL 8000)",
+      "ShortName": "VQX-191",
+      "Description": "Norinco VQX-191 5.8x42 sound suppressor, can only be installed on compatible Norinco muzzle devices. RAL 8000 Version.",
+      "BackgroundColor": "blue",
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": true
+    },
+    "handbookPriceRoubles": 49000,
+    "fleaPriceRoubles": 107800,
+    "locales": {
+      "en": {
+        "name": "Norinco VQX-191 5.8x42 sound suppressor (RAL 8000)",
+        "shortName": "VQX-191",
+        "description": "Norinco VQX-191 5.8x42 sound suppressor, can only be installed on compatible Norinco muzzle devices. RAL 8000 Version."
+      },
+      "po": {
+        "name": "Norinco VQX-191 5.8x42 sound suppressor (RAL 8000)",
+        "shortName": "VQX-191",
+        "description": "Norinco VQX-191 5.8x42 sound suppressor, can only be installed on compatible Norinco muzzle devices. RAL 8000 Version."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_muzzle"
+    ]
+  },
+  "ae0f924b9c7f55fa81771a81": {
+    "itemTplToClone": "69f9ecb8df2c2358a9041858",
+    "parentId": "55818a684bdc2ddd698b456d",
+    "handbookParentId": "5b5f761f86f774094242f1a1",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "aishiweapons/qbz191_ral8000/pistolgrip_qbz191_norinco_191_std_additional_parts_ral8000.bundle",
+        "rcid": ""
+      },
+      "Name": "QBZ-191 pistol grip (RAL 8000)",
+      "ShortName": "QBZ-191",
+      "Description": "A standard-issue pistol grip for the QBZ-191 assault rifle. Manufactured by Norinco. RAL 8000 Version.",
+      "BackgroundColor": "blue",
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": true
+    },
+    "handbookPriceRoubles": 8700,
+    "fleaPriceRoubles": 19140,
+    "locales": {
+      "en": {
+        "name": "QBZ-191 pistol grip (RAL 8000)",
+        "shortName": "QBZ-191",
+        "description": "A standard-issue pistol grip for the QBZ-191 assault rifle. Manufactured by Norinco. RAL 8000 Version."
+      },
+      "po": {
+        "name": "QBZ-191 pistol grip (RAL 8000)",
+        "shortName": "QBZ-191",
+        "description": "A standard-issue pistol grip for the QBZ-191 assault rifle. Manufactured by Norinco. RAL 8000 Version."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_pistol_grip"
+    ]
+  },
+  "7c3fa5be301e51acb03a834d": {
+    "itemTplToClone": "69f9f0c325db06fcf60a88e6",
+    "parentId": "55818a594bdc2db9688b456a",
+    "handbookParentId": "5b5f757486f774093e6cb507",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "aishiweapons/qbz191_ral8000/stock_qbz191_norinco_191_stock_tube_std_additional_parts_ral8000.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_name": "mod_stock_000",
+          "_id": "de5039a1027756609bdfb44f",
+          "_parent": "7c3fa5be301e51acb03a834d",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "69f9f0b58676a3db2a096808",
+                  "7a3d70fe2e3452f1b3714a66"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": false,
+          "_isPlateSlot": false,
+          "_isPatronSlot": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ],
+      "Name": "QBZ-191 buffer tube (RAL 8000)",
+      "ShortName": "QBZ BT",
+      "Description": "A standard-issue 4-position buffer tube for the QBZ-191 assault rifle. Manufactured by Norinco. RAL 8000 Version.",
+      "BackgroundColor": "blue",
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": true
+    },
+    "handbookPriceRoubles": 2175,
+    "fleaPriceRoubles": 4785,
+    "locales": {
+      "en": {
+        "name": "QBZ-191 buffer tube (RAL 8000)",
+        "shortName": "QBZ BT",
+        "description": "A standard-issue 4-position buffer tube for the QBZ-191 assault rifle. Manufactured by Norinco. RAL 8000 Version."
+      },
+      "po": {
+        "name": "QBZ-191 buffer tube (RAL 8000)",
+        "shortName": "QBZ BT",
+        "description": "A standard-issue 4-position buffer tube for the QBZ-191 assault rifle. Manufactured by Norinco. RAL 8000 Version."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_stock"
+    ]
+  }
+}

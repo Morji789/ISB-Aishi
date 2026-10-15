@@ -1,0 +1,610 @@
+{
+  "48ff2a0d74195cee92d76d4a": {
+    "itemTplToClone": "5d5d87f786f77427997cfaef",
+    "parentId": "5448e5284bdc2dcb718b4567",
+    "handbookParentId": "5b5f6f8786f77447ed563642",
+    "overrideProperties": {
+      "BackgroundColor": "yellow",
+      "CanSellOnRagfair": false,
+      "Description": "A highly customizable modular plate carrier by Spiritus Systems, built for maximum comfort in combat. Wolf Grey version. This setup allows full freedom of movement while providing an ergonomic layout for ammunition and essential gear. (Black Division V3)",
+      "ExaminedByDefault": false,
+      "Name": "Spiritus Systems LV-119 Plate Carrier (Black Division V3)",
+      "Prefab": {
+        "path": "equipment/item_equipment_armor_bd1_spiritus_black_division.bundle",
+        "rcid": ""
+      },
+      "RagfairLevelToTrade": 0,
+      "RarityPvE": "Not_exist",
+      "RepairCost": 95,
+      "ShortName": "LV-119",
+      "Weight": 3.9,
+      "Grids": [
+        {
+          "_id": "dfc082bdd1fc58e490d18c7f",
+          "_name": "GridView (1)",
+          "_parent": "48ff2a0d74195cee92d76d4a",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "55ee604fb5fd5ce4b466c57e",
+          "_name": "GridView (2)",
+          "_parent": "48ff2a0d74195cee92d76d4a",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "c5718b95c88e5b95bd3de12a",
+          "_name": "GridView (3)",
+          "_parent": "48ff2a0d74195cee92d76d4a",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "a47b964fcdec5fa5acc0ef2c",
+          "_name": "GridView (4)",
+          "_parent": "48ff2a0d74195cee92d76d4a",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "65b8edefc09754fa8259b524",
+          "_name": "GridView (5)",
+          "_parent": "48ff2a0d74195cee92d76d4a",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "f0a05959138b51ccbeb0d10d",
+          "_name": "GridView (6)",
+          "_parent": "48ff2a0d74195cee92d76d4a",
+          "_props": {
+            "cellsH": 2,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "50588047e7d356c688a6cab1",
+          "_name": "GridView (7)",
+          "_parent": "48ff2a0d74195cee92d76d4a",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "0194f1d0516d565094a4ea2b",
+          "_name": "GridView (8)",
+          "_parent": "48ff2a0d74195cee92d76d4a",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "d7ce093f530c527a8079773c",
+          "_name": "GridView (9)",
+          "_parent": "48ff2a0d74195cee92d76d4a",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "014fc058994a522cbd2275cf",
+          "_name": "GridView (10)",
+          "_parent": "48ff2a0d74195cee92d76d4a",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "b109404a6bfd55f69b6b71d7",
+          "_name": "GridView (11)",
+          "_parent": "48ff2a0d74195cee92d76d4a",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "7c46c5729e6f5e0e94f6fd35",
+          "_name": "GridView (12)",
+          "_parent": "48ff2a0d74195cee92d76d4a",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "3e7a1cc7040c500b93486d65",
+          "_name": "GridView (13)",
+          "_parent": "48ff2a0d74195cee92d76d4a",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        }
+      ],
+      "Slots": [
+        {
+          "_name": "Front_plate",
+          "_id": "c32b20e845525e45be569d55",
+          "_parent": "48ff2a0d74195cee92d76d4a",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "656f9d5900d62bcd2e02407c",
+                  "656fa8d700d62bcd2e024084",
+                  "656fa99800d62bcd2e024088",
+                  "656fae5f7c2d57afe200c0d7",
+                  "656faf0ca0dce000a2020f77",
+                  "656fa0fb498d1b7e3e071d9c",
+                  "656fa76500d62bcd2e024080",
+                  "656fafe3498d1b7e3e071da4",
+                  "656fa25e94b480b8a500c0e0",
+                  "656fad8c498d1b7e3e071da0",
+                  "656fa61e94b480b8a500c0e8",
+                  "656fb21fa0dce000a2020f7c",
+                  "656fb0bd7c2d57afe200c0dc",
+                  "656fac30c6baea13cd07e10c",
+                  "656f9fa0498d1b7e3e071d98",
+                  "656fa53d94b480b8a500c0e4",
+                  "655746010177119f4a097ff7",
+                  "64afdcb83efdfea28601d041"
+                ],
+                "Plate": "656faf0ca0dce000a2020f77",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_chest"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        },
+        {
+          "_name": "Back_plate",
+          "_id": "2fa45ac44c305ed78d8bc8f0",
+          "_parent": "48ff2a0d74195cee92d76d4a",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "656f9d5900d62bcd2e02407c",
+                  "656fa8d700d62bcd2e024084",
+                  "656fa99800d62bcd2e024088",
+                  "656fae5f7c2d57afe200c0d7",
+                  "656faf0ca0dce000a2020f77",
+                  "656fa0fb498d1b7e3e071d9c",
+                  "656fafe3498d1b7e3e071da4",
+                  "656fa76500d62bcd2e024080",
+                  "656fad8c498d1b7e3e071da0",
+                  "656fa25e94b480b8a500c0e0",
+                  "656fa61e94b480b8a500c0e8",
+                  "656fac30c6baea13cd07e10c",
+                  "656fb0bd7c2d57afe200c0dc",
+                  "656fb21fa0dce000a2020f7c",
+                  "656f9fa0498d1b7e3e071d98",
+                  "656fa53d94b480b8a500c0e4",
+                  "655746010177119f4a097ff7",
+                  "64afdcb83efdfea28601d041"
+                ],
+                "Plate": "656faf0ca0dce000a2020f77",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_back"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        },
+        {
+          "_name": "Soft_armor_front",
+          "_id": "42675d0bc5595eb99cdfa8d8",
+          "_parent": "48ff2a0d74195cee92d76d4a",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "68a5f30248f18317750ab20b"
+                ],
+                "Plate": "68a5f30248f18317750ab20b",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_chest"
+                ],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        },
+        {
+          "_name": "Soft_armor_back",
+          "_id": "99922dd12a0f5d6086072eb3",
+          "_parent": "48ff2a0d74195cee92d76d4a",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "68a5f3a348f18317750ab4be"
+                ],
+                "Plate": "68a5f3a348f18317750ab4be",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_back"
+                ],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        },
+        {
+          "_name": "Soft_armor_left",
+          "_id": "2d713e3c91575aceac531e11",
+          "_parent": "48ff2a0d74195cee92d76d4a",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "68a5f3ec7c9f6975d00238be"
+                ],
+                "Plate": "68a5f3ec7c9f6975d00238be",
+                "armorColliders": [
+                  "LeftSideChestDown"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        },
+        {
+          "_name": "soft_armor_right",
+          "_id": "964026b2aa17532b842a317f",
+          "_parent": "48ff2a0d74195cee92d76d4a",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "68a5f42948f18317750ab543"
+                ],
+                "Plate": "68a5f42948f18317750ab543",
+                "armorColliders": [
+                  "RightSideChestDown"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        }
+      ],
+      "BluntThroughput": 0.34,
+      "RigLayoutName": "BD1_lv119",
+      "mousePenalty": -1,
+      "weaponErgonomicPenalty": 0
+    },
+    "locales": {
+      "en": {
+        "name": "Spiritus Systems LV-119 Plate Carrier (Black Division V3)",
+        "shortName": "LV-119",
+        "description": "A highly customizable modular plate carrier by Spiritus Systems, built for maximum comfort in combat. Wolf Grey version. This setup allows full freedom of movement while providing an ergonomic layout for ammunition and essential gear. (Black Division V3)"
+      },
+      "po": {
+        "name": "Plate carrier Spiritus Systems LV-119 (Black Division V3)",
+        "shortName": "LV-119",
+        "description": "Um plate carrier modular altamente personalizável da Spiritus Systems, desenvolvido para oferecer o máximo de conforto em combate. Versão Wolf Grey. Esta configuração permite total liberdade de movimento e oferece uma disposição ergonômica para munição e equipamentos essenciais. (Black Division V3)"
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "fleaPriceRoubles": 190000,
+    "handbookPriceRoubles": 190000,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "staticLootContainers": [],
+    "addtoHallOfFame": false,
+    "hallOfFameSlots": [],
+    "addtoSpecialSlots": false,
+    "addtoHideoutPosterSlots": false,
+    "addPosterToMaps": false,
+    "posterSpawnProbability": 0,
+    "addtoStatuetteSlots": false,
+    "addCaliberToAllCloneLocations": false,
+    "addtoStaticAmmo": false,
+    "staticAmmoProbability": 0,
+    "addtoSecureFilters": false,
+    "masteries": false,
+    "masterySections": [],
+    "addtoItemBlacklist": true,
+    "addtoTraders": false,
+    "traders": {},
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_id": "f200f1d2923658998f237254",
+        "_type": "Preset",
+        "_changeWeaponName": false,
+        "_name": "Spiritus Systems LV-119 plate carrier (Black Division) Standard",
+        "_parent": "21bdb4245b1b5555b7bb0331",
+        "_items": [
+          {
+            "_id": "21bdb4245b1b5555b7bb0331",
+            "_tpl": "48ff2a0d74195cee92d76d4a"
+          },
+          {
+            "_id": "5c5d8c73b0fc5a06a6f1b5b3",
+            "_tpl": "68a5f30248f18317750ab20b",
+            "parentId": "21bdb4245b1b5555b7bb0331",
+            "slotId": "Soft_armor_front"
+          },
+          {
+            "_id": "5627e055dd51569bb26963ad",
+            "_tpl": "68a5f3a348f18317750ab4be",
+            "parentId": "21bdb4245b1b5555b7bb0331",
+            "slotId": "Soft_armor_back"
+          },
+          {
+            "_id": "55ac13f2c1a15dc2ab664168",
+            "_tpl": "68a5f3ec7c9f6975d00238be",
+            "parentId": "21bdb4245b1b5555b7bb0331",
+            "slotId": "Soft_armor_left"
+          },
+          {
+            "_id": "a4285e4a19ca5be79a144155",
+            "_tpl": "68a5f42948f18317750ab543",
+            "parentId": "21bdb4245b1b5555b7bb0331",
+            "slotId": "soft_armor_right"
+          },
+          {
+            "_id": "6caf60831bb557bcb33b45e5",
+            "_tpl": "656faf0ca0dce000a2020f77",
+            "parentId": "21bdb4245b1b5555b7bb0331",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "fef2b0d748c250d39bb3d8a3",
+            "_tpl": "656faf0ca0dce000a2020f77",
+            "parentId": "21bdb4245b1b5555b7bb0331",
+            "slotId": "Back_plate"
+          }
+        ],
+        "_encyclopedia": "48ff2a0d74195cee92d76d4a"
+      }
+    ]
+  }
+}

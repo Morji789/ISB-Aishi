@@ -1,34 +1,27 @@
 {
   "69575d3755b37eacd8f3a92a": {
-
     "itemTplToClone": "689479cb47e5acd1e10be986",
     "parentId": "5448e5284bdc2dcb718b4567",
     "handbookParentId": "5b5f6f8786f77447ed563642",
-
-
     "overrideProperties": {
-      "QuestItem": false,  
+      "QuestItem": false,
       "ExaminedByDefault": false,
       "IsUnsaleable": false,
       "CanSellOnRagfair": false,
       "CanRequireOnRagfair": false,
-      "addtoItemBlacklist": true,    
-      "BackgroundColor": "default", 
-        
+      "addtoItemBlacklist": true,
+      "BackgroundColor": "default",
       "Prefab": {
-
         "path": "equipment/item_equipment_rig_bd2_ferro_black.bundle",
         "rcid": ""
       },
-
-
       "Width": 3,
       "Height": 3,
-
-
-      "Weight": 5.30
+      "Weight": 5.3,
+      "Name": "Ferro Concepts FCPC V5 Plate Carrier (USEC Intelligence Support Bureau)",
+      "ShortName": "FCPC V5",
+      "Description": "The fifth-generation FCPC plate carrier continues Ferro Concepts’ focus on lightweight, adaptable gear. In this version, the plate bags and carrier contour have been redesigned for improved comfort and mobility. Coyote Brown version. Equipped with two radios for communicating with both the assigned squad and HQ. (ISB SOF)"
     },
-
     "addWeaponPreset": true,
     "weaponPresets": [
       {
@@ -82,38 +75,29 @@
         "_encyclopedia": "69575d3755b37eacd8f3a92a"
       }
     ],
-
     "locales": {
       "en": {
         "name": "Ferro Concepts FCPC V5 Plate Carrier (USEC Intelligence Support Bureau)",
         "shortName": "FCPC V5",
-        "description": "The fifth-generation FCPC plate carrier continues Ferro Concepts' focus on lightweight, adaptable gear. In this version, the plate bags and carrier contour have been redesigned for improved comfort and mobility. Coyote Brown version. Equipped with two radios for communicating with both the assigned squad and HQ. Night Camo version for ISB Special Forces"
+        "description": "The fifth-generation FCPC plate carrier continues Ferro Concepts’ focus on lightweight, adaptable gear. In this version, the plate bags and carrier contour have been redesigned for improved comfort and mobility. Coyote Brown version. Equipped with two radios for communicating with both the assigned squad and HQ. (ISB SOF)"
       },
-        "po": {
+      "po": {
         "name": "Colete Tático Ferro Concepts FCPC V5 (Agência de Suporte a Inteligência da USEC)",
         "shortName": "FCPC V5",
-        "description": "O colete tático porta placas FCPC de quinta geração dá continuidade ao foco da Ferro Concepts em equipamentos leves e adaptáveis. Nesta versão, os bolsos para placas e o contorno do porta-placas foram redesenhados para melhorar o conforto e a mobilidade. Versão Coyote Brown. Equipado com dois rádios para comunicação com o esquadrão designado e com o quartel-general. Versão Night Camo para as Forças Especiais ISB."
+        "description": "A quinta geração do plate carrier FCPC mantém o foco da Ferro Concepts em equipamentos leves e adaptáveis. Nesta versão, os compartimentos de placas e o formato do colete foram redesenhados para melhorar o conforto e a mobilidade. Versão Coyote Brown. Equipado com dois rádios para comunicação com o esquadrão e o quartel-general. (ISB SOF)"
       }
     },
-
     "fleaPriceRoubles": 55278,
-
     "handbookPriceRoubles": 8420,
-
-    "addtoInventorySlots": ["TacticalRig"],
-
+    "addtoInventorySlots": [
+      "TacticalRig"
+    ],
     "addtoStaticLootContainers": false,
-
     "CanSellOnRagfair": false,
-
     "IsAlwaysAvailableForInsurance": false,
-
     "InsuranceDisabled": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "StaticLootContainers": [
       {
         "ContainerName": "",

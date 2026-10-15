@@ -1,21 +1,19 @@
 {
-    "69a9e3cfe2ad4cc47d96cf22 name": "Jogando Verde (Ref)",
-    "69a9e3cfe2ad4cc47d96cf22 description": "Olá mercenário. Já faz um tempo, como esteve indo? Hmm...Entendo, você veio até aqui para perguntar sobre o que aconteceu na Lighthouse. Como você reagiria ao saber que você é a primeira pessoa a me procurar por conta disso. Consegue imaginar o motivo? \n\nMuitos em Tarkov tentam ser discretos, e não vou mentir para você. É estranho você como um bom amigo vir falar sobre isso depois de relatos de pessoas vestidas de preto realizando ataques coordenados em todas as localizações, eliminando associados...amigos, soldados...\n\nVocê não veio aqui por conta própria, entregue isso para quem te enviou e saberão o que fazer.",
-    "69a9e3cfe2ad4cc47d96cf22 successMessageText": "Ótimo meu amigo! Faremos bons negócios juntos.",
-    "69a9f273383891154396e01b": "Converse com Ref sobre os acontecimentos em Lighthouse",
-    "69b38b50225151bb40f5747d": "Entregue os documentos ao seu contratante.",
-
-    "69b44c601144e4b33bdb9e9c name": "Planejamento de Longo Prazo",
-    "69b44c601144e4b33bdb9e9c description": "Eu sabia que você voltaria! Aquilo não foi o suficiente, não é mesmo? Então vamos começar com os negócios! Precisamos renovar as baterias de alguns blindados que temos por aqui nas arenas. Conforme seu progresso, eu decido o que faremos depois.",
-    "69b44c601144e4b33bdb9e9c successMessageText": "Muito obrigado amigo. Será muito benéfico para ambos os lados no final de tudo. Espero seu novo contato.",
-    "69b44adc398be5799d1ac296": "Encontre 2 Baterias militares 6-STEN-140-M (Item encontrado em Incursão)",
-    "69b44af0f86dab54d3a47cda": "Entregue as duas Bateria militar 6-STEN-140-M",
-    "69b44bb32fcf4f908ca20090": "Entregue 8 Rifles de assalto АКM 7.62x39",
-    "69b44d13a9e4415ba113b3e7": "Informe seu contratante sobre uma quantia de 50 Milhões de Rublos a ser paga.",
-
-    "69b59f5cd76c01b7117e2712 name": "Homem de Negócios",
-    "69b59f5cd76c01b7117e2712 description": "Seus chefes aceitaram as condições? Então faremos isso. 50 milhões, nada mais e nada menos e garanto que vai descobrir algo bem interessante.",
-    "69b59f5cd76c01b7117e2712 successMessageText": "Mandou bem, parceiro! Você entende, não é mesmo? Apenas negócios.",
-    "69b59ef8a9842c3eccdf8411": "Junte um total de 50 milhões de Rublos",
-    "69b59f1bf825fe81820f6516": "Entregue um total de 50 milhões de Rublos"    
+  "69a9e3cfe2ad4cc47d96cf22 name": "Jogando Verde (Ref)",
+  "69a9e3cfe2ad4cc47d96cf22 description": "Olá mercenário. Já faz um tempo, como esteve indo? Hmm...Entendo, você veio até aqui para perguntar sobre o que aconteceu na Lighthouse. Como você reagiria ao saber que você é a primeira pessoa a me procurar por conta disso. Consegue imaginar o motivo? \n\nMuitos em Tarkov tentam ser discretos, e não vou mentir para você. É estranho você como um bom amigo vir falar sobre isso depois de relatos de pessoas vestidas de preto realizando ataques coordenados em todas as localizações, eliminando associados...amigos, soldados...\n\nVocê não veio aqui por conta própria, entregue isso para quem te enviou e saberão o que fazer.",
+  "69a9e3cfe2ad4cc47d96cf22 successMessageText": "Ótimo meu amigo! Faremos bons negócios juntos.",
+  "69a9f273383891154396e01b": "Converse com Ref sobre os acontecimentos em Lighthouse",
+  "69b38b50225151bb40f5747d": "Entregue os documentos ao seu contratante.",
+  "69b44c601144e4b33bdb9e9c name": "Planejamento de Longo Prazo",
+  "69b44c601144e4b33bdb9e9c description": "Eu sabia que você voltaria! Aquilo não foi o suficiente, não é mesmo? Então vamos começar com os negócios! Precisamos renovar as baterias de alguns blindados que temos por aqui nas arenas. Conforme seu progresso, eu decido o que faremos depois.",
+  "69b44c601144e4b33bdb9e9c successMessageText": "Muito obrigado amigo. Será muito benéfico para ambos os lados no final de tudo. Espero seu novo contato.",
+  "69b44adc398be5799d1ac296": "Encontre 2 Baterias militares 6-STEN-140-M (Item encontrado em Incursão)",
+  "69b44af0f86dab54d3a47cda": "Entregue as duas Bateria militar 6-STEN-140-M",
+  "69b44bb32fcf4f908ca20090": "Entregue 8 Rifles de assalto АКM 7.62x39",
+  "69b44d13a9e4415ba113b3e7": "Informe seu contratante sobre uma quantia de 50 Milhões de Rublos a ser paga.",
+  "69b59f5cd76c01b7117e2712 name": "Homem de Negócios",
+  "69b59f5cd76c01b7117e2712 description": "Seus chefes aceitaram as condições? Então faremos isso. 50 milhões, nada mais e nada menos e garanto que vai descobrir algo bem interessante.",
+  "69b59f5cd76c01b7117e2712 successMessageText": "Mandou bem, parceiro! Você entende, não é mesmo? Apenas negócios.",
+  "69b59ef8a9842c3eccdf8411": "Junte um total de 50 milhões de Rublos",
+  "69b59f1bf825fe81820f6516": "Entregue um total de 50 milhões de Rublos"
 }

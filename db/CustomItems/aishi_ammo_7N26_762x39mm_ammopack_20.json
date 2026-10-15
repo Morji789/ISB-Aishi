@@ -1,16 +1,13 @@
 {
   "6931bc184dd0bd3f32f5c97f": {
-
     "itemTplToClone": "64ace9f9c4eda9354b0226aa",
     "parentId": "543be5cb4bdc2deb348b4568",
     "handbookParentId": "5b47574386f77428ca22b33c",
-
-
-    "overrideProperties": { 
+    "overrideProperties": {
       "ExaminedByDefault": false,
-        "IsUnsaleable": true,
-        "IsUnbuyable": true,
-        "StackSlots": [
+      "IsUnsaleable": true,
+      "IsUnbuyable": true,
+      "StackSlots": [
         {
           "_id": "6931b6a2161edf5b558ee5bc",
           "_max_count": 20,
@@ -28,23 +25,13 @@
           "_proto": "5748538b2459770af276a261"
         }
       ],
-
-        
-
       "Prefab": {
-
         "path": "assets/content/items/ammo/boxes/item_ammo_box_762x39_pp.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
-      "Height": 1,
       "Weight": 0.125,
-
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "7.62x39mm 7N26 BS ammo pack (20 pcs)",
@@ -56,29 +43,17 @@
         "shortName": "7N26 BS",
         "description": "Um pacote de munição 7.62x39mm 7N26 BS, 20 cartuchos."
       }
-    
     },
-
     "fleaPriceRoubles": 66990,
-
     "handbookPriceRoubles": 111690,
-
     "addCaliberToAllCloneLocations": true,
-
     "addtoStaticAmmo": false,
-
     "staticAmmoProbability": 100,
-
     "addtoBots": true,
-
     "CanSellOnRagfair": false,
-
     "CanRequireOnRagfair": false,
-    
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "addtoStaticLootContainers": true,
-
     "staticLootContainers": [
       {
         "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",

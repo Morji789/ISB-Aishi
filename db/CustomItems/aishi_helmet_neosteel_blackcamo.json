@@ -1,0 +1,166 @@
+{
+  "e4300a17638f596c959f6aa3": {
+    "itemTplToClone": "65709d2d21b9f815e208ff95",
+    "parentId": "5a341c4086f77401f2541505",
+    "handbookParentId": "5b47574386f77428ca22b330",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "equipment/item_equipment_helmet_neosteel_blackcamo_aishi.bundle",
+        "rcid": ""
+      },
+      "Name": "Diamond Age NeoSteel High Cut helmet (Black Camo)",
+      "ShortName": "NeoSteel (Black Camo)",
+      "Description": "The Diamond Age NeoSteel helmet features a unique design that combines high-strength steel with composite materials to provide advanced protection against ballistic and impact threats. It is designed to withstand high velocity impacts and can provide protection against a variety of threats. Black Camo Version.",
+      "Slots": [
+        {
+          "_id": "19262d57b2275b1095d8653a",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_equipment_000",
+          "_parent": "e4300a17638f596c959f6aa3",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6570a88c8f221f3b210353b7"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "f3c1ae88eead5b29af958aaa",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount",
+          "_parent": "e4300a17638f596c959f6aa3",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5b7be47f5acfc400170e2dd2"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "e6f716ed0b235b4489502b11",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_nvg",
+          "_parent": "e4300a17638f596c959f6aa3",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a16b8a9fcdbcb00165aa6ca",
+                  "5c0558060db834001b735271"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "fbd8e3e03b225f23b5c16eca",
+          "_mergeSlotWithChildren": true,
+          "_name": "Helmet_top",
+          "_parent": "e4300a17638f596c959f6aa3",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "657f9eb7e9433140ad0baf86"
+                ],
+                "Plate": "657f9eb7e9433140ad0baf86",
+                "armorColliders": [
+                  "ParietalHead"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        },
+        {
+          "_id": "f4ecf73babf1583f9550f019",
+          "_mergeSlotWithChildren": true,
+          "_name": "Helmet_back",
+          "_parent": "e4300a17638f596c959f6aa3",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "657f9ef6c6679fefb3051e1f"
+                ],
+                "Plate": "657f9ef6c6679fefb3051e1f",
+                "armorColliders": [
+                  "BackHead"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Diamond Age NeoSteel High Cut helmet (Black Camo)",
+        "shortName": "NeoSteel",
+        "description": "The Diamond Age NeoSteel helmet features a unique design that combines high-strength steel with composite materials to provide advanced protection against ballistic and impact threats. It is designed to withstand high velocity impacts and can provide protection against a variety of threats. Black Camo Version."
+      }
+    },
+    "handbookPriceRoubles": 5288,
+    "fleaPriceRoubles": 5288,
+    "addtoInventorySlots": [
+      "HeadWear"
+    ],
+    "addtoBots": false,
+    "addtoTraders": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_id": "7b17acb1d9f45c7b87cb0c0d",
+        "_type": "Preset",
+        "_changeWeaponName": false,
+        "_name": "Diamond Age NeoSteel High Cut helmet (Black Camo)",
+        "_parent": "410b248e02a2565b997a791e",
+        "_encyclopedia": "e4300a17638f596c959f6aa3",
+        "_items": [
+          {
+            "_id": "410b248e02a2565b997a791e",
+            "_tpl": "e4300a17638f596c959f6aa3"
+          },
+          {
+            "_id": "10ca4de4773d51eca92e9fe7",
+            "_tpl": "657f9eb7e9433140ad0baf86",
+            "parentId": "410b248e02a2565b997a791e",
+            "slotId": "Helmet_top"
+          },
+          {
+            "_id": "a5c9811eff5c5ab1aa97417f",
+            "_tpl": "657f9ef6c6679fefb3051e1f",
+            "parentId": "410b248e02a2565b997a791e",
+            "slotId": "Helmet_back"
+          }
+        ]
+      }
+    ]
+  }
+}

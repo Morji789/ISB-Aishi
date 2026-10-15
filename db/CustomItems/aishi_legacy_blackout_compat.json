@@ -1,0 +1,211 @@
+{
+  "f90a78d8987e5bb989eb1874": {
+    "parentId": "55818a684bdc2ddd698b456d",
+    "handbookParentId": "5b5f761f86f774094242f1a1",
+    "handbookPriceRoubles": 2400,
+    "fleaPriceRoubles": 2400,
+    "modSlot": [
+      "mod_pistol_grip"
+    ],
+    "itemTplToClone": "55802f5d4bdc2dac148b458f",
+    "overrideProperties": {
+      "CanSellOnRagfair": false
+    },
+    "addtoModSlots": true,
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "locales": {
+      "en": {
+        "name": "AR-15 Magpul MOE pistol grip (Black)",
+        "shortName": "MOE AR15",
+        "description": "The polymer Magpul MOE (Magpul Original Equipment) pistol grip can be installed on any weapon compatible with AR-15 pistol grips. Thanks to the ergonomic shape and anti-slip texture, it makes the weapon grip and control more comfortably. The inside of the grip contains free space for spare parts, tools, batteries, and an accessories kit."
+      },
+      "po": {
+        "name": "AR-15 Magpul MOE pistol grip (Black)",
+        "shortName": "MOE AR15",
+        "description": "The polymer Magpul MOE (Magpul Original Equipment) pistol grip can be installed on any weapon compatible with AR-15 pistol grips. Thanks to the ergonomic shape and anti-slip texture, it makes the weapon grip and control more comfortably. The inside of the grip contains free space for spare parts, tools, batteries, and an accessories kit."
+      }
+    }
+  },
+  "b4eefc5aa5515222b381c865": {
+    "parentId": "55818a684bdc2ddd698b456d",
+    "handbookParentId": "5b5f761f86f774094242f1a1",
+    "handbookPriceRoubles": 3150,
+    "fleaPriceRoubles": 3150,
+    "modSlot": [
+      "mod_pistol_grip",
+      "mod_pistolgrip",
+      "mod_pistolgrip_000"
+    ],
+    "itemTplToClone": "55802f5d4bdc2dac148b458f",
+    "overrideProperties": {
+      "CanSellOnRagfair": false
+    },
+    "addtoModSlots": true,
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "locales": {
+      "en": {
+        "name": "AR-15 Magpul MOE pistol grip (Black)",
+        "shortName": "MOE AR15",
+        "description": "The polymer Magpul MOE (Magpul Original Equipment) pistol grip can be installed on any weapon compatible with AR-15 pistol grips. Thanks to the ergonomic shape and anti-slip texture, it makes the weapon grip and control more comfortably. The inside of the grip contains free space for spare parts, tools, batteries, and an accessories kit."
+      },
+      "po": {
+        "name": "AR-15 Magpul MOE pistol grip (Black)",
+        "shortName": "MOE AR15",
+        "description": "The polymer Magpul MOE (Magpul Original Equipment) pistol grip can be installed on any weapon compatible with AR-15 pistol grips. Thanks to the ergonomic shape and anti-slip texture, it makes the weapon grip and control more comfortably. The inside of the grip contains free space for spare parts, tools, batteries, and an accessories kit."
+      }
+    }
+  },
+  "fe3d0874787c51618baf2894": {
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "handbookPriceRoubles": 55000,
+    "fleaPriceRoubles": 55000,
+    "modSlot": [
+      "mod_magazine"
+    ],
+    "itemTplToClone": "65293c7a17e14363030ad308",
+    "overrideProperties": {
+      "BackgroundColor": "violet",
+      "CanSellOnRagfair": false,
+      "Cartridges": [
+        {
+          "_id": "69f68382e0a7ea31b00dccd0",
+          "_max_count": 25,
+          "_name": "cartridges",
+          "_parent": "69f683cb5fe79e067a85d9ef",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "59e6920f86f77411d82aa167",
+                  "59e6927d86f77411da468256",
+                  "54527a984bdc2d4e668b4567",
+                  "54527ac44bdc2d36668b4567",
+                  "59e68f6f86f7746c9f75e846",
+                  "59e6906286f7746c9f75e847",
+                  "59e690b686f7746c9f75e848",
+                  "59e6918f86f7746c9f75e849",
+                  "60194943740c5d77f6705eea",
+                  "601949593ae8f707c4608daa",
+                  "5c0d5ae286f7741e46554302",
+                  "5a6086ea4f39f99cd479502f",
+                  "5a608bf24f39f98ffc77720e",
+                  "58dd3ad986f77403051cba8f",
+                  "5e023e53d4353e3302577c4c",
+                  "5efb0c1bd79ff02a1f5e68d9",
+                  "5e023e6e34d52a55c3304f71",
+                  "5e023e88277cce2b522ff2b1",
+                  "6529243824cbe3c74a05e5c1",
+                  "6529302b8c26af6326029fb7",
+                  "6768c25aa7b238f14a08d3f6"
+                ]
+              }
+            ]
+          },
+          "_proto": "69f683c76123cc4e32fd11aa"
+        }
+      ],
+      "Description": "mag_ar10_magpul_pmag_sr_gen_3_762x51_20\n",
+      "Ergonomics": -4,
+      "Grids": [],
+      "InsuranceDisabled": true,
+      "Name": "mag_ar10_magpul_pmag_sr_gen_3_762x51_20",
+      "Prefab": {
+        "path": "assets/content/items/mods/magazines/mag_ar10_lancer_l7_awm_762x51_25.bundle",
+        "rcid": ""
+      },
+      "ShortName": "mag_ar10_magpul_pmag_sr_gen_3_762x51_20",
+      "Slots": [],
+      "Weight": 0.45
+    },
+    "addtoModSlots": true,
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "locales": {
+      "en": {
+        "name": "AR-10 5.56x45 Modified Lancer L7AWM 25-round magazine",
+        "shortName": "L7AWM V2",
+        "description": "A 25-round double-stack L7AWM 25 magazine for 5.56x45 NATO ammunition. Manufactured by Lancer Systems."
+      },
+      "po": {
+        "name": "Carregador de 25 munições AR-10 modificado 5.56x45 Lancer L7AWM",
+        "shortName": "L7AWM V2",
+        "description": "Um carregador L7AWM 25 de 25 cartuchos, de dupla fileira, para munição 5,56x45 OTAN. Fabricado pela Lancer Systems."
+      }
+    }
+  },
+  "0b0e13dc774c5bb3abb3f16f": {
+    "parentId": "55818b224bdc2dde698b456f",
+    "handbookParentId": "5b5f755f86f77447ec5d770e",
+    "handbookPriceRoubles": 5683,
+    "fleaPriceRoubles": 5683,
+    "modSlot": [
+      "mod_scope",
+      "mod_scope_000"
+    ],
+    "itemTplToClone": "5b3b99265acfc4704b4a1afb",
+    "overrideProperties": {
+      "CanSellOnRagfair": false
+    },
+    "addtoModSlots": true,
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "locales": {
+      "en": {
+        "name": "Nightforce Magmount 30mm ring scope mount",
+        "shortName": "NF 30mm",
+        "description": "Nightforce X-Treme Duty Ultralite one piece Magmount is a universal 30mm scope base mount for installation on Picatinny rails."
+      },
+      "po": {
+        "name": "Nightforce Magmount 30mm ring scope mount",
+        "shortName": "NF 30mm",
+        "description": "Nightforce X-Treme Duty Ultralite one piece Magmount is a universal 30mm scope base mount for installation on Picatinny rails."
+      }
+    }
+  },
+  "1f31adc1de265a288bf11011": {
+    "parentId": "550aa4bf4bdc2dd6348b456b",
+    "handbookParentId": "5b5f724c86f774093f2ecf15",
+    "handbookPriceRoubles": 4830,
+    "fleaPriceRoubles": 4830,
+    "modSlot": [
+      "mod_muzzle"
+    ],
+    "itemTplToClone": "6529113b5ae2ae97b80fdf39",
+    "overrideProperties": {
+      "CanSellOnRagfair": false
+    },
+    "addtoModSlots": true,
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "locales": {
+      "en": {
+        "name": "MCX-SPEAR Clutch-Lok QD 6.8x51 Shouldered Flash Hider",
+        "shortName": "CLQD",
+        "description": "The SPEAR Clutch-Lok Shouldered Flash Hider is an effective flash suppressor that also serves as an attachment platform for the SLX/SLH sound suppressor. Manufactured by SIG Sauer."
+      },
+      "po": {
+        "name": "MCX-SPEAR Clutch-Lok QD 6.8x51 Shouldered Flash Hider",
+        "shortName": "CLQD",
+        "description": "The SPEAR Clutch-Lok Shouldered Flash Hider is an effective flash suppressor that also serves as an attachment platform for the SLX/SLH sound suppressor. Manufactured by SIG Sauer."
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "68c80d9fb3ef768bbe58a072": {
+    "itemTplToClone": "67586af7036d7f3da60c3612",
+    "parentId": "590c745b86f7743cc433c5f2",
+    "handbookParentId": "5b47574386f77428ca22b2f1",
+    "handbookPriceRoubles": 82500,
+    "fleaPriceRoubles": 275000,
+    "overrideProperties": {
+      "CanSellOnRagfair": false,
+      "Prefab": {
+        "path": "equipment/anomalous_items/aishiS2/pickles/item_kte_pickles.bundle",
+        "rcid": ""
+      },
+      "CanRequireOnRagfair": false
+    },
+    "locales": {
+      "en": {
+        "name": "KTE 572",
+        "shortName": "KTE 572",
+        "description": "<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 572</b></color>\n<size=90%>TerraGroup research • Unknown properties.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 572</b></color>\n<size=90%><color=#B2B9B5>PROPERTIES IDENTIFIED • REPORT BELOW</color></size></align>\n\nWhile carried in the inventory.\n\n<color=#E88888><b>Negative effects:</b></color>\n• Deals 15 damage to a random body part every minute.\n\n<color=#92CAA1><b>Positive effects:</b></color>\n• Unlimited stamina. Hunger and thirst do not decrease."
+      },
+      "po": {
+        "name": "KTE 572",
+        "shortName": "KTE 572",
+        "description": "<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 572</b></color>\n<size=90%>Pesquisa TerraGroup • Propriedades desconhecidas.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 572</b></color>\n<size=90%><color=#B2B9B5>PROPRIEDADES IDENTIFICADAS • RELATÓRIO ABAIXO</color></size></align>\n\nEnquanto carregado no inventário.\n\n<color=#E88888><b>Efeitos negativos:</b></color>\n• Causa 15 de dano em uma parte aleatória do corpo a cada minuto.\n\n<color=#92CAA1><b>Efeitos positivos:</b></color>\n• Estamina infinita. Fome e sede não diminuem."
+      }
+    },
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "addtoItemBlacklist": true,
+    "addtoSecureFilters": false,
+    "addtoSpecialSlots": false
+  }
+}

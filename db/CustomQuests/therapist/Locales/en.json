@@ -1,6 +1,6 @@
 {
-    "69a9e73c8c336aa789e26a12 name": "Fishing for Information (Therapist)",
-    "69a9e73c8c336aa789e26a12 description": "Hello, Mercenary. It's great to see you in one piece. I haven't received any orders for medical supplies or casualty reports. Did this explosion actually hit anyone? Well, either way, I don't know anything that could be useful to you. I'm sorry. And if you need meds, come find me.",
-    "69a9e73c8c336aa789e26a12 successMessageText": "Stay safe, mercenary!",
-    "69a9f6984c8596625a5762a2": "Talk to Therapist about the events at Lighthouse"
+  "69a9e73c8c336aa789e26a12 name": "Fishing for Information (Therapist)",
+  "69a9e73c8c336aa789e26a12 description": "Hello, Mercenary. It's great to see you in one piece. I haven't received any orders for medical supplies or casualty reports. Did this explosion actually hit anyone? Well, either way, I don't know anything that could be useful to you. I'm sorry. And if you need meds, come find me.",
+  "69a9e73c8c336aa789e26a12 successMessageText": "Stay safe, mercenary!",
+  "69a9f6984c8596625a5762a2": "Talk to Therapist about the events at Lighthouse"
 }

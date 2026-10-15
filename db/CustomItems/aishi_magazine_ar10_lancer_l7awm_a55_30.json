@@ -1,0 +1,70 @@
+{
+  "f977c3a650b954f69eae3d7f": {
+    "itemTplToClone": "65293c7a17e14363030ad308",
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "handbookPriceRoubles": 11500,
+    "fleaPriceRoubles": 95999,
+    "overrideProperties": {
+      "Ergonomics": -4,
+      "Cartridges": [
+        {
+          "_id": "0e2c58273aa85346b24cb595",
+          "_max_count": 30,
+          "_name": "cartridges",
+          "_parent": "f977c3a650b954f69eae3d7f",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a6086ea4f39f99cd479502f",
+                  "5a608bf24f39f98ffc77720e",
+                  "58dd3ad986f77403051cba8f",
+                  "5e023e53d4353e3302577c4c",
+                  "5efb0c1bd79ff02a1f5e68d9",
+                  "5e023e6e34d52a55c3304f71",
+                  "5e023e88277cce2b522ff2b1",
+                  "6529243824cbe3c74a05e5c1",
+                  "6529302b8c26af6326029fb7",
+                  "6768c25aa7b238f14a08d3f6"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ],
+      "Prefab": {
+        "path": "aishiweapons/magazines/ar10_lancer_l7awm_a55_30_tape/weapon_spearmagazine_black_tape.bundle",
+        "rcid": ""
+      },
+      "Weight": 0.45,
+      "Grids": [],
+      "Name": "AR-10 7.62x51 Lancer L7AWM-A55 30-round magazine (Tape)",
+      "ShortName": "L7AWM-A55",
+      "Description": "A 30-round double-stack L7AWM 30 magazine for 7.62x51 NATO ammunition. Manufactured by Lancer Systems. Tape Version. Change the tape color from the magazine menu in your stash.",
+      "CanRequireOnRagfair": true
+    },
+    "locales": {
+      "en": {
+        "name": "AR-10 7.62x51 Lancer L7AWM-A55 30-round magazine (Tape)",
+        "shortName": "L7AWM-A55",
+        "description": "A 30-round double-stack L7AWM 30 magazine for 7.62x51 NATO ammunition. Manufactured by Lancer Systems. Tape Version. Change the tape color from the magazine menu in your stash."
+      },
+      "po": {
+        "name": "Carregador de 30 munições AR-10 7.62x51 Lancer L7AWM-A55 (Tape)",
+        "shortName": "L7AWM-A55",
+        "description": "Um carregador L7AWM de 30 cartuchos, de dupla fileira, para munição 7,62x51 OTAN. Fabricado pela Lancer Systems. Tape Version. Change the tape color from the magazine menu in your stash."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_magazine"
+    ]
+  }
+}

@@ -1,255 +1,255 @@
-{ 
+{
   "6996aa094492a23c14300e1b": {
-  "_id": "6996aa094492a23c14300e1b",
-  "_type": "Preset",
-  "_changeWeaponName": false,
-  "_name": "TOPAZ 2",
-  "_parent": "6996aa094492a23c14300e1c",
-  "_items": [
-    {
-      "_id": "6996aa094492a23c14300e1c",
-      "_tpl": "69842a195bdc0574dbdf25ca",
-      "upd": {
-        "Repairable": {
-          "Durability": 59,
-          "MaxDurability": 63
-        },
-        "FireMode": {
-          "FireMode": "single"
-        },
-        "SpawnedInSession": true
-      }
-    },
-    {
-      "_id": "6996aa054492a23c14300dfc",
-      "_tpl": "59db3a1d86f77429e05b4e92",
-      "parentId": "6996aa094492a23c14300e1c",
-      "slotId": "mod_pistol_grip",
-      "upd": {
-        "SpawnedInSession": true
-      }
-    },
-    {
-      "_id": "6996aa054492a23c14300dfd",
-      "_tpl": "698433340750b999d91e3465",
-      "parentId": "6996aa094492a23c14300e1c",
-      "slotId": "mod_magazine",
-      "upd": {
-        "SpawnedInSession": true
-      }
-    },
-    {
-      "_id": "6996aa054492a23c14300dfe",
-      "_tpl": "698430ea529f337360a2c9bc",
-      "parentId": "6996aa094492a23c14300e1c",
-      "slotId": "mod_reciever",
-      "upd": {
-        "SpawnedInSession": true
-      }
-    },
-    {
-      "_id": "6996aa054492a23c14300dff",
-      "_tpl": "58ac1bf086f77420ed183f9f",
-      "parentId": "6996aa094492a23c14300e1c",
-      "slotId": "mod_stock_000",
-      "upd": {
-        "SpawnedInSession": true
-      }
-    },
-    {
-      "_id": "6996aa054492a23c14300e00",
-      "_tpl": "6529109524cbe3c74a05e5b7",
-      "parentId": "6996aa094492a23c14300e1c",
-      "slotId": "mod_charge",
-      "upd": {
-        "SpawnedInSession": true
-      }
-    },
-    {
-      "_id": "6996aa054492a23c14300e01",
-      "_tpl": "68caacc7933990601c07f479",
-      "parentId": "6996aa054492a23c14300dfe",
-      "slotId": "mod_scope"
-    },
-    {
-      "_id": "6996aa054492a23c14300e02",
-      "_tpl": "652910565ae2ae97b80fdf35",
-      "parentId": "6996aa054492a23c14300dfe",
-      "slotId": "mod_barrel",
-      "upd": {
-        "SpawnedInSession": true
-      }
-    },
-    {
-      "_id": "6996aa054492a23c14300e03",
-      "_tpl": "698423d597bea7872bc75f98",
-      "parentId": "6996aa054492a23c14300dfe",
-      "slotId": "mod_handguard",
-      "upd": {
-        "SpawnedInSession": true
-      }
-    },
-    {
-      "_id": "6996aa054492a23c14300e04",
-      "_tpl": "5c793fb92e221644f31bfb64",
-      "parentId": "6996aa054492a23c14300dff",
-      "slotId": "mod_stock",
-      "upd": {
-        "SpawnedInSession": true
-      }
-    },
-    {
-      "_id": "6996aa054492a23c14300e05",
-      "_tpl": "6984d3dba12142d30f5e03c8",
-      "parentId": "6996aa054492a23c14300e01",
-      "slotId": "mod_scope",
-      "upd": {
-        "SpawnedInSession": true,
-        "Sight": {
-          "ScopesCurrentCalibPointIndexes": [
-            0
-          ],
-          "ScopesSelectedModes": [
-            0
-          ],
-          "SelectedScope": 0,
-          "ScopeZoomValue": 0
+    "_id": "6996aa094492a23c14300e1b",
+    "_type": "Preset",
+    "_changeWeaponName": false,
+    "_name": "TOPAZ 2",
+    "_parent": "6996aa094492a23c14300e1c",
+    "_items": [
+      {
+        "_id": "6996aa094492a23c14300e1c",
+        "_tpl": "69842a195bdc0574dbdf25ca",
+        "upd": {
+          "Repairable": {
+            "Durability": 100,
+            "MaxDurability": 100
+          },
+          "FireMode": {
+            "FireMode": "fullauto"
+          },
+          "SpawnedInSession": true
+        }
+      },
+      {
+        "_id": "6996aa054492a23c14300dfc",
+        "_tpl": "59db3a1d86f77429e05b4e92",
+        "parentId": "6996aa094492a23c14300e1c",
+        "slotId": "mod_pistol_grip",
+        "upd": {
+          "SpawnedInSession": true
+        }
+      },
+      {
+        "_id": "6996aa054492a23c14300dfd",
+        "_tpl": "698433340750b999d91e3465",
+        "parentId": "6996aa094492a23c14300e1c",
+        "slotId": "mod_magazine",
+        "upd": {
+          "SpawnedInSession": true
+        }
+      },
+      {
+        "_id": "6996aa054492a23c14300dfe",
+        "_tpl": "698430ea529f337360a2c9bc",
+        "parentId": "6996aa094492a23c14300e1c",
+        "slotId": "mod_reciever",
+        "upd": {
+          "SpawnedInSession": true
+        }
+      },
+      {
+        "_id": "6996aa054492a23c14300dff",
+        "_tpl": "58ac1bf086f77420ed183f9f",
+        "parentId": "6996aa094492a23c14300e1c",
+        "slotId": "mod_stock_000",
+        "upd": {
+          "SpawnedInSession": true
+        }
+      },
+      {
+        "_id": "6996aa054492a23c14300e00",
+        "_tpl": "6529109524cbe3c74a05e5b7",
+        "parentId": "6996aa094492a23c14300e1c",
+        "slotId": "mod_charge",
+        "upd": {
+          "SpawnedInSession": true
+        }
+      },
+      {
+        "_id": "6996aa054492a23c14300e01",
+        "_tpl": "68caacc7933990601c07f479",
+        "parentId": "6996aa054492a23c14300dfe",
+        "slotId": "mod_scope"
+      },
+      {
+        "_id": "6996aa054492a23c14300e02",
+        "_tpl": "652910565ae2ae97b80fdf35",
+        "parentId": "6996aa054492a23c14300dfe",
+        "slotId": "mod_barrel",
+        "upd": {
+          "SpawnedInSession": true
+        }
+      },
+      {
+        "_id": "6996aa054492a23c14300e03",
+        "_tpl": "698423d597bea7872bc75f98",
+        "parentId": "6996aa054492a23c14300dfe",
+        "slotId": "mod_handguard",
+        "upd": {
+          "SpawnedInSession": true
+        }
+      },
+      {
+        "_id": "6996aa054492a23c14300e04",
+        "_tpl": "5c793fb92e221644f31bfb64",
+        "parentId": "6996aa054492a23c14300dff",
+        "slotId": "mod_stock",
+        "upd": {
+          "SpawnedInSession": true
+        }
+      },
+      {
+        "_id": "6996aa054492a23c14300e05",
+        "_tpl": "6984d3dba12142d30f5e03c8",
+        "parentId": "6996aa054492a23c14300e01",
+        "slotId": "mod_scope",
+        "upd": {
+          "SpawnedInSession": true,
+          "Sight": {
+            "ScopesCurrentCalibPointIndexes": [
+              0
+            ],
+            "ScopesSelectedModes": [
+              0
+            ],
+            "SelectedScope": 0,
+            "ScopeZoomValue": 0
+          }
+        }
+      },
+      {
+        "_id": "6996aa054492a23c14300e06",
+        "_tpl": "68caace5f42a4476cf0be2b4",
+        "parentId": "6996aa054492a23c14300e01",
+        "slotId": "mod_mount"
+      },
+      {
+        "_id": "6996aa054492a23c14300e07",
+        "_tpl": "6529113b5ae2ae97b80fdf39",
+        "parentId": "6996aa054492a23c14300e02",
+        "slotId": "mod_muzzle",
+        "upd": {
+          "SpawnedInSession": true
+        }
+      },
+      {
+        "_id": "6996aa054492a23c14300e08",
+        "_tpl": "652910bc24cbe3c74a05e5b9",
+        "parentId": "6996aa054492a23c14300e02",
+        "slotId": "mod_gas_block",
+        "upd": {
+          "SpawnedInSession": true
+        }
+      },
+      {
+        "_id": "6996aa054492a23c14300e09",
+        "_tpl": "5b7be47f5acfc400170e2dd2",
+        "parentId": "6996aa054492a23c14300e03",
+        "slotId": "mod_mount_000",
+        "upd": {
+          "SpawnedInSession": true
+        }
+      },
+      {
+        "_id": "6996aa054492a23c14300e0a",
+        "_tpl": "669a6a4a525be1d2d004b8eb",
+        "parentId": "6996aa054492a23c14300e03",
+        "slotId": "mod_mount_001",
+        "upd": {
+          "SpawnedInSession": true
+        }
+      },
+      {
+        "_id": "6996aa054492a23c14300e0b",
+        "_tpl": "5bc09a30d4351e00367fb7c8",
+        "parentId": "6996aa054492a23c14300e03",
+        "slotId": "mod_sight_front",
+        "upd": {
+          "SpawnedInSession": true,
+          "Sight": {
+            "ScopesCurrentCalibPointIndexes": [
+              0
+            ],
+            "ScopesSelectedModes": [
+              0
+            ],
+            "SelectedScope": 0,
+            "ScopeZoomValue": 0
+          }
+        }
+      },
+      {
+        "_id": "6996aa054492a23c14300e0c",
+        "_tpl": "5b7be4895acfc400170e2dd5",
+        "parentId": "6996aa054492a23c14300e03",
+        "slotId": "mod_foregrip",
+        "upd": {
+          "SpawnedInSession": true
+        }
+      },
+      {
+        "_id": "6996aa054492a23c14300e0d",
+        "_tpl": "6984367b0aa5465355c4ded3",
+        "parentId": "6996aa054492a23c14300e07",
+        "slotId": "mod_muzzle",
+        "upd": {
+          "SpawnedInSession": true
+        }
+      },
+      {
+        "_id": "6996aa054492a23c14300e0e",
+        "_tpl": "68bedc0365e7dcf94f0cb0fc",
+        "parentId": "6996aa054492a23c14300e09",
+        "slotId": "mod_tactical",
+        "upd": {
+          "SpawnedInSession": true,
+          "Light": {
+            "IsActive": true,
+            "SelectedMode": 0
+          }
+        }
+      },
+      {
+        "_id": "6996aa054492a23c14300e0f",
+        "_tpl": "57d17e212459775a1179a0f5",
+        "parentId": "6996aa054492a23c14300e0a",
+        "slotId": "mod_tactical",
+        "upd": {
+          "SpawnedInSession": true
+        }
+      },
+      {
+        "_id": "6996aa054492a23c14300e10",
+        "_tpl": "5b057b4f5acfc4771e1bd3e9",
+        "parentId": "6996aa054492a23c14300e0c",
+        "slotId": "mod_foregrip",
+        "upd": {
+          "SpawnedInSession": true
+        }
+      },
+      {
+        "_id": "6996aa054492a23c14300e11",
+        "_tpl": "59d790f486f77403cb06aec6",
+        "parentId": "6996aa054492a23c14300e0f",
+        "slotId": "mod_flashlight",
+        "upd": {
+          "SpawnedInSession": true,
+          "Light": {
+            "IsActive": true,
+            "SelectedMode": 0
+          }
+        }
+      },
+      {
+        "_id": "6996aa054492a23c14300e12",
+        "_tpl": "68bb25270e48a3afd7071216",
+        "parentId": "6996aa054492a23c14300e04",
+        "slotId": "mod_stock_000",
+        "upd": {
+          "SpawnedInSession": true
         }
       }
-    },
-    {
-      "_id": "6996aa054492a23c14300e06",
-      "_tpl": "68caace5f42a4476cf0be2b4",
-      "parentId": "6996aa054492a23c14300e01",
-      "slotId": "mod_mount"
-    },
-    {
-      "_id": "6996aa054492a23c14300e07",
-      "_tpl": "6529113b5ae2ae97b80fdf39",
-      "parentId": "6996aa054492a23c14300e02",
-      "slotId": "mod_muzzle",
-      "upd": {
-        "SpawnedInSession": true
-      }
-    },
-    {
-      "_id": "6996aa054492a23c14300e08",
-      "_tpl": "652910bc24cbe3c74a05e5b9",
-      "parentId": "6996aa054492a23c14300e02",
-      "slotId": "mod_gas_block",
-      "upd": {
-        "SpawnedInSession": true
-      }
-    },
-    {
-      "_id": "6996aa054492a23c14300e09",
-      "_tpl": "5b7be47f5acfc400170e2dd2",
-      "parentId": "6996aa054492a23c14300e03",
-      "slotId": "mod_mount_000",
-      "upd": {
-        "SpawnedInSession": true
-      }
-    },
-    {
-      "_id": "6996aa054492a23c14300e0a",
-      "_tpl": "669a6a4a525be1d2d004b8eb",
-      "parentId": "6996aa054492a23c14300e03",
-      "slotId": "mod_mount_001",
-      "upd": {
-        "SpawnedInSession": true
-      }
-    },
-    {
-      "_id": "6996aa054492a23c14300e0b",
-      "_tpl": "5bc09a30d4351e00367fb7c8",
-      "parentId": "6996aa054492a23c14300e03",
-      "slotId": "mod_sight_front",
-      "upd": {
-        "SpawnedInSession": true,
-        "Sight": {
-          "ScopesCurrentCalibPointIndexes": [
-            0
-          ],
-          "ScopesSelectedModes": [
-            0
-          ],
-          "SelectedScope": 0,
-          "ScopeZoomValue": 0
-        }
-      }
-    },
-    {
-      "_id": "6996aa054492a23c14300e0c",
-      "_tpl": "5b7be4895acfc400170e2dd5",
-      "parentId": "6996aa054492a23c14300e03",
-      "slotId": "mod_foregrip",
-      "upd": {
-        "SpawnedInSession": true
-      }
-    },
-    {
-      "_id": "6996aa054492a23c14300e0d",
-      "_tpl": "6984367b0aa5465355c4ded3",
-      "parentId": "6996aa054492a23c14300e07",
-      "slotId": "mod_muzzle",
-      "upd": {
-        "SpawnedInSession": true
-      }
-    },
-    {
-      "_id": "6996aa054492a23c14300e0e",
-      "_tpl": "68bedc0365e7dcf94f0cb0fc",
-      "parentId": "6996aa054492a23c14300e09",
-      "slotId": "mod_tactical",
-      "upd": {
-        "SpawnedInSession": true,
-        "Light": {
-          "IsActive": true,
-          "SelectedMode": 0
-        }
-      }
-    },
-    {
-      "_id": "6996aa054492a23c14300e0f",
-      "_tpl": "57d17e212459775a1179a0f5",
-      "parentId": "6996aa054492a23c14300e0a",
-      "slotId": "mod_tactical",
-      "upd": {
-        "SpawnedInSession": true
-      }
-    },
-    {
-      "_id": "6996aa054492a23c14300e10",
-      "_tpl": "5b057b4f5acfc4771e1bd3e9",
-      "parentId": "6996aa054492a23c14300e0c",
-      "slotId": "mod_foregrip",
-      "upd": {
-        "SpawnedInSession": true
-      }
-    },
-    {
-      "_id": "6996aa054492a23c14300e11",
-      "_tpl": "59d790f486f77403cb06aec6",
-      "parentId": "6996aa054492a23c14300e0f",
-      "slotId": "mod_flashlight",
-      "upd": {
-        "SpawnedInSession": true,
-        "Light": {
-          "IsActive": true,
-          "SelectedMode": 0
-        }
-      }
-    },
-    {
-      "_id": "6996aa054492a23c14300e12",
-      "_tpl": "68bb25270e48a3afd7071216",
-      "parentId": "6996aa054492a23c14300e04",
-      "slotId": "mod_stock_000",
-      "upd": {
-        "SpawnedInSession": true
-      }
-    }
-  ],
-  "_encyclopedia": "69842a195bdc0574dbdf25ca"
-}
+    ],
+    "_encyclopedia": "69842a195bdc0574dbdf25ca"
+  }
 }

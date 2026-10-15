@@ -19,6 +19,8 @@ namespace AishiKeys.MasterKey
                     return "69860f957139b00c69e69cb7";
                 case UltraKeys.UltraKeyFour:
                     return "6a0a5091eb733b78d06f82b2";
+                case UltraKeys.UltraKeyFive:
+                    return "999a5a06e1a05ca89b786f34";
                 default:
                     return "694479f61287f9a2b1060a7f";
             }
@@ -30,7 +32,8 @@ namespace AishiKeys.MasterKey
             "69439100a320344f805ba61f",
             "6944b4b15a0413f1b7f50724",
             "69860f957139b00c69e69cb7",
-            "6a0a5091eb733b78d06f82b2"
+            "6a0a5091eb733b78d06f82b2",
+            "999a5a06e1a05ca89b786f34"
         };
     }
 }

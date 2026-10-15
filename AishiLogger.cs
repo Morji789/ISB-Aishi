@@ -7,13 +7,8 @@ using SPTarkov.Server.Core.Models.Spt.Tables;
 using SPTarkov.Server.Core.Utils.Cloners;
 
 namespace Aishi_trader;
-
 [Injectable]
-public class AishiLogger(
-    ISptLogger<AishiLogger> logger,
-    ICloner cloner,
-    TradersTable tradersTable,
-    LocaleTable localeTable)
+public class AishiLogger(ISptLogger<AishiLogger> logger, ICloner cloner, TradersTable tradersTable, LocaleTable localeTable)
 {
     public void SetTraderUpdateTime(TraderConfig traderConfig, TraderBase baseJson, int refreshTimeSecondsMin, int refreshTimeSecondsMax)
     {
@@ -22,7 +17,6 @@ public class AishiLogger(
             TraderId = baseJson.Id,
             Seconds = new MinMax<int>(refreshTimeSecondsMin, refreshTimeSecondsMax)
         };
-
         traderConfig.UpdateTime.Add(traderRefreshRecord);
     }
 
@@ -34,20 +28,27 @@ public class AishiLogger(
             BarterScheme = new Dictionary<MongoId, List<List<BarterScheme>>>(),
             LoyalLevelItems = new Dictionary<MongoId, int>()
         };
-
         var traderDataToAdd = new Trader
         {
             Assort = emptyTraderItemAssortObject,
             Base = cloner.Clone(traderDetailsToAdd),
             QuestAssort = new()
             {
-                { "Started", new() },
-                { "Success", new() },
-                { "Fail", new() }
+                {
+                    "Started",
+                    new()
+                },
+                {
+                    "Success",
+                    new()
+                },
+                {
+                    "Fail",
+                    new()
+                }
             },
             Dialogue = []
         };
-
         tradersTable.TryAdd(traderDetailsToAdd.Id, traderDataToAdd);
     }
 
@@ -58,7 +59,6 @@ public class AishiLogger(
         var fullName = baseJson.Name;
         var nickName = baseJson.Nickname;
         var location = baseJson.Location;
-
         foreach (var localeKvP in locales.Values)
         {
             localeKvP.AddTransformer(lazyloadedLocaleData =>

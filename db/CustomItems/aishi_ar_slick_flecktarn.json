@@ -1,0 +1,204 @@
+{
+  "e837a1dfd3f654a0abbb94e9": {
+    "itemTplToClone": "5e4abb5086f77406975c9342",
+    "parentId": "5448e54d4bdc2dcc718b4568",
+    "handbookParentId": "5b5f701386f774093f2ecf0f",
+    "overrideProperties": {
+      "Description": "A simple yet effective plate carrier by London Bridge Trading company. The most minimalistic design intended for use with chest rigs. Flecktarn Version.",
+      "Grids": [],
+      "Name": "LBT-6094A Slick Plate Carrier (Flecktarn)",
+      "Prefab": {
+        "path": "equipment/ar_slick_flecktarn_aishi.bundle",
+        "rcid": ""
+      },
+      "ShortName": "Slick",
+      "Slots": [
+        {
+          "_id": "92a443e1da825e6bb2df429e",
+          "_mergeSlotWithChildren": true,
+          "_name": "Front_plate",
+          "_parent": "e837a1dfd3f654a0abbb94e9",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "656f9d5900d62bcd2e02407c",
+                  "656fa8d700d62bcd2e024084",
+                  "656fa99800d62bcd2e024088",
+                  "656fae5f7c2d57afe200c0d7",
+                  "656faf0ca0dce000a2020f77",
+                  "656fa0fb498d1b7e3e071d9c",
+                  "656fafe3498d1b7e3e071da4",
+                  "656fa76500d62bcd2e024080",
+                  "656fa25e94b480b8a500c0e0",
+                  "656fad8c498d1b7e3e071da0",
+                  "656fa61e94b480b8a500c0e8",
+                  "656fb21fa0dce000a2020f7c",
+                  "656fac30c6baea13cd07e10c",
+                  "656fb0bd7c2d57afe200c0dc",
+                  "656f9fa0498d1b7e3e071d98",
+                  "656fa53d94b480b8a500c0e4",
+                  "655746010177119f4a097ff7",
+                  "64afdcb83efdfea28601d041"
+                ],
+                "Plate": "656fa76500d62bcd2e024080",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_chest"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": false
+        },
+        {
+          "_id": "5fa1771c08e75069b23098a7",
+          "_mergeSlotWithChildren": true,
+          "_name": "Back_plate",
+          "_parent": "e837a1dfd3f654a0abbb94e9",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "656f9d5900d62bcd2e02407c",
+                  "656fa8d700d62bcd2e024084",
+                  "656fa99800d62bcd2e024088",
+                  "656fae5f7c2d57afe200c0d7",
+                  "656faf0ca0dce000a2020f77",
+                  "656fa0fb498d1b7e3e071d9c",
+                  "656fafe3498d1b7e3e071da4",
+                  "656fa76500d62bcd2e024080",
+                  "656fa25e94b480b8a500c0e0",
+                  "656fad8c498d1b7e3e071da0",
+                  "656fa61e94b480b8a500c0e8",
+                  "656fb21fa0dce000a2020f7c",
+                  "656fac30c6baea13cd07e10c",
+                  "656fb0bd7c2d57afe200c0dc",
+                  "656f9fa0498d1b7e3e071d98",
+                  "656fa53d94b480b8a500c0e4",
+                  "655746010177119f4a097ff7",
+                  "64afdcb83efdfea28601d041"
+                ],
+                "Plate": "656fa76500d62bcd2e024080",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_back"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": false
+        },
+        {
+          "_id": "df308a1d3acd59338756d579",
+          "_mergeSlotWithChildren": true,
+          "_name": "Soft_armor_front",
+          "_parent": "e837a1dfd3f654a0abbb94e9",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6575e71760703324250610c3"
+                ],
+                "Plate": "6575e71760703324250610c3",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_chest"
+                ],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        },
+        {
+          "_id": "0031d38c9d2859e792dea2c3",
+          "_mergeSlotWithChildren": true,
+          "_name": "Soft_armor_back",
+          "_parent": "e837a1dfd3f654a0abbb94e9",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6575e72660703324250610c7"
+                ],
+                "Plate": "6575e72660703324250610c7",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_back"
+                ],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "LBT-6094A Slick Plate Carrier (Flecktarn)",
+        "shortName": "Slick",
+        "description": "A simple yet effective plate carrier by London Bridge Trading company. The most minimalistic design intended for use with chest rigs. Flecktarn Version."
+      }
+    },
+    "handbookPriceRoubles": 16523,
+    "fleaPriceRoubles": 167229,
+    "addtoInventorySlots": [],
+    "addtoBots": false,
+    "addtoTraders": false,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": false,
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_changeWeaponName": false,
+        "_encyclopedia": "e837a1dfd3f654a0abbb94e9",
+        "_id": "0a8704b7207a57e69d5a5baa",
+        "_items": [
+          {
+            "_id": "3df16c28323c557ebe9edf22",
+            "_tpl": "e837a1dfd3f654a0abbb94e9"
+          },
+          {
+            "_id": "af5ae15d3eee5fee95bdaa8b",
+            "_tpl": "6575e71760703324250610c3",
+            "parentId": "3df16c28323c557ebe9edf22",
+            "slotId": "Soft_armor_front"
+          },
+          {
+            "_id": "6cd5307863ef55c29a8dc2ef",
+            "_tpl": "6575e72660703324250610c7",
+            "parentId": "3df16c28323c557ebe9edf22",
+            "slotId": "Soft_armor_back"
+          },
+          {
+            "_id": "f79585d095d25a49b9f04b1c",
+            "_tpl": "656fa76500d62bcd2e024080",
+            "parentId": "3df16c28323c557ebe9edf22",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "f3b0346dcdc753f6a7686405",
+            "_tpl": "656fa76500d62bcd2e024080",
+            "parentId": "3df16c28323c557ebe9edf22",
+            "slotId": "Back_plate"
+          }
+        ],
+        "_name": "LBT-6094A Slick Plate Carrier (Flecktarn)",
+        "_parent": "3df16c28323c557ebe9edf22",
+        "_type": "Preset"
+      }
+    ]
+  }
+}

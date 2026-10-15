@@ -1,0 +1,144 @@
+{
+  "5cd1d99f9044524fb247f500": {
+    "itemTplToClone": "68947a4be4bf255d1b0ca746",
+    "parentId": "5448e5284bdc2dcb718b4567",
+    "handbookParentId": "5b5f6f8786f77447ed563642",
+    "overrideProperties": {
+      "QuestItem": false,
+      "ExaminedByDefault": false,
+      "IsUnsaleable": false,
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false,
+      "addtoItemBlacklist": true,
+      "BackgroundColor": "default",
+      "Prefab": {
+        "path": "equipment/isb_rrh/siege_r_rrh.bundle",
+        "rcid": ""
+      },
+      "Width": 4,
+      "Height": 4,
+      "Weight": 10.8,
+      "Name": "First Spear Siege-R Optimized M.A.S.S. Plate Carrier (Black Division V2)",
+      "ShortName": "Siege-R",
+      "Description": "A Siege-R Optimized plate carrier equipped with the M.A.S.S. Shoulder System. Provides reliable all-around protection while offering ample workspace for equipment placement. Black version."
+    },
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_id": "daf8d8c7e0625c27b8ea3531",
+        "_type": "Preset",
+        "_changeWeaponName": false,
+        "_name": "First Spear Siege-R Optimized M.A.S.S. Plate Carrier (Black Division V2)",
+        "_parent": "1ae6a3570b4b5f20aca82032",
+        "_items": [
+          {
+            "_id": "1ae6a3570b4b5f20aca82032",
+            "_tpl": "5cd1d99f9044524fb247f500"
+          },
+          {
+            "_id": "afc0660172385776ba391fa0",
+            "_tpl": "68a5eaab48f18317750a0b92",
+            "parentId": "1ae6a3570b4b5f20aca82032",
+            "slotId": "Soft_armor_front"
+          },
+          {
+            "_id": "ee8d4db380bd527f82df1947",
+            "_tpl": "68a5ea26200341f12e08de79",
+            "parentId": "1ae6a3570b4b5f20aca82032",
+            "slotId": "Soft_armor_back"
+          },
+          {
+            "_id": "d4842b3fd05355f789fcb72f",
+            "_tpl": "68a5eb4c200341f12e08e7d1",
+            "parentId": "1ae6a3570b4b5f20aca82032",
+            "slotId": "Soft_armor_left"
+          },
+          {
+            "_id": "e5679bcdeb4b5c7080a005e5",
+            "_tpl": "68a5eba93acdf023050b1c15",
+            "parentId": "1ae6a3570b4b5f20aca82032",
+            "slotId": "soft_armor_right"
+          },
+          {
+            "_id": "3ff3b59cc7845a9094f79ab2",
+            "_tpl": "68a5ea756e534ad0110eca16",
+            "parentId": "1ae6a3570b4b5f20aca82032",
+            "slotId": "Collar"
+          },
+          {
+            "_id": "8e8cde45960a55c6a3b7bc23",
+            "_tpl": "68a5eb16c4e56258880dfe96",
+            "parentId": "1ae6a3570b4b5f20aca82032",
+            "slotId": "Shoulder_l"
+          },
+          {
+            "_id": "98d7ce49e5275611bcbf589b",
+            "_tpl": "68a5eb856e534ad0110efa05",
+            "parentId": "1ae6a3570b4b5f20aca82032",
+            "slotId": "Shoulder_r"
+          },
+          {
+            "_id": "ff20a45534f4510bb66589e0",
+            "_tpl": "68a5eadd2c125bac5a097cbf",
+            "parentId": "1ae6a3570b4b5f20aca82032",
+            "slotId": "Groin"
+          },
+          {
+            "_id": "ce3f241ecc6a5b5f8aa253b1",
+            "_tpl": "655746010177119f4a097ff7",
+            "parentId": "1ae6a3570b4b5f20aca82032",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "7eef1715420b572c8eab25f7",
+            "_tpl": "655746010177119f4a097ff7",
+            "parentId": "1ae6a3570b4b5f20aca82032",
+            "slotId": "Back_plate"
+          },
+          {
+            "_id": "0df4250575be5ee7a2e9ce83",
+            "_tpl": "6557458f83942d705f0c4962",
+            "parentId": "1ae6a3570b4b5f20aca82032",
+            "slotId": "Left_side_plate"
+          },
+          {
+            "_id": "236245549a1e59469d7be4c2",
+            "_tpl": "6557458f83942d705f0c4962",
+            "parentId": "1ae6a3570b4b5f20aca82032",
+            "slotId": "Right_side_plate"
+          }
+        ],
+        "_encyclopedia": "5cd1d99f9044524fb247f500"
+      }
+    ],
+    "locales": {
+      "en": {
+        "name": "First Spear Siege-R Optimized M.A.S.S. Plate Carrier (Black Division V2)",
+        "shortName": "Siege-R",
+        "description": "A Siege-R Optimized plate carrier equipped with the M.A.S.S. Shoulder System. Provides reliable all-around protection while offering ample workspace for equipment placement. Black version."
+      },
+      "po": {
+        "name": "First Spear Siege-R Optimized M.A.S.S. Plate Carrier (Black Division V2)",
+        "shortName": "Siege-R",
+        "description": "A Siege-R Optimized plate carrier equipped with the M.A.S.S. Shoulder System. Provides reliable all-around protection while offering ample workspace for equipment placement. Black version."
+      }
+    },
+    "fleaPriceRoubles": 83572,
+    "handbookPriceRoubles": 15511,
+    "addtoInventorySlots": [
+      "TacticalRig"
+    ],
+    "addtoStaticLootContainers": false,
+    "CanSellOnRagfair": false,
+    "IsAlwaysAvailableForInsurance": false,
+    "InsuranceDisabled": false,
+    "CanRequireOnRagfair": false,
+    "addtoItemBlacklist": true,
+    "StaticLootContainers": [
+      {
+        "ContainerName": "",
+        "Probability": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "AishiBone03Restoration": [
+    {
+      "BuffType": "HealthRate",
+      "Chance": 1,
+      "Delay": 1,
+      "Duration": 15,
+      "Value": 70,
+      "AbsoluteValue": true,
+      "SkillName": ""
+    }
+  ]
+}

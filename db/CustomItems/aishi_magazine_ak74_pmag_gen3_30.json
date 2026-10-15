@@ -1,0 +1,70 @@
+{
+  "f0f2939ba83d5d47b0eaf275": {
+    "itemTplToClone": "5aaa4194e5b5b055d06310a5",
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "handbookPriceRoubles": 2658,
+    "fleaPriceRoubles": 13942,
+    "overrideProperties": {
+      "Prefab": {
+        "path": "aishiweapons/magazines/ak74_pmag_gen3_30_tape/mag_ak74_magpul_pmag_30_ak74_gen_m3_545x39_30_tape.bundle",
+        "rcid": ""
+      },
+      "Cartridges": [
+        {
+          "_id": "fdca9bc1a2be5f85a3b62eef",
+          "_max_count": 30,
+          "_name": "cartridges",
+          "_parent": "f0f2939ba83d5d47b0eaf275",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5c0d5e4486f77478390952fe",
+                  "61962b617c6c7b169525f168",
+                  "56dfef82d2720bbd668b4567",
+                  "56dff026d2720bb8668b4567",
+                  "56dff061d2720bb5668b4567",
+                  "56dff0bed2720bb0668b4567",
+                  "56dff216d2720bbd668b4568",
+                  "56dff2ced2720bb4668b4567",
+                  "56dff338d2720bbd668b4569",
+                  "56dff3afd2720bba668b4567",
+                  "56dff421d2720b5f5a8b4567",
+                  "56dff4a2d2720bbd668b456a",
+                  "56dff4ecd2720b5f5a8b4568"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ],
+      "Name": "AK-74 5.45x39 Magpul PMAG 30 GEN M3 30-round magazine (Tape)",
+      "ShortName": "GEN M3",
+      "Description": "A 30-round polymer Magpul Pmag 30 AK74 GEN M3 magazine for 5.45x39 AK and compatible weapons. Tape Version. Change the tape color from the magazine menu in your stash.",
+      "CanRequireOnRagfair": true
+    },
+    "locales": {
+      "en": {
+        "name": "AK-74 5.45x39 Magpul PMAG 30 GEN M3 30-round magazine (Tape)",
+        "shortName": "GEN M3",
+        "description": "A 30-round polymer Magpul Pmag 30 AK74 GEN M3 magazine for 5.45x39 AK and compatible weapons. Tape Version. Change the tape color from the magazine menu in your stash."
+      },
+      "po": {
+        "name": "Carregador de 30 munições Pmag 30 AK74 GEN M3 5.45x39, para AK e compatíveis (Tape)",
+        "shortName": "Pmag 30",
+        "description": "Carregador de polímero da marca Magpul modelo Pmag 30 AK/AKM GEN M3, com capacidade de 30 munições 7.62x39 para AK e armas compatíveis. Tape Version. Change the tape color from the magazine menu in your stash."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_magazine"
+    ]
+  }
+}

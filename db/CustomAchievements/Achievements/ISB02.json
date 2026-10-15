@@ -1,13 +1,298 @@
 [
-{
-  "id": "6924c9c60db281e82adaf1df",
-  "description": "6924c9c60db281e82adaf1df description",
-  "name": "6924c9c60db281e82adaf1df name",
-  "imageUrl": "/files/achievement/ISB02.png",
-  "assetPath": "",
-  "rewards": [],
-  "conditions": {
-    "availableForFinish": [
+  {
+    "id": "6924c9c60db281e82adaf1df",
+    "description": "6924c9c60db281e82adaf1df description",
+    "name": "6924c9c60db281e82adaf1df name",
+    "imageUrl": "/files/achievement/ISB02.png",
+    "assetPath": "",
+    "rewards": [
+      {
+        "id": "decb23f19b3db893963de960",
+        "index": 0,
+        "type": "Item",
+        "target": "94d661f0a6590328ed4f36f5",
+        "value": "2",
+        "items": [
+          {
+            "_id": "94d661f0a6590328ed4f36f5",
+            "_tpl": "cb80fe3f3cfb52b5a87e6094",
+            "upd": {
+              "StackObjectsCount": 2,
+              "Repairable": {
+                "Durability": 100,
+                "MaxDurability": 100
+              },
+              "FireMode": {
+                "FireMode": "single"
+              }
+            }
+          },
+          {
+            "_id": "52090bcc06c9bb841b9cca25",
+            "_tpl": "5dcbd6dddbd3d91b3e5468de",
+            "parentId": "94d661f0a6590328ed4f36f5",
+            "slotId": "mod_pistol_grip",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "5a02665a7e606e0cbb4e589a",
+            "_tpl": "4ef82195fffe5527a881e1d7",
+            "parentId": "94d661f0a6590328ed4f36f5",
+            "slotId": "mod_magazine",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "c68d549e719adf1c8aebb707",
+            "_tpl": "68109a1f327033533604170a",
+            "parentId": "94d661f0a6590328ed4f36f5",
+            "slotId": "mod_handguard",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "51985d10c60c63fc371547d3",
+            "_tpl": "680f87118c5d2ff9020005cd",
+            "parentId": "94d661f0a6590328ed4f36f5",
+            "slotId": "mod_barrel",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "286954cc2be4d4682f6ac804",
+            "_tpl": "618b9643526131765025ab35",
+            "parentId": "94d661f0a6590328ed4f36f5",
+            "slotId": "mod_scope",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "936973e35a0715e12d03f49b",
+            "_tpl": "5bc09a18d4351e003562b68e",
+            "parentId": "94d661f0a6590328ed4f36f5",
+            "slotId": "mod_sight_rear",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Sight": {
+                "ScopesCurrentCalibPointIndexes": [
+                  0
+                ],
+                "ScopesSelectedModes": [
+                  0
+                ],
+                "SelectedScope": 0,
+                "ScopeZoomValue": 0
+              }
+            }
+          },
+          {
+            "_id": "17185d9b2d4ea5d413879992",
+            "_tpl": "5b7be4895acfc400170e2dd5",
+            "parentId": "c68d549e719adf1c8aebb707",
+            "slotId": "mod_mount_000",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "b99301cd661b4b19a8f99c94",
+            "_tpl": "6269220d70b6c02e665f2635",
+            "parentId": "c68d549e719adf1c8aebb707",
+            "slotId": "mod_mount_001",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "66023d2d25b355ecc56f4b7e",
+            "_tpl": "644a3df63b0b6f03e101e065",
+            "parentId": "c68d549e719adf1c8aebb707",
+            "slotId": "mod_tactical",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Light": {
+                "IsActive": true,
+                "SelectedMode": 0
+              }
+            }
+          },
+          {
+            "_id": "5356bf234aa1a2a4348e7ce4",
+            "_tpl": "6a3cea96194a2625b40c863d",
+            "parentId": "51985d10c60c63fc371547d3",
+            "slotId": "mod_muzzle",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "d599d21884efa14abea3ba23",
+            "_tpl": "5b3b99475acfc432ff4dcbee",
+            "parentId": "286954cc2be4d4682f6ac804",
+            "slotId": "mod_scope",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Sight": {
+                "ScopesCurrentCalibPointIndexes": [
+                  0
+                ],
+                "ScopesSelectedModes": [
+                  0
+                ],
+                "SelectedScope": 0,
+                "ScopeZoomValue": 0
+              }
+            }
+          },
+          {
+            "_id": "e8c83b7e6f9b0d0673f81335",
+            "_tpl": "618b9682a3884f56c957ca78",
+            "parentId": "286954cc2be4d4682f6ac804",
+            "slotId": "mod_mount",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "e13be6b58c6b51480024c845",
+            "_tpl": "5c1cd46f2e22164bef5cfedb",
+            "parentId": "17185d9b2d4ea5d413879992",
+            "slotId": "mod_foregrip",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "ed9693575d1bae89172416fc",
+            "_tpl": "689c8981bce76ccfbf01862f",
+            "parentId": "b99301cd661b4b19a8f99c94",
+            "slotId": "mod_tactical",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "8f6bbc934837569899227973",
+            "_tpl": "689c887cd18a3665b8045743",
+            "parentId": "ed9693575d1bae89172416fc",
+            "slotId": "mod_tactical",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Light": {
+                "IsActive": true,
+                "SelectedMode": 0
+              }
+            }
+          },
+          {
+            "_id": "e9ece99ae9385784ef990582",
+            "_tpl": "6a3ceab8194a2625b40c8641",
+            "parentId": "5356bf234aa1a2a4348e7ce4",
+            "slotId": "mod_muzzle",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "d2c3063abed3c4895f173a00",
+            "_tpl": "5a32aa8bc4a2826c6e06d737",
+            "parentId": "e8c83b7e6f9b0d0673f81335",
+            "slotId": "mod_scope",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Sight": {
+                "ScopesCurrentCalibPointIndexes": [
+                  0
+                ],
+                "ScopesSelectedModes": [
+                  0
+                ],
+                "SelectedScope": 0,
+                "ScopeZoomValue": 0
+              }
+            }
+          }
+        ],
+        "findInRaid": true,
+        "availableInGameEditions": [],
+        "unknown": false
+      },
+      {
+        "id": "df4d352a3ed9aec134e070df",
+        "index": 1,
+        "type": "Item",
+        "target": "f37ee71eacb44208ab4470f7",
+        "value": "20",
+        "items": [
+          {
+            "_id": "f37ee71eacb44208ab4470f7",
+            "_tpl": "657024e3c5d7d4cb4d07856a",
+            "upd": {
+              "StackObjectsCount": 20
+            }
+          },
+          {
+            "_id": "7f6c196bbd4ce7099dca1fd8",
+            "_tpl": "54527ac44bdc2d36668b4567",
+            "parentId": "f37ee71eacb44208ab4470f7",
+            "slotId": "cartridges",
+            "location": 0,
+            "upd": {
+              "StackObjectsCount": 50
+            }
+          }
+        ],
+        "findInRaid": true,
+        "availableInGameEditions": [],
+        "unknown": false
+      },
+      {
+        "id": "6e98cb549688a79e12f11451",
+        "index": 2,
+        "type": "Item",
+        "target": "dcce5e04f0274e547446c81a",
+        "value": "2",
+        "items": [
+          {
+            "_id": "dcce5e04f0274e547446c81a",
+            "_tpl": "66b5f6985891c84aab75ca76",
+            "upd": {
+              "StackObjectsCount": 2
+            }
+          }
+        ],
+        "findInRaid": true,
+        "availableInGameEditions": [],
+        "unknown": false
+      },
+      {
+        "id": "110403b16038a05bb7191747",
+        "index": 3,
+        "type": "Item",
+        "target": "8a217335bf0899cba4694336",
+        "value": "2",
+        "items": [
+          {
+            "_id": "8a217335bf0899cba4694336",
+            "_tpl": "69cd423343c6b278a2076cca",
+            "upd": {
+              "StackObjectsCount": 2
+            }
+          }
+        ],
+        "findInRaid": true,
+        "availableInGameEditions": [],
+        "unknown": false
+      }
+    ],
+    "conditions": {
+      "availableForFinish": [
         {
           "availableAfter": 0,
           "conditionType": "Quest",
@@ -24,18 +309,18 @@
           "target": "6a6d684930253f787fd50a01",
           "visibilityConditions": []
         }
-    ],
-    "fail": []
-  },
-  "instantComplete": false,
-  "showNotificationsInGame": false,
-  "showProgress": false,
-  "prefab": "",
-  "rarity": "Rare",
-  "hidden": false,
-  "showConditions": false,
-  "progressBarEnabled": false,
-  "side": "Pmc",
-  "index": 3301
-}
+      ],
+      "fail": []
+    },
+    "instantComplete": false,
+    "showNotificationsInGame": false,
+    "showProgress": false,
+    "prefab": "",
+    "rarity": "Rare",
+    "hidden": false,
+    "showConditions": false,
+    "progressBarEnabled": false,
+    "side": "Pmc",
+    "index": 3301
+  }
 ]
