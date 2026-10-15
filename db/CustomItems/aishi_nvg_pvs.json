@@ -1,18 +1,15 @@
 {
   "6a4c716dcbf243af9349bafd": {
-
     "itemTplToClone": "689b889473ebd6871805edd6",
     "parentId": "5a2c3a9486f774688b05e574",
     "handbookParentId": "5b5f749986f774094242f199",
-
-
     "overrideProperties": {
       "QuestItem": false,
       "BackgroundColor": "yellow",
       "IsUnsaleable": false,
       "CanSellOnRagfair": false,
       "CanRequireOnRagfair": false,
-      "addtoItemBlacklist": true,  
+      "addtoItemBlacklist": true,
       "ExaminedByDefault": false,
       "PushToFleaBlacklist": true,
       "InsuranceDisabled": true,
@@ -23,68 +20,48 @@
         "b": 69,
         "a": 254
       },
-
       "Mask": "Anvis",
-      "MaskSize": 1.50,     
+      "MaskSize": 1.5,
       "NoiseIntensity": 0.002,
       "NoiseScale": 6,
-
       "Prefab": {
-
         "path": "equipment/nvg_l3_pvs31a_black.bundle",
         "rcid": ""
       },
-
-
       "Width": 2,
       "Height": 1,
-
-
       "Weight": 0.9,
-
-
-      "Grids": [
-      ]
+      "Grids": [],
+      "IsAlwaysAvailableForInsurance": false
     },
-
     "locales": {
       "en": {
         "name": "Modified L3Harris PVS-31A night vision goggles (Green Phosphor)",
         "shortName": "PVS-31A",
         "description": "A very lightweight and ergonomic night vision device manufactured by L3Harris. Provides an optimal field of view and a clear image not only in low-light conditions but also in the presence of bright light sources. Equipped with Butler Creek flip-open lens protectors. Green Phosphor tubes version."
       },
-        "po": {
+      "po": {
         "name": "Modified L3Harris PVS-31A night vision goggles (Green Phosphor)",
         "shortName": "PVS-31A",
         "description": "A very lightweight and ergonomic night vision device manufactured by L3Harris. Provides an optimal field of view and a clear image not only in low-light conditions but also in the presence of bright light sources. Equipped with Butler Creek flip-open lens protectors. Green Phosphor tubes version."
       }
     },
-
     "fleaPriceRoubles": 489202,
-
     "handbookPriceRoubles": 208592,
-
     "addtoBots": true,
-
     "addtoModSlots": true,
-
     "CanSellOnRagfair": false,
-
     "CanRequireOnRagfair": false,
-    
-    "addtoItemBlacklist": true, 
-
-    "modSlot": ["mod_nvg"],
-
+    "addtoItemBlacklist": true,
+    "modSlot": [
+      "mod_nvg"
+    ],
     "addtoEmptyPropSlots": true,
-
     "emptyPropSlot": {
       "itemToAddTo": "689b8883b49f27df1c0873f8",
       "modSlot": "mod_nvg"
     },
-
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",
@@ -93,19 +70,16 @@
     ]
   },
   "6a4c7475199066d1ea0b5131": {
-
     "itemTplToClone": "689b889473ebd6871805edd6",
     "parentId": "5a2c3a9486f774688b05e574",
     "handbookParentId": "5b5f749986f774094242f199",
-
-
     "overrideProperties": {
       "QuestItem": false,
       "BackgroundColor": "yellow",
       "IsUnsaleable": false,
       "CanSellOnRagfair": false,
       "CanRequireOnRagfair": false,
-      "addtoItemBlacklist": true,  
+      "addtoItemBlacklist": true,
       "ExaminedByDefault": false,
       "PushToFleaBlacklist": true,
       "InsuranceDisabled": true,
@@ -116,68 +90,48 @@
         "b": 236,
         "a": 254
       },
-
       "Mask": "Anvis",
-      "MaskSize": 1.50,     
+      "MaskSize": 1.5,
       "NoiseIntensity": 0.002,
       "NoiseScale": 6,
-
       "Prefab": {
-
         "path": "equipment/nvg_l3_pvs31a_white_2.bundle",
         "rcid": ""
       },
-
-
       "Width": 2,
       "Height": 1,
-
-
       "Weight": 0.9,
-
-
-      "Grids": [
-      ]
+      "Grids": [],
+      "IsAlwaysAvailableForInsurance": false
     },
-
     "locales": {
       "en": {
         "name": "Modified L3Harris PVS-31A night vision goggles (White)",
         "shortName": "PVS-31A",
         "description": "A very lightweight and ergonomic night vision device manufactured by L3Harris. Provides an optimal field of view and a clear image not only in low-light conditions but also in the presence of bright light sources. Equipped with Butler Creek flip-open lens protectors. White Phosphor tubes version."
       },
-        "po": {
+      "po": {
         "name": "Modified L3Harris PVS-31A night vision goggles (White)",
         "shortName": "PVS-31A",
         "description": "A very lightweight and ergonomic night vision device manufactured by L3Harris. Provides an optimal field of view and a clear image not only in low-light conditions but also in the presence of bright light sources. Equipped with Butler Creek flip-open lens protectors. White Phosphor tubes version."
       }
     },
-
     "fleaPriceRoubles": 489202,
-
     "handbookPriceRoubles": 208592,
-
     "addtoBots": true,
-
     "addtoModSlots": true,
-
     "CanSellOnRagfair": false,
-
     "CanRequireOnRagfair": false,
-    
-    "addtoItemBlacklist": true, 
-
-    "modSlot": ["mod_nvg"],
-
+    "addtoItemBlacklist": true,
+    "modSlot": [
+      "mod_nvg"
+    ],
     "addtoEmptyPropSlots": true,
-
     "emptyPropSlot": {
       "itemToAddTo": "689b8883b49f27df1c0873f8",
       "modSlot": "mod_nvg"
     },
-
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",
@@ -186,19 +140,16 @@
     ]
   },
   "6a4c74f853926ec162d22a43": {
-
     "itemTplToClone": "689b889473ebd6871805edd6",
     "parentId": "5a2c3a9486f774688b05e574",
     "handbookParentId": "5b5f749986f774094242f199",
-
-
     "overrideProperties": {
       "QuestItem": false,
       "BackgroundColor": "yellow",
       "IsUnsaleable": false,
       "CanSellOnRagfair": false,
       "CanRequireOnRagfair": false,
-      "addtoItemBlacklist": true,  
+      "addtoItemBlacklist": true,
       "ExaminedByDefault": false,
       "PushToFleaBlacklist": true,
       "InsuranceDisabled": true,
@@ -209,68 +160,48 @@
         "b": 236,
         "a": 254
       },
-
       "Mask": "Anvis",
-      "MaskSize": 1.50,     
+      "MaskSize": 1.5,
       "NoiseIntensity": 0.002,
       "NoiseScale": 6,
-
       "Prefab": {
-
         "path": "equipment/nvg_l3_pvs31a_fde_2.bundle",
         "rcid": ""
       },
-
-
       "Width": 2,
       "Height": 1,
-
-
       "Weight": 0.9,
-
-
-      "Grids": [
-      ]
+      "Grids": [],
+      "IsAlwaysAvailableForInsurance": false
     },
-
     "locales": {
       "en": {
         "name": "Modified L3Harris PVS-31A night vision goggles (FDE)",
         "shortName": "PVS-31A",
         "description": "A very lightweight and ergonomic night vision device manufactured by L3Harris. Provides an optimal field of view and a clear image not only in low-light conditions but also in the presence of bright light sources. Equipped with Butler Creek flip-open lens protectors. White Phosphor tubes version."
       },
-        "po": {
+      "po": {
         "name": "Modified L3Harris PVS-31A night vision goggles (FDE)",
         "shortName": "PVS-31A",
         "description": "A very lightweight and ergonomic night vision device manufactured by L3Harris. Provides an optimal field of view and a clear image not only in low-light conditions but also in the presence of bright light sources. Equipped with Butler Creek flip-open lens protectors. White Phosphor tubes version."
       }
     },
-
     "fleaPriceRoubles": 489202,
-
     "handbookPriceRoubles": 208592,
-
     "addtoBots": true,
-
     "addtoModSlots": true,
-
     "CanSellOnRagfair": false,
-
     "CanRequireOnRagfair": false,
-    
-    "addtoItemBlacklist": true, 
-
-    "modSlot": ["mod_nvg"],
-
+    "addtoItemBlacklist": true,
+    "modSlot": [
+      "mod_nvg"
+    ],
     "addtoEmptyPropSlots": true,
-
     "emptyPropSlot": {
       "itemToAddTo": "689b8883b49f27df1c0873f8",
       "modSlot": "mod_nvg"
     },
-
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",

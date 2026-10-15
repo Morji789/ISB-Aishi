@@ -1,0 +1,534 @@
+[
+  {
+    "type": "top",
+    "locales": {
+      "en": {
+        "name": "Unit of Hope - Assault (Woodland)",
+        "description": "Unit of Hope Collection"
+      },
+      "po": {
+        "name": "Unit of Hope - Assault (Woodland)",
+        "description": "Unit of Hope Collection"
+      }
+    },
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 35,
+    "standing": 0.45,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 3000,
+    "questRequirements": [],
+    "achievementRequirements": [],
+    "suiteId": "7567e8c9dab6da5f84ea0e0b",
+    "outfitId": "a70d91315b4f96edbc24a327",
+    "topId": "27cf00b4aa66347b759cd301",
+    "handsId": "1007f124c4743ccdabe8c745",
+    "topBundlePath": "clothing/unit_of_hope/assault_woodland/top_unit_of_hope_assault_woodland_aishi.bundle",
+    "handsBundlePath": "clothing/unit_of_hope/assault_woodland/hands_unit_of_hope_assault_woodland_aishi.bundle",
+    "watchPrefab": {
+      "path": "",
+      "rcid": ""
+    },
+    "watchPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "watchRotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "type": "bottom",
+    "locales": {
+      "en": {
+        "name": "Unit of Hope - Assault (Woodland)",
+        "description": "Unit of Hope Collection"
+      },
+      "po": {
+        "name": "Unit of Hope - Assault (Woodland)",
+        "description": "Unit of Hope Collection"
+      }
+    },
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 35,
+    "standing": 0.45,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 1500,
+    "questRequirements": [],
+    "achievementRequirements": [],
+    "suiteId": "fd1d67f0b59ddd0717a42389",
+    "outfitId": "79d12afdc662f0a55ed1e558",
+    "bottomId": "457cda574da750abe04a7db8",
+    "bottomBundlePath": "clothing/unit_of_hope/assault_woodland_pants/pants_unit_of_hope_assault_woodland_pants_aishi.bundle"
+  },
+  {
+    "type": "top",
+    "locales": {
+      "en": {
+        "name": "Unit of Hope - Assault (Urban)",
+        "description": "Unit of Hope Collection"
+      },
+      "po": {
+        "name": "Unit of Hope - Assault (Urban)",
+        "description": "Unit of Hope Collection"
+      }
+    },
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 35,
+    "standing": 0.45,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 3000,
+    "questRequirements": [],
+    "achievementRequirements": [],
+    "suiteId": "3be743299b70c381dfc7a598",
+    "outfitId": "87216b942c00b45c6cdc1e1d",
+    "topId": "039bd2cdad6a914ffabf9f70",
+    "handsId": "51cb2983f3e4e77987111b71",
+    "topBundlePath": "clothing/unit_of_hope/assault_urban/top_unit_of_hope_assault_urban_aishi.bundle",
+    "handsBundlePath": "clothing/unit_of_hope/assault_urban/hands_unit_of_hope_assault_urban_aishi.bundle",
+    "watchPrefab": {
+      "path": "",
+      "rcid": ""
+    },
+    "watchPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "watchRotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "type": "bottom",
+    "locales": {
+      "en": {
+        "name": "Unit of Hope - Assault (Urban)",
+        "description": "Unit of Hope Collection"
+      },
+      "po": {
+        "name": "Unit of Hope - Assault (Urban)",
+        "description": "Unit of Hope Collection"
+      }
+    },
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 35,
+    "standing": 0.45,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 1500,
+    "questRequirements": [],
+    "achievementRequirements": [],
+    "suiteId": "19bf7940b3d2b5ec38109dd6",
+    "outfitId": "a6063383f9f0551efffe4ed0",
+    "bottomId": "e4f59be37a8901aa0827b37c",
+    "bottomBundlePath": "clothing/unit_of_hope/assault_urban_pants/pants_unit_of_hope_assault_urban_pants_aishi.bundle"
+  },
+  {
+    "type": "top",
+    "locales": {
+      "en": {
+        "name": "Unit of Hope - Covert (Black)",
+        "description": "Unit of Hope Collection"
+      },
+      "po": {
+        "name": "Unit of Hope - Covert (Black)",
+        "description": "Unit of Hope Collection"
+      }
+    },
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 35,
+    "standing": 0.45,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 3000,
+    "questRequirements": [],
+    "achievementRequirements": [],
+    "suiteId": "fef14bea011fafb6e9a6bd2c",
+    "outfitId": "850b99d38a45f15cf2c17b83",
+    "topId": "6814e084b7fb39a3b6e171e9",
+    "handsId": "f7cd8618aa926a188d6b3cef",
+    "topBundlePath": "clothing/unit_of_hope/covert/top_unit_of_hope_covert_aishi.bundle",
+    "handsBundlePath": "clothing/unit_of_hope/covert/hands_unit_of_hope_covert_aishi.bundle",
+    "watchPrefab": {
+      "path": "",
+      "rcid": ""
+    },
+    "watchPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "watchRotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "type": "bottom",
+    "locales": {
+      "en": {
+        "name": "Unit of Hope - Covert (Black)",
+        "description": "Unit of Hope Collection"
+      },
+      "po": {
+        "name": "Unit of Hope - Covert (Black)",
+        "description": "Unit of Hope Collection"
+      }
+    },
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 35,
+    "standing": 0.45,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 1500,
+    "questRequirements": [],
+    "achievementRequirements": [],
+    "suiteId": "5cd89e2a77de2841538a3d0f",
+    "outfitId": "2e575a87a175106a631921f7",
+    "bottomId": "8160cd1882d5929fd44863c4",
+    "bottomBundlePath": "clothing/unit_of_hope/covert_pants/pants_unit_of_hope_covert_pants_aishi.bundle"
+  },
+  {
+    "type": "top",
+    "locales": {
+      "en": {
+        "name": "Unit of Hope - Forge (Three-color Desert)",
+        "description": "Unit of Hope Collection"
+      },
+      "po": {
+        "name": "Unit of Hope - Forge (Three-color Desert)",
+        "description": "Unit of Hope Collection"
+      }
+    },
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 35,
+    "standing": 0.45,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 3000,
+    "questRequirements": [],
+    "achievementRequirements": [],
+    "suiteId": "ae6f0742a2e5231eebb65c00",
+    "outfitId": "6f709a603c82aa3dad1b589a",
+    "topId": "96f36404b37459967afdef96",
+    "handsId": "ea3d5a7fca161a58801ce89d",
+    "topBundlePath": "clothing/unit_of_hope/forge/top_unit_of_hope_forge_aishi.bundle",
+    "handsBundlePath": "clothing/unit_of_hope/forge/hands_unit_of_hope_forge_aishi.bundle",
+    "watchPrefab": {
+      "path": "",
+      "rcid": ""
+    },
+    "watchPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "watchRotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "type": "bottom",
+    "locales": {
+      "en": {
+        "name": "Unit of Hope - Forge (Three-color Desert)",
+        "description": "Unit of Hope Collection"
+      },
+      "po": {
+        "name": "Unit of Hope - Forge (Three-color Desert)",
+        "description": "Unit of Hope Collection"
+      }
+    },
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 35,
+    "standing": 0.45,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 1500,
+    "questRequirements": [],
+    "achievementRequirements": [],
+    "suiteId": "f5321ef7d4400aadef1fb63d",
+    "outfitId": "e2a33e93eb5ccae48181b1b2",
+    "bottomId": "6b9b3ede50f47b839ece5d4c",
+    "bottomBundlePath": "clothing/unit_of_hope/forge_pants/pants_unit_of_hope_forge_pants_aishi.bundle"
+  },
+  {
+    "type": "top",
+    "locales": {
+      "en": {
+        "name": "Unit of Hope - Reaper (Brown)",
+        "description": "Unit of Hope Collection"
+      },
+      "po": {
+        "name": "Unit of Hope - Reaper (Brown)",
+        "description": "Unit of Hope Collection"
+      }
+    },
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 35,
+    "standing": 0.45,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 3000,
+    "questRequirements": [],
+    "achievementRequirements": [],
+    "suiteId": "417ddd476822f13863f31d86",
+    "outfitId": "faa725cf807c046bebfbc41a",
+    "topId": "6830b2a6fbfbc8ffe36bb8a1",
+    "handsId": "721f82f60c169952b5abe9a9",
+    "topBundlePath": "clothing/unit_of_hope/reaper/top_unit_of_hope_reaper_aishi.bundle",
+    "handsBundlePath": "clothing/unit_of_hope/reaper/hands_unit_of_hope_reaper_aishi.bundle"
+  },
+  {
+    "type": "bottom",
+    "locales": {
+      "en": {
+        "name": "Unit of Hope - Reaper (Brown)",
+        "description": "Unit of Hope Collection"
+      },
+      "po": {
+        "name": "Unit of Hope - Reaper (Brown)",
+        "description": "Unit of Hope Collection"
+      }
+    },
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 35,
+    "standing": 0.45,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 1500,
+    "questRequirements": [],
+    "achievementRequirements": [],
+    "suiteId": "04e7b9db07f26e0d5841c6a2",
+    "outfitId": "2696e0c92bde116b21a9b024",
+    "bottomId": "21f6bf33ce81788cc2e43d46",
+    "bottomBundlePath": "clothing/unit_of_hope/reaper/pants_unit_of_hope_reaper_aishi.bundle"
+  },
+  {
+    "type": "top",
+    "locales": {
+      "en": {
+        "name": "Unit of Hope - Assault Casual (Black)",
+        "description": "Unit of Hope Collection"
+      },
+      "po": {
+        "name": "Unit of Hope - Assault Casual (Black)",
+        "description": "Unit of Hope Collection"
+      }
+    },
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 35,
+    "standing": 0.45,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 3000,
+    "questRequirements": [],
+    "achievementRequirements": [],
+    "suiteId": "0ce83c73700bb6bea9dee95e",
+    "outfitId": "233ba83b05d9d1c6232c7538",
+    "topId": "e46d341677e3b846ff7ec147",
+    "handsId": "0e620095e3bd9651bc6a8e4b",
+    "topBundlePath": "clothing/unit_of_hope/assault_casual_black/top_unit_of_hope_assault_casual_black_aishi.bundle",
+    "handsBundlePath": "clothing/unit_of_hope/cult_black/hands_cult_black.bundle"
+  },
+  {
+    "type": "top",
+    "locales": {
+      "en": {
+        "name": "Unit of Hope - Assault Casual (White)",
+        "description": "Unit of Hope Collection"
+      },
+      "po": {
+        "name": "Unit of Hope - Assault Casual (White)",
+        "description": "Unit of Hope Collection"
+      }
+    },
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 35,
+    "standing": 0.45,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 3000,
+    "questRequirements": [],
+    "achievementRequirements": [],
+    "suiteId": "fafc7270d41dfbc0a736202a",
+    "outfitId": "754a69916fc1c2e38b9aaad3",
+    "topId": "00e8b77dfb6d87e400b42ef2",
+    "handsId": "244cb23cc8d7b6289acc70f5",
+    "topBundlePath": "clothing/unit_of_hope/assault_casual_white/top_unit_of_hope_assault_casual_white_aishi.bundle",
+    "handsBundlePath": "clothing/unit_of_hope/cult_white/hands_cult_white.bundle"
+  },
+  {
+    "type": "top",
+    "locales": {
+      "en": {
+        "name": "Unit of Hope - Covert Casual (Black)",
+        "description": "Unit of Hope Collection"
+      },
+      "po": {
+        "name": "Unit of Hope - Covert Casual (Black)",
+        "description": "Unit of Hope Collection"
+      }
+    },
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 35,
+    "standing": 0.45,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 3000,
+    "questRequirements": [],
+    "achievementRequirements": [],
+    "suiteId": "05884711070c594033b58779",
+    "outfitId": "95f4a89ff9e99aebdd793312",
+    "topId": "dac5aae5a6e0bb3406aaecbb",
+    "handsId": "4a53800981fa1a6c91715bdf",
+    "topBundlePath": "clothing/unit_of_hope/covert_casual_black/top_unit_of_hope_covert_casual_black_aishi.bundle",
+    "handsBundlePath": "clothing/unit_of_hope/cult_black/hands_cult_black.bundle"
+  },
+  {
+    "type": "top",
+    "locales": {
+      "en": {
+        "name": "Unit of Hope - Covert Casual (White)",
+        "description": "Unit of Hope Collection"
+      },
+      "po": {
+        "name": "Unit of Hope - Covert Casual (White)",
+        "description": "Unit of Hope Collection"
+      }
+    },
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 35,
+    "standing": 0.45,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 3000,
+    "questRequirements": [],
+    "achievementRequirements": [],
+    "suiteId": "0a0a6e3c9899ad0ca3b7c104",
+    "outfitId": "1f73dbae081bc8b7cdbff8e0",
+    "topId": "21c3d3accbab7267bc249504",
+    "handsId": "a42aa249f03774dd1e3aa40b",
+    "topBundlePath": "clothing/unit_of_hope/covert_casual_white/top_unit_of_hope_covert_casual_white_aishi.bundle",
+    "handsBundlePath": "clothing/unit_of_hope/cult_white/hands_cult_white.bundle"
+  },
+  {
+    "type": "top",
+    "locales": {
+      "en": {
+        "name": "Unit of Hope - Forge Casual (Black)",
+        "description": "Unit of Hope Collection"
+      },
+      "po": {
+        "name": "Unit of Hope - Forge Casual (Black)",
+        "description": "Unit of Hope Collection"
+      }
+    },
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 35,
+    "standing": 0.45,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 3000,
+    "questRequirements": [],
+    "achievementRequirements": [],
+    "suiteId": "4d240c387f740bf0da82b5a6",
+    "outfitId": "f0c9ac171769a42675e67e79",
+    "topId": "9f925d2f1c357a78a1495b88",
+    "handsId": "5916a756347b778ad61d7727",
+    "topBundlePath": "clothing/unit_of_hope/forge_casual_black/top_unit_of_hope_forge_casual_black_aishi.bundle",
+    "handsBundlePath": "clothing/unit_of_hope/cult_black/hands_cult_black.bundle"
+  },
+  {
+    "type": "top",
+    "locales": {
+      "en": {
+        "name": "Unit of Hope - Forge Casual (White)",
+        "description": "Unit of Hope Collection"
+      },
+      "po": {
+        "name": "Unit of Hope - Forge Casual (White)",
+        "description": "Unit of Hope Collection"
+      }
+    },
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 35,
+    "standing": 0.45,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 3000,
+    "questRequirements": [],
+    "achievementRequirements": [],
+    "suiteId": "b375fd2ea116cbe55a590228",
+    "outfitId": "6da71993e7034a5e2c55193a",
+    "topId": "d3d5e762ac1b8a10ad89174a",
+    "handsId": "509e1adce56ccfcbe901a480",
+    "topBundlePath": "clothing/unit_of_hope/forge_casual_white/top_unit_of_hope_forge_casual_white_aishi.bundle",
+    "handsBundlePath": "clothing/unit_of_hope/cult_white/hands_cult_white.bundle"
+  },
+  {
+    "type": "top",
+    "locales": {
+      "en": {
+        "name": "Unit of Hope - Reaper Casual (Black)",
+        "description": "Unit of Hope Collection"
+      },
+      "po": {
+        "name": "Unit of Hope - Reaper Casual (Black)",
+        "description": "Unit of Hope Collection"
+      }
+    },
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 35,
+    "standing": 0.45,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 3000,
+    "questRequirements": [],
+    "achievementRequirements": [],
+    "suiteId": "a30c7a81c35f8184903942a3",
+    "outfitId": "ded3c14be3cd3cac269b30b1",
+    "topId": "c495c14bb48f8a70ba948fa3",
+    "handsId": "9dc3bf0b1eb3cb7db4635362",
+    "topBundlePath": "clothing/unit_of_hope/reaper_casual_black/top_unit_of_hope_reaper_casual_black_aishi.bundle",
+    "handsBundlePath": "clothing/unit_of_hope/cult_black/hands_cult_black.bundle"
+  },
+  {
+    "type": "top",
+    "locales": {
+      "en": {
+        "name": "Unit of Hope - Reaper Casual (White)",
+        "description": "Unit of Hope Collection"
+      },
+      "po": {
+        "name": "Unit of Hope - Reaper Casual (White)",
+        "description": "Unit of Hope Collection"
+      }
+    },
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 35,
+    "standing": 0.45,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 3000,
+    "questRequirements": [],
+    "achievementRequirements": [],
+    "suiteId": "c4180206cfe85abf1bc85b32",
+    "outfitId": "1b5fc54ff1f053517a673383",
+    "topId": "89dc64b87a888c1f1185c0d2",
+    "handsId": "eb1b2a8fe6ede3933702aaeb",
+    "topBundlePath": "clothing/unit_of_hope/reaper_casual_white/top_unit_of_hope_reaper_casual_white_aishi.bundle",
+    "handsBundlePath": "clothing/unit_of_hope/cult_white/hands_cult_white.bundle"
+  }
+]

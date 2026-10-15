@@ -1,59 +1,41 @@
 {
   "6a0c8d060ae9d5ea831d93c9": {
-
     "itemTplToClone": "5f5f41f56760b4138443b352",
     "parentId": "5448e5284bdc2dcb718b4567",
     "handbookParentId": "5b5f6f8786f77447ed563642",
-
     "overrideProperties": {
-      "QuestItem": false,  
       "ExaminedByDefault": false,
-      "InsuranceDisabled": false,
       "CanSellOnRagfair": false,
-      "CanRequireOnRagfair": false,
-      "addtoItemBlacklist": true,   
-        
-
+      "addtoItemBlacklist": true,
       "Prefab": {
-
         "path": "equipment/item_equipment_rig_thunderbolt_ISB.bundle",
         "rcid": ""
       },
-
-      "Width": 3,
-      "Height": 3,
-
-
-      "Weight": 0.62
+      "Name": "Direct Action Thunderbolt compact chest rig (USEC Intelligence Support Bureau)",
+      "ShortName": "Thunderbolt",
+      "Description": "The Thunderbolt fixed chest rig, containing all the basic utility pouches you'd need. Manufactured by Direct Action. (ISB SOF)"
     },
-
     "locales": {
       "en": {
         "name": "Direct Action Thunderbolt compact chest rig (USEC Intelligence Support Bureau)",
         "shortName": "Thunderbolt",
-        "description": "The Thunderbolt fixed chest rig, containing all the basic utility pouches you'd need. Manufactured by Direct Action."
+        "description": "The Thunderbolt fixed chest rig, containing all the basic utility pouches you'd need. Manufactured by Direct Action. (ISB SOF)"
       },
-        "po": {
+      "po": {
         "name": "Colete tático compacto Direct Action Thunderbolt (Agência de Suporte a Inteligência da USEC)",
         "shortName": "Thunderbolt",
-        "description": "O colete tático fixo Thunderbolt, que inclui todas as bolsas utilitárias básicas de que você precisa. Fabricado pela Direct Action."
+        "description": "Um colete tático ajustado Direct Action, que possui todos os bolsos e porta carregadores básicos que possa precisar. (ISB SOF)"
       }
     },
-
     "fleaPriceRoubles": 72000,
-
     "handbookPriceRoubles": 39000,
-
-    "addtoInventorySlots": ["TacticalRig"],
-
+    "addtoInventorySlots": [
+      "TacticalRig"
+    ],
     "addtoStaticLootContainers": false,
-
     "CanSellOnRagfair": false,
-
     "CanRequireOnRagfair": false,
-    
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "StaticLootContainers": [
       {
         "ContainerName": "",

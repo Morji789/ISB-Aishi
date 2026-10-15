@@ -1,0 +1,1588 @@
+{
+  "6fe40d1ffec95b6ab6610a4a": {
+    "itemTplToClone": "65290f395ae2ae97b80fdf2d",
+    "parentId": "5447b5f14bdc2d61278b4567",
+    "handbookParentId": "5b5f78fc86f77409407a7f90",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "aishiweapons/spear_blackout/weapon_sig_mcx_spear_68x51_container_black.bundle",
+        "rcid": "weapon_sig_mcx_spear_68x51_container_black"
+      },
+      "Slots": [
+        {
+          "_id": "83ccd1eb9d1355ec995915d7",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_pistol_grip",
+          "_parent": "6fe40d1ffec95b6ab6610a4a",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "55d4b9964bdc2d1d4e8b456e",
+                  "571659bb2459771fb2755a12",
+                  "602e71bd53a60014f9705bfa",
+                  "6113c3586c780c1e710c90bc",
+                  "6113cc78d3a39d50044c065a",
+                  "6113cce3d92c473c770200c7",
+                  "5cc9bcaed7f00c011c04e179",
+                  "5bb20e18d4351e00320205d5",
+                  "5bb20e0ed4351e3bac1212dc",
+                  "6193dcd0f8ee7e52e4210a28",
+                  "5d025cc1d7ad1a53845279ef",
+                  "5c6d7b3d2e221600114c9b7d",
+                  "57c55efc2459772d2c6271e7",
+                  "57af48872459771f0b2ebf11",
+                  "57c55f092459772d291a8463",
+                  "57c55f112459772d28133310",
+                  "57c55f172459772d27602381",
+                  "5a339805c4a2826c6e06d73d",
+                  "55802f5d4bdc2dac148b458f",
+                  "5d15cf3bd7ad1a67e71518b2",
+                  "59db3a1d86f77429e05b4e92",
+                  "5fbcbd6c187fea44d52eda14",
+                  "59db3acc86f7742a2c4ab912",
+                  "59db3b0886f77429d72fb895",
+                  "615d8faecabb9b7ad90f4d5d",
+                  "5b07db875acfc40dc528a5f6",
+                  "63f5feead259b42f0b4d6d0f",
+                  "652911675ae2ae97b80fdf3c",
+                  "f90a78d8987e5bb989eb1874",
+                  "b4eefc5aa5515222b381c865"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "c683025ade9b592d98cae15e",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_magazine",
+          "_parent": "6fe40d1ffec95b6ab6610a4a",
+          "_props": {
+            "filters": [
+              {
+                "AnimationIndex": -1,
+                "Filter": [
+                  "65293c38fc460e50a509cb25",
+                  "65293c7a17e14363030ad308",
+                  "5a3501acc4a282000d72293a",
+                  "5df8f541c41b2312ea3335e3",
+                  "5df8f535bb49d91fb446d6b0",
+                  "6761770e48fa5c377e06fc3c"
+                ]
+              }
+            ]
+          },
+          "_proto": "55d30c394bdc2dae468b4577",
+          "_required": false
+        },
+        {
+          "_id": "418ef221257e5fb1844ccc86",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_reciever",
+          "_parent": "6fe40d1ffec95b6ab6610a4a",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6529119424cbe3c74a05e5bb",
+                  "530bbd98088d5504b7abd00b"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "3246a8f65427518da7bbb793",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_stock_000",
+          "_parent": "6fe40d1ffec95b6ab6610a4a",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "58ac1bf086f77420ed183f9f",
+                  "5894a13e86f7742405482982",
+                  "5fbcc429900b1d5091531dd7",
+                  "5fbcc437d724d907e2077d5c",
+                  "5c5db6ee2e221600113fba54",
+                  "5c5db6f82e2216003a0fe914",
+                  "6529348224cbe3c74a05e5c4",
+                  "6761496fe2cf1419500357e9"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "e976c8d489a35cc0b99093fb",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_charge",
+          "_parent": "6fe40d1ffec95b6ab6610a4a",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6529109524cbe3c74a05e5b7",
+                  "9c4d6ba73bcb5d36981b9c47"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        }
+      ],
+      "Chambers": [
+        {
+          "_id": "f66e7664fc0c5ad7ad90bc26",
+          "_mergeSlotWithChildren": false,
+          "_name": "patron_in_weapon",
+          "_parent": "6fe40d1ffec95b6ab6610a4a",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6529243824cbe3c74a05e5c1",
+                  "6529302b8c26af6326029fb7"
+                ]
+              }
+            ]
+          },
+          "_proto": "55d4af244bdc2d962f8b4571",
+          "_required": false
+        }
+      ],
+      "Name": "SIG MCX-SPEAR 6.8x51 assault rifle (Black)",
+      "ShortName": "SPEAR 6.8",
+      "Description": "The MCX SPEAR is a multi-caliber assault rifle designed and manufactured by SIG Sauer based on the MCX assault rifle. Primarily chambered in the new 6.8x51mm (.277 FURY) ammunition. Designed specifically for the US Military to replace the M4 carbine. Black Version."
+    },
+    "addWeaponPreset": true,
+    "locales": {
+      "en": {
+        "name": "SIG MCX-SPEAR 6.8x51 assault rifle (Black)",
+        "shortName": "SPEAR 6.8",
+        "description": "The MCX SPEAR is a multi-caliber assault rifle designed and manufactured by SIG Sauer based on the MCX assault rifle. Primarily chambered in the new 6.8x51mm (.277 FURY) ammunition. Designed specifically for the US Military to replace the M4 carbine. Black Version."
+      },
+      "po": {
+        "name": "SIG MCX-SPEAR 6.8x51 assault rifle (Black)",
+        "shortName": "SPEAR 6.8",
+        "description": "A MCX SPEAR é um rifle de assalto multicalibre projetado e fabricado pela SIG Sauer baseado no rifle de assalto MCX. Principalmente compartimentado na nova munição 6.8x51mm (.277 FURY). Projetado especificamente para as Forças Armadas dos EUA para substituir o rifle M4. Black Version."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "handbookPriceRoubles": 21300,
+    "fleaPriceRoubles": 21300,
+    "addtoStaticLootContainers": false,
+    "weaponPresets": [
+      {
+        "_id": "2d3994ad554f5c069155c5f1",
+        "_type": "Preset",
+        "_changeWeaponName": false,
+        "_name": "Black Spear 68X51",
+        "_parent": "58df5b26aa2655f1b6407c68",
+        "_items": [
+          {
+            "_id": "58df5b26aa2655f1b6407c68",
+            "_tpl": "6fe40d1ffec95b6ab6610a4a",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Repairable": {
+                "Durability": 100,
+                "MaxDurability": 100
+              },
+              "FireMode": {
+                "FireMode": "fullauto"
+              }
+            }
+          },
+          {
+            "_id": "71ac26105ec15be5ac1a546c",
+            "_tpl": "6113cce3d92c473c770200c7",
+            "parentId": "58df5b26aa2655f1b6407c68",
+            "slotId": "mod_pistol_grip",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "e93175d4659557e6bb134423",
+            "_tpl": "5a3501acc4a282000d72293a",
+            "parentId": "58df5b26aa2655f1b6407c68",
+            "slotId": "mod_magazine",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "c25e8d49efe75dea84e8d395",
+            "_tpl": "530bbd98088d5504b7abd00b",
+            "parentId": "58df5b26aa2655f1b6407c68",
+            "slotId": "mod_reciever",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "88cf2e2bf46c5883b4baace2",
+            "_tpl": "58ac1bf086f77420ed183f9f",
+            "parentId": "58df5b26aa2655f1b6407c68",
+            "slotId": "mod_stock_000",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "62708266b4e3599e93a53dcc",
+            "_tpl": "9c4d6ba73bcb5d36981b9c47",
+            "parentId": "58df5b26aa2655f1b6407c68",
+            "slotId": "mod_charge",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "aad86807e0155cc19b388960",
+            "_tpl": "5b3b99265acfc4704b4a1afb",
+            "parentId": "c25e8d49efe75dea84e8d395",
+            "slotId": "mod_scope",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "e0ae48f874f555b596c29abc",
+            "_tpl": "652910565ae2ae97b80fdf35",
+            "parentId": "c25e8d49efe75dea84e8d395",
+            "slotId": "mod_barrel",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "ca73b35376b05aa6b689e2d5",
+            "_tpl": "ee3c34639d035057afced353",
+            "parentId": "c25e8d49efe75dea84e8d395",
+            "slotId": "mod_handguard",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "4aa7680b3a095316b5a0f706",
+            "_tpl": "5bc09a18d4351e003562b68e",
+            "parentId": "c25e8d49efe75dea84e8d395",
+            "slotId": "mod_sight_rear",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Sight": {
+                "ScopesCurrentCalibPointIndexes": [
+                  0
+                ],
+                "ScopesSelectedModes": [
+                  0
+                ],
+                "SelectedScope": 0,
+                "ScopeZoomValue": 0
+              }
+            }
+          },
+          {
+            "_id": "1d10096217c35f4f9d962a0d",
+            "_tpl": "5c793fb92e221644f31bfb64",
+            "parentId": "88cf2e2bf46c5883b4baace2",
+            "slotId": "mod_stock",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "681710ef38b85d93a3da2d15",
+            "_tpl": "5b3b99475acfc432ff4dcbee",
+            "parentId": "aad86807e0155cc19b388960",
+            "slotId": "mod_scope",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Sight": {
+                "ScopesCurrentCalibPointIndexes": [
+                  0
+                ],
+                "ScopesSelectedModes": [
+                  0
+                ],
+                "SelectedScope": 0,
+                "ScopeZoomValue": 0
+              }
+            }
+          },
+          {
+            "_id": "c5f5cc18b3145ea3bec8e350",
+            "_tpl": "6529113b5ae2ae97b80fdf39",
+            "parentId": "e0ae48f874f555b596c29abc",
+            "slotId": "mod_muzzle",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "5eeb135a4c0757af8da7a257",
+            "_tpl": "652910bc24cbe3c74a05e5b9",
+            "parentId": "e0ae48f874f555b596c29abc",
+            "slotId": "mod_gas_block",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "ace4f01b862f5062b7487433",
+            "_tpl": "689c8b454b91399db3085f2a",
+            "parentId": "ca73b35376b05aa6b689e2d5",
+            "slotId": "mod_mount_000",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "3cf0533f131250319b232108",
+            "_tpl": "5fb6567747ce63734e3fa1dc",
+            "parentId": "ca73b35376b05aa6b689e2d5",
+            "slotId": "mod_sight_front",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Sight": {
+                "ScopesCurrentCalibPointIndexes": [
+                  0
+                ],
+                "ScopesSelectedModes": [
+                  0
+                ],
+                "SelectedScope": 0,
+                "ScopeZoomValue": 0
+              }
+            }
+          },
+          {
+            "_id": "5ccf85cf8ace5e24bf87d791",
+            "_tpl": "5b7be4895acfc400170e2dd5",
+            "parentId": "ca73b35376b05aa6b689e2d5",
+            "slotId": "mod_foregrip",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "de363e1b9cdb5f6ab7fcde9d",
+            "_tpl": "5b7be47f5acfc400170e2dd2",
+            "parentId": "ca73b35376b05aa6b689e2d5",
+            "slotId": "mod_mount_002",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "744123fc3e5c5463b989ba46",
+            "_tpl": "6984367b0aa5465355c4ded3",
+            "parentId": "c5f5cc18b3145ea3bec8e350",
+            "slotId": "mod_muzzle",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "505cb427aaaf5a2eb65285d5",
+            "_tpl": "689c887cd18a3665b8045743",
+            "parentId": "ace4f01b862f5062b7487433",
+            "slotId": "mod_tactical",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Light": {
+                "IsActive": true,
+                "SelectedMode": 0
+              }
+            }
+          },
+          {
+            "_id": "a74b094f82e35c04a4eab9df",
+            "_tpl": "5b057b4f5acfc4771e1bd3e9",
+            "parentId": "5ccf85cf8ace5e24bf87d791",
+            "slotId": "mod_foregrip",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "3c8b326927df5f6d8c823237",
+            "_tpl": "5cc9c20cd7f00c001336c65d",
+            "parentId": "de363e1b9cdb5f6ab7fcde9d",
+            "slotId": "mod_tactical",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Light": {
+                "IsActive": true,
+                "SelectedMode": 0
+              }
+            }
+          },
+          {
+            "_id": "e9bc9b2d1a8f52e0af371bb2",
+            "_tpl": "68bb25270e48a3afd7071216",
+            "parentId": "1d10096217c35f4f9d962a0d",
+            "slotId": "mod_stock_000",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ],
+        "_encyclopedia": "6fe40d1ffec95b6ab6610a4a"
+      }
+    ]
+  },
+  "9e99618280a4576e8e3e1f64": {
+    "itemTplToClone": "65290f395ae2ae97b80fdf2d",
+    "parentId": "5447b5f14bdc2d61278b4567",
+    "handbookParentId": "5b5f78fc86f77409407a7f90",
+    "overrideProperties": {
+      "addtoItemBlacklist": true,
+      "InsuranceDisabled": true,
+      "IsUnsaleable": true,
+      "IsUnbuyable": true,
+      "AllowFeed": false,
+      "BackgroundColor": "yellow",
+      "AllowMisfire": false,
+      "AllowSlide": false,
+      "Ergonomics": 45,
+      "ammoCaliber": "Caliber556x45NATO",
+      "bFirerate": 875,
+      "defAmmo": "59e690b686f7746c9f75e848",
+      "defMagType": "69f68305a8eea15aea284ef9",
+      "durabSpawnMax": 100,
+      "durabSpawnMin": 50,
+      "Chambers": [
+        {
+          "_name": "patron_in_weapon",
+          "_id": "9fae9471487b51449c0cf07e",
+          "_parent": "9e99618280a4576e8e3e1f64",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "59e6920f86f77411d82aa167",
+                  "59e6927d86f77411da468256",
+                  "54527a984bdc2d4e668b4567",
+                  "54527ac44bdc2d36668b4567",
+                  "59e68f6f86f7746c9f75e846",
+                  "59e6906286f7746c9f75e847",
+                  "59e690b686f7746c9f75e848",
+                  "59e6918f86f7746c9f75e849",
+                  "60194943740c5d77f6705eea",
+                  "601949593ae8f707c4608daa",
+                  "5c0d5ae286f7741e46554302"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "69f67b29e1222fd0928882ed"
+        }
+      ],
+      "Slots": [
+        {
+          "_id": "917fb68f49445017b5486d89",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_pistol_grip",
+          "_parent": "9e99618280a4576e8e3e1f64",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "55d4b9964bdc2d1d4e8b456e",
+                  "571659bb2459771fb2755a12",
+                  "602e71bd53a60014f9705bfa",
+                  "6113c3586c780c1e710c90bc",
+                  "6113cc78d3a39d50044c065a",
+                  "6113cce3d92c473c770200c7",
+                  "5cc9bcaed7f00c011c04e179",
+                  "5bb20e18d4351e00320205d5",
+                  "5bb20e0ed4351e3bac1212dc",
+                  "6193dcd0f8ee7e52e4210a28",
+                  "5d025cc1d7ad1a53845279ef",
+                  "5c6d7b3d2e221600114c9b7d",
+                  "57c55efc2459772d2c6271e7",
+                  "57af48872459771f0b2ebf11",
+                  "57c55f092459772d291a8463",
+                  "57c55f112459772d28133310",
+                  "57c55f172459772d27602381",
+                  "5a339805c4a2826c6e06d73d",
+                  "55802f5d4bdc2dac148b458f",
+                  "5d15cf3bd7ad1a67e71518b2",
+                  "59db3a1d86f77429e05b4e92",
+                  "5fbcbd6c187fea44d52eda14",
+                  "59db3acc86f7742a2c4ab912",
+                  "59db3b0886f77429d72fb895",
+                  "615d8faecabb9b7ad90f4d5d",
+                  "5b07db875acfc40dc528a5f6",
+                  "63f5feead259b42f0b4d6d0f",
+                  "652911675ae2ae97b80fdf3c",
+                  "f90a78d8987e5bb989eb1874",
+                  "b4eefc5aa5515222b381c865"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "69f67b29e1222fd0928882ed",
+          "_required": true
+        },
+        {
+          "_id": "20794b2269935672856d25fa",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_magazine",
+          "_parent": "9e99618280a4576e8e3e1f64",
+          "_props": {
+            "filters": [
+              {
+                "AnimationIndex": -1,
+                "Filter": [
+                  "69f683f01b84e0c82074cadb",
+                  "69f683cb5fe79e067a85d9ef",
+                  "69f68305a8eea15aea284ef9",
+                  "fe3d0874787c51618baf2894"
+                ]
+              }
+            ]
+          },
+          "_proto": "69f67b29e1222fd0928882ed",
+          "_required": false
+        },
+        {
+          "_id": "483e26c820bc5a38a31336a0",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_reciever",
+          "_parent": "9e99618280a4576e8e3e1f64",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6529119424cbe3c74a05e5bb",
+                  "530bbd98088d5504b7abd00b"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "69f67b29e1222fd0928882ed",
+          "_required": true
+        },
+        {
+          "_id": "45efa7a14f655e12b8656d43",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_stock_000",
+          "_parent": "9e99618280a4576e8e3e1f64",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "58ac1bf086f77420ed183f9f",
+                  "5894a13e86f7742405482982",
+                  "5fbcc429900b1d5091531dd7",
+                  "5fbcc437d724d907e2077d5c",
+                  "5c5db6ee2e221600113fba54",
+                  "5c5db6f82e2216003a0fe914",
+                  "6529348224cbe3c74a05e5c4",
+                  "6761496fe2cf1419500357e9"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "69f67b29e1222fd0928882ed",
+          "_required": false
+        },
+        {
+          "_id": "be66a228932151a79493ec33",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_charge",
+          "_parent": "9e99618280a4576e8e3e1f64",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6529109524cbe3c74a05e5b7",
+                  "9c4d6ba73bcb5d36981b9c47"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "69f67b29e1222fd0928882ed",
+          "_required": true
+        }
+      ],
+      "Prefab": {
+        "path": "aishiweapons/spear_blackout/weapon_sig_mcx_spear_68x51_container_black.bundle",
+        "rcid": "weapon_sig_mcx_spear_68x51_container_black"
+      },
+      "Weight": 1.0,
+      "Grids": [],
+      "Name": "SIG MCX-SPEAR 5.56x45 assault rifle (Black)",
+      "ShortName": "SPEAR 5.56X45",
+      "Description": "The MCX SPEAR is a multi-caliber assault rifle designed and manufactured by SIG Sauer based on the MCX assault rifle. Primarily chambered in the new 6.8x51mm (.277 FURY) ammunition. Designed specifically for the US Military to replace the M4 carbine. Black Version."
+    },
+    "addWeaponPreset": true,
+    "locales": {
+      "en": {
+        "name": "SIG MCX-SPEAR 5.56x45 assault rifle (Black)",
+        "shortName": "SPEAR 5.56X45",
+        "description": "The MCX SPEAR is a multi-caliber assault rifle designed and manufactured by SIG Sauer based on the MCX assault rifle. Primarily chambered in the new 6.8x51mm (.277 FURY) ammunition. Designed specifically for the US Military to replace the M4 carbine. Black Version."
+      },
+      "po": {
+        "name": "SIG MCX-SPEAR 5.56x45 assault rifle (Black)",
+        "shortName": "SPEAR 5.56X45",
+        "description": "A MCX SPEAR é um rifle de assalto multicalibre projetado e fabricado pela SIG Sauer baseado no rifle de assalto MCX. Principalmente compartimentado na nova munição 6.8x51mm (.277 FURY). Projetado especificamente para as Forças Armadas dos EUA para substituir o rifle M4. Black Version."
+      }
+    },
+    "fleaPriceRoubles": 21300,
+    "handbookPriceRoubles": 21300,
+    "addtoBots": false,
+    "masteries": true,
+    "masterySections": [
+      {
+        "Level2": 1600,
+        "Level3": 2000,
+        "Name": "M4",
+        "Templates": [
+          "69f67aaf276f5880ea08136f"
+        ]
+      }
+    ],
+    "addtoModSlots": false,
+    "addtoStaticLootContainers": false,
+    "StaticLootContainers": [
+      {
+        "ContainerName": "",
+        "Probability": 0
+      }
+    ],
+    "addtoTraders": false,
+    "traders": {},
+    "addtoItemBlacklist": true,
+    "weaponPresets": [
+      {
+        "_id": "aa486a9e72fb523183275f53",
+        "_type": "Preset",
+        "_changeWeaponName": false,
+        "_name": "Black Spear 556",
+        "_parent": "dcbb1fb76c465970bfec4f4f",
+        "_items": [
+          {
+            "_id": "dcbb1fb76c465970bfec4f4f",
+            "_tpl": "9e99618280a4576e8e3e1f64",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Repairable": {
+                "Durability": 100,
+                "MaxDurability": 100
+              },
+              "FireMode": {
+                "FireMode": "fullauto"
+              }
+            }
+          },
+          {
+            "_id": "de727687b7a35453a9b21906",
+            "_tpl": "6a1577a0bf497aade1002754",
+            "parentId": "dcbb1fb76c465970bfec4f4f",
+            "slotId": "mod_pistol_grip",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "4954e257bd1f5c5dab475c6b",
+            "_tpl": "69f68305a8eea15aea284ef9",
+            "parentId": "dcbb1fb76c465970bfec4f4f",
+            "slotId": "mod_magazine",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "694303dd96495b8f86dd0e7e",
+            "_tpl": "6892180ee9f15149b0677260",
+            "parentId": "dcbb1fb76c465970bfec4f4f",
+            "slotId": "mod_reciever",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "f8e78c5e3d20585398d3457a",
+            "_tpl": "68badb6458dbe419740b1520",
+            "parentId": "dcbb1fb76c465970bfec4f4f",
+            "slotId": "mod_stock_000",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "31babcf42660552e9cb70ade",
+            "_tpl": "9c4d6ba73bcb5d36981b9c47",
+            "parentId": "dcbb1fb76c465970bfec4f4f",
+            "slotId": "mod_charge",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "fcd78d4b03ae53fdb60941be",
+            "_tpl": "68caacc7933990601c07f479",
+            "parentId": "694303dd96495b8f86dd0e7e",
+            "slotId": "mod_scope",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "444b635e84e454ea844cf37b",
+            "_tpl": "652910565ae2ae97b80fdf35",
+            "parentId": "694303dd96495b8f86dd0e7e",
+            "slotId": "mod_barrel",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "d01c5c1fb6735e03909225f9",
+            "_tpl": "ee3c34639d035057afced353",
+            "parentId": "694303dd96495b8f86dd0e7e",
+            "slotId": "mod_handguard",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "8ad487d701475f48b71caf4b",
+            "_tpl": "5bc09a18d4351e003562b68e",
+            "parentId": "694303dd96495b8f86dd0e7e",
+            "slotId": "mod_sight_rear",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Sight": {
+                "ScopesCurrentCalibPointIndexes": [
+                  0
+                ],
+                "ScopesSelectedModes": [
+                  0
+                ],
+                "SelectedScope": 0,
+                "ScopeZoomValue": 0
+              }
+            }
+          },
+          {
+            "_id": "e0d43783fc0a57f9b974bcd9",
+            "_tpl": "68badc0366a72211fe004bc7",
+            "parentId": "f8e78c5e3d20585398d3457a",
+            "slotId": "mod_stock_000",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "68e473f650fa51e1b3924b20",
+            "_tpl": "5b3b99475acfc432ff4dcbee",
+            "parentId": "fcd78d4b03ae53fdb60941be",
+            "slotId": "mod_scope",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Sight": {
+                "ScopesCurrentCalibPointIndexes": [
+                  0
+                ],
+                "ScopesSelectedModes": [
+                  0
+                ],
+                "SelectedScope": 0,
+                "ScopeZoomValue": 0
+              }
+            }
+          },
+          {
+            "_id": "11e914f6bf355068ae27b69e",
+            "_tpl": "68caace5f42a4476cf0be2b4",
+            "parentId": "fcd78d4b03ae53fdb60941be",
+            "slotId": "mod_mount",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "937c1a05ec3a57efb35aa45d",
+            "_tpl": "6529113b5ae2ae97b80fdf39",
+            "parentId": "444b635e84e454ea844cf37b",
+            "slotId": "mod_muzzle",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "56db625837d059d89801fe91",
+            "_tpl": "652910bc24cbe3c74a05e5b9",
+            "parentId": "444b635e84e454ea844cf37b",
+            "slotId": "mod_gas_block",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "a26d4cb7f82252709c0bb422",
+            "_tpl": "5b7be47f5acfc400170e2dd2",
+            "parentId": "d01c5c1fb6735e03909225f9",
+            "slotId": "mod_mount_000",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "7b93a231bdda5364a0945347",
+            "_tpl": "669a6a4a525be1d2d004b8eb",
+            "parentId": "d01c5c1fb6735e03909225f9",
+            "slotId": "mod_mount_001",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "cd0b52a72d73513c98b66cba",
+            "_tpl": "5bc09a30d4351e00367fb7c8",
+            "parentId": "d01c5c1fb6735e03909225f9",
+            "slotId": "mod_sight_front",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Sight": {
+                "ScopesCurrentCalibPointIndexes": [
+                  0
+                ],
+                "ScopesSelectedModes": [
+                  0
+                ],
+                "SelectedScope": 0,
+                "ScopeZoomValue": 0
+              }
+            }
+          },
+          {
+            "_id": "60c131e4e14f5133999dd144",
+            "_tpl": "5b7be4895acfc400170e2dd5",
+            "parentId": "d01c5c1fb6735e03909225f9",
+            "slotId": "mod_foregrip",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "5efa72be3acd58668414f580",
+            "_tpl": "6984367b0aa5465355c4ded3",
+            "parentId": "937c1a05ec3a57efb35aa45d",
+            "slotId": "mod_muzzle",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "6328f9e43cd35608a54651b5",
+            "_tpl": "68bedc0365e7dcf94f0cb0fc",
+            "parentId": "a26d4cb7f82252709c0bb422",
+            "slotId": "mod_tactical",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Light": {
+                "IsActive": true,
+                "SelectedMode": 0
+              }
+            }
+          },
+          {
+            "_id": "a278ae37d61859d98196229c",
+            "_tpl": "57d17e212459775a1179a0f5",
+            "parentId": "7b93a231bdda5364a0945347",
+            "slotId": "mod_tactical",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "decccbcb85f6578b82525699",
+            "_tpl": "588226d124597767ad33f787",
+            "parentId": "60c131e4e14f5133999dd144",
+            "slotId": "mod_foregrip",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "56adfb237cb550ac8e053c2a",
+            "_tpl": "59d790f486f77403cb06aec6",
+            "parentId": "a278ae37d61859d98196229c",
+            "slotId": "mod_flashlight",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Light": {
+                "IsActive": true,
+                "SelectedMode": 0
+              }
+            }
+          }
+        ],
+        "_encyclopedia": "9e99618280a4576e8e3e1f64"
+      }
+    ]
+  },
+  "530bbd98088d5504b7abd00b": {
+    "itemTplToClone": "6529119424cbe3c74a05e5bb",
+    "parentId": "55818a304bdc2db5418b457d",
+    "handbookParentId": "5b5f764186f77447ec5d7714",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "aishiweapons/spear_blackout/reciever_mcx_sig_spear_upper_black.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_id": "674566a767a952d8b73f9b3b",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_scope",
+          "_parent": "530bbd98088d5504b7abd00b",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "57ac965c24597706be5f975c",
+                  "57aca93d2459771f2c7e26db",
+                  "544a3f024bdc2d1d388b4568",
+                  "544a3a774bdc2d3a388b4567",
+                  "5d2dc3e548f035404a1a4798",
+                  "57adff4f24597737f373b6e6",
+                  "5c0517910db83400232ffee5",
+                  "591c4efa86f7741030027726",
+                  "570fd79bd2720bc7458b4583",
+                  "570fd6c2d2720bc6458b457f",
+                  "558022b54bdc2dac148b458d",
+                  "5c07dd120db834001c39092d",
+                  "5c0a2cec0db834001b7ce47d",
+                  "58491f3324597764bc48fa02",
+                  "584924ec24597768f12ae244",
+                  "5b30b0dc5acfc400153b7124",
+                  "6165ac8c290d254f5e6b2f6c",
+                  "60a23797a37c940de7062d02",
+                  "5d2da1e948f035477b1ce2ba",
+                  "5c0505e00db834001b735073",
+                  "609a63b6e2ff132951242d09",
+                  "584984812459776a704a82a6",
+                  "59f9d81586f7744c7506ee62",
+                  "570fd721d2720bc5458b4596",
+                  "57ae0171245977343c27bfcf",
+                  "5dfe6104585a0c3e995c7b82",
+                  "544a3d0a4bdc2d1b388b4567",
+                  "5d1b5e94d7ad1a2b865a96b0",
+                  "609bab8b455afd752b2e6138",
+                  "58d39d3d86f77445bb794ae7",
+                  "616554fe50224f204c1da2aa",
+                  "5c7d55f52e221644f31bff6a",
+                  "616584766ef05c2ce828ef57",
+                  "5b3b6dc75acfc47a8773fb1e",
+                  "615d8d878004cc50514c3233",
+                  "5b2389515acfc4771e1be0c0",
+                  "577d128124597739d65d0e56",
+                  "618b9643526131765025ab35",
+                  "618bab21526131765025ab3f",
+                  "5c86592b2e2216000e69e77c",
+                  "5a37ca54c4a282000d72296a",
+                  "5d0a29fed7ad1a002769ad08",
+                  "5c064c400db834001d23f468",
+                  "58d2664f86f7747fec5834f6",
+                  "57c69dd424597774c03b7bbc",
+                  "5b3b99265acfc4704b4a1afb",
+                  "5aa66a9be5b5b0214e506e89",
+                  "5aa66c72e5b5b00016327c93",
+                  "5c1cdd302e221602b3137250",
+                  "61714b2467085e45ef140b2c",
+                  "6171407e50224f204c1da3c5",
+                  "61713cc4d8e3106d9806c109",
+                  "5b31163c5acfc400153b71cb",
+                  "5a33b652c4a28232996e407c",
+                  "5a33b2c9c4a282000c5a9511",
+                  "59db7eed86f77461f8380365",
+                  "5a1ead28fcdbcb001912fa9f",
+                  "5dff77c759400025ea5150cf",
+                  "626bb8532c923541184624b4",
+                  "62811f461d5df4475f46a332",
+                  "63fc449f5bd61c6cf3784a88",
+                  "6477772ea8a38bb2050ed4db",
+                  "6478641c19d732620e045e17",
+                  "64785e7c19d732620e045e15",
+                  "6567e751a715f85433025998",
+                  "655f13e0a246670fb0373245",
+                  "65392f611406374f82152ba5",
+                  "653931da5db71d30ab1d6296",
+                  "67641a851b2899700609901a",
+                  "6761759e7ee06333f108bf86",
+                  "0b0e13dc774c5bb3abb3f16f"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "a8da19d2e8e459998d1e5941",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_barrel",
+          "_parent": "530bbd98088d5504b7abd00b",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "652910565ae2ae97b80fdf35"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "ebf6c615e4895933b41bb53f",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_handguard",
+          "_parent": "530bbd98088d5504b7abd00b",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "652910ef50dc782999054b97",
+                  "ee3c34639d035057afced353"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "19bf3785899f5a538b691710",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_sight_rear",
+          "_parent": "530bbd98088d5504b7abd00b",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5bb20e49d4351e3bac1212de",
+                  "5ba26b17d4351e00367f9bdd",
+                  "5dfa3d7ac41b2312ea33362a",
+                  "5c1780312e221602b66cc189",
+                  "5fb6564947ce63734e3fa1da",
+                  "5bc09a18d4351e003562b68e",
+                  "5c18b9192e2216398b5a8104",
+                  "5fc0fa957283c4046c58147e",
+                  "5894a81786f77427140b8347",
+                  "55d5f46a4bdc2d1b198b4567",
+                  "5ae30bad5acfc400185c2dc4"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "50ca4fd251c45f0e8859aa78",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount",
+          "_parent": "530bbd98088d5504b7abd00b",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5649a2464bdc2d91118b45a8"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "Name": "MCX-SPEAR 6.8x51 upper receiver (Black)",
+      "ShortName": "SPEAR 6.8",
+      "Description": "A standard-issue upper receiver for the MCX-SPEAR assault rifle, chambered in 6.8x51mm (.277 FURY). Equipped with a mount for attaching additional devices. Manufactured by SIG Sauer. Black Version.",
+      "CanSellOnRagfair": false
+    },
+    "weaponPresets": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_reciever"
+    ],
+    "locales": {
+      "en": {
+        "name": "MCX-SPEAR 6.8x51 upper receiver (Black)",
+        "shortName": "SPEAR 6.8",
+        "description": "A standard-issue upper receiver for the MCX-SPEAR assault rifle, chambered in 6.8x51mm (.277 FURY). Equipped with a mount for attaching additional devices. Manufactured by SIG Sauer. Black Version."
+      },
+      "po": {
+        "name": "MCX-SPEAR 6.8x51 upper receiver (Black)",
+        "shortName": "SPEAR 6.8",
+        "description": "Um upper receiver padrão para o rifle de assalto MCX SPEAR, compartimentado em 6.8x51mm (.277 FURY). Equipado com um suporte para fixação de dispositivos adicionais. Fabricado pela SIG Sauer. Black Version."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "handbookPriceRoubles": 6081,
+    "fleaPriceRoubles": 6081,
+    "addtoStaticLootContainers": false
+  },
+  "6892180ee9f15149b0677260": {
+    "itemTplToClone": "6529119424cbe3c74a05e5bb",
+    "parentId": "55818a304bdc2db5418b457d",
+    "handbookParentId": "5b5f764186f77447ec5d7714",
+    "overrideProperties": {
+      "CanSellOnRagfair": false,
+      "PushToFleaBlacklist": true,
+      "InsuranceDisabled": true,
+      "Ergonomics": 9,
+      "HeatFactor": 0.862,
+      "Recoil": -2,
+      "Slots": [
+        {
+          "_id": "6d11eeefc9f855698abc0020",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_scope",
+          "_parent": "6892180ee9f15149b0677260",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "57ac965c24597706be5f975c",
+                  "57aca93d2459771f2c7e26db",
+                  "544a3f024bdc2d1d388b4568",
+                  "544a3a774bdc2d3a388b4567",
+                  "5d2dc3e548f035404a1a4798",
+                  "57adff4f24597737f373b6e6",
+                  "5c0517910db83400232ffee5",
+                  "591c4efa86f7741030027726",
+                  "570fd79bd2720bc7458b4583",
+                  "570fd6c2d2720bc6458b457f",
+                  "558022b54bdc2dac148b458d",
+                  "5c07dd120db834001c39092d",
+                  "5c0a2cec0db834001b7ce47d",
+                  "58491f3324597764bc48fa02",
+                  "584924ec24597768f12ae244",
+                  "5b30b0dc5acfc400153b7124",
+                  "6165ac8c290d254f5e6b2f6c",
+                  "60a23797a37c940de7062d02",
+                  "5d2da1e948f035477b1ce2ba",
+                  "5c0505e00db834001b735073",
+                  "609a63b6e2ff132951242d09",
+                  "584984812459776a704a82a6",
+                  "59f9d81586f7744c7506ee62",
+                  "570fd721d2720bc5458b4596",
+                  "57ae0171245977343c27bfcf",
+                  "5dfe6104585a0c3e995c7b82",
+                  "544a3d0a4bdc2d1b388b4567",
+                  "5d1b5e94d7ad1a2b865a96b0",
+                  "609bab8b455afd752b2e6138",
+                  "58d39d3d86f77445bb794ae7",
+                  "616554fe50224f204c1da2aa",
+                  "5c7d55f52e221644f31bff6a",
+                  "616584766ef05c2ce828ef57",
+                  "5b3b6dc75acfc47a8773fb1e",
+                  "615d8d878004cc50514c3233",
+                  "5b2389515acfc4771e1be0c0",
+                  "577d128124597739d65d0e56",
+                  "618b9643526131765025ab35",
+                  "618bab21526131765025ab3f",
+                  "5c86592b2e2216000e69e77c",
+                  "5a37ca54c4a282000d72296a",
+                  "5d0a29fed7ad1a002769ad08",
+                  "5c064c400db834001d23f468",
+                  "58d2664f86f7747fec5834f6",
+                  "57c69dd424597774c03b7bbc",
+                  "5b3b99265acfc4704b4a1afb",
+                  "5aa66a9be5b5b0214e506e89",
+                  "5aa66c72e5b5b00016327c93",
+                  "5c1cdd302e221602b3137250",
+                  "61714b2467085e45ef140b2c",
+                  "6171407e50224f204c1da3c5",
+                  "61713cc4d8e3106d9806c109",
+                  "5b31163c5acfc400153b71cb",
+                  "5a33b652c4a28232996e407c",
+                  "5a33b2c9c4a282000c5a9511",
+                  "59db7eed86f77461f8380365",
+                  "5a1ead28fcdbcb001912fa9f",
+                  "5dff77c759400025ea5150cf",
+                  "626bb8532c923541184624b4",
+                  "62811f461d5df4475f46a332",
+                  "63fc449f5bd61c6cf3784a88",
+                  "6477772ea8a38bb2050ed4db",
+                  "6478641c19d732620e045e17",
+                  "64785e7c19d732620e045e15",
+                  "6567e751a715f85433025998",
+                  "655f13e0a246670fb0373245",
+                  "65392f611406374f82152ba5",
+                  "653931da5db71d30ab1d6296",
+                  "67641a851b2899700609901a",
+                  "6761759e7ee06333f108bf86",
+                  "0b0e13dc774c5bb3abb3f16f"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "f9470fc25ddd5f7f9b53d31b",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_barrel",
+          "_parent": "6892180ee9f15149b0677260",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "652910565ae2ae97b80fdf35"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "89fe6919afb153fdb9ebaa09",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_handguard",
+          "_parent": "6892180ee9f15149b0677260",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "652910ef50dc782999054b97",
+                  "698423d597bea7872bc75f98",
+                  "ee3c34639d035057afced353"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "cb4636e4297a506eab1d35e2",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_sight_rear",
+          "_parent": "6892180ee9f15149b0677260",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5bb20e49d4351e3bac1212de",
+                  "5ba26b17d4351e00367f9bdd",
+                  "5dfa3d7ac41b2312ea33362a",
+                  "5c1780312e221602b66cc189",
+                  "5fb6564947ce63734e3fa1da",
+                  "5bc09a18d4351e003562b68e",
+                  "5c18b9192e2216398b5a8104",
+                  "5fc0fa957283c4046c58147e",
+                  "5894a81786f77427140b8347",
+                  "55d5f46a4bdc2d1b198b4567",
+                  "5ae30bad5acfc400185c2dc4"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "ef38d4dfdbcb5307905692cd",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount",
+          "_parent": "6892180ee9f15149b0677260",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5649a2464bdc2d91118b45a8"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "Prefab": {
+        "path": "aishiweapons/spear_blackout/reciever_mcx_sig_spear_upper_black.bundle",
+        "rcid": ""
+      },
+      "Width": 1,
+      "Weight": 1.0,
+      "Grids": [],
+      "Name": "Modified MCX-SPEAR 6.8x51 upper receiver (Black)",
+      "ShortName": "SPEAR 6.8",
+      "Description": "A standard-issue upper receiver for the MCX-SPEAR assault rifle, chambered in 6.8x51mm (.277 FURY). Equipped with a mount for attaching additional devices. Manufactured by SIG Sauer. Black Version."
+    },
+    "locales": {
+      "en": {
+        "name": "Modified MCX-SPEAR 6.8x51 upper receiver (Black)",
+        "shortName": "SPEAR 6.8",
+        "description": "A standard-issue upper receiver for the MCX-SPEAR assault rifle, chambered in 6.8x51mm (.277 FURY). Equipped with a mount for attaching additional devices. Manufactured by SIG Sauer. Black Version."
+      },
+      "po": {
+        "name": "Modified MCX-SPEAR 6.8x51 upper receiver (Black)",
+        "shortName": "SPEAR 6.8",
+        "description": "Um upper receiver padrão para o rifle de assalto MCX SPEAR, compartimentado em 6.8x51mm (.277 FURY). Equipado com um suporte para fixação de dispositivos adicionais. Fabricado pela SIG Sauer. Black Version."
+      }
+    },
+    "fleaPriceRoubles": 6081,
+    "handbookPriceRoubles": 6081,
+    "addtoBots": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_reciever"
+    ],
+    "addtoStaticLootContainers": false,
+    "StaticLootContainers": [
+      {
+        "ContainerName": "",
+        "Probability": 0
+      }
+    ],
+    "addtoTraders": false,
+    "traders": {},
+    "addtoItemBlacklist": true
+  },
+  "ee3c34639d035057afced353": {
+    "itemTplToClone": "652910ef50dc782999054b97",
+    "parentId": "55818a104bdc2db9688b4569",
+    "handbookParentId": "5b5f75e486f77447ec5d7712",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "aishiweapons/spear_blackout/handguard_mcx_sig_spear_m_lok_black.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_id": "d4fca4fc39825102816daee8",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount_000",
+          "_parent": "ee3c34639d035057afced353",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5b7be47f5acfc400170e2dd2",
+                  "6269220d70b6c02e665f2635",
+                  "6269545d0e57f218e4548ca2",
+                  "669a6a4a525be1d2d004b8eb"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "63e02939ee4453c39af59e22",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount_001",
+          "_parent": "ee3c34639d035057afced353",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5b7be47f5acfc400170e2dd2",
+                  "6269220d70b6c02e665f2635",
+                  "6269545d0e57f218e4548ca2",
+                  "669a6a4a525be1d2d004b8eb"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "9cc0cbe8ae5d52e692c3294e",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_sight_front",
+          "_parent": "ee3c34639d035057afced353",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ba26b01d4351e0085325a51",
+                  "5dfa3d950dee1b22f862eae0",
+                  "5c17804b2e2216152006c02f",
+                  "5fb6567747ce63734e3fa1dc",
+                  "5bc09a30d4351e00367fb7c8",
+                  "5c18b90d2e2216152142466b",
+                  "5fc0fa362770a0045c59c677",
+                  "5894a73486f77426d259076c",
+                  "55d4af3a4bdc2d972f8b456f"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "5ec24756b61853619e04c54a",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_foregrip",
+          "_parent": "ee3c34639d035057afced353",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5b7be4895acfc400170e2dd5",
+                  "57cffb66245977632f391a99",
+                  "57cffcd624597763133760c5",
+                  "57cffcdd24597763f5110006",
+                  "57cffce524597763b31685d8",
+                  "651a8e529829226ceb67c319",
+                  "651a8bf3a8520e48047bf708",
+                  "665d5d9e338229cfd6078da1",
+                  "665edce564fb556f940ab32a"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "f6029453f82550faa3799188",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount_002",
+          "_parent": "ee3c34639d035057afced353",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "669a6a4a525be1d2d004b8eb",
+                  "5b7be47f5acfc400170e2dd2",
+                  "6269220d70b6c02e665f2635",
+                  "671126b049e181972e0681fa"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "Name": "MCX-SPEAR 11 inch M-LOK handguard (Black)",
+      "ShortName": "SPEAR 11\"",
+      "Description": "An 11 inch handguard for the MCX-SPEAR assault rifle equipped with an M-LOK interface for installation of additional devices and accessories. Manufactured by SIG Sauer. Black Version.",
+      "CanSellOnRagfair": false
+    },
+    "weaponPresets": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_handguard"
+    ],
+    "locales": {
+      "en": {
+        "name": "MCX-SPEAR 11 inch M-LOK handguard (Black)",
+        "shortName": "SPEAR 11\"",
+        "description": "An 11 inch handguard for the MCX-SPEAR assault rifle equipped with an M-LOK interface for installation of additional devices and accessories. Manufactured by SIG Sauer. Black Version."
+      },
+      "po": {
+        "name": "MCX-SPEAR 11 inch M-LOK handguard (Black)",
+        "shortName": "SPEAR 11\"",
+        "description": "Um guarda-mão de 11 polegadas para o rifle de assalto MCX SPEAR equipado com uma interface M-LOK para instalação de dispositivos e acessórios adicionais. Fabricado pela SIG Sauer. Black Version."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "handbookPriceRoubles": 11675,
+    "fleaPriceRoubles": 11675,
+    "addtoStaticLootContainers": false
+  },
+  "9c4d6ba73bcb5d36981b9c47": {
+    "itemTplToClone": "6529109524cbe3c74a05e5b7",
+    "parentId": "55818a6f4bdc2db9688b456b",
+    "handbookParentId": "5b5f751486f77447ec5d770c",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "aishiweapons/spear_blackout/charge_spear_sig_spear_std_black.bundle",
+        "rcid": ""
+      },
+      "Name": "MCX-SPEAR charging handle (Black)",
+      "ShortName": "SPEAR",
+      "Description": "A standard-issue ambidextrous charging handle for the MCX-SPEAR assault rifle. Manufactured by SIG Sauer. Black Version.",
+      "CanSellOnRagfair": false
+    },
+    "weaponPresets": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_charge"
+    ],
+    "locales": {
+      "en": {
+        "name": "MCX-SPEAR charging handle (Black)",
+        "shortName": "SPEAR",
+        "description": "A standard-issue ambidextrous charging handle for the MCX-SPEAR assault rifle. Manufactured by SIG Sauer. Black Version."
+      },
+      "po": {
+        "name": "MCX-SPEAR charging handle (Black)",
+        "shortName": "SPEAR",
+        "description": "Um charging handle ambidestro padrão para o rifle de assalto MCX SPEAR. Fabricado pela SIG Sauer. Black Version."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "handbookPriceRoubles": 1578,
+    "fleaPriceRoubles": 1578,
+    "addtoStaticLootContainers": false
+  }
+}

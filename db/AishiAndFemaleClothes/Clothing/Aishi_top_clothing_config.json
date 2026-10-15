@@ -1,0 +1,83 @@
+[
+  {
+    "type": "top",
+    "suiteId": "9e12c7e1b397598c919dc481",
+    "outfitId": "3aaebdfb96d157f0805b7919",
+    "topId": "4fbe4dc2ddc45be2ba6d5109",
+    "handsId": "2574262d47575a9fa96dd097",
+    "locales": {
+      "en": {
+        "name": "Women's USEC Mission - Nightops",
+        "description": "WOMEN'S USEC MISSION"
+      },
+      "po": {
+        "name": "Women's USEC Mission - Nightops",
+        "description": "WOMEN'S USEC MISSION"
+      }
+    },
+    "topBundlePath": "clothing/female_nightops/ftop_usec_carinthiasoftshell_base_lod0_nightops.bundle",
+    "handsBundlePath": "clothing/female_nightops/hands_milena_isr_nightops.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 30,
+    "standing": 0.4,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 2500,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "top",
+    "suiteId": "1b2948b954f9589c86e883a6",
+    "outfitId": "6b99db6aeafd57e9ac97927c",
+    "topId": "8b2a1a11030f5463bf64a054",
+    "handsId": "20f8ddd0d6df511c9f3bab0e",
+    "locales": {
+      "en": {
+        "name": "Women's USEC Softshell Flexion - Nightops",
+        "description": "WOMEN'S USEC SOFTSHELL FLEXION"
+      },
+      "po": {
+        "name": "Women's USEC Softshell Flexion - Nightops",
+        "description": "WOMEN'S USEC SOFTSHELL FLEXION"
+      }
+    },
+    "topBundlePath": "clothing/female_nightops/ftop_usec_softshell_base_lod0_nightops.bundle",
+    "handsBundlePath": "clothing/female_nightops/hands_milena_isr_nightops.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 30,
+    "standing": 0.4,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 2500,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "top",
+    "suiteId": "2cd427534721531ca964e37f",
+    "outfitId": "d235551fa3765da5a2cebd6e",
+    "topId": "a71fcb449b205507810a5866",
+    "handsId": "85f004ffff47582daacb7c8a",
+    "locales": {
+      "en": {
+        "name": "Women's USEC Woodland Infiltrator - Nightops",
+        "description": "WOMEN'S USEC WOODLAND INFILTRATOR"
+      },
+      "po": {
+        "name": "Women's USEC Woodland Infiltrator - Nightops",
+        "description": "WOMEN'S USEC WOODLAND INFILTRATOR"
+      }
+    },
+    "topBundlePath": "clothing/female_nightops/ftshirt_usec_combatshirt_lod0_nightops.bundle",
+    "handsBundlePath": "clothing/female_nightops/hands_milena_isr_nightops.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 30,
+    "standing": 0.4,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 2500,
+    "questRequirements": [],
+    "achievementRequirements": []
+  }
+]

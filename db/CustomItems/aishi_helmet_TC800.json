@@ -1,43 +1,25 @@
 {
   "6a0805a4f4ca65c231f2566b": {
-
     "itemTplToClone": "5e4bfc1586f774264f7582d3",
     "parentId": "5a341c4086f77401f2541505",
     "handbookParentId": "5b47574386f77428ca22b330",
-
-
     "overrideProperties": {
-      "QuestItem": false,
       "BackgroundColor": "yellow",
-      "IsUnsaleable": false,
       "CanSellOnRagfair": false,
       "InsuranceDisabled": true,
-      "CanRequireOnRagfair": false,
-      "addtoItemBlacklist": true,   
+      "addtoItemBlacklist": true,
       "ExaminedByDefault": false,
       "PushToFleaBlacklist": true,
-      "Durability": 0,
-      "MaxDurability": 0,
-        
-
       "Prefab": {
-
         "path": "equipment/item_equipment_helmet_tc800_ISB.bundle",
         "rcid": ""
       },
-
-
-      "Width": 2,
-      "Height": 2,
-
-
-      "Weight": 1.270,
-
-
-      "Grids": [
-      ]
+      "Weight": 1.27,
+      "Grids": [],
+      "Name": "MSA Gallet TC 800 High Cut combat helmet (Black)",
+      "ShortName": "TC 800",
+      "Description": "The MSA TC 800 ballistic helmet, designed for use by tactical teams of police special forces, in combat and reconnaissance operations. It can be modified by various components. Black Version."
     },
-
     "addWeaponPreset": true,
     "weaponPresets": [
       {
@@ -62,51 +44,35 @@
             "_tpl": "6a081022fd1496b39a522062",
             "parentId": "6a0805e2c409e50b31e4f2ff",
             "slotId": "Helmet_back"
-          },
-          {
-            "_id": "6a0805eec6310f655dccaa81",
-            "_tpl": "6a054ac4faf625ac7020acd8",
-            "parentId": "6a0805e2c409e50b31e4f2ff",
-            "slotId": "Helmet_ears"
           }
         ],
         "_encyclopedia": "6a0805a4f4ca65c231f2566b"
       }
     ],
-
     "locales": {
       "en": {
         "name": "Modified MSA Gallet TC 800 High Cut combat helmet (Black)",
-        "shortName": "ISB TC800",
+        "shortName": "TC 800",
         "description": "The MSA TC 800 ballistic helmet, designed for use by tactical teams of police special forces, in combat and reconnaissance operations. It can be modified by various components."
       },
-        "po": {
-        "name": "Capacete MSA Gallet TC 800 High Cut modificado (Preto)",
-        "shortName": "ISB TC800",
-        "description": "O capacete balístico MSA TC 800, projetado para uso por equipes táticas das forças especiais da polícia, em operações de combate e reconhecimento. Ele pode ser adaptado com diversos componentes."
+      "po": {
+        "name": "Capacete de combate high cut MSA Gallet TC 800 (Preto)",
+        "shortName": "TC 800",
+        "description": "Capacete balístico MSA TC 800, projetado para uso por times táticos de forças especiais da polícia, em combate e operações de reconhecimento. Pode ser modificado com vários componentes. Versão Preto."
       }
     },
-
     "fleaPriceRoubles": 442400,
-
     "handbookPriceRoubles": 354900,
-
-    "addtoInventorySlots": ["HeadWear"],
-
+    "addtoInventorySlots": [
+      "HeadWear"
+    ],
     "addtoBots": false,
-
     "IsAlwaysAvailableForInsurance": false,
-
     "InsuranceDisabled": true,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",
@@ -115,62 +81,43 @@
     ]
   },
   "6a08100f21180195f95d4a5e": {
-
     "itemTplToClone": "657f9c78ada5fadd1f07a58d",
     "parentId": "65649eb40bf0ed77b8044453",
     "handbookParentId": "6564b96a189fe36f356d177c",
-
-
     "overrideProperties": {
-      "QuestItem": false,  
-      "ExaminedByDefault": true,
-      "IsUnsaleable": false,
       "InsuranceDisabled": true,
       "CanSellOnRagfair": false,
-      "MaterialType": "Helmet",
       "ArmorMaterial": "Titan",
       "ArmorType": "Heavy",
       "BackgroundColor": "yellow",
-      "ItemSound": "gear_armor",
-      "armorPlateColliders":  [],
       "armorClass": "5",
       "Durability": 30,
       "MaxDurability": 30,
       "BluntThroughput": 0.1,
-      "RarityPvE":"Superrare",
+      "RarityPvE": "Superrare",
       "Prefab": {
-
         "path": "assets/content/items/equipment/armor_plates/helmet_top.bundle",
         "rcid": ""
       }
-      },
-
-
-        "Width": 1,
-        "Height": 1,
-
-
-        "Weight": 0,
-
-
-        "Grids": [
-        ],
-
+    },
+    "Width": 1,
+    "Height": 1,
+    "Weight": 0,
+    "Grids": [],
     "locales": {
       "en": {
-          "name": "Modified Layers of aramid fiber",
-          "shortName": "Modified Layers of aramid fiber",
-          "description": "Modified Layers of aramid fiber"
+        "name": "Modified Layers of aramid fiber",
+        "shortName": "Modified Layers of aramid fiber",
+        "description": "Modified Layers of aramid fiber"
       },
-        "po": {
-          "name": "Modified Layers of aramid fiber",
-          "shortName": "Modified Layers of aramid fiber",
-          "description": "Modified Layers of aramid fiber"
+      "po": {
+        "name": "Modified Layers of aramid fiber",
+        "shortName": "Modified Layers of aramid fiber",
+        "description": "Modified Layers of aramid fiber"
       }
     },
-
-    "fleaPriceRoubles": 0,
-    "handbookPriceRoubles": 0, 
+    "fleaPriceRoubles": 16000,
+    "handbookPriceRoubles": 16000,
     "addtoBots": false,
     "addtoStaticLootContainers": false,
     "StaticLootContainers": [
@@ -181,62 +128,43 @@
     ]
   },
   "6a081022fd1496b39a522062": {
-
     "itemTplToClone": "657f9cb587e11c61f70bfaca",
     "parentId": "65649eb40bf0ed77b8044453",
     "handbookParentId": "6564b96a189fe36f356d177c",
-
-
     "overrideProperties": {
-      "QuestItem": false,  
-      "ExaminedByDefault": true,
-      "IsUnsaleable": false,
       "InsuranceDisabled": true,
       "CanSellOnRagfair": false,
-      "MaterialType": "Helmet",
       "ArmorMaterial": "Titan",
       "ArmorType": "Heavy",
       "BackgroundColor": "yellow",
-      "ItemSound": "gear_armor",
-      "armorPlateColliders":  [],
       "armorClass": "5",
       "Durability": 30,
       "MaxDurability": 30,
       "BluntThroughput": 0.1,
-      "RarityPvE":"Superrare",
+      "RarityPvE": "Superrare",
       "Prefab": {
-
         "path": "assets/content/items/equipment/armor_plates/helmet_back.bundle",
         "rcid": ""
       }
-      },
-
-
-        "Width": 1,
-        "Height": 1,
-
-
-        "Weight": 0,
-
-
-        "Grids": [
-        ],
-
+    },
+    "Width": 1,
+    "Height": 1,
+    "Weight": 0,
+    "Grids": [],
     "locales": {
       "en": {
         "name": "Modified Layers of aramid fiber",
         "shortName": "Modified Layers of aramid fiber",
         "description": "Modified Layers of aramid fiber"
       },
-        "po": {
-            "name": "Modified Layers of aramid fiber",
-            "shortName": "Modified Layers of aramid fiber",
-            "description": "Modified Layers of aramid fiber"
+      "po": {
+        "name": "Modified Layers of aramid fiber",
+        "shortName": "Modified Layers of aramid fiber",
+        "description": "Modified Layers of aramid fiber"
       }
     },
-
-    "fleaPriceRoubles": 0,
-    "handbookPriceRoubles": 0, 
+    "fleaPriceRoubles": 16000,
+    "handbookPriceRoubles": 16000,
     "addtoBots": false,
     "addtoStaticLootContainers": false,
     "StaticLootContainers": [

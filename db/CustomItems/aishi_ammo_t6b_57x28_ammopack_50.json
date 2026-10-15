@@ -1,0 +1,67 @@
+{
+  "b6280d62f0e343c0120d8481": {
+    "itemTplToClone": "648986bbc827d4637f01791e",
+    "parentId": "543be5cb4bdc2deb348b4568",
+    "handbookParentId": "5b47574386f77428ca22b33c",
+    "overrideProperties": {
+      "ExaminedByDefault": false,
+      "IsUnsaleable": true,
+      "IsUnbuyable": true,
+      "StackSlots": [
+        {
+          "_id": "070ffbbfda80bbf095d7154e",
+          "_max_count": 50,
+          "_name": "cartridges",
+          "_parent": "b6280d62f0e343c0120d8481",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "bf758ead73d35346a4843695"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ],
+      "Weight": 0.125,
+      "Grids": []
+    },
+    "locales": {
+      "en": {
+        "name": "5.7x28mm Elite Ammunition T6B ammo pack (50 pcs)",
+        "shortName": "T6B",
+        "description": "A pack of 5.7x28mm Elite Ammunition T6B ammunition, 50 rounds."
+      },
+      "po": {
+        "name": "Pacote de munição 5.7x28mm Elite Ammunition T6B (50 un.)",
+        "shortName": "T6B",
+        "description": "Um pacote de munição 5.7x28mm Elite Ammunition T6B com 50 cartuchos."
+      }
+    },
+    "fleaPriceRoubles": 120000,
+    "handbookPriceRoubles": 120000,
+    "addCaliberToAllCloneLocations": true,
+    "addtoStaticAmmo": false,
+    "CanSellOnRagfair": false,
+    "CanRequireOnRagfair": false,
+    "addtoItemBlacklist": true,
+    "addtoBots": true,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 350
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 350
+      },
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 350
+      }
+    ]
+  }
+}

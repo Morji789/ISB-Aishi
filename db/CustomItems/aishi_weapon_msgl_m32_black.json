@@ -1,0 +1,592 @@
+{
+  "0be7b355555056dc92995312": {
+    "itemTplToClone": "6275303a9f372d6ea97f9ec7",
+    "parentId": "617f1ef5e8b54b0998387733",
+    "handbookParentId": "5b5f79d186f774093f2ed3c2",
+    "overrideProperties": {
+      "Name": "Milkor M32A1 MSGL 40mm grenade launcher (Black)",
+      "Prefab": {
+        "path": "aishiweapons/msgl_m32_black/weapon_milkor_m32a1_msgl_40x46_container_custom_black.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_id": "9ed9b878af575c61bbf58035",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_pistol_grip",
+          "_parent": "0be7b355555056dc92995312",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "55d4b9964bdc2d1d4e8b456e",
+                  "571659bb2459771fb2755a12",
+                  "6113c3586c780c1e710c90bc",
+                  "6113cc78d3a39d50044c065a",
+                  "6113cce3d92c473c770200c7",
+                  "5bb20e18d4351e00320205d5",
+                  "57c55efc2459772d2c6271e7",
+                  "57af48872459771f0b2ebf11",
+                  "57c55f092459772d291a8463",
+                  "57c55f112459772d28133310",
+                  "57c55f172459772d27602381",
+                  "5a339805c4a2826c6e06d73d",
+                  "63f5feead259b42f0b4d6d0f",
+                  "094f71467ee5555e94b09b8b"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "f515dbe3749e58aeb8e3e295",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_stock",
+          "_parent": "0be7b355555056dc92995312",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5fc2369685fd526b824a5713",
+                  "606587d11246154cad35d635",
+                  "602e620f9b513876d4338d9a",
+                  "5a9eb32da2750c00171b3f9c",
+                  "5bfe86df0db834001b734685",
+                  "55d4ae6c4bdc2d8b2f8b456e",
+                  "5c87a07c2e2216001219d4a2",
+                  "5bb20e70d4351e0035629f8f",
+                  "5beec8c20db834001d2c465c",
+                  "5fbbaa86f9986c4cff3fe5f6",
+                  "5fce16961f152d4312622bc9",
+                  "5ae30c9a5acfc408fb139a03",
+                  "5d135e83d7ad1a21b83f42d8",
+                  "5d135ecbd7ad1a21c176542e",
+                  "56eabf3bd2720b75698b4569",
+                  "58d2946386f774496974c37e",
+                  "58d2946c86f7744e271174b5",
+                  "58d2947686f774485c6a1ee5",
+                  "58d2947e86f77447aa070d53",
+                  "5d44069ca4b9361ebd26fc37",
+                  "5d4406a8a4b9361e4f6eb8b7",
+                  "5947c73886f7747701588af5",
+                  "628a85ee6b1d481ff772e9d5",
+                  "5c793fde2e221601da358614",
+                  "5b39f8db5acfc40016387a1b",
+                  "6516e91f609aaf354b34b3e2",
+                  "6516e971a3d4c6497930b450"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "44751769e2ea5365b8c7407e",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_magazine",
+          "_parent": "0be7b355555056dc92995312",
+          "_props": {
+            "filters": [
+              {
+                "AnimationIndex": 0,
+                "Filter": [
+                  "627bce33f21bc425b06ab967",
+                  "1e568703497553c1ab093d4c"
+                ]
+              }
+            ]
+          },
+          "_proto": "55d30c394bdc2dae468b4577",
+          "_required": true
+        },
+        {
+          "_id": "c4427be442fe5367afa4305d",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_foregrip",
+          "_parent": "0be7b355555056dc92995312",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5c7fc87d2e221644f31c0298",
+                  "5cda9bcfd7f00c0c0b53e900",
+                  "59f8a37386f7747af3328f06",
+                  "619386379fb0c665d5490dbe",
+                  "5c87ca002e221600114cb150",
+                  "588226d124597767ad33f787",
+                  "588226dd24597767ad33f789",
+                  "588226e62459776e3e094af7",
+                  "588226ef24597767af46e39c",
+                  "59fc48e086f77463b1118392",
+                  "5fce0cf655375d18a253eff0",
+                  "5cf4fb76d7f00c065703d3ac",
+                  "5b057b4f5acfc4771e1bd3e9",
+                  "5c791e872e2216001219c40a",
+                  "558032614bdc2de7118b4585",
+                  "58c157be86f77403c74b2bb6",
+                  "58c157c886f774032749fb06",
+                  "5f6340d3ca442212f4047eb2",
+                  "591af28e86f77414a27a9e1d",
+                  "5c1cd46f2e22164bef5cfedb",
+                  "5c1bc4812e22164bef5cfde7",
+                  "5c1bc5612e221602b5429350",
+                  "5c1bc5af2e221602b412949b",
+                  "5c1bc5fb2e221602b1779b32",
+                  "5c1bc7432e221602b412949d",
+                  "5c1bc7752e221602b1779b34",
+                  "648067db042be0705c0b3009",
+                  "64807a29e5ffe165600abc97",
+                  "64806bdd26c80811d408d37a",
+                  "65169d5b30425317755f8e25",
+                  "655df24fdf80b12750626d0a",
+                  "655dccfdbdcc6b5df71382b6",
+                  "661e52e29c8b4dadef008577",
+                  "661e53149c8b4dadef008579",
+                  "661e52415be02310ed07a07a",
+                  "661e52b5b099f32c28003586"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "43df7a2cb2d2515380360b7f",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_scope",
+          "_parent": "0be7b355555056dc92995312",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6284bd5f95250a29bc628a30"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "3ff027655759555d8cf203ff",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_tactical_000",
+          "_parent": "0be7b355555056dc92995312",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "57fd23e32459772d0805bcf1",
+                  "544909bb4bdc2d6f028b4577",
+                  "5c06595c0db834001a66af6c",
+                  "5a7b483fe899ef0016170d15",
+                  "61605d88ffa6e502ac5e7eeb",
+                  "5c5952732e2216398b5abda2",
+                  "644a3df63b0b6f03e101e065"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "6a09f31d218d5eef9934894c",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_tactical_001",
+          "_parent": "0be7b355555056dc92995312",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a800961159bd4315e3a1657",
+                  "57fd23e32459772d0805bcf1",
+                  "544909bb4bdc2d6f028b4577",
+                  "5d10b49bd7ad1a1a560708b0",
+                  "5c06595c0db834001a66af6c",
+                  "5cc9c20cd7f00c001336c65d",
+                  "5d2369418abbc306c62e0c80",
+                  "5b07dd285acfc4001754240d",
+                  "56def37dd2720bec348b456a",
+                  "5a7b483fe899ef0016170d15",
+                  "61605d88ffa6e502ac5e7eeb",
+                  "5a5f1ce64f39f90b401987bc",
+                  "560d657b4bdc2da74d8b4572",
+                  "5b3a337e5acfc4704b4a19a0",
+                  "5c5952732e2216398b5abda2",
+                  "57d17e212459775a1179a0f5",
+                  "644a3df63b0b6f03e101e065"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "46f2786778fd505fb5245f8c",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_tactical_002",
+          "_parent": "0be7b355555056dc92995312",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a800961159bd4315e3a1657",
+                  "57fd23e32459772d0805bcf1",
+                  "544909bb4bdc2d6f028b4577",
+                  "5d10b49bd7ad1a1a560708b0",
+                  "5c06595c0db834001a66af6c",
+                  "5cc9c20cd7f00c001336c65d",
+                  "5d2369418abbc306c62e0c80",
+                  "5b07dd285acfc4001754240d",
+                  "56def37dd2720bec348b456a",
+                  "5a7b483fe899ef0016170d15",
+                  "61605d88ffa6e502ac5e7eeb",
+                  "5a5f1ce64f39f90b401987bc",
+                  "560d657b4bdc2da74d8b4572",
+                  "5b3a337e5acfc4704b4a19a0",
+                  "5c5952732e2216398b5abda2",
+                  "57d17e212459775a1179a0f5",
+                  "644a3df63b0b6f03e101e065"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "ShortName": "MSGL",
+      "Description": "M32A1 MSGL 40mm six-shot grenade launcher manufactured by Milkor USA. This grenade launcher uses the well-established principle of a revolver to achieve a high rate of accurate fire that can be quickly aimed at a target. Black Version."
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "handbookPriceRoubles": 185000,
+    "fleaPriceRoubles": 185000,
+    "locales": {
+      "en": {
+        "name": "Milkor M32A1 MSGL 40mm grenade launcher (Black)",
+        "shortName": "MSGL",
+        "description": "M32A1 MSGL 40mm six-shot grenade launcher manufactured by Milkor USA. This grenade launcher uses the well-established principle of a revolver to achieve a high rate of accurate fire that can be quickly aimed at a target. Black Version."
+      },
+      "po": {
+        "name": "Milkor M32A1 MSGL 40mm grenade launcher (Black)",
+        "shortName": "MSGL",
+        "description": "Lançador de granadas M32A1 MSGL 40mm de seis tiros fabricado pela Milkor USA. Este lançador de granadas usa o princípio bem estabelecido de um revólver para obter uma alta taxa de disparo preciso que pode ser rapidamente direcionado a um alvo. Black Version."
+      }
+    },
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_changeWeaponName": false,
+        "_encyclopedia": "0be7b355555056dc92995312",
+        "_id": "fdd08658c65e5cabb361530a",
+        "_items": [
+          {
+            "_id": "9975836a6ac8537c9f73487d",
+            "_tpl": "0be7b355555056dc92995312",
+            "upd": {
+              "FireMode": {
+                "FireMode": "single"
+              }
+            }
+          },
+          {
+            "_id": "c999f9db340c58a2b8f6b605",
+            "_tpl": "094f71467ee5555e94b09b8b",
+            "parentId": "9975836a6ac8537c9f73487d",
+            "slotId": "mod_pistol_grip"
+          },
+          {
+            "_id": "24d00dfdfe7b5620950995c8",
+            "_tpl": "55d4ae6c4bdc2d8b2f8b456e",
+            "parentId": "9975836a6ac8537c9f73487d",
+            "slotId": "mod_stock"
+          },
+          {
+            "_id": "fb1625f0d4fe5b4191c93c1a",
+            "_tpl": "1e568703497553c1ab093d4c",
+            "parentId": "9975836a6ac8537c9f73487d",
+            "slotId": "mod_magazine"
+          },
+          {
+            "_id": "98519463111d5564a1b69f87",
+            "_tpl": "6284bd5f95250a29bc628a30",
+            "parentId": "9975836a6ac8537c9f73487d",
+            "slotId": "mod_scope"
+          }
+        ],
+        "_name": "Milkor M32A1 MSGL 40mm grenade launcher (Black) Standard",
+        "_parent": "9975836a6ac8537c9f73487d",
+        "_type": "Preset"
+      }
+    ],
+    "addtoInventorySlots": [
+      "FirstPrimaryWeapon",
+      "SecondPrimaryWeapon"
+    ]
+  },
+  "1e568703497553c1ab093d4c": {
+    "itemTplToClone": "627bce33f21bc425b06ab967",
+    "parentId": "627a137bf21bc425b06ab944",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "overrideProperties": {
+      "Name": "M32A1 40mm cylinder (Black)",
+      "CanSellOnRagfair": false,
+      "Prefab": {
+        "path": "aishiweapons/msgl_m32_black/mag_msgl_milkor_cylinder_mag_std_40x46_6_custom_black.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_id": "07b5084f2e0e52f897fa0d23",
+          "_mergeSlotWithChildren": false,
+          "_name": "camora_000",
+          "_parent": "1e568703497553c1ab093d4c",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ede474b0c226a66f5402622",
+                  "5ede475b549eed7c6d5c18fb",
+                  "5ede4739e0350d05467f73e8",
+                  "5f0c892565703e5c461894e9",
+                  "5ede47405b097655935d7d16",
+                  "5ede475339ee016e8c534742",
+                  "5ede47641cf3836a88318df1"
+                ],
+                "MaxStackCount": 1
+              }
+            ]
+          },
+          "_proto": "55d4af244bdc2d962f8b4571",
+          "_required": false
+        },
+        {
+          "_id": "863ffb68cf29550aa3d60aac",
+          "_mergeSlotWithChildren": false,
+          "_name": "camora_001",
+          "_parent": "1e568703497553c1ab093d4c",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ede474b0c226a66f5402622",
+                  "5ede475b549eed7c6d5c18fb",
+                  "5ede4739e0350d05467f73e8",
+                  "5f0c892565703e5c461894e9",
+                  "5ede47405b097655935d7d16",
+                  "5ede475339ee016e8c534742",
+                  "5ede47641cf3836a88318df1"
+                ],
+                "MaxStackCount": 1
+              }
+            ]
+          },
+          "_proto": "55d4af244bdc2d962f8b4571",
+          "_required": false
+        },
+        {
+          "_id": "26fca02493c556889907b31d",
+          "_mergeSlotWithChildren": false,
+          "_name": "camora_002",
+          "_parent": "1e568703497553c1ab093d4c",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ede474b0c226a66f5402622",
+                  "5ede475b549eed7c6d5c18fb",
+                  "5ede4739e0350d05467f73e8",
+                  "5f0c892565703e5c461894e9",
+                  "5ede47405b097655935d7d16",
+                  "5ede475339ee016e8c534742",
+                  "5ede47641cf3836a88318df1"
+                ],
+                "MaxStackCount": 1
+              }
+            ]
+          },
+          "_proto": "55d4af244bdc2d962f8b4571",
+          "_required": false
+        },
+        {
+          "_id": "b14bd61a75e557e789c97bc2",
+          "_mergeSlotWithChildren": false,
+          "_name": "camora_003",
+          "_parent": "1e568703497553c1ab093d4c",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ede474b0c226a66f5402622",
+                  "5ede475b549eed7c6d5c18fb",
+                  "5ede4739e0350d05467f73e8",
+                  "5f0c892565703e5c461894e9",
+                  "5ede47405b097655935d7d16",
+                  "5ede475339ee016e8c534742",
+                  "5ede47641cf3836a88318df1"
+                ],
+                "MaxStackCount": 1
+              }
+            ]
+          },
+          "_proto": "55d4af244bdc2d962f8b4571",
+          "_required": false
+        },
+        {
+          "_id": "da96acd85fa35287a041b914",
+          "_mergeSlotWithChildren": false,
+          "_name": "camora_004",
+          "_parent": "1e568703497553c1ab093d4c",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ede474b0c226a66f5402622",
+                  "5ede475b549eed7c6d5c18fb",
+                  "5ede4739e0350d05467f73e8",
+                  "5f0c892565703e5c461894e9",
+                  "5ede47405b097655935d7d16",
+                  "5ede475339ee016e8c534742",
+                  "5ede47641cf3836a88318df1"
+                ],
+                "MaxStackCount": 1
+              }
+            ]
+          },
+          "_proto": "55d4af244bdc2d962f8b4571",
+          "_required": false
+        },
+        {
+          "_id": "5301d36439ac5f14b691aa02",
+          "_mergeSlotWithChildren": false,
+          "_name": "camora_005",
+          "_parent": "1e568703497553c1ab093d4c",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ede474b0c226a66f5402622",
+                  "5ede475b549eed7c6d5c18fb",
+                  "5ede4739e0350d05467f73e8",
+                  "5f0c892565703e5c461894e9",
+                  "5ede47405b097655935d7d16",
+                  "5ede475339ee016e8c534742",
+                  "5ede47641cf3836a88318df1"
+                ],
+                "MaxStackCount": 1
+              }
+            ]
+          },
+          "_proto": "55d4af244bdc2d962f8b4571",
+          "_required": false
+        }
+      ],
+      "Cartridges": [
+        {
+          "_id": "d2e7f4fb0b4c549ea8dd980a",
+          "_max_count": 0,
+          "_name": "cartridges",
+          "_parent": "1e568703497553c1ab093d4c",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ede474b0c226a66f5402622",
+                  "5ede475b549eed7c6d5c18fb",
+                  "5ede4739e0350d05467f73e8",
+                  "5f0c892565703e5c461894e9",
+                  "5ede47405b097655935d7d16",
+                  "5ede475339ee016e8c534742",
+                  "5ede47641cf3836a88318df1"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ],
+      "ShortName": "MSGL",
+      "Description": "A standard-issue cylinder for the M32A1 MSGL revolver grenade launcher. Black Version."
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "handbookPriceRoubles": 45000,
+    "fleaPriceRoubles": 35573,
+    "locales": {
+      "en": {
+        "name": "M32A1 40mm cylinder (Black)",
+        "shortName": "MSGL",
+        "description": "A standard-issue cylinder for the M32A1 MSGL revolver grenade launcher. Black Version."
+      },
+      "po": {
+        "name": "M32A1 40mm cylinder (Black)",
+        "shortName": "MSGL",
+        "description": "Um carregador tipo cilindro, padrão para o lançador de granadas de tambor M32A1 MSGL. Black Version."
+      }
+    },
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_magazine"
+    ]
+  },
+  "094f71467ee5555e94b09b8b": {
+    "itemTplToClone": "571659bb2459771fb2755a12",
+    "parentId": "55818a684bdc2ddd698b456d",
+    "handbookParentId": "5b5f761f86f774094242f1a1",
+    "overrideProperties": {
+      "Name": "AR-15 Damage Industries ECS pistol grip (Black)",
+      "CanSellOnRagfair": false,
+      "Prefab": {
+        "path": "aishiweapons/msgl_m32_black/pistolgrip_ar15_damage_industries_ecs_fde_custom_black.bundle",
+        "rcid": ""
+      },
+      "ShortName": "ECS FDE",
+      "Description": "The ECS polymer pistol grip can be installed on any weapon compatible with AR-15 grips. Flat Dark Earth version. Black Version."
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "handbookPriceRoubles": 1599,
+    "fleaPriceRoubles": 2388,
+    "locales": {
+      "en": {
+        "name": "AR-15 Damage Industries ECS pistol grip (Black)",
+        "shortName": "ECS FDE",
+        "description": "The ECS polymer pistol grip can be installed on any weapon compatible with AR-15 grips. Flat Dark Earth version. Black Version."
+      },
+      "po": {
+        "name": "AR-15 Damage Industries ECS pistol grip (Black)",
+        "shortName": "ECS areia",
+        "description": "O empunhadura de polímero ECS pode ser instalado em qualquer arma compatível com os empunhaduras de AR-15. A única diferença dos padrões é a sua cor. Black Version."
+      }
+    },
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_pistol_grip",
+      "mod_pistolgrip",
+      "mod_pistolgrip_000"
+    ]
+  }
+}

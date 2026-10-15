@@ -1,31 +1,26 @@
 {
   "6a4c674d34a3f449ea803c52": {
-
     "itemTplToClone": "69d26ff4b855150a70092b8c",
     "parentId": "5448e5284bdc2dcb718b4567",
     "handbookParentId": "5b5f6f8786f77447ed563642",
-
-
     "overrideProperties": {
-      "QuestItem": false,  
+      "QuestItem": false,
       "ExaminedByDefault": false,
       "IsUnsaleable": false,
       "CanSellOnRagfair": false,
       "CanRequireOnRagfair": false,
-      "addtoItemBlacklist": true,   
-        
+      "addtoItemBlacklist": true,
       "Prefab": {
-
         "path": "equipment/item_equipment_armor_gladiator_s_champion_ISB.bundle",
         "rcid": ""
       },
-
-
       "Height": 4,
       "Weight": 7.12,
-      "Width": 3
+      "Width": 3,
+      "Name": "FORT Gladiator-S plate carrier (White Tusk)",
+      "ShortName": "Gladiator-S",
+      "Description": "A specialized body armor developed for the FSB’s Special Purpose Center, featuring high functionality and modularity. White Tusk version."
     },
-
     "addWeaponPreset": true,
     "weaponPresets": [
       {
@@ -103,38 +98,29 @@
         "_encyclopedia": "6a4c674d34a3f449ea803c52"
       }
     ],
-
     "locales": {
       "en": {
-        "name": "FORT Gladiator-S plate carrier (White Tusk Edition)",
+        "name": "FORT Gladiator-S plate carrier (White Tusk)",
         "shortName": "Gladiator-S",
-        "description": "The Gladiator-S body armor by FORT, customized by the Arena Champion nicknamed JP. Since his very first appearance in the Arena as a gladiator, he never even thought of washing the blood off it. Why would he? It’s a symbol of strength."
+        "description": "A specialized body armor developed for the FSB’s Special Purpose Center, featuring high functionality and modularity. White Tusk version."
       },
-        "po": {
-        "name": "FORT Gladiator-S plate carrier (White Tusk Edition)",
+      "po": {
+        "name": "FORT Gladiator-S plate carrier (White Tusk)",
         "shortName": "Gladiator-S",
-        "description": "The Gladiator-S body armor by FORT, customized by the Arena Champion nicknamed JP. Since his very first appearance in the Arena as a gladiator, he never even thought of washing the blood off it. Why would he? It’s a symbol of strength."
+        "description": "A specialized body armor developed for the FSB’s Special Purpose Center, featuring high functionality and modularity. White Tusk version."
       }
     },
-
     "fleaPriceRoubles": 515900,
-
     "handbookPriceRoubles": 219580,
-
-    "addtoInventorySlots": ["TacticalRig"],
-
+    "addtoInventorySlots": [
+      "TacticalRig"
+    ],
     "addtoStaticLootContainers": false,
-
     "CanSellOnRagfair": false,
-
     "IsAlwaysAvailableForInsurance": false,
-
     "InsuranceDisabled": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "StaticLootContainers": [
       {
         "ContainerName": "",

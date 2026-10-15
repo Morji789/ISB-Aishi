@@ -1,0 +1,54 @@
+[
+  {
+    "type": "bottom",
+    "suiteId": "75a8026625a2a94104295f25",
+    "outfitId": "19adeb0723fb45cc385b1990",
+    "bottomId": "5d0964d6246300656418a161",
+    "bottomBundlePath": "clothing/juggernaut_desert/pants_boss_kolontai_desert.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "locales": {
+      "en": {
+        "name": "ISB JUGGERNAUT (Desert)",
+        "description": "ISB JUGGERNAUT tactical trousers. Desert camouflage with dark protective equipment."
+      },
+      "po": {
+        "name": "ISB JUGGERNAUT (Desert)",
+        "description": "Calça tática ISB JUGGERNAUT. Camuflagem desértica com equipamentos de proteção escuros."
+      }
+    },
+    "loyaltyLevel": 3,
+    "profileLevel": 30,
+    "standing": 0.4,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 2500,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "top",
+    "suiteId": "b30106da093272ee7f8d42e2",
+    "outfitId": "613348cc26e83c10de1677d3",
+    "topId": "9a5b7241003fb8ddd78aa48e",
+    "handsId": "5669f31c8b0f90f867a7faad",
+    "topBundlePath": "clothing/juggernaut_desert/top_boss_kolontai_desert.bundle",
+    "handsBundlePath": "clothing/juggernaut_desert/hands_boss_kolontai_desert.skin.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "locales": {
+      "en": {
+        "name": "ISB JUGGERNAUT (Desert)",
+        "description": "ISB JUGGERNAUT combat shirt. Desert camouflage with dark protective equipment."
+      },
+      "po": {
+        "name": "ISB JUGGERNAUT (Desert)",
+        "description": "Camisa de combate ISB JUGGERNAUT. Camuflagem desértica com equipamentos de proteção escuros."
+      }
+    },
+    "loyaltyLevel": 3,
+    "profileLevel": 30,
+    "standing": 0.4,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 2500,
+    "questRequirements": [],
+    "achievementRequirements": []
+  }
+]

@@ -9,15 +9,9 @@ using System.Reflection;
 using Path = System.IO.Path;
 
 namespace Aishi;
-
 [Injectable(TypePriority = OnLoadOrder.PostDBModLoader + 90100)]
-public class AddBanners(
-    ModHelper modHelper,
-    ImageRouter imageRouter,
-    DatabaseService databaseService)
-    : IOnLoad
+public class AddBanners(ModHelper modHelper, ImageRouter imageRouter, DatabaseService databaseService) : IOnLoad
 {
-    private const bool ReplaceExistingBanners = false;
     private const bool EnableIsbBanner = true;
     private const bool EnableIsbWtBanner = true;
     private const bool EnableRuafBanner = true;
@@ -34,9 +28,9 @@ public class AddBanners(
     private const bool EnableSmugglersBanner = true;
     private const bool EnableCultGangBanner = true;
     private const bool EnablePartisanBanner = true;
-
     private static readonly List<BannerDefinition> BannerDefinitions = new()
     {
+        new BannerDefinition("ghostbusters_banner", "ghostbusters_banner.png", true, new[] { "laboratory" }),
         new BannerDefinition("isb_banner", "isb_banner.png", EnableIsbBanner, new[] { "laboratory", "rezervbase", "factory4_day", "factory4_night", "sandbox", "sandbox_high", "labyrinth", "lighthouse", "shoreline", "suburbs", "terminal" }),
         new BannerDefinition("wt_banner", "wt_banner.png", EnableIsbWtBanner, new[] { "laboratory", "rezervbase", "factory4_day", "factory4_night", "sandbox", "sandbox_high", "labyrinth", "lighthouse", "shoreline", "suburbs", "terminal" }),
         new BannerDefinition("ruaf_banner", "ruaf_banner.png", EnableRuafBanner, new[] { "bigmap", "woods", "interchange", "shoreline", "tarkovstreets", "lighthouse", "terminal" }),
@@ -54,32 +48,24 @@ public class AddBanners(
         new BannerDefinition("cultgang_banner", "cultgang_banner.png", EnableCultGangBanner, new[] { "woods", "factory4_night", "shoreline", "bigmap", "sandbox_high", "sandbox" }),
         new BannerDefinition("partisan_banner", "partisan_banner.png", EnablePartisanBanner, new[] { "woods", "shoreline", "bigmap", "lighthouse" }),
     };
-
     private static readonly List<MapCoverDefinition> MapCoverDefinitions = new()
     {
         new MapCoverDefinition("suburbs", "icebreaker_cover", "icebreaker_cover.png"),
         new MapCoverDefinition("terminal", "terminal_cover", "terminal_cover.png"),
     };
-
     public Task OnLoad()
     {
         var pathToMod = modHelper.GetAbsolutePathToModFolder(Assembly.GetExecutingAssembly());
-
-        var activeBanners = BannerDefinitions
-            .Where(banner => banner.Enabled)
-            .ToList();
-
+        var activeBanners = BannerDefinitions.Where(banner => banner.Enabled).ToList();
         if (activeBanners.Count == 0)
         {
             return Task.CompletedTask;
         }
 
         var registeredBanners = new List<BannerDefinition>();
-
         foreach (var banner in activeBanners)
         {
             var imagePath = Path.Combine(pathToMod, "db", "banners", banner.FileName);
-
             if (!File.Exists(imagePath))
             {
                 continue;
@@ -90,11 +76,9 @@ public class AddBanners(
         }
 
         var registeredCovers = new List<MapCoverDefinition>();
-
         foreach (var cover in MapCoverDefinitions)
         {
             var imagePath = Path.Combine(pathToMod, "db", "banners", cover.FileName);
-
             if (!File.Exists(imagePath))
             {
                 continue;
@@ -111,25 +95,16 @@ public class AddBanners(
 
         var locations = databaseService.GetLocations();
         var locationDictionary = locations.GetDictionary();
-
         foreach (var entry in locationDictionary)
         {
             var locationBase = entry.Value?.Base;
-
             if (locationBase?.Banners == null)
             {
                 continue;
             }
 
-            if (ReplaceExistingBanners)
-            {
-                locationBase.Banners.Clear();
-            }
-
             var mapKey = NormalizeMapKey(entry.Key);
-
             var cover = registeredCovers.FirstOrDefault(c => NormalizeMapKey(c.MapKey) == mapKey);
-
             if (cover != null)
             {
                 var coverBanner = new Banner
@@ -137,7 +112,6 @@ public class AddBanners(
                     Id = cover.Id,
                     Picture = cover.CreatePicture()
                 };
-
                 if (locationBase.Banners.Count == 0)
                 {
                     locationBase.Banners.Add(coverBanner);
@@ -156,18 +130,13 @@ public class AddBanners(
                 }
 
                 var existingBanner = locationBase.Banners.FirstOrDefault(existing => existing.Id == banner.Id);
-
                 if (existingBanner != null)
                 {
                     existingBanner.Picture = banner.CreatePicture();
                     continue;
                 }
 
-                locationBase.Banners.Add(new Banner
-                {
-                    Id = banner.Id,
-                    Picture = banner.CreatePicture()
-                });
+                locationBase.Banners.Add(new Banner { Id = banner.Id, Picture = banner.CreatePicture() });
             }
 
             ShuffleBanners(locationBase.Banners);
@@ -193,11 +162,8 @@ public class AddBanners(
     private sealed record BannerDefinition(string Id, string FileName, bool Enabled, string[] Maps)
     {
         private string FileNameWithoutExtension => Path.GetFileNameWithoutExtension(FileName).ToLowerInvariant();
-
         public string RouteKey => $"/files/banners/{FileNameWithoutExtension}";
-
         public string PicPath => $"banners/{FileName}";
-
         public string PicType => Path.GetExtension(FileName).TrimStart('.').ToLowerInvariant();
 
         public bool AppearsOnMap(string normalizedMapKey)
@@ -225,11 +191,8 @@ public class AddBanners(
     private sealed record MapCoverDefinition(string MapKey, string Id, string FileName)
     {
         private string FileNameWithoutExtension => Path.GetFileNameWithoutExtension(FileName).ToLowerInvariant();
-
         public string RouteKey => $"/files/banners/{FileNameWithoutExtension}";
-
         public string PicPath => $"banners/{FileName}";
-
         public string PicType => Path.GetExtension(FileName).TrimStart('.').ToLowerInvariant();
 
         public Pic CreatePicture()

@@ -1,291 +1,291 @@
 {
-    "Woods": [     
-        {
-            "locationId": "(-143.299, -1.408, 409.479)",
-            "probability": 0.25,
-            "template": {
-                "Id": "quest_docs_2 [c706a8e4-223e-48f5-831c-076f6eb26991]",
-                "IsContainer": false,
-                "useGravity": true,
-                "randomRotation": false,
-                "Position": {
-                    "x": -143.299,
-                    "y": -1.408,
-                    "z": 409.479
-                },
-                "Rotation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                },
-                "IsGroupPosition": false,
-                "GroupPositions": [],
-                "IsAlwaysSpawn": false,
-                "Root": "6a614eaa99baccde4ac08dfc",
-                "Items": [
-                    {
-                        "_id": "6a614eaa99baccde4ac08dfc",
-                        "_tpl": "6a61491533e4372425ec2f56",
-                        "upd": {
-                            "StackObjectsCount": 1
-                        }
-                    }
-                ]
-            },
-            "itemDistribution": [
-                {
-                    "composedKey": {
-                        "key": "6a614eadc7cd958dba48b298"
-                    },
-                    "relativeProbability": 1
-                }
-            ]
+  "Woods": [
+    {
+      "locationId": "(-143.299, -1.408, 409.479)",
+      "probability": 0.25,
+      "template": {
+        "Id": "quest_docs_2 [c706a8e4-223e-48f5-831c-076f6eb26991]",
+        "IsContainer": false,
+        "useGravity": true,
+        "randomRotation": false,
+        "Position": {
+          "x": -143.299,
+          "y": -1.408,
+          "z": 409.479
         },
-        {
-            "locationId": "(-189.260, -0.600, 233.633)",
-            "probability": 0.25,
-            "template": {
-                "Id": "weapon_case_1 [88ea6185-b68c-4035-ad76-234b538818e7]",
-                "IsContainer": false,
-                "useGravity": true,
-                "randomRotation": false,
-                "Position": {
-                    "x": -189.260,
-                    "y": -0.600,
-                    "z": 233.633
-                },
-                "Rotation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                },
-                "IsGroupPosition": false,
-                "GroupPositions": [],
-                "IsAlwaysSpawn": false,
-                "Root": "6a669b0e54a6e38044f781a1",
-                "Items": [
-                    {
-                        "_id": "6a669b102fda1aede592c115",
-                        "_tpl": "6a66997ad3500a8799dfb257",
-                        "upd": {
-                            "StackObjectsCount": 1
-                        }
-                    }
-                ]
-            },
-            "itemDistribution": [
-                {
-                    "composedKey": {
-                        "key": "6a669b12a5dcf9cdc382081c"
-                    },
-                    "relativeProbability": 1
-                }
-            ]
+        "Rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "IsAlwaysSpawn": false,
+        "Root": "6a614eaa99baccde4ac08dfc",
+        "Items": [
+          {
+            "_id": "6a614eaa99baccde4ac08dfc",
+            "_tpl": "6a61491533e4372425ec2f56",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      },
+      "itemDistribution": [
         {
-            "locationId": "(-181.112, -1.866, 232.266)",
-            "probability": 0.25,
-            "template": {
-                "Id": "weapon_case_2 [b608ddbd-078b-4884-a28f-b91e54d378d7]",
-                "IsContainer": false,
-                "useGravity": true,
-                "randomRotation": false,
-                "Position": {
-                    "x": -181.112,
-                    "y": -1.866,
-                    "z": 232.266
-                },
-                "Rotation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                },
-                "IsGroupPosition": false,
-                "GroupPositions": [],
-                "IsAlwaysSpawn": false,
-                "Root": "6a669bbd367808f51f16e123",
-                "Items": [
-                    {
-                        "_id": "6a669bbd367808f51f16e123",
-                        "_tpl": "6a66997ad3500a8799dfb257",
-                        "upd": {
-                            "StackObjectsCount": 1
-                        }
-                    }
-                ]
-            },
-            "itemDistribution": [
-                {
-                    "composedKey": {
-                        "key": "6a669b12a5dcf9cdc382081c"
-                    },
-                    "relativeProbability": 1
-                }
-            ]
-        },
-        {
-            "locationId": "(-195.357, -1.240, 222.187)",
-            "probability": 0.25,
-            "template": {
-                "Id": "weapon_case_3 [2931368f-cb71-41a8-89d2-6d856cd1f645]",
-                "IsContainer": false,
-                "useGravity": true,
-                "randomRotation": false,
-                "Position": {
-                    "x": -195.357,
-                    "y": -1.240,
-                    "z": 222.187
-                },
-                "Rotation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                },
-                "IsGroupPosition": false,
-                "GroupPositions": [],
-                "IsAlwaysSpawn": false,
-                "Root": "6a669bb6a5ec93e304b4fa90",
-                "Items": [
-                    {
-                        "_id": "6a669bb6a5ec93e304b4fa90",
-                        "_tpl": "6a66997ad3500a8799dfb257",
-                        "upd": {
-                            "StackObjectsCount": 1
-                        }
-                    }
-                ]
-            },
-            "itemDistribution": [
-                {
-                    "composedKey": {
-                        "key": "6a669bba53a2c44db112415e"
-                    },
-                    "relativeProbability": 1
-                }
-            ]
-        },
-        {
-            "locationId": "(-270.693, 8.951, -415.655)",
-            "probability": 0.25,
-            "template": {
-                "Id": "aishi_tg_doc1 [95220631-fc55-460a-8b5f-f3fc61f367a5]",
-                "IsContainer": false,
-                "useGravity": true,
-                "randomRotation": false,
-                "Position": {
-                    "x": -270.693,
-                    "y": 8.951,
-                    "z": -415.655
-                },
-                "Rotation": {
-                    "x": -270.693,
-                    "y": 8.951,
-                    "z": -415.655
-                },
-                "IsGroupPosition": false,
-                "GroupPositions": [],
-                "IsAlwaysSpawn": false,
-                "Root": "6a6aca00f64e51a1cf631020",
-                "Items": [
-                    {
-                        "_id": "6a6aca00f64e51a1cf631020",
-                        "_tpl": "6a6a208a35e0f5860094fa3d",
-                        "upd": {
-                            "StackObjectsCount": 1
-                        }
-                    }
-                ]
-            },
-            "itemDistribution": [
-                {
-                    "composedKey": {
-                        "key": "6a6aca050b0ac01395ca8a44"
-                    },
-                    "relativeProbability": 1
-                }
-            ]
-        },
-        {
-            "locationId": "(-271.101, 8.550, -417.720)",
-            "probability": 0.25,
-            "template": {
-                "Id": "aishi_tg_doc2 [6b036bbe-7f4f-4a5c-9ed0-7f1dea60773d]",
-                "IsContainer": false,
-                "useGravity": true,
-                "randomRotation": false,
-                "Position": {
-                    "x": -271.101,
-                    "y": 8.550,
-                    "z": -417.720
-                },
-                "Rotation": {
-                    "x": 87.538,
-                    "y": 356.506,
-                    "z": 353.790
-                },
-                "IsGroupPosition": false,
-                "GroupPositions": [],
-                "IsAlwaysSpawn": false,
-                "Root": "6a6aca50f63f5cb369d1a29e",
-                "Items": [
-                    {
-                        "_id": "6a6aca50f63f5cb369d1a29e",
-                        "_tpl": "6a699b061078d7158cd6fc79",
-                        "upd": {
-                            "StackObjectsCount": 1
-                        }
-                    }
-                ]
-            },
-            "itemDistribution": [
-                {
-                    "composedKey": {
-                        "key": "6a6aca537078a99350c296fa"
-                    },
-                    "relativeProbability": 1
-                }
-            ]
-        },
-        {
-            "locationId": "(-271.248, 8.457, -414.811)",
-            "probability": 0.25,
-            "template": {
-                "Id": "aishi_tg_doc3 [dc5cdf60-97ba-4524-9f52-d34e7230ffaa]",
-                "IsContainer": false,
-                "useGravity": true,
-                "randomRotation": false,
-                "Position": {
-                    "x": -271.248,
-                    "y": 8.654,
-                    "z": -414.811
-                },
-                "Rotation": {
-                    "x": 87.376,
-                    "y": 6.874,
-                    "z": 0.013
-                },
-                "IsGroupPosition": false,
-                "GroupPositions": [],
-                "IsAlwaysSpawn": false,
-                "Root": "6a6aca9cbfbc5ff42a3d6aab",
-                "Items": [
-                    {
-                        "_id": "6a6aca9cbfbc5ff42a3d6aab",
-                        "_tpl": "6a6980af9994a65e2f0f7a55",
-                        "upd": {
-                            "StackObjectsCount": 1
-                        }
-                    }
-                ]
-            },
-            "itemDistribution": [
-                {
-                    "composedKey": {
-                        "key": "6a6acaa058c2b4e1a6777b90"
-                    },
-                    "relativeProbability": 1
-                }
-            ]
+          "composedKey": {
+            "key": "6a614eadc7cd958dba48b298"
+          },
+          "relativeProbability": 1
         }
-    ]
+      ]
+    },
+    {
+      "locationId": "(-189.260, -0.600, 233.633)",
+      "probability": 0.25,
+      "template": {
+        "Id": "weapon_case_1 [88ea6185-b68c-4035-ad76-234b538818e7]",
+        "IsContainer": false,
+        "useGravity": true,
+        "randomRotation": false,
+        "Position": {
+          "x": -189.26,
+          "y": -0.6,
+          "z": 233.633
+        },
+        "Rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "IsAlwaysSpawn": false,
+        "Root": "6a669b0e54a6e38044f781a1",
+        "Items": [
+          {
+            "_id": "6a669b102fda1aede592c115",
+            "_tpl": "6a66997ad3500a8799dfb257",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      },
+      "itemDistribution": [
+        {
+          "composedKey": {
+            "key": "6a669b12a5dcf9cdc382081c"
+          },
+          "relativeProbability": 1
+        }
+      ]
+    },
+    {
+      "locationId": "(-181.112, -1.866, 232.266)",
+      "probability": 0.25,
+      "template": {
+        "Id": "weapon_case_2 [b608ddbd-078b-4884-a28f-b91e54d378d7]",
+        "IsContainer": false,
+        "useGravity": true,
+        "randomRotation": false,
+        "Position": {
+          "x": -181.112,
+          "y": -1.866,
+          "z": 232.266
+        },
+        "Rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "IsAlwaysSpawn": false,
+        "Root": "6a669bbd367808f51f16e123",
+        "Items": [
+          {
+            "_id": "6a669bbd367808f51f16e123",
+            "_tpl": "6a66997ad3500a8799dfb257",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      },
+      "itemDistribution": [
+        {
+          "composedKey": {
+            "key": "6a669b12a5dcf9cdc382081c"
+          },
+          "relativeProbability": 1
+        }
+      ]
+    },
+    {
+      "locationId": "(-195.357, -1.240, 222.187)",
+      "probability": 0.25,
+      "template": {
+        "Id": "weapon_case_3 [2931368f-cb71-41a8-89d2-6d856cd1f645]",
+        "IsContainer": false,
+        "useGravity": true,
+        "randomRotation": false,
+        "Position": {
+          "x": -195.357,
+          "y": -1.24,
+          "z": 222.187
+        },
+        "Rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "IsAlwaysSpawn": false,
+        "Root": "6a669bb6a5ec93e304b4fa90",
+        "Items": [
+          {
+            "_id": "6a669bb6a5ec93e304b4fa90",
+            "_tpl": "6a66997ad3500a8799dfb257",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      },
+      "itemDistribution": [
+        {
+          "composedKey": {
+            "key": "6a669bba53a2c44db112415e"
+          },
+          "relativeProbability": 1
+        }
+      ]
+    },
+    {
+      "locationId": "(-270.693, 8.951, -415.655)",
+      "probability": 0.25,
+      "template": {
+        "Id": "aishi_tg_doc1 [95220631-fc55-460a-8b5f-f3fc61f367a5]",
+        "IsContainer": false,
+        "useGravity": true,
+        "randomRotation": false,
+        "Position": {
+          "x": -270.693,
+          "y": 8.951,
+          "z": -415.655
+        },
+        "Rotation": {
+          "x": -270.693,
+          "y": 8.951,
+          "z": -415.655
+        },
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "IsAlwaysSpawn": false,
+        "Root": "6a6aca00f64e51a1cf631020",
+        "Items": [
+          {
+            "_id": "6a6aca00f64e51a1cf631020",
+            "_tpl": "6a6a208a35e0f5860094fa3d",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      },
+      "itemDistribution": [
+        {
+          "composedKey": {
+            "key": "6a6aca050b0ac01395ca8a44"
+          },
+          "relativeProbability": 1
+        }
+      ]
+    },
+    {
+      "locationId": "(-271.101, 8.550, -417.720)",
+      "probability": 0.25,
+      "template": {
+        "Id": "aishi_tg_doc2 [6b036bbe-7f4f-4a5c-9ed0-7f1dea60773d]",
+        "IsContainer": false,
+        "useGravity": true,
+        "randomRotation": false,
+        "Position": {
+          "x": -271.101,
+          "y": 8.55,
+          "z": -417.72
+        },
+        "Rotation": {
+          "x": 87.538,
+          "y": 356.506,
+          "z": 353.79
+        },
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "IsAlwaysSpawn": false,
+        "Root": "6a6aca50f63f5cb369d1a29e",
+        "Items": [
+          {
+            "_id": "6a6aca50f63f5cb369d1a29e",
+            "_tpl": "6a699b061078d7158cd6fc79",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      },
+      "itemDistribution": [
+        {
+          "composedKey": {
+            "key": "6a6aca537078a99350c296fa"
+          },
+          "relativeProbability": 1
+        }
+      ]
+    },
+    {
+      "locationId": "(-271.248, 8.457, -414.811)",
+      "probability": 0.25,
+      "template": {
+        "Id": "aishi_tg_doc3 [dc5cdf60-97ba-4524-9f52-d34e7230ffaa]",
+        "IsContainer": false,
+        "useGravity": true,
+        "randomRotation": false,
+        "Position": {
+          "x": -271.248,
+          "y": 8.654,
+          "z": -414.811
+        },
+        "Rotation": {
+          "x": 87.376,
+          "y": 6.874,
+          "z": 0.013
+        },
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "IsAlwaysSpawn": false,
+        "Root": "6a6aca9cbfbc5ff42a3d6aab",
+        "Items": [
+          {
+            "_id": "6a6aca9cbfbc5ff42a3d6aab",
+            "_tpl": "6a6980af9994a65e2f0f7a55",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      },
+      "itemDistribution": [
+        {
+          "composedKey": {
+            "key": "6a6acaa058c2b4e1a6777b90"
+          },
+          "relativeProbability": 1
+        }
+      ]
+    }
+  ]
 }

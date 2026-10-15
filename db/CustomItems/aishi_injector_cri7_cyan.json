@@ -1,0 +1,38 @@
+{
+  "282e86b6bc2955c6998fea9f": {
+    "itemTplToClone": "637b620db7afa97bfc3d7009",
+    "parentId": "5448f3a64bdc2d60728b456a",
+    "handbookParentId": "5b47574386f77428ca22b33a",
+    "overrideProperties": {
+      "ExaminedByDefault": false,
+      "Prefab": {
+        "path": "equipment/injector_cri7_cyan/item_stimulator_trimadol_loot_cri7_cyan.bundle",
+        "rcid": ""
+      },
+      "UsePrefab": {
+        "path": "equipment/injector_cri7_cyan/item_stimulator_trimadol_container.bundle",
+        "rcid": ""
+      },
+      "StimulatorBuffs": "AishiCyanRestoration",
+      "effects_health": {},
+      "effects_damage": {},
+      "MaxHpResource": 2
+    },
+    "locales": {
+      "en": {
+        "name": "BONE-02 Restorative Stimulant Injector",
+        "shortName": "BONE-02",
+        "description": "An experimental injector developed by researchers at Zhejiang University in China. The BONE-02 is a stimulant capable of accelerating tissue regeneration and repairing fractured bones. It is ideal for use on severely injured limbs."
+      },
+      "po": {
+        "name": "Injetor Restaurador BONE-02",
+        "shortName": "BONE-02",
+        "description": "Um injector experimental desenvolvido por pesquisadores da Universidade de Zhejiang na China. O BONE-02 é um estimulante capaz de acelerar a regeneração de tecidos e regenerar ossos fraturados. Perfeito para utilização em membros do corpo muito feridos."
+      }
+    },
+    "handbookPriceRoubles": 125000,
+    "fleaPriceRoubles": 125000,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false
+  }
+}

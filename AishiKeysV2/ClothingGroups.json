@@ -1,0 +1,371 @@
+{
+  "Enabled": true,
+  "Groups": [
+    {
+      "Name": "Black Division Squad Leader",
+      "SuiteIds": [
+        "69b625e0f5004560bb2d14f0",
+        "18c4b9a4f8165cda8e77ba93",
+        "e1640a0606a954d3bb7a2cf2",
+        "edfeb1973417508e9ce01467",
+        "69b62408bd67015fb9280147",
+        "d2d888b48d6e51539c94f3e7",
+        "e8d13de25c3f5acbbd441735",
+        "4765c3540f655819af282222",
+        "7915971e72b651df8da6e957",
+        "4be3434fbf415498ab43da6b",
+        "2fa4643d869c5fac985a7ebd",
+        "9f1efad5a530557abd6ef845",
+        "1fad331aa3e9507f88f83fc6",
+        "ddba5186516f5076af36b694",
+        "b1438721218f5aa6b73bc718",
+        "13fed14b7d1f520fad6b89e5",
+        "d36264834c145d70b1ab3ea2",
+        "4c0d60c4569450ad9ee28c5b",
+        "f38646e9c9e85a888f4e762b",
+        "a18ff77409a059ada201c6ab",
+        "4724b37dab3c5722bdc14e06"
+      ]
+    },
+    {
+      "Name": "Black Division Specialist Operative",
+      "SuiteIds": [
+        "69b626600d9e0b27bda01ce7",
+        "45184e9b81fb5355bf9f7304",
+        "c1f5990bef995f109d5ba422",
+        "06c28b69c43b59299ca5356f",
+        "69b6241abd88cfbaaf3c0e2c",
+        "db8ae2e15cfb52a1ba56adaa",
+        "06a4a3abcd4a5c8fbef39d53",
+        "e5d0d3f709fe584790411f1b",
+        "12042dadca2456d78f746db7",
+        "b69e5670e71a5321adc62f2b",
+        "0fb68046c72859b2b1705170",
+        "c7a8a1bd65545604bde0dd81",
+        "38375e56f68d59a281cc345f",
+        "4c97ee1f964c5b48be7b1a95",
+        "e5a9b98c05945879b4d231eb",
+        "b23e5e942c2a53159bda43cc",
+        "1872ce84f96d5586b5b10b92",
+        "8e6481bb7589544d9513b6c3",
+        "07f32b9c2d405bf483f2c639",
+        "c90e5c91864b5c078f0cfb81",
+        "391fb137d2a95b8db46a395e"
+      ]
+    },
+    {
+      "Name": "Black Division Scout Operative",
+      "SuiteIds": [
+        "69b62667aa93b5fd5d9a0eac",
+        "0d63f6f1c75b50b18fc497b9",
+        "f0e33d1732ff5a5098e1d7e7",
+        "f54216b28d715fad8b3ac7c1",
+        "69b6246b935fbbf49ea1a1a0",
+        "1481bfa57efa556fa5ee3e43",
+        "19c81b3139745fbe87d359a6",
+        "9bc873b68e4a5ec58612f17a",
+        "ac2aa88218e65ff590fb196a",
+        "26271a72e29b535fbc7727b0",
+        "30ca97e4b0365fb39daac1da",
+        "63c9f5a72edf5c789df64982",
+        "f9dbdc5c44ac5cc289da121f",
+        "8b84eb91cbd155d6a4139d9f",
+        "4081c6da1fd65c129162be3e",
+        "5537355472fb57b7b0e3dbf7",
+        "4ca5ec6ce4115d4a8db0c601",
+        "b9252908e3a75564ab600335",
+        "1311f8ea1de552d0a04263b1",
+        "9c892443a287506285e4431b",
+        "0a1f493b2ebc5487b7504ff3"
+      ]
+    },
+    {
+      "Name": "Black Division Heavy Operative",
+      "SuiteIds": [
+        "69b6266d56793144284a6184",
+        "8c718dbda41f50c69a017b0b",
+        "f1b41f9461485410ad1c2311",
+        "1f0f219592eb5d9e9bd6c80a",
+        "69b624ad3293aecae666223e",
+        "9618dbc8823a5cad8dc7826a",
+        "1ff762f3c46c5d3f831e4402",
+        "3a9f15dd3a5c594a93cfbfbe",
+        "b31304560a93580ab278de47",
+        "b5fd5abc1ec9583082af4a38",
+        "3a3996a3ebe95a98a636c500",
+        "f6e94164f35d5e8d94fa810a",
+        "fda688834c835731b1a1e5e1",
+        "355832d5b3f5554d937e289f",
+        "5d560d5321375a32b4b6c586",
+        "aba49c25084a5f5c8ec4a1d5",
+        "1668250d7cad554da681f632",
+        "49249272e64a544582b9cdb2",
+        "e3749cd4b4e554a8b5708e77",
+        "d5ae152dee2f5a2b9784d7fe",
+        "c8922403d8795fe59f739acf"
+      ]
+    },
+    {
+      "Name": "Black Division Nocturnal",
+      "SuiteIds": [
+        "6a8bb3ba915969c9813f8040",
+        "2e534212626c5d2eb0392bc4",
+        "6a8bb47bebd1c4435c940058",
+        "6e0426e7ce1b54c9896b8ec5",
+        "0f930ae2a7b654f4800d3ec4",
+        "b07920a34a515f21b8683ef2",
+        "97b483b4e2cd518ab8b951da",
+        "b3ee6fe49f39593a9e40a232",
+        "9af51766208351588cbdbacb",
+        "62ccbe7d9c6257e599bedac7",
+        "f2b6dfc5f7a45ae982c16084",
+        "afaacb2210ee572f8b533b48",
+        "3999b6640c7e5bf99d41d3b5",
+        "4d5837ad35b55e06a573b5c1",
+        "487d7f751ab6556988120ed9"
+      ]
+    },
+    {
+      "Name": "Black Division Scorpion",
+      "SuiteIds": [
+        "6a8bb5835547b8e7ef6a9323",
+        "09a561016b9d5d03bd2f34e0",
+        "6a8bb5ae0fef82242540dccf",
+        "2214bd3904765e5ea9bb011d",
+        "d499aff4c4e752fba1f615cc",
+        "d327895d6be7532a8d0644f7",
+        "8adff4e6abf55877a2fac4e2",
+        "d1ace63805095861b8dc6670",
+        "9d081769a18b5c0cbba3e662",
+        "2a0ab4388bd15fa8a3baae1d",
+        "6af1b6e0eaa75273a5de7197",
+        "4e770efea3e25bcbaa0ac72e",
+        "1efb943bcf9b59ce8ef65ea5",
+        "577d9d6587825f719d69850d",
+        "481f3f862d1b507486167edc"
+      ]
+    },
+    {
+      "Name": "MTF Epsilon-11 Nine-Tailed Fox",
+      "SuiteIds": [
+        "124c04e708d00826d0244e65",
+        "b5a2a8bf9963567cb6fc18a5",
+        "b7c765cf52f1f4af94543a76",
+        "1516b19890445cd9b7dceac4"
+      ]
+    },
+    {
+      "Name": "MTF Alpha-1 Red Right Hand",
+      "SuiteIds": [
+        "ac06eba13c3f0cb47f99bbbd",
+        "ce4d4ba7317d5f3bad64a199",
+        "8e00cb5a8fe19fe03d54acab",
+        "4ed8d567efec59a5b63a2907"
+      ]
+    },
+    {
+      "Name": "Black Division Red Right Hand",
+      "SuiteIds": [
+        "8dfc951bd3e279190a161fcc",
+        "57c0e04f799754e18fec818d",
+        "5e7222d20edbd732573f0142",
+        "2d2bc180e2f251abaf0e4ae8",
+        "c0c3d46d700d575bb183136d",
+        "e0084404fd2d596aa0147385",
+        "f0f16c5bf4ee51b7b1642930",
+        "28c64679b0b65b6cafce7831",
+        "0f69f3d066c85090bd96d5a9",
+        "4188fba859c051e79d0e37a9",
+        "971335eb590450cfbd2997f7",
+        "5431de7cd653533db44acc15",
+        "d9076286a4c05ba9b8b75377",
+        "8ea777e7b10b55168dc5a2e6",
+        "8c34d2fa2cf95cddb740ac3f"
+      ]
+    },
+    {
+      "Name": "Black Division Defector - Squad Leader",
+      "SuiteIds": [
+        "69fac4019f225637638f0819",
+        "6a3f1956080aab5ba0e76dc4",
+        "6a2f66e0d735b2472d12fff7"
+      ]
+    },
+    {
+      "Name": "White Tusks",
+      "SuiteIds": [
+        "69e945fadf2575af720e59a4",
+        "69e95ac079841b54ca397fe3",
+        "69e961a4bc7177e6288c1d38",
+        "615f210d8b6c486b8036c4f8",
+        "69e9438291f3244722513a32",
+        "69e95545b2043c936df86ff4",
+        "69e96185a1551294ebd4994b",
+        "6a4c43efd4aa0402ad7437b4",
+        "6a4c44d36cc38e9db91bb969",
+        "6f3b0e324bd038d1e1d8141e",
+        "d5fddab80f4f4a218bd0851f",
+        "b6eace2010145abbbd8287d9",
+        "c10a0c541a47b6bf180dc8f0",
+        "07bc7d6224f4756264124857"
+      ]
+    },
+    {
+      "Name": "Goons",
+      "SuiteIds": [
+        "69f5317807224670e00610ab",
+        "69f54e1bd2e671111a2aaccb",
+        "6a2df4de88cef00b4dd0f6c4",
+        "6a2df4f86a7f45858f3e59e1",
+        "6a2df504703ffaf5c01f92a7",
+        "69f501aabb8b24b5342e45b1",
+        "69f54e0ba88fe4200941f527",
+        "69f55793b94ee0b50bbead9d",
+        "69f5589cf0ddf2834e092bfb",
+        "6a2df306475990d8dd58d4e3",
+        "6a2df36026b471aedc57ce48",
+        "6a2df40d2f6ccbe0c55eefce"
+      ]
+    },
+    {
+      "Name": "ISB Team Leaders",
+      "SuiteIds": [
+        "6a179eb1129e302865319e97",
+        "6a2230f51f0ae72229315852",
+        "6a0d16ca143fcdbbddc7594c",
+        "6a2c8e83792e12df3a52d611",
+        "6a0dc5770d976029af435922",
+        "6a179e3d31ecadf25019162a",
+        "6a179e6c7bf73c4d9d6741d4",
+        "6a2c9204eb3ef08a22f0d72a",
+        "6a2f1ad72aad6bc664b56057",
+        "eaab25722756ba2968e181b4",
+        "e34020084fed486f37ad6aaa",
+        "84ac107d4300998297af5b3d",
+        "f0e69186991e63ea7a986743",
+        "5868a8ca14ff1eaf69403825",
+        "cbabe395e81deb8bc286c6dd"
+      ]
+    },
+    {
+      "Name": "USEC ISB BOSS Delta MC",
+      "SuiteIds": [
+        "6a0896f70ff650df4b0a732a",
+        "6a3e08ef5baf844f58faa2d4",
+        "c356a93e2bc75dc091db04ca",
+        "f6afdc1c6c9257aaab050b7a",
+        "87ff2f31262e59f192406daa",
+        "a855fc3cf5ce512593e03395",
+        "d56d4517c6b0507e9e304069",
+        "0c42fd5081bb5ed293c7d7fe"
+      ]
+    },
+    {
+      "Name": "USEC ISB Camouflage",
+      "SuiteIds": [
+        "69b64eced9c55407d3093a5f",
+        "69b64e914b4e6f12948aa754",
+        "6a51bb9b8ac498e0b3c8f61f",
+        "6a3ecea6cbfe25d5e8e965aa",
+        "9a9c8e7576a85fef98336986",
+        "c10784ca26175e9891e7e458",
+        "89a2a0e83da3578c80de1b43",
+        "82a3b11ac573557aa2018485",
+        "bb8fa73fb02a57d39e8443ab",
+        "1935696fda1b524abae2b5e3",
+        "aeb56bf47a4a5a20b16f8617",
+        "d0aaf0fdfa255968aacd630f",
+        "cce29c00a3015f1b907cd250",
+        "45ae421dadbd5151a5a51052",
+        "cd6b1202580552739d9fab0b"
+      ]
+    },
+    {
+      "Name": "The Desert 6",
+      "SuiteIds": [
+        "6a9f50d2acc9da7a627b8814",
+        "6a9f508b5f2ec058c20c5da6",
+        "ea0c17807642546682b14920",
+        "292fb6dee3f65ea3998cb789"
+      ]
+    },
+    {
+      "Name": "Unit of Hope",
+      "SuiteIds": [
+        "a083303ee044a3b13ef9f33a",
+        "c2f6a310e2a0cee9345238f0",
+        "12da8300a205cbcd8e4c14cf",
+        "75722f5b39439f36a8f9d7c3",
+        "7567e8c9dab6da5f84ea0e0b",
+        "fd1d67f0b59ddd0717a42389",
+        "3be743299b70c381dfc7a598",
+        "19bf7940b3d2b5ec38109dd6",
+        "fef14bea011fafb6e9a6bd2c",
+        "5cd89e2a77de2841538a3d0f",
+        "ae6f0742a2e5231eebb65c00",
+        "f5321ef7d4400aadef1fb63d",
+        "417ddd476822f13863f31d86",
+        "04e7b9db07f26e0d5841c6a2"
+      ]
+    },
+    {
+      "Name": "ISB JUGGERNAUT",
+      "SuiteIds": [
+        "d6eb65835e4f5ca6a759eecd",
+        "a4e52b6470065a86a2364192",
+        "b30106da093272ee7f8d42e2",
+        "75a8026625a2a94104295f25"
+      ]
+    },
+    {
+      "Name": "Black Division Woman",
+      "SuiteIds": [
+        "1dd245300d8bd98d13bf3048",
+        "1e7c03f352ff5f2988b5cfd8",
+        "56cbf798691e1ce2e56eeac3",
+        "e5e202c582d4c695124cb399",
+        "f5329dc3d1aefdfbafc7a8b5",
+        "132d5560602c319c3982d0e1",
+        "d03b299c20fc8eb6c060317b",
+        "a9516e41713fb169d4fa4692",
+        "3364d86cc306c944628640f4",
+        "931e591e7ae35c440b1416d5",
+        "1a250d82ef53d62aa4a906b6",
+        "7443fa46f9c98880c0845077",
+        "791122cac05075c6a0ef1877",
+        "b9bcdc012ff6d8d975115347",
+        "5b0ecc890321996e4c8dc412",
+        "86c561b1506ae31a5141474c",
+        "d782f88d6073170054e856a0",
+        "68fbb7ccbef16086eb3b770a",
+        "6af1867d3e512492ef1e4c1f",
+        "65fbb30c3eb7fa693b49604a",
+        "a731c65619adcba6c215ff44"
+      ]
+    },
+    {
+      "Name": "Champion Scourge",
+      "SuiteIds": [
+        "826e4522e9c2525689d17d72",
+        "fdd3022bcbc05181a39d5850",
+        "65d379b6d80b53f09cbefff9",
+        "6fd8eca234055b68a6a3abc6",
+        "14dd5340910950d3a161b3e4",
+        "f0877edd884b5e73a4920bb5"
+      ]
+    },
+    {
+      "Name": "Unit Of Hope Casuals",
+      "SuiteIds": [
+        "05884711070c594033b58779",
+        "0a0a6e3c9899ad0ca3b7c104",
+        "0ce83c73700bb6bea9dee95e",
+        "4d240c387f740bf0da82b5a6",
+        "a30c7a81c35f8184903942a3",
+        "b375fd2ea116cbe55a590228",
+        "c4180206cfe85abf1bc85b32",
+        "fafc7270d41dfbc0a736202a"
+      ]
+    }
+  ]
+}

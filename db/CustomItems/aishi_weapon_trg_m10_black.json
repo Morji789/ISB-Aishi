@@ -1,0 +1,1398 @@
+{
+  "4092989d8b8c5eb1845f0414": {
+    "itemTplToClone": "67405e3b83ac5c69ae025406",
+    "parentId": "555ef6e44bdc2de9068b457e",
+    "handbookParentId": "5b5f75c686f774094242f19f",
+    "overrideProperties": {
+      "Name": "Sako TRG M10 .338 LM 27 inch barrel (Black)",
+      "CanSellOnRagfair": false,
+      "Prefab": {
+        "path": "aishiweapons/trg_m10_black/barrel_trg_sako_m10_685mm_86x70_black.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_id": "6ac48e63174d55f29ee9b0b5",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_muzzle",
+          "_parent": "4092989d8b8c5eb1845f0414",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "62812081d23f207deb0ab216",
+                  "612e0d81290d254f5e6b291a",
+                  "5fc23636016cce60e8341b05",
+                  "673f3ef1259f5945d70e43a8",
+                  "673f4046259f5945d70e43ab",
+                  "673f3f5eef7545280c00f026",
+                  "673f3f9840aeca974e0b5c68",
+                  "673f0a9370a3ddcf0d0ee0b8",
+                  "673f0b36536d64240f01acd6"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "ShortName": "M10 27\" .338LM",
+      "Description": "A 27 inch (685mm) .338 Lapua Magnum barrel for the TRG M10 sniper rifle, manufactured by Sako. Black Version."
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "handbookPriceRoubles": 63000,
+    "fleaPriceRoubles": 60767,
+    "locales": {
+      "en": {
+        "name": "Sako TRG M10 .338 LM 27 inch barrel (Black)",
+        "shortName": "M10 27\" .338LM",
+        "description": "A 27 inch (685mm) .338 Lapua Magnum barrel for the TRG M10 sniper rifle, manufactured by Sako. Black Version."
+      },
+      "po": {
+        "name": "Sako TRG M10 .338 LM 27 inch barrel (Black)",
+        "shortName": "M10 27\" .338LM",
+        "description": "A 27 inch (685mm) .338 Lapua Magnum barrel for the TRG M10 sniper rifle, manufactured by Sako. Black Version."
+      }
+    },
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_barrel"
+    ]
+  },
+  "5e4c90030c435c87a667709b": {
+    "itemTplToClone": "67405ef125beb509e8070276",
+    "parentId": "55818a104bdc2db9688b4569",
+    "handbookParentId": "5b5f75e486f77447ec5d7712",
+    "overrideProperties": {
+      "Name": "Sako TRG M10 11 inch handguard assembly (Black)",
+      "CanSellOnRagfair": false,
+      "Prefab": {
+        "path": "aishiweapons/trg_m10_black/handguard_trg_sako_m10_forend_11_inch_black.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_id": "b040944cbe755e25a530002e",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_foregrip",
+          "_parent": "5e4c90030c435c87a667709b",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "673cb81f5b1511adb10cd326"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "f963ed1ad2525bc6ba6019f8",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_sight_front",
+          "_parent": "5e4c90030c435c87a667709b",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ba26b01d4351e0085325a51",
+                  "5dfa3d950dee1b22f862eae0",
+                  "5c17804b2e2216152006c02f",
+                  "5fb6567747ce63734e3fa1dc",
+                  "5bc09a30d4351e00367fb7c8",
+                  "5c18b90d2e2216152142466b",
+                  "5fc0fa362770a0045c59c677",
+                  "5894a73486f77426d259076c",
+                  "55d4af3a4bdc2d972f8b456f"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "aea7217ba82e533699e8c942",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount_000",
+          "_parent": "5e4c90030c435c87a667709b",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "673dd617912f68467c0615b6",
+                  "673dd5f73f92dc7e120d20a9"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "1282bfc9088a59ed96245d4f",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount_001",
+          "_parent": "5e4c90030c435c87a667709b",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "673dd617912f68467c0615b6",
+                  "673dd5f73f92dc7e120d20a9"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "d4e9f4095a3b59a48d3a3078",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_tactical",
+          "_parent": "5e4c90030c435c87a667709b",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a800961159bd4315e3a1657",
+                  "57fd23e32459772d0805bcf1",
+                  "544909bb4bdc2d6f028b4577",
+                  "5c06595c0db834001a66af6c",
+                  "626becf9582c3e319310b837",
+                  "5cc9c20cd7f00c001336c65d",
+                  "6272370ee4013c5d7e31f418",
+                  "6272379924e29f06af4d5ecb",
+                  "5d2369418abbc306c62e0c80",
+                  "5b07dd285acfc4001754240d",
+                  "56def37dd2720bec348b456a",
+                  "5a7b483fe899ef0016170d15",
+                  "61605d88ffa6e502ac5e7eeb",
+                  "5a5f1ce64f39f90b401987bc",
+                  "560d657b4bdc2da74d8b4572",
+                  "5b3a337e5acfc4704b4a19a0",
+                  "5c5952732e2216398b5abda2",
+                  "644a3df63b0b6f03e101e065",
+                  "6644920d49817dc7d505ca71",
+                  "646f6322f43d0c5d62063715",
+                  "57d17e212459775a1179a0f5"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "ShortName": "M10 11\"",
+      "Description": "An 11 inch long handguard assembly for the TRG M10 sniper rifle, equipped with a Finnish interface for mounting additional equipment. Manufactured by Sako. Black Version."
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "handbookPriceRoubles": 19800,
+    "fleaPriceRoubles": 18697,
+    "locales": {
+      "en": {
+        "name": "Sako TRG M10 11 inch handguard assembly (Black)",
+        "shortName": "M10 11\"",
+        "description": "An 11 inch long handguard assembly for the TRG M10 sniper rifle, equipped with a Finnish interface for mounting additional equipment. Manufactured by Sako. Black Version."
+      },
+      "po": {
+        "name": "Sako TRG M10 11 inch handguard assembly (Black)",
+        "shortName": "M10 11\"",
+        "description": "An 11 inch long handguard assembly for the TRG M10 sniper rifle, equipped with a Finnish interface for mounting additional equipment. Manufactured by Sako. Black Version."
+      }
+    },
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_handguard"
+    ]
+  },
+  "7e92c528366a57f2a070ee2d": {
+    "itemTplToClone": "67405fd0812f476fb2020066",
+    "parentId": "55818a104bdc2db9688b4569",
+    "handbookParentId": "5b5f75e486f77447ec5d7712",
+    "overrideProperties": {
+      "Name": "Sako TRG M10 M-LOK 15 inch handguard assembly (Black)",
+      "CanSellOnRagfair": false,
+      "Prefab": {
+        "path": "aishiweapons/trg_m10_black/handguard_trg_sako_m10_forend_m_lok_15_inch_black.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_id": "7a84e8e471f05684a0f1ea1f",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_tactical",
+          "_parent": "7e92c528366a57f2a070ee2d",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "57fd23e32459772d0805bcf1",
+                  "544909bb4bdc2d6f028b4577",
+                  "5d10b49bd7ad1a1a560708b0",
+                  "5c06595c0db834001a66af6c",
+                  "5a7b483fe899ef0016170d15",
+                  "61605d88ffa6e502ac5e7eeb",
+                  "5c5952732e2216398b5abda2",
+                  "644a3df63b0b6f03e101e065"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "beb6856e7efc5168b4c936d1",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_foregrip",
+          "_parent": "7e92c528366a57f2a070ee2d",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "673cb81f5b1511adb10cd326"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "7d6725e860075410972234be",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_sight_front",
+          "_parent": "7e92c528366a57f2a070ee2d",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ba26b01d4351e0085325a51",
+                  "5dfa3d950dee1b22f862eae0",
+                  "5c17804b2e2216152006c02f",
+                  "5fb6567747ce63734e3fa1dc",
+                  "5bc09a30d4351e00367fb7c8",
+                  "5c18b90d2e2216152142466b",
+                  "5fc0fa362770a0045c59c677",
+                  "5894a73486f77426d259076c",
+                  "55d4af3a4bdc2d972f8b456f"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "38b63ab29b3b55939c96cf40",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount_000",
+          "_parent": "7e92c528366a57f2a070ee2d",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "669a6a4a525be1d2d004b8eb",
+                  "6269220d70b6c02e665f2635",
+                  "6269545d0e57f218e4548ca2",
+                  "5b7be47f5acfc400170e2dd2"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "c4a1169127295e57964844a8",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount_001",
+          "_parent": "7e92c528366a57f2a070ee2d",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "669a6a4a525be1d2d004b8eb",
+                  "5b7be47f5acfc400170e2dd2",
+                  "6269220d70b6c02e665f2635",
+                  "6269545d0e57f218e4548ca2"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "62d098a58d0956139f48d743",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount_002",
+          "_parent": "7e92c528366a57f2a070ee2d",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "669a6a4a525be1d2d004b8eb",
+                  "5b7be47f5acfc400170e2dd2",
+                  "671126b049e181972e0681fa",
+                  "6269220d70b6c02e665f2635",
+                  "6269545d0e57f218e4548ca2"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "ShortName": "M10 15\" M-LOK",
+      "Description": "A 15 inch long handguard assembly for the TRG M10 sniper rifle, equipped with an M-LOK interface for mounting additional equipment. Manufactured by Sako. Black Version."
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "handbookPriceRoubles": 22300,
+    "fleaPriceRoubles": 22369,
+    "locales": {
+      "en": {
+        "name": "Sako TRG M10 M-LOK 15 inch handguard assembly (Black)",
+        "shortName": "M10 15\" M-LOK",
+        "description": "A 15 inch long handguard assembly for the TRG M10 sniper rifle, equipped with an M-LOK interface for mounting additional equipment. Manufactured by Sako. Black Version."
+      },
+      "po": {
+        "name": "Sako TRG M10 M-LOK 15 inch handguard assembly (Black)",
+        "shortName": "M10 15\" M-LOK",
+        "description": "A 15 inch long handguard assembly for the TRG M10 sniper rifle, equipped with an M-LOK interface for mounting additional equipment. Manufactured by Sako. Black Version."
+      }
+    },
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_handguard"
+    ]
+  },
+  "dfba67dbc6035b6aa1ebc594": {
+    "itemTplToClone": "673cab3e03c6a20581028bc1",
+    "parentId": "5447b6254bdc2dc3278b4568",
+    "handbookParentId": "5b5f798886f77447ed5636b5",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "aishiweapons/trg_m10_black/weapon_sako_trg_m10_86x70_container_additional_parts_black.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_id": "0769c12d3411546db74b80a3",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_magazine",
+          "_parent": "dfba67dbc6035b6aa1ebc594",
+          "_props": {
+            "filters": [
+              {
+                "AnimationIndex": 0,
+                "Filter": [
+                  "673cbdfad0453ba50c0f76d6",
+                  "b512d0c7c1ba54c2b6a011cc"
+                ]
+              }
+            ]
+          },
+          "_proto": "55d30c394bdc2dae468b4577",
+          "_required": false
+        },
+        {
+          "_id": "318a1dd2319a5d62b6a4b9cd",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_charge",
+          "_parent": "dfba67dbc6035b6aa1ebc594",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "673cb4054ff4aa8f86076f4a",
+                  "43d4f16d00055c6aac21ce70"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "21a5665eb2d2587984503149",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_stock",
+          "_parent": "dfba67dbc6035b6aa1ebc594",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "673cb212e695740be0047a46",
+                  "30fe710f5344558eaee2337d"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "88363c6ed5dd50b08dee78bc",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_reciever",
+          "_parent": "dfba67dbc6035b6aa1ebc594",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "673cb491280680de5e02ff36",
+                  "f42d7b1a0fe95756b425f5cf"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        }
+      ],
+      "Chambers": [
+        {
+          "_id": "0f3b0f86dded5cf8b1997198",
+          "_mergeSlotWithChildren": false,
+          "_name": "patron_in_weapon",
+          "_parent": "dfba67dbc6035b6aa1ebc594",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5fc382a9d724d907e2077dab",
+                  "5fc275cf85fd526b824a571a",
+                  "5fc382c1016cce60e8341b20",
+                  "5fc382b6d6fa9c00c571bbc3"
+                ]
+              }
+            ]
+          },
+          "_proto": "55d4af244bdc2d962f8b4571",
+          "_required": false
+        }
+      ],
+      "Name": "Sako TRG M10 .338 LM bolt-action sniper rifle (Black)",
+      "ShortName": "TRG M10",
+      "Description": "The TRG M10 is a precision bolt-action sniper rifle chambered for the .338 Lapua Magnum cartridge. The TRG M10 is an extremely versatile platform: it easily converts from a proper long-range rifle to a more compact weapon. The rifle is designed to be used by army, police and various special forces of several countries. Manufactured by Sako, which is part of Beretta Defense Technologies holding company. Black Version."
+    },
+    "handbookPriceRoubles": 25000,
+    "fleaPriceRoubles": 25000,
+    "locales": {
+      "en": {
+        "name": "Sako TRG M10 .338 LM bolt-action sniper rifle (Black)",
+        "shortName": "TRG M10",
+        "description": "The TRG M10 is a precision bolt-action sniper rifle chambered for the .338 Lapua Magnum cartridge. The TRG M10 is an extremely versatile platform: it easily converts from a proper long-range rifle to a more compact weapon. The rifle is designed to be used by army, police and various special forces of several countries. Manufactured by Sako, which is part of Beretta Defense Technologies holding company. Black Version."
+      },
+      "po": {
+        "name": "Sako TRG M10 .338 LM bolt-action sniper rifle (Black)",
+        "shortName": "TRG M10",
+        "description": "The TRG M10 is a precision bolt-action sniper rifle chambered for the .338 Lapua Magnum cartridge. The TRG M10 is an extremely versatile platform: it easily converts from a proper long-range rifle to a more compact weapon. The rifle is designed to be used by army, police and various special forces of several countries. Manufactured by Sako, which is part of Beretta Defense Technologies holding company. Black Version."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_id": "9fe66514dca15a99b62ea807",
+        "_type": "Preset",
+        "_changeWeaponName": false,
+        "_name": "TRG Black",
+        "_parent": "d54d43d9cd0e5c92aff964a4",
+        "_items": [
+          {
+            "_id": "d54d43d9cd0e5c92aff964a4",
+            "_tpl": "dfba67dbc6035b6aa1ebc594",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Repairable": {
+                "Durability": 100,
+                "MaxDurability": 100
+              },
+              "FireMode": {
+                "FireMode": "single"
+              },
+              "Foldable": {
+                "Folded": false
+              }
+            }
+          },
+          {
+            "_id": "84e52154d4305975951b30d8",
+            "_tpl": "b512d0c7c1ba54c2b6a011cc",
+            "parentId": "d54d43d9cd0e5c92aff964a4",
+            "slotId": "mod_magazine",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "7ad4f47d06875242a27b35b8",
+            "_tpl": "43d4f16d00055c6aac21ce70",
+            "parentId": "d54d43d9cd0e5c92aff964a4",
+            "slotId": "mod_charge",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "a32e46f5a34b599686f5accb",
+            "_tpl": "30fe710f5344558eaee2337d",
+            "parentId": "d54d43d9cd0e5c92aff964a4",
+            "slotId": "mod_stock",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Foldable": {
+                "Folded": false
+              }
+            }
+          },
+          {
+            "_id": "9bb03a3000a258f49deed021",
+            "_tpl": "f42d7b1a0fe95756b425f5cf",
+            "parentId": "d54d43d9cd0e5c92aff964a4",
+            "slotId": "mod_reciever",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "4877c926a5225136a187d5b4",
+            "_tpl": "7e92c528366a57f2a070ee2d",
+            "parentId": "9bb03a3000a258f49deed021",
+            "slotId": "mod_handguard",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "1e572d25bf025021aeea335e",
+            "_tpl": "67405d760098dcb5940ea1a6",
+            "parentId": "9bb03a3000a258f49deed021",
+            "slotId": "mod_barrel",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "ae24f44091185eb1a603d0be",
+            "_tpl": "0eda7978b58e54cba9a6365c",
+            "parentId": "9bb03a3000a258f49deed021",
+            "slotId": "mod_mount",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "b2f6da5085515aebb8eaed96",
+            "_tpl": "644a3df63b0b6f03e101e065",
+            "parentId": "4877c926a5225136a187d5b4",
+            "slotId": "mod_tactical",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Light": {
+                "IsActive": true,
+                "SelectedMode": 0
+              }
+            }
+          },
+          {
+            "_id": "b072ea3845cc5e0cb8b6da2e",
+            "_tpl": "1b158ebf3aff57a6ab52a812",
+            "parentId": "4877c926a5225136a187d5b4",
+            "slotId": "mod_foregrip",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "c538de5052df5851b43c73ee",
+            "_tpl": "5bc09a30d4351e00367fb7c8",
+            "parentId": "4877c926a5225136a187d5b4",
+            "slotId": "mod_sight_front",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Sight": {
+                "ScopesCurrentCalibPointIndexes": [
+                  0
+                ],
+                "ScopesSelectedModes": [
+                  0
+                ],
+                "SelectedScope": 0,
+                "ScopeZoomValue": 0
+              }
+            }
+          },
+          {
+            "_id": "7fa299e840fb5c658878423e",
+            "_tpl": "6269220d70b6c02e665f2635",
+            "parentId": "4877c926a5225136a187d5b4",
+            "slotId": "mod_mount_000",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "a1e7bb684a2a519bac7177c1",
+            "_tpl": "671126b049e181972e0681fa",
+            "parentId": "4877c926a5225136a187d5b4",
+            "slotId": "mod_mount_002",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "67c9b5a9b91853df8820dc3e",
+            "_tpl": "673f0b36536d64240f01acd6",
+            "parentId": "1e572d25bf025021aeea335e",
+            "slotId": "mod_muzzle",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "6c5295a9190b5408b88526cb",
+            "_tpl": "5c86592b2e2216000e69e77c",
+            "parentId": "ae24f44091185eb1a603d0be",
+            "slotId": "mod_scope",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "3a9d7a0a4db75c00ae780123",
+            "_tpl": "5bc09a18d4351e003562b68e",
+            "parentId": "ae24f44091185eb1a603d0be",
+            "slotId": "mod_sight_rear",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Sight": {
+                "ScopesCurrentCalibPointIndexes": [
+                  0
+                ],
+                "ScopesSelectedModes": [
+                  0
+                ],
+                "SelectedScope": 0,
+                "ScopeZoomValue": 0
+              }
+            }
+          },
+          {
+            "_id": "27827fbe97805cdbb6a9706e",
+            "_tpl": "6a11e1e951f16801020b4061",
+            "parentId": "7fa299e840fb5c658878423e",
+            "slotId": "mod_tactical",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Light": {
+                "IsActive": true,
+                "SelectedMode": 0
+              }
+            }
+          },
+          {
+            "_id": "2f0b9b604f5451fdbbf82ef6",
+            "_tpl": "5888961624597754281f93f3",
+            "parentId": "a1e7bb684a2a519bac7177c1",
+            "slotId": "mod_bipod",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "9b93ca0afa425e2e997abfb6",
+            "_tpl": "6a34b1f7baab2fa3e69fc9ce",
+            "parentId": "6c5295a9190b5408b88526cb",
+            "slotId": "mod_scope",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Sight": {
+                "ScopesCurrentCalibPointIndexes": [
+                  0
+                ],
+                "ScopesSelectedModes": [
+                  0
+                ],
+                "SelectedScope": 0,
+                "ScopeZoomValue": 0
+              }
+            }
+          }
+        ],
+        "_encyclopedia": "dfba67dbc6035b6aa1ebc594"
+      }
+    ]
+  },
+  "30fe710f5344558eaee2337d": {
+    "itemTplToClone": "673cb212e695740be0047a46",
+    "parentId": "55818a594bdc2db9688b456a",
+    "handbookParentId": "5b5f757486f774093e6cb507",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "aishiweapons/trg_m10_black/stock_trg_sako_trg_m10_chassis_std_additional_parts_black.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_id": "4cc6c9d47778558bb0da3314",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount_000",
+          "_parent": "30fe710f5344558eaee2337d",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "673ddbb567c759b3c90e5f76"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "Name": "Sako TRG M10 chassis (Black)",
+      "ShortName": "TRG M10",
+      "Description": "Standard chassis with a folding stock for the TRG M10 sniper rifle, manufactured by Sako. Black Version.",
+      "CanSellOnRagfair": false
+    },
+    "handbookPriceRoubles": 26600,
+    "fleaPriceRoubles": 26600,
+    "locales": {
+      "en": {
+        "name": "Sako TRG M10 chassis (Black)",
+        "shortName": "TRG M10",
+        "description": "Standard chassis with a folding stock for the TRG M10 sniper rifle, manufactured by Sako. Black Version."
+      },
+      "po": {
+        "name": "Sako TRG M10 chassis (Black)",
+        "shortName": "TRG M10",
+        "description": "Standard chassis with a folding stock for the TRG M10 sniper rifle, manufactured by Sako. Black Version."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_stock"
+    ]
+  },
+  "43d4f16d00055c6aac21ce70": {
+    "itemTplToClone": "673cb4054ff4aa8f86076f4a",
+    "parentId": "55818a6f4bdc2db9688b456b",
+    "handbookParentId": "5b5f764186f77447ec5d7714",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "aishiweapons/trg_m10_black/charge_trg_sako_trg_m10_bolt_86x70_additional_parts_black.bundle",
+        "rcid": ""
+      },
+      "Name": "Sako TRG M10 .338 LM bolt assembly (Black)",
+      "ShortName": "M10 .338LM",
+      "Description": "A .338 Lapua Magnum bolt assembly for the Sako TRG M10 sniper rifle. Black Version.",
+      "CanSellOnRagfair": false
+    },
+    "handbookPriceRoubles": 15500,
+    "fleaPriceRoubles": 15500,
+    "locales": {
+      "en": {
+        "name": "Sako TRG M10 .338 LM bolt assembly (Black)",
+        "shortName": "M10 .338LM",
+        "description": "A .338 Lapua Magnum bolt assembly for the Sako TRG M10 sniper rifle. Black Version."
+      },
+      "po": {
+        "name": "Sako TRG M10 .338 LM bolt assembly (Black)",
+        "shortName": "M10 .338LM",
+        "description": "A .338 Lapua Magnum bolt assembly for the Sako TRG M10 sniper rifle. Black Version."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_charge"
+    ]
+  },
+  "f42d7b1a0fe95756b425f5cf": {
+    "itemTplToClone": "673cb491280680de5e02ff36",
+    "parentId": "55818a304bdc2db5418b457d",
+    "handbookParentId": "5b5f764186f77447ec5d7714",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "aishiweapons/trg_m10_black/reciever_trg_sako_trg_m10_std_additional_parts_black.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_id": "6a7291b89ff2555db1dc6aef",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_handguard",
+          "_parent": "f42d7b1a0fe95756b425f5cf",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "673cb5d1280680de5e02ff3b",
+                  "67405ef125beb509e8070276",
+                  "67405fd0812f476fb2020066",
+                  "64084d966cd3504888709c29"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "444291709a835faf808faa24",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_barrel",
+          "_parent": "f42d7b1a0fe95756b425f5cf",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "673cb551093e0ea7fd0b874a",
+                  "67405d760098dcb5940ea1a6",
+                  "67405e3b83ac5c69ae025406"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "8e4e168f448a5e31b4ad97f3",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount",
+          "_parent": "f42d7b1a0fe95756b425f5cf",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "673cb51e093e0ea7fd0b8746",
+                  "0eda7978b58e54cba9a6365c"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "Name": "Sako TRG M10 .338 LM receiver (Black)",
+      "ShortName": "M10 .338LM",
+      "Description": "A standard .338 Lapua Magnum receiver for the TRG M10 sniper rifle. Manufactured by Sako. Black Version.",
+      "CanSellOnRagfair": false
+    },
+    "handbookPriceRoubles": 6300,
+    "fleaPriceRoubles": 6300,
+    "locales": {
+      "en": {
+        "name": "Sako TRG M10 .338 LM receiver (Black)",
+        "shortName": "M10 .338LM",
+        "description": "A standard .338 Lapua Magnum receiver for the TRG M10 sniper rifle. Manufactured by Sako. Black Version."
+      },
+      "po": {
+        "name": "Sako TRG M10 .338 LM receiver (Black)",
+        "shortName": "M10 .338LM",
+        "description": "A standard .338 Lapua Magnum receiver for the TRG M10 sniper rifle. Manufactured by Sako. Black Version."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_reciever"
+    ]
+  },
+  "0eda7978b58e54cba9a6365c": {
+    "itemTplToClone": "673cb51e093e0ea7fd0b8746",
+    "parentId": "55818b224bdc2dde698b456f",
+    "handbookParentId": "5b5f755f86f77447ec5d770e",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "aishiweapons/trg_m10_black/mount_trg_sako_m10_scope_mount_additional_parts_black.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_id": "4b81998a82c25775af4da0c2",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_scope",
+          "_parent": "0eda7978b58e54cba9a6365c",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "57ac965c24597706be5f975c",
+                  "57aca93d2459771f2c7e26db",
+                  "544a3f024bdc2d1d388b4568",
+                  "544a3a774bdc2d3a388b4567",
+                  "5d2dc3e548f035404a1a4798",
+                  "57adff4f24597737f373b6e6",
+                  "5c0517910db83400232ffee5",
+                  "591c4efa86f7741030027726",
+                  "570fd79bd2720bc7458b4583",
+                  "570fd6c2d2720bc6458b457f",
+                  "558022b54bdc2dac148b458d",
+                  "5c07dd120db834001c39092d",
+                  "5c0a2cec0db834001b7ce47d",
+                  "58491f3324597764bc48fa02",
+                  "584924ec24597768f12ae244",
+                  "5b30b0dc5acfc400153b7124",
+                  "6165ac8c290d254f5e6b2f6c",
+                  "60a23797a37c940de7062d02",
+                  "5d2da1e948f035477b1ce2ba",
+                  "5c0505e00db834001b735073",
+                  "609a63b6e2ff132951242d09",
+                  "584984812459776a704a82a6",
+                  "59f9d81586f7744c7506ee62",
+                  "570fd721d2720bc5458b4596",
+                  "57ae0171245977343c27bfcf",
+                  "5dfe6104585a0c3e995c7b82",
+                  "544a3d0a4bdc2d1b388b4567",
+                  "5d1b5e94d7ad1a2b865a96b0",
+                  "609bab8b455afd752b2e6138",
+                  "58d39d3d86f77445bb794ae7",
+                  "616554fe50224f204c1da2aa",
+                  "5c7d55f52e221644f31bff6a",
+                  "616584766ef05c2ce828ef57",
+                  "5b3b6dc75acfc47a8773fb1e",
+                  "615d8d878004cc50514c3233",
+                  "5b2389515acfc4771e1be0c0",
+                  "577d128124597739d65d0e56",
+                  "618b9643526131765025ab35",
+                  "618bab21526131765025ab3f",
+                  "5c86592b2e2216000e69e77c",
+                  "5a37ca54c4a282000d72296a",
+                  "5d0a29fed7ad1a002769ad08",
+                  "5c064c400db834001d23f468",
+                  "58d2664f86f7747fec5834f6",
+                  "57c69dd424597774c03b7bbc",
+                  "5b3b99265acfc4704b4a1afb",
+                  "5aa66a9be5b5b0214e506e89",
+                  "5aa66c72e5b5b00016327c93",
+                  "5c1cdd302e221602b3137250",
+                  "61714b2467085e45ef140b2c",
+                  "6171407e50224f204c1da3c5",
+                  "61713cc4d8e3106d9806c109",
+                  "5b31163c5acfc400153b71cb",
+                  "5a33b652c4a28232996e407c",
+                  "5a33b2c9c4a282000c5a9511",
+                  "59db7eed86f77461f8380365",
+                  "5a1ead28fcdbcb001912fa9f",
+                  "5dff77c759400025ea5150cf",
+                  "626bb8532c923541184624b4",
+                  "62811f461d5df4475f46a332",
+                  "63fc449f5bd61c6cf3784a88",
+                  "6477772ea8a38bb2050ed4db",
+                  "6478641c19d732620e045e17",
+                  "64785e7c19d732620e045e15",
+                  "65392f611406374f82152ba5",
+                  "653931da5db71d30ab1d6296",
+                  "655f13e0a246670fb0373245",
+                  "6567e751a715f85433025998",
+                  "6761759e7ee06333f108bf86",
+                  "67641a851b2899700609901a"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "af4135103f3150a199fd40fa",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_sight_rear",
+          "_parent": "0eda7978b58e54cba9a6365c",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ba26b17d4351e00367f9bdd",
+                  "5dfa3d7ac41b2312ea33362a",
+                  "5c1780312e221602b66cc189",
+                  "5fb6564947ce63734e3fa1da",
+                  "5bc09a18d4351e003562b68e",
+                  "5c18b9192e2216398b5a8104",
+                  "5fc0fa957283c4046c58147e",
+                  "5894a81786f77427140b8347"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "Name": "Sako TRG M10 scope mount (Black)",
+      "ShortName": "M10 SM",
+      "Description": "A universal rail for mounting various sights on the TRG M10 sniper rifle. Manufactured by Sako. Black Version.",
+      "CanSellOnRagfair": false
+    },
+    "handbookPriceRoubles": 2256,
+    "fleaPriceRoubles": 2256,
+    "locales": {
+      "en": {
+        "name": "Sako TRG M10 scope mount (Black)",
+        "shortName": "M10 SM",
+        "description": "A universal rail for mounting various sights on the TRG M10 sniper rifle. Manufactured by Sako. Black Version."
+      },
+      "po": {
+        "name": "Sako TRG M10 scope mount (Black)",
+        "shortName": "M10 SM",
+        "description": "A universal rail for mounting various sights on the TRG M10 sniper rifle. Manufactured by Sako. Black Version."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_mount"
+    ]
+  },
+  "64084d966cd3504888709c29": {
+    "itemTplToClone": "673cb5d1280680de5e02ff3b",
+    "parentId": "55818a104bdc2db9688b4569",
+    "handbookParentId": "5b5f75e486f77447ec5d7712",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "aishiweapons/trg_m10_black/handguard_trg_sako_m10_forend_15_inch_additional_parts_black.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_id": "67abd3e5d5665b1cb1f585af",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_tactical_000",
+          "_parent": "64084d966cd3504888709c29",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "57fd23e32459772d0805bcf1",
+                  "544909bb4bdc2d6f028b4577",
+                  "5d10b49bd7ad1a1a560708b0",
+                  "5c06595c0db834001a66af6c",
+                  "5a7b483fe899ef0016170d15",
+                  "61605d88ffa6e502ac5e7eeb",
+                  "5c5952732e2216398b5abda2",
+                  "644a3df63b0b6f03e101e065"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "8cea3554a62f52a1bcb3af9f",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_foregrip",
+          "_parent": "64084d966cd3504888709c29",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "673cb81f5b1511adb10cd326",
+                  "1b158ebf3aff57a6ab52a812"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "88de51eb2dc55d13bd26db01",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_sight_front",
+          "_parent": "64084d966cd3504888709c29",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ba26b01d4351e0085325a51",
+                  "5dfa3d950dee1b22f862eae0",
+                  "5c17804b2e2216152006c02f",
+                  "5fb6567747ce63734e3fa1dc",
+                  "5bc09a30d4351e00367fb7c8",
+                  "5c18b90d2e2216152142466b",
+                  "5fc0fa362770a0045c59c677",
+                  "5894a73486f77426d259076c",
+                  "55d4af3a4bdc2d972f8b456f"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "ea0e0e2e19e5572e97e0c985",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount_000",
+          "_parent": "64084d966cd3504888709c29",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "673dd617912f68467c0615b6",
+                  "673dd5f73f92dc7e120d20a9"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "a7e94f0f637959619131cf53",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount_001",
+          "_parent": "64084d966cd3504888709c29",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "673dd617912f68467c0615b6",
+                  "673dd5f73f92dc7e120d20a9"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "77b5532eff225b629e128b91",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_tactical_001",
+          "_parent": "64084d966cd3504888709c29",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a800961159bd4315e3a1657",
+                  "57fd23e32459772d0805bcf1",
+                  "544909bb4bdc2d6f028b4577",
+                  "5c06595c0db834001a66af6c",
+                  "626becf9582c3e319310b837",
+                  "5cc9c20cd7f00c001336c65d",
+                  "6272370ee4013c5d7e31f418",
+                  "6272379924e29f06af4d5ecb",
+                  "5d2369418abbc306c62e0c80",
+                  "5b07dd285acfc4001754240d",
+                  "56def37dd2720bec348b456a",
+                  "5a7b483fe899ef0016170d15",
+                  "61605d88ffa6e502ac5e7eeb",
+                  "5a5f1ce64f39f90b401987bc",
+                  "560d657b4bdc2da74d8b4572",
+                  "5b3a337e5acfc4704b4a19a0",
+                  "5c5952732e2216398b5abda2",
+                  "644a3df63b0b6f03e101e065",
+                  "6644920d49817dc7d505ca71",
+                  "646f6322f43d0c5d62063715",
+                  "57d17e212459775a1179a0f5"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "Name": "Sako TRG M10 15 inch handguard assembly (Black)",
+      "ShortName": "M10 15\"",
+      "Description": "A 15 inch long handguard assembly for the TRG M10 sniper rifle, equipped with a Finnish interface for mounting additional equipment. Manufactured by Sako. Black Version.",
+      "CanSellOnRagfair": false
+    },
+    "handbookPriceRoubles": 15650,
+    "fleaPriceRoubles": 44974,
+    "locales": {
+      "en": {
+        "name": "Sako TRG M10 15 inch handguard assembly (Black)",
+        "shortName": "M10 15\"",
+        "description": "A 15 inch long handguard assembly for the TRG M10 sniper rifle, equipped with a Finnish interface for mounting additional equipment. Manufactured by Sako. Black Version."
+      },
+      "po": {
+        "name": "Sako TRG M10 15 inch handguard assembly (Black)",
+        "shortName": "M10 15\"",
+        "description": "A 15 inch long handguard assembly for the TRG M10 sniper rifle, equipped with a Finnish interface for mounting additional equipment. Manufactured by Sako. Black Version."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_handguard"
+    ]
+  },
+  "1b158ebf3aff57a6ab52a812": {
+    "itemTplToClone": "673cb81f5b1511adb10cd326",
+    "parentId": "55818af64bdc2d5b648b4570",
+    "handbookParentId": "5b5f71de86f774093f2ecf13",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "aishiweapons/trg_m10_black/foregrip_trg_sako_m10_base_pad_additional_parts_black.bundle",
+        "rcid": ""
+      },
+      "Name": "Sako TRG M10 grip pad (Black)",
+      "ShortName": "M10 pad",
+      "Description": "A standard-issue padded grip for the TRG M10 sniper rifle, manufactured by Sako. Comes with a hex and torx key set for quick access. Black Version.",
+      "CanSellOnRagfair": false
+    },
+    "handbookPriceRoubles": 2850,
+    "fleaPriceRoubles": 2850,
+    "locales": {
+      "en": {
+        "name": "Sako TRG M10 grip pad (Black)",
+        "shortName": "M10 pad",
+        "description": "A standard-issue padded grip for the TRG M10 sniper rifle, manufactured by Sako. Comes with a hex and torx key set for quick access. Black Version."
+      },
+      "po": {
+        "name": "Sako TRG M10 grip pad (Black)",
+        "shortName": "M10 pad",
+        "description": "A standard-issue padded grip for the TRG M10 sniper rifle, manufactured by Sako. Comes with a hex and torx key set for quick access. Black Version."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_foregrip"
+    ]
+  },
+  "b512d0c7c1ba54c2b6a011cc": {
+    "itemTplToClone": "673cbdfad0453ba50c0f76d6",
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "aishiweapons/trg_m10_black/mag_trg_sako_trg_m10_86x70_8_additional_parts_black.bundle",
+        "rcid": ""
+      },
+      "Cartridges": [
+        {
+          "_id": "4dba06df4e5e549cb1ed7e86",
+          "_max_count": 8,
+          "_name": "cartridges",
+          "_parent": "b512d0c7c1ba54c2b6a011cc",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5fc382a9d724d907e2077dab",
+                  "5fc275cf85fd526b824a571a",
+                  "5fc382c1016cce60e8341b20",
+                  "5fc382b6d6fa9c00c571bbc3"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ],
+      "Name": "Sako TRG M10 .338 LM 8-round magazine (Black)",
+      "ShortName": "M10 .338",
+      "Description": "An 8-round .338 Lapua Magnum magazine for the TRG M10 sniper rifle, manufactured by Sako. Black Version.",
+      "CanSellOnRagfair": false
+    },
+    "handbookPriceRoubles": 9700,
+    "fleaPriceRoubles": 21401,
+    "locales": {
+      "en": {
+        "name": "Sako TRG M10 .338 LM 8-round magazine (Black)",
+        "shortName": "M10 .338",
+        "description": "An 8-round .338 Lapua Magnum magazine for the TRG M10 sniper rifle, manufactured by Sako. Black Version."
+      },
+      "po": {
+        "name": "Sako TRG M10 .338 LM 8-round magazine (Black)",
+        "shortName": "M10 .338",
+        "description": "Um carregador de 8 munições em .338 Lapua Magnum para o rifle de precisão TRG M10, fabricado pela Sako. Black Version."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_magazine"
+    ]
+  }
+}

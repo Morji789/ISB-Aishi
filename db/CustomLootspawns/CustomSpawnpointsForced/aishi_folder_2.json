@@ -1,45 +1,45 @@
 {
-    "rezervbase": [     
+  "rezervbase": [
+    {
+      "locationId": "(-13.70008 33.67949 168.7725)",
+      "probability": 0.25,
+      "template": {
+        "Id": "692d310cbdf122e5296a2c12",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": -13.70008,
+          "y": 33.67949,
+          "z": 168.7725
+        },
+        "Rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "IsAlwaysSpawn": false,
+        "Root": "692d310cbdf122e5296a2c12",
+        "Items": [
+          {
+            "_id": "692d311fea84690095b37f8a",
+            "_tpl": "692d302aa11c340bc5198946",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      },
+      "itemDistribution": [
         {
-            "locationId": "(-13.70008 33.67949 168.7725)",
-            "probability": 0.25,
-            "template": {
-                "Id": "692d310cbdf122e5296a2c12",
-                "IsContainer": false,
-                "useGravity": false,
-                "randomRotation": false,
-                "Position": {
-                    "x": -13.70008,
-                    "y": 33.67949,
-                    "z": 168.7725
-                },
-                "Rotation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                },
-                "IsGroupPosition": false,
-                "GroupPositions": [],
-                "IsAlwaysSpawn": false,
-                "Root": "692d310cbdf122e5296a2c12",
-                "Items": [
-                    {
-                        "_id": "692d311fea84690095b37f8a",
-                        "_tpl": "692d302aa11c340bc5198946",
-                        "upd": {
-                            "StackObjectsCount": 1
-                        }
-                    }
-                ]
-            },
-            "itemDistribution": [
-                {
-                    "composedKey": {
-                        "key": "692d302aa11c340bc5198946"
-                    },
-                    "relativeProbability": 1
-                }
-            ]
+          "composedKey": {
+            "key": "692d302aa11c340bc5198946"
+          },
+          "relativeProbability": 1
         }
-    ]
+      ]
+    }
+  ]
 }

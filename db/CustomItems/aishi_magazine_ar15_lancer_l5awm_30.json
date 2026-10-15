@@ -1,0 +1,150 @@
+{
+  "3b6f7e56416a5fb8b502dc91": {
+    "itemTplToClone": "6a1579bfb507e45a68038d7f",
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "overrideProperties": {
+      "Name": "AR-15 5.56x45 Lancer L5 AWM 30-round magazine (Tape)",
+      "Prefab": {
+        "path": "aishiweapons/magazines/ar15_lancer_l5awm_30_tan_tape/mag_stanag_lancer_l5_awm_556x45_30_tan_tape.bundle",
+        "rcid": ""
+      },
+      "Cartridges": [
+        {
+          "_name": "cartridges",
+          "_id": "8fc24706356b528f97deb2b2",
+          "_parent": "3b6f7e56416a5fb8b502dc91",
+          "_max_count": 30,
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "59e6920f86f77411d82aa167",
+                  "59e6927d86f77411da468256",
+                  "54527a984bdc2d4e668b4567",
+                  "54527ac44bdc2d36668b4567",
+                  "59e68f6f86f7746c9f75e846",
+                  "59e6906286f7746c9f75e847",
+                  "59e690b686f7746c9f75e848",
+                  "59e6918f86f7746c9f75e849",
+                  "60194943740c5d77f6705eea",
+                  "601949593ae8f707c4608daa",
+                  "5c0d5ae286f7741e46554302",
+                  "5fbe3ffdf8b6a877a729ea82",
+                  "5fd20ff893a8961fc660a954",
+                  "619636be6db0f2477964e710",
+                  "6196364158ef8c428c287d9f",
+                  "6196365d58ef8c428c287da1",
+                  "64b8725c4b75259c590fa899"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ],
+      "BackgroundColor": "yellow",
+      "ShortName": "L5 AWM",
+      "Description": "A 30-round polymer Lancer L5 AWM (Advanced Warfighter Magazine) magazine, for 5.56x45 ammunition. Tape Version. Change the tape color from the magazine menu in your stash.",
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": true
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_magazine"
+    ],
+    "locales": {
+      "en": {
+        "name": "AR-15 5.56x45 Lancer L5 AWM 30-round magazine (Tape)",
+        "shortName": "L5 AWM",
+        "description": "A 30-round polymer Lancer L5 AWM (Advanced Warfighter Magazine) magazine, for 5.56x45 ammunition. Tape Version. Change the tape color from the magazine menu in your stash."
+      },
+      "po": {
+        "name": "AR-15 5.56x45 Lancer L5 AWM 30-round magazine (Tape)",
+        "shortName": "L5 AWM",
+        "description": "A 30-round polymer Lancer L5 AWM (Advanced Warfighter Magazine) magazine, for 5.56x45 ammunition. Tape Version. Change the tape color from the magazine menu in your stash."
+      }
+    },
+    "handbookPriceRoubles": 3233,
+    "fleaPriceRoubles": 7112
+  },
+  "d71bf3f7b2635ef59a897f17": {
+    "itemTplToClone": "6a1579afcbb8d0c82606c541",
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "overrideProperties": {
+      "Name": "AR-15 5.56x45 Lancer L5 AWM 30-round magazine (Tape)",
+      "Prefab": {
+        "path": "aishiweapons/magazines/ar15_lancer_l5awm_30_tape/mag_stanag_lancer_l5_awm_556x45_30_tape.bundle",
+        "rcid": ""
+      },
+      "Cartridges": [
+        {
+          "_name": "cartridges",
+          "_id": "d1e1859d40c3576e8e9b68eb",
+          "_parent": "d71bf3f7b2635ef59a897f17",
+          "_max_count": 30,
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "59e6920f86f77411d82aa167",
+                  "59e6927d86f77411da468256",
+                  "54527a984bdc2d4e668b4567",
+                  "54527ac44bdc2d36668b4567",
+                  "59e68f6f86f7746c9f75e846",
+                  "59e6906286f7746c9f75e847",
+                  "59e690b686f7746c9f75e848",
+                  "59e6918f86f7746c9f75e849",
+                  "60194943740c5d77f6705eea",
+                  "601949593ae8f707c4608daa",
+                  "5c0d5ae286f7741e46554302",
+                  "5fbe3ffdf8b6a877a729ea82",
+                  "5fd20ff893a8961fc660a954",
+                  "619636be6db0f2477964e710",
+                  "6196364158ef8c428c287d9f",
+                  "6196365d58ef8c428c287da1",
+                  "64b8725c4b75259c590fa899"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ],
+      "BackgroundColor": "yellow",
+      "ShortName": "L5 AWM",
+      "Description": "A 30-round polymer Lancer L5 AWM (Advanced Warfighter Magazine) magazine, for 5.56x45 ammunition. Tape Version. Change the tape color from the magazine menu in your stash.",
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": true
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_magazine"
+    ],
+    "locales": {
+      "en": {
+        "name": "AR-15 5.56x45 Lancer L5 AWM 30-round magazine (Tape)",
+        "shortName": "L5 AWM",
+        "description": "A 30-round polymer Lancer L5 AWM (Advanced Warfighter Magazine) magazine, for 5.56x45 ammunition. Tape Version. Change the tape color from the magazine menu in your stash."
+      },
+      "po": {
+        "name": "AR-15 5.56x45 Lancer L5 AWM 30-round magazine (Tape)",
+        "shortName": "L5 AWM",
+        "description": "A 30-round polymer Lancer L5 AWM (Advanced Warfighter Magazine) magazine, for 5.56x45 ammunition. Tape Version. Change the tape color from the magazine menu in your stash."
+      }
+    },
+    "handbookPriceRoubles": 3233,
+    "fleaPriceRoubles": 7112
+  }
+}

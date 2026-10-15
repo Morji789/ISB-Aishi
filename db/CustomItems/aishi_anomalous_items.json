@@ -1,0 +1,981 @@
+{
+  "b27508815b9307ccd1bffa36": {
+    "itemTplToClone": "637b620db7afa97bfc3d7009",
+    "parentId": "5448f3a64bdc2d60728b456a",
+    "handbookParentId": "5b47574386f77428ca22b33a",
+    "overrideProperties": {
+      "ExaminedByDefault": false,
+      "Prefab": {
+        "path": "equipment/anomalous_items/item_stimulator_anomalous_loot.bundle",
+        "rcid": ""
+      },
+      "UsePrefab": {
+        "path": "equipment/anomalous_items/item_stimulator_anomalous_container.bundle",
+        "rcid": ""
+      },
+      "StimulatorBuffs": "AishiAnomalyAegis",
+      "effects_health": {},
+      "effects_damage": {},
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
+    },
+    "locales": {
+      "en": {
+        "name": "KTE 952",
+        "shortName": "KTE 952",
+        "description": "<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 952</b></color>\n<size=90%>TerraGroup research • Unknown properties.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 952</b></color>\n<size=90%><color=#B2B9B5>PROPERTIES IDENTIFIED • REPORT BELOW</color></size></align>\n\nAfter injection.\n\n<color=#E88888><b>Negative effects:</b></color>\nNone found.\n\n<color=#92CAA1><b>Positive effects:</b></color>\n• Reduces incoming damage by 40% for 5 minutes."
+      },
+      "po": {
+        "name": "KTE 952",
+        "shortName": "KTE 952",
+        "description": "<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 952</b></color>\n<size=90%>Pesquisa TerraGroup • Propriedades desconhecidas.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 952</b></color>\n<size=90%><color=#B2B9B5>PROPRIEDADES IDENTIFICADAS • RELATÓRIO ABAIXO</color></size></align>\n\nApós a injeção.\n\n<color=#E88888><b>Efeitos negativos:</b></color>\nNão encontrado.\n\n<color=#92CAA1><b>Efeitos positivos:</b></color>\n• Reduz o dano recebido em 40% por 5 minutos."
+      }
+    },
+    "handbookPriceRoubles": 726000,
+    "fleaPriceRoubles": 2420000,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "addtoItemBlacklist": true,
+    "addtoSecureFilters": false,
+    "addtoSpecialSlots": false
+  },
+  "1800c994e11cfa35b423e8ed": {
+    "itemTplToClone": "637b620db7afa97bfc3d7009",
+    "parentId": "5448f3a64bdc2d60728b456a",
+    "handbookParentId": "5b47574386f77428ca22b33a",
+    "overrideProperties": {
+      "ExaminedByDefault": false,
+      "Prefab": {
+        "path": "equipment/anomalous_items/item_stimulator_anomalous_loot.bundle",
+        "rcid": ""
+      },
+      "UsePrefab": {
+        "path": "equipment/anomalous_items/item_stimulator_anomalous_container.bundle",
+        "rcid": ""
+      },
+      "StimulatorBuffs": "AishiAnomalyInertia",
+      "effects_health": {},
+      "effects_damage": {},
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
+    },
+    "locales": {
+      "en": {
+        "name": "KTE 070",
+        "shortName": "KTE 070",
+        "description": "<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 070</b></color>\n<size=90%>TerraGroup research • Unknown properties.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 070</b></color>\n<size=90%><color=#B2B9B5>PROPERTIES IDENTIFIED • REPORT BELOW</color></size></align>\n\nAfter injection.\n\n<color=#E88888><b>Negative effects:</b></color>\n• Reduces movement speed by 20% for 5 minutes.\n\n<color=#92CAA1><b>Positive effects:</b></color>\nNone found."
+      },
+      "po": {
+        "name": "KTE 070",
+        "shortName": "KTE 070",
+        "description": "<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 070</b></color>\n<size=90%>Pesquisa TerraGroup • Propriedades desconhecidas.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 070</b></color>\n<size=90%><color=#B2B9B5>PROPRIEDADES IDENTIFICADAS • RELATÓRIO ABAIXO</color></size></align>\n\nApós a injeção.\n\n<color=#E88888><b>Efeitos negativos:</b></color>\n• Reduz a velocidade de movimento em 20% por 5 minutos.\n\n<color=#92CAA1><b>Efeitos positivos:</b></color>\nNão encontrado."
+      }
+    },
+    "handbookPriceRoubles": 290400,
+    "fleaPriceRoubles": 968000,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "addtoItemBlacklist": true,
+    "addtoSecureFilters": false,
+    "addtoSpecialSlots": false
+  },
+  "6183f2a51cb013b5ab62a796": {
+    "itemTplToClone": "69f9d319c906cd16da03b374",
+    "parentId": "5795f317245977243854e041",
+    "handbookParentId": "5b5f6fa186f77409407a7eb7",
+    "overrideProperties": {
+      "ExaminedByDefault": false,
+      "Prefab": {
+        "path": "equipment/anomalous_items/sheef/item_anomalous_sheef.bundle",
+        "rcid": ""
+      },
+      "Grids": [
+        {
+          "_name": "main",
+          "_id": "1f39c704e914e0bd7c1ff6bd",
+          "_parent": "6183f2a51cb013b5ab62a796",
+          "_props": {
+            "filters": [
+              {
+                "ExcludedFilter": [],
+                "Filter": [
+                  "59faff1d86f7746c51718c9c",
+                  "5d235b4d86f7742e017bc88a",
+                  "68f119c6121d878a2303eee3",
+                  "68f11adfcd0babab2c0fb003",
+                  "69dd0de23dfe95d9e70b5ebb"
+                ]
+              }
+            ],
+            "cellsH": 4,
+            "cellsV": 4,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        }
+      ],
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnsaleable": false
+    },
+    "locales": {
+      "en": {
+        "name": "KTE 076",
+        "shortName": "KTE 076",
+        "description": "<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 076</b></color>\n<size=90%>TerraGroup research • Unknown properties.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 076</b></color>\n<size=90%><color=#B2B9B5>PROPERTIES IDENTIFIED • REPORT BELOW</color></size></align>\n\nWhile carried in the inventory.\n\n<color=#E88888><b>Negative effects:</b></color>\n• Deals 2 total damage per second to one randomly selected non-destroyed body part.\n\n<color=#92CAA1><b>Positive effects:</b></color>\nNone found."
+      },
+      "po": {
+        "name": "KTE 076",
+        "shortName": "KTE 076",
+        "description": "<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 076</b></color>\n<size=90%>Pesquisa TerraGroup • Propriedades desconhecidas.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 076</b></color>\n<size=90%><color=#B2B9B5>PROPRIEDADES IDENTIFICADAS • RELATÓRIO ABAIXO</color></size></align>\n\nEnquanto carregado no inventário.\n\n<color=#E88888><b>Efeitos negativos:</b></color>\n• Causa 2 de dano total por segundo em uma parte do corpo não destruída, escolhida aleatoriamente.\n\n<color=#92CAA1><b>Efeitos positivos:</b></color>\nNão encontrado."
+      }
+    },
+    "handbookPriceRoubles": 290400,
+    "fleaPriceRoubles": 968000,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "addtoItemBlacklist": true,
+    "addtoSecureFilters": false,
+    "addtoSpecialSlots": false
+  },
+  "fac4f1a658ad562cddde72c6": {
+    "itemTplToClone": "6937edb912d456a817083e82",
+    "parentId": "57864a3d24597754843f8721",
+    "handbookParentId": "5b47574386f77428ca22b2f1",
+    "overrideProperties": {
+      "ExaminedByDefault": false,
+      "Prefab": {
+        "path": "equipment/anomalous_items/weight/item_anomalous_weight.bundle",
+        "rcid": ""
+      },
+      "Weight": 1,
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnsaleable": false
+    },
+    "locales": {
+      "en": {
+        "name": "KTE 722",
+        "shortName": "KTE 722",
+        "description": "<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 722</b></color>\n<size=90%>TerraGroup research • Unknown properties.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 722</b></color>\n<size=90%><color=#B2B9B5>PROPERTIES IDENTIFIED • REPORT BELOW</color></size></align>\n\nWhile carried in the inventory.\n\n<color=#E88888><b>Negative effects:</b></color>\nNone found.\n\n<color=#92CAA1><b>Positive effects:</b></color>\n• Restores 50 stamina per second.\n• Reduced weight: 1 kg."
+      },
+      "po": {
+        "name": "KTE 722",
+        "shortName": "KTE 722",
+        "description": "<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 722</b></color>\n<size=90%>Pesquisa TerraGroup • Propriedades desconhecidas.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 722</b></color>\n<size=90%><color=#B2B9B5>PROPRIEDADES IDENTIFICADAS • RELATÓRIO ABAIXO</color></size></align>\n\nEnquanto carregado no inventário.\n\n<color=#E88888><b>Efeitos negativos:</b></color>\nNão encontrado.\n\n<color=#92CAA1><b>Efeitos positivos:</b></color>\n• Recupera 50 de stamina por segundo.\n• Peso reduzido: 1 kg."
+      }
+    },
+    "handbookPriceRoubles": 2541000,
+    "fleaPriceRoubles": 8470000,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "addtoItemBlacklist": true,
+    "addtoSecureFilters": false,
+    "addtoSpecialSlots": false
+  },
+  "72eb2bb2416ee48ee80d63d4": {
+    "itemTplToClone": "66b37ea4c5d72b0277488439",
+    "parentId": "57864a3d24597754843f8721",
+    "handbookParentId": "5b47574386f77428ca22b2f1",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "equipment/anomalous_items/kunai/item_anomalous_kunai.bundle",
+        "rcid": ""
+      },
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
+    },
+    "locales": {
+      "en": {
+        "name": "KTE 598",
+        "shortName": "KTE 598",
+        "description": "<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 598</b></color>\n<size=90%>TerraGroup research • Unknown properties.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 598</b></color>\n<size=90%><color=#B2B9B5>PROPERTIES IDENTIFIED • REPORT BELOW</color></size></align>\n\nWhile carried in the inventory.\n\n<color=#E88888><b>Negative effects:</b></color>\nNone found.\n\n<color=#92CAA1><b>Positive effects:</b></color>\n• Increases damage dealt by 30%."
+      },
+      "po": {
+        "name": "KTE 598",
+        "shortName": "KTE 598",
+        "description": "<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 598</b></color>\n<size=90%>Pesquisa TerraGroup • Propriedades desconhecidas.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 598</b></color>\n<size=90%><color=#B2B9B5>PROPRIEDADES IDENTIFICADAS • RELATÓRIO ABAIXO</color></size></align>\n\nEnquanto carregado no inventário.\n\n<color=#E88888><b>Efeitos negativos:</b></color>\nNão encontrado.\n\n<color=#92CAA1><b>Efeitos positivos:</b></color>\n• Aumenta o dano causado em 30%."
+      }
+    },
+    "handbookPriceRoubles": 1815000,
+    "fleaPriceRoubles": 6050000,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "addtoItemBlacklist": true,
+    "addtoSecureFilters": false,
+    "addtoSpecialSlots": false
+  },
+  "a38cbf3abbfdcbedaa1b9a0e": {
+    "itemTplToClone": "66b37eb4acff495a29492407",
+    "parentId": "57864a3d24597754843f8721",
+    "handbookParentId": "5b47574386f77428ca22b2f1",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "equipment/anomalous_items/sneaker/item_anomalous_sneaker.bundle",
+        "rcid": ""
+      },
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
+    },
+    "locales": {
+      "en": {
+        "name": "KTE 949",
+        "shortName": "KTE 949",
+        "description": "<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 949</b></color>\n<size=90%>TerraGroup research • Unknown properties.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 949</b></color>\n<size=90%><color=#B2B9B5>PROPERTIES IDENTIFIED • REPORT BELOW</color></size></align>\n\nWhile carried in the inventory.\n\n<color=#E88888><b>Negative effects:</b></color>\nNone found.\n\n<color=#92CAA1><b>Positive effects:</b></color>\n• Increases jump height by 50%."
+      },
+      "po": {
+        "name": "KTE 949",
+        "shortName": "KTE 949",
+        "description": "<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 949</b></color>\n<size=90%>Pesquisa TerraGroup • Propriedades desconhecidas.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 949</b></color>\n<size=90%><color=#B2B9B5>PROPRIEDADES IDENTIFICADAS • RELATÓRIO ABAIXO</color></size></align>\n\nEnquanto carregado no inventário.\n\n<color=#E88888><b>Efeitos negativos:</b></color>\nNão encontrado.\n\n<color=#92CAA1><b>Efeitos positivos:</b></color>\n• Aumenta a altura do salto em 50%."
+      }
+    },
+    "handbookPriceRoubles": 653400,
+    "fleaPriceRoubles": 2178000,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "addtoItemBlacklist": true,
+    "addtoSecureFilters": false,
+    "addtoSpecialSlots": false
+  },
+  "b543125009b989d7287b58ab": {
+    "itemTplToClone": "62a091170b9d3c46de5b6cf2",
+    "parentId": "57864a3d24597754843f8721",
+    "handbookParentId": "5b47574386f77428ca22b2f1",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "equipment/anomalous_items/parrot/item_anomalous_parrot.bundle",
+        "rcid": ""
+      },
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
+    },
+    "locales": {
+      "en": {
+        "name": "KTE 540",
+        "shortName": "KTE 540",
+        "description": "<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 540</b></color>\n<size=90%>TerraGroup research • Unknown properties.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 540</b></color>\n<size=90%><color=#B2B9B5>PROPERTIES IDENTIFIED • REPORT BELOW</color></size></align>\n\nWhile carried in the inventory.\n\n<color=#E88888><b>Negative effects:</b></color>\n• Deals 3 damage to each body part per second.\n\n<color=#92CAA1><b>Positive effects:</b></color>\nNone found."
+      },
+      "po": {
+        "name": "KTE 540",
+        "shortName": "KTE 540",
+        "description": "<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 540</b></color>\n<size=90%>Pesquisa TerraGroup • Propriedades desconhecidas.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 540</b></color>\n<size=90%><color=#B2B9B5>PROPRIEDADES IDENTIFICADAS • RELATÓRIO ABAIXO</color></size></align>\n\nEnquanto carregado no inventário.\n\n<color=#E88888><b>Efeitos negativos:</b></color>\n• Causa 3 de dano em cada parte do corpo por segundo.\n\n<color=#92CAA1><b>Efeitos positivos:</b></color>\nNão encontrado."
+      }
+    },
+    "handbookPriceRoubles": 290400,
+    "fleaPriceRoubles": 968000,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "addtoItemBlacklist": true,
+    "addtoSecureFilters": false,
+    "addtoSpecialSlots": false
+  },
+  "9644da05612ad219e7fc4387": {
+    "itemTplToClone": "62a08f4c4f842e1bd12d9d62",
+    "parentId": "590c745b86f7743cc433c5f2",
+    "handbookParentId": "5b47574386f77428ca22b2f4",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "equipment/anomalous_items/bear/item_anomalous_bear.bundle",
+        "rcid": ""
+      },
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
+    },
+    "locales": {
+      "en": {
+        "name": "KTE 135",
+        "shortName": "KTE 135",
+        "description": "<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 135</b></color>\n<size=90%>TerraGroup research • Unknown properties.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 135</b></color>\n<size=90%><color=#B2B9B5>PROPERTIES IDENTIFIED • REPORT BELOW</color></size></align>\n\nWhile carried in the inventory.\n\n<color=#E88888><b>Negative effects:</b></color>\n• Drains 1 energy per second.\n• Drains 1 hydration per second.\n\n<color=#92CAA1><b>Positive effects:</b></color>\nNone found."
+      },
+      "po": {
+        "name": "KTE 135",
+        "shortName": "KTE 135",
+        "description": "<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 135</b></color>\n<size=90%>Pesquisa TerraGroup • Propriedades desconhecidas.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 135</b></color>\n<size=90%><color=#B2B9B5>PROPRIEDADES IDENTIFICADAS • RELATÓRIO ABAIXO</color></size></align>\n\nEnquanto carregado no inventário.\n\n<color=#E88888><b>Efeitos negativos:</b></color>\n• Consome 1 de energia por segundo.\n• Consome 1 de hidratação por segundo.\n\n<color=#92CAA1><b>Efeitos positivos:</b></color>\nNão encontrado."
+      }
+    },
+    "handbookPriceRoubles": 290400,
+    "fleaPriceRoubles": 968000,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "addtoItemBlacklist": true,
+    "addtoSecureFilters": false,
+    "addtoSpecialSlots": false
+  },
+  "cd19a7a32ec3820a6ea48800": {
+    "itemTplToClone": "62a09e08de7ac81993580532",
+    "parentId": "5a341c4686f77469e155819e",
+    "handbookParentId": "5b47574386f77428ca22b32f",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "equipment/anomalous_items/mask/item_anomalous_mask.bundle",
+        "rcid": ""
+      },
+      "CanSellOnRagfair": false,
+      "armorClass": "5",
+      "Durability": 70,
+      "MaxDurability": 70,
+      "CanRequireOnRagfair": false
+    },
+    "locales": {
+      "en": {
+        "name": "KTE 636",
+        "shortName": "KTE 636",
+        "description": "<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 636</b></color>\n<size=90%>TerraGroup research • Unknown properties.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 636</b></color>\n<size=90%><color=#B2B9B5>PROPERTIES IDENTIFIED • REPORT BELOW</color></size></align>\n\nWhile equipped on the face.\n\n<color=#E88888><b>Negative effects:</b></color>\n• Blacks out vision for 0.5 seconds every 10 seconds.\n\n<color=#92CAA1><b>Positive effects:</b></color>\nNone found."
+      },
+      "po": {
+        "name": "KTE 636",
+        "shortName": "KTE 636",
+        "description": "<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 636</b></color>\n<size=90%>Pesquisa TerraGroup • Propriedades desconhecidas.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 636</b></color>\n<size=90%><color=#B2B9B5>PROPRIEDADES IDENTIFICADAS • RELATÓRIO ABAIXO</color></size></align>\n\nEnquanto equipada no rosto.\n\n<color=#E88888><b>Efeitos negativos:</b></color>\n• Escurece a visão por 0,5 segundo a cada 10 segundos.\n\n<color=#92CAA1><b>Efeitos positivos:</b></color>\nNão encontrado."
+      }
+    },
+    "handbookPriceRoubles": 290400,
+    "fleaPriceRoubles": 968000,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "addtoItemBlacklist": true,
+    "addtoSecureFilters": false,
+    "addtoSpecialSlots": false
+  },
+  "1254eb68d298789e43b45ed3": {
+    "itemTplToClone": "5e54f62086f774219b0f1937",
+    "parentId": "57864a3d24597754843f8721",
+    "handbookParentId": "5b47574386f77428ca22b2f1",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "equipment/anomalous_items/raven/item_anomalous_raven.bundle",
+        "rcid": ""
+      },
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
+    },
+    "locales": {
+      "en": {
+        "name": "KTE 044",
+        "shortName": "KTE 044",
+        "description": "<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 044</b></color>\n<size=90%>TerraGroup research • Unknown properties.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 044</b></color>\n<size=90%><color=#B2B9B5>PROPERTIES IDENTIFIED • REPORT BELOW</color></size></align>\n\nWhile carried in the inventory.\n\n<color=#E88888><b>Negative effects:</b></color>\n• Deals 2 total damage per second to one randomly selected non-destroyed body part.\n\n<color=#92CAA1><b>Positive effects:</b></color>\n• Increases weight limits by 100%.\n• Restores 5 stamina per second."
+      },
+      "po": {
+        "name": "KTE 044",
+        "shortName": "KTE 044",
+        "description": "<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 044</b></color>\n<size=90%>Pesquisa TerraGroup • Propriedades desconhecidas.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 044</b></color>\n<size=90%><color=#B2B9B5>PROPRIEDADES IDENTIFICADAS • RELATÓRIO ABAIXO</color></size></align>\n\nEnquanto carregado no inventário.\n\n<color=#E88888><b>Efeitos negativos:</b></color>\n• Causa 2 de dano total por segundo em uma parte do corpo não destruída, escolhida aleatoriamente.\n\n<color=#92CAA1><b>Efeitos positivos:</b></color>\n• Aumenta os limites de peso em 100%.\n• Recupera 5 de stamina por segundo."
+      }
+    },
+    "handbookPriceRoubles": 871200,
+    "fleaPriceRoubles": 2904000,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "addtoItemBlacklist": true,
+    "addtoSecureFilters": false,
+    "addtoSpecialSlots": false
+  },
+  "36be503998aadd53701c57e3": {
+    "itemTplToClone": "637b620db7afa97bfc3d7009",
+    "parentId": "5448f3a64bdc2d60728b456a",
+    "handbookParentId": "5b47574386f77428ca22b33a",
+    "overrideProperties": {
+      "ExaminedByDefault": false,
+      "Prefab": {
+        "path": "equipment/anomalous_items/item_stimulator_anomalous_loot.bundle",
+        "rcid": ""
+      },
+      "UsePrefab": {
+        "path": "equipment/anomalous_items/item_stimulator_anomalous_container.bundle",
+        "rcid": ""
+      },
+      "StimulatorBuffs": "AishiAnomalyPanic",
+      "effects_health": {},
+      "effects_damage": {},
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
+    },
+    "locales": {
+      "en": {
+        "name": "KTE 652",
+        "shortName": "KTE 652",
+        "description": "<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 652</b></color>\n<size=90%>TerraGroup research • Unknown properties.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 652</b></color>\n<size=90%><color=#B2B9B5>PROPERTIES IDENTIFIED • REPORT BELOW</color></size></align>\n\nAfter injection.\n\n<color=#E88888><b>Negative effects:</b></color>\n• Causes tremor for 1 minute.\n• Causes blurred vision for 1 minute.\n• Drains 5 stamina per second for 1 minute.\n\n<color=#92CAA1><b>Positive effects:</b></color>\nNone found."
+      },
+      "po": {
+        "name": "KTE 652",
+        "shortName": "KTE 652",
+        "description": "<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 652</b></color>\n<size=90%>Pesquisa TerraGroup • Propriedades desconhecidas.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 652</b></color>\n<size=90%><color=#B2B9B5>PROPRIEDADES IDENTIFICADAS • RELATÓRIO ABAIXO</color></size></align>\n\nApós a injeção.\n\n<color=#E88888><b>Efeitos negativos:</b></color>\n• Causa tremor por 1 minuto.\n• Causa visão turva por 1 minuto.\n• Consome 5 de stamina por segundo durante 1 minuto.\n\n<color=#92CAA1><b>Efeitos positivos:</b></color>\nNão encontrado."
+      }
+    },
+    "handbookPriceRoubles": 290400,
+    "fleaPriceRoubles": 968000,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "addtoItemBlacklist": true,
+    "addtoSecureFilters": false,
+    "addtoSpecialSlots": false
+  },
+  "f131c988930a86c7e5610c57": {
+    "itemTplToClone": "637b620db7afa97bfc3d7009",
+    "parentId": "5448f3a64bdc2d60728b456a",
+    "handbookParentId": "5b47574386f77428ca22b33a",
+    "overrideProperties": {
+      "ExaminedByDefault": false,
+      "Prefab": {
+        "path": "equipment/anomalous_items/item_stimulator_anomalous_loot.bundle",
+        "rcid": ""
+      },
+      "UsePrefab": {
+        "path": "equipment/anomalous_items/item_stimulator_anomalous_container.bundle",
+        "rcid": ""
+      },
+      "StimulatorBuffs": "AishiAnomalySurge",
+      "effects_health": {},
+      "effects_damage": {},
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
+    },
+    "locales": {
+      "en": {
+        "name": "KTE 665",
+        "shortName": "KTE 665",
+        "description": "<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 665</b></color>\n<size=90%>TerraGroup research • Unknown properties.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 665</b></color>\n<size=90%><color=#B2B9B5>PROPERTIES IDENTIFIED • REPORT BELOW</color></size></align>\n\nAfter injection.\n\n<color=#E88888><b>Negative effects:</b></color>\n• Deals 1.5 damage to each body part per second for 5 minutes.\n\n<color=#92CAA1><b>Positive effects:</b></color>\n• Restores 100 stamina per second for 5 minutes."
+      },
+      "po": {
+        "name": "KTE 665",
+        "shortName": "KTE 665",
+        "description": "<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 665</b></color>\n<size=90%>Pesquisa TerraGroup • Propriedades desconhecidas.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 665</b></color>\n<size=90%><color=#B2B9B5>PROPRIEDADES IDENTIFICADAS • RELATÓRIO ABAIXO</color></size></align>\n\nApós a injeção.\n\n<color=#E88888><b>Efeitos negativos:</b></color>\n• Causa 1,5 de dano em cada parte do corpo por segundo durante 5 minutos.\n\n<color=#92CAA1><b>Efeitos positivos:</b></color>\n• Recupera 100 de stamina por segundo durante 5 minutos."
+      }
+    },
+    "handbookPriceRoubles": 435600,
+    "fleaPriceRoubles": 1452000,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "addtoItemBlacklist": true,
+    "addtoSecureFilters": false,
+    "addtoSpecialSlots": false
+  },
+  "45e6cfe53aabe0b5e846cad5": {
+    "itemTplToClone": "5e2af29386f7746d4159f077",
+    "parentId": "57864ada245977548638de91",
+    "handbookParentId": "5b47574386f77428ca22b2ee",
+    "handbookPriceRoubles": 290400,
+    "fleaPriceRoubles": 968000,
+    "overrideProperties": {
+      "ExaminedByDefault": false,
+      "Prefab": {
+        "path": "equipment/anomalous_items/tape/item_anomalous_tape.bundle",
+        "rcid": ""
+      },
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
+    },
+    "locales": {
+      "en": {
+        "name": "KTE 876",
+        "shortName": "KTE 876",
+        "description": "<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 876</b></color>\n<size=90%>TerraGroup research • Unknown properties.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 876</b></color>\n<size=90%><color=#B2B9B5>PROPERTIES IDENTIFIED • REPORT BELOW</color></size></align>\n\nWhile carried in the inventory during a raid.\n\n<color=#E88888><b>Negative effects:</b></color>\n• Prevents jumping.\n\n<color=#92CAA1><b>Positive effects:</b></color>\nNone found."
+      },
+      "po": {
+        "name": "KTE 876",
+        "shortName": "KTE 876",
+        "description": "<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 876</b></color>\n<size=90%>Pesquisa TerraGroup • Propriedades desconhecidas.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 876</b></color>\n<size=90%><color=#B2B9B5>PROPRIEDADES IDENTIFICADAS • RELATÓRIO ABAIXO</color></size></align>\n\nEnquanto carregado no inventário durante a raid.\n\n<color=#E88888><b>Efeitos negativos:</b></color>\n• Impede o jogador de pular.\n\n<color=#92CAA1><b>Efeitos positivos:</b></color>\nNão encontrado."
+      }
+    },
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "addtoItemBlacklist": true,
+    "addtoSecureFilters": false,
+    "addtoSpecialSlots": false
+  },
+  "9df4b9812799170d2f7295f7": {
+    "itemTplToClone": "590de71386f774347051a052",
+    "parentId": "57864a3d24597754843f8721",
+    "handbookParentId": "5b47574386f77428ca22b2f1",
+    "handbookPriceRoubles": 2904000,
+    "fleaPriceRoubles": 9680000,
+    "overrideProperties": {
+      "ExaminedByDefault": false,
+      "Prefab": {
+        "path": "equipment/anomalous_items/teapot/item_anomalous_teapot.bundle",
+        "rcid": ""
+      },
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
+    },
+    "locales": {
+      "en": {
+        "name": "KTE 166",
+        "shortName": "KTE 166",
+        "description": "<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 166</b></color>\n<size=90%>TerraGroup research • Unknown properties.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 166</b></color>\n<size=90%><color=#B2B9B5>PROPERTIES IDENTIFIED • REPORT BELOW</color></size></align>\n\nWhile carried in the inventory during a raid.\n\n<color=#E88888><b>Negative effects:</b></color>\nNone found.\n\n<color=#92CAA1><b>Positive effects:</b></color>\n• Restores 1 HP to each non-destroyed body part per second.\n• Each full body part gains 1 additional current and maximum HP per second, up to +50 HP per body part.\n• Bonus maximum health resets after the raid."
+      },
+      "po": {
+        "name": "KTE 166",
+        "shortName": "KTE 166",
+        "description": "<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 166</b></color>\n<size=90%>Pesquisa TerraGroup • Propriedades desconhecidas.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 166</b></color>\n<size=90%><color=#B2B9B5>PROPRIEDADES IDENTIFICADAS • RELATÓRIO ABAIXO</color></size></align>\n\nEnquanto carregado no inventário durante a raid.\n\n<color=#E88888><b>Efeitos negativos:</b></color>\nNão encontrado.\n\n<color=#92CAA1><b>Efeitos positivos:</b></color>\n• Recupera 1 de vida em cada parte do corpo não destruída por segundo.\n• Cada parte com vida cheia ganha 1 de vida atual e máxima adicional por segundo, até +50 por parte.\n• O bônus de vida máxima termina ao encerrar a raid."
+      }
+    },
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "addtoItemBlacklist": true,
+    "addtoSecureFilters": false,
+    "addtoSpecialSlots": false
+  },
+  "57d2c307a64e179e8995e061": {
+    "itemTplToClone": "59e3639286f7741777737013",
+    "parentId": "57864a3d24597754843f8721",
+    "handbookParentId": "5b47574386f77428ca22b2f1",
+    "handbookPriceRoubles": 290400,
+    "fleaPriceRoubles": 968000,
+    "overrideProperties": {
+      "ExaminedByDefault": false,
+      "Prefab": {
+        "path": "equipment/anomalous_items/lion/item_anomalous_lion.bundle",
+        "rcid": ""
+      },
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
+    },
+    "locales": {
+      "en": {
+        "name": "KTE 229",
+        "shortName": "KTE 229",
+        "description": "<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 229</b></color>\n<size=90%>TerraGroup research • Unknown properties.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 229</b></color>\n<size=90%><color=#B2B9B5>PROPERTIES IDENTIFIED • REPORT BELOW</color></size></align>\n\nWhile carried in the inventory during a raid.\n\n<color=#E88888><b>Negative effects:</b></color>\n• Reduces movement speed by 50%.\n\n<color=#92CAA1><b>Positive effects:</b></color>\nNone found."
+      },
+      "po": {
+        "name": "KTE 229",
+        "shortName": "KTE 229",
+        "description": "<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 229</b></color>\n<size=90%>Pesquisa TerraGroup • Propriedades desconhecidas.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 229</b></color>\n<size=90%><color=#B2B9B5>PROPRIEDADES IDENTIFICADAS • RELATÓRIO ABAIXO</color></size></align>\n\nEnquanto carregado no inventário durante a raid.\n\n<color=#E88888><b>Efeitos negativos:</b></color>\n• Reduz a velocidade de movimento em 50%.\n\n<color=#92CAA1><b>Efeitos positivos:</b></color>\nNão encontrado."
+      }
+    },
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "addtoItemBlacklist": true,
+    "addtoSecureFilters": false,
+    "addtoSpecialSlots": false
+  },
+  "90c688feeba7c89aa1a3c8a7": {
+    "itemTplToClone": "5c1267ee86f77416ec610f72",
+    "parentId": "57864a3d24597754843f8721",
+    "handbookParentId": "5b47574386f77428ca22b2f1",
+    "handbookPriceRoubles": 2178000,
+    "fleaPriceRoubles": 7260000,
+    "overrideProperties": {
+      "ExaminedByDefault": false,
+      "CanSellOnRagfair": false,
+      "Prefab": {
+        "path": "equipment/anomalous_items/prokill/item_anomalous_prokill_gold.bundle",
+        "rcid": ""
+      },
+      "CanRequireOnRagfair": false
+    },
+    "locales": {
+      "en": {
+        "name": "KTE 863",
+        "shortName": "KTE 863",
+        "description": "<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 863</b></color>\n<size=90%>TerraGroup research • Unknown properties.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 863</b></color>\n<size=90%><color=#B2B9B5>PROPERTIES IDENTIFIED • REPORT BELOW</color></size></align>\n\nWhile carried in the inventory during a raid.\n\n<color=#E88888><b>Negative effects:</b></color>\n• Consumes 10 energy and 10 hydration every minute.\n\n<color=#92CAA1><b>Positive effects:</b></color>\n• Reduces incoming damage by 50%."
+      },
+      "po": {
+        "name": "KTE 863",
+        "shortName": "KTE 863",
+        "description": "<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 863</b></color>\n<size=90%>Pesquisa TerraGroup • Propriedades desconhecidas.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 863</b></color>\n<size=90%><color=#B2B9B5>PROPRIEDADES IDENTIFICADAS • RELATÓRIO ABAIXO</color></size></align>\n\nEnquanto carregado no inventário durante a raid.\n\n<color=#E88888><b>Efeitos negativos:</b></color>\n• Consome 10 de energia e 10 de hidratação a cada minuto.\n\n<color=#92CAA1><b>Efeitos positivos:</b></color>\n• Reduz o dano recebido em 50%."
+      }
+    },
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "addtoItemBlacklist": true,
+    "addtoSecureFilters": false,
+    "addtoSpecialSlots": false
+  },
+  "4a2e4aaef50cda01112c41b2": {
+    "itemTplToClone": "5d235a5986f77443f6329bc6",
+    "parentId": "57864a3d24597754843f8721",
+    "handbookParentId": "5b47574386f77428ca22b2f1",
+    "handbookPriceRoubles": 1161600,
+    "fleaPriceRoubles": 3872000,
+    "overrideProperties": {
+      "ExaminedByDefault": false,
+      "Prefab": {
+        "path": "equipment/anomalous_items/ring/item_anomalous_ring.bundle",
+        "rcid": ""
+      },
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
+    },
+    "locales": {
+      "en": {
+        "name": "KTE 294",
+        "shortName": "KTE 294",
+        "description": "<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 294</b></color>\n<size=90%>TerraGroup research • Unknown properties.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 294</b></color>\n<size=90%><color=#B2B9B5>PROPERTIES IDENTIFIED • REPORT BELOW</color></size></align>\n\nWhile carried in the inventory during a raid.\n\n<color=#E88888><b>Negative effects:</b></color>\nNone found.\n\n<color=#92CAA1><b>Positive effects:</b></color>\n• Grants night vision without equipped night-vision goggles."
+      },
+      "po": {
+        "name": "KTE 294",
+        "shortName": "KTE 294",
+        "description": "<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 294</b></color>\n<size=90%>Pesquisa TerraGroup • Propriedades desconhecidas.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 294</b></color>\n<size=90%><color=#B2B9B5>PROPRIEDADES IDENTIFICADAS • RELATÓRIO ABAIXO</color></size></align>\n\nEnquanto carregado no inventário durante a raid.\n\n<color=#E88888><b>Efeitos negativos:</b></color>\nNão encontrado.\n\n<color=#92CAA1><b>Efeitos positivos:</b></color>\n• Concede visão noturna sem precisar de um dispositivo de visão noturna equipado."
+      }
+    },
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "addtoItemBlacklist": true,
+    "addtoSecureFilters": false,
+    "addtoSpecialSlots": false
+  },
+  "73cc246044b1d66dd70aedb7": {
+    "itemTplToClone": "69f9d60b5de6674f08060f2a",
+    "parentId": "5448ecbe4bdc2d60728b4568",
+    "handbookParentId": "5b47574386f77428ca22b341",
+    "handbookPriceRoubles": 3630000,
+    "fleaPriceRoubles": 12100000,
+    "overrideProperties": {
+      "ExaminedByDefault": false,
+      "Prefab": {
+        "path": "equipment/anomalous_items/floppy/item_anomalous_floppy.bundle",
+        "rcid": ""
+      },
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false,
+      "IsSpecialSlotOnly": false,
+      "InsuranceDisabled": true,
+      "IsUnsaleable": false
+    },
+    "locales": {
+      "en": {
+        "name": "KTE 218",
+        "shortName": "KTE 218",
+        "description": "<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 218</b></color>\n<size=90%>TerraGroup research • Unknown properties.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 218</b></color>\n<size=90%><color=#B2B9B5>PROPERTIES IDENTIFIED • REPORT BELOW</color></size></align>\n\nWhile carried in the inventory during a raid.\n\n<color=#E88888><b>Negative effects:</b></color>\n• One disk is consumed when this protection activates.\n\n<color=#92CAA1><b>Positive effects:</b></color>\n• On death, preserves all carried equipment and loot for your return from the raid."
+      },
+      "po": {
+        "name": "KTE 218",
+        "shortName": "KTE 218",
+        "description": "<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 218</b></color>\n<size=90%>Pesquisa TerraGroup • Propriedades desconhecidas.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 218</b></color>\n<size=90%><color=#B2B9B5>PROPRIEDADES IDENTIFICADAS • RELATÓRIO ABAIXO</color></size></align>\n\nEnquanto carregado no inventário durante a raid.\n\n<color=#E88888><b>Efeitos negativos:</b></color>\n• Uma unidade do disquete é consumida ao ativar a proteção.\n\n<color=#92CAA1><b>Efeitos positivos:</b></color>\n• Ao morrer, preserva todo o equipamento e loot carregados para o retorno da raid."
+      }
+    },
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "addtoItemBlacklist": true,
+    "addtoSecureFilters": false,
+    "addtoSpecialSlots": false
+  },
+  "06f0d5bdc44c4ddcd0759d31": {
+    "itemTplToClone": "59faff1d86f7746c51718c9c",
+    "parentId": "57864a3d24597754843f8721",
+    "handbookParentId": "5b47574386f77428ca22b2f1",
+    "handbookPriceRoubles": 363000,
+    "fleaPriceRoubles": 1210000,
+    "overrideProperties": {
+      "ExaminedByDefault": false,
+      "Prefab": {
+        "path": "equipment/anomalous_items/bitcoin/item_anomalous_bitcoin.bundle",
+        "rcid": ""
+      },
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
+    },
+    "locales": {
+      "en": {
+        "name": "KTE 664",
+        "shortName": "KTE 664",
+        "description": "<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 664</b></color>\n<size=90%>TerraGroup research • Unknown properties.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 664</b></color>\n<size=90%><color=#B2B9B5>PROPERTIES IDENTIFIED • REPORT BELOW</color></size></align>\n\nWhile carried in the inventory during a raid.\n\n<color=#E88888><b>Negative effects:</b></color>\nNone found.\n\n<color=#92CAA1><b>Positive effects:</b></color>\n• Generates 2 US dollars in the inventory every minute.\n• Generated dollars stack together."
+      },
+      "po": {
+        "name": "KTE 664",
+        "shortName": "KTE 664",
+        "description": "<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 664</b></color>\n<size=90%>Pesquisa TerraGroup • Propriedades desconhecidas.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 664</b></color>\n<size=90%><color=#B2B9B5>PROPRIEDADES IDENTIFICADAS • RELATÓRIO ABAIXO</color></size></align>\n\nEnquanto carregado no inventário durante a raid.\n\n<color=#E88888><b>Efeitos negativos:</b></color>\nNão encontrado.\n\n<color=#92CAA1><b>Efeitos positivos:</b></color>\n• Gera 2 dólares no inventário a cada minuto.\n• Os dólares gerados se acumulam em stacks."
+      }
+    },
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "addtoItemBlacklist": true,
+    "addtoSecureFilters": false,
+    "addtoSpecialSlots": false
+  },
+  "a8d639d499ac25709f630d2c": {
+    "itemTplToClone": "637b620db7afa97bfc3d7009",
+    "parentId": "5448f3a64bdc2d60728b456a",
+    "handbookParentId": "5b47574386f77428ca22b33a",
+    "overrideProperties": {
+      "ExaminedByDefault": false,
+      "Prefab": {
+        "path": "equipment/anomalous_items/item_stimulator_anomalous_loot.bundle",
+        "rcid": ""
+      },
+      "UsePrefab": {
+        "path": "equipment/anomalous_items/item_stimulator_anomalous_container.bundle",
+        "rcid": ""
+      },
+      "StimulatorBuffs": "AishiAnomalyInjector5",
+      "effects_health": {},
+      "effects_damage": {},
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
+    },
+    "locales": {
+      "en": {
+        "name": "KTE 292",
+        "shortName": "KTE 292",
+        "description": "<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 292</b></color>\n<size=90%>TerraGroup research • Unknown properties.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 292</b></color>\n<size=90%><color=#B2B9B5>PROPERTIES IDENTIFIED • REPORT BELOW</color></size></align>\n\nAfter injection.\n\n<color=#E88888><b>Negative effects:</b></color>\n• Causes pain until the end of the raid.\n\n<color=#92CAA1><b>Positive effects:</b></color>\n• Grants thermal vision until the end of the raid."
+      },
+      "po": {
+        "name": "KTE 292",
+        "shortName": "KTE 292",
+        "description": "<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 292</b></color>\n<size=90%>Pesquisa TerraGroup • Propriedades desconhecidas.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 292</b></color>\n<size=90%><color=#B2B9B5>PROPRIEDADES IDENTIFICADAS • RELATÓRIO ABAIXO</color></size></align>\n\nApós a injeção.\n\n<color=#E88888><b>Efeitos negativos:</b></color>\n• Causa dor até o fim da raid.\n\n<color=#92CAA1><b>Efeitos positivos:</b></color>\n• Concede visão térmica até o fim da raid."
+      }
+    },
+    "handbookPriceRoubles": 1089000,
+    "fleaPriceRoubles": 3630000,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "addtoItemBlacklist": true,
+    "addtoSecureFilters": false,
+    "addtoSpecialSlots": false
+  },
+  "922129d70c57a265f61ee8b1": {
+    "itemTplToClone": "637b620db7afa97bfc3d7009",
+    "parentId": "5448f3a64bdc2d60728b456a",
+    "handbookParentId": "5b47574386f77428ca22b33a",
+    "overrideProperties": {
+      "ExaminedByDefault": false,
+      "Prefab": {
+        "path": "equipment/anomalous_items/item_stimulator_anomalous_loot.bundle",
+        "rcid": ""
+      },
+      "UsePrefab": {
+        "path": "equipment/anomalous_items/item_stimulator_anomalous_container.bundle",
+        "rcid": ""
+      },
+      "StimulatorBuffs": "AishiAnomalyInjector6",
+      "effects_health": {},
+      "effects_damage": {},
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
+    },
+    "locales": {
+      "en": {
+        "name": "KTE 663",
+        "shortName": "KTE 663",
+        "description": "<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 663</b></color>\n<size=90%>TerraGroup research • Unknown properties.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 663</b></color>\n<size=90%><color=#B2B9B5>PROPERTIES IDENTIFIED • REPORT BELOW</color></size></align>\n\nAfter injection.\n\n<color=#E88888><b>Negative effects:</b></color>\nNone found.\n\n<color=#92CAA1><b>Positive effects:</b></color>\n• Grants a painkiller effect until the end of the raid."
+      },
+      "po": {
+        "name": "KTE 663",
+        "shortName": "KTE 663",
+        "description": "<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 663</b></color>\n<size=90%>Pesquisa TerraGroup • Propriedades desconhecidas.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 663</b></color>\n<size=90%><color=#B2B9B5>PROPRIEDADES IDENTIFICADAS • RELATÓRIO ABAIXO</color></size></align>\n\nApós a injeção.\n\n<color=#E88888><b>Efeitos negativos:</b></color>\nNão encontrado.\n\n<color=#92CAA1><b>Efeitos positivos:</b></color>\n• Concede efeito de analgésico até o fim da raid."
+      }
+    },
+    "handbookPriceRoubles": 435600,
+    "fleaPriceRoubles": 1452000,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "addtoItemBlacklist": true,
+    "addtoSecureFilters": false,
+    "addtoSpecialSlots": false
+  },
+  "d180bb453e8bb2027c5fa540": {
+    "itemTplToClone": "637b620db7afa97bfc3d7009",
+    "parentId": "5448f3a64bdc2d60728b456a",
+    "handbookParentId": "5b47574386f77428ca22b33a",
+    "overrideProperties": {
+      "ExaminedByDefault": false,
+      "Prefab": {
+        "path": "equipment/anomalous_items/item_stimulator_anomalous_loot.bundle",
+        "rcid": ""
+      },
+      "UsePrefab": {
+        "path": "equipment/anomalous_items/item_stimulator_anomalous_container.bundle",
+        "rcid": ""
+      },
+      "StimulatorBuffs": "AishiAnomalyInjector7",
+      "effects_health": {},
+      "effects_damage": {},
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
+    },
+    "locales": {
+      "en": {
+        "name": "KTE 199",
+        "shortName": "KTE 199",
+        "description": "<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 199</b></color>\n<size=90%>TerraGroup research • Unknown properties.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 199</b></color>\n<size=90%><color=#B2B9B5>PROPERTIES IDENTIFIED • REPORT BELOW</color></size></align>\n\nAfter injection.\n\n<color=#E88888><b>Negative effects:</b></color>\n• Consumes 5 energy and 5 hydration every 5 seconds for 5 minutes.\n\n<color=#92CAA1><b>Positive effects:</b></color>\n• Increases movement speed by 40% for 5 minutes.\n• Increases jump height by 20% for 5 minutes.\n• Restores 1.5 HP to each non-destroyed body part per second for 5 minutes."
+      },
+      "po": {
+        "name": "KTE 199",
+        "shortName": "KTE 199",
+        "description": "<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 199</b></color>\n<size=90%>Pesquisa TerraGroup • Propriedades desconhecidas.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 199</b></color>\n<size=90%><color=#B2B9B5>PROPRIEDADES IDENTIFICADAS • RELATÓRIO ABAIXO</color></size></align>\n\nApós a injeção.\n\n<color=#E88888><b>Efeitos negativos:</b></color>\n• Consome 5 de energia e 5 de hidratação a cada 5 segundos durante 5 minutos.\n\n<color=#92CAA1><b>Efeitos positivos:</b></color>\n• Aumenta a velocidade de movimento em 40% por 5 minutos.\n• Aumenta a altura do salto em 20% por 5 minutos.\n• Recupera 1,5 de vida em cada parte do corpo não destruída por segundo durante 5 minutos."
+      }
+    },
+    "handbookPriceRoubles": 1016400,
+    "fleaPriceRoubles": 3388000,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "addtoItemBlacklist": true,
+    "addtoSecureFilters": false,
+    "addtoSpecialSlots": false
+  },
+  "51574a824fe10af4518191af": {
+    "itemTplToClone": "637b620db7afa97bfc3d7009",
+    "parentId": "5448f3a64bdc2d60728b456a",
+    "handbookParentId": "5b47574386f77428ca22b33a",
+    "overrideProperties": {
+      "ExaminedByDefault": false,
+      "Prefab": {
+        "path": "equipment/anomalous_items/item_stimulator_anomalous_loot.bundle",
+        "rcid": ""
+      },
+      "UsePrefab": {
+        "path": "equipment/anomalous_items/item_stimulator_anomalous_container.bundle",
+        "rcid": ""
+      },
+      "StimulatorBuffs": "AishiAnomalyInjector8",
+      "effects_health": {},
+      "effects_damage": {},
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
+    },
+    "locales": {
+      "en": {
+        "name": "KTE 430",
+        "shortName": "KTE 430",
+        "description": "<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 430</b></color>\n<size=90%>TerraGroup research • Unknown properties.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 430</b></color>\n<size=90%><color=#B2B9B5>PROPERTIES IDENTIFIED • REPORT BELOW</color></size></align>\n\nAfter injection.\n\n<color=#E88888><b>Negative effects:</b></color>\n• Causes pain until the end of the raid.\n\n<color=#92CAA1><b>Positive effects:</b></color>\n• Grants night vision until the end of the raid."
+      },
+      "po": {
+        "name": "KTE 430",
+        "shortName": "KTE 430",
+        "description": "<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 430</b></color>\n<size=90%>Pesquisa TerraGroup • Propriedades desconhecidas.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 430</b></color>\n<size=90%><color=#B2B9B5>PROPRIEDADES IDENTIFICADAS • RELATÓRIO ABAIXO</color></size></align>\n\nApós a injeção.\n\n<color=#E88888><b>Efeitos negativos:</b></color>\n• Causa dor até o fim da raid.\n\n<color=#92CAA1><b>Efeitos positivos:</b></color>\n• Concede visão noturna até o fim da raid."
+      }
+    },
+    "handbookPriceRoubles": 580800,
+    "fleaPriceRoubles": 1936000,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "addtoItemBlacklist": true,
+    "addtoSecureFilters": false,
+    "addtoSpecialSlots": false
+  },
+  "0056a97d873bba252113c74b": {
+    "itemTplToClone": "637b620db7afa97bfc3d7009",
+    "parentId": "5448f3a64bdc2d60728b456a",
+    "handbookParentId": "5b47574386f77428ca22b33a",
+    "overrideProperties": {
+      "ExaminedByDefault": false,
+      "Prefab": {
+        "path": "equipment/anomalous_items/item_stimulator_anomalous_loot.bundle",
+        "rcid": ""
+      },
+      "UsePrefab": {
+        "path": "equipment/anomalous_items/item_stimulator_anomalous_container.bundle",
+        "rcid": ""
+      },
+      "StimulatorBuffs": "AishiAnomalyInjector9",
+      "effects_health": {},
+      "effects_damage": {},
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
+    },
+    "locales": {
+      "en": {
+        "name": "KTE 728",
+        "shortName": "KTE 728",
+        "description": "<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 728</b></color>\n<size=90%>TerraGroup research • Unknown properties.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 728</b></color>\n<size=90%><color=#B2B9B5>PROPERTIES IDENTIFIED • REPORT BELOW</color></size></align>\n\nAfter injection.\n\n<color=#E88888><b>Negative effects:</b></color>\n• Consumes 50 energy and 50 hydration per second for 30 seconds.\n• Reduces movement speed by 50% for 30 seconds.\n• Causes pain and a panic attack for 30 seconds.\n\n<color=#92CAA1><b>Positive effects:</b></color>\nNone found."
+      },
+      "po": {
+        "name": "KTE 728",
+        "shortName": "KTE 728",
+        "description": "<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 728</b></color>\n<size=90%>Pesquisa TerraGroup • Propriedades desconhecidas.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 728</b></color>\n<size=90%><color=#B2B9B5>PROPRIEDADES IDENTIFICADAS • RELATÓRIO ABAIXO</color></size></align>\n\nApós a injeção.\n\n<color=#E88888><b>Efeitos negativos:</b></color>\n• Consome 50 de energia e 50 de hidratação por segundo durante 30 segundos.\n• Reduz a velocidade de movimento em 50% por 30 segundos.\n• Causa dor e ataque de pânico por 30 segundos.\n\n<color=#92CAA1><b>Efeitos positivos:</b></color>\nNão encontrado."
+      }
+    },
+    "handbookPriceRoubles": 290400,
+    "fleaPriceRoubles": 968000,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "addtoItemBlacklist": true,
+    "addtoSecureFilters": false,
+    "addtoSpecialSlots": false
+  },
+  "ae711ed0c5878f74a4264e27": {
+    "itemTplToClone": "655c66e40b2de553b618d4b8",
+    "parentId": "57864a3d24597754843f8721",
+    "handbookParentId": "5b47574386f77428ca22b2f1",
+    "handbookPriceRoubles": 1597200,
+    "fleaPriceRoubles": 5324000,
+    "overrideProperties": {
+      "BackgroundColor": "yellow",
+      "CanSellOnRagfair": false,
+      "Description": "item_barter_tarko_duck",
+      "DiscardLimit": -1,
+      "InsuranceDisabled": true,
+      "Name": "item_barter_tarko_duck",
+      "Prefab": {
+        "path": "equipment/anomalous_items/duck/item_barter_kte_711.bundle",
+        "rcid": ""
+      },
+      "RagfairLevelToTrade": 0,
+      "ShortName": "item_barter_tarko_duck",
+      "MaxResource": 500,
+      "Resource": 500,
+      "CanRequireOnRagfair": false
+    },
+    "locales": {
+      "en": {
+        "name": "KTE 711",
+        "shortName": "KTE 711",
+        "description": "<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 711</b></color>\n<size=90%>TerraGroup research • Unknown properties.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 711</b></color>\n<size=90%><color=#B2B9B5>PROPERTIES IDENTIFIED • REPORT BELOW</color></size></align>\n\nWhile carried in the inventory during a raid.\n\n<color=#E88888><b>Negative effects:</b></color>\nNone found.\n\n<color=#92CAA1><b>Positive effects:</b></color>\n• Reduces incoming damage by 50%.\n• Restores 1 HP per second to each intact body part.\n• Restores 1 stamina per second.\n• Absorbs up to 500 damage. The item disappears when its charge runs out.\n• Remaining charge persists between raids."
+      },
+      "po": {
+        "name": "KTE 711",
+        "shortName": "KTE 711",
+        "description": "<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 711</b></color>\n<size=90%>Pesquisa TerraGroup • Propriedades desconhecidas.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 711</b></color>\n<size=90%><color=#B2B9B5>PROPRIEDADES IDENTIFICADAS • RELATÓRIO ABAIXO</color></size></align>\n\nEnquanto carregado no inventário durante uma raid.\n\n<color=#E88888><b>Efeitos negativos:</b></color>\nNão encontrado.\n\n<color=#92CAA1><b>Efeitos positivos:</b></color>\n• Reduz o dano recebido em 50%.\n• Restaura 1 de vida por segundo em cada membro intacto.\n• Restaura 1 de estamina por segundo.\n• Absorve até 500 de dano. O item desaparece ao esgotar sua carga.\n• A carga restante permanece entre raids."
+      }
+    },
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "addtoItemBlacklist": true,
+    "addtoSecureFilters": false,
+    "addtoSpecialSlots": false
+  }
+}

@@ -1,127 +1,127 @@
 {
-    "factory4_day": [     
-        {
-            "locationId": "(16.93627 8.141307 39.53988)",
-            "probability": 0.25,
-            "template": {
-                "Id": "690bcb580b8f9c461c3eae53",
-                "IsContainer": false,
-                "useGravity": false,
-                "randomRotation": false,
-                "Position": {
-                    "x": 16.93627,
-                    "y": 8.141307,
-                    "z": 39.53988
-                },
-                "Rotation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                },
-                "IsGroupPosition": false,
-                "GroupPositions": [],
-                "IsAlwaysSpawn": false,
-                "Root": "690bcb580b8f9c461c3eae53",
-                "Items": [
-                    {
-                        "_id": "68748762bdc2e875d3940b4f",
-                        "_tpl": "690bea5659ebccb1310d6ce2",
-                        "upd": {
-                            "StackObjectsCount": 1
-                        }
-                    }
-                ]
-            },
-            "itemDistribution": [
-                {
-                    "composedKey": {
-                        "key": "690bea5659ebccb1310d6ce2"
-                    },
-                    "relativeProbability": 1
-                }
-            ]
+  "factory4_day": [
+    {
+      "locationId": "(16.93627 8.141307 39.53988)",
+      "probability": 0.25,
+      "template": {
+        "Id": "690bcb580b8f9c461c3eae53",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": 16.93627,
+          "y": 8.141307,
+          "z": 39.53988
         },
-        {
-            "locationId": "(32.574, 9.017, 37.007)",
-            "probability": 0.25,
-            "template": {
-                "Id": "docs_untar_1 [44278def-9f3e-48be-8a0c-937323c2f30d]",
-                "IsContainer": false,
-                "useGravity": true,
-                "randomRotation": false,
-                "Position": {
-                    "x": 32.574,
-                    "y": 9.017,
-                    "z": 37.007
-                },
-                "Rotation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                },
-                "IsGroupPosition": false,
-                "GroupPositions": [],
-                "IsAlwaysSpawn": false,
-                "Root": "6a66c9f5ae060fb9647b2a32",
-                "Items": [
-                    {
-                        "_id": "6a66c9f5ae060fb9647b2a32",
-                        "_tpl": "6a66cd3d30580e2e7433b853",
-                        "upd": {
-                            "StackObjectsCount": 1
-                        }
-                    }
-                ]
-            },
-            "itemDistribution": [
-                {
-                    "composedKey": {
-                        "key": "6a66c9f98b65be2ba44a9de1"
-                    },
-                    "relativeProbability": 1
-                }
-            ]
+        "Rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "IsAlwaysSpawn": false,
+        "Root": "690bcb580b8f9c461c3eae53",
+        "Items": [
+          {
+            "_id": "68748762bdc2e875d3940b4f",
+            "_tpl": "690bea5659ebccb1310d6ce2",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      },
+      "itemDistribution": [
         {
-            "locationId": "(28.000, 8.276, 39.028)",
-            "probability": 0.25,
-            "template": {
-                "Id": "docs_untar_2 [baa08355-6bbe-4613-ba62-bbf1a4bf53c5]",
-                "IsContainer": false,
-                "useGravity": true,
-                "randomRotation": false,
-                "Position": {
-                    "x": 28.000,
-                    "y": 8.276,
-                    "z": 39.028
-                },
-                "Rotation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                },
-                "IsGroupPosition": false,
-                "GroupPositions": [],
-                "IsAlwaysSpawn": false,
-                "Root": "6a66cab4b17cd439fcf8e4e2",
-                "Items": [
-                    {
-                        "_id": "6a66cab4b17cd439fcf8e4e2",
-                        "_tpl": "6a66cd3bbb61030ed6701699",
-                        "upd": {
-                            "StackObjectsCount": 1
-                        }
-                    }
-                ]
-            },
-            "itemDistribution": [
-                {
-                    "composedKey": {
-                        "key": "6a66cab8f35789277cfb3956"
-                    },
-                    "relativeProbability": 1
-                }
-            ]
+          "composedKey": {
+            "key": "690bea5659ebccb1310d6ce2"
+          },
+          "relativeProbability": 1
         }
-    ]
+      ]
+    },
+    {
+      "locationId": "(32.574, 9.017, 37.007)",
+      "probability": 0.25,
+      "template": {
+        "Id": "docs_untar_1 [44278def-9f3e-48be-8a0c-937323c2f30d]",
+        "IsContainer": false,
+        "useGravity": true,
+        "randomRotation": false,
+        "Position": {
+          "x": 32.574,
+          "y": 9.017,
+          "z": 37.007
+        },
+        "Rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "IsAlwaysSpawn": false,
+        "Root": "6a66c9f5ae060fb9647b2a32",
+        "Items": [
+          {
+            "_id": "6a66c9f5ae060fb9647b2a32",
+            "_tpl": "6a66cd3d30580e2e7433b853",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      },
+      "itemDistribution": [
+        {
+          "composedKey": {
+            "key": "6a66c9f98b65be2ba44a9de1"
+          },
+          "relativeProbability": 1
+        }
+      ]
+    },
+    {
+      "locationId": "(28.000, 8.276, 39.028)",
+      "probability": 0.25,
+      "template": {
+        "Id": "docs_untar_2 [baa08355-6bbe-4613-ba62-bbf1a4bf53c5]",
+        "IsContainer": false,
+        "useGravity": true,
+        "randomRotation": false,
+        "Position": {
+          "x": 28.0,
+          "y": 8.276,
+          "z": 39.028
+        },
+        "Rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "IsAlwaysSpawn": false,
+        "Root": "6a66cab4b17cd439fcf8e4e2",
+        "Items": [
+          {
+            "_id": "6a66cab4b17cd439fcf8e4e2",
+            "_tpl": "6a66cd3bbb61030ed6701699",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      },
+      "itemDistribution": [
+        {
+          "composedKey": {
+            "key": "6a66cab8f35789277cfb3956"
+          },
+          "relativeProbability": 1
+        }
+      ]
+    }
+  ]
 }

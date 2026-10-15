@@ -1,63 +1,48 @@
 {
   "6a34b1f7baab2fa3e69fc9ce": {
-
     "itemTplToClone": "61714eec290d254f5e6b2ffc",
     "parentId": "55818ae44bdc2dde698b456c",
     "handbookParentId": "5b5f748386f774093e6cb501",
-
-
-    "overrideProperties": { 
-        "ExaminedByDefault": true,
-        "IsUnsaleable": true,
-        "IsUnbuyable": true,
-        "CanSellOnRagfair": true,
-        "CanRequireOnRagfair": true,
-        "addtoItemBlacklist": false,   
-        "Ergonomics": -8,
-        
-
-        "Prefab": {
+    "overrideProperties": {
+      "IsUnsaleable": true,
+      "IsUnbuyable": true,
+      "CanRequireOnRagfair": true,
+      "addtoItemBlacklist": false,
+      "Ergonomics": -8,
+      "Prefab": {
         "path": "equipment/scope_34mm_s&b_pm_ii_3_12x50_black.bundle",
         "rcid": ""
-        },
-
-        "Width": 2,
-        "Height": 1,
-        "Weight": 1.08,
-        "Grids": []
       },
-
-      "AimSensitivity": [
-        [
-          0.25,
-          0.4
-        ]
-      ],
-
-      "SightingRange": 2500,
-
-      "CalibrationDistances": [
-        [
-          50,
-          100,
-          150,
-          200,
-          250,
-          300,
-          350,
-          400,
-          450
-        ]
-      ],
-
-      "Zooms": [
-        [
-          3,
-          20
-        ]
-      ],
-      "sightModType": "optic",
-
+      "Weight": 1.08,
+      "Grids": []
+    },
+    "AimSensitivity": [
+      [
+        0.25,
+        0.4
+      ]
+    ],
+    "SightingRange": 2500,
+    "CalibrationDistances": [
+      [
+        50,
+        100,
+        150,
+        200,
+        250,
+        300,
+        350,
+        400,
+        450
+      ]
+    ],
+    "Zooms": [
+      [
+        3,
+        20
+      ]
+    ],
+    "sightModType": "optic",
     "locales": {
       "en": {
         "name": "Schmidt & Bender PM II 3-20x50 34mm riflescope (Black)",
@@ -69,20 +54,15 @@
         "shortName": "PM II 3-20",
         "description": "A mira telescópica Schmidt & Bender PM II 3-20x50 foi originalmente criada para forças militares de elite, com o objetivo de proporcionar uma aquisição de alvo de alta qualidade e precisão milimétrica. Versão preta."
       }
-    
     },
-
     "fleaPriceRoubles": 135500,
-
     "handbookPriceRoubles": 65000,
-
     "addtoBots": true,
-
     "addtoModSlots": true,
-    "modSlot": ["mod_scope"],
-
+    "modSlot": [
+      "mod_scope"
+    ],
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",

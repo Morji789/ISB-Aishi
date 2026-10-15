@@ -1,12 +1,11 @@
 {
-    "6a6abd124b41bb872e356393 name": "Inesperado",
-    "6a6abd124b41bb872e356393 description": "Eu já estou sabendo... Sinceramente, eu quase nunca tenho contato com essa espécie de Federação que o Fence criou. Esses Scavs só causam dor de cabeça, mas se envolve a Aishi, vamos dar uma olhada.",
-    "6a6abd124b41bb872e356393 successMessageText": "A tinta não está tão seca, isso não é tão antigo. E \"Black Division\"? Vou conversar com o Partisan; e você, é melhor falar com a Aishi.",
-    "6a6abdafcc34b3e9ce356398": "Encontre o documento que o Fence informou no Laboratório",
-    "6a6abe25460a67bea735639c": "Entregue o documento encontrado",
-
-    "6a6ac726864c233c4ea30e11 name": "Investindo em Network",
-    "6a6ac726864c233c4ea30e11 description": "Partisan retornou. Ele informou que recentemente houve várias movimentações estranhas em instalações da TerraGroup, principalmente em Ground Zero e no próprio Laboratório, na entrada pela Streets of Tarkov.\n\nMuitos documentos acabaram ficando para trás, e eu conheço alguém que tem uns funcionários muito bons em pesquisar e buscar informações.\n\nTrabalhe um pouco com a Lotus e quem sabe ela pode considerar nossa posição.",
-    "6a6ac726864c233c4ea30e11 successMessageText": "Muito bom, parceiro! Talvez isso tenha um final positivo.",
-    "6a6accfd59a421f7faeef57c": "Atinja o Nível 2 de Lealdade com Lotus"
+  "6a6abd124b41bb872e356393 name": "Inesperado",
+  "6a6abd124b41bb872e356393 description": "Eu já estou sabendo... Sinceramente, eu quase nunca tenho contato com essa espécie de Federação que o Fence criou. Esses Scavs só causam dor de cabeça, mas se envolve a Aishi, vamos dar uma olhada.",
+  "6a6abd124b41bb872e356393 successMessageText": "A tinta não está tão seca, isso não é tão antigo. E \"Black Division\"? Vou conversar com o Partisan; e você, é melhor falar com a Aishi.",
+  "6a6abdafcc34b3e9ce356398": "Encontre o documento que o Fence informou no Laboratório",
+  "6a6abe25460a67bea735639c": "Entregue o documento encontrado",
+  "6a6ac726864c233c4ea30e11 name": "Investindo em Network",
+  "6a6ac726864c233c4ea30e11 description": "Partisan retornou. Ele informou que recentemente houve várias movimentações estranhas em instalações da TerraGroup, principalmente em Ground Zero e no próprio Laboratório, na entrada pela Streets of Tarkov.\n\nMuitos documentos acabaram ficando para trás, e eu conheço alguém que tem uns funcionários muito bons em pesquisar e buscar informações.\n\nTrabalhe um pouco com a Lotus e quem sabe ela pode considerar nossa posição.",
+  "6a6ac726864c233c4ea30e11 successMessageText": "Muito bom, parceiro! Talvez isso tenha um final positivo.",
+  "6a6accfd59a421f7faeef57c": "Atinja o Nível 2 de Lealdade com Lotus"
 }

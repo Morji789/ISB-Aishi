@@ -1,0 +1,1294 @@
+{
+  "606dbfe23ff6578fb5d22843": {
+    "itemTplToClone": "61712eae6c780c1e710c9a1d",
+    "parentId": "55818a104bdc2db9688b4569",
+    "handbookParentId": "5b5f75e486f77447ec5d7712",
+    "overrideProperties": {
+      "Name": "HK417 Patrol handguard with flip-up front sight (Black)",
+      "CanSellOnRagfair": false,
+      "Prefab": {
+        "path": "aishiweapons/g28_black/handguard_417_hk_417_patrol_rail_black.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_id": "d2eef417bae95173b5887b3e",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_foregrip",
+          "_parent": "606dbfe23ff6578fb5d22843",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5c7fc87d2e221644f31c0298",
+                  "5cda9bcfd7f00c0c0b53e900",
+                  "59f8a37386f7747af3328f06",
+                  "5a7dbfc1159bd40016548fde",
+                  "619386379fb0c665d5490dbe",
+                  "5c87ca002e221600114cb150",
+                  "588226d124597767ad33f787",
+                  "588226dd24597767ad33f789",
+                  "588226e62459776e3e094af7",
+                  "588226ef24597767af46e39c",
+                  "59fc48e086f77463b1118392",
+                  "5fce0cf655375d18a253eff0",
+                  "5cf4fb76d7f00c065703d3ac",
+                  "5b057b4f5acfc4771e1bd3e9",
+                  "5c791e872e2216001219c40a",
+                  "558032614bdc2de7118b4585",
+                  "58c157be86f77403c74b2bb6",
+                  "58c157c886f774032749fb06",
+                  "5f6340d3ca442212f4047eb2",
+                  "591af28e86f77414a27a9e1d",
+                  "5c1cd46f2e22164bef5cfedb",
+                  "5c1bc4812e22164bef5cfde7",
+                  "5c1bc5612e221602b5429350",
+                  "5c1bc5af2e221602b412949b",
+                  "5c1bc5fb2e221602b1779b32",
+                  "5c1bc7432e221602b412949d",
+                  "5c1bc7752e221602b1779b34",
+                  "64806bdd26c80811d408d37a",
+                  "64807a29e5ffe165600abc97",
+                  "648067db042be0705c0b3009",
+                  "65169d5b30425317755f8e25",
+                  "655df24fdf80b12750626d0a",
+                  "655dccfdbdcc6b5df71382b6",
+                  "661e52e29c8b4dadef008577",
+                  "661e53149c8b4dadef008579",
+                  "661e52415be02310ed07a07a",
+                  "661e52b5b099f32c28003586"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "0fb7ad35f7bc5aba863ddd86",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_scope",
+          "_parent": "606dbfe23ff6578fb5d22843",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5649a2464bdc2d91118b45a8"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "c8bff4a8a96e50f4a89162f7",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_tactical_000",
+          "_parent": "606dbfe23ff6578fb5d22843",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "57fd23e32459772d0805bcf1",
+                  "544909bb4bdc2d6f028b4577",
+                  "5d10b49bd7ad1a1a560708b0",
+                  "5c06595c0db834001a66af6c",
+                  "5a7b483fe899ef0016170d15",
+                  "61605d88ffa6e502ac5e7eeb",
+                  "5c5952732e2216398b5abda2",
+                  "644a3df63b0b6f03e101e065"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "0496cc277b6a51fcab28f1ee",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_tactical_001",
+          "_parent": "606dbfe23ff6578fb5d22843",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a800961159bd4315e3a1657",
+                  "57fd23e32459772d0805bcf1",
+                  "544909bb4bdc2d6f028b4577",
+                  "5c06595c0db834001a66af6c",
+                  "5cc9c20cd7f00c001336c65d",
+                  "5d2369418abbc306c62e0c80",
+                  "5b07dd285acfc4001754240d",
+                  "56def37dd2720bec348b456a",
+                  "5a7b483fe899ef0016170d15",
+                  "61605d88ffa6e502ac5e7eeb",
+                  "5a5f1ce64f39f90b401987bc",
+                  "560d657b4bdc2da74d8b4572",
+                  "5b3a337e5acfc4704b4a19a0",
+                  "5c5952732e2216398b5abda2",
+                  "57d17e212459775a1179a0f5",
+                  "6267c6396b642f77f56f5c1c",
+                  "6272370ee4013c5d7e31f418",
+                  "6272379924e29f06af4d5ecb",
+                  "626becf9582c3e319310b837",
+                  "644a3df63b0b6f03e101e065",
+                  "646f6322f43d0c5d62063715"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "4147a76520f05a34a1233d84",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_tactical_002",
+          "_parent": "606dbfe23ff6578fb5d22843",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a800961159bd4315e3a1657",
+                  "57fd23e32459772d0805bcf1",
+                  "544909bb4bdc2d6f028b4577",
+                  "5d10b49bd7ad1a1a560708b0",
+                  "5c06595c0db834001a66af6c",
+                  "5cc9c20cd7f00c001336c65d",
+                  "5d2369418abbc306c62e0c80",
+                  "5b07dd285acfc4001754240d",
+                  "56def37dd2720bec348b456a",
+                  "5a7b483fe899ef0016170d15",
+                  "61605d88ffa6e502ac5e7eeb",
+                  "5a5f1ce64f39f90b401987bc",
+                  "560d657b4bdc2da74d8b4572",
+                  "5b3a337e5acfc4704b4a19a0",
+                  "5c5952732e2216398b5abda2",
+                  "57d17e212459775a1179a0f5",
+                  "6267c6396b642f77f56f5c1c",
+                  "6272370ee4013c5d7e31f418",
+                  "6272379924e29f06af4d5ecb",
+                  "626becf9582c3e319310b837",
+                  "644a3df63b0b6f03e101e065",
+                  "646f6322f43d0c5d62063715"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "ShortName": "417 Patrol",
+      "Description": "The HK417 & G28 DMR Forearm With a Flip Up Front Sight & Suppressor Window Cutout. Optimized design to mitigate the heat emissions for long range shooting and to prevent the mirage effect. Black Version."
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "handbookPriceRoubles": 8600,
+    "fleaPriceRoubles": 8600,
+    "locales": {
+      "en": {
+        "name": "HK417 Patrol handguard with flip-up front sight (Black)",
+        "shortName": "417 Patrol",
+        "description": "The HK417 & G28 DMR Forearm With a Flip Up Front Sight & Suppressor Window Cutout. Optimized design to mitigate the heat emissions for long range shooting and to prevent the mirage effect. Black Version."
+      },
+      "po": {
+        "name": "HK417 Patrol handguard with flip-up front sight (Black)",
+        "shortName": "417 4Rail pat.",
+        "description": "O antebraço DMR HK417 e G28 com uma massa de mira flip up e recorte da janela supressora. Design otimizado para mitigar as emissões de calor para disparos de longa distância e prevenir o efeito miragem. Black Version."
+      }
+    },
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_handguard"
+    ]
+  },
+  "e216e68aab6c598684dc28c9": {
+    "itemTplToClone": "61702d8a67085e45ef140b24",
+    "parentId": "55818a6f4bdc2db9688b456b",
+    "handbookParentId": "5b5f751486f77447ec5d770c",
+    "overrideProperties": {
+      "Name": "HK417 E1 Extended Charging Handle (Black)",
+      "CanSellOnRagfair": false,
+      "Prefab": {
+        "path": "aishiweapons/g28_black/charge_417_hk_e1_extended_charging_handle_armory_black.bundle",
+        "rcid": ""
+      },
+      "ShortName": "417 E1",
+      "Description": "An extended charging handle for HK417 and compatible systems, manufactured by Heckler & Koch. Black Version."
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "handbookPriceRoubles": 2200,
+    "fleaPriceRoubles": 2200,
+    "locales": {
+      "en": {
+        "name": "HK417 E1 Extended Charging Handle (Black)",
+        "shortName": "417 E1",
+        "description": "An extended charging handle for HK417 and compatible systems, manufactured by Heckler & Koch. Black Version."
+      },
+      "po": {
+        "name": "HK417 E1 Extended Charging Handle (Black)",
+        "shortName": "417",
+        "description": "Um charging handle estendido para HK417 e sistemas compatíveis, fabricados pela Heckler & Koch. Black Version."
+      }
+    },
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_charge"
+    ]
+  },
+  "b464b20d78cc512f8c5ea376": {
+    "itemTplToClone": "617131a4568c120fdd29482d",
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "overrideProperties": {
+      "Name": "HK417/G28 7.62x51 20-round magazine (Black)",
+      "CanSellOnRagfair": false,
+      "Prefab": {
+        "path": "aishiweapons/g28_black/mag_417_hk_417_std_762x51_20_armory_black.bundle",
+        "rcid": ""
+      },
+      "Cartridges": [
+        {
+          "_id": "de08f3efa3c25f1990ef2d8a",
+          "_max_count": 20,
+          "_name": "cartridges",
+          "_parent": "b464b20d78cc512f8c5ea376",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a6086ea4f39f99cd479502f",
+                  "5a608bf24f39f98ffc77720e",
+                  "58dd3ad986f77403051cba8f",
+                  "5e023e53d4353e3302577c4c",
+                  "5efb0c1bd79ff02a1f5e68d9",
+                  "5e023e6e34d52a55c3304f71",
+                  "5e023e88277cce2b522ff2b1",
+                  "6768c25aa7b238f14a08d3f6"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ],
+      "ShortName": "417 7.62",
+      "Description": "A 20-round double-stack HK417/G28 magazine for 7.62x51 ammunition. The floor plate can easily be removed for disassembly and cleaning. Black Version."
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "handbookPriceRoubles": 3450,
+    "fleaPriceRoubles": 23054,
+    "locales": {
+      "en": {
+        "name": "HK417/G28 7.62x51 20-round magazine (Black)",
+        "shortName": "417 7.62",
+        "description": "A 20-round double-stack HK417/G28 magazine for 7.62x51 ammunition. The floor plate can easily be removed for disassembly and cleaning. Black Version."
+      },
+      "po": {
+        "name": "HK417/G28 7.62x51 20-round magazine (Black)",
+        "shortName": "417 20 762",
+        "description": "Um carregador HK417 / G28 de pilha dupla de 20 munições para munição 7.62x51. A placa de piso pode ser facilmente removida para desmontagem e limpeza. Black Version."
+      }
+    },
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_magazine"
+    ]
+  },
+  "9ff35e08411e54c89131e4a7": {
+    "itemTplToClone": "617130016c780c1e710c9a24",
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "overrideProperties": {
+      "Name": "HK417/G28 7.62x51 10-round magazine (Black)",
+      "CanSellOnRagfair": false,
+      "Prefab": {
+        "path": "aishiweapons/g28_black/mag_417_hk_417_std_762x51_10_black.bundle",
+        "rcid": ""
+      },
+      "Cartridges": [
+        {
+          "_id": "d40b11228ad35067a8ed6034",
+          "_max_count": 10,
+          "_name": "cartridges",
+          "_parent": "9ff35e08411e54c89131e4a7",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a6086ea4f39f99cd479502f",
+                  "5a608bf24f39f98ffc77720e",
+                  "58dd3ad986f77403051cba8f",
+                  "5e023e53d4353e3302577c4c",
+                  "5efb0c1bd79ff02a1f5e68d9",
+                  "5e023e6e34d52a55c3304f71",
+                  "5e023e88277cce2b522ff2b1",
+                  "6768c25aa7b238f14a08d3f6"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ],
+      "ShortName": "417 7.62",
+      "Description": "A 10-round double-stack HK417/G28 magazine for 7.62x51 ammunition. The floor plate can easily be removed for disassembly and cleaning. Black Version."
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "handbookPriceRoubles": 2100,
+    "fleaPriceRoubles": 2100,
+    "locales": {
+      "en": {
+        "name": "HK417/G28 7.62x51 10-round magazine (Black)",
+        "shortName": "417 7.62",
+        "description": "A 10-round double-stack HK417/G28 magazine for 7.62x51 ammunition. The floor plate can easily be removed for disassembly and cleaning. Black Version."
+      },
+      "po": {
+        "name": "HK417/G28 7.62x51 10-round magazine (Black)",
+        "shortName": "417 10 762",
+        "description": "Um carregador HK417 / G28 de pilha dupla de 10 munições para munição 7.62x51. A placa de piso pode ser facilmente removida para desmontagem e limpeza. Black Version."
+      }
+    },
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_magazine"
+    ]
+  },
+  "b3d61fbd952d5c4c8c9187c5": {
+    "itemTplToClone": "6176aca650224f204c1da3fb",
+    "parentId": "5447b6194bdc2d67278b4567",
+    "handbookParentId": "5b5f791486f774093f2ed3be",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "aishiweapons/g28_black/weapon_hk_g28_762x51_container_additional_parts_black.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_id": "80117a5aadf851c3ac09e5ef",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_pistol_grip",
+          "_parent": "b3d61fbd952d5c4c8c9187c5",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "55d4b9964bdc2d1d4e8b456e",
+                  "571659bb2459771fb2755a12",
+                  "602e71bd53a60014f9705bfa",
+                  "6113c3586c780c1e710c90bc",
+                  "6113cc78d3a39d50044c065a",
+                  "6113cce3d92c473c770200c7",
+                  "5cc9bcaed7f00c011c04e179",
+                  "5bb20e18d4351e00320205d5",
+                  "5bb20e0ed4351e3bac1212dc",
+                  "6193dcd0f8ee7e52e4210a28",
+                  "5d025cc1d7ad1a53845279ef",
+                  "5c6d7b3d2e221600114c9b7d",
+                  "57c55efc2459772d2c6271e7",
+                  "57af48872459771f0b2ebf11",
+                  "57c55f092459772d291a8463",
+                  "57c55f112459772d28133310",
+                  "57c55f172459772d27602381",
+                  "5a339805c4a2826c6e06d73d",
+                  "55802f5d4bdc2dac148b458f",
+                  "5d15cf3bd7ad1a67e71518b2",
+                  "59db3a1d86f77429e05b4e92",
+                  "5fbcbd6c187fea44d52eda14",
+                  "59db3acc86f7742a2c4ab912",
+                  "59db3b0886f77429d72fb895",
+                  "615d8faecabb9b7ad90f4d5d",
+                  "5b07db875acfc40dc528a5f6",
+                  "63f5feead259b42f0b4d6d0f",
+                  "652911675ae2ae97b80fdf3c"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "d725171ce84a558599cbff62",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_magazine",
+          "_parent": "b3d61fbd952d5c4c8c9187c5",
+          "_props": {
+            "filters": [
+              {
+                "AnimationIndex": -1,
+                "Filter": [
+                  "617130016c780c1e710c9a24",
+                  "617131a4568c120fdd29482d"
+                ]
+              }
+            ]
+          },
+          "_proto": "55d30c394bdc2dae468b4577",
+          "_required": false
+        },
+        {
+          "_id": "b3ad6be2a4da5b699bc4f5a2",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_stock",
+          "_parent": "b3d61fbd952d5c4c8c9187c5",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "617153016c780c1e710c9a2f"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "6f6e8351fa5a5443a8b9a1c6",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_reciever",
+          "_parent": "b3d61fbd952d5c4c8c9187c5",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "61713a8fd92c473c770214a4",
+                  "3cf4ff94d893593eb73facdb"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "9537e081a802587a874f6f34",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_charge",
+          "_parent": "b3d61fbd952d5c4c8c9187c5",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "61702d8a67085e45ef140b24"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        }
+      ],
+      "Chambers": [
+        {
+          "_id": "8fb4c5afdcc25cd5ba8782d6",
+          "_mergeSlotWithChildren": false,
+          "_name": "patron_in_weapon",
+          "_parent": "b3d61fbd952d5c4c8c9187c5",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a6086ea4f39f99cd479502f",
+                  "5a608bf24f39f98ffc77720e",
+                  "58dd3ad986f77403051cba8f",
+                  "5e023e53d4353e3302577c4c",
+                  "5efb0c1bd79ff02a1f5e68d9",
+                  "5e023e6e34d52a55c3304f71",
+                  "5e023e88277cce2b522ff2b1",
+                  "6768c25aa7b238f14a08d3f6"
+                ]
+              }
+            ]
+          },
+          "_proto": "55d4af244bdc2d962f8b4571",
+          "_required": false
+        }
+      ],
+      "Name": "HK G28 7.62x51 marksman rifle (Black)",
+      "ShortName": "G28",
+      "Description": "The HK G28 rifle was developed by Heckler & Koch specifically for the Bundeswehr as a support weapon for small infantry units. The G28 is based on the HK MR308, which, in turn, is a civilian version of the HK 417 automatic rifle. Despite several differences, the HK G28 is 75% interchangeable with the HK 417. This rifle is designed to shoot at distances inaccessible to standard 5.56mm assault rifles. Black Version.",
+      "CanSellOnRagfair": false
+    },
+    "handbookPriceRoubles": 30500,
+    "fleaPriceRoubles": 110535,
+    "locales": {
+      "en": {
+        "name": "HK G28 7.62x51 marksman rifle (Black)",
+        "shortName": "G28",
+        "description": "The HK G28 rifle was developed by Heckler & Koch specifically for the Bundeswehr as a support weapon for small infantry units. The G28 is based on the HK MR308, which, in turn, is a civilian version of the HK 417 automatic rifle. Despite several differences, the HK G28 is 75% interchangeable with the HK 417. This rifle is designed to shoot at distances inaccessible to standard 5.56mm assault rifles. Black Version."
+      },
+      "po": {
+        "name": "HK G28 7.62x51 marksman rifle (Black)",
+        "shortName": "G28",
+        "description": "O rifle HK G28 foi desenvolvido pela \"Heckler & Koch\" especificamente para o Bundeswehr, como uma arma de apoio para pequenas unidades de infantaria. O G28 é baseado no HK MR308, que, por sua vez, é uma versão civil do rifle automático HK 417. Apesar de uma série de diferenças, o HK G28 é 75% intercambiável com o HK 417. Este rifle foi projetado para disparar a distâncias inacessíveis aos rifles de assalto padrão de 5.56mm. Black Version."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_id": "31c74e8bb5c95c11b83944cb",
+        "_type": "Preset",
+        "_changeWeaponName": false,
+        "_name": "HK G28 Black",
+        "_parent": "81acd652ffad5744a5e070fc",
+        "_items": [
+          {
+            "_id": "81acd652ffad5744a5e070fc",
+            "_tpl": "b3d61fbd952d5c4c8c9187c5",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Repairable": {
+                "Durability": 100,
+                "MaxDurability": 100
+              },
+              "FireMode": {
+                "FireMode": "single"
+              }
+            }
+          },
+          {
+            "_id": "63c5b875d5fb5021bf3cc2cd",
+            "_tpl": "6113cce3d92c473c770200c7",
+            "parentId": "81acd652ffad5744a5e070fc",
+            "slotId": "mod_pistol_grip",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "2d282218c3ad5c6784e9f1bb",
+            "_tpl": "b464b20d78cc512f8c5ea376",
+            "parentId": "81acd652ffad5744a5e070fc",
+            "slotId": "mod_magazine",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "a450ab083a515311a6152a75",
+            "_tpl": "617153016c780c1e710c9a2f",
+            "parentId": "81acd652ffad5744a5e070fc",
+            "slotId": "mod_stock",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "92f495242be85a3f85d179b3",
+            "_tpl": "3cf4ff94d893593eb73facdb",
+            "parentId": "81acd652ffad5744a5e070fc",
+            "slotId": "mod_reciever",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "9c5fda5e1da75b0298dafc98",
+            "_tpl": "e216e68aab6c598684dc28c9",
+            "parentId": "81acd652ffad5744a5e070fc",
+            "slotId": "mod_charge",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "f1ad988c50555b3fb5958057",
+            "_tpl": "9993e83893da5ccfa523998d",
+            "parentId": "a450ab083a515311a6152a75",
+            "slotId": "mod_stock_000",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "f2cd231bcc9051039adb1d1a",
+            "_tpl": "57ac965c24597706be5f975c",
+            "parentId": "92f495242be85a3f85d179b3",
+            "slotId": "mod_scope",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Sight": {
+                "ScopesCurrentCalibPointIndexes": [
+                  0,
+                  0
+                ],
+                "ScopesSelectedModes": [
+                  0,
+                  0
+                ],
+                "SelectedScope": 0,
+                "ScopeZoomValue": 0
+              }
+            }
+          },
+          {
+            "_id": "8b075a20f9235356ba3dbad6",
+            "_tpl": "61702be9faa1272e431522c3",
+            "parentId": "92f495242be85a3f85d179b3",
+            "slotId": "mod_barrel",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "48b2a2c060c1567cb429073f",
+            "_tpl": "3394bc1e3c0f56eb882ccb7c",
+            "parentId": "92f495242be85a3f85d179b3",
+            "slotId": "mod_handguard",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "85822d537843533b9269d152",
+            "_tpl": "5bb20e49d4351e3bac1212de",
+            "parentId": "92f495242be85a3f85d179b3",
+            "slotId": "mod_sight_rear",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Sight": {
+                "ScopesCurrentCalibPointIndexes": [
+                  0
+                ],
+                "ScopesSelectedModes": [
+                  0
+                ],
+                "SelectedScope": 0,
+                "ScopeZoomValue": 0
+              }
+            }
+          },
+          {
+            "_id": "3552b0b503fa540bb1251352",
+            "_tpl": "97de3798d16d55d8b019b90f",
+            "parentId": "f1ad988c50555b3fb5958057",
+            "slotId": "mod_stock_000",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "9a7bc0b6dc265a38b0bfc879",
+            "_tpl": "61713308d92c473c770214a0",
+            "parentId": "8b075a20f9235356ba3dbad6",
+            "slotId": "mod_muzzle",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "eb5e95afc47957a89ab907ec",
+            "_tpl": "61702f1b67085e45ef140b26",
+            "parentId": "8b075a20f9235356ba3dbad6",
+            "slotId": "mod_gas_block",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "bfcffc3d335c5017877acffd",
+            "_tpl": "5a7dbfc1159bd40016548fde",
+            "parentId": "48b2a2c060c1567cb429073f",
+            "slotId": "mod_foregrip",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "865ee65a44195258bfae2fce",
+            "_tpl": "644a3df63b0b6f03e101e065",
+            "parentId": "48b2a2c060c1567cb429073f",
+            "slotId": "mod_tactical_000",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Light": {
+                "IsActive": true,
+                "SelectedMode": 0
+              }
+            }
+          },
+          {
+            "_id": "42f86e743fbd5fe5b674624c",
+            "_tpl": "6a11e1e951f16801020b4061",
+            "parentId": "48b2a2c060c1567cb429073f",
+            "slotId": "mod_tactical_001",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Light": {
+                "IsActive": true,
+                "SelectedMode": 0
+              }
+            }
+          },
+          {
+            "_id": "f7927d10c0f350b89375fd9b",
+            "_tpl": "6171367e1cb55961fa0fdb36",
+            "parentId": "9a7bc0b6dc265a38b0bfc879",
+            "slotId": "mod_muzzle",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ],
+        "_encyclopedia": "b3d61fbd952d5c4c8c9187c5"
+      }
+    ]
+  },
+  "3cf4ff94d893593eb73facdb": {
+    "itemTplToClone": "61713a8fd92c473c770214a4",
+    "parentId": "55818a304bdc2db5418b457d",
+    "handbookParentId": "5b5f764186f77447ec5d7714",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "aishiweapons/g28_black/reciever_g28_hk_g28_std_additional_parts_black.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_id": "b501756bd3be5a87827d8f8c",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_scope",
+          "_parent": "3cf4ff94d893593eb73facdb",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "57ac965c24597706be5f975c",
+                  "57aca93d2459771f2c7e26db",
+                  "544a3f024bdc2d1d388b4568",
+                  "544a3a774bdc2d3a388b4567",
+                  "5d2dc3e548f035404a1a4798",
+                  "57adff4f24597737f373b6e6",
+                  "5c0517910db83400232ffee5",
+                  "591c4efa86f7741030027726",
+                  "570fd79bd2720bc7458b4583",
+                  "570fd6c2d2720bc6458b457f",
+                  "558022b54bdc2dac148b458d",
+                  "5c07dd120db834001c39092d",
+                  "5c0a2cec0db834001b7ce47d",
+                  "58491f3324597764bc48fa02",
+                  "584924ec24597768f12ae244",
+                  "5b30b0dc5acfc400153b7124",
+                  "6165ac8c290d254f5e6b2f6c",
+                  "60a23797a37c940de7062d02",
+                  "5d2da1e948f035477b1ce2ba",
+                  "5c0505e00db834001b735073",
+                  "609a63b6e2ff132951242d09",
+                  "584984812459776a704a82a6",
+                  "59f9d81586f7744c7506ee62",
+                  "570fd721d2720bc5458b4596",
+                  "57ae0171245977343c27bfcf",
+                  "5dfe6104585a0c3e995c7b82",
+                  "544a3d0a4bdc2d1b388b4567",
+                  "5d1b5e94d7ad1a2b865a96b0",
+                  "609bab8b455afd752b2e6138",
+                  "58d39d3d86f77445bb794ae7",
+                  "616554fe50224f204c1da2aa",
+                  "5c7d55f52e221644f31bff6a",
+                  "616584766ef05c2ce828ef57",
+                  "5b3b6dc75acfc47a8773fb1e",
+                  "615d8d878004cc50514c3233",
+                  "5b2389515acfc4771e1be0c0",
+                  "577d128124597739d65d0e56",
+                  "618b9643526131765025ab35",
+                  "618bab21526131765025ab3f",
+                  "5c86592b2e2216000e69e77c",
+                  "5a37ca54c4a282000d72296a",
+                  "5d0a29fed7ad1a002769ad08",
+                  "5c064c400db834001d23f468",
+                  "58d2664f86f7747fec5834f6",
+                  "57c69dd424597774c03b7bbc",
+                  "5b3b99265acfc4704b4a1afb",
+                  "5aa66a9be5b5b0214e506e89",
+                  "5aa66c72e5b5b00016327c93",
+                  "5c1cdd302e221602b3137250",
+                  "61714b2467085e45ef140b2c",
+                  "6171407e50224f204c1da3c5",
+                  "61713cc4d8e3106d9806c109",
+                  "5b31163c5acfc400153b71cb",
+                  "5a33b652c4a28232996e407c",
+                  "5a33b2c9c4a282000c5a9511",
+                  "59db7eed86f77461f8380365",
+                  "5a1ead28fcdbcb001912fa9f",
+                  "5dff77c759400025ea5150cf",
+                  "626bb8532c923541184624b4",
+                  "62811f461d5df4475f46a332",
+                  "63fc449f5bd61c6cf3784a88",
+                  "6477772ea8a38bb2050ed4db",
+                  "6478641c19d732620e045e17",
+                  "64785e7c19d732620e045e15",
+                  "65392f611406374f82152ba5",
+                  "653931da5db71d30ab1d6296",
+                  "655f13e0a246670fb0373245",
+                  "6567e751a715f85433025998",
+                  "67641a851b2899700609901a",
+                  "6761759e7ee06333f108bf86"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "77dd36cbdbb25141bdac2c1c",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_barrel",
+          "_parent": "3cf4ff94d893593eb73facdb",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "61702be9faa1272e431522c3"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "c20560e777f25f8482e5ff3d",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_handguard",
+          "_parent": "3cf4ff94d893593eb73facdb",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "61703001d92c473c77021497",
+                  "61712eae6c780c1e710c9a1d",
+                  "3394bc1e3c0f56eb882ccb7c"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "e4ce69e05f43502f9c783bfc",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_sight_rear",
+          "_parent": "3cf4ff94d893593eb73facdb",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5bb20e49d4351e3bac1212de",
+                  "5ba26b17d4351e00367f9bdd",
+                  "5dfa3d7ac41b2312ea33362a",
+                  "5c1780312e221602b66cc189",
+                  "5fb6564947ce63734e3fa1da",
+                  "5bc09a18d4351e003562b68e",
+                  "5c18b9192e2216398b5a8104",
+                  "5fc0fa957283c4046c58147e",
+                  "5894a81786f77427140b8347",
+                  "55d5f46a4bdc2d1b198b4567",
+                  "5ae30bad5acfc400185c2dc4"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "Name": "HK G28 7.62x51 upper receiver (Black)",
+      "ShortName": "G28",
+      "Description": "An upper receiver for the G28 marksman rifle manufactured by Heckler & Koch. Equipped with a top mount for attaching additional devices. Black Version.",
+      "CanSellOnRagfair": false
+    },
+    "handbookPriceRoubles": 8000,
+    "fleaPriceRoubles": 8000,
+    "locales": {
+      "en": {
+        "name": "HK G28 7.62x51 upper receiver (Black)",
+        "shortName": "G28",
+        "description": "An upper receiver for the G28 marksman rifle manufactured by Heckler & Koch. Equipped with a top mount for attaching additional devices. Black Version."
+      },
+      "po": {
+        "name": "HK G28 7.62x51 upper receiver (Black)",
+        "shortName": "G28 Upper",
+        "description": "Upper receiver para o rifle de assalto G28 fabricado pela Heckler & Koch. Equipado com um trilho para anexar dispositivos adicionais. Black Version."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_reciever"
+    ]
+  },
+  "3394bc1e3c0f56eb882ccb7c": {
+    "itemTplToClone": "61703001d92c473c77021497",
+    "parentId": "55818a104bdc2db9688b4569",
+    "handbookParentId": "5b5f75e486f77447ec5d7712",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "aishiweapons/g28_black/handguard_417_hk_417_extended_free_float_additional_parts_black.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_id": "ad58220b3bce5e7b921fea99",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_foregrip",
+          "_parent": "3394bc1e3c0f56eb882ccb7c",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5c7fc87d2e221644f31c0298",
+                  "5cda9bcfd7f00c0c0b53e900",
+                  "59f8a37386f7747af3328f06",
+                  "5a7dbfc1159bd40016548fde",
+                  "619386379fb0c665d5490dbe",
+                  "5c87ca002e221600114cb150",
+                  "588226d124597767ad33f787",
+                  "588226dd24597767ad33f789",
+                  "588226e62459776e3e094af7",
+                  "588226ef24597767af46e39c",
+                  "59fc48e086f77463b1118392",
+                  "5fce0cf655375d18a253eff0",
+                  "5b057b4f5acfc4771e1bd3e9",
+                  "5c791e872e2216001219c40a",
+                  "558032614bdc2de7118b4585",
+                  "58c157be86f77403c74b2bb6",
+                  "58c157c886f774032749fb06",
+                  "5f6340d3ca442212f4047eb2",
+                  "591af28e86f77414a27a9e1d",
+                  "5c1cd46f2e22164bef5cfedb",
+                  "5c1bc4812e22164bef5cfde7",
+                  "5c1bc5612e221602b5429350",
+                  "5c1bc5af2e221602b412949b",
+                  "5c1bc5fb2e221602b1779b32",
+                  "5c1bc7432e221602b412949d",
+                  "5c1bc7752e221602b1779b34",
+                  "64806bdd26c80811d408d37a",
+                  "64807a29e5ffe165600abc97",
+                  "5cf4fb76d7f00c065703d3ac",
+                  "648067db042be0705c0b3009",
+                  "65169d5b30425317755f8e25",
+                  "655df24fdf80b12750626d0a",
+                  "655dccfdbdcc6b5df71382b6",
+                  "661e52e29c8b4dadef008577",
+                  "661e53149c8b4dadef008579",
+                  "661e52415be02310ed07a07a",
+                  "661e52b5b099f32c28003586"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "4decf98b821c5997b2337090",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_scope",
+          "_parent": "3394bc1e3c0f56eb882ccb7c",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5649a2464bdc2d91118b45a8"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "5210e683deec598d9a41e8fa",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_tactical_000",
+          "_parent": "3394bc1e3c0f56eb882ccb7c",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "57fd23e32459772d0805bcf1",
+                  "544909bb4bdc2d6f028b4577",
+                  "5d10b49bd7ad1a1a560708b0",
+                  "5c06595c0db834001a66af6c",
+                  "5a7b483fe899ef0016170d15",
+                  "61605d88ffa6e502ac5e7eeb",
+                  "5c5952732e2216398b5abda2",
+                  "644a3df63b0b6f03e101e065"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "6bf60f16c3b55b5f89994960",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_tactical_001",
+          "_parent": "3394bc1e3c0f56eb882ccb7c",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a800961159bd4315e3a1657",
+                  "57fd23e32459772d0805bcf1",
+                  "544909bb4bdc2d6f028b4577",
+                  "5c06595c0db834001a66af6c",
+                  "5cc9c20cd7f00c001336c65d",
+                  "5d2369418abbc306c62e0c80",
+                  "5b07dd285acfc4001754240d",
+                  "56def37dd2720bec348b456a",
+                  "5a7b483fe899ef0016170d15",
+                  "61605d88ffa6e502ac5e7eeb",
+                  "5a5f1ce64f39f90b401987bc",
+                  "560d657b4bdc2da74d8b4572",
+                  "5b3a337e5acfc4704b4a19a0",
+                  "5c5952732e2216398b5abda2",
+                  "57d17e212459775a1179a0f5",
+                  "6267c6396b642f77f56f5c1c",
+                  "6272370ee4013c5d7e31f418",
+                  "6272379924e29f06af4d5ecb",
+                  "626becf9582c3e319310b837",
+                  "644a3df63b0b6f03e101e065",
+                  "646f6322f43d0c5d62063715"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "2f2928254a9e5c018d31891a",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_tactical_002",
+          "_parent": "3394bc1e3c0f56eb882ccb7c",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a800961159bd4315e3a1657",
+                  "57fd23e32459772d0805bcf1",
+                  "544909bb4bdc2d6f028b4577",
+                  "5d10b49bd7ad1a1a560708b0",
+                  "5c06595c0db834001a66af6c",
+                  "5cc9c20cd7f00c001336c65d",
+                  "5d2369418abbc306c62e0c80",
+                  "5b07dd285acfc4001754240d",
+                  "56def37dd2720bec348b456a",
+                  "5a7b483fe899ef0016170d15",
+                  "61605d88ffa6e502ac5e7eeb",
+                  "5a5f1ce64f39f90b401987bc",
+                  "560d657b4bdc2da74d8b4572",
+                  "5b3a337e5acfc4704b4a19a0",
+                  "5c5952732e2216398b5abda2",
+                  "57d17e212459775a1179a0f5",
+                  "6267c6396b642f77f56f5c1c",
+                  "6272370ee4013c5d7e31f418",
+                  "6272379924e29f06af4d5ecb",
+                  "626becf9582c3e319310b837",
+                  "644a3df63b0b6f03e101e065",
+                  "646f6322f43d0c5d62063715"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "8aab5c1ce9a155cbbab28a18",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_bipod",
+          "_parent": "3394bc1e3c0f56eb882ccb7c",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6644920d49817dc7d505ca71",
+                  "676175bb48fa5c377e06fc36"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "Name": "HK417 Extended Free Float handguard with flip-up front sight (Black)",
+      "ShortName": "417 Ext. FF",
+      "Description": "The HK417 & G28 Extended DMR Forearm With a Flip Up Front Sight & Suppressor Window Cutout. Optimized design to mitigate the heat emissions for long range shooting and to prevent the mirage effect. Black Version.",
+      "CanSellOnRagfair": false
+    },
+    "handbookPriceRoubles": 11200,
+    "fleaPriceRoubles": 11200,
+    "locales": {
+      "en": {
+        "name": "HK417 Extended Free Float handguard with flip-up front sight (Black)",
+        "shortName": "417 Ext. FF",
+        "description": "The HK417 & G28 Extended DMR Forearm With a Flip Up Front Sight & Suppressor Window Cutout. Optimized design to mitigate the heat emissions for long range shooting and to prevent the mirage effect. Black Version."
+      },
+      "po": {
+        "name": "HK417 Extended Free Float handguard with flip-up front sight (Black)",
+        "shortName": "417 4Rail ext.",
+        "description": "O antebraço DMR estendido HK417 e G28 com uma massa de mira flip up e recorte da janela supressora. Design otimizado para mitigar as emissões de calor para disparos de longa distância e prevenir o efeito miragem. Black Version."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_handguard"
+    ]
+  },
+  "9993e83893da5ccfa523998d": {
+    "itemTplToClone": "617155ee50224f204c1da3cd",
+    "parentId": "55818a594bdc2db9688b456a",
+    "handbookParentId": "5b5f757486f774093e6cb507",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "aishiweapons/g28_black/stock_417_hk_417_adjustable_buttstock_additional_parts_black.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_id": "008165a952a45aa98a8b142b",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_stock_000",
+          "_parent": "9993e83893da5ccfa523998d",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "61715e7e67085e45ef140b33",
+                  "97de3798d16d55d8b019b90f"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "Name": "HK417 Adjustable Buttstock (Black)",
+      "ShortName": "HK Adj.",
+      "Description": "An adjustable stock designed and manufactured by Heckler & Koch. This stock is fully adjustable for length of pull as well as the cheek height. Features a mount for installation of a cheek rest. Black Version.",
+      "CanSellOnRagfair": false
+    },
+    "handbookPriceRoubles": 12100,
+    "fleaPriceRoubles": 12100,
+    "locales": {
+      "en": {
+        "name": "HK417 Adjustable Buttstock (Black)",
+        "shortName": "HK Adj.",
+        "description": "An adjustable stock designed and manufactured by Heckler & Koch. This stock is fully adjustable for length of pull as well as the cheek height. Features a mount for installation of a cheek rest. Black Version."
+      },
+      "po": {
+        "name": "HK417 Adjustable Buttstock (Black)",
+        "shortName": "HK Adj.",
+        "description": "Coronha ajustável projetado e produzido pela Heckler & Koch. Esta coronha tem o comprimento totalmente ajustável, bem como a altura da bochecha. É possível instalar um suporte de bochecha. Black Version."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_stock_000"
+    ]
+  },
+  "97de3798d16d55d8b019b90f": {
+    "itemTplToClone": "61715e7e67085e45ef140b33",
+    "parentId": "55818a594bdc2db9688b456a",
+    "handbookParentId": "5b5f757486f774093e6cb507",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "aishiweapons/g28_black/stock_417_hk_417_adjustable_buttstock_cheek_additional_parts_black.bundle",
+        "rcid": ""
+      },
+      "Name": "HK Adjustable Buttstock cheek rest (Black)",
+      "ShortName": "HK Cheek",
+      "Description": "The HK adjustable stock cheek piece provides optimum versatility in use. Black Version.",
+      "CanSellOnRagfair": false
+    },
+    "handbookPriceRoubles": 6000,
+    "fleaPriceRoubles": 14444,
+    "locales": {
+      "en": {
+        "name": "HK Adjustable Buttstock cheek rest (Black)",
+        "shortName": "HK Cheek",
+        "description": "The HK adjustable stock cheek piece provides optimum versatility in use. Black Version."
+      },
+      "po": {
+        "name": "HK Adjustable Buttstock cheek rest (Black)",
+        "shortName": "HK boch",
+        "description": "Suporte de bocheca ajustável da HK, fornece ótima versatilidade ao usar. Black Version."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_stock_000"
+    ]
+  }
+}

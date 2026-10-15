@@ -1,33 +1,26 @@
 {
   "6a4c68b8a90f66f581bf790f": {
-
     "itemTplToClone": "69d27ebeb855150a70092ba3",
     "parentId": "5448e5284bdc2dcb718b4567",
     "handbookParentId": "5b5f6f8786f77447ed563642",
-
-
     "overrideProperties": {
-      "QuestItem": false,  
+      "QuestItem": false,
       "ExaminedByDefault": false,
       "IsUnsaleable": false,
       "CanSellOnRagfair": false,
       "CanRequireOnRagfair": false,
-      "addtoItemBlacklist": true,   
-        
+      "addtoItemBlacklist": true,
       "Prefab": {
-
         "path": "equipment/item_equipment_armor_gladiator_s_light_mltcm_ISB.bundle",
         "rcid": ""
       },
-
-
       "Width": 3,
       "Height": 4,
-
-
-      "Weight": 2.77
+      "Weight": 2.77,
+      "Name": "FORT Gladiator-S plate carrier (White Tusk Lightweight)",
+      "ShortName": "Gladiator-S",
+      "Description": "A specialized body armor developed for the FSB’s Special Purpose Center, featuring high functionality and modularity. White Tusk Lightweight version."
     },
-
     "addWeaponPreset": true,
     "weaponPresets": [
       {
@@ -69,38 +62,29 @@
         "_encyclopedia": "6a4c68b8a90f66f581bf790f"
       }
     ],
-
     "locales": {
       "en": {
-        "name": "FORT Gladiator-S plate carrier (Lightweight, White Tusk Edition)",
+        "name": "FORT Gladiator-S plate carrier (White Tusk Lightweight)",
         "shortName": "Gladiator-S",
-        "description": "A specialized body armor developed for the FSB’s Special Purpose Center, featuring high functionality and modularity. The lightweight version is designed to provide maximum mobility while protecting vital organs."
+        "description": "A specialized body armor developed for the FSB’s Special Purpose Center, featuring high functionality and modularity. White Tusk Lightweight version."
       },
-        "po": {
-        "name": "FORT Gladiator-S plate carrier (Lightweight, White Tusk Edition)",
+      "po": {
+        "name": "FORT Gladiator-S plate carrier (White Tusk Leve)",
         "shortName": "Gladiator-S",
-        "description": "A specialized body armor developed for the FSB’s Special Purpose Center, featuring high functionality and modularity. The lightweight version is designed to provide maximum mobility while protecting vital organs."
+        "description": "A specialized body armor developed for the FSB’s Special Purpose Center, featuring high functionality and modularity. White Tusk Leve version."
       }
     },
-
     "fleaPriceRoubles": 515900,
-
     "handbookPriceRoubles": 219580,
-
-    "addtoInventorySlots": ["TacticalRig"],
-
+    "addtoInventorySlots": [
+      "TacticalRig"
+    ],
     "addtoStaticLootContainers": false,
-
     "CanSellOnRagfair": false,
-
     "IsAlwaysAvailableForInsurance": false,
-
     "InsuranceDisabled": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "StaticLootContainers": [
       {
         "ContainerName": "",

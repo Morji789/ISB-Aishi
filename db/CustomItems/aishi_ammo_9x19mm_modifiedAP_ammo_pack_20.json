@@ -1,16 +1,13 @@
 {
   "699aad8c961ebda759f9e7fe": {
-
     "itemTplToClone": "5c1127bdd174af44217ab8b9",
     "parentId": "543be5cb4bdc2deb348b4568",
     "handbookParentId": "5b47574386f77428ca22b33c",
-
-
-    "overrideProperties": { 
+    "overrideProperties": {
       "ExaminedByDefault": false,
-        "IsUnsaleable": true,
-        "IsUnbuyable": true,
-        "StackSlots": [
+      "IsUnsaleable": true,
+      "IsUnbuyable": true,
+      "StackSlots": [
         {
           "_id": "699aae8c9b6a4ab2b769c4a3",
           "_max_count": 20,
@@ -28,23 +25,13 @@
           "_proto": "699aad88c75da9cbb3a11df3"
         }
       ],
-
-        
-
       "Prefab": {
-
         "path": "assets/content/items/ammo/boxes/item_ammo_box_9x19_rip_20.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
-      "Height": 1,
       "Weight": 0.125,
-
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "9x19mm RIP AP ammo pack (20 pcs)",
@@ -56,36 +43,20 @@
         "shortName": "RIP AP",
         "description": "Uma caixa de papelão com cartuchos RIP AP de 9x19 mm, 20 unidades."
       }
-    
     },
-
     "fleaPriceRoubles": 119999,
-
     "handbookPriceRoubles": 3000,
-
     "addCaliberToAllCloneLocations": true,
-
     "addtoStaticAmmo": false,
-
     "CanSellOnRagfair": false,
-
     "CanRequireOnRagfair": false,
-    
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "staticAmmoProbability": 100,
-
     "addtoBots": true,
-
     "addtoStaticLootContainers": true,
-
     "staticLootContainers": [
       {
         "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 350
-      },
-      {
-        "containerName": "LOOTCONTAINER_SCAV_BODY",
         "probability": 350
       },
       {

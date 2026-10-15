@@ -1,0 +1,149 @@
+{
+  "13ec9619adf65faf87998dab": {
+    "itemTplToClone": "63737f448b28897f2802b874",
+    "parentId": "5448e54d4bdc2dcc718b4568",
+    "handbookParentId": "5b5f701386f774093f2ecf0f",
+    "overrideProperties": {
+      "Description": "PLATEminus modular plate carrier in Grey. (MultiCam Black)",
+      "Grids": [],
+      "Name": "Blue Force Gear PLATEminus V2 body armor (MultiCam Black)",
+      "Prefab": {
+        "path": "equipment/item_equipment_plateminus_grey_multicam_black_aishi.bundle",
+        "rcid": ""
+      },
+      "ShortName": "PLATEminus V2",
+      "Slots": [
+        {
+          "_id": "80e9b45af0845515bedb88bd",
+          "_mergeSlotWithChildren": true,
+          "_name": "Front_plate",
+          "_parent": "13ec9619adf65faf87998dab",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "656f9d5900d62bcd2e02407c",
+                  "656fa8d700d62bcd2e024084",
+                  "656fa99800d62bcd2e024088",
+                  "656fae5f7c2d57afe200c0d7",
+                  "656faf0ca0dce000a2020f77",
+                  "656fafe3498d1b7e3e071da4",
+                  "656fa0fb498d1b7e3e071d9c",
+                  "656fa76500d62bcd2e024080",
+                  "656fad8c498d1b7e3e071da0",
+                  "656fa25e94b480b8a500c0e0",
+                  "656fa61e94b480b8a500c0e8",
+                  "656fb21fa0dce000a2020f7c",
+                  "656fac30c6baea13cd07e10c",
+                  "656fb0bd7c2d57afe200c0dc",
+                  "656f9fa0498d1b7e3e071d98",
+                  "656fa53d94b480b8a500c0e4",
+                  "655746010177119f4a097ff7",
+                  "64afdcb83efdfea28601d041"
+                ],
+                "Plate": "656fae5f7c2d57afe200c0d7",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_chest"
+                ],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": false
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": false
+        },
+        {
+          "_id": "8847dc1b4b925bc8a6556bcb",
+          "_mergeSlotWithChildren": true,
+          "_name": "Back_plate",
+          "_parent": "13ec9619adf65faf87998dab",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "656f9d5900d62bcd2e02407c",
+                  "656fa8d700d62bcd2e024084",
+                  "656fa99800d62bcd2e024088",
+                  "656fae5f7c2d57afe200c0d7",
+                  "656faf0ca0dce000a2020f77",
+                  "656fa0fb498d1b7e3e071d9c",
+                  "656fafe3498d1b7e3e071da4",
+                  "656fa25e94b480b8a500c0e0",
+                  "656fa76500d62bcd2e024080",
+                  "656fad8c498d1b7e3e071da0",
+                  "656fa61e94b480b8a500c0e8",
+                  "656fb21fa0dce000a2020f7c",
+                  "656fac30c6baea13cd07e10c",
+                  "656fb0bd7c2d57afe200c0dc",
+                  "656f9fa0498d1b7e3e071d98",
+                  "656fa53d94b480b8a500c0e4",
+                  "655746010177119f4a097ff7",
+                  "64afdcb83efdfea28601d041"
+                ],
+                "Plate": "656fae5f7c2d57afe200c0d7",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_back"
+                ],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": false
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": false
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Blue Force Gear PLATEminus V2 body armor (MultiCam Black)",
+        "shortName": "PLATEminus V2",
+        "description": "PLATEminus modular plate carrier in Grey. (MultiCam Black)"
+      },
+      "pt": {
+        "name": "Blue Force Gear PLATEminus V2 body armor (MultiCam Black)",
+        "shortName": "PLATEminus V2",
+        "description": "PLATEminus modular plate carrier in Grey. (MultiCam Black)"
+      }
+    },
+    "handbookPriceRoubles": 183864,
+    "fleaPriceRoubles": 95018,
+    "addtoInventorySlots": [],
+    "addtoBots": false,
+    "addtoTraders": false,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": false,
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_changeWeaponName": false,
+        "_encyclopedia": "13ec9619adf65faf87998dab",
+        "_id": "df2f7f1a609e520fbcefd04c",
+        "_items": [
+          {
+            "_id": "12d22d8233225032b443ed29",
+            "_tpl": "13ec9619adf65faf87998dab"
+          },
+          {
+            "_id": "cf4a6f8424dd59e8a543d578",
+            "_tpl": "656fae5f7c2d57afe200c0d7",
+            "parentId": "12d22d8233225032b443ed29",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "2dff4fcb7fd0597798775993",
+            "_tpl": "656fae5f7c2d57afe200c0d7",
+            "parentId": "12d22d8233225032b443ed29",
+            "slotId": "Back_plate"
+          }
+        ],
+        "_name": "Blue Force Gear PLATEminus plate carrier (Grey) (MultiCam Black)",
+        "_parent": "12d22d8233225032b443ed29",
+        "_type": "Preset"
+      }
+    ]
+  }
+}

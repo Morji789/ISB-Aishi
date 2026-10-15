@@ -1,5 +1,5 @@
 {
-"69a9e3cfe2ad4cc47d96cf22": {
+  "69a9e3cfe2ad4cc47d96cf22": {
     "QuestName": "Dúvida 01",
     "_id": "69a9e3cfe2ad4cc47d96cf22",
     "acceptPlayerMessage": "69a9e3cfe2ad4cc47d96cf22 acceptPlayerMessage",
@@ -124,7 +124,7 @@
           "target": "690766de550bc322a810ea1e",
           "type": "TraderStanding",
           "unknown": true,
-          "value": 0.01
+          "value": 0.75
         }
       ]
     },
@@ -134,8 +134,8 @@
     "status": 0,
     "successMessageText": "69a9e3cfe2ad4cc47d96cf22 successMessageText",
     "traderId": "6617beeaa9cfa777ca915b7c",
-                "type": "Skill"
- },
+    "type": "Skill"
+  },
   "69b44c601144e4b33bdb9e9c": {
     "QuestName": "Planejamento a longo prazo",
     "_id": "69b44c601144e4b33bdb9e9c",
@@ -340,27 +340,6 @@
     "conditions": {
       "AvailableForFinish": [
         {
-          "conditionType": "FindItem",
-          "countInRaid": false,
-          "dogtagLevel": 0,
-          "dynamicLocale": false,
-          "globalQuestCounterId": "",
-          "id": "69b59ef8a9842c3eccdf8411",
-          "index": 0,
-          "isNecessary": false,
-          "isResetOnConditionFailed": false,
-          "isEncoded": false,
-          "maxDurability": 100,
-          "minDurability": 0,
-          "onlyFoundInRaid": false,
-          "parentId": "",
-          "target": [
-            "5449016a4bdc2d6f028b456f"
-          ],
-          "value": 50000000,
-          "visibilityConditions": []
-        },
-        {
           "conditionType": "HandoverItem",
           "dogtagLevel": 0,
           "dynamicLocale": false,
@@ -378,13 +357,7 @@
             "5449016a4bdc2d6f028b456f"
           ],
           "value": 50000000,
-          "visibilityConditions": [
-            {
-              "conditionType": "CompleteCondition",
-              "id": "69b59f5cf4cd3f6433aabaf9",
-              "target": "69b59ef8a9842c3eccdf8411"
-            }
-          ]
+          "visibilityConditions": []
         }
       ],
       "AvailableForStart": [
@@ -433,7 +406,7 @@
           "index": 2,
           "target": "690766de550bc322a810ea1e",
           "type": "TraderStanding",
-          "value": "0.02",
+          "value": 0.75,
           "unknown": false
         },
         {

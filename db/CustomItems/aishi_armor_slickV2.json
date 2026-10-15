@@ -1,20 +1,14 @@
 {
   "69e987f14aa57d074d451fc3": {
-
     "itemTplToClone": "5e4abb5086f77406975c9342",
     "parentId": "5448e54d4bdc2dcc718b4568",
     "handbookParentId": "5b5f701386f774093f2ecf0f",
-
-
     "overrideProperties": {
-      "QuestItem": false,  
       "ExaminedByDefault": false,
       "InsuranceDisabled": true,
-      "IsUnsaleable": false,
       "CanSellOnRagfair": false,
-      "CanRequireOnRagfair": false,
-      "addtoItemBlacklist": true,   
-      "BackgroundColor": "yellow", 
+      "addtoItemBlacklist": true,
+      "BackgroundColor": "yellow",
       "Slots": [
         {
           "_id": "69e987fe5ca2d3723c15f3b5",
@@ -149,24 +143,16 @@
           "_required": true
         }
       ],
-        
       "Prefab": {
-
         "path": "equipment/item_equipment_armor_isbslickV2.bundle",
         "rcid": ""
       },
-
-
-      "Width": 3,
-      "Height": 3,
-
-
-      "Weight": 1.20,
-
-
-      "Grids": []
+      "Weight": 1.2,
+      "Grids": [],
+      "Name": "LBT-6094A Slick Plate Carrier (White Tusk Edition)",
+      "ShortName": "Slick",
+      "Description": "A simple yet effective plate carrier by London Bridge Trading company. The most minimalistic design intended for use with chest rigs. Black version. (White Tusk Edition)"
     },
-
     "addWeaponPreset": true,
     "weaponPresets": [
       {
@@ -208,100 +194,70 @@
         "_type": "Preset"
       }
     ],
-
     "locales": {
       "en": {
-        "name": "Custom ISB SOF LBT-6094A Slick Plate Carrier (ISB STF-A Edition)",
-        "shortName": "ISB Slick V2",
-        "description": "A simple yet effective plate carrier by London Bridge Trading company and modified by ISB. The most minimalistic design intended for use with chest rigs. Designed for Vipper, the leader of the Snake squadron, from ISB SOF."
+        "name": "LBT-6094A Slick Plate Carrier (White Tusk Edition)",
+        "shortName": "Slick",
+        "description": "A simple yet effective plate carrier by London Bridge Trading company. The most minimalistic design intended for use with chest rigs. Black version. (White Tusk Edition)"
       },
-        "po": {
-        "name": "Colete LBT-6094A Slick (ISB STF-A Edition) Modificado das Forças Especiais da ISB",
-        "shortName": "Slick da ISB V2",
-        "description": "Um colete de placas simples, mas eficaz, fabricado pela London Bridge Trading e modificado pela ISB. O design mais minimalista, concebido para uso com arneses de peito. Projetado para Vipper, o líder do esquadrão Snake, da ISB."
+      "po": {
+        "name": "Plate carrier liso LBT 6094A (White Tusk Edition)",
+        "shortName": "Liso",
+        "description": "Plate carrier simples da empresa LBT. O design mais minimalista, feito para usar com veste tática. (White Tusk Edition)"
       }
     },
-
     "fleaPriceRoubles": 212250,
-
     "handbookPriceRoubles": 4150,
-
     "addtoHideoutPosterSlots": false,
-
-    "addtoInventorySlots": ["BodyArmor"],
-
+    "addtoInventorySlots": [
+      "BodyArmor"
+    ],
     "addPosterToMaps": false,
-
     "posterSpawnProbability": 0,
-
     "addtoStatuetteSlots": false,
-
     "addCaliberToAllCloneLocations": false,
-
     "InsuranceDisabled": true,
-
     "IsAlwaysAvailableForInsurance": false,
-
     "addtoStaticAmmo": false,
-
     "staticAmmoProbability": 0,
-
     "addtoBots": false,
-
     "addtoSpecialSlots": false,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "addtoModSlots": false,
-
-    "modSlot": [""],
-
+    "modSlot": [
+      ""
+    ],
     "addtoHallOfFame": false,
-
     "hallOfFameSlots": [
-      "bigTrophies", 
-      "smallTrophies", 
+      "bigTrophies",
+      "smallTrophies",
       "dogTags"
     ],
-
     "addtoGeneratorAsFuel": false,
-
     "generatorFuelSlotStages": [
       "1",
       "2",
       "3"
     ],
-
     "addtoEmptyPropSlots": false,
-
     "emptyPropSlot": {
       "itemToAddTo": "628a66b41d5e41750e314f34",
       "modSlot": "mod_muzzle"
     },
-
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",
         "Probability": 0
       }
     ],
-
-
     "addtoSecureFilters": false,
-
     "addtoTraders": false,
-
     "traders": {
       "AISHI": {
-
         "6924841d554643c04fce2598": {
-
           "barterSettings": {
             "loyalLevel": 1,
             "unlimitedCount": true,
@@ -318,72 +274,50 @@
     }
   },
   "69eb97a65f5d044da7fe6bd2": {
-
     "itemTplToClone": "6575e72660703324250610c7",
     "parentId": "65649eb40bf0ed77b8044453",
     "handbookParentId": "6564b96a189fe36f356d177c",
-
-
     "overrideProperties": {
-      "QuestItem": false,  
-      "ExaminedByDefault": true,
       "PushToFleaBlacklist": true,
-      "MaterialType": "BodyArmor",
       "InsuranceDisabled": true,
       "ArmorMaterial": "Ceramic",
       "ArmorType": "Heavy",
       "BackgroundColor": "yellow",
-      "ItemSound": "gear_armor",
-      "armorPlateColliders":  [
-          "Plate_Granit_SAPI_chest",
-          "Plate_Granit_SAPI_back"
+      "armorPlateColliders": [
+        "Plate_Granit_SAPI_chest",
+        "Plate_Granit_SAPI_back"
       ],
       "armorClass": "6",
       "Durability": 100,
       "MaxDurability": 100,
       "BluntThroughput": 0.1,
-      "RarityPvE":"Superrare"
-                        },
-        "Prefab": {
-
-        "path": "assets/content/items/equipment/armor_plates/soft_armor_back.bundle",
-        "rcid": ""
-        },
-
-
-        "Width": 1,
-        "Height": 1,
-
-
-        "Weight": 0,
-
-
-        "Grids": [
-        ],
-
+      "RarityPvE": "Superrare"
+    },
+    "Prefab": {
+      "path": "assets/content/items/equipment/armor_plates/soft_armor_back.bundle",
+      "rcid": ""
+    },
+    "Width": 1,
+    "Height": 1,
+    "Weight": 0,
+    "Grids": [],
     "locales": {
       "en": {
         "name": "Modified aramid insert",
         "shortName": "Modified aramid insert",
         "description": "Modified aramid insert"
       },
-        "po": {
-            "name": "Modified aramid insert",
-            "shortName": "Modified aramid insert",
-            "description": "Modified aramid insert"
+      "po": {
+        "name": "Modified aramid insert",
+        "shortName": "Modified aramid insert",
+        "description": "Modified aramid insert"
       }
     },
-
-    "fleaPriceRoubles": 0,
-
-    "handbookPriceRoubles": 0,
-
+    "fleaPriceRoubles": 34400,
+    "handbookPriceRoubles": 34400,
     "InsuranceDisabled": true,
-
     "addtoInventorySlots": [],
-
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",
@@ -392,72 +326,50 @@
     ]
   },
   "69eb97f4a91dda3c1615e5ad": {
-
     "itemTplToClone": "6575e71760703324250610c3",
     "parentId": "65649eb40bf0ed77b8044453",
     "handbookParentId": "6564b96a189fe36f356d177c",
-
-
     "overrideProperties": {
-      "QuestItem": false,  
-      "ExaminedByDefault": true,
       "PushToFleaBlacklist": true,
-      "MaterialType": "BodyArmor",
       "InsuranceDisabled": true,
       "ArmorMaterial": "Ceramic",
       "ArmorType": "Heavy",
       "BackgroundColor": "yellow",
-      "ItemSound": "gear_armor",
-      "armorPlateColliders":  [
-          "Plate_Granit_SAPI_chest",
-          "Plate_Granit_SAPI_back"
+      "armorPlateColliders": [
+        "Plate_Granit_SAPI_chest",
+        "Plate_Granit_SAPI_back"
       ],
       "armorClass": "6",
       "Durability": 75,
       "MaxDurability": 75,
       "BluntThroughput": 0.1,
-      "RarityPvE":"Superrare"
-       },
-        "Prefab": {
-
-        "path": "assets/content/items/equipment/armor_plates/soft_armor_front.bundle",
-        "rcid": ""
-        },
-
-
-        "Width": 1,
-        "Height": 1,
-
-
-        "Weight": 0,
-
-
-        "Grids": [
-        ],
-
+      "RarityPvE": "Superrare"
+    },
+    "Prefab": {
+      "path": "assets/content/items/equipment/armor_plates/soft_armor_front.bundle",
+      "rcid": ""
+    },
+    "Width": 1,
+    "Height": 1,
+    "Weight": 0,
+    "Grids": [],
     "locales": {
       "en": {
         "name": "Modified aramid insert",
         "shortName": "Modified aramid insert",
         "description": "Modified aramid insert"
       },
-        "po": {
-            "name": "Modified aramid insert",
-            "shortName": "Modified aramid insert",
-            "description": "Modified aramid insert"
+      "po": {
+        "name": "Modified aramid insert",
+        "shortName": "Modified aramid insert",
+        "description": "Modified aramid insert"
       }
     },
-
-    "fleaPriceRoubles": 0,
-
-    "handbookPriceRoubles": 0,
-
+    "fleaPriceRoubles": 29400,
+    "handbookPriceRoubles": 29400,
     "InsuranceDisabled": true,
-
     "addtoInventorySlots": [],
-
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",

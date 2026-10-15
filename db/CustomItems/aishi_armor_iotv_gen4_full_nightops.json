@@ -1,0 +1,131 @@
+{
+  "138f84926c17515ab57833db": {
+    "itemTplToClone": "5b44cd8b86f774503d30cba2",
+    "parentId": "5448e54d4bdc2dcc718b4568",
+    "handbookParentId": "5b5f701386f774093f2ecf0f",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "equipment/item_equipment_armor_iotv_full_nightops.bundle",
+        "rcid": ""
+      },
+      "Name": "IOTV Gen4 body armor (Full Protection Kit, Black Camo)",
+      "ShortName": "Gen4 Full",
+      "Description": "The Improved Outer Tactical Vest (IOTV) Gen IV is designed to permit maximum freedom of movement required to assume correct firing positions with the agility to execute and maneuver tasks. Optimal design characteristics ensure the best possible weight distribution of both the ballistic body armor system as well as additional load bearing equipment, thus providing enhanced comfort, wear duration, and mobility. Full protection kit. (Black Camo)",
+      "CanSellOnRagfair": false
+    },
+    "weaponPresets": [
+      {
+        "_changeWeaponName": false,
+        "_encyclopedia": "138f84926c17515ab57833db",
+        "_id": "709f0a7615d55149876a5cc1",
+        "_items": [
+          {
+            "_id": "16977ac1d22b54929e0cc938",
+            "_tpl": "138f84926c17515ab57833db"
+          },
+          {
+            "_id": "775816f8c661516a9864489a",
+            "_tpl": "6575c2adefc786cd9101a5d9",
+            "parentId": "16977ac1d22b54929e0cc938",
+            "slotId": "Soft_armor_front"
+          },
+          {
+            "_id": "758cb8501f875245881fe20f",
+            "_tpl": "6575c2be52b7f8c76a05ee25",
+            "parentId": "16977ac1d22b54929e0cc938",
+            "slotId": "Soft_armor_back"
+          },
+          {
+            "_id": "50bf666503c85f6fb5ac1e6b",
+            "_tpl": "6575c2cd52b7f8c76a05ee29",
+            "parentId": "16977ac1d22b54929e0cc938",
+            "slotId": "Soft_armor_left"
+          },
+          {
+            "_id": "b1ac360d7aca502c89ce391a",
+            "_tpl": "6575c2d852b7f8c76a05ee2d",
+            "parentId": "16977ac1d22b54929e0cc938",
+            "slotId": "soft_armor_right"
+          },
+          {
+            "_id": "915b84cf8af85e048641c584",
+            "_tpl": "6575c2e4efc786cd9101a5dd",
+            "parentId": "16977ac1d22b54929e0cc938",
+            "slotId": "Collar"
+          },
+          {
+            "_id": "e686057510105cb6951a73cd",
+            "_tpl": "6575c2f7efc786cd9101a5e1",
+            "parentId": "16977ac1d22b54929e0cc938",
+            "slotId": "Shoulder_l"
+          },
+          {
+            "_id": "d28ce6a1e4915ce19ce34b04",
+            "_tpl": "6575c30352b7f8c76a05ee31",
+            "parentId": "16977ac1d22b54929e0cc938",
+            "slotId": "Shoulder_r"
+          },
+          {
+            "_id": "a7a82ec470345e2c8dd1deae",
+            "_tpl": "6575c31b52b7f8c76a05ee35",
+            "parentId": "16977ac1d22b54929e0cc938",
+            "slotId": "Groin"
+          },
+          {
+            "_id": "3184353f971657af8bb86b39",
+            "_tpl": "6575c326c6700bd6b40e8a80",
+            "parentId": "16977ac1d22b54929e0cc938",
+            "slotId": "Groin_back"
+          },
+          {
+            "_id": "269747db2620511fb254414d",
+            "_tpl": "656fa8d700d62bcd2e024084",
+            "parentId": "16977ac1d22b54929e0cc938",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "02ac45fb2d2b52428ce6a559",
+            "_tpl": "656fa8d700d62bcd2e024084",
+            "parentId": "16977ac1d22b54929e0cc938",
+            "slotId": "Back_plate"
+          },
+          {
+            "_id": "3ede5cee473857a4b0edcd08",
+            "_tpl": "6557458f83942d705f0c4962",
+            "parentId": "16977ac1d22b54929e0cc938",
+            "slotId": "Left_side_plate"
+          },
+          {
+            "_id": "eb9e8854312e57d08b3c0fa8",
+            "_tpl": "6557458f83942d705f0c4962",
+            "parentId": "16977ac1d22b54929e0cc938",
+            "slotId": "Right_side_plate"
+          }
+        ],
+        "_name": "IOTV Gen4 Full Protection - Nightops Standard",
+        "_parent": "16977ac1d22b54929e0cc938",
+        "_type": "Preset"
+      }
+    ],
+    "addWeaponPreset": true,
+    "locales": {
+      "en": {
+        "name": "IOTV Gen4 body armor (Full Protection Kit, Black Camo)",
+        "shortName": "Gen4 Full",
+        "description": "The Improved Outer Tactical Vest (IOTV) Gen IV is designed to permit maximum freedom of movement required to assume correct firing positions with the agility to execute and maneuver tasks. Optimal design characteristics ensure the best possible weight distribution of both the ballistic body armor system as well as additional load bearing equipment, thus providing enhanced comfort, wear duration, and mobility. Full protection kit. (Black Camo)"
+      },
+      "po": {
+        "name": "Armadura Gen4 IOTV (Proteção completa, Camuflagem Preta)",
+        "shortName": "Gen4 Completo",
+        "description": "O Colete Tático Externo Improvisado (CTEI) Gen IV foi projetado para permitir máxima movimentação necessária para a posição correta de tiro com agilidade na execução. Projetado com características para assegurar a melhor distribuição de peso da armadura balística corporal e também o peso dos equipamentos carregados, providenciando melhor conforto, maior duração de uso e mobilidade. Conjunto de proteção total. (Camuflagem Preta)"
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "handbookPriceRoubles": 270000,
+    "fleaPriceRoubles": 270000,
+    "addtoStaticLootContainers": false
+  }
+}

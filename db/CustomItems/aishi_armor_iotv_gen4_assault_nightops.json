@@ -1,0 +1,119 @@
+{
+  "5f98648760ce5ebe9ba96d92": {
+    "itemTplToClone": "5b44cf1486f77431723e3d05",
+    "parentId": "5448e54d4bdc2dcc718b4568",
+    "handbookParentId": "5b5f701386f774093f2ecf0f",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "equipment/item_equipment_armor_iotv_1_assault_nightops.bundle",
+        "rcid": ""
+      },
+      "Name": "IOTV Gen4 body armor (Assault Kit, Black Camo)",
+      "ShortName": "Gen4 Assault",
+      "Description": "The Improved Outer Tactical Vest (IOTV) Gen IV is designed to permit maximum freedom of movement required to assume correct firing positions with the agility to execute and maneuver tasks. Optimal design characteristics ensure the best possible weight distribution of both the ballistic body armor system as well as additional load bearing equipment, thus providing enhanced comfort, wear duration, and mobility. Increased ergonomics assault kit. (Black Camo)",
+      "CanSellOnRagfair": false
+    },
+    "weaponPresets": [
+      {
+        "_changeWeaponName": false,
+        "_encyclopedia": "5f98648760ce5ebe9ba96d92",
+        "_id": "5be41685233d59dbacd6f129",
+        "_items": [
+          {
+            "_id": "f9cc6065f0f65e6b972fb7d6",
+            "_tpl": "5f98648760ce5ebe9ba96d92"
+          },
+          {
+            "_id": "b1a51243ed165d1d8fc02680",
+            "_tpl": "6575c3b3dc9932aed601c5f4",
+            "parentId": "f9cc6065f0f65e6b972fb7d6",
+            "slotId": "Soft_armor_front"
+          },
+          {
+            "_id": "1c9ea60cd7af5747a441e02e",
+            "_tpl": "6575c3beefc786cd9101a5ed",
+            "parentId": "f9cc6065f0f65e6b972fb7d6",
+            "slotId": "Soft_armor_back"
+          },
+          {
+            "_id": "ebcc1968e1d457dabc557bba",
+            "_tpl": "6575c3cdc6700bd6b40e8a90",
+            "parentId": "f9cc6065f0f65e6b972fb7d6",
+            "slotId": "Soft_armor_left"
+          },
+          {
+            "_id": "888134ba3d2f5a028b3503f3",
+            "_tpl": "6575c3dfdc9932aed601c5f8",
+            "parentId": "f9cc6065f0f65e6b972fb7d6",
+            "slotId": "soft_armor_right"
+          },
+          {
+            "_id": "e5cada49401854d2902d23e9",
+            "_tpl": "6575c3ec52b7f8c76a05ee39",
+            "parentId": "f9cc6065f0f65e6b972fb7d6",
+            "slotId": "Collar"
+          },
+          {
+            "_id": "662ee8a86bc05972beb6520d",
+            "_tpl": "6575c3fd52b7f8c76a05ee3d",
+            "parentId": "f9cc6065f0f65e6b972fb7d6",
+            "slotId": "Shoulder_l"
+          },
+          {
+            "_id": "61075eb1d9ce5108942ee9ba",
+            "_tpl": "6575c40c52b7f8c76a05ee41",
+            "parentId": "f9cc6065f0f65e6b972fb7d6",
+            "slotId": "Shoulder_r"
+          },
+          {
+            "_id": "a9c590aae8b55d688416dfb8",
+            "_tpl": "656fa8d700d62bcd2e024084",
+            "parentId": "f9cc6065f0f65e6b972fb7d6",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "221ef28e463951308c2b191e",
+            "_tpl": "656fa8d700d62bcd2e024084",
+            "parentId": "f9cc6065f0f65e6b972fb7d6",
+            "slotId": "Back_plate"
+          },
+          {
+            "_id": "11d22ace70c258ed8a1c9e50",
+            "_tpl": "6557458f83942d705f0c4962",
+            "parentId": "f9cc6065f0f65e6b972fb7d6",
+            "slotId": "Left_side_plate"
+          },
+          {
+            "_id": "b7ce3502044057dda18bad2f",
+            "_tpl": "6557458f83942d705f0c4962",
+            "parentId": "f9cc6065f0f65e6b972fb7d6",
+            "slotId": "Right_side_plate"
+          }
+        ],
+        "_name": "IOTV Gen4 Assault - Nightops Standard",
+        "_parent": "f9cc6065f0f65e6b972fb7d6",
+        "_type": "Preset"
+      }
+    ],
+    "addWeaponPreset": true,
+    "locales": {
+      "en": {
+        "name": "IOTV Gen4 body armor (Assault Kit, Black Camo)",
+        "shortName": "Gen4 Assault",
+        "description": "The Improved Outer Tactical Vest (IOTV) Gen IV is designed to permit maximum freedom of movement required to assume correct firing positions with the agility to execute and maneuver tasks. Optimal design characteristics ensure the best possible weight distribution of both the ballistic body armor system as well as additional load bearing equipment, thus providing enhanced comfort, wear duration, and mobility. Increased ergonomics assault kit. (Black Camo)"
+      },
+      "po": {
+        "name": "Armadura IOTV Gen4 (conjunto de assalto, Camuflagem Preta)",
+        "shortName": "Gen4 Assalto",
+        "description": "O Colete Tático Externo Improvisado (CTEI) Gen IV foi projetado para permitir máxima movimentação necessária para a posição correta de tiro com agilidade na execução. Projetado com características para assegurar a melhor distribuição de peso da armadura balística corporal e também o peso dos equipamentos carregados, providenciando melhor conforto, maior duração de uso e mobilidade. \n\nConjunto Assalto melhora a Ergonomia (Camuflagem Preta)"
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "handbookPriceRoubles": 220000,
+    "fleaPriceRoubles": 220000,
+    "addtoStaticLootContainers": false
+  }
+}

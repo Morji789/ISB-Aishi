@@ -1,18 +1,16 @@
 {
-    "6a6aa8e25ce77038f78f5360 name": "Até que sou bondosa",
-    "6a6aa8e25ce77038f78f5360 description": "Sabe, às vezes eu estou entediada olhando as bodycams do meu pessoal e toda a rede que ainda está de pé em Tarkov, e decido sair invadindo toda vulnerabilidade para ver o que está acontecendo.\n\nConhece a Lotus? Ela é uma grande comerciante aqui em Tarkov e com um grande pessoal também. Pelos dados que temos dela, é mais ligada à Rússia como um todo, RUAF e seus aliados.\n\nBem, isso não importa muito agora. O que importa é que eu interceptei alguns sinais e parece que alguns Raiders conseguiram escutar uma transmissão da Lotus para alguns de seus mercenários, e nisso acabou vazando a posição de um de seus depósitos em Woods.\n\nMesmo que eu oferecesse ajuda, ela dificilmente aceitaria. Então vá até a Reserve e coloque alguns Jammers naquelas duas antenas principais perto das barracas e do helicóptero. Isso vai fazer eles pararem de ouvir a conversa dos outros.",
-    "6a6aa8e25ce77038f78f5360 successMessageText": "Confirmado. O sinal parou. Agora só precisamos tirar eles dessa rota.",
-    "6a6ab094783b46ba47b5772b": "Posicione um Disruptor de Sinal na primeira antena em Reserve",
-    "6a6ab14a2dca8e1e627b78f0": "Posicione um Disruptor de Sinal na segunda antena em Reserve",
-
-    "6a6ab405957e20e3ed0af439 name": "Expurgo de Raiders",
-    "6a6ab405957e20e3ed0af439 description": "Agora que esses merdas pararam de ficar espiando a conversa dos outros, vamos dar uma lição bem no nível da ISB para eles. Encontre Raiders e apague-os do mapa.",
-    "6a6ab405957e20e3ed0af439 successMessageText": "Bom, estoques da Lotus seguros. Seguimos.",
-    "6a6ab40e060af6fe3c0d533e": "Elimine 25 Raiders por toda Tarkov",
-
-    "6a6be0db93f4ebb01828169d name": "Light of Lotus?",
-    "6a6be0db93f4ebb01828169d description": "Uma investigação em tempo recorde. Por que não me falou nada mais cedo? Bom, acho que de certa forma isso foi uma retribuição pelo negócio envolvendo os Raiders.\n\nDe qualquer forma, parece que vocês realmente me livraram de alguma coisa, não que faça diferença porque vou caçar esses merdas até o último segundo.\n\nPegue isso, pague a Lotus e fique com o troco.",
-    "6a6be0db93f4ebb01828169d successMessageText": "Obrigada pela ajuda. E agradeça à Lotus também.",
-    "6a6be54ed788b87d372816a2": "Atenda à solicitação de Lotus",
-    "6a6be5aab8e36105e72816aa": "Entregue o Caderno com os documentos"
+  "6a6aa8e25ce77038f78f5360 name": "Até que sou bondosa",
+  "6a6aa8e25ce77038f78f5360 description": "Sabe, às vezes eu estou entediada olhando as bodycams do meu pessoal e toda a rede que ainda está de pé em Tarkov, e decido sair invadindo toda vulnerabilidade para ver o que está acontecendo.\n\nConhece a Lotus? Ela é uma grande comerciante aqui em Tarkov e com um grande pessoal também. Pelos dados que temos dela, é mais ligada à Rússia como um todo, RUAF e seus aliados.\n\nBem, isso não importa muito agora. O que importa é que eu interceptei alguns sinais e parece que alguns Raiders conseguiram escutar uma transmissão da Lotus para alguns de seus mercenários, e nisso acabou vazando a posição de um de seus depósitos em Woods.\n\nMesmo que eu oferecesse ajuda, ela dificilmente aceitaria. Então vá até a Reserve e coloque alguns Jammers naquelas duas antenas principais perto das barracas e do helicóptero. Isso vai fazer eles pararem de ouvir a conversa dos outros.",
+  "6a6aa8e25ce77038f78f5360 successMessageText": "Confirmado. O sinal parou. Agora só precisamos tirar eles dessa rota.",
+  "6a6ab094783b46ba47b5772b": "Posicione um Disruptor de Sinal na primeira antena em Reserve",
+  "6a6ab14a2dca8e1e627b78f0": "Posicione um Disruptor de Sinal na segunda antena em Reserve",
+  "6a6ab405957e20e3ed0af439 name": "Expurgo de Raiders",
+  "6a6ab405957e20e3ed0af439 description": "Agora que esses merdas pararam de ficar espiando a conversa dos outros, vamos dar uma lição bem no nível da ISB para eles. Encontre Raiders e apague-os do mapa.",
+  "6a6ab405957e20e3ed0af439 successMessageText": "Bom, estoques da Lotus seguros. Seguimos.",
+  "6a6ab40e060af6fe3c0d533e": "Elimine 25 Raiders por toda Tarkov",
+  "6a6be0db93f4ebb01828169d name": "Light of Lotus?",
+  "6a6be0db93f4ebb01828169d description": "Uma investigação em tempo recorde. Por que não me falou nada mais cedo? Bom, acho que de certa forma isso foi uma retribuição pelo negócio envolvendo os Raiders.\n\nDe qualquer forma, parece que vocês realmente me livraram de alguma coisa, não que faça diferença porque vou caçar esses merdas até o último segundo.\n\nPegue isso, pague a Lotus e fique com o troco.",
+  "6a6be0db93f4ebb01828169d successMessageText": "Obrigada pela ajuda. E agradeça à Lotus também.",
+  "6a6be54ed788b87d372816a2": "Atenda à solicitação de Lotus",
+  "6a6be5aab8e36105e72816aa": "Entregue o Caderno com os documentos"
 }

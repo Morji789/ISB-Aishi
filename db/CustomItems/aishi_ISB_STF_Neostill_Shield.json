@@ -1,83 +1,53 @@
 {
   "69e9a740c5601070091d418b": {
-
     "itemTplToClone": "6570a88c8f221f3b210353b7",
     "parentId": "57bef4c42459772e8d35a53b",
     "handbookParentId": "5b5f704686f77447ec5d76d7",
-
     "overrideProperties": {
-      "QuestItem": false,  
       "ExaminedByDefault": false,
       "CanSellOnRagfair": false,
-      "CanRequireOnRagfair": false,
       "InsuranceDisabled": true,
-      "addtoItemBlacklist": true,  
+      "addtoItemBlacklist": true,
       "armorClass": "5",
       "BackgroundColor": "yellow",
       "IsUnbuyable": true,
       "Durability": 40,
       "MaxDurability": 40,
-      "Unlootable": false,
-        
-
       "Prefab": {
-
         "path": "equipment/item_equipment_helmet_neosteel_mandible_ISB.bundle",
         "rcid": ""
       },
-
-
-      "Width": 2,
-      "Height": 2,
-
-
       "Weight": 1.32,
-
-    "Grids": []
+      "Grids": []
     },
-
     "locales": {
       "en": {
-        "name": "Modified Diamond Age NeoSteel helmet ballistic mandible (ISB STF-A Edition)",
+        "name": "Modified Diamond Age NeoSteel helmet ballistic mandible (White Tusk Edition)",
         "shortName": "NeoSteel",
         "description": "An extra ballistic protection with a special design for the Diamond Age NeoSteel helmet. A model painted in a light silver camouflage finish with modified markings. Designed for Vipper, the leader of the Snake squadron, from ISB SOF."
       },
-        "po": {
-        "name": "Protetor mandibular balístico Diamond Age NeoSteel modificado (Edição ISB STF-A)",
+      "po": {
+        "name": "Protetor mandibular balístico Diamond Age NeoSteel modificado (Edição White Tusk)",
         "shortName": "NeoSteel",
         "description": "Uma proteção balística adicional com um design especial para o capacete Diamond Age NeoSteel. Modelo pintado de um prata claro camuflado e opaco e com placas modificadas. Desenvolvido para o líder do esquadrão Snake, Vipper da ISB SOF."
       }
     },
-
     "fleaPriceRoubles": 100942,
-
     "handbookPriceRoubles": 59842,
-
     "addtoInventorySlots": [],
-
     "IsAlwaysAvailableForInsurance": false,
-
     "InsuranceDisabled": true,
-
     "modSlot": [],
-
     "addtoEmptyPropSlots": true,
-
     "emptyPropSlot": {
       "itemToAddTo": "65709d2d21b9f815e208ff95",
       "modSlot": "mod_equipment_000"
-    },    
-
+    },
     "addtoBots": false,
-
     "CanSellOnRagfair": false,
-
     "CanRequireOnRagfair": false,
-    
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",

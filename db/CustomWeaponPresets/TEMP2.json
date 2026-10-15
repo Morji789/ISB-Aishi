@@ -1,0 +1,84 @@
+{
+  "e3ed60320f6053119913facd": {
+    "_id": "e3ed60320f6053119913facd",
+    "_name": "Terminus",
+    "_parent": "b3c64365bd8e5f9a8b354f62",
+    "_encyclopedia": "adba052afbd95bb2a0484900",
+    "_items": [
+      {
+        "_id": "b3c64365bd8e5f9a8b354f62",
+        "_tpl": "adba052afbd95bb2a0484900",
+        "upd": {
+          "StackObjectsCount": 1,
+          "Repairable": {
+            "Durability": 100,
+            "MaxDurability": 100
+          },
+          "FireMode": {
+            "FireMode": "single"
+          },
+          "SpawnedInSession": true
+        }
+      },
+      {
+        "_id": "b3fd8a77c3b75cb1ae7052fd",
+        "_tpl": "c0570de6916753e8b8ad6d27",
+        "parentId": "b3c64365bd8e5f9a8b354f62",
+        "slotId": "mod_barrel",
+        "upd": {
+          "SpawnedInSession": true
+        }
+      },
+      {
+        "_id": "9e8c7ce13d9b5eddb2f374f0",
+        "_tpl": "6b929b053df3587ba7aa28c7",
+        "parentId": "b3c64365bd8e5f9a8b354f62",
+        "slotId": "mod_reciever"
+      },
+      {
+        "_id": "1abc16b8db85563788bf5cb7",
+        "_tpl": "5ee5b280c16758cc9c21db3d",
+        "parentId": "b3c64365bd8e5f9a8b354f62",
+        "slotId": "mod_magazine"
+      },
+      {
+        "_id": "f1733ad0b87950fca98958f8",
+        "_tpl": "dd05ecd32ba1527598078ff3",
+        "parentId": "b3c64365bd8e5f9a8b354f62",
+        "slotId": "mod_tactical",
+        "upd": {
+          "Light": {
+            "IsActive": true,
+            "SelectedMode": 0
+          }
+        }
+      },
+      {
+        "_id": "7ead9a21e7ed5c04b0b7f722",
+        "_tpl": "50344b9462df580fb599fbbf",
+        "parentId": "b3fd8a77c3b75cb1ae7052fd",
+        "slotId": "mod_muzzle"
+      },
+      {
+        "_id": "abdb20af385c578da5d4a7cc",
+        "_tpl": "85ec76f36aeb5cb3b1b12328",
+        "parentId": "9e8c7ce13d9b5eddb2f374f0",
+        "slotId": "mod_scope",
+        "upd": {
+          "Sight": {
+            "ScopesCurrentCalibPointIndexes": [
+              0
+            ],
+            "ScopesSelectedModes": [
+              0
+            ],
+            "SelectedScope": 0,
+            "ScopeZoomValue": 0
+          }
+        }
+      }
+    ],
+    "_type": "Preset",
+    "_changeWeaponName": true
+  }
+}

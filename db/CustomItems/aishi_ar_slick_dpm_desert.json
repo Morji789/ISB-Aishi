@@ -1,0 +1,204 @@
+{
+  "1f0a2fb047815b5bb2d3e0ee": {
+    "itemTplToClone": "5e4abb5086f77406975c9342",
+    "parentId": "5448e54d4bdc2dcc718b4568",
+    "handbookParentId": "5b5f701386f774093f2ecf0f",
+    "overrideProperties": {
+      "Description": "A simple yet effective plate carrier by London Bridge Trading company. The most minimalistic design intended for use with chest rigs. DPM Desert Version.",
+      "Grids": [],
+      "Name": "LBT-6094A Slick Plate Carrier (DPM Desert)",
+      "Prefab": {
+        "path": "equipment/ar_slick_dpm_desert_aishi.bundle",
+        "rcid": ""
+      },
+      "ShortName": "Slick",
+      "Slots": [
+        {
+          "_id": "d043615b346d5314b08b16f7",
+          "_mergeSlotWithChildren": true,
+          "_name": "Front_plate",
+          "_parent": "1f0a2fb047815b5bb2d3e0ee",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "656f9d5900d62bcd2e02407c",
+                  "656fa8d700d62bcd2e024084",
+                  "656fa99800d62bcd2e024088",
+                  "656fae5f7c2d57afe200c0d7",
+                  "656faf0ca0dce000a2020f77",
+                  "656fa0fb498d1b7e3e071d9c",
+                  "656fafe3498d1b7e3e071da4",
+                  "656fa76500d62bcd2e024080",
+                  "656fa25e94b480b8a500c0e0",
+                  "656fad8c498d1b7e3e071da0",
+                  "656fa61e94b480b8a500c0e8",
+                  "656fb21fa0dce000a2020f7c",
+                  "656fac30c6baea13cd07e10c",
+                  "656fb0bd7c2d57afe200c0dc",
+                  "656f9fa0498d1b7e3e071d98",
+                  "656fa53d94b480b8a500c0e4",
+                  "655746010177119f4a097ff7",
+                  "64afdcb83efdfea28601d041"
+                ],
+                "Plate": "656fa76500d62bcd2e024080",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_chest"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": false
+        },
+        {
+          "_id": "e48dd6540683524188c84827",
+          "_mergeSlotWithChildren": true,
+          "_name": "Back_plate",
+          "_parent": "1f0a2fb047815b5bb2d3e0ee",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "656f9d5900d62bcd2e02407c",
+                  "656fa8d700d62bcd2e024084",
+                  "656fa99800d62bcd2e024088",
+                  "656fae5f7c2d57afe200c0d7",
+                  "656faf0ca0dce000a2020f77",
+                  "656fa0fb498d1b7e3e071d9c",
+                  "656fafe3498d1b7e3e071da4",
+                  "656fa76500d62bcd2e024080",
+                  "656fa25e94b480b8a500c0e0",
+                  "656fad8c498d1b7e3e071da0",
+                  "656fa61e94b480b8a500c0e8",
+                  "656fb21fa0dce000a2020f7c",
+                  "656fac30c6baea13cd07e10c",
+                  "656fb0bd7c2d57afe200c0dc",
+                  "656f9fa0498d1b7e3e071d98",
+                  "656fa53d94b480b8a500c0e4",
+                  "655746010177119f4a097ff7",
+                  "64afdcb83efdfea28601d041"
+                ],
+                "Plate": "656fa76500d62bcd2e024080",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_back"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": false
+        },
+        {
+          "_id": "ef6ec9d1bfcb5baaa1f7ca38",
+          "_mergeSlotWithChildren": true,
+          "_name": "Soft_armor_front",
+          "_parent": "1f0a2fb047815b5bb2d3e0ee",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6575e71760703324250610c3"
+                ],
+                "Plate": "6575e71760703324250610c3",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_chest"
+                ],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        },
+        {
+          "_id": "2e986f4300b25d50a1f415ab",
+          "_mergeSlotWithChildren": true,
+          "_name": "Soft_armor_back",
+          "_parent": "1f0a2fb047815b5bb2d3e0ee",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6575e72660703324250610c7"
+                ],
+                "Plate": "6575e72660703324250610c7",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_back"
+                ],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "LBT-6094A Slick Plate Carrier (DPM Desert)",
+        "shortName": "Slick",
+        "description": "A simple yet effective plate carrier by London Bridge Trading company. The most minimalistic design intended for use with chest rigs. DPM Desert Version."
+      }
+    },
+    "handbookPriceRoubles": 16523,
+    "fleaPriceRoubles": 167229,
+    "addtoInventorySlots": [],
+    "addtoBots": false,
+    "addtoTraders": false,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": false,
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_changeWeaponName": false,
+        "_encyclopedia": "1f0a2fb047815b5bb2d3e0ee",
+        "_id": "8d86bacbed2152b480e98d34",
+        "_items": [
+          {
+            "_id": "eabd78204c7c55af84de3e76",
+            "_tpl": "1f0a2fb047815b5bb2d3e0ee"
+          },
+          {
+            "_id": "efa822784dcd5de7b507414b",
+            "_tpl": "6575e71760703324250610c3",
+            "parentId": "eabd78204c7c55af84de3e76",
+            "slotId": "Soft_armor_front"
+          },
+          {
+            "_id": "09c0441c377351d1a920fa57",
+            "_tpl": "6575e72660703324250610c7",
+            "parentId": "eabd78204c7c55af84de3e76",
+            "slotId": "Soft_armor_back"
+          },
+          {
+            "_id": "a846b7d737165eac86c364ef",
+            "_tpl": "656fa76500d62bcd2e024080",
+            "parentId": "eabd78204c7c55af84de3e76",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "0e361707ac3f5429a765978b",
+            "_tpl": "656fa76500d62bcd2e024080",
+            "parentId": "eabd78204c7c55af84de3e76",
+            "slotId": "Back_plate"
+          }
+        ],
+        "_name": "LBT-6094A Slick Plate Carrier (DPM Desert)",
+        "_parent": "eabd78204c7c55af84de3e76",
+        "_type": "Preset"
+      }
+    ]
+  }
+}

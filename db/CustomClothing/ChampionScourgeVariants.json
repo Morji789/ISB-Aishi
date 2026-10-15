@@ -1,0 +1,162 @@
+[
+  {
+    "file": "C:\\Users\\Sam\\Desktop\\Testes\\ISB-Aishi-v1.0.5\\SPT\\user\\mods\\ISB-Aishi\\db\\CustomClothing\\AishiLiveChampionScourge.json",
+    "type": "top",
+    "locales": {
+      "en": {
+        "name": "Champion Scourge (Red Right Hand)",
+        "shortName": "Champion Scourge (Red Right Hand)",
+        "description": "Protective jacket"
+      },
+      "po": {
+        "name": "Champion Scourge (Red Right Hand)",
+        "shortName": "Champion Scourge (Red Right Hand)",
+        "description": "Protective jacket"
+      }
+    },
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 35,
+    "standing": 0.45,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 3900,
+    "questRequirements": [],
+    "achievementRequirements": [],
+    "suiteId": "65d379b6d80b53f09cbefff9",
+    "outfitId": "0d3ef4bdd73953e7ae9add80",
+    "topId": "80cfa4fcc8de5375855d54ea",
+    "handsId": "bd71c8aae7245f68aa772cb1",
+    "topBundlePath": "clothing/champion_scourge/top_champion_scourge_red_right_hand_aishi.bundle",
+    "handsBundlePath": "clothing/champion_scourge/hands_champion_scourge_red_right_hand_aishi.bundle",
+    "side": [
+      "Bear",
+      "Usec"
+    ],
+    "watchPrefab": {
+      "path": "",
+      "rcid": ""
+    },
+    "watchPosition": {
+      "x": -0.05124,
+      "y": -0.0142,
+      "z": 0.04232
+    },
+    "watchRotation": {
+      "x": 12.477,
+      "y": 2.481,
+      "z": -0.737
+    }
+  },
+  {
+    "file": "C:\\Users\\Sam\\Desktop\\Testes\\ISB-Aishi-v1.0.5\\SPT\\user\\mods\\ISB-Aishi\\db\\CustomClothing\\AishiLiveChampionScourge.json",
+    "type": "bottom",
+    "locales": {
+      "en": {
+        "name": "Champion Scourge (Red Right Hand)",
+        "shortName": "Champion Scourge (Red Right Hand)",
+        "description": "Combat pants"
+      },
+      "po": {
+        "name": "Champion Scourge (Red Right Hand)",
+        "shortName": "Champion Scourge (Red Right Hand)",
+        "description": "Combat pants"
+      }
+    },
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 35,
+    "standing": 0.45,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 1950,
+    "questRequirements": [],
+    "achievementRequirements": [],
+    "suiteId": "6fd8eca234055b68a6a3abc6",
+    "outfitId": "1d56552cf458503f85ac94cd",
+    "bottomId": "1ba2f12ac7a259caa2802ca3",
+    "bottomBundlePath": "clothing/champion_scourge/pants_champion_scourge_red_right_hand_aishi.bundle",
+    "side": [
+      "Bear",
+      "Usec"
+    ]
+  },
+  {
+    "file": "C:\\Users\\Sam\\Desktop\\Testes\\ISB-Aishi-v1.0.5\\SPT\\user\\mods\\ISB-Aishi\\db\\CustomClothing\\AishiLiveChampionScourge.json",
+    "type": "top",
+    "locales": {
+      "en": {
+        "name": "Champion Scourge (Black Division)",
+        "shortName": "Champion Scourge (Black Division)",
+        "description": "Protective jacket"
+      },
+      "po": {
+        "name": "Champion Scourge (Black Division)",
+        "shortName": "Champion Scourge (Black Division)",
+        "description": "Protective jacket"
+      }
+    },
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 35,
+    "standing": 0.45,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 3900,
+    "questRequirements": [],
+    "achievementRequirements": [],
+    "suiteId": "14dd5340910950d3a161b3e4",
+    "outfitId": "946437fdd59650da8890c469",
+    "topId": "f171114fbff75950a25f1ab4",
+    "handsId": "d9c50e5ea26d59ce891d38f7",
+    "topBundlePath": "clothing/champion_scourge/top_champion_scourge_black_division_aishi.bundle",
+    "handsBundlePath": "clothing/champion_scourge/hands_champion_scourge_black_division_aishi.bundle",
+    "side": [
+      "Bear",
+      "Usec"
+    ],
+    "watchPrefab": {
+      "path": "",
+      "rcid": ""
+    },
+    "watchPosition": {
+      "x": -0.05124,
+      "y": -0.0142,
+      "z": 0.04232
+    },
+    "watchRotation": {
+      "x": 12.477,
+      "y": 2.481,
+      "z": -0.737
+    }
+  },
+  {
+    "file": "C:\\Users\\Sam\\Desktop\\Testes\\ISB-Aishi-v1.0.5\\SPT\\user\\mods\\ISB-Aishi\\db\\CustomClothing\\AishiLiveChampionScourge.json",
+    "type": "bottom",
+    "locales": {
+      "en": {
+        "name": "Champion Scourge (Black Division)",
+        "shortName": "Champion Scourge (Black Division)",
+        "description": "Combat pants"
+      },
+      "po": {
+        "name": "Champion Scourge (Black Division)",
+        "shortName": "Champion Scourge (Black Division)",
+        "description": "Combat pants"
+      }
+    },
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 35,
+    "standing": 0.45,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 1950,
+    "questRequirements": [],
+    "achievementRequirements": [],
+    "suiteId": "f0877edd884b5e73a4920bb5",
+    "outfitId": "fe606b557fdf536ba5adf7af",
+    "bottomId": "04c379a47f5f52dabe6c0695",
+    "bottomBundlePath": "clothing/champion_scourge/pants_champion_scourge_black_division_aishi.bundle",
+    "side": [
+      "Bear",
+      "Usec"
+    ]
+  }
+]

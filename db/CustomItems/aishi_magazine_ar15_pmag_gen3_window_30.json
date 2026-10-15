@@ -1,0 +1,146 @@
+{
+  "af5c9c35e78e5867a21807be": {
+    "itemTplToClone": "5d1340cad7ad1a0b0b249869",
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "overrideProperties": {
+      "Name": "AR-15 5.56x45 Magpul PMAG 30 GEN M3 W STANAG 30-round magazine (Tape)",
+      "Prefab": {
+        "path": "aishiweapons/magazines/ar15_pmag_gen3_window_30_fde_tape/mag_stanag_magpul_pmag_gen_m3_window_556x45_30_fde_tape.bundle",
+        "rcid": ""
+      },
+      "Cartridges": [
+        {
+          "_id": "4e67a9ca5ceb566391e99b8f",
+          "_max_count": 30,
+          "_name": "cartridges",
+          "_parent": "af5c9c35e78e5867a21807be",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "59e6920f86f77411d82aa167",
+                  "59e6927d86f77411da468256",
+                  "54527a984bdc2d4e668b4567",
+                  "54527ac44bdc2d36668b4567",
+                  "59e68f6f86f7746c9f75e846",
+                  "59e6906286f7746c9f75e847",
+                  "59e690b686f7746c9f75e848",
+                  "59e6918f86f7746c9f75e849",
+                  "60194943740c5d77f6705eea",
+                  "601949593ae8f707c4608daa",
+                  "5c0d5ae286f7741e46554302",
+                  "5fbe3ffdf8b6a877a729ea82",
+                  "5fd20ff893a8961fc660a954",
+                  "619636be6db0f2477964e710",
+                  "6196364158ef8c428c287d9f",
+                  "6196365d58ef8c428c287da1",
+                  "64b8725c4b75259c590fa899"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ],
+      "ShortName": "GEN M3",
+      "Description": "A 30-round 5.56x45 polymer Magpul PMAG GEN M3 30 magazine with an observation slot. Flat Dark Earth version. Tape Version. Change the tape color from the magazine menu in your stash.",
+      "CanRequireOnRagfair": true
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_magazine"
+    ],
+    "locales": {
+      "en": {
+        "name": "AR-15 5.56x45 Magpul PMAG 30 GEN M3 W STANAG 30-round magazine (Tape)",
+        "shortName": "GEN M3",
+        "description": "A 30-round 5.56x45 polymer Magpul PMAG GEN M3 30 magazine with an observation slot. Flat Dark Earth version. Tape Version. Change the tape color from the magazine menu in your stash."
+      },
+      "po": {
+        "name": "AR-15 5.56x45 Magpul PMAG 30 GEN M3 W STANAG 30-round magazine (Tape)",
+        "shortName": "GEN M3 30 FDE",
+        "description": "Carregador de polímero da empresa Magpul modelo PMAG GEN M3 30 com capacidade de 30 munições 5.56x45, com um espaço para observação. Tape Version. Change the tape color from the magazine menu in your stash."
+      }
+    },
+    "handbookPriceRoubles": 3797,
+    "fleaPriceRoubles": 13482
+  },
+  "4ef82195fffe5527a881e1d7": {
+    "itemTplToClone": "55802d5f4bdc2dac148b458e",
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "overrideProperties": {
+      "Name": "AR-15 5.56x45 Magpul PMAG 30 GEN M3 W STANAG 30-round magazine (Tape)",
+      "Prefab": {
+        "path": "aishiweapons/magazines/ar15_pmag_gen3_window_30_tape/mag_stanag_magpul_pmag_gen_m3_window_556x45_30_tape.bundle",
+        "rcid": ""
+      },
+      "Cartridges": [
+        {
+          "_id": "fc5acdddd97256f89e2bb428",
+          "_max_count": 30,
+          "_name": "cartridges",
+          "_parent": "4ef82195fffe5527a881e1d7",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "59e6920f86f77411d82aa167",
+                  "59e6927d86f77411da468256",
+                  "54527a984bdc2d4e668b4567",
+                  "54527ac44bdc2d36668b4567",
+                  "59e68f6f86f7746c9f75e846",
+                  "59e6906286f7746c9f75e847",
+                  "59e690b686f7746c9f75e848",
+                  "59e6918f86f7746c9f75e849",
+                  "60194943740c5d77f6705eea",
+                  "601949593ae8f707c4608daa",
+                  "5c0d5ae286f7741e46554302",
+                  "5fbe3ffdf8b6a877a729ea82",
+                  "5fd20ff893a8961fc660a954",
+                  "619636be6db0f2477964e710",
+                  "6196364158ef8c428c287d9f",
+                  "6196365d58ef8c428c287da1",
+                  "64b8725c4b75259c590fa899"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ],
+      "ShortName": "GEN M3",
+      "Description": "A 30-round 5.56x45 Magpul PMAG GEN M3 30 polymer magazine with an observation slot for faster capacity checking. Tape Version. Change the tape color from the magazine menu in your stash.",
+      "CanRequireOnRagfair": true
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_magazine"
+    ],
+    "locales": {
+      "en": {
+        "name": "AR-15 5.56x45 Magpul PMAG 30 GEN M3 W STANAG 30-round magazine (Tape)",
+        "shortName": "GEN M3",
+        "description": "A 30-round 5.56x45 Magpul PMAG GEN M3 30 polymer magazine with an observation slot for faster capacity checking. Tape Version. Change the tape color from the magazine menu in your stash."
+      },
+      "po": {
+        "name": "AR-15 5.56x45 Magpul PMAG 30 GEN M3 W STANAG 30-round magazine (Tape)",
+        "shortName": "GEN M3 30",
+        "description": "Carregador de polímero da empresa Magpul modelo PMAG GEN M3 30 com capacidade de 30 munições 5.56x45, com um espaço para observação. Tape Version. Change the tape color from the magazine menu in your stash."
+      }
+    },
+    "handbookPriceRoubles": 3797,
+    "fleaPriceRoubles": 13018
+  }
+}

@@ -1,33 +1,19 @@
 {
   "693ad9fede941f880a36e51d": {
-
     "itemTplToClone": "5ca21c6986f77479963115a7",
     "parentId": "5448e54d4bdc2dcc718b4568",
     "handbookParentId": "5b5f701386f774093f2ecf0f",
-
-
     "overrideProperties": {
-      "QuestItem": false,  
       "ExaminedByDefault": false,
-      "IsUnsaleable": false, 
-        
       "Prefab": {
-
         "path": "equipment/item_equipment_armor_redut_t5_black.bundle",
         "rcid": ""
       },
-
-
-      "Width": 4,
-      "Height": 4,
-
-
-      "Weight": 8.1,
-
-
-      "Grids": []
+      "Grids": [],
+      "Name": "FORT Redut-T5 body armor (USEC Intelligence Support Bureau)",
+      "ShortName": "Redut-T5",
+      "Description": "The FORT \"Redut T5\" armor vest is a reinforced version of Redut armor series, designed with account of the many years of experience in counter-terrorism operations in the Russian Federation. Smog camouflage version. (ISB SOF)"
     },
-
     "addWeaponPreset": true,
     "weaponPresets": [
       {
@@ -123,38 +109,29 @@
         "_type": "Preset"
       }
     ],
-
     "locales": {
       "en": {
         "name": "FORT Redut-T5 body armor (USEC Intelligence Support Bureau)",
         "shortName": "Redut-T5",
-        "description": "The FORT \"Redut T5\" armor vest is a reinforced version of Redut armor series, designed with account of the many years of experience in counter-terrorism operations in the Russian Federation. Customized Black Version from ISB Special Forces"
+        "description": "The FORT \"Redut T5\" armor vest is a reinforced version of Redut armor series, designed with account of the many years of experience in counter-terrorism operations in the Russian Federation. Smog camouflage version. (ISB SOF)"
       },
-        "po": {
+      "po": {
         "name": "FORT Redut-T5 body armor (Agência de Suporte a Inteligência da USEC)",
         "shortName": "Redut-T5",
-        "description": "O colete à prova de balas FORT \"Redut T5\" é uma versão reforçada da série de coletes à prova de balas Redut, projetada com base em muitos anos de experiência em operações antiterrorismo na Federação Russa. Versão preta personalizada das Forças Especiais ISB."
+        "description": "O FORT \"Redut T5\" é uma armadura de colete em uma versão reforçada da série Redut, projetado depois de muitos anos de experiência em operações de contra-terrorismo na Federação russa. Versão camuflado Smog. (ISB SOF)"
       }
     },
-
     "fleaPriceRoubles": 261200,
-
     "handbookPriceRoubles": 8200,
-
-    "addtoInventorySlots": ["BodyArmor"],
-
+    "addtoInventorySlots": [
+      "BodyArmor"
+    ],
     "addtoBots": false,
-
     "CanSellOnRagfair": false,
-
     "IsAlwaysAvailableForInsurance": false,
-
     "InsuranceDisabled": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "StaticLootContainers": [
       {
         "ContainerName": "",

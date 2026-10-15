@@ -1,63 +1,297 @@
 {
   "6a1e14b82ce3a438f4b6b2e8": {
-
     "itemTplToClone": "5447a9cd4bdc2dbd208b4567",
     "parentId": "5447b5f14bdc2d61278b4567",
-    "handbookParentId": "5b5f78e986f77447ed5636b1",
-
-
-    "overrideProperties": { 
-      "ExaminedByDefault": true,
-        "IsUnsaleable": true,
-        "IsUnbuyable": true,
-        "AllowFeed": false,
-        "AllowJam": true,
-        "BackgroundColor": "yellow",
-        "AllowMisfire": false,
-        "AllowOverheat": true,
-        "InsuranceDisabled": true,
-        "AllowSlide": false,
-        "Ergonomics": 58,
-        "ammoCaliber": "Caliber556x45NATO",
-        "bEffDist": 500,
-        "bFirerate": 890,
-        "bHearDist": 80,
-        "blockLeftStance": false,
-        "chamberAmmoCount": 1,
-        "defAmmo": "54527a984bdc2d4e668b4567",
-        "defMagType": "5d1340b3d7ad1a0b52682ed7",
-        "durabSpawnMax": 100,
-        "durabSpawnMin": 50,
-        "isBoltCatch": true,
-        "isChamberLoad": true,
-        "isFastReload": true,
-        "shotgunDispersion": 0,
-        "weapClass": "assaultRifle",
-        "weapFireType": [
-        "single",
-        "fullauto"
-        ],
-        "weapUseType": "primary",
-
-        
-
+    "handbookParentId": "5b5f78fc86f77409407a7f90",
+    "overrideProperties": {
+      "IsUnsaleable": true,
+      "IsUnbuyable": true,
+      "AllowFeed": false,
+      "BackgroundColor": "yellow",
+      "AllowMisfire": false,
+      "InsuranceDisabled": true,
+      "AllowSlide": false,
+      "Ergonomics": 58,
+      "bFirerate": 890,
+      "defMagType": "5d1340b3d7ad1a0b52682ed7",
+      "durabSpawnMax": 100,
+      "durabSpawnMin": 50,
       "Prefab": {
-
         "path": "aishiweapons/weapon_isbm4a1_fdeV2.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
-      "Height": 1,
       "Weight": 0.025,
-
       "Grids": []
     },
-
-    "addWeaponPreset": false,
-    "weaponPresets": [],
-
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_id": "134f12f1323809417a2ca1e3",
+        "_type": "Preset",
+        "_changeWeaponName": false,
+        "_name": "ISB Modified M4A1 V2 (FDE)",
+        "_parent": "b9e84dc60df09ec6159fe3c5",
+        "_items": [
+          {
+            "_id": "b9e84dc60df09ec6159fe3c5",
+            "_tpl": "6a1e14b82ce3a438f4b6b2e8",
+            "upd": {
+              "Repairable": {
+                "Durability": 100,
+                "MaxDurability": 100
+              },
+              "FireMode": {
+                "FireMode": "fullauto"
+              }
+            }
+          },
+          {
+            "_id": "fa784ecb6784096435d6d348",
+            "_tpl": "5a339805c4a2826c6e06d73d",
+            "parentId": "b9e84dc60df09ec6159fe3c5",
+            "slotId": "mod_pistol_grip",
+            "upd": {
+              "SpawnedInSession": true
+            }
+          },
+          {
+            "_id": "bcfecf5cae0e3fbf61ce78ac",
+            "_tpl": "69f058abe6c9802225abaf21",
+            "parentId": "b9e84dc60df09ec6159fe3c5",
+            "slotId": "mod_magazine",
+            "upd": {
+              "SpawnedInSession": true
+            }
+          },
+          {
+            "_id": "abd7bd841fc6e62f94680edb",
+            "_tpl": "6a1e14e951104aabd4fa3b6e",
+            "parentId": "b9e84dc60df09ec6159fe3c5",
+            "slotId": "mod_reciever"
+          },
+          {
+            "_id": "12d427109dbd709d64752617",
+            "_tpl": "69fccb4b144b3ba3fde464bd",
+            "parentId": "b9e84dc60df09ec6159fe3c5",
+            "slotId": "mod_stock"
+          },
+          {
+            "_id": "48537b398117580adce3106c",
+            "_tpl": "5ea16d4d5aad6446a939753d",
+            "parentId": "b9e84dc60df09ec6159fe3c5",
+            "slotId": "mod_charge",
+            "upd": {
+              "SpawnedInSession": true
+            }
+          },
+          {
+            "_id": "4e1fea78e3758e5fe7c55f80",
+            "_tpl": "618bab21526131765025ab3f",
+            "parentId": "abd7bd841fc6e62f94680edb",
+            "slotId": "mod_scope",
+            "upd": {
+              "SpawnedInSession": true
+            }
+          },
+          {
+            "_id": "a2070864dcaa671c5c95c13e",
+            "_tpl": "63d3ce0446bd475bcb50f55f",
+            "parentId": "abd7bd841fc6e62f94680edb",
+            "slotId": "mod_barrel",
+            "upd": {
+              "SpawnedInSession": true
+            }
+          },
+          {
+            "_id": "fec55414dc7d09b5b97bbddb",
+            "_tpl": "69fcd2dc03d8476407fb7ec0",
+            "parentId": "abd7bd841fc6e62f94680edb",
+            "slotId": "mod_handguard"
+          },
+          {
+            "_id": "7240632f9d204fdd20bafadf",
+            "_tpl": "5c18b9192e2216398b5a8104",
+            "parentId": "abd7bd841fc6e62f94680edb",
+            "slotId": "mod_sight_rear",
+            "upd": {
+              "SpawnedInSession": true,
+              "Sight": {
+                "ScopesCurrentCalibPointIndexes": [
+                  0
+                ],
+                "ScopesSelectedModes": [
+                  0
+                ],
+                "SelectedScope": 0,
+                "ScopeZoomValue": 0
+              }
+            }
+          },
+          {
+            "_id": "5a0bc810dac589a2e8c5ccdd",
+            "_tpl": "58d2946386f774496974c37e",
+            "parentId": "12d427109dbd709d64752617",
+            "slotId": "mod_stock_000",
+            "upd": {
+              "SpawnedInSession": true
+            }
+          },
+          {
+            "_id": "026195c9b36c666261be5254",
+            "_tpl": "69fc2eed42c2198ea9ca68de",
+            "parentId": "4e1fea78e3758e5fe7c55f80",
+            "slotId": "mod_scope",
+            "upd": {
+              "SpawnedInSession": true,
+              "Sight": {
+                "ScopesCurrentCalibPointIndexes": [
+                  0
+                ],
+                "ScopesSelectedModes": [
+                  0
+                ],
+                "SelectedScope": 0,
+                "ScopeZoomValue": 0
+              }
+            }
+          },
+          {
+            "_id": "8dfbd15fa12f49b7e9478aef",
+            "_tpl": "618ba92152ecee1505530bd3",
+            "parentId": "4e1fea78e3758e5fe7c55f80",
+            "slotId": "mod_mount",
+            "upd": {
+              "SpawnedInSession": true
+            }
+          },
+          {
+            "_id": "54653a257b26490459d654ab",
+            "_tpl": "6386120cd6baa055ad1e201c",
+            "parentId": "a2070864dcaa671c5c95c13e",
+            "slotId": "mod_muzzle",
+            "upd": {
+              "SpawnedInSession": true
+            }
+          },
+          {
+            "_id": "9cb3e53770085ac2c6fa6146",
+            "_tpl": "63d3ce281fe77d0f2801859e",
+            "parentId": "a2070864dcaa671c5c95c13e",
+            "slotId": "mod_gas_block",
+            "upd": {
+              "SpawnedInSession": true
+            }
+          },
+          {
+            "_id": "263a4f979b8ee9a787aaf865",
+            "_tpl": "669a6a4a525be1d2d004b8eb",
+            "parentId": "fec55414dc7d09b5b97bbddb",
+            "slotId": "mod_mount_000",
+            "upd": {
+              "SpawnedInSession": true
+            }
+          },
+          {
+            "_id": "6fb3f37aada9b05976a65b8c",
+            "_tpl": "544909bb4bdc2d6f028b4577",
+            "parentId": "fec55414dc7d09b5b97bbddb",
+            "slotId": "mod_tactical_000",
+            "upd": {
+              "SpawnedInSession": true,
+              "Light": {
+                "IsActive": true,
+                "SelectedMode": 0
+              }
+            }
+          },
+          {
+            "_id": "2b7f84e705c0b678c345b07c",
+            "_tpl": "5b7be4895acfc400170e2dd5",
+            "parentId": "fec55414dc7d09b5b97bbddb",
+            "slotId": "mod_foregrip",
+            "upd": {
+              "SpawnedInSession": true
+            }
+          },
+          {
+            "_id": "d4d1814c74feb655ead8df90",
+            "_tpl": "5c18b90d2e2216152142466b",
+            "parentId": "fec55414dc7d09b5b97bbddb",
+            "slotId": "mod_sight_front",
+            "upd": {
+              "SpawnedInSession": true,
+              "Sight": {
+                "ScopesCurrentCalibPointIndexes": [
+                  0
+                ],
+                "ScopesSelectedModes": [
+                  0
+                ],
+                "SelectedScope": 0,
+                "ScopeZoomValue": 0
+              }
+            }
+          },
+          {
+            "_id": "5c533d22fe0b44911b7b0b28",
+            "_tpl": "688b4bd81cef2a61d0052738",
+            "parentId": "8dfbd15fa12f49b7e9478aef",
+            "slotId": "mod_scope",
+            "upd": {
+              "SpawnedInSession": true,
+              "Sight": {
+                "ScopesCurrentCalibPointIndexes": [
+                  0
+                ],
+                "ScopesSelectedModes": [
+                  0
+                ],
+                "SelectedScope": 0,
+                "ScopeZoomValue": 0
+              }
+            }
+          },
+          {
+            "_id": "3a222776519126c74f3bf564",
+            "_tpl": "69f0eb8c02bba0856602897e",
+            "parentId": "54653a257b26490459d654ab",
+            "slotId": "mod_muzzle"
+          },
+          {
+            "_id": "7d60d17bc41400b30a44f0a4",
+            "_tpl": "626becf9582c3e319310b837",
+            "parentId": "263a4f979b8ee9a787aaf865",
+            "slotId": "mod_tactical",
+            "upd": {
+              "SpawnedInSession": true,
+              "Light": {
+                "IsActive": true,
+                "SelectedMode": 0
+              }
+            }
+          },
+          {
+            "_id": "860c308a668be60bbb895c9e",
+            "_tpl": "588226dd24597767ad33f789",
+            "parentId": "2b7f84e705c0b678c345b07c",
+            "slotId": "mod_foregrip",
+            "upd": {
+              "SpawnedInSession": true
+            }
+          },
+          {
+            "_id": "052c9e4d058a7aff648b65dc",
+            "_tpl": "58d2912286f7744e27117493",
+            "parentId": "5a0bc810dac589a2e8c5ccdd",
+            "slotId": "mod_stock",
+            "upd": {
+              "SpawnedInSession": true
+            }
+          }
+        ],
+        "_encyclopedia": "6a1e14b82ce3a438f4b6b2e8"
+      }
+    ],
     "locales": {
       "en": {
         "name": "ISB Modified Colt M4A1 5.56x45 Assault Rifle V2 (FDE)",
@@ -69,27 +303,27 @@
         "shortName": "M4A1 da ISB",
         "description": "Uma variante modificada da carabina Colt M4A1, adaptada pela ISB SOF para uso em operações especiais de alta intensidade. Esta versão substitui diversos componentes padrão por peças otimizadas, incluindo um sistema de gases reajustado, conjunto de ferrolho aprimorado e componentes internos reforçados, resultando em uma cadência de tiro superior sem comprometer a confiabilidade da plataforma."
       }
-    
     },
-
     "fleaPriceRoubles": 149800,
-
     "handbookPriceRoubles": 906700,
-
     "addtoBots": false,
-
     "CanSellOnRagfair": false,
-
     "IsAlwaysAvailableForInsurance": false,
-
     "InsuranceDisabled": true,
-    
+    "masteries": true,
+    "masterySections": [
+      {
+        "Level2": 1600,
+        "Level3": 2000,
+        "Name": "M4",
+        "Templates": [
+          "6a1e14b82ce3a438f4b6b2e8"
+        ]
+      }
+    ],
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",
@@ -98,24 +332,16 @@
     ]
   },
   "6a1e14e951104aabd4fa3b6e": {
-
     "itemTplToClone": "55d355e64bdc2d962f8b4569",
     "parentId": "55818a304bdc2db5418b457d",
     "handbookParentId": "5b5f764186f77447ec5d7714",
-
-
     "overrideProperties": {
-      "QuestItem": false,
       "BackgroundColor": "yellow",
-      "IsUnsaleable": false,
       "InsuranceDisabled": true,
-
-      "Durability": 100,
       "Ergonomics": 9,
       "HeatFactor": 1.02,
       "Recoil": -5,
       "Accuracy": 1,
-
       "Slots": [
         {
           "_id": "6a1e14ef1ed2e287dcc4ddcb",
@@ -216,13 +442,13 @@
             "filters": [
               {
                 "Filter": [
-                "55d35ee94bdc2d61338b4568",
-                "55d3632e4bdc2d972f8b4569",
-                "5d440b93a4b9364276578d4b",
-                "5d440b9fa4b93601354d480c",
-                "5c0e2f94d174af029f650d56",
-                "63d3ce0446bd475bcb50f55f",
-                "63d3d44a2a49307baf09386d"
+                  "55d35ee94bdc2d61338b4568",
+                  "55d3632e4bdc2d972f8b4569",
+                  "5d440b93a4b9364276578d4b",
+                  "5d440b9fa4b93601354d480c",
+                  "5c0e2f94d174af029f650d56",
+                  "63d3ce0446bd475bcb50f55f",
+                  "63d3d44a2a49307baf09386d"
                 ],
                 "Shift": 0
               }
@@ -240,43 +466,43 @@
             "filters": [
               {
                 "Filter": [
-                "5c0e2f5cd174af02a012cfc9",
-                "619b5db699fb192e7430664f",
-                "5b2cfa535acfc432ff4db7a0",
-                "5ae30db85acfc408fb139a05",
-                "5c9a25172e2216000f20314e",
-                "55f84c3c4bdc2d5f408b4576",
-                "588b56d02459771481110ae2",
-                "5c9a26332e2216001219ea70",
-                "5ea16ada09aa976f2e7a51be",
-                "69fcd2dc03d8476407fb7ec0",
-                "5ea16acdfadf1d18c87b0784",
-                "55d459824bdc2d892f8b4573",
-                "5d122e7bd7ad1a07102d6d7f",
-                "5d123102d7ad1a004e475fe5",
-                "5d4405f0a4b9361e6a4e6bd9",
-                "5c78f2792e221600106f4683",
-                "5c78f26f2e221601da3581d1",
-                "5c78f2492e221600114c9f04",
-                "5c78f2612e221600114c9f0d",
-                "6034e3e20ddce744014cb878",
-                "6034e3d953a60014f970617b",
-                "6034e3cb0ddce744014cb870",
-                "5c6d5d8b2e221644fc630b39",
-                "5d00e0cbd7ad1a6c6566a42d",
-                "5d00f63bd7ad1a59283b1c1e",
-                "6087e0336d0bd7580617bb7a",
-                "595cfa8b86f77427437e845b",
-                "595cf16b86f77427440c32e2",
-                "63888bbd28e5cc32cc09d2b6",
-                "63f4ba71f31d4a33b87bd046",
-                "640b20359ab20e15ee445fa9",
-                "647de824196bf69818044c93",
-                "68c1707983e2d814b0093f7e",
-                "68c170e383e2d814b0093f87",
-                "68caac360bfe742288085e16",
-                "68caac28f42a4476cf0be2ac",
-                "68cc2ae66e59cb54f4054f47"
+                  "5c0e2f5cd174af02a012cfc9",
+                  "619b5db699fb192e7430664f",
+                  "5b2cfa535acfc432ff4db7a0",
+                  "5ae30db85acfc408fb139a05",
+                  "5c9a25172e2216000f20314e",
+                  "55f84c3c4bdc2d5f408b4576",
+                  "588b56d02459771481110ae2",
+                  "5c9a26332e2216001219ea70",
+                  "5ea16ada09aa976f2e7a51be",
+                  "69fcd2dc03d8476407fb7ec0",
+                  "5ea16acdfadf1d18c87b0784",
+                  "55d459824bdc2d892f8b4573",
+                  "5d122e7bd7ad1a07102d6d7f",
+                  "5d123102d7ad1a004e475fe5",
+                  "5d4405f0a4b9361e6a4e6bd9",
+                  "5c78f2792e221600106f4683",
+                  "5c78f26f2e221601da3581d1",
+                  "5c78f2492e221600114c9f04",
+                  "5c78f2612e221600114c9f0d",
+                  "6034e3e20ddce744014cb878",
+                  "6034e3d953a60014f970617b",
+                  "6034e3cb0ddce744014cb870",
+                  "5c6d5d8b2e221644fc630b39",
+                  "5d00e0cbd7ad1a6c6566a42d",
+                  "5d00f63bd7ad1a59283b1c1e",
+                  "6087e0336d0bd7580617bb7a",
+                  "595cfa8b86f77427437e845b",
+                  "595cf16b86f77427440c32e2",
+                  "63888bbd28e5cc32cc09d2b6",
+                  "63f4ba71f31d4a33b87bd046",
+                  "640b20359ab20e15ee445fa9",
+                  "647de824196bf69818044c93",
+                  "68c1707983e2d814b0093f7e",
+                  "68c170e383e2d814b0093f87",
+                  "68caac360bfe742288085e16",
+                  "68caac28f42a4476cf0be2ac",
+                  "68cc2ae66e59cb54f4054f47"
                 ],
                 "Shift": 0
               }
@@ -315,25 +541,13 @@
           "_required": false
         }
       ],
-
       "Prefab": {
-
         "path": "aishiweapons/weapon_isbm4a1_RECI_fdeV2.bundle",
         "rcid": ""
       },
-
-
-      "Width": 2,
-      "Height": 1,
-
-
       "Weight": 1.0,
-
-
-      "Grids": [
-      ]
+      "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "Modified M4A1 5.56x45 upper receiver v2 (FDE)",
@@ -346,35 +560,24 @@
         "description": "Um receptor superior para o fuzil de assalto M4A1 fabricado pela Colt. Equipado com um suporte para a fixação de dispositivos adicionais. Uma versão modificada projetada para oferecer maior estabilidade, melhor controle do recuo e equilíbrio ergonômico quando combinada com outras modificações. Versão FDE"
       }
     },
-
     "fleaPriceRoubles": 89202,
-
     "handbookPriceRoubles": 8592,
-
     "addtoBots": true,
-
     "CanSellOnRagfair": false,
-
     "IsAlwaysAvailableForInsurance": false,
-
     "InsuranceDisabled": true,
-
     "ExaminedByDefault": true,
-
-    "PushToFleaBlacklist": true,    
-
+    "PushToFleaBlacklist": true,
     "addtoModSlots": true,
     "modSlot": [
       "mod_reciever"
     ],
-
     "staticLootContainers": [
       {
         "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
         "probability": 200
       }
     ],
-
     "StaticLootContainers": [
       {
         "ContainerName": "",

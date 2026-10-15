@@ -1,0 +1,38 @@
+{
+  "778261046311c86a18968cfd": {
+    "itemTplToClone": "637b620db7afa97bfc3d7009",
+    "parentId": "5448f3a64bdc2d60728b456a",
+    "handbookParentId": "5b47574386f77428ca22b33a",
+    "overrideProperties": {
+      "ExaminedByDefault": false,
+      "Prefab": {
+        "path": "equipment/aishiS2/bone03/00_item_stimulator_trimadol_loot_cri7_cyan.bundle",
+        "rcid": ""
+      },
+      "UsePrefab": {
+        "path": "equipment/aishiS2/bone03/05_item_stimulator_trimadol_container.bundle",
+        "rcid": ""
+      },
+      "StimulatorBuffs": "AishiBone03Restoration",
+      "effects_health": {},
+      "effects_damage": {},
+      "MaxHpResource": 1
+    },
+    "locales": {
+      "en": {
+        "name": "BONE-03 Restorative Stimulant Injector",
+        "shortName": "BONE-03",
+        "description": "An experimental injector developed by researchers at Zhejiang University in China. The BONE-03 is a stimulant capable of accelerating tissue regeneration and repairing fractured bones. It is ideal for use on severely injured limbs. Its tissue regeneration rate is twice that of BONE-02: 70 HP per second for 15 seconds."
+      },
+      "po": {
+        "name": "Injetor Restaurador BONE-03",
+        "shortName": "BONE-03",
+        "description": "Um injector experimental desenvolvido por pesquisadores da Universidade de Zhejiang na China. O BONE-03 é um estimulante capaz de acelerar a regeneração de tecidos e regenerar ossos fraturados. Perfeito para utilização em membros do corpo muito feridos. A regeneração de tecidos é o dobro da BONE-02: 70 pontos de vida por segundo durante 15 segundos."
+      }
+    },
+    "handbookPriceRoubles": 125000,
+    "fleaPriceRoubles": 125000,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false
+  }
+}

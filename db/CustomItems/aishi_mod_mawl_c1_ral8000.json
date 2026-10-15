@@ -1,0 +1,50 @@
+{
+  "0142e65482e05d7c82daea3a": {
+    "itemTplToClone": "644a3df63b0b6f03e101e065",
+    "parentId": "55818b164bdc2ddc698b456c",
+    "handbookParentId": "5b5f737886f774093e6cb4fb",
+    "handbookPriceRoubles": 20537,
+    "fleaPriceRoubles": 28461,
+    "overrideProperties": {
+      "Prefab": {
+        "path": "aishiweapons/mods/mawl_c1_ral8000/tactical_all_bemeyers_mawl_c1_plus_ral8000.bundle",
+        "rcid": ""
+      },
+      "Name": "B.E. Meyers MAWL-C1+ tactical device (RAL 8000)",
+      "ShortName": "MAWL-C1+",
+      "Description": "Modular Advanced Weapon Laser C1+ (MAWL-C1+) produced by B.E. Meyers is a rugged, combat-proven and easy-to-use aiming system with integrated infrared and visible aim lasers as well as an infrared illuminator. RAL 8000 Version."
+    },
+    "locales": {
+      "en": {
+        "name": "B.E. Meyers MAWL-C1+ tactical device (RAL 8000)",
+        "shortName": "MAWL-C1+",
+        "description": "Modular Advanced Weapon Laser C1+ (MAWL-C1+) produced by B.E. Meyers is a rugged, combat-proven and easy-to-use aiming system with integrated infrared and visible aim lasers as well as an infrared illuminator. RAL 8000 Version."
+      },
+      "po": {
+        "name": "Dispositivo tático MAWL-C1+ (RAL 8000)",
+        "shortName": "MAWL-C1+",
+        "description": "O Sistema de Laser de Arma Avançado Modular C1+ (MAWL-C1+), produzido pela B.E. Meyers, é um sistema de mira resistente, comprovado em combate e fácil de usar, com lasers de mira integrados infravermelho e visível, além de um iluminador infravermelho. RAL 8000 Version."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_mount_001",
+      "mod_mount_002",
+      "mod_scope",
+      "mod_tactical",
+      "mod_tactical001",
+      "mod_tactical002",
+      "mod_tactical_000",
+      "mod_tactical_001",
+      "mod_tactical_002",
+      "mod_tactical_003",
+      "mod_tactical_004",
+      "mod_tactical_2"
+    ]
+  }
+}

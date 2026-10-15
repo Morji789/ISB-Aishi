@@ -1,39 +1,20 @@
 {
   "69e9a8f20e957d2d8862225e": {
-
     "itemTplToClone": "65709d2d21b9f815e208ff95",
     "parentId": "5a341c4086f77401f2541505",
     "handbookParentId": "5b47574386f77428ca22b330",
-
     "overrideProperties": {
-      "QuestItem": false,  
       "ExaminedByDefault": false,
-      "CanSellOnRagfair": false,
-      "CanRequireOnRagfair": false,
-      "armorClass": "5",
       "BackgroundColor": "yellow",
       "IsUnbuyable": true,
       "InsuranceDisabled": true,
-      "Durability": 0,
-      "MaxDurability": 0,
-      "Unlootable": false,
-        
-
       "Prefab": {
-
         "path": "equipment/item_equipment_helmet_neosteel_ISB.bundle",
         "rcid": ""
       },
-
-
-      "Width": 2,
-      "Height": 2,
-
-
       "Weight": 1.35,
-
-    "Grids": [],
-    "Slots": [
+      "Grids": [],
+      "Slots": [
         {
           "_id": "65709d2d21b9f815e208ff96",
           "_mergeSlotWithChildren": false,
@@ -140,32 +121,26 @@
         }
       ]
     },
-
     "locales": {
       "en": {
-        "name": "Modified Diamond Age NeoSteel High Cut helmet (ISB STF-A Edition)",
+        "name": "Modified Diamond Age NeoSteel High Cut helmet (White Tusk Edition)",
         "shortName": "NeoSteel",
         "description": "The Diamond Age NeoSteel helmet features a unique design that combines high-strength steel with composite materials to provide advanced protection against ballistic and impact threats. It is designed to withstand high velocity impacts and can provide protection against a variety of threats. A model painted in a light silver camouflage finish with modified markings. Designed for Vipper, the leader of the Snake squadron, from ISB SOF."
       },
-        "po": {
-        "name": "Capacete Age NeoSteel High Cut modificado (Edição ISB STF-A)",
+      "po": {
+        "name": "Capacete Age NeoSteel High Cut modificado (Edição White Tusk)",
         "shortName": "NeoSteel",
         "description": "O capacete Diamond Age NeoSteel apresenta um design exclusivo que combina aço de alta resistência com materiais compostos para oferecer proteção avançada contra ameaças balísticas e de impacto. Ele foi projetado para resistir a impactos de alta velocidade e pode oferecer proteção contra uma variedade de ameaças. Modelo pintado de um prata claro camuflado e opaco e com placas modificadas. Desenvolvido para o líder do esquadrão Snake, Vipper da ISB SOF."
       }
     },
-
     "fleaPriceRoubles": 170942,
-
     "handbookPriceRoubles": 88842,
-
     "IsAlwaysAvailableForInsurance": false,
-
     "InsuranceDisabled": true,
-
-    "addtoInventorySlots": ["HeadWear"],
-
+    "addtoInventorySlots": [
+      "HeadWear"
+    ],
     "addtoBots": false,
-
     "addWeaponPreset": true,
     "weaponPresets": [
       {
@@ -195,11 +170,8 @@
         "_encyclopedia": "69e9a8f20e957d2d8862225e"
       }
     ],
-    
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",
@@ -208,65 +180,44 @@
     ]
   },
   "69ea676d337b230b60090d63": {
-
     "itemTplToClone": "657f9eb7e9433140ad0baf86",
     "parentId": "65649eb40bf0ed77b8044453",
     "handbookParentId": "6564b96a189fe36f356d177c",
-
-
     "overrideProperties": {
-      "QuestItem": false,  
-      "ExaminedByDefault": true,
-      "IsUnsaleable": false,
       "InsuranceDisabled": true,
       "CanSellOnRagfair": false,
-      "CanRequireOnRagfair": false,
-      "MaterialType": "Helmet",
       "ArmorMaterial": "Titan",
-      "ArmorType": "Heavy",
       "BackgroundColor": "yellow",
-      "ItemSound": "gear_armor",
-      "armorPlateColliders":  [],
       "armorClass": "5",
       "Durability": 45,
       "MaxDurability": 45,
       "BluntThroughput": 0.1,
-      "RarityPvE":"Superrare",
+      "RarityPvE": "Superrare",
       "Prefab": {
-
         "path": "assets/content/items/equipment/armor_plates/helmet_top.bundle",
         "rcid": ""
       }
-      },
-
-
-        "Width": 1,
-        "Height": 1,
-
-
-        "Weight": 0,
-
-
-        "Grids": [
-        ],
-
+    },
+    "Width": 1,
+    "Height": 1,
+    "Weight": 0,
+    "Grids": [],
     "locales": {
       "en": {
         "name": "Modified hybrid composite materials",
         "shortName": "Modified hybrid composite materials",
         "description": "Modified hybrid composite materials"
       },
-        "po": {
-            "name": "Modified hybrid composite materials",
-            "shortName": "Modified hybrid composite materials",
-            "description": "Modified hybrid composite materials"
+      "po": {
+        "name": "Modified hybrid composite materials",
+        "shortName": "Modified hybrid composite materials",
+        "description": "Modified hybrid composite materials"
       }
     },
-
-    "fleaPriceRoubles": 0,
-    "handbookPriceRoubles": 0, 
+    "fleaPriceRoubles": 19000,
+    "handbookPriceRoubles": 19000,
     "addtoBots": false,
-    "addtoItemBlacklist": true, 
+    "addtoItemBlacklist": true,
     "addtoStaticLootContainers": false,
     "StaticLootContainers": [
       {
@@ -276,65 +227,45 @@
     ]
   },
   "69ea6776a4201dc233b7f3d9": {
-
     "itemTplToClone": "657f9ef6c6679fefb3051e1f",
     "parentId": "65649eb40bf0ed77b8044453",
     "handbookParentId": "6564b96a189fe36f356d177c",
-
-
     "overrideProperties": {
-      "QuestItem": false,  
-      "ExaminedByDefault": true,
-      "IsUnsaleable": false,
       "InsuranceDisabled": true,
       "CanSellOnRagfair": false,
-      "MaterialType": "Helmet",
       "ArmorMaterial": "Titan",
-      "ArmorType": "Heavy",
       "BackgroundColor": "yellow",
-      "ItemSound": "gear_armor",
-      "armorPlateColliders":  [],
       "armorClass": "5",
       "Durability": 45,
       "MaxDurability": 45,
       "BluntThroughput": 0.1,
-      "RarityPvE":"Superrare",
+      "RarityPvE": "Superrare",
       "Prefab": {
-
         "path": "assets/content/items/equipment/armor_plates/helmet_back.bundle",
         "rcid": ""
       }
-      },
-
-
-        "Width": 1,
-        "Height": 1,
-
-
-        "Weight": 0,
-
-
-        "Grids": [
-        ],
-
+    },
+    "Width": 1,
+    "Height": 1,
+    "Weight": 0,
+    "Grids": [],
     "locales": {
       "en": {
         "name": "Modified hybrid composite materials",
         "shortName": "Modified hybrid composite materials",
         "description": "Modified hybrid composite materials"
       },
-        "po": {
-            "name": "Modified hybrid composite materials",
-            "shortName": "Modified hybrid composite materials",
-            "description": "Modified hybrid composite materials"
+      "po": {
+        "name": "Modified hybrid composite materials",
+        "shortName": "Modified hybrid composite materials",
+        "description": "Modified hybrid composite materials"
       }
     },
-
-    "fleaPriceRoubles": 0,
-    "handbookPriceRoubles": 0, 
+    "fleaPriceRoubles": 19000,
+    "handbookPriceRoubles": 19000,
     "addtoBots": false,
     "addtoStaticLootContainers": false,
-    "addtoItemBlacklist": true, 
+    "addtoItemBlacklist": true,
     "StaticLootContainers": [
       {
         "ContainerName": "",

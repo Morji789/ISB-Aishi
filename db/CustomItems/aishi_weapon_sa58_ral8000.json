@@ -1,0 +1,2272 @@
+{
+  "cf57ac872fca521998e54395": {
+    "itemTplToClone": "5b0bbe4e5acfc40dc528a72d",
+    "parentId": "5447b5f14bdc2d61278b4567",
+    "handbookParentId": "5b5f78fc86f77409407a7f90",
+    "overrideProperties": {
+      "Name": "DS Arms SA58 7.62x51 assault rifle (RAL 8000)",
+      "CanSellOnRagfair": false,
+      "Prefab": {
+        "path": "aishiweapons/sa58_ral8000/weapon_dsa_sa58_762x51_container_ral8000.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_id": "a591735f98f4598090f32c43",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_pistol_grip",
+          "_parent": "cf57ac872fca521998e54395",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5b7d679f5acfc4001a5c4024",
+                  "5b7d678a5acfc4001a5c4022",
+                  "5b099b965acfc400186331e6",
+                  "91c182ebaee75231bbc8d42e",
+                  "a69281afc6be5e2f9cff9472",
+                  "b34649bb0e2e5a47b4a007c6"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "b14620f1a0f15ac488f308e9",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_magazine",
+          "_parent": "cf57ac872fca521998e54395",
+          "_props": {
+            "filters": [
+              {
+                "AnimationIndex": -1,
+                "Filter": [
+                  "5b7bef1e5acfc43d82528402",
+                  "5b099ac65acfc400186331e1",
+                  "5b7bef5d5acfc43bca7067a3",
+                  "5b7c2d1d5acfc43d1028532a",
+                  "5b7d37845acfc400170e2f87",
+                  "5b7bef9c5acfc43d102852ec",
+                  "026e210543a558378853ee6a",
+                  "fcdb78018f7e549383207bac",
+                  "5bbef1a514f0544099801a8b",
+                  "54caa064650556708af1dc97",
+                  "62dedffc281e5939bad847a1"
+                ]
+              }
+            ]
+          },
+          "_proto": "55d30c394bdc2dae468b4577",
+          "_required": false
+        },
+        {
+          "_id": "6f2f613f9ae35864aa2c59c6",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_handguard",
+          "_parent": "cf57ac872fca521998e54395",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5b7be2345acfc400196d524a",
+                  "5b7bebc85acfc43bca706666",
+                  "5b7d671b5acfc43d82528ddd",
+                  "5b7bed205acfc400161d08cc",
+                  "5b7bedd75acfc43d825283f9",
+                  "5b7bee755acfc400196d5383",
+                  "5b7be1ca5acfc400170e2d2f",
+                  "5b099a9d5acfc47a8607efe7",
+                  "f3a9a477ee0850de84766bcf",
+                  "cb54d1e039945b53a0a95908",
+                  "91786b42b2295420bd257d3a",
+                  "5de5dfbf8da25005adc1d29c",
+                  "9b99b3ac7d85595580cf500a",
+                  "8e275bb018325fca87d5c539",
+                  "508800542a9356e8bfd0ec10",
+                  "31c7cae0327f527287db70c5"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "01d5b7a8143f5434beb6647a",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_barrel",
+          "_parent": "cf57ac872fca521998e54395",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5b099a765acfc47a8607efe3",
+                  "5b7be1125acfc4001876c0e5",
+                  "5b7be1265acfc400161d0798"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "f05cfbbb27b358a399215bf1",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_sight_rear",
+          "_parent": "cf57ac872fca521998e54395",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5b0bc22d5acfc47a8607f085"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "88600c6e05035c5a9f5ed349",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_reciever",
+          "_parent": "cf57ac872fca521998e54395",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5b7d6c105acfc40015109a5f",
+                  "5b099bb25acfc400186331e8",
+                  "93a39a7909545f0ea8c77d98",
+                  "501dcdb240845804ae3f0e87"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "70d82fc014fd54e7966408df",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_stock",
+          "_parent": "cf57ac872fca521998e54395",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5b7d63b75acfc400170e2f8a",
+                  "5b7d645e5acfc400170e2f90",
+                  "5b7d64555acfc4001876c8e2",
+                  "5b099bf25acfc4001637e683",
+                  "5b7d63cf5acfc4001876c8df",
+                  "5b7d63de5acfc400170e2f8d",
+                  "2da30c7f526f5b04aae0e45a",
+                  "2d8cb2c68dae5443b355a380",
+                  "55d1870f43a35387af69b053",
+                  "d049d4a79bfb509dabe2845e",
+                  "93cd73c7d1ab5e7bb1169bcc"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "Chambers": [
+        {
+          "_id": "6497ed97de8158e2bf9ac31d",
+          "_mergeSlotWithChildren": false,
+          "_name": "patron_in_weapon",
+          "_parent": "cf57ac872fca521998e54395",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a6086ea4f39f99cd479502f",
+                  "5a608bf24f39f98ffc77720e",
+                  "58dd3ad986f77403051cba8f",
+                  "5e023e53d4353e3302577c4c",
+                  "5efb0c1bd79ff02a1f5e68d9",
+                  "5e023e6e34d52a55c3304f71",
+                  "5e023e88277cce2b522ff2b1",
+                  "6768c25aa7b238f14a08d3f6"
+                ]
+              }
+            ]
+          },
+          "_proto": "55d4af244bdc2d962f8b4571",
+          "_required": false
+        }
+      ],
+      "ShortName": "SA58",
+      "Description": "The SA58 OSW (Operations Specialist Weapon), manufactured by American company DSA (or DS Arms - David Selvaggio Arms), is a legal copy of the FAL. It's made with the same Steyr-Daimler-Puch production line equipment as the StG-58. It may come with a different barrel length, an aluminum-alloy lower receiver, and improved glass-filled nylon furniture. Civilian models are semi-automatic, but military and law enforcement clients can procure select-fire models that have a fully automatic cyclic rate of 750 rounds/minute. The DSA58 can use any metric-measurement FAL magazines. RAL 8000 Version."
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "handbookPriceRoubles": 31093,
+    "fleaPriceRoubles": 125343,
+    "locales": {
+      "en": {
+        "name": "DS Arms SA58 7.62x51 assault rifle (RAL 8000)",
+        "shortName": "SA58",
+        "description": "The SA58 OSW (Operations Specialist Weapon), manufactured by American company DSA (or DS Arms - David Selvaggio Arms), is a legal copy of the FAL. It's made with the same Steyr-Daimler-Puch production line equipment as the StG-58. It may come with a different barrel length, an aluminum-alloy lower receiver, and improved glass-filled nylon furniture. Civilian models are semi-automatic, but military and law enforcement clients can procure select-fire models that have a fully automatic cyclic rate of 750 rounds/minute. The DSA58 can use any metric-measurement FAL magazines. RAL 8000 Version."
+      },
+      "po": {
+        "name": "DS Arms SA58 7.62x51 assault rifle (RAL 8000)",
+        "shortName": "SA-58",
+        "description": "SA-58 OSW (Operations Specialist Weapon), fabricado pela empresa americana DSA (David Selvaggio Arms) é uma cópia legal do FAL, feita com o mesmo produto de linha de equipamentos da Steyr-Daimler-Puch como o StG-58. Pode vir com um tamanho de cano diferente, lower receiver de uma liga de alumínio, partes de Nylon com fibras de vidro. Modelos civis são semiautomática, mas, modelos militares podem adquirir modo seletor de tiro que possuem modo automático com taxa de 750 munições/minuto. O DSA-58 pode usar qualquer carregador disponível para o FAL. RAL 8000 Version."
+      }
+    },
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_id": "bec5d0e1b85259ca96f8b7d3",
+        "_type": "Preset",
+        "_changeWeaponName": false,
+        "_name": "SA58 RAL 8000",
+        "_parent": "2702413777a25f4bb5a6a00b",
+        "_items": [
+          {
+            "_id": "2702413777a25f4bb5a6a00b",
+            "_tpl": "cf57ac872fca521998e54395",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Repairable": {
+                "Durability": 100,
+                "MaxDurability": 100
+              },
+              "FireMode": {
+                "FireMode": "fullauto"
+              }
+            }
+          },
+          {
+            "_id": "847facdf1c1b5ffcb70243a9",
+            "_tpl": "b34649bb0e2e5a47b4a007c6",
+            "parentId": "2702413777a25f4bb5a6a00b",
+            "slotId": "mod_pistol_grip",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "70d60d59490c51feaf4d2c06",
+            "_tpl": "5bbef1a514f0544099801a8b",
+            "parentId": "2702413777a25f4bb5a6a00b",
+            "slotId": "mod_magazine",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "585a4d5c8e075acfb35e0ee9",
+            "_tpl": "9b99b3ac7d85595580cf500a",
+            "parentId": "2702413777a25f4bb5a6a00b",
+            "slotId": "mod_handguard",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "5bd0e04a54d45fd7abe9e977",
+            "_tpl": "5b099a765acfc47a8607efe3",
+            "parentId": "2702413777a25f4bb5a6a00b",
+            "slotId": "mod_barrel",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "c2fa598664d75769ab439b0b",
+            "_tpl": "5b0bc22d5acfc47a8607f085",
+            "parentId": "2702413777a25f4bb5a6a00b",
+            "slotId": "mod_sight_rear",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Sight": {
+                "ScopesCurrentCalibPointIndexes": [
+                  0
+                ],
+                "ScopesSelectedModes": [
+                  0
+                ],
+                "SelectedScope": 0,
+                "ScopeZoomValue": 0
+              }
+            }
+          },
+          {
+            "_id": "e290a46d596d5349af5daf47",
+            "_tpl": "501dcdb240845804ae3f0e87",
+            "parentId": "2702413777a25f4bb5a6a00b",
+            "slotId": "mod_reciever",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "031ed9937c375a9889711b5e",
+            "_tpl": "2da30c7f526f5b04aae0e45a",
+            "parentId": "2702413777a25f4bb5a6a00b",
+            "slotId": "mod_stock",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "44931a4fc1fb5321bc1b8eda",
+            "_tpl": "5b7be46e5acfc400170e2dcf",
+            "parentId": "585a4d5c8e075acfb35e0ee9",
+            "slotId": "mod_mount_000",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "a2f059292850505c8421be77",
+            "_tpl": "6a186ccfbe0d66d438005e4e",
+            "parentId": "585a4d5c8e075acfb35e0ee9",
+            "slotId": "mod_tactical",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Light": {
+                "IsActive": true,
+                "SelectedMode": 0
+              }
+            }
+          },
+          {
+            "_id": "974ea56d11735fe69b10b52a",
+            "_tpl": "6130c43c67085e45ef1405a1",
+            "parentId": "5bd0e04a54d45fd7abe9e977",
+            "slotId": "mod_muzzle",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "fc7f960f0dbf59f6ba37c338",
+            "_tpl": "558022b54bdc2dac148b458d",
+            "parentId": "e290a46d596d5349af5daf47",
+            "slotId": "mod_scope",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Sight": {
+                "ScopesCurrentCalibPointIndexes": [
+                  0
+                ],
+                "ScopesSelectedModes": [
+                  0
+                ],
+                "SelectedScope": 0,
+                "ScopeZoomValue": 0
+              }
+            }
+          },
+          {
+            "_id": "b1d4798bc7235aa4904ae7e1",
+            "_tpl": "588226dd24597767ad33f789",
+            "parentId": "44931a4fc1fb5321bc1b8eda",
+            "slotId": "mod_foregrip",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "99bd84c9a66952eaaace3e9d",
+            "_tpl": "88066a7866985ce4857be897",
+            "parentId": "974ea56d11735fe69b10b52a",
+            "slotId": "mod_muzzle",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ],
+        "_encyclopedia": "cf57ac872fca521998e54395"
+      }
+    ]
+  },
+  "5de5dfbf8da25005adc1d29c": {
+    "itemTplToClone": "5b7bed205acfc400161d08cc",
+    "parentId": "55818a104bdc2db9688b4569",
+    "handbookParentId": "5b5f75e486f77447ec5d7712",
+    "overrideProperties": {
+      "Name": "FAL original handguard (RAL 8000)",
+      "CanRequireOnRagfair": true,
+      "Prefab": {
+        "path": "aishiweapons/sa58_ral8000/handguard_fal_fn_original_stamped_steel_ral8000.bundle",
+        "rcid": ""
+      },
+      "ShortName": "FAL",
+      "Description": "The original Austrian handguard for FAL series rifles manufactured by Fabrique Nationale Herstal. RAL 8000 Version."
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "handbookPriceRoubles": 2400,
+    "fleaPriceRoubles": 2400,
+    "locales": {
+      "en": {
+        "name": "FAL original handguard (RAL 8000)",
+        "shortName": "FAL",
+        "description": "The original Austrian handguard for FAL series rifles manufactured by Fabrique Nationale Herstal. RAL 8000 Version."
+      },
+      "po": {
+        "name": "FAL original handguard (RAL 8000)",
+        "shortName": "FAL",
+        "description": "Guarda-mão original austríaco para FAL produzido pela Fabric National RAL 8000 Version."
+      }
+    },
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_handguard"
+    ]
+  },
+  "93a39a7909545f0ea8c77d98": {
+    "itemTplToClone": "5b7d6c105acfc40015109a5f",
+    "parentId": "55818a304bdc2db5418b457d",
+    "handbookParentId": "5b5f764186f77447ec5d7714",
+    "overrideProperties": {
+      "Name": "FAL standard dust cover (RAL 8000)",
+      "CanRequireOnRagfair": true,
+      "Prefab": {
+        "path": "aishiweapons/sa58_ral8000/reciever_fal_fn_fal_dust_cover_std_ral8000.bundle",
+        "rcid": ""
+      },
+      "ShortName": "FAL",
+      "Description": "A standard-issue dust cover for FAL-series rifles. RAL 8000 Version."
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "handbookPriceRoubles": 2501,
+    "fleaPriceRoubles": 2501,
+    "locales": {
+      "en": {
+        "name": "FAL standard dust cover (RAL 8000)",
+        "shortName": "FAL",
+        "description": "A standard-issue dust cover for FAL-series rifles. RAL 8000 Version."
+      },
+      "po": {
+        "name": "FAL standard dust cover (RAL 8000)",
+        "shortName": "FAL",
+        "description": "Dust cover padrão para FAL. RAL 8000 Version."
+      }
+    },
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_reciever"
+    ]
+  },
+  "55d1870f43a35387af69b053": {
+    "itemTplToClone": "5b7d64555acfc4001876c8e2",
+    "parentId": "55818a594bdc2db9688b456a",
+    "handbookParentId": "5b5f757486f774093e6cb507",
+    "overrideProperties": {
+      "Name": "SA58 BRS stock (RAL 8000)",
+      "CanRequireOnRagfair": true,
+      "Prefab": {
+        "path": "aishiweapons/sa58_ral8000/stock_sa58_ds_arms_para_brs_ral8000.bundle",
+        "rcid": ""
+      },
+      "ShortName": "SA58 BRS",
+      "Description": "The BRS (Battle Rifle Stock) buttstock for SA58 assault rifles. Manufactured by DS Arms. RAL 8000 Version."
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "handbookPriceRoubles": 16150,
+    "fleaPriceRoubles": 21548,
+    "locales": {
+      "en": {
+        "name": "SA58 BRS stock (RAL 8000)",
+        "shortName": "SA58 BRS",
+        "description": "The BRS (Battle Rifle Stock) buttstock for SA58 assault rifles. Manufactured by DS Arms. RAL 8000 Version."
+      },
+      "po": {
+        "name": "SA58 BRS stock (RAL 8000)",
+        "shortName": "Coronha SA-58 BRS",
+        "description": "Coronha BRS ( Coronha Rifle de Batalha) para SA-58, fabricado pela DS Arms. RAL 8000 Version."
+      }
+    },
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_stock"
+    ]
+  },
+  "501dcdb240845804ae3f0e87": {
+    "itemTplToClone": "5b099bb25acfc400186331e8",
+    "parentId": "55818a304bdc2db5418b457d",
+    "handbookParentId": "5b5f764186f77447ec5d7714",
+    "overrideProperties": {
+      "Name": "SA58 Extreme Duty dust cover (RAL 8000)",
+      "CanRequireOnRagfair": true,
+      "Prefab": {
+        "path": "aishiweapons/sa58_ral8000/reciever_sa58_ds_arms_extreme_duty_scope_mount_extended_ral8000.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_id": "9f08159104ed5adaa17dc6db",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_scope",
+          "_parent": "501dcdb240845804ae3f0e87",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "57ac965c24597706be5f975c",
+                  "57aca93d2459771f2c7e26db",
+                  "544a3f024bdc2d1d388b4568",
+                  "544a3a774bdc2d3a388b4567",
+                  "5d2dc3e548f035404a1a4798",
+                  "57adff4f24597737f373b6e6",
+                  "5c0517910db83400232ffee5",
+                  "591c4efa86f7741030027726",
+                  "570fd79bd2720bc7458b4583",
+                  "570fd6c2d2720bc6458b457f",
+                  "558022b54bdc2dac148b458d",
+                  "5c07dd120db834001c39092d",
+                  "5c0a2cec0db834001b7ce47d",
+                  "58491f3324597764bc48fa02",
+                  "584924ec24597768f12ae244",
+                  "5b30b0dc5acfc400153b7124",
+                  "6165ac8c290d254f5e6b2f6c",
+                  "60a23797a37c940de7062d02",
+                  "5d2da1e948f035477b1ce2ba",
+                  "5c0505e00db834001b735073",
+                  "609a63b6e2ff132951242d09",
+                  "584984812459776a704a82a6",
+                  "59f9d81586f7744c7506ee62",
+                  "570fd721d2720bc5458b4596",
+                  "57ae0171245977343c27bfcf",
+                  "5dfe6104585a0c3e995c7b82",
+                  "5d1b5e94d7ad1a2b865a96b0",
+                  "609bab8b455afd752b2e6138",
+                  "58d39d3d86f77445bb794ae7",
+                  "616554fe50224f204c1da2aa",
+                  "5c7d55f52e221644f31bff6a",
+                  "616584766ef05c2ce828ef57",
+                  "5b3b6dc75acfc47a8773fb1e",
+                  "615d8d878004cc50514c3233",
+                  "5b2389515acfc4771e1be0c0",
+                  "577d128124597739d65d0e56",
+                  "618b9643526131765025ab35",
+                  "618bab21526131765025ab3f",
+                  "5c86592b2e2216000e69e77c",
+                  "5a37ca54c4a282000d72296a",
+                  "5d0a29fed7ad1a002769ad08",
+                  "5c064c400db834001d23f468",
+                  "58d2664f86f7747fec5834f6",
+                  "57c69dd424597774c03b7bbc",
+                  "5b3b99265acfc4704b4a1afb",
+                  "5aa66a9be5b5b0214e506e89",
+                  "5aa66c72e5b5b00016327c93",
+                  "5c1cdd302e221602b3137250",
+                  "61714b2467085e45ef140b2c",
+                  "6171407e50224f204c1da3c5",
+                  "61713cc4d8e3106d9806c109",
+                  "5b31163c5acfc400153b71cb",
+                  "5a33b652c4a28232996e407c",
+                  "5a33b2c9c4a282000c5a9511",
+                  "59db7eed86f77461f8380365",
+                  "5a1ead28fcdbcb001912fa9f",
+                  "5dff77c759400025ea5150cf",
+                  "626bb8532c923541184624b4",
+                  "62811f461d5df4475f46a332",
+                  "63fc449f5bd61c6cf3784a88",
+                  "6477772ea8a38bb2050ed4db",
+                  "6478641c19d732620e045e17",
+                  "64785e7c19d732620e045e15",
+                  "65392f611406374f82152ba5",
+                  "653931da5db71d30ab1d6296",
+                  "655f13e0a246670fb0373245",
+                  "6567e751a715f85433025998",
+                  "67641a851b2899700609901a",
+                  "6761759e7ee06333f108bf86"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "ShortName": "SA58 ED",
+      "Description": "The Extreme Duty dust cover with an integrated Picatinny rail for SA58 assault rifles, manufactured by DS Arms. RAL 8000 Version."
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "handbookPriceRoubles": 11568,
+    "fleaPriceRoubles": 18409,
+    "locales": {
+      "en": {
+        "name": "SA58 Extreme Duty dust cover (RAL 8000)",
+        "shortName": "SA58 ED",
+        "description": "The Extreme Duty dust cover with an integrated Picatinny rail for SA58 assault rifles, manufactured by DS Arms. RAL 8000 Version."
+      },
+      "po": {
+        "name": "SA58 Extreme Duty dust cover (RAL 8000)",
+        "shortName": "Ext. Duty",
+        "description": "Dust cover DS Arms Extreme Duty para SA-58 com um suporte de miras extenso para SA-58. RAL 8000 Version."
+      }
+    },
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_reciever"
+    ]
+  },
+  "91c182ebaee75231bbc8d42e": {
+    "itemTplToClone": "5b7d679f5acfc4001a5c4024",
+    "parentId": "55818a684bdc2ddd698b456d",
+    "handbookParentId": "5b5f761f86f774094242f1a1",
+    "overrideProperties": {
+      "Name": "SA58 FAB Defense AG-FAL pistol grip (RAL 8000)",
+      "CanRequireOnRagfair": true,
+      "Prefab": {
+        "path": "aishiweapons/sa58_ral8000/pistolgrip_fal_fab_defense_ag_fal_ral8000.bundle",
+        "rcid": ""
+      },
+      "ShortName": "AG-FAL",
+      "Description": "The AG-FAL anatomical pistol grip for SA58 rifles manufactured by FAB Defense. RAL 8000 Version."
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "handbookPriceRoubles": 8213,
+    "fleaPriceRoubles": 31710,
+    "locales": {
+      "en": {
+        "name": "SA58 FAB Defense AG-FAL pistol grip (RAL 8000)",
+        "shortName": "AG-FAL",
+        "description": "The AG-FAL anatomical pistol grip for SA58 rifles manufactured by FAB Defense. RAL 8000 Version."
+      },
+      "po": {
+        "name": "SA58 FAB Defense AG-FAL pistol grip (RAL 8000)",
+        "shortName": "AG FAL",
+        "description": "Empunhadura anatômica AG FAL para SA-58, fabricado pela Fab Defense. RAL 8000 Version."
+      }
+    },
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_pistol_grip",
+      "mod_pistolgrip"
+    ]
+  },
+  "b34649bb0e2e5a47b4a007c6": {
+    "itemTplToClone": "5b099b965acfc400186331e6",
+    "parentId": "55818a684bdc2ddd698b456d",
+    "handbookParentId": "5b5f761f86f774094242f1a1",
+    "overrideProperties": {
+      "Name": "SA58 SAW-style pistol grip (RAL 8000)",
+      "CanRequireOnRagfair": true,
+      "Prefab": {
+        "path": "aishiweapons/sa58_ral8000/pistolgrip_sa58_ds_arms_saw_style_ral8000.bundle",
+        "rcid": ""
+      },
+      "ShortName": "SAW SA58",
+      "Description": "An anatomical pistol grip for SA58 assault rifles, inspired by the M249 SAW LMG grip, manufactured by DS Arms. RAL 8000 Version."
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "handbookPriceRoubles": 3207,
+    "fleaPriceRoubles": 12108,
+    "locales": {
+      "en": {
+        "name": "SA58 SAW-style pistol grip (RAL 8000)",
+        "shortName": "SAW SA58",
+        "description": "An anatomical pistol grip for SA58 assault rifles, inspired by the M249 SAW LMG grip, manufactured by DS Arms. RAL 8000 Version."
+      },
+      "po": {
+        "name": "SA58 SAW-style pistol grip (RAL 8000)",
+        "shortName": "SAW SA-58",
+        "description": "Uma empunhadura anatômica inspirada pela empunhadura M249 SAW LMG, produzida pela DS Arms. RAL 8000 Version."
+      }
+    },
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_pistol_grip",
+      "mod_pistolgrip"
+    ]
+  },
+  "93cd73c7d1ab5e7bb1169bcc": {
+    "itemTplToClone": "5b7d63de5acfc400170e2f8d",
+    "parentId": "55818a594bdc2db9688b456a",
+    "handbookParentId": "5b5f757486f774093e6cb507",
+    "overrideProperties": {
+      "Name": "SA58 SPR stock (RAL 8000)",
+      "CanRequireOnRagfair": true,
+      "Prefab": {
+        "path": "aishiweapons/sa58_ral8000/stock_sa58_ds_arms_para_spr_stock_ral8000.bundle",
+        "rcid": ""
+      },
+      "ShortName": "SA58 SPR",
+      "Description": "A polymer stock from the SPR (Special Purpose Rifle) kit for SA58 assault rifles, manufactured by DS Arms. RAL 8000 Version."
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "handbookPriceRoubles": 23411,
+    "fleaPriceRoubles": 23755,
+    "locales": {
+      "en": {
+        "name": "SA58 SPR stock (RAL 8000)",
+        "shortName": "SA58 SPR",
+        "description": "A polymer stock from the SPR (Special Purpose Rifle) kit for SA58 assault rifles, manufactured by DS Arms. RAL 8000 Version."
+      },
+      "po": {
+        "name": "SA58 SPR stock (RAL 8000)",
+        "shortName": "Coronha SA-58 SPR",
+        "description": "Coronha de polímero para o conjunto SPR (Rifle de Propósito Especial) para SA-58, fabricado pela DS Arms. RAL 8000 Version."
+      }
+    },
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_stock"
+    ]
+  },
+  "d049d4a79bfb509dabe2845e": {
+    "itemTplToClone": "5b7d63cf5acfc4001876c8df",
+    "parentId": "55818a594bdc2db9688b456a",
+    "handbookParentId": "5b5f757486f774093e6cb507",
+    "overrideProperties": {
+      "Name": "SA58 folding stock (RAL 8000)",
+      "CanRequireOnRagfair": true,
+      "Prefab": {
+        "path": "aishiweapons/sa58_ral8000/stock_sa58_ds_arms_para_folding_stock_ral8000.bundle",
+        "rcid": ""
+      },
+      "ShortName": "SA58 folding",
+      "Description": "A folding steel stock for SA58 assault rifles. Manufactured by DS Arms. RAL 8000 Version."
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "handbookPriceRoubles": 14015,
+    "fleaPriceRoubles": 14015,
+    "locales": {
+      "en": {
+        "name": "SA58 folding stock (RAL 8000)",
+        "shortName": "SA58 folding",
+        "description": "A folding steel stock for SA58 assault rifles. Manufactured by DS Arms. RAL 8000 Version."
+      },
+      "po": {
+        "name": "SA58 folding stock (RAL 8000)",
+        "shortName": "Coronha dobrável SA-58",
+        "description": "Coronha dobrável de aço para SA-58, fabricado pela DS Arms. RAL 8000 Version."
+      }
+    },
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_stock"
+    ]
+  },
+  "2d8cb2c68dae5443b355a380": {
+    "itemTplToClone": "5b7d645e5acfc400170e2f90",
+    "parentId": "55818a594bdc2db9688b456a",
+    "handbookParentId": "5b5f757486f774093e6cb507",
+    "overrideProperties": {
+      "Name": "SA58 humpback polymer stock (RAL 8000)",
+      "CanRequireOnRagfair": true,
+      "Prefab": {
+        "path": "aishiweapons/sa58_ral8000/stock_sa58_ds_arms_humpback_stock_ral8000.bundle",
+        "rcid": ""
+      },
+      "ShortName": "SA58 Hump",
+      "Description": "A polymer humpback-style stock for SA58 assault rifles. Manufactured by DS Arms. RAL 8000 Version."
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "handbookPriceRoubles": 3400,
+    "fleaPriceRoubles": 3400,
+    "locales": {
+      "en": {
+        "name": "SA58 humpback polymer stock (RAL 8000)",
+        "shortName": "SA58 Hump",
+        "description": "A polymer humpback-style stock for SA58 assault rifles. Manufactured by DS Arms. RAL 8000 Version."
+      },
+      "po": {
+        "name": "SA58 humpback polymer stock (RAL 8000)",
+        "shortName": "Humpback SA-58",
+        "description": "Coronha Humpback de polímero para SA-58, fabricado pela DS Arms. RAL 8000 Version."
+      }
+    },
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_stock"
+    ]
+  },
+  "a69281afc6be5e2f9cff9472": {
+    "itemTplToClone": "5b7d678a5acfc4001a5c4022",
+    "parentId": "55818a684bdc2ddd698b456d",
+    "handbookParentId": "5b5f761f86f774094242f1a1",
+    "overrideProperties": {
+      "Name": "SA58 pistol grip (RAL 8000)",
+      "CanRequireOnRagfair": true,
+      "Prefab": {
+        "path": "aishiweapons/sa58_ral8000/pistolgrip_sa58_ds_arms_metric_std_ral8000.bundle",
+        "rcid": ""
+      },
+      "ShortName": "SA58",
+      "Description": "A standard pistol grip for SA58 rifles manufactured by DS Arms. RAL 8000 Version."
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "handbookPriceRoubles": 1100,
+    "fleaPriceRoubles": 3500,
+    "locales": {
+      "en": {
+        "name": "SA58 pistol grip (RAL 8000)",
+        "shortName": "SA58",
+        "description": "A standard pistol grip for SA58 rifles manufactured by DS Arms. RAL 8000 Version."
+      },
+      "po": {
+        "name": "SA58 pistol grip (RAL 8000)",
+        "shortName": "SA58",
+        "description": "Empunhadura padrão para SA-58, fabricado pela DS Arms. RAL 8000 Version."
+      }
+    },
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_pistol_grip",
+      "mod_pistolgrip"
+    ]
+  },
+  "508800542a9356e8bfd0ec10": {
+    "itemTplToClone": "5b7be1ca5acfc400170e2d2f",
+    "parentId": "55818a104bdc2db9688b4569",
+    "handbookParentId": "5b5f75e486f77447ec5d7712",
+    "overrideProperties": {
+      "Name": "SA58 quad rail full length handguard (RAL 8000)",
+      "CanRequireOnRagfair": true,
+      "Prefab": {
+        "path": "aishiweapons/sa58_ral8000/handguard_sa58_ds_arms_picatinny_full_lenght_quad_rail_ral8000.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_id": "a16d74ceb71f58929563d045",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_foregrip",
+          "_parent": "508800542a9356e8bfd0ec10",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5c7fc87d2e221644f31c0298",
+                  "5cda9bcfd7f00c0c0b53e900",
+                  "59f8a37386f7747af3328f06",
+                  "619386379fb0c665d5490dbe",
+                  "5c87ca002e221600114cb150",
+                  "588226d124597767ad33f787",
+                  "588226dd24597767ad33f789",
+                  "588226e62459776e3e094af7",
+                  "588226ef24597767af46e39c",
+                  "59fc48e086f77463b1118392",
+                  "5fce0cf655375d18a253eff0",
+                  "5cf4fb76d7f00c065703d3ac",
+                  "5b057b4f5acfc4771e1bd3e9",
+                  "5c791e872e2216001219c40a",
+                  "558032614bdc2de7118b4585",
+                  "58c157be86f77403c74b2bb6",
+                  "58c157c886f774032749fb06",
+                  "5f6340d3ca442212f4047eb2",
+                  "591af28e86f77414a27a9e1d",
+                  "5c1cd46f2e22164bef5cfedb",
+                  "5c1bc4812e22164bef5cfde7",
+                  "5c1bc5612e221602b5429350",
+                  "5c1bc5af2e221602b412949b",
+                  "5c1bc5fb2e221602b1779b32",
+                  "5c1bc7432e221602b412949d",
+                  "5c1bc7752e221602b1779b34",
+                  "64806bdd26c80811d408d37a",
+                  "64807a29e5ffe165600abc97",
+                  "648067db042be0705c0b3009",
+                  "65169d5b30425317755f8e25",
+                  "655df24fdf80b12750626d0a",
+                  "655dccfdbdcc6b5df71382b6",
+                  "661e52e29c8b4dadef008577",
+                  "661e53149c8b4dadef008579",
+                  "661e52415be02310ed07a07a",
+                  "661e52b5b099f32c28003586"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "f120618bd27e5e319a9d5291",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_tactical_000",
+          "_parent": "508800542a9356e8bfd0ec10",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "57fd23e32459772d0805bcf1",
+                  "544909bb4bdc2d6f028b4577",
+                  "5d10b49bd7ad1a1a560708b0",
+                  "5c06595c0db834001a66af6c",
+                  "5a7b483fe899ef0016170d15",
+                  "61605d88ffa6e502ac5e7eeb",
+                  "5c5952732e2216398b5abda2",
+                  "644a3df63b0b6f03e101e065"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "ce756b2d84c457cf8eed134a",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_tactical_001",
+          "_parent": "508800542a9356e8bfd0ec10",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a800961159bd4315e3a1657",
+                  "57fd23e32459772d0805bcf1",
+                  "544909bb4bdc2d6f028b4577",
+                  "5c06595c0db834001a66af6c",
+                  "5cc9c20cd7f00c001336c65d",
+                  "5d2369418abbc306c62e0c80",
+                  "5b07dd285acfc4001754240d",
+                  "56def37dd2720bec348b456a",
+                  "5a7b483fe899ef0016170d15",
+                  "61605d88ffa6e502ac5e7eeb",
+                  "5a5f1ce64f39f90b401987bc",
+                  "560d657b4bdc2da74d8b4572",
+                  "5b3a337e5acfc4704b4a19a0",
+                  "5c5952732e2216398b5abda2",
+                  "57d17e212459775a1179a0f5",
+                  "6267c6396b642f77f56f5c1c",
+                  "6272370ee4013c5d7e31f418",
+                  "6272379924e29f06af4d5ecb",
+                  "626becf9582c3e319310b837",
+                  "644a3df63b0b6f03e101e065",
+                  "646f6322f43d0c5d62063715"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "774dbaa02e885c9f957e18af",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_tactical_002",
+          "_parent": "508800542a9356e8bfd0ec10",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a800961159bd4315e3a1657",
+                  "57fd23e32459772d0805bcf1",
+                  "544909bb4bdc2d6f028b4577",
+                  "5d10b49bd7ad1a1a560708b0",
+                  "5c06595c0db834001a66af6c",
+                  "5cc9c20cd7f00c001336c65d",
+                  "5d2369418abbc306c62e0c80",
+                  "5b07dd285acfc4001754240d",
+                  "56def37dd2720bec348b456a",
+                  "5a7b483fe899ef0016170d15",
+                  "61605d88ffa6e502ac5e7eeb",
+                  "5a5f1ce64f39f90b401987bc",
+                  "560d657b4bdc2da74d8b4572",
+                  "5b3a337e5acfc4704b4a19a0",
+                  "5c5952732e2216398b5abda2",
+                  "57d17e212459775a1179a0f5",
+                  "6267c6396b642f77f56f5c1c",
+                  "6272370ee4013c5d7e31f418",
+                  "6272379924e29f06af4d5ecb",
+                  "626becf9582c3e319310b837",
+                  "644a3df63b0b6f03e101e065",
+                  "646f6322f43d0c5d62063715"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "a6094a23def758aa955652e7",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount",
+          "_parent": "508800542a9356e8bfd0ec10",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "57ae0171245977343c27bfcf",
+                  "58d39d3d86f77445bb794ae7",
+                  "616554fe50224f204c1da2aa",
+                  "615d8d878004cc50514c3233",
+                  "577d128124597739d65d0e56",
+                  "58d2664f86f7747fec5834f6",
+                  "5649a2464bdc2d91118b45a8",
+                  "5a33b2c9c4a282000c5a9511"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "23c9e58610da50f7855d12ad",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_tactical_003",
+          "_parent": "508800542a9356e8bfd0ec10",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a800961159bd4315e3a1657",
+                  "57fd23e32459772d0805bcf1",
+                  "544909bb4bdc2d6f028b4577",
+                  "5c06595c0db834001a66af6c",
+                  "5cc9c20cd7f00c001336c65d",
+                  "5d2369418abbc306c62e0c80",
+                  "5b07dd285acfc4001754240d",
+                  "56def37dd2720bec348b456a",
+                  "5a7b483fe899ef0016170d15",
+                  "61605d88ffa6e502ac5e7eeb",
+                  "5a5f1ce64f39f90b401987bc",
+                  "560d657b4bdc2da74d8b4572",
+                  "5b3a337e5acfc4704b4a19a0",
+                  "5c5952732e2216398b5abda2",
+                  "57d17e212459775a1179a0f5",
+                  "6267c6396b642f77f56f5c1c",
+                  "6272370ee4013c5d7e31f418",
+                  "6272379924e29f06af4d5ecb",
+                  "626becf9582c3e319310b837",
+                  "644a3df63b0b6f03e101e065",
+                  "646f6322f43d0c5d62063715",
+                  "6644920d49817dc7d505ca71",
+                  "676175bb48fa5c377e06fc36"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "ShortName": "SA58 4Rail full",
+      "Description": "The DS Arms full length quad rail handguard for SA58 rifles. Equipped with 4 mounts for installation of additional devices and accessories. RAL 8000 Version."
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "handbookPriceRoubles": 9601,
+    "fleaPriceRoubles": 28345,
+    "locales": {
+      "en": {
+        "name": "SA58 quad rail full length handguard (RAL 8000)",
+        "shortName": "SA58 4Rail full",
+        "description": "The DS Arms full length quad rail handguard for SA58 rifles. Equipped with 4 mounts for installation of additional devices and accessories. RAL 8000 Version."
+      },
+      "po": {
+        "name": "SA58 quad rail full length handguard (RAL 8000)",
+        "shortName": "Trilho Quadruplo",
+        "description": "Guarda-mão de trilho quadruplo estendido DS Arms para SA-58. Suporta acessório ou empunhadura e três dispositivos táticos adicionais. RAL 8000 Version."
+      }
+    },
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_handguard"
+    ]
+  },
+  "31c7cae0327f527287db70c5": {
+    "itemTplToClone": "5b099a9d5acfc47a8607efe7",
+    "parentId": "55818a104bdc2db9688b4569",
+    "handbookParentId": "5b5f75e486f77447ec5d7712",
+    "overrideProperties": {
+      "Name": "SA58 quad rail handguard (RAL 8000)",
+      "CanRequireOnRagfair": true,
+      "Prefab": {
+        "path": "aishiweapons/sa58_ral8000/handguard_sa58_ds_arms_picatinny_quad_rail_ral8000.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_id": "0280be1cd4085178bdf3068b",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_foregrip",
+          "_parent": "31c7cae0327f527287db70c5",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5c7fc87d2e221644f31c0298",
+                  "5cda9bcfd7f00c0c0b53e900",
+                  "59f8a37386f7747af3328f06",
+                  "619386379fb0c665d5490dbe",
+                  "5c87ca002e221600114cb150",
+                  "588226d124597767ad33f787",
+                  "588226dd24597767ad33f789",
+                  "588226e62459776e3e094af7",
+                  "588226ef24597767af46e39c",
+                  "59fc48e086f77463b1118392",
+                  "5fce0cf655375d18a253eff0",
+                  "5cf4fb76d7f00c065703d3ac",
+                  "5b057b4f5acfc4771e1bd3e9",
+                  "5c791e872e2216001219c40a",
+                  "558032614bdc2de7118b4585",
+                  "58c157be86f77403c74b2bb6",
+                  "58c157c886f774032749fb06",
+                  "5f6340d3ca442212f4047eb2",
+                  "591af28e86f77414a27a9e1d",
+                  "5c1cd46f2e22164bef5cfedb",
+                  "5c1bc4812e22164bef5cfde7",
+                  "5c1bc5612e221602b5429350",
+                  "5c1bc5af2e221602b412949b",
+                  "5c1bc5fb2e221602b1779b32",
+                  "5c1bc7432e221602b412949d",
+                  "5c1bc7752e221602b1779b34",
+                  "64806bdd26c80811d408d37a",
+                  "64807a29e5ffe165600abc97",
+                  "648067db042be0705c0b3009",
+                  "65169d5b30425317755f8e25",
+                  "655df24fdf80b12750626d0a",
+                  "655dccfdbdcc6b5df71382b6",
+                  "661e52e29c8b4dadef008577",
+                  "661e53149c8b4dadef008579",
+                  "661e52415be02310ed07a07a",
+                  "661e52b5b099f32c28003586"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "b6f9a6656c4451dbaa8d99aa",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_tactical_000",
+          "_parent": "31c7cae0327f527287db70c5",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "57fd23e32459772d0805bcf1",
+                  "544909bb4bdc2d6f028b4577",
+                  "5d10b49bd7ad1a1a560708b0",
+                  "5c06595c0db834001a66af6c",
+                  "5a7b483fe899ef0016170d15",
+                  "61605d88ffa6e502ac5e7eeb",
+                  "5c5952732e2216398b5abda2",
+                  "644a3df63b0b6f03e101e065"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "a516d69bf2b75a38869452fe",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_tactical_001",
+          "_parent": "31c7cae0327f527287db70c5",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a800961159bd4315e3a1657",
+                  "57fd23e32459772d0805bcf1",
+                  "544909bb4bdc2d6f028b4577",
+                  "5c06595c0db834001a66af6c",
+                  "5cc9c20cd7f00c001336c65d",
+                  "5d2369418abbc306c62e0c80",
+                  "5b07dd285acfc4001754240d",
+                  "56def37dd2720bec348b456a",
+                  "5a7b483fe899ef0016170d15",
+                  "61605d88ffa6e502ac5e7eeb",
+                  "5a5f1ce64f39f90b401987bc",
+                  "560d657b4bdc2da74d8b4572",
+                  "5b3a337e5acfc4704b4a19a0",
+                  "5c5952732e2216398b5abda2",
+                  "57d17e212459775a1179a0f5",
+                  "6267c6396b642f77f56f5c1c",
+                  "6272370ee4013c5d7e31f418",
+                  "6272379924e29f06af4d5ecb",
+                  "626becf9582c3e319310b837",
+                  "644a3df63b0b6f03e101e065",
+                  "646f6322f43d0c5d62063715"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "577869dfa1f6572f93bec8f9",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_tactical_002",
+          "_parent": "31c7cae0327f527287db70c5",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a800961159bd4315e3a1657",
+                  "57fd23e32459772d0805bcf1",
+                  "544909bb4bdc2d6f028b4577",
+                  "5d10b49bd7ad1a1a560708b0",
+                  "5c06595c0db834001a66af6c",
+                  "5cc9c20cd7f00c001336c65d",
+                  "5d2369418abbc306c62e0c80",
+                  "5b07dd285acfc4001754240d",
+                  "56def37dd2720bec348b456a",
+                  "5a7b483fe899ef0016170d15",
+                  "61605d88ffa6e502ac5e7eeb",
+                  "5a5f1ce64f39f90b401987bc",
+                  "560d657b4bdc2da74d8b4572",
+                  "5b3a337e5acfc4704b4a19a0",
+                  "5c5952732e2216398b5abda2",
+                  "57d17e212459775a1179a0f5",
+                  "6267c6396b642f77f56f5c1c",
+                  "6272370ee4013c5d7e31f418",
+                  "6272379924e29f06af4d5ecb",
+                  "626becf9582c3e319310b837",
+                  "644a3df63b0b6f03e101e065",
+                  "646f6322f43d0c5d62063715"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "182cf4a54426542489eb05f9",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount",
+          "_parent": "31c7cae0327f527287db70c5",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "57ae0171245977343c27bfcf",
+                  "58d39d3d86f77445bb794ae7",
+                  "616554fe50224f204c1da2aa",
+                  "615d8d878004cc50514c3233",
+                  "577d128124597739d65d0e56",
+                  "58d2664f86f7747fec5834f6",
+                  "5649a2464bdc2d91118b45a8",
+                  "5a33b2c9c4a282000c5a9511"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "ShortName": "SA58 4Rail",
+      "Description": "A quad rail handguard for SA58 rifles, manufactured by DS Arms. Equipped with 4 mounts for installation of additional devices and accessories. RAL 8000 Version."
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "handbookPriceRoubles": 8637,
+    "fleaPriceRoubles": 12459,
+    "locales": {
+      "en": {
+        "name": "SA58 quad rail handguard (RAL 8000)",
+        "shortName": "SA58 4Rail",
+        "description": "A quad rail handguard for SA58 rifles, manufactured by DS Arms. Equipped with 4 mounts for installation of additional devices and accessories. RAL 8000 Version."
+      },
+      "po": {
+        "name": "SA58 quad rail handguard (RAL 8000)",
+        "shortName": "Trilho Quadruplo",
+        "description": "Guarda-mão de trilho quadruplo da DS Arms para SA-58. Suporta acessório ou empunhadura e três dispositivos táticos adicionais. RAL 8000 Version."
+      }
+    },
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_handguard"
+    ]
+  },
+  "026e210543a558378853ee6a": {
+    "itemTplToClone": "5b7bef1e5acfc43d82528402",
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "overrideProperties": {
+      "Name": "SA58/FAL 7.62x51 10-round magazine (RAL 8000)",
+      "CanRequireOnRagfair": true,
+      "Prefab": {
+        "path": "aishiweapons/sa58_ral8000/mag_fal_ds_arms_fal_sa58_762x51_10_ral8000.bundle",
+        "rcid": ""
+      },
+      "Cartridges": [
+        {
+          "_id": "743d7574d8bf5096b99374f2",
+          "_max_count": 10,
+          "_name": "cartridges",
+          "_parent": "026e210543a558378853ee6a",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a6086ea4f39f99cd479502f",
+                  "5a608bf24f39f98ffc77720e",
+                  "58dd3ad986f77403051cba8f",
+                  "5e023e53d4353e3302577c4c",
+                  "5efb0c1bd79ff02a1f5e68d9",
+                  "5e023e6e34d52a55c3304f71",
+                  "5e023e88277cce2b522ff2b1",
+                  "6768c25aa7b238f14a08d3f6"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ],
+      "ShortName": "SA58/FAL",
+      "Description": "A 10-round double-stack steel magazine for FAL/SA58 7.62x51 NATO rounds. RAL 8000 Version."
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "handbookPriceRoubles": 1802,
+    "fleaPriceRoubles": 1802,
+    "locales": {
+      "en": {
+        "name": "SA58/FAL 7.62x51 10-round magazine (RAL 8000)",
+        "shortName": "SA58/FAL",
+        "description": "A 10-round double-stack steel magazine for FAL/SA58 7.62x51 NATO rounds. RAL 8000 Version."
+      },
+      "po": {
+        "name": "SA58/FAL 7.62x51 10-round magazine (RAL 8000)",
+        "shortName": "FAL 10 7.62x51",
+        "description": "Carregador de aço para FAL/SA-58, fileira dupla de alimentação, com capacidade de 10 munições calibre 7.62x51 NATO. RAL 8000 Version."
+      }
+    },
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_magazine"
+    ]
+  },
+  "fcdb78018f7e549383207bac": {
+    "itemTplToClone": "5b099ac65acfc400186331e1",
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "overrideProperties": {
+      "Name": "SA58/FAL 7.62x51 20-round magazine (RAL 8000)",
+      "CanRequireOnRagfair": true,
+      "Prefab": {
+        "path": "aishiweapons/sa58_ral8000/mag_fal_ds_arms_fal_sa58_762x51_20_ral8000.bundle",
+        "rcid": ""
+      },
+      "Cartridges": [
+        {
+          "_id": "7c515761a8c5503981858a75",
+          "_max_count": 20,
+          "_name": "cartridges",
+          "_parent": "fcdb78018f7e549383207bac",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a6086ea4f39f99cd479502f",
+                  "5a608bf24f39f98ffc77720e",
+                  "58dd3ad986f77403051cba8f",
+                  "5e023e53d4353e3302577c4c",
+                  "5efb0c1bd79ff02a1f5e68d9",
+                  "5e023e6e34d52a55c3304f71",
+                  "5e023e88277cce2b522ff2b1",
+                  "6768c25aa7b238f14a08d3f6"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ],
+      "ShortName": "SA58/FAL",
+      "Description": "A 20-round 7.62x51 double-stack steel magazine for FAL/SA58. RAL 8000 Version."
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "handbookPriceRoubles": 2780,
+    "fleaPriceRoubles": 8088,
+    "locales": {
+      "en": {
+        "name": "SA58/FAL 7.62x51 20-round magazine (RAL 8000)",
+        "shortName": "SA58/FAL",
+        "description": "A 20-round 7.62x51 double-stack steel magazine for FAL/SA58. RAL 8000 Version."
+      },
+      "po": {
+        "name": "SA58/FAL 7.62x51 20-round magazine (RAL 8000)",
+        "shortName": "FAL 20 7.62",
+        "description": "Carregador de aço para FAL/SA-58, fileira dupla de alimentação, com capacidade de 20 munições 7.62x51 NATO. RAL 8000 Version."
+      }
+    },
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_magazine"
+    ]
+  },
+  "5bbef1a514f0544099801a8b": {
+    "itemTplToClone": "5b7bef5d5acfc43bca7067a3",
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "overrideProperties": {
+      "Name": "SA58/FAL 7.62x51 30-round magazine (RAL 8000)",
+      "CanRequireOnRagfair": true,
+      "Prefab": {
+        "path": "aishiweapons/sa58_ral8000/mag_fal_ds_arms_fal_sa58_762x51_30_ral8000.bundle",
+        "rcid": ""
+      },
+      "Cartridges": [
+        {
+          "_id": "cd36c49f10bc5aef969214e0",
+          "_max_count": 30,
+          "_name": "cartridges",
+          "_parent": "5bbef1a514f0544099801a8b",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a6086ea4f39f99cd479502f",
+                  "5a608bf24f39f98ffc77720e",
+                  "58dd3ad986f77403051cba8f",
+                  "5e023e53d4353e3302577c4c",
+                  "5efb0c1bd79ff02a1f5e68d9",
+                  "5e023e6e34d52a55c3304f71",
+                  "5e023e88277cce2b522ff2b1",
+                  "6768c25aa7b238f14a08d3f6"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ],
+      "ShortName": "SA58/FAL",
+      "Description": "A 30-round double-stack steel magazine for FAL/SA58 7.62x51 NATO rounds. RAL 8000 Version."
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "handbookPriceRoubles": 4466,
+    "fleaPriceRoubles": 16357,
+    "locales": {
+      "en": {
+        "name": "SA58/FAL 7.62x51 30-round magazine (RAL 8000)",
+        "shortName": "SA58/FAL",
+        "description": "A 30-round double-stack steel magazine for FAL/SA58 7.62x51 NATO rounds. RAL 8000 Version."
+      },
+      "po": {
+        "name": "SA58/FAL 7.62x51 30-round magazine (RAL 8000)",
+        "shortName": "FAL 30 7.62x51",
+        "description": "Carregador de aço para FAL/SA-58, fileira dupla de alimentação, com capacidade de 30 munições calibre 7.62x51 NATO. RAL 8000 Version."
+      }
+    },
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_magazine"
+    ]
+  },
+  "f3a9a477ee0850de84766bcf": {
+    "itemTplToClone": "5b7be2345acfc400196d524a",
+    "parentId": "55818a104bdc2db9688b4569",
+    "handbookParentId": "5b5f75e486f77447ec5d7712",
+    "overrideProperties": {
+      "Name": "SA58/FAL AIM Sports Universal KeyMod handguard (RAL 8000)",
+      "CanRequireOnRagfair": true,
+      "Prefab": {
+        "path": "aishiweapons/sa58_ral8000/handguard_fal_aim_sport_universal_keymod_ral8000.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_id": "a31d12c404335c8da90af18a",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount_000",
+          "_parent": "f3a9a477ee0850de84766bcf",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "615d8fd3290d254f5e6b2edc",
+                  "5fc0f9b5d724d907e2077d82",
+                  "5fc0f9cbd6fa9c00c571bb90",
+                  "5a9d6d13a2750c00164f6b03",
+                  "59e0bed186f774156f04ce84"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "73ba0f36fb1f5312805b20c0",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount_001",
+          "_parent": "f3a9a477ee0850de84766bcf",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a9d6d00a2750c5c985b5305",
+                  "59e0bdb186f774156f04ce82",
+                  "59e0be5d86f7742d48765bd2",
+                  "623c2f652febb22c2777d8d7",
+                  "67112695fe5c8bf33f02476d",
+                  "67111094d1758189fc0bd223"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "c5406bcc803756bda9d76249",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount_002",
+          "_parent": "f3a9a477ee0850de84766bcf",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a9d6d00a2750c5c985b5305",
+                  "59e0bdb186f774156f04ce82",
+                  "59e0be5d86f7742d48765bd2",
+                  "623c2f652febb22c2777d8d7",
+                  "67111094d1758189fc0bd223"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "6e8188aea608544fb94b3b7d",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount_003",
+          "_parent": "f3a9a477ee0850de84766bcf",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a9d6d00a2750c5c985b5305",
+                  "59e0bdb186f774156f04ce82",
+                  "59e0be5d86f7742d48765bd2",
+                  "623c2f652febb22c2777d8d7",
+                  "67111094d1758189fc0bd223"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "2a4c2668d09e5529b3df5094",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount_004",
+          "_parent": "f3a9a477ee0850de84766bcf",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a9d6d00a2750c5c985b5305",
+                  "59e0bdb186f774156f04ce82",
+                  "59e0be5d86f7742d48765bd2",
+                  "623c2f652febb22c2777d8d7",
+                  "67111094d1758189fc0bd223"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "91d187abc100526281ed9568",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount_005",
+          "_parent": "f3a9a477ee0850de84766bcf",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a9d6d00a2750c5c985b5305",
+                  "59e0bdb186f774156f04ce82",
+                  "59e0be5d86f7742d48765bd2",
+                  "623c2f652febb22c2777d8d7",
+                  "67111094d1758189fc0bd223"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "ShortName": "SA58 KeyMod",
+      "Description": "The AIM Sports universal KeyMod handguard for FAL series rifles equipped with a KeyMod interface for installation of additional devices and accessories. RAL 8000 Version."
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "handbookPriceRoubles": 4841,
+    "fleaPriceRoubles": 18210,
+    "locales": {
+      "en": {
+        "name": "SA58/FAL AIM Sports Universal KeyMod handguard (RAL 8000)",
+        "shortName": "SA58 KeyMod",
+        "description": "The AIM Sports universal KeyMod handguard for FAL series rifles equipped with a KeyMod interface for installation of additional devices and accessories. RAL 8000 Version."
+      },
+      "po": {
+        "name": "SA58/FAL AIM Sports Universal KeyMod handguard (RAL 8000)",
+        "shortName": "G-M Keymod",
+        "description": "Guarda-mão Aim Sport para FAL com trilho universal é equipado com interface Keymod para instalação de dispositivos e acessórios. RAL 8000 Version."
+      }
+    },
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_handguard"
+    ]
+  },
+  "cb54d1e039945b53a0a95908": {
+    "itemTplToClone": "5b7bebc85acfc43bca706666",
+    "parentId": "55818a104bdc2db9688b4569",
+    "handbookParentId": "5b5f75e486f77447ec5d7712",
+    "overrideProperties": {
+      "Name": "SA58/FAL AIM Sports Universal M-LOK handguard (RAL 8000)",
+      "CanRequireOnRagfair": true,
+      "Prefab": {
+        "path": "aishiweapons/sa58_ral8000/handguard_fal_aim_sport_universal_m_lok_ral8000.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_id": "f34ec08664f055ec952c56f4",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount_000",
+          "_parent": "cb54d1e039945b53a0a95908",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "57cffb66245977632f391a99",
+                  "57cffcd624597763133760c5",
+                  "57cffcdd24597763f5110006",
+                  "57cffce524597763b31685d8",
+                  "5b7be4895acfc400170e2dd5",
+                  "651a8bf3a8520e48047bf708",
+                  "651a8e529829226ceb67c319",
+                  "665d5d9e338229cfd6078da1",
+                  "665edce564fb556f940ab32a"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "6beec36f2b505a2bac7ce244",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount_001",
+          "_parent": "cb54d1e039945b53a0a95908",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5b7be47f5acfc400170e2dd2",
+                  "6269220d70b6c02e665f2635",
+                  "6269545d0e57f218e4548ca2",
+                  "669a6a4a525be1d2d004b8eb",
+                  "671126b049e181972e0681fa"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "bf4c7f1cd7cd5f64b4918991",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount_002",
+          "_parent": "cb54d1e039945b53a0a95908",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5b7be47f5acfc400170e2dd2",
+                  "6269220d70b6c02e665f2635",
+                  "6269545d0e57f218e4548ca2",
+                  "669a6a4a525be1d2d004b8eb"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "c22c510ee5725f7fbf255f3d",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount_003",
+          "_parent": "cb54d1e039945b53a0a95908",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5b7be47f5acfc400170e2dd2",
+                  "6269220d70b6c02e665f2635",
+                  "669a6a4a525be1d2d004b8eb"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "57916f9706865db9bd1df2d9",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_tactical",
+          "_parent": "cb54d1e039945b53a0a95908",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "57fd23e32459772d0805bcf1",
+                  "544909bb4bdc2d6f028b4577",
+                  "5d10b49bd7ad1a1a560708b0",
+                  "5c06595c0db834001a66af6c",
+                  "5a7b483fe899ef0016170d15",
+                  "61605d88ffa6e502ac5e7eeb",
+                  "5c5952732e2216398b5abda2",
+                  "644a3df63b0b6f03e101e065"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "4082a9faeb4656e386a2b37e",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_scope",
+          "_parent": "cb54d1e039945b53a0a95908",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "57ae0171245977343c27bfcf",
+                  "58d39d3d86f77445bb794ae7",
+                  "616554fe50224f204c1da2aa",
+                  "615d8d878004cc50514c3233",
+                  "577d128124597739d65d0e56",
+                  "58d2664f86f7747fec5834f6",
+                  "5649a2464bdc2d91118b45a8",
+                  "5b31163c5acfc400153b71cb",
+                  "5a33b652c4a28232996e407c",
+                  "5a33b2c9c4a282000c5a9511"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "ShortName": "SA58 M-LOK",
+      "Description": "The AIM Sports universal M-LOK handguard for FAL series rifles equipped with an M-LOK interface for installation of additional devices and accessories. RAL 8000 Version."
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "handbookPriceRoubles": 5484,
+    "fleaPriceRoubles": 22122,
+    "locales": {
+      "en": {
+        "name": "SA58/FAL AIM Sports Universal M-LOK handguard (RAL 8000)",
+        "shortName": "SA58 M-LOK",
+        "description": "The AIM Sports universal M-LOK handguard for FAL series rifles equipped with an M-LOK interface for installation of additional devices and accessories. RAL 8000 Version."
+      },
+      "po": {
+        "name": "SA58/FAL AIM Sports Universal M-LOK handguard (RAL 8000)",
+        "shortName": "G-M M-LOK",
+        "description": "Guarda-mão Aim Sport para FAL com trilho universal é equipado com interface M-LOK para instalação de dispositivos e acessórios. RAL 8000 Version."
+      }
+    },
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_handguard"
+    ]
+  },
+  "91786b42b2295420bd257d3a": {
+    "itemTplToClone": "5b7d671b5acfc43d82528ddd",
+    "parentId": "55818a104bdc2db9688b4569",
+    "handbookParentId": "5b5f75e486f77447ec5d7712",
+    "overrideProperties": {
+      "Name": "SA58/FAL Belgian Style handguard (RAL 8000)",
+      "CanRequireOnRagfair": true,
+      "Prefab": {
+        "path": "aishiweapons/sa58_ral8000/handguard_fal_ds_arms_belgian_style_full_lenght_ral8000.bundle",
+        "rcid": ""
+      },
+      "ShortName": "FAL BEL",
+      "Description": "The Belgian variant handguard for FAL rifles manufactured by DS Arms. RAL 8000 Version."
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "handbookPriceRoubles": 3002,
+    "fleaPriceRoubles": 3002,
+    "locales": {
+      "en": {
+        "name": "SA58/FAL Belgian Style handguard (RAL 8000)",
+        "shortName": "FAL BEL",
+        "description": "The Belgian variant handguard for FAL rifles manufactured by DS Arms. RAL 8000 Version."
+      },
+      "po": {
+        "name": "SA58/FAL Belgian Style handguard (RAL 8000)",
+        "shortName": "Fal estilo Belga",
+        "description": "Guarda-mão estilo Belga para FAL produzida pela DS Arms. RAL 8000 Version."
+      }
+    },
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_handguard"
+    ]
+  },
+  "2da30c7f526f5b04aae0e45a": {
+    "itemTplToClone": "5b7d63b75acfc400170e2f8a",
+    "parentId": "55818a594bdc2db9688b456a",
+    "handbookParentId": "5b5f757486f774093e6cb507",
+    "overrideProperties": {
+      "Name": "SA58/FAL Magpul PRS 2 polymer stock (RAL 8000)",
+      "CanRequireOnRagfair": true,
+      "Prefab": {
+        "path": "aishiweapons/sa58_ral8000/stock_fal_magpul_prs_2_ral8000.bundle",
+        "rcid": ""
+      },
+      "ShortName": "SA58/FAL PRS2",
+      "Description": "The PRS 2 polymer stock for FAL series rifles. Manufactured by Magpul. RAL 8000 Version."
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "handbookPriceRoubles": 16197,
+    "fleaPriceRoubles": 25536,
+    "locales": {
+      "en": {
+        "name": "SA58/FAL Magpul PRS 2 polymer stock (RAL 8000)",
+        "shortName": "SA58/FAL PRS2",
+        "description": "The PRS 2 polymer stock for FAL series rifles. Manufactured by Magpul. RAL 8000 Version."
+      },
+      "po": {
+        "name": "SA58/FAL Magpul PRS 2 polymer stock (RAL 8000)",
+        "shortName": "PRS 2 FAL",
+        "description": "Coronha de polímero PRS 2 para FAL, fabricado pela Magpul. RAL 8000 Version."
+      }
+    },
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_stock"
+    ]
+  },
+  "9b99b3ac7d85595580cf500a": {
+    "itemTplToClone": "5b7bedd75acfc43d825283f9",
+    "parentId": "55818a104bdc2db9688b4569",
+    "handbookParentId": "5b5f75e486f77447ec5d7712",
+    "overrideProperties": {
+      "Name": "SA58/FAL Vltor CASV-FAL handguard (RAL 8000)",
+      "CanRequireOnRagfair": true,
+      "Prefab": {
+        "path": "aishiweapons/sa58_ral8000/handguard_fal_vltor_casv_fal_ral8000.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_id": "b9e2895c7241550da967f178",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount_000",
+          "_parent": "9b99b3ac7d85595580cf500a",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5b7be46e5acfc400170e2dcf"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "57bb71b02a35534399f7abd0",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount_001",
+          "_parent": "9b99b3ac7d85595580cf500a",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5b7be4575acfc400161d0832",
+                  "5b7be4645acfc400170e2dcc"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "4d7a3d63d5575b519e8e1bc0",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount_002",
+          "_parent": "9b99b3ac7d85595580cf500a",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5b7be4575acfc400161d0832",
+                  "5b7be4645acfc400170e2dcc"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "0b25b93278ba5e10b67fa9a6",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount_003",
+          "_parent": "9b99b3ac7d85595580cf500a",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5b7be4575acfc400161d0832",
+                  "5b7be4645acfc400170e2dcc"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "6627a249f11b5f7f95ec1dc6",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_tactical",
+          "_parent": "9b99b3ac7d85595580cf500a",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "57fd23e32459772d0805bcf1",
+                  "544909bb4bdc2d6f028b4577",
+                  "5d10b49bd7ad1a1a560708b0",
+                  "5c06595c0db834001a66af6c",
+                  "5a7b483fe899ef0016170d15",
+                  "61605d88ffa6e502ac5e7eeb",
+                  "5c5952732e2216398b5abda2",
+                  "644a3df63b0b6f03e101e065"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "e405eb7f18ca553bb75d318e",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_scope",
+          "_parent": "9b99b3ac7d85595580cf500a",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "57ae0171245977343c27bfcf",
+                  "58d39d3d86f77445bb794ae7",
+                  "616554fe50224f204c1da2aa",
+                  "615d8d878004cc50514c3233",
+                  "577d128124597739d65d0e56",
+                  "58d2664f86f7747fec5834f6",
+                  "5649a2464bdc2d91118b45a8",
+                  "5b31163c5acfc400153b71cb",
+                  "5a33b652c4a28232996e407c",
+                  "5a33b2c9c4a282000c5a9511"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "ShortName": "CASV-FAL",
+      "Description": "The Vltor CASV-FAL handguard for FAL series rifles equipped with a CASV interface for installation of additional devices and accessories. RAL 8000 Version."
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "handbookPriceRoubles": 29262,
+    "fleaPriceRoubles": 39641,
+    "locales": {
+      "en": {
+        "name": "SA58/FAL Vltor CASV-FAL handguard (RAL 8000)",
+        "shortName": "CASV-FAL",
+        "description": "The Vltor CASV-FAL handguard for FAL series rifles equipped with a CASV interface for installation of additional devices and accessories. RAL 8000 Version."
+      },
+      "po": {
+        "name": "SA58/FAL Vltor CASV-FAL handguard (RAL 8000)",
+        "shortName": "G-M CASV FAL",
+        "description": "Guarda-mão CASV FAL da Vitor para FAL é equipado com interface CASV para instalação de dispositivos e acessórios. RAL 8000 Version."
+      }
+    },
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_handguard"
+    ]
+  },
+  "8e275bb018325fca87d5c539": {
+    "itemTplToClone": "5b7bee755acfc400196d5383",
+    "parentId": "55818a104bdc2db9688b4569",
+    "handbookParentId": "5b5f75e486f77447ec5d7712",
+    "overrideProperties": {
+      "Name": "SA58/FAL Vltor CASV-FAS handguard (RAL 8000)",
+      "CanRequireOnRagfair": true,
+      "Prefab": {
+        "path": "aishiweapons/sa58_ral8000/handguard_fal_vltor_casv_fas_ral8000.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_id": "c91daebf7c4c56389a142f4c",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount_000",
+          "_parent": "8e275bb018325fca87d5c539",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5b7be46e5acfc400170e2dcf"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "7d133840c36e5a20a5c1b635",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount_001",
+          "_parent": "8e275bb018325fca87d5c539",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5b7be4575acfc400161d0832",
+                  "5b7be4645acfc400170e2dcc"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "d777f28c8d4551aeb3a0f59b",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount_002",
+          "_parent": "8e275bb018325fca87d5c539",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5b7be4575acfc400161d0832",
+                  "5b7be4645acfc400170e2dcc"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "d6aa42c9e5135bc2a8f5404d",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_scope",
+          "_parent": "8e275bb018325fca87d5c539",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "57ae0171245977343c27bfcf",
+                  "57fd23e32459772d0805bcf1",
+                  "544909bb4bdc2d6f028b4577",
+                  "5d10b49bd7ad1a1a560708b0",
+                  "5c06595c0db834001a66af6c",
+                  "5a7b483fe899ef0016170d15",
+                  "61605d88ffa6e502ac5e7eeb",
+                  "5c5952732e2216398b5abda2",
+                  "58d39d3d86f77445bb794ae7",
+                  "616554fe50224f204c1da2aa",
+                  "615d8d878004cc50514c3233",
+                  "577d128124597739d65d0e56",
+                  "58d2664f86f7747fec5834f6",
+                  "5649a2464bdc2d91118b45a8",
+                  "61714b2467085e45ef140b2c",
+                  "5b31163c5acfc400153b71cb",
+                  "5a33b652c4a28232996e407c",
+                  "5a33b2c9c4a282000c5a9511",
+                  "644a3df63b0b6f03e101e065"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "ShortName": "CASV-FAS",
+      "Description": "The Vltor CASV-FAS handguard for FAL series rifles, equipped with a CASV interface for installation of additional devices and accessories. RAL 8000 Version."
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "handbookPriceRoubles": 20068,
+    "fleaPriceRoubles": 42601,
+    "locales": {
+      "en": {
+        "name": "SA58/FAL Vltor CASV-FAS handguard (RAL 8000)",
+        "shortName": "CASV-FAS",
+        "description": "The Vltor CASV-FAS handguard for FAL series rifles, equipped with a CASV interface for installation of additional devices and accessories. RAL 8000 Version."
+      },
+      "po": {
+        "name": "SA58/FAL Vltor CASV-FAS handguard (RAL 8000)",
+        "shortName": "G-M CASV FAS",
+        "description": "Guarda-mão CASV FAS da Vitor para FAL é equipado com interface CASV para instalação de dispositivos e acessórios. RAL 8000 Version."
+      }
+    },
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_handguard"
+    ]
+  }
+}

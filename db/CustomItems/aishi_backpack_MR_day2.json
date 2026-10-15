@@ -1,31 +1,22 @@
 {
   "69fce4a63974614588b85dc7": {
-
     "itemTplToClone": "68947ab5a733b1602007e2fe",
     "parentId": "5448e53e4bdc2d60728b4567",
     "handbookParentId": "5b5f6f6c86f774093f2ecf0b",
-
     "overrideProperties": {
-      "QuestItem": false,  
+      "QuestItem": false,
       "ExaminedByDefault": false,
       "IsUnsaleable": false,
       "CanSellOnRagfair": false,
       "CanRequireOnRagfair": false,
-      "addtoItemBlacklist": false,   
-        
-
+      "addtoItemBlacklist": false,
       "Prefab": {
-
         "path": "equipment/item_equipment_backpack_bdday2_isbNONedition.bundle",
         "rcid": ""
       },
-
       "Width": 5,
       "Height": 6,
-
-
       "Weight": 1.285,
-
       "Grids": [
         {
           "_name": "main",
@@ -63,47 +54,36 @@
         }
       ]
     },
-
     "locales": {
       "en": {
         "name": "Mystery Ranch 2 Day Assault Pack (Olive Drab)",
         "shortName": "2 Day Assault",
         "description": "This Mystery Ranch backpack is designed for short missions of up to two days. Its compact size is offset by excellent ergonomics. External straps provide convenient attachment points for tools and gear you might need on the go."
       },
-        "po": {
+      "po": {
         "name": "Mochila Mystery Ranch 2 Day Assault (Olive Drab)",
         "shortName": "2 Day Assault",
         "description": "Esta mochila da Mystery Ranch foi concebida para missões curtas de até dois dias. Seu tamanho compacto é compensado por uma excelente ergonomia. As alças externas oferecem pontos de fixação práticos para ferramentas e equipamentos de que você possa precisar durante a viagem."
       }
     },
-
     "fleaPriceRoubles": 218022,
-
     "handbookPriceRoubles": 120000,
-
-    "addtoInventorySlots": ["Backpack"],
-
+    "addtoInventorySlots": [
+      "Backpack"
+    ],
     "addtoBots": true,
-
     "CanSellOnRagfair": false,
-
     "IsAlwaysAvailableForInsurance": false,
-
     "InsuranceDisabled": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": false, 
-
+    "addtoItemBlacklist": false,
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",
         "Probability": 0
       }
     ],
-
     "addtoSecureFilters": false
   }
 }

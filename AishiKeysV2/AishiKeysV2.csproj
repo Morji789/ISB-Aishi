@@ -26,6 +26,10 @@
       <HintPath>$(BepInExCore)\0Harmony.dll</HintPath>
       <Private>false</Private>
     </Reference>
+    <Reference Include="ItemTemplate.Types">
+      <HintPath>$(ManagedPath)\ItemTemplate.Types.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
     <Reference Include="Assembly-CSharp">
       <HintPath>$(ManagedPath)\Assembly-CSharp.dll</HintPath>
       <Private>false</Private>
@@ -56,4 +60,16 @@
     </Reference>
     <Reference Include="System.Core" />
   </ItemGroup>
-</Project>
+<ItemGroup><Reference Include="UnityEngine.UI"><HintPath>$(ManagedPath)\UnityEngine.UI.dll</HintPath><Private>false</Private></Reference></ItemGroup>
+<ItemGroup><Reference Include="Unity.TextMeshPro"><HintPath>$(ManagedPath)\Unity.TextMeshPro.dll</HintPath><Private>false</Private></Reference></ItemGroup>
+<ItemGroup><Reference Include="UnityEngine.AudioModule"><HintPath>$(ManagedPath)\UnityEngine.AudioModule.dll</HintPath><Private>false</Private></Reference></ItemGroup>
+<ItemGroup><Reference Include="UnityEngine.UnityWebRequestModule"><HintPath>$(ManagedPath)\UnityEngine.UnityWebRequestModule.dll</HintPath><Private>false</Private></Reference></ItemGroup>
+<ItemGroup><Reference Include="UnityEngine.UnityWebRequestAudioModule"><HintPath>$(ManagedPath)\UnityEngine.UnityWebRequestAudioModule.dll</HintPath><Private>false</Private></Reference></ItemGroup>
+<ItemGroup><Reference Include="UnityEngine.IMGUIModule"><HintPath>$(ManagedPath)\UnityEngine.IMGUIModule.dll</HintPath><Private>false</Private></Reference></ItemGroup>
+<ItemGroup><Reference Include="UnityEngine.InputLegacyModule"><HintPath>$(ManagedPath)\UnityEngine.InputLegacyModule.dll</HintPath><Private>false</Private></Reference></ItemGroup>
+<ItemGroup><Reference Include="UnityEngine.UIModule"><HintPath>$(ManagedPath)\UnityEngine.UIModule.dll</HintPath><Private>false</Private></Reference></ItemGroup>
+<ItemGroup><Reference Include="Newtonsoft.Json"><HintPath>$(ManagedPath)\Newtonsoft.Json.dll</HintPath><Private>false</Private></Reference></ItemGroup>
+<ItemGroup><EmbeddedResource Include="Resources\ArmorClassVII.png" LogicalName="Aishi.ArmorClassVII.png" /><Reference Include="UnityEngine.ImageConversionModule"><HintPath>$(ManagedPath)\UnityEngine.ImageConversionModule.dll</HintPath><Private>false</Private></Reference><Reference Include="UnityEngine.TextCoreFontEngineModule"><HintPath>$(ManagedPath)\UnityEngine.TextCoreFontEngineModule.dll</HintPath><Private>false</Private></Reference></ItemGroup>
+<ItemGroup><None Update="MagazineVariants.json" CopyToOutputDirectory="PreserveNewest" /></ItemGroup>
+<ItemGroup><Reference Include="spt-common"><HintPath>$(BepInExPlugins)/spt/spt-common.dll</HintPath><Private>false</Private></Reference></ItemGroup><ItemGroup><Reference Include="ItemComponent.Types"><HintPath>$(ManagedPath)/ItemComponent.Types.dll</HintPath><Private>false</Private></Reference></ItemGroup><ItemGroup><Reference Include="UnityEngine.PhysicsModule"><HintPath>$(ManagedPath)\UnityEngine.PhysicsModule.dll</HintPath><Private>false</Private></Reference></ItemGroup>
+<ItemGroup><None Update="Music\**\*" CopyToOutputDirectory="PreserveNewest" /></ItemGroup></Project>

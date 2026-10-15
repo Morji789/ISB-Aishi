@@ -1,48 +1,25 @@
 {
   "69f67aaf276f5880ea08136f": {
-
     "itemTplToClone": "65290f395ae2ae97b80fdf2d",
     "parentId": "5447b5f14bdc2d61278b4567",
     "handbookParentId": "5b5f78fc86f77409407a7f90",
-
-
     "overrideProperties": {
-        "CanSellOnRagfair": false,
-        "CanRequireOnRagfair": false,
-        "addtoItemBlacklist": true,    
-        "ExaminedByDefault": true,
-        "InsuranceDisabled": true,
-        "IsUnsaleable": true,
-        "IsUnbuyable": true,
-        "AllowFeed": false,
-        "BackgroundColor": "yellow",
-        "AllowJam": true,
-        "AllowMisfire": false,
-        "AllowOverheat": true,
-        "AllowSlide": false,
-        "Ergonomics": 45,
-        "ammoCaliber": "Caliber556x45NATO",
-        "UnlootableFromSlot": "FirstPrimaryWeapon",
-        "bEffDist": 500,
-        "bFirerate": 875,
-        "bHearDist": 80,
-        "blockLeftStance": false,
-        "chamberAmmoCount": 1,
-        "defAmmo": "59e690b686f7746c9f75e848",
-        "defMagType": "69f68305a8eea15aea284ef9",
-        "durabSpawnMax": 100,
-        "durabSpawnMin": 50,
-        "isBoltCatch": true,
-        "isChamberLoad": true,
-        "isFastReload": true,
-        "shotgunDispersion": 0,
-        "weapClass": "assaultRifle",
-        "weapFireType": [
-        "single",
-        "fullauto"
-        ],
-        "weapUseType": "primary",
-        "Chambers": [
+      "addtoItemBlacklist": true,
+      "InsuranceDisabled": true,
+      "IsUnsaleable": true,
+      "IsUnbuyable": true,
+      "AllowFeed": false,
+      "BackgroundColor": "yellow",
+      "AllowMisfire": false,
+      "AllowSlide": false,
+      "Ergonomics": 45,
+      "ammoCaliber": "Caliber556x45NATO",
+      "bFirerate": 875,
+      "defAmmo": "59e690b686f7746c9f75e848",
+      "defMagType": "69f68305a8eea15aea284ef9",
+      "durabSpawnMax": 100,
+      "durabSpawnMin": 50,
+      "Chambers": [
         {
           "_name": "patron_in_weapon",
           "_id": "69f67fba5404f9c96d444c7a",
@@ -69,9 +46,8 @@
           "_required": false,
           "_mergeSlotWithChildren": false,
           "_proto": "69f67b29e1222fd0928882ed"
-          }
-        ],
-
+        }
+      ],
       "Slots": [
         {
           "_id": "69f67ae59b99e3a3689a6c27",
@@ -200,25 +176,13 @@
           "_required": true
         }
       ],
-
       "Prefab": {
-
         "path": "assets/content/weapons/spear/weapon_sig_mcx_spear_68x51_container.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
-      "Height": 1,
-
-
       "Weight": 1.0,
-
-
-      "Grids": [
-      ]
+      "Grids": []
     },
-
     "addWeaponPreset": true,
     "weaponPresets": [
       {
@@ -235,211 +199,218 @@
               "Repairable": {
                 "Durability": 100,
                 "MaxDurability": 100
+              },
+              "FireMode": {
+                "FireMode": "fullauto"
               }
             }
           },
-    {
-      "_id": "69f691f3cbd61f4870cca6e7",
-      "_tpl": "5a339805c4a2826c6e06d73d",
-      "parentId": "69f69594cbd61f4870cd76fb",
-      "slotId": "mod_pistol_grip"
-    },
-    {
-      "_id": "69f691f3cbd61f4870cca6e8",
-      "_tpl": "69f683cb5fe79e067a85d9ef",
-      "parentId": "69f69594cbd61f4870cd76fb",
-      "slotId": "mod_magazine"
-    },
-    {
-      "_id": "69f691f3cbd61f4870cca6e9",
-      "_tpl": "698430ea529f337360a2c9bc",
-      "parentId": "69f69594cbd61f4870cd76fb",
-      "slotId": "mod_reciever"
-    },
-    {
-      "_id": "69f691f3cbd61f4870cca6ea",
-      "_tpl": "58ac1bf086f77420ed183f9f",
-      "parentId": "69f69594cbd61f4870cd76fb",
-      "slotId": "mod_stock_000"
-    },
-    {
-      "_id": "69f691f3cbd61f4870cca6eb",
-      "_tpl": "6529109524cbe3c74a05e5b7",
-      "parentId": "69f69594cbd61f4870cd76fb",
-      "slotId": "mod_charge"
-    },
-    {
-      "_id": "69f691f3cbd61f4870cca6ec",
-      "_tpl": "68caacc7933990601c07f479",
-      "parentId": "69f691f3cbd61f4870cca6e9",
-      "slotId": "mod_scope"
-    },
-    {
-      "_id": "69f691f3cbd61f4870cca6ed",
-      "_tpl": "652910565ae2ae97b80fdf35",
-      "parentId": "69f691f3cbd61f4870cca6e9",
-      "slotId": "mod_barrel"
-    },
-    {
-      "_id": "69f691f3cbd61f4870cca6ee",
-      "_tpl": "652910ef50dc782999054b97",
-      "parentId": "69f691f3cbd61f4870cca6e9",
-      "slotId": "mod_handguard"
-    },
-    {
-      "_id": "69f691f3cbd61f4870cca6ef",
-      "_tpl": "5c793fb92e221644f31bfb64",
-      "parentId": "69f691f3cbd61f4870cca6ea",
-      "slotId": "mod_stock"
-    },
-    {
-      "_id": "69f691f3cbd61f4870cca6f0",
-      "_tpl": "6567e7681265c8a131069b0f",
-      "parentId": "69f691f3cbd61f4870cca6ec",
-      "slotId": "mod_scope",
-      "upd": {
-        "Sight": {
-          "ScopesCurrentCalibPointIndexes": [
-            0
-          ],
-          "ScopesSelectedModes": [
-            0
-          ],
-          "SelectedScope": 0,
-          "ScopeZoomValue": 0
-        }
-      }
-    },
-    {
-      "_id": "69f691f3cbd61f4870cca6f1",
-      "_tpl": "68caace5f42a4476cf0be2b4",
-      "parentId": "69f691f3cbd61f4870cca6ec",
-      "slotId": "mod_mount"
-    },
-    {
-      "_id": "69f691f3cbd61f4870cca6f2",
-      "_tpl": "6529113b5ae2ae97b80fdf39",
-      "parentId": "69f691f3cbd61f4870cca6ed",
-      "slotId": "mod_muzzle"
-    },
-    {
-      "_id": "69f691f3cbd61f4870cca6f3",
-      "_tpl": "652910bc24cbe3c74a05e5b9",
-      "parentId": "69f691f3cbd61f4870cca6ed",
-      "slotId": "mod_gas_block"
-    },
-    {
-      "_id": "69f691f3cbd61f4870cca6f4",
-      "_tpl": "5b7be47f5acfc400170e2dd2",
-      "parentId": "69f691f3cbd61f4870cca6ee",
-      "slotId": "mod_mount_000"
-    },
-    {
-      "_id": "69f691f3cbd61f4870cca6f5",
-      "_tpl": "669a6a4a525be1d2d004b8eb",
-      "parentId": "69f691f3cbd61f4870cca6ee",
-      "slotId": "mod_mount_001"
-    },
-    {
-      "_id": "69f691f3cbd61f4870cca6f6",
-      "_tpl": "5bc09a30d4351e00367fb7c8",
-      "parentId": "69f691f3cbd61f4870cca6ee",
-      "slotId": "mod_sight_front",
-      "upd": {
-        "Sight": {
-          "ScopesCurrentCalibPointIndexes": [
-            0
-          ],
-          "ScopesSelectedModes": [
-            0
-          ],
-          "SelectedScope": 0,
-          "ScopeZoomValue": 0
-        }
-      }
-    },
-    {
-      "_id": "69f691f3cbd61f4870cca6f7",
-      "_tpl": "5b7be4895acfc400170e2dd5",
-      "parentId": "69f691f3cbd61f4870cca6ee",
-      "slotId": "mod_foregrip"
-    },
-    {
-      "_id": "69f691f3cbd61f4870cca6f8",
-      "_tpl": "652911e650dc782999054b9d",
-      "parentId": "69f691f3cbd61f4870cca6f2",
-      "slotId": "mod_muzzle"
-    },
-    {
-      "_id": "69f691f3cbd61f4870cca6f9",
-      "_tpl": "544909bb4bdc2d6f028b4577",
-      "parentId": "69f691f3cbd61f4870cca6f4",
-      "slotId": "mod_tactical",
-      "upd": {
-        "Light": {
-          "IsActive": true,
-          "SelectedMode": 0
-        }
-      }
-    },
-    {
-      "_id": "69f691f3cbd61f4870cca6fa",
-      "_tpl": "57d17e212459775a1179a0f5",
-      "parentId": "69f691f3cbd61f4870cca6f5",
-      "slotId": "mod_tactical"
-    },
-    {
-      "_id": "69f691f3cbd61f4870cca6fb",
-      "_tpl": "588226dd24597767ad33f789",
-      "parentId": "69f691f3cbd61f4870cca6f7",
-      "slotId": "mod_foregrip"
-    },
-    {
-      "_id": "69f691f3cbd61f4870cca6fc",
-      "_tpl": "59d790f486f77403cb06aec6",
-      "parentId": "69f691f3cbd61f4870cca6fa",
-      "slotId": "mod_flashlight",
-      "upd": {
-        "Light": {
-          "IsActive": true,
-          "SelectedMode": 0
-        }
-      }
-    },
-    {
-      "_id": "69f691f3cbd61f4870cca6fd",
-      "_tpl": "5d135ecbd7ad1a21c176542e",
-      "parentId": "69f691f3cbd61f4870cca6ef",
-      "slotId": "mod_stock_000"
-    }
+          {
+            "_id": "69f691f3cbd61f4870cca6e7",
+            "_tpl": "5a339805c4a2826c6e06d73d",
+            "parentId": "69f69594cbd61f4870cd76fb",
+            "slotId": "mod_pistol_grip"
+          },
+          {
+            "_id": "69f691f3cbd61f4870cca6e8",
+            "_tpl": "69f683cb5fe79e067a85d9ef",
+            "parentId": "69f69594cbd61f4870cd76fb",
+            "slotId": "mod_magazine"
+          },
+          {
+            "_id": "69f691f3cbd61f4870cca6e9",
+            "_tpl": "698430ea529f337360a2c9bc",
+            "parentId": "69f69594cbd61f4870cd76fb",
+            "slotId": "mod_reciever"
+          },
+          {
+            "_id": "69f691f3cbd61f4870cca6ea",
+            "_tpl": "58ac1bf086f77420ed183f9f",
+            "parentId": "69f69594cbd61f4870cd76fb",
+            "slotId": "mod_stock_000"
+          },
+          {
+            "_id": "69f691f3cbd61f4870cca6eb",
+            "_tpl": "6529109524cbe3c74a05e5b7",
+            "parentId": "69f69594cbd61f4870cd76fb",
+            "slotId": "mod_charge"
+          },
+          {
+            "_id": "69f691f3cbd61f4870cca6ec",
+            "_tpl": "68caacc7933990601c07f479",
+            "parentId": "69f691f3cbd61f4870cca6e9",
+            "slotId": "mod_scope"
+          },
+          {
+            "_id": "69f691f3cbd61f4870cca6ed",
+            "_tpl": "652910565ae2ae97b80fdf35",
+            "parentId": "69f691f3cbd61f4870cca6e9",
+            "slotId": "mod_barrel"
+          },
+          {
+            "_id": "69f691f3cbd61f4870cca6ee",
+            "_tpl": "652910ef50dc782999054b97",
+            "parentId": "69f691f3cbd61f4870cca6e9",
+            "slotId": "mod_handguard"
+          },
+          {
+            "_id": "69f691f3cbd61f4870cca6ef",
+            "_tpl": "5c793fb92e221644f31bfb64",
+            "parentId": "69f691f3cbd61f4870cca6ea",
+            "slotId": "mod_stock"
+          },
+          {
+            "_id": "69f691f3cbd61f4870cca6f0",
+            "_tpl": "6567e7681265c8a131069b0f",
+            "parentId": "69f691f3cbd61f4870cca6ec",
+            "slotId": "mod_scope",
+            "upd": {
+              "Sight": {
+                "ScopesCurrentCalibPointIndexes": [
+                  0
+                ],
+                "ScopesSelectedModes": [
+                  0
+                ],
+                "SelectedScope": 0,
+                "ScopeZoomValue": 0
+              }
+            }
+          },
+          {
+            "_id": "69f691f3cbd61f4870cca6f1",
+            "_tpl": "68caace5f42a4476cf0be2b4",
+            "parentId": "69f691f3cbd61f4870cca6ec",
+            "slotId": "mod_mount"
+          },
+          {
+            "_id": "69f691f3cbd61f4870cca6f2",
+            "_tpl": "6529113b5ae2ae97b80fdf39",
+            "parentId": "69f691f3cbd61f4870cca6ed",
+            "slotId": "mod_muzzle"
+          },
+          {
+            "_id": "69f691f3cbd61f4870cca6f3",
+            "_tpl": "652910bc24cbe3c74a05e5b9",
+            "parentId": "69f691f3cbd61f4870cca6ed",
+            "slotId": "mod_gas_block"
+          },
+          {
+            "_id": "69f691f3cbd61f4870cca6f4",
+            "_tpl": "5b7be47f5acfc400170e2dd2",
+            "parentId": "69f691f3cbd61f4870cca6ee",
+            "slotId": "mod_mount_000"
+          },
+          {
+            "_id": "69f691f3cbd61f4870cca6f5",
+            "_tpl": "669a6a4a525be1d2d004b8eb",
+            "parentId": "69f691f3cbd61f4870cca6ee",
+            "slotId": "mod_mount_001"
+          },
+          {
+            "_id": "69f691f3cbd61f4870cca6f6",
+            "_tpl": "5bc09a30d4351e00367fb7c8",
+            "parentId": "69f691f3cbd61f4870cca6ee",
+            "slotId": "mod_sight_front",
+            "upd": {
+              "Sight": {
+                "ScopesCurrentCalibPointIndexes": [
+                  0
+                ],
+                "ScopesSelectedModes": [
+                  0
+                ],
+                "SelectedScope": 0,
+                "ScopeZoomValue": 0
+              }
+            }
+          },
+          {
+            "_id": "69f691f3cbd61f4870cca6f7",
+            "_tpl": "5b7be4895acfc400170e2dd5",
+            "parentId": "69f691f3cbd61f4870cca6ee",
+            "slotId": "mod_foregrip"
+          },
+          {
+            "_id": "69f691f3cbd61f4870cca6f8",
+            "_tpl": "652911e650dc782999054b9d",
+            "parentId": "69f691f3cbd61f4870cca6f2",
+            "slotId": "mod_muzzle"
+          },
+          {
+            "_id": "69f691f3cbd61f4870cca6f9",
+            "_tpl": "544909bb4bdc2d6f028b4577",
+            "parentId": "69f691f3cbd61f4870cca6f4",
+            "slotId": "mod_tactical",
+            "upd": {
+              "Light": {
+                "IsActive": true,
+                "SelectedMode": 0
+              }
+            }
+          },
+          {
+            "_id": "69f691f3cbd61f4870cca6fa",
+            "_tpl": "57d17e212459775a1179a0f5",
+            "parentId": "69f691f3cbd61f4870cca6f5",
+            "slotId": "mod_tactical"
+          },
+          {
+            "_id": "69f691f3cbd61f4870cca6fb",
+            "_tpl": "588226dd24597767ad33f789",
+            "parentId": "69f691f3cbd61f4870cca6f7",
+            "slotId": "mod_foregrip"
+          },
+          {
+            "_id": "69f691f3cbd61f4870cca6fc",
+            "_tpl": "59d790f486f77403cb06aec6",
+            "parentId": "69f691f3cbd61f4870cca6fa",
+            "slotId": "mod_flashlight",
+            "upd": {
+              "Light": {
+                "IsActive": true,
+                "SelectedMode": 0
+              }
+            }
+          },
+          {
+            "_id": "69f691f3cbd61f4870cca6fd",
+            "_tpl": "5d135ecbd7ad1a21c176542e",
+            "parentId": "69f691f3cbd61f4870cca6ef",
+            "slotId": "mod_stock_000"
+          }
         ],
         "_encyclopedia": "69f67aaf276f5880ea08136f"
       }
     ],
-
     "locales": {
       "en": {
-          "name": "SIG MCX-SPEAR 5.56x45 assault rifle",
-          "shortName": "SPEAR 5.56",
-          "description": "The MCX SPEAR is a multi-caliber assault rifle designed and manufactured by SIG Sauer based on the MCX assault rifle. Primarily chambered in the new 6.8x51mm (.277 FURY) ammunition. Designed specifically for the US Military to replace the M4 carbine."
+        "name": "SIG MCX-SPEAR 5.56x45 assault rifle",
+        "shortName": "SPEAR 5.56",
+        "description": "The MCX SPEAR is a multi-caliber assault rifle designed and manufactured by SIG Sauer based on the MCX assault rifle. Primarily chambered in the new 6.8x51mm (.277 FURY) ammunition. Designed specifically for the US Military to replace the M4 carbine."
       },
       "po": {
-          "name": "Rifle de assalto SIG MCX SPEAR 5.56x45 modificado",
-          "shortName": "SPEAR 5.56",
-          "description": "A MCX SPEAR é um fuzil de assalto multicalibre projetado e fabricado pela SIG Sauer com base no fuzil de assalto MCX. Utiliza principalmente a nova munição 6,8x51 mm (.277 FURY). Foi projetada especificamente para as Forças Armadas dos EUA com o objetivo de substituir a carabina M4."
+        "name": "Rifle de assalto SIG MCX SPEAR 5.56x45 modificado",
+        "shortName": "SPEAR 5.56",
+        "description": "A MCX SPEAR é um fuzil de assalto multicalibre projetado e fabricado pela SIG Sauer com base no fuzil de assalto MCX. Utiliza principalmente a nova munição 6,8x51 mm (.277 FURY). Foi projetada especificamente para as Forças Armadas dos EUA com o objetivo de substituir a carabina M4."
       }
     },
-
     "fleaPriceRoubles": 489202,
-
     "handbookPriceRoubles": 308592,
-
     "addtoBots": true,
-
+    "masteries": true,
+    "masterySections": [
+      {
+        "Level2": 1600,
+        "Level3": 2000,
+        "Name": "M4",
+        "Templates": [
+          "69f67aaf276f5880ea08136f"
+        ]
+      }
+    ],
     "addtoModSlots": false,
-
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",
@@ -448,17 +419,12 @@
     ]
   },
   "69f68305a8eea15aea284ef9": {
-
     "itemTplToClone": "65293c7a17e14363030ad308",
     "parentId": "5448bc234bdc2d3c308b4569",
     "handbookParentId": "5b5f754a86f774094242f19b",
-
-
-    "overrideProperties": { 
-        "Ergonomics": -4,
-        "ExaminedByDefault": true,
-        "BackgroundColor": "violet",
-
+    "overrideProperties": {
+      "Ergonomics": -4,
+      "BackgroundColor": "violet",
       "Cartridges": [
         {
           "_id": "69f6831285d702ee6e78101e",
@@ -469,17 +435,6 @@
             "filters": [
               {
                 "Filter": [
-                  "59e6920f86f77411d82aa167",
-                  "59e6927d86f77411da468256",
-                  "54527a984bdc2d4e668b4567",
-                  "54527ac44bdc2d36668b4567",
-                  "59e68f6f86f7746c9f75e846",
-                  "59e6906286f7746c9f75e847",
-                  "59e690b686f7746c9f75e848",
-                  "59e6918f86f7746c9f75e849",
-                  "60194943740c5d77f6705eea",
-                  "601949593ae8f707c4608daa",
-                  "5c0d5ae286f7741e46554302",
                   "59e6920f86f77411d82aa167",
                   "59e6927d86f77411da468256",
                   "54527a984bdc2d4e668b4567",
@@ -508,51 +463,34 @@
           "_proto": "5748538b2459770af276a261"
         }
       ],
-
       "Prefab": {
-
-        "path": "aishiweapons/weapon_spearmagazine_black.bundle",
+        "path": "aishiweapons/shared/detail/weapon_spearmagazine_black.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
-      "Height": 2,
-
-
       "Weight": 0.45,
-
-
-      "Grids": [
-      ]
+      "Grids": [],
+      "InsuranceDisabled": true
     },
-
     "locales": {
       "en": {
-          "name": "AR-10 5.56x45 Modified Lancer L7AWM-A55 30-round magazine",
-          "shortName": "L7AWM-A55 V2",
-          "description": "A 30-round double-stack L7AWM 30 magazine for 5.56x45 NATO ammunition. Manufactured by Lancer Systems."
+        "name": "AR-10 5.56x45 Modified Lancer L7AWM-A55 30-round magazine",
+        "shortName": "L7AWM-A55 V2",
+        "description": "A 30-round double-stack L7AWM 30 magazine for 5.56x45 NATO ammunition. Manufactured by Lancer Systems."
       },
       "po": {
-          "name": "Carregador de 30 munições AR-10 modificado 5.56x45 Lancer L7AWM-A55",
-          "shortName": "L7AWM-A55",
-          "description": "Um carregador L7AWM-A55 de 30 cartuchos, de dupla fileira, para munição 5.56x45 OTAN. Fabricado pela Lancer Systems."
+        "name": "Carregador de 30 munições AR-10 modificado 5.56x45 Lancer L7AWM-A55",
+        "shortName": "L7AWM-A55",
+        "description": "Um carregador L7AWM-A55 de 30 cartuchos, de dupla fileira, para munição 5.56x45 OTAN. Fabricado pela Lancer Systems."
       }
     },
-
     "fleaPriceRoubles": 95999,
-
     "handbookPriceRoubles": 11500,
-
     "addtoBots": true,
-  
     "addtoModSlots": true,
     "modSlot": [
       "mod_magazine"
     ],
-
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",
@@ -561,17 +499,12 @@
     ]
   },
   "69f683cb5fe79e067a85d9ef": {
-
     "itemTplToClone": "65293c7a17e14363030ad308",
     "parentId": "5448bc234bdc2d3c308b4569",
     "handbookParentId": "5b5f754a86f774094242f19b",
-
-
-    "overrideProperties": { 
-        "Ergonomics": -4,
-        "ExaminedByDefault": true,
-        "BackgroundColor": "violet",
-
+    "overrideProperties": {
+      "Ergonomics": -4,
+      "BackgroundColor": "violet",
       "Cartridges": [
         {
           "_id": "69f68382e0a7ea31b00dccd0",
@@ -610,51 +543,34 @@
           "_proto": "69f683c76123cc4e32fd11aa"
         }
       ],
-
       "Prefab": {
-
-        "path": "assets/content/items/mods/magazines/mag_ar10_lancer_l7_awm_762x51_25.bundle",
+        "path": "aishiweapons/shared/detail/mag_ar10_lancer_l7_awm_762x51_25.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
-      "Height": 2,
-
-
       "Weight": 0.45,
-
-
-      "Grids": [
-      ]
+      "Grids": [],
+      "InsuranceDisabled": true
     },
-
     "locales": {
       "en": {
-          "name": "AR-10 5.56x45 Modified Lancer L7AWM 25-round magazine",
-          "shortName": "L7AWM V2",
-          "description": "A 25-round double-stack L7AWM 25 magazine for 5.56x45 NATO ammunition. Manufactured by Lancer Systems."
+        "name": "AR-10 5.56x45 Modified Lancer L7AWM 25-round magazine",
+        "shortName": "L7AWM V2",
+        "description": "A 25-round double-stack L7AWM 25 magazine for 5.56x45 NATO ammunition. Manufactured by Lancer Systems."
       },
       "po": {
-          "name": "Carregador de 25 munições AR-10 modificado 5.56x45 Lancer L7AWM",
-          "shortName": "L7AWM V2",
-          "description": "Um carregador L7AWM 25 de 25 cartuchos, de dupla fileira, para munição 5,56x45 OTAN. Fabricado pela Lancer Systems."
+        "name": "Carregador de 25 munições AR-10 modificado 5.56x45 Lancer L7AWM",
+        "shortName": "L7AWM V2",
+        "description": "Um carregador L7AWM 25 de 25 cartuchos, de dupla fileira, para munição 5,56x45 OTAN. Fabricado pela Lancer Systems."
       }
     },
-
     "fleaPriceRoubles": 55999,
-
     "handbookPriceRoubles": 10500,
-
     "addtoBots": true,
-  
     "addtoModSlots": true,
     "modSlot": [
       "mod_magazine"
     ],
-
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",
@@ -663,17 +579,12 @@
     ]
   },
   "69f683f01b84e0c82074cadb": {
-
     "itemTplToClone": "6761770e48fa5c377e06fc3c",
     "parentId": "5448bc234bdc2d3c308b4569",
     "handbookParentId": "5b5f754a86f774094242f19b",
-
-
-    "overrideProperties": { 
-        "Ergonomics": -4,
-        "ExaminedByDefault": true,
-        "BackgroundColor": "violet",
-
+    "overrideProperties": {
+      "Ergonomics": -4,
+      "BackgroundColor": "violet",
       "Cartridges": [
         {
           "_id": "69f683f44fa313790e666486",
@@ -684,17 +595,6 @@
             "filters": [
               {
                 "Filter": [
-                  "59e6920f86f77411d82aa167",
-                  "59e6927d86f77411da468256",
-                  "54527a984bdc2d4e668b4567",
-                  "54527ac44bdc2d36668b4567",
-                  "59e68f6f86f7746c9f75e846",
-                  "59e6906286f7746c9f75e847",
-                  "59e690b686f7746c9f75e848",
-                  "59e6918f86f7746c9f75e849",
-                  "60194943740c5d77f6705eea",
-                  "601949593ae8f707c4608daa",
-                  "5c0d5ae286f7741e46554302",
                   "59e6920f86f77411d82aa167",
                   "59e6927d86f77411da468256",
                   "54527a984bdc2d4e668b4567",
@@ -723,51 +623,34 @@
           "_proto": "69f6840403a976d77f86dfb4"
         }
       ],
-
       "Prefab": {
-
-        "path": "assets/content/items/mods/magazines/mag_ar10_x_products_x_25_drum_762x51_50.bundle",
+        "path": "aishiweapons/shared/detail/mag_ar10_x_products_x_25_drum_762x51_50.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
-      "Height": 2,
-
-
       "Weight": 0.65,
-
-
-      "Grids": [
-      ]
+      "Grids": [],
+      "InsuranceDisabled": true
     },
-
     "locales": {
       "en": {
-          "name": "AR-10 5.56x45 X Products X-25 Modified 50-round drum magazine",
-          "shortName": "X-25 V2",
-          "description": "A modified 50-round 5.56x45 drum magazine for the AR-10 platform weapons. Manufactured by X Products."
+        "name": "AR-10 5.56x45 X Products X-25 Modified 50-round drum magazine",
+        "shortName": "X-25 V2",
+        "description": "A modified 50-round 5.56x45 drum magazine for the AR-10 platform weapons. Manufactured by X Products."
       },
       "po": {
-          "name": "Carregador de 50 munições X Products X-25 modificado 5.56x45 para AR-10",
-          "shortName": "X-25 V2",
-          "description": "Um carregador de tambor modificado de 50 cartuchos calibre 5,56x45 para armas da plataforma AR-10. Fabricado pela X Products."
+        "name": "Carregador de 50 munições X Products X-25 modificado 5.56x45 para AR-10",
+        "shortName": "X-25 V2",
+        "description": "Um carregador de tambor modificado de 50 cartuchos calibre 5,56x45 para armas da plataforma AR-10. Fabricado pela X Products."
       }
     },
-
     "fleaPriceRoubles": 155999,
-
     "handbookPriceRoubles": 90500,
-
     "addtoBots": true,
-  
     "addtoModSlots": true,
     "modSlot": [
       "mod_magazine"
     ],
-
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",

@@ -1,13 +1,243 @@
 [
-{
-  "id": "6924bcbfcb0c0c86b8f1aff6",
-  "description": "6924bcbfcb0c0c86b8f1aff6 description",
-  "name": "6924bcbfcb0c0c86b8f1aff6 name",
-  "imageUrl": "/files/achievement/ISB01.png",
-  "assetPath": "",
-  "rewards": [],
-  "conditions": {
-    "availableForFinish": [
+  {
+    "id": "6924bcbfcb0c0c86b8f1aff6",
+    "description": "6924bcbfcb0c0c86b8f1aff6 description",
+    "name": "6924bcbfcb0c0c86b8f1aff6 name",
+    "imageUrl": "/files/achievement/ISB01.png",
+    "assetPath": "",
+    "rewards": [
+      {
+        "id": "8d921bb4ff106ab5e8eb9023",
+        "index": 0,
+        "type": "Item",
+        "target": "c548132ec77256c9426c7d0f",
+        "value": "2",
+        "items": [
+          {
+            "_id": "c548132ec77256c9426c7d0f",
+            "_tpl": "efcffd19f0435f04a82374c2",
+            "upd": {
+              "StackObjectsCount": 2,
+              "Repairable": {
+                "Durability": 100,
+                "MaxDurability": 100
+              },
+              "FireMode": {
+                "FireMode": "single"
+              }
+            }
+          },
+          {
+            "_id": "91e281815d1fea8b7d124b26",
+            "_tpl": "5c48a2c22e221602b313fb6c",
+            "parentId": "c548132ec77256c9426c7d0f",
+            "slotId": "mod_pistol_grip",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "ee4f7446e24a6fe692a357b5",
+            "_tpl": "65293c38fc460e50a509cb25",
+            "parentId": "c548132ec77256c9426c7d0f",
+            "slotId": "mod_magazine",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "4930036cf2044d3341213568",
+            "_tpl": "5c48a14f2e2216152006edd7",
+            "parentId": "c548132ec77256c9426c7d0f",
+            "slotId": "mod_handguard",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "77e43f746b5d206a61e87902",
+            "_tpl": "5dcbe9431e1f4616d354987e",
+            "parentId": "c548132ec77256c9426c7d0f",
+            "slotId": "mod_barrel",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "9877280fc7211b9e197569e2",
+            "_tpl": "558022b54bdc2dac148b458d",
+            "parentId": "c548132ec77256c9426c7d0f",
+            "slotId": "mod_scope",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Sight": {
+                "ScopesCurrentCalibPointIndexes": [
+                  0
+                ],
+                "ScopesSelectedModes": [
+                  0
+                ],
+                "SelectedScope": 0,
+                "ScopeZoomValue": 0
+              }
+            }
+          },
+          {
+            "_id": "348b16620e8a51ae7be89440",
+            "_tpl": "5c18b9192e2216398b5a8104",
+            "parentId": "c548132ec77256c9426c7d0f",
+            "slotId": "mod_sight_rear",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Sight": {
+                "ScopesCurrentCalibPointIndexes": [
+                  0
+                ],
+                "ScopesSelectedModes": [
+                  0
+                ],
+                "SelectedScope": 0,
+                "ScopeZoomValue": 0
+              }
+            }
+          },
+          {
+            "_id": "e789813d70480a4fc91afa8e",
+            "_tpl": "57cffcd624597763133760c5",
+            "parentId": "4930036cf2044d3341213568",
+            "slotId": "mod_mount_000",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "239330aaa5ad7a2b44b3ef8e",
+            "_tpl": "5b7be47f5acfc400170e2dd2",
+            "parentId": "4930036cf2044d3341213568",
+            "slotId": "mod_mount_001",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "a4abda306401c3e1e7bc2f38",
+            "_tpl": "544909bb4bdc2d6f028b4577",
+            "parentId": "4930036cf2044d3341213568",
+            "slotId": "mod_tactical",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Light": {
+                "IsActive": true,
+                "SelectedMode": 0
+              }
+            }
+          },
+          {
+            "_id": "d085ce65a65d62ef2f37bcf7",
+            "_tpl": "5c18b90d2e2216152142466b",
+            "parentId": "4930036cf2044d3341213568",
+            "slotId": "mod_sight_front",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Sight": {
+                "ScopesCurrentCalibPointIndexes": [
+                  0
+                ],
+                "ScopesSelectedModes": [
+                  0
+                ],
+                "SelectedScope": 0,
+                "ScopeZoomValue": 0
+              }
+            }
+          },
+          {
+            "_id": "3906d5cc461d561e892e3eb8",
+            "_tpl": "6a158e63060f61ca2c03e096",
+            "parentId": "77e43f746b5d206a61e87902",
+            "slotId": "mod_muzzle",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "e342f2851949f9a32af9ac77",
+            "_tpl": "626becf9582c3e319310b837",
+            "parentId": "239330aaa5ad7a2b44b3ef8e",
+            "slotId": "mod_tactical",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Light": {
+                "IsActive": true,
+                "SelectedMode": 0
+              }
+            }
+          },
+          {
+            "_id": "e6b6db38440149d01321a438",
+            "_tpl": "6a1eb32c6cd328ea90037455",
+            "parentId": "3906d5cc461d561e892e3eb8",
+            "slotId": "mod_muzzle",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ],
+        "findInRaid": true,
+        "availableInGameEditions": [],
+        "unknown": false
+      },
+      {
+        "id": "cf9b63fb0abc79103e903a30",
+        "index": 1,
+        "type": "Item",
+        "target": "cef1137ad2084981e82431cb",
+        "value": "10",
+        "items": [
+          {
+            "_id": "cef1137ad2084981e82431cb",
+            "_tpl": "65702558cfc010a0f5006a25",
+            "upd": {
+              "StackObjectsCount": 10
+            }
+          },
+          {
+            "_id": "d7bad5283a6a7976b8420a55",
+            "_tpl": "58dd3ad986f77403051cba8f",
+            "parentId": "cef1137ad2084981e82431cb",
+            "slotId": "cartridges",
+            "location": 0,
+            "upd": {
+              "StackObjectsCount": 20
+            }
+          }
+        ],
+        "findInRaid": true,
+        "availableInGameEditions": [],
+        "unknown": false
+      },
+      {
+        "id": "7a030e50a58039e9091e5c78",
+        "index": 2,
+        "type": "Item",
+        "target": "b28913c47719f5f71806e90d",
+        "value": "2",
+        "items": [
+          {
+            "_id": "b28913c47719f5f71806e90d",
+            "_tpl": "66b5f6985891c84aab75ca76",
+            "upd": {
+              "StackObjectsCount": 2
+            }
+          }
+        ],
+        "findInRaid": true,
+        "availableInGameEditions": [],
+        "unknown": false
+      }
+    ],
+    "conditions": {
+      "availableForFinish": [
         {
           "availableAfter": 0,
           "conditionType": "Quest",
@@ -24,18 +254,18 @@
           "target": "6910218dea9506c0857ab999",
           "visibilityConditions": []
         }
-    ],
-    "fail": []
-  },
-  "instantComplete": false,
-  "showNotificationsInGame": false,
-  "showProgress": false,
-  "prefab": "",
-  "rarity": "Common",
-  "hidden": false,
-  "showConditions": false,
-  "progressBarEnabled": false,
-  "side": "Pmc",
-  "index": 3300
-}
+      ],
+      "fail": []
+    },
+    "instantComplete": false,
+    "showNotificationsInGame": false,
+    "showProgress": false,
+    "prefab": "",
+    "rarity": "Common",
+    "hidden": false,
+    "showConditions": false,
+    "progressBarEnabled": false,
+    "side": "Pmc",
+    "index": 3300
+  }
 ]

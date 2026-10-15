@@ -59,7 +59,10 @@
       "TacticalVest": {}
     },
     "items": {
-      "Backpack": {},
+      "Backpack": {
+        "6a8ccebf9302acfd1468abdc": 50,
+        "6a8f39899225d6a63dd472a1": 50
+      },
       "Pockets": {},
       "SecuredContainer": {},
       "SpecialLoot": {},

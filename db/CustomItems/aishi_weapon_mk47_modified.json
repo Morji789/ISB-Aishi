@@ -1,0 +1,443 @@
+{
+  "18e10187041456dbaa900de2": {
+    "itemTplToClone": "606587252535c57a13424cfd",
+    "parentId": "5447b5f14bdc2d61278b4567",
+    "handbookParentId": "5b5f78fc86f77409407a7f90",
+    "overrideProperties": {
+      "Slots": [
+        {
+          "_id": "a3d038e723b651cb92da29c7",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_pistol_grip",
+          "_parent": "18e10187041456dbaa900de2",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "55d4b9964bdc2d1d4e8b456e",
+                  "571659bb2459771fb2755a12",
+                  "602e71bd53a60014f9705bfa",
+                  "6113c3586c780c1e710c90bc",
+                  "6113cc78d3a39d50044c065a",
+                  "6113cce3d92c473c770200c7",
+                  "5cc9bcaed7f00c011c04e179",
+                  "5bb20e18d4351e00320205d5",
+                  "5bb20e0ed4351e3bac1212dc",
+                  "6193dcd0f8ee7e52e4210a28",
+                  "5d025cc1d7ad1a53845279ef",
+                  "5c6d7b3d2e221600114c9b7d",
+                  "57c55efc2459772d2c6271e7",
+                  "57af48872459771f0b2ebf11",
+                  "57c55f092459772d291a8463",
+                  "57c55f112459772d28133310",
+                  "57c55f172459772d27602381",
+                  "5a339805c4a2826c6e06d73d",
+                  "55802f5d4bdc2dac148b458f",
+                  "5d15cf3bd7ad1a67e71518b2",
+                  "59db3a1d86f77429e05b4e92",
+                  "5fbcbd6c187fea44d52eda14",
+                  "59db3acc86f7742a2c4ab912",
+                  "59db3b0886f77429d72fb895",
+                  "615d8faecabb9b7ad90f4d5d",
+                  "5b07db875acfc40dc528a5f6",
+                  "63f5feead259b42f0b4d6d0f",
+                  "652911675ae2ae97b80fdf3c",
+                  "f90a78d8987e5bb989eb1874",
+                  "b4eefc5aa5515222b381c865"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "43253030f0dd5e62a06674d5",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_magazine",
+          "_parent": "18e10187041456dbaa900de2",
+          "_props": {
+            "filters": [
+              {
+                "AnimationIndex": -1,
+                "Filter": [
+                  "59e5d83b86f7745aed03d262",
+                  "5a01c29586f77474660c694c",
+                  "5ac66bea5acfc43b321d4aec",
+                  "59d625f086f774661516605d",
+                  "5b1fd4e35acfc40018633c39",
+                  "5a0060fc86f7745793204432",
+                  "59e5f5a486f7746c530b3ce2",
+                  "5b1fb3e15acfc4001637f068",
+                  "59d6272486f77466146386ff",
+                  "5e21a3c67e40bd02257a008a",
+                  "5cbdc23eae9215001136a407",
+                  "5c6175362e221600133e3b94",
+                  "59fafc5086f7740dbe19f6c3",
+                  "59fafc9386f774067d462453",
+                  "6272874a6c47bd74f92e2087",
+                  "64b9cf0ac12b9c38db26923a"
+                ]
+              }
+            ]
+          },
+          "_proto": "55d30c394bdc2dae468b4577",
+          "_required": false
+        },
+        {
+          "_id": "52062bb331e150a4b202a197",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_reciever",
+          "_parent": "18e10187041456dbaa900de2",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "606587a88900dc2d9a55b659"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "7c5696f3090f50baa79ddc4d",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_stock_001",
+          "_parent": "18e10187041456dbaa900de2",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "606587e18900dc2d9a55b65f",
+                  "5a33ca0fc4a282000d72292f",
+                  "5c0faeddd174af02a962601f",
+                  "5649be884bdc2d79388b4577",
+                  "5d120a10d7ad1a4e1026ba85",
+                  "5b0800175acfc400153aebd4",
+                  "5947e98b86f774778f1448bc",
+                  "5947eab886f77475961d96c5",
+                  "602e3f1254072b51b239f713",
+                  "5c793fb92e221644f31bfb64",
+                  "5c793fc42e221600114ca25d",
+                  "591aef7986f774139d495f03",
+                  "591af10186f774139d495f0e",
+                  "627254cc9c563e6e442c398f",
+                  "638de3603a1a4031d8260b8c",
+                  "6761777a1f08ed5e8800b7ac",
+                  "5c793fb92e221644f31bfb64"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "7b86e520978256db849539e2",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_charge",
+          "_parent": "18e10187041456dbaa900de2",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "606587bd6d0bd7580617bacc"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        }
+      ],
+      "Chambers": [
+        {
+          "_id": "3dbaf347e9bf583caf2ce4f9",
+          "_mergeSlotWithChildren": false,
+          "_name": "patron_in_weapon",
+          "_parent": "18e10187041456dbaa900de2",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "59e0d99486f7744a32234762",
+                  "59e4d3d286f774176a36250a",
+                  "5656d7c34bdc2d9d198b4587",
+                  "59e4cf5286f7741778269d8a",
+                  "59e4d24686f7741776641ac7",
+                  "601aa3d2b2bcb34913271e6d",
+                  "64b7af5a8532cf95ee0a0dbd",
+                  "64b7af434b75259c590fa893",
+                  "64b7af734b75259c590fa895"
+                ]
+              }
+            ]
+          },
+          "_proto": "55d4af244bdc2d962f8b4571",
+          "_required": false
+        }
+      ],
+      "Ergonomics": 52,
+      "RecoilForceUp": 136.8,
+      "RecoilForceBack": 339.3,
+      "Name": "Modified CMMG Mk47 Mutant 7.62x39 assault rifle",
+      "ShortName": "Mk47",
+      "Description": "CMMG Mk47 Mutant, an American-made carbine chambered in 7.62x39mm, manufactured by CMMG Inc. Works with all types of AK magazines, including steel, polymer and drums. The carbine has shown exceptional reliability, which, together with the classic ergonomics of the AR system, gives an excellent example of a firearm. This variant features a fully automatic firing mode, for Law Enforcement and Millitary use only. ISB Custom Version.",
+      "BackgroundColor": "yellow",
+      "CanSellOnRagfair": false,
+      "InsuranceDisabled": true
+    },
+    "addWeaponPreset": true,
+    "locales": {
+      "en": {
+        "name": "Modified CMMG Mk47 Mutant 7.62x39 assault rifle",
+        "shortName": "Mk47",
+        "description": "CMMG Mk47 Mutant, an American-made carbine chambered in 7.62x39mm, manufactured by CMMG Inc. Works with all types of AK magazines, including steel, polymer and drums. The carbine has shown exceptional reliability, which, together with the classic ergonomics of the AR system, gives an excellent example of a firearm. This variant features a fully automatic firing mode, for Law Enforcement and Millitary use only. ISB Custom Version."
+      },
+      "po": {
+        "name": "Modified CMMG Mk47 Mutant 7.62x39 assault rifle",
+        "shortName": "Mk47",
+        "description": "CMMG Mk47 Mutant, carabina feita nos estados unidos no calibre 7.62x39mm, fabricada pela CMMG. Funciona com qualquer carregador da série AK, incluindo os de metal, polímero e de tambor. A carabina oferece uma confiabilidade excepcional, que junto com a ergonomia classica da série AR, oferece uma excelente arma. Esta variante é automática, apenas para as forças de segurança. ISB Custom Version."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "handbookPriceRoubles": 25197,
+    "fleaPriceRoubles": 144697,
+    "addtoStaticLootContainers": false,
+    "weaponPresets": [
+      {
+        "_id": "0b91240038ad5378b5f8ab76",
+        "_type": "Preset",
+        "_changeWeaponName": false,
+        "_name": "Modified Mk47",
+        "_parent": "037aa86ad4285861bc9fff4a",
+        "_items": [
+          {
+            "_id": "037aa86ad4285861bc9fff4a",
+            "_tpl": "18e10187041456dbaa900de2",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Repairable": {
+                "Durability": 100,
+                "MaxDurability": 100
+              },
+              "FireMode": {
+                "FireMode": "fullauto"
+              }
+            }
+          },
+          {
+            "_id": "8f8daa2d45555200ab79580c",
+            "_tpl": "59db3a1d86f77429e05b4e92",
+            "parentId": "037aa86ad4285861bc9fff4a",
+            "slotId": "mod_pistol_grip",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "39c5aa2fd8b6529e9cf0481a",
+            "_tpl": "59d6272486f77466146386ff",
+            "parentId": "037aa86ad4285861bc9fff4a",
+            "slotId": "mod_magazine",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "9ac0acec78e058b49ec67803",
+            "_tpl": "606587a88900dc2d9a55b659",
+            "parentId": "037aa86ad4285861bc9fff4a",
+            "slotId": "mod_reciever",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "2798ad19836d5c4da5e49078",
+            "_tpl": "5947e98b86f774778f1448bc",
+            "parentId": "037aa86ad4285861bc9fff4a",
+            "slotId": "mod_stock_001",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "ee0950a6775c528ea82d0403",
+            "_tpl": "606587bd6d0bd7580617bacc",
+            "parentId": "037aa86ad4285861bc9fff4a",
+            "slotId": "mod_charge",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "ddeb982ba045587381ea4ecb",
+            "_tpl": "5c07dd120db834001c39092d",
+            "parentId": "9ac0acec78e058b49ec67803",
+            "slotId": "mod_scope",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Sight": {
+                "ScopesCurrentCalibPointIndexes": [
+                  0
+                ],
+                "ScopesSelectedModes": [
+                  0
+                ],
+                "SelectedScope": 0,
+                "ScopeZoomValue": 0
+              }
+            }
+          },
+          {
+            "_id": "aa9b1d33d6be518e93e7a818",
+            "_tpl": "6065878ac9cf8012264142fd",
+            "parentId": "9ac0acec78e058b49ec67803",
+            "slotId": "mod_barrel",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "ff968f3144f85de1acfeb013",
+            "_tpl": "6065881d1246154cad35d637",
+            "parentId": "9ac0acec78e058b49ec67803",
+            "slotId": "mod_handguard",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "3e0dbfc496c65476879262ae",
+            "_tpl": "5bc09a18d4351e003562b68e",
+            "parentId": "9ac0acec78e058b49ec67803",
+            "slotId": "mod_sight_rear",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Sight": {
+                "ScopesCurrentCalibPointIndexes": [
+                  0
+                ],
+                "ScopesSelectedModes": [
+                  0
+                ],
+                "SelectedScope": 0,
+                "ScopeZoomValue": 0
+              }
+            }
+          },
+          {
+            "_id": "7663e12096735296aedffde4",
+            "_tpl": "6130c43c67085e45ef1405a1",
+            "parentId": "aa9b1d33d6be518e93e7a818",
+            "slotId": "mod_muzzle",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "569cb3370f8e5d98968ceabb",
+            "_tpl": "6065dc8a132d4d12c81fd8e3",
+            "parentId": "aa9b1d33d6be518e93e7a818",
+            "slotId": "mod_gas_block",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "c1b9fb3facf7520e800cf8bb",
+            "_tpl": "689c8b454b91399db3085f2a",
+            "parentId": "ff968f3144f85de1acfeb013",
+            "slotId": "mod_mount_000",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "09be44b3268056f18b98fa58",
+            "_tpl": "68bedc0365e7dcf94f0cb0fc",
+            "parentId": "ff968f3144f85de1acfeb013",
+            "slotId": "mod_tactical_000",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Light": {
+                "IsActive": true,
+                "SelectedMode": 0
+              }
+            }
+          },
+          {
+            "_id": "518722e0aa16520587acd33c",
+            "_tpl": "5b7be4895acfc400170e2dd5",
+            "parentId": "ff968f3144f85de1acfeb013",
+            "slotId": "mod_foregrip",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "96d43b363ab459b8beaa25c6",
+            "_tpl": "5bc09a30d4351e00367fb7c8",
+            "parentId": "ff968f3144f85de1acfeb013",
+            "slotId": "mod_sight_front",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Sight": {
+                "ScopesCurrentCalibPointIndexes": [
+                  0
+                ],
+                "ScopesSelectedModes": [
+                  0
+                ],
+                "SelectedScope": 0,
+                "ScopeZoomValue": 0
+              }
+            }
+          },
+          {
+            "_id": "1e52720e7b1f556d9e903d08",
+            "_tpl": "5dfa3d2b0dee1b22f862eade",
+            "parentId": "7663e12096735296aedffde4",
+            "slotId": "mod_muzzle",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "a2ab6fcd02c459e4abf25d45",
+            "_tpl": "689c887cd18a3665b8045743",
+            "parentId": "c1b9fb3facf7520e800cf8bb",
+            "slotId": "mod_tactical",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Light": {
+                "IsActive": true,
+                "SelectedMode": 0
+              }
+            }
+          },
+          {
+            "_id": "aad1a2c0da555e809321d4d4",
+            "_tpl": "5b057b4f5acfc4771e1bd3e9",
+            "parentId": "518722e0aa16520587acd33c",
+            "slotId": "mod_foregrip",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ],
+        "_encyclopedia": "18e10187041456dbaa900de2"
+      }
+    ]
+  }
+}

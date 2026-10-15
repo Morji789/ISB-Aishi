@@ -1,16 +1,13 @@
 {
   "6a31d5c14a24835f775bd1e2": {
-
     "itemTplToClone": "657025ebc5d7d4cb4d078588",
     "parentId": "543be5cb4bdc2deb348b4568",
     "handbookParentId": "5b47574386f77428ca22b33c",
-
-
-    "overrideProperties": { 
+    "overrideProperties": {
       "ExaminedByDefault": false,
-        "IsUnsaleable": true,
-        "IsUnbuyable": true,
-        "StackSlots": [
+      "IsUnsaleable": true,
+      "IsUnbuyable": true,
+      "StackSlots": [
         {
           "_id": "6a31cf1ce658d6e511a93121",
           "_max_count": 120,
@@ -28,23 +25,13 @@
           "_proto": "6a31d65891c6be64b454d616"
         }
       ],
-
-        
-
       "Prefab": {
-
         "path": "assets/content/items/ammo/boxes/item_ammo_box_545x39_120_bp.bundle",
         "rcid": ""
       },
-
-
-      "Width": 2,
-      "Height": 1,
       "Weight": 0.125,
-
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "5.45x39mm 7N24M ammo pack (120 pcs)",
@@ -56,36 +43,20 @@
         "shortName": "BS-M",
         "description": "Um pacote de munição 5.45x39mm 7N24M, 120 cartuchos."
       }
-    
     },
-
     "fleaPriceRoubles": 66990,
-
     "handbookPriceRoubles": 111690,
-
     "addCaliberToAllCloneLocations": true,
-
     "addtoStaticAmmo": false,
-
     "staticAmmoProbability": 100,
-
     "addtoBots": true,
-
     "CanSellOnRagfair": false,
-
     "CanRequireOnRagfair": false,
-    
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "addtoStaticLootContainers": true,
-
     "staticLootContainers": [
       {
         "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 350
-      },
-      {
-        "containerName": "LOOTCONTAINER_SCAV_BODY",
         "probability": 350
       },
       {

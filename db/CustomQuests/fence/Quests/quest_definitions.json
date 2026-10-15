@@ -10,7 +10,7 @@
     "completePlayerMessage": "690e2689cbd10f2ac5e766eb completePlayerMessage",
     "conditions": {
       "AvailableForFinish": [
-          {
+        {
           "conditionType": "FindItem",
           "dogtagLevel": 0,
           "dynamicLocale": false,
@@ -77,22 +77,52 @@
         }
       ],
       "Fail": [
-      {
-        "availableAfter": 0,
-        "conditionType": "Quest",
-        "dispersion": 0,
-        "dynamicLocale": false,
-        "globalQuestCounterId": "",
-        "id": "690e27fb746df538c34966ca",
-        "index": 1,
-        "parentId": "",
-        "status": [
-          4,
-          9
-        ],
-        "target": "690d8ad1750d535b2e9bc135",
-        "visibilityConditions": []
-      }
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "690e27fb746df538c34966ca",
+          "index": 1,
+          "parentId": "",
+          "status": [
+            4,
+            9
+          ],
+          "target": "690d8ad1750d535b2e9bc135",
+          "visibilityConditions": []
+        },
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "76997649c514c99916a9ea2a",
+          "index": 1,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "c3dd45d0da2679c60db3c3cb",
+          "visibilityConditions": []
+        },
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "b0d34f0b5865472ed4fc99c9",
+          "index": 2,
+          "parentId": "",
+          "status": [
+            5
+          ],
+          "target": "690bcb580b8f9c461c3eae53",
+          "visibilityConditions": []
+        }
       ]
     },
     "declinePlayerMessage": "690e2689cbd10f2ac5e766eb declinePlayerMessage",
@@ -110,15 +140,15 @@
     "restartable": false,
     "rewards": {
       "Fail": [
-      {
-        "availableInGameEditions": [],
-        "id": "690e28830cef1180e2ca557f",
-        "index": 0,
-        "target": "579dc571d53a0658a154fbec",
-        "type": "TraderStanding",
-        "unknown": false,
-        "value": -0.03
-      }
+        {
+          "availableInGameEditions": [],
+          "id": "690e28830cef1180e2ca557f",
+          "index": 0,
+          "target": "579dc571d53a0658a154fbec",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": -0.03
+        }
       ],
       "Started": [],
       "Success": [
@@ -147,6 +177,101 @@
     "status": 0,
     "successMessageText": "690e2689cbd10f2ac5e766eb successMessageText",
     "traderId": "579dc571d53a0658a154fbec",
-                "type": "PickUp"
-            }
+    "type": "PickUp"
+  },
+  "c3dd45d0da2679c60db3c3cb": {
+    "QuestName": "Fast Track",
+    "_id": "c3dd45d0da2679c60db3c3cb",
+    "acceptPlayerMessage": "c3dd45d0da2679c60db3c3cb acceptPlayerMessage",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "c3dd45d0da2679c60db3c3cb changeQuestMessageText",
+    "completePlayerMessage": "c3dd45d0da2679c60db3c3cb completePlayerMessage",
+    "conditions": {
+      "AvailableForStart": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "f6a0ac63fc7f6acd34ae7052",
+          "index": 0,
+          "parentId": "",
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForFinish": [
+        {
+          "conditionType": "HandoverItem",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "f3ea573061656070b2292e20",
+          "index": 0,
+          "parentId": "",
+          "target": [
+            "5449016a4bdc2d6f028b456f"
+          ],
+          "value": 500000,
+          "onlyFoundInRaid": false,
+          "dogtagLevel": 0,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "2818945357d6f7c5aea859e2",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "690bb986148ac0cfb2669d32",
+          "visibilityConditions": []
+        }
+      ]
+    },
+    "declinePlayerMessage": "c3dd45d0da2679c60db3c3cb declinePlayerMessage",
+    "description": "c3dd45d0da2679c60db3c3cb description",
+    "failMessageText": "c3dd45d0da2679c60db3c3cb failMessageText",
+    "gameModes": [],
+    "image": "/files/quest/icon/AishiBanner.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "c3dd45d0da2679c60db3c3cb name",
+    "note": "c3dd45d0da2679c60db3c3cb note",
+    "progressSource": "eft",
+    "rankingModes": [],
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "c7ff206202a1e7905fb892db",
+          "index": 0,
+          "type": "TraderUnlock",
+          "target": "690766de550bc322a810ea1e",
+          "unknown": false
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "c3dd45d0da2679c60db3c3cb startedMessageText",
+    "status": 0,
+    "successMessageText": "c3dd45d0da2679c60db3c3cb successMessageText",
+    "traderId": "579dc571d53a0658a154fbec",
+    "type": "PickUp"
+  }
 }

@@ -1,0 +1,131 @@
+{
+  "084d7637489c5577b01977ad": {
+    "itemTplToClone": "66b5f65ca7f72d197e70bcd6",
+    "parentId": "5a341c4086f77401f2541505",
+    "handbookParentId": "5b47574386f77428ca22b330",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "equipment/item_equipment_helmet_bastion_mccuu_aishi.bundle",
+        "rcid": ""
+      },
+      "Name": "Ballistic Armor Co. Bastion helmet (MCCUU)",
+      "ShortName": "BAC Bastion (MCCUU)",
+      "Description": "The Bastion NIJ level IIIA tactical helmet designed for law enforcement and civilian use. Equipped with M-LOK interface rails for mounting additional equipment. Manufactured by Ballistic Armor Co. MCCUU version.",
+      "CanSellOnRagfair": false,
+      "Slots": [
+        {
+          "_id": "de1012891ef95c43b25811b6",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_nvg",
+          "_parent": "084d7637489c5577b01977ad",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5c0558060db834001b735271",
+                  "5a16b8a9fcdbcb00165aa6ca"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "8413687b7c2455f3874916ca",
+          "_mergeSlotWithChildren": true,
+          "_name": "Helmet_top",
+          "_parent": "084d7637489c5577b01977ad",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "66b61cfae98be930d701c029"
+                ],
+                "Plate": "66b61cfae98be930d701c029",
+                "armorColliders": [
+                  "ParietalHead"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        },
+        {
+          "_id": "f208469d6fc857ff843cb236",
+          "_mergeSlotWithChildren": true,
+          "_name": "Helmet_back",
+          "_parent": "084d7637489c5577b01977ad",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "66b61ce0c5d72b027748867e"
+                ],
+                "Plate": "66b61ce0c5d72b027748867e",
+                "armorColliders": [
+                  "BackHead"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Ballistic Armor Co. Bastion helmet (MCCUU)",
+        "shortName": "BAC Bastion",
+        "description": "The Bastion NIJ level IIIA tactical helmet designed for law enforcement and civilian use. Equipped with M-LOK interface rails for mounting additional equipment. Manufactured by Ballistic Armor Co. MCCUU version."
+      }
+    },
+    "handbookPriceRoubles": 13205,
+    "fleaPriceRoubles": 13205,
+    "addtoInventorySlots": [
+      "HeadWear"
+    ],
+    "addtoBots": false,
+    "addtoTraders": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_id": "3cbcf2f8850c59c0aaf5c394",
+        "_type": "Preset",
+        "_changeWeaponName": false,
+        "_name": "Ballistic Armor Co. Bastion helmet (MCCUU)",
+        "_parent": "a5b7136d7fbf536cb66e11e4",
+        "_encyclopedia": "084d7637489c5577b01977ad",
+        "_items": [
+          {
+            "_id": "a5b7136d7fbf536cb66e11e4",
+            "_tpl": "084d7637489c5577b01977ad"
+          },
+          {
+            "_id": "93ba2e5cca365c1abdd043d5",
+            "_tpl": "66b61cfae98be930d701c029",
+            "parentId": "a5b7136d7fbf536cb66e11e4",
+            "slotId": "Helmet_top"
+          },
+          {
+            "_id": "c313694fd46b56cb877e5f94",
+            "_tpl": "66b61ce0c5d72b027748867e",
+            "parentId": "a5b7136d7fbf536cb66e11e4",
+            "slotId": "Helmet_back"
+          }
+        ]
+      }
+    ]
+  }
+}

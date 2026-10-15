@@ -1,0 +1,128 @@
+{
+  "face946bdefd547db260da66": {
+    "itemTplToClone": "544a38634bdc2d58388b4568",
+    "parentId": "550aa4bf4bdc2dd6348b456b",
+    "handbookParentId": "5b5f724c86f774093f2ecf15",
+    "handbookPriceRoubles": 8400,
+    "fleaPriceRoubles": 8400,
+    "overrideProperties": {
+      "Grids": [],
+      "Slots": [
+        {
+          "_name": "mod_muzzle",
+          "_id": "e48b548b09a85ebc901fb845",
+          "_parent": "face946bdefd547db260da66",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5f6339d53ada5942720e2dc3",
+                  "7fa4e580f16f57e6ad4b5a88"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_isPlateSlot": false,
+          "_isPatronSlot": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ],
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": false,
+      "ConflictingItems": [],
+      "Description": "muzzle_ar15_strike_industries_checkmate_comp_556x45",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "ExamineExperience": 5,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 10,
+      "MergesWithChildren": true,
+      "Name": "muzzle_ar15_strike_industries_checkmate_comp_556x45",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "aishiweapons/p90_scourge/muzzle_ar15_strike_industries_checkmate_comp_556x45_aishi.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Not_exist",
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "muzzle_ar15_strike_industries_checkmate_comp_556x45",
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Weight": 0.086,
+      "Width": 1,
+      "CanPutIntoDuringTheRaid": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Accuracy": 0,
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "Durability": 100,
+      "EffectiveDistance": 0,
+      "Ergonomics": 1,
+      "HasShoulderContact": false,
+      "IsAnimated": false,
+      "Loudness": 0,
+      "MetascoreGroup": "Firepower",
+      "RaidModdable": true,
+      "Recoil": -8.5,
+      "SightingRange": 0,
+      "ToolModdable": false,
+      "UniqueAnimationModID": 0,
+      "Velocity": 0,
+      "CoolFactor": 1,
+      "DurabilityBurnModificator": 0.98,
+      "HeatFactor": 1,
+      "muzzleModType": "conpensator"
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 Strike Industries Checkmate 5.56x45 compensator",
+        "shortName": "Checkmate",
+        "description": "A compensator manufactured by Strike Industries. Can also be equipped with an SI Oppressor or Ferfrans Modular Concussion Reduction muzzle device."
+      }
+    },
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": false
+  }
+}

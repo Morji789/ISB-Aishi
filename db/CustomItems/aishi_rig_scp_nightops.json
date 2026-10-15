@@ -1,0 +1,108 @@
+{
+  "a005254ae00be0612c5dcf96": {
+    "itemTplToClone": "689479a4a733b1602007e2eb",
+    "parentId": "5448e5284bdc2dcb718b4567",
+    "handbookParentId": "5b5f6f8786f77447ed563642",
+    "overrideProperties": {
+      "QuestItem": false,
+      "ExaminedByDefault": false,
+      "IsUnsaleable": false,
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false,
+      "addtoItemBlacklist": true,
+      "BackgroundColor": "default",
+      "Prefab": {
+        "path": "equipment/item_equipment_armor_lv119_scp_nightops.bundle",
+        "rcid": ""
+      },
+      "Width": 4,
+      "Height": 3,
+      "Weight": 3.95,
+      "Name": "Spiritus Systems LV-119 Plate Carrier (SCP Foundation)",
+      "ShortName": "LV-119",
+      "Description": "A highly customizable modular plate carrier by Spiritus Systems, built for maximum comfort in combat. Wolf Grey version. This setup allows full freedom of movement while providing an ergonomic layout for ammunition and essential gear. (SCP Foundation)"
+    },
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_id": "6a30deea13ee384744d85627",
+        "_type": "Preset",
+        "_changeWeaponName": false,
+        "_name": "Spiritus Systems LV-119 (SCP Foundation - Night Ops)",
+        "_parent": "8917844b27ab77d0bafc81d5",
+        "_items": [
+          {
+            "_id": "8917844b27ab77d0bafc81d5",
+            "_tpl": "a005254ae00be0612c5dcf96"
+          },
+          {
+            "_id": "84022493a78893c3001510d7",
+            "_tpl": "68a5f30248f18317750ab20b",
+            "parentId": "8917844b27ab77d0bafc81d5",
+            "slotId": "Soft_armor_front"
+          },
+          {
+            "_id": "a1d2f33392ac3e0230039a5d",
+            "_tpl": "68a5f3a348f18317750ab4be",
+            "parentId": "8917844b27ab77d0bafc81d5",
+            "slotId": "Soft_armor_back"
+          },
+          {
+            "_id": "74807a82bff27200136c563c",
+            "_tpl": "68a5f3ec7c9f6975d00238be",
+            "parentId": "8917844b27ab77d0bafc81d5",
+            "slotId": "Soft_armor_left"
+          },
+          {
+            "_id": "6fc876610545023cb025cd0f",
+            "_tpl": "68a5f42948f18317750ab543",
+            "parentId": "8917844b27ab77d0bafc81d5",
+            "slotId": "soft_armor_right"
+          },
+          {
+            "_id": "eaa6eef5b720db2f9a3dc2c8",
+            "_tpl": "656faf0ca0dce000a2020f77",
+            "parentId": "8917844b27ab77d0bafc81d5",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "1b40e0dc00792283859677c1",
+            "_tpl": "656faf0ca0dce000a2020f77",
+            "parentId": "8917844b27ab77d0bafc81d5",
+            "slotId": "Back_plate"
+          }
+        ],
+        "_encyclopedia": "a005254ae00be0612c5dcf96"
+      }
+    ],
+    "locales": {
+      "en": {
+        "name": "Spiritus Systems LV-119 Plate Carrier (SCP Foundation)",
+        "shortName": "LV-119",
+        "description": "A highly customizable modular plate carrier by Spiritus Systems, built for maximum comfort in combat. Wolf Grey version. This setup allows full freedom of movement while providing an ergonomic layout for ammunition and essential gear. (SCP Foundation)"
+      },
+      "po": {
+        "name": "Plate carrier Spiritus Systems LV-119 (Fundação SCP)",
+        "shortName": "LV-119",
+        "description": "Um plate carrier modular altamente personalizável da Spiritus Systems, desenvolvido para oferecer o máximo de conforto em combate. Versão Wolf Grey. Esta configuração permite total liberdade de movimento e oferece uma disposição ergonômica para munição e equipamentos essenciais. Versão Fundação SCP. (Fundação SCP)"
+      }
+    },
+    "fleaPriceRoubles": 72348,
+    "handbookPriceRoubles": 10342,
+    "addtoInventorySlots": [
+      "TacticalRig"
+    ],
+    "addtoStaticLootContainers": false,
+    "CanSellOnRagfair": false,
+    "CanRequireOnRagfair": false,
+    "IsAlwaysAvailableForInsurance": false,
+    "InsuranceDisabled": false,
+    "addtoItemBlacklist": true,
+    "StaticLootContainers": [
+      {
+        "ContainerName": "",
+        "Probability": 0
+      }
+    ]
+  }
+}

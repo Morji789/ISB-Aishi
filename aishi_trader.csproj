@@ -1,39 +1,11 @@
 <Project Sdk="Microsoft.NET.Sdk">
+<PropertyGroup><SPTRoot Condition="'$(SPTRoot)' == ''">C:\SPTIV</SPTRoot><TargetFramework>net9.0</TargetFramework><AssemblyName>aishi_trader</AssemblyName><RootNamespace>Aishi</RootNamespace><ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable><OutputType>Library</OutputType><Version>1.0.5</Version><LangVersion>latest</LangVersion></PropertyGroup>
+<ItemGroup><FrameworkReference Include="Microsoft.AspNetCore.App" />
+<Reference Include="SPTarkov.Common"><HintPath>$(SPTRoot)\SPT\SPTarkov.Common.dll</HintPath></Reference>
+<Reference Include="SPTarkov.DI"><HintPath>$(SPTRoot)\SPT\SPTarkov.DI.dll</HintPath></Reference>
+<Reference Include="SPTarkov.Server.Core"><HintPath>$(SPTRoot)\SPT\SPTarkov.Server.Core.dll</HintPath></Reference>
+<Reference Include="SPTarkov.Reflection"><HintPath>$(SPTRoot)\SPT\SPTarkov.Reflection.dll</HintPath></Reference>
+<Reference Include="SemanticVersioning"><HintPath>$(SPTRoot)\SPT\SemanticVersioning.dll</HintPath></Reference>
+<Reference Include="0Harmony"><HintPath>$(SPTRoot)\SPT\0Harmony.dll</HintPath></Reference>
 
-  <PropertyGroup>
-    <TargetFramework>net9.0-windows</TargetFramework>
-    <RootNamespace>Aishi</RootNamespace>
-    <AssemblyName>Aishi</AssemblyName>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-    <OutputType>Library</OutputType>
-    <Version>1.0.4</Version>
-    <Platforms>AnyCPU</Platforms>
-    <LangVersion>latest</LangVersion>
-  </PropertyGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Lib.Harmony" Version="2.4.2" />
-    <PackageReference Include="WTT-ClientCommonLib" Version="2.0.23" />
-    <PackageReference Include="WTT-ServerCommonLib" Version="2.0.23" />
-  </ItemGroup>
-
-  <ItemGroup>
-
-    <Reference Include="SPTarkov.Common">
-      <HintPath>..\..\..\SPT\SPTarkov.Common.dll</HintPath>
-    </Reference>
-
-    <Reference Include="SPTarkov.DI">
-      <HintPath>..\..\..\SPT\SPTarkov.DI.dll</HintPath>
-    </Reference>
-
-    <Reference Include="SPTarkov.Server.Core">
-      <HintPath>..\..\..\SPT\SPTarkov.Server.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="WTT-ClientCommonLib">
-      <HintPath>..\..\plugins\WTT-ClientCommonLib\WTT-ClientCommonLib.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-
-  </Project>
+<Reference Include="WTT-ServerCommonLib"><HintPath>$(SPTRoot)\SPT/user/mods/WTT-ServerCommonLib/WTT-ServerCommonLib.dll</HintPath></Reference></ItemGroup><ItemGroup><Compile Remove="AishiKeysV2\**;bin\**;obj\**" /></ItemGroup><ItemGroup><EmbeddedResource Include="ISBBotTypes.json" LogicalName="Aishi.ISBBotTypes.json" /></ItemGroup></Project>

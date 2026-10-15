@@ -1,0 +1,38 @@
+{
+  "337052e7f499ba2f52dfa089": {
+    "itemTplToClone": "5c052e6986f7746b207bc3c9",
+    "parentId": "57864c8c245977548867e7f1",
+    "handbookParentId": "5b47574386f77428ca22b2f1",
+    "handbookPriceRoubles": 540000,
+    "fleaPriceRoubles": 1800000,
+    "overrideProperties": {
+      "CanSellOnRagfair": false,
+      "Prefab": {
+        "path": "equipment/anomalous_items/aishiS2/defibrillator/item_kte_defibrillator.bundle",
+        "rcid": ""
+      },
+      "MaxResource": 1,
+      "Resource": 1,
+      "CanRequireOnRagfair": false
+    },
+    "locales": {
+      "en": {
+        "name": "KTE 611",
+        "shortName": "KTE 611",
+        "description": "<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 611</b></color>\n<size=90%>TerraGroup research • Unknown properties.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 611</b></color>\n<size=90%><color=#B2B9B5>PROPERTIES IDENTIFIED • REPORT BELOW</color></size></align>\n\nWhile carried in the inventory.\n\n<color=#E88888><b>Negative effects:</b></color>\n• Consumed when activated.\n\n<color=#92CAA1><b>Positive effects:</b></color>\n• Prevents one fatal hit, restores destroyed limbs and fractures, then grants 15 seconds of invulnerability and 15 health regeneration per second."
+      },
+      "po": {
+        "name": "KTE 611",
+        "shortName": "KTE 611",
+        "description": "<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 611</b></color>\n<size=90%>Pesquisa TerraGroup • Propriedades desconhecidas.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 611</b></color>\n<size=90%><color=#B2B9B5>PROPRIEDADES IDENTIFICADAS • RELATÓRIO ABAIXO</color></size></align>\n\nEnquanto carregado no inventário.\n\n<color=#E88888><b>Efeitos negativos:</b></color>\n• Consumido ao ativar.\n\n<color=#92CAA1><b>Efeitos positivos:</b></color>\n• Impede um dano fatal, recupera membros zerados e fraturas e concede 15 segundos de invulnerabilidade e regeneração de 15 de vida por segundo."
+      }
+    },
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "addtoItemBlacklist": true,
+    "addtoSecureFilters": false,
+    "addtoSpecialSlots": false
+  }
+}

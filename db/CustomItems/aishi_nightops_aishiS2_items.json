@@ -1,0 +1,866 @@
+{
+  "cc39fe003b945fc39fa095eb": {
+    "itemTplToClone": "5d5d87f786f77427997cfaef",
+    "parentId": "5448e5284bdc2dcb718b4567",
+    "handbookParentId": "5b5f6f8786f77447ed563642",
+    "overrideProperties": {
+      "BackgroundColor": "yellow",
+      "CanSellOnRagfair": false,
+      "Description": "A Siege-R Optimized plate carrier equipped with the M.A.S.S. Shoulder System. Provides reliable all-around protection while offering ample workspace for equipment placement. Black version. (SCP Foundation)",
+      "ExaminedByDefault": false,
+      "Height": 4,
+      "Name": "First Spear Siege-R Optimized M.A.S.S. Plate Carrier (SCP Foundation)",
+      "Prefab": {
+        "path": "equipment/item_equipment_armor_bd4_firstspear_scp_nightops.bundle",
+        "rcid": ""
+      },
+      "RagfairLevelToTrade": 0,
+      "RarityPvE": "Not_exist",
+      "RepairCost": 88,
+      "ShortName": "Siege-R",
+      "Weight": 10.8,
+      "Grids": [
+        {
+          "_id": "80e6cd3ffce052238180c694",
+          "_name": "GridView (1)",
+          "_parent": "cc39fe003b945fc39fa095eb",
+          "_props": {
+            "cellsH": 2,
+            "cellsV": 3,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "19526663c56c50de9948f507",
+          "_name": "GridView (2)",
+          "_parent": "cc39fe003b945fc39fa095eb",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 3,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "e305fd6d049052f79a0b2d1d",
+          "_name": "GridView (3)",
+          "_parent": "cc39fe003b945fc39fa095eb",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 3,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "c0cc1efe93c1596bb4a49a17",
+          "_name": "GridView (4)",
+          "_parent": "cc39fe003b945fc39fa095eb",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 3,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "7c7c896399235aefb3701829",
+          "_name": "GridView (5)",
+          "_parent": "cc39fe003b945fc39fa095eb",
+          "_props": {
+            "cellsH": 2,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "0e68efbe345050ffbb075c0b",
+          "_name": "GridView (6)",
+          "_parent": "cc39fe003b945fc39fa095eb",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "59cf4c288f56539d853fda10",
+          "_name": "GridView (7)",
+          "_parent": "cc39fe003b945fc39fa095eb",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "1f82621e9fa156efa8256ad9",
+          "_name": "GridView (8)",
+          "_parent": "cc39fe003b945fc39fa095eb",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "ebad81abdb9353f895d13914",
+          "_name": "GridView (9)",
+          "_parent": "cc39fe003b945fc39fa095eb",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "d6e81401eaee55f48bac5828",
+          "_name": "GridView (10)",
+          "_parent": "cc39fe003b945fc39fa095eb",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "fc1798f45bfb5eb4b5582eef",
+          "_name": "GridView (11)",
+          "_parent": "cc39fe003b945fc39fa095eb",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 1,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        }
+      ],
+      "Slots": [
+        {
+          "_name": "Front_plate",
+          "_id": "536b650920145e04bf1ad6f4",
+          "_parent": "cc39fe003b945fc39fa095eb",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "656f9d5900d62bcd2e02407c",
+                  "656fa8d700d62bcd2e024084",
+                  "656fa99800d62bcd2e024088",
+                  "656fae5f7c2d57afe200c0d7",
+                  "656faf0ca0dce000a2020f77",
+                  "656fa0fb498d1b7e3e071d9c",
+                  "656fa76500d62bcd2e024080",
+                  "656fafe3498d1b7e3e071da4",
+                  "656fa25e94b480b8a500c0e0",
+                  "656fad8c498d1b7e3e071da0",
+                  "656fa61e94b480b8a500c0e8",
+                  "656fb21fa0dce000a2020f7c",
+                  "656fb0bd7c2d57afe200c0dc",
+                  "656fac30c6baea13cd07e10c",
+                  "656f9fa0498d1b7e3e071d98",
+                  "656fa53d94b480b8a500c0e4",
+                  "655746010177119f4a097ff7",
+                  "64afdcb83efdfea28601d041"
+                ],
+                "Plate": "655746010177119f4a097ff7",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_chest"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        },
+        {
+          "_name": "Back_plate",
+          "_id": "2ac5bc4b41b254f9a0899152",
+          "_parent": "cc39fe003b945fc39fa095eb",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "656f9d5900d62bcd2e02407c",
+                  "656fa8d700d62bcd2e024084",
+                  "656fa99800d62bcd2e024088",
+                  "656fae5f7c2d57afe200c0d7",
+                  "656faf0ca0dce000a2020f77",
+                  "656fa0fb498d1b7e3e071d9c",
+                  "656fafe3498d1b7e3e071da4",
+                  "656fa76500d62bcd2e024080",
+                  "656fad8c498d1b7e3e071da0",
+                  "656fa25e94b480b8a500c0e0",
+                  "656fa61e94b480b8a500c0e8",
+                  "656fac30c6baea13cd07e10c",
+                  "656fb0bd7c2d57afe200c0dc",
+                  "656fb21fa0dce000a2020f7c",
+                  "656f9fa0498d1b7e3e071d98",
+                  "656fa53d94b480b8a500c0e4",
+                  "655746010177119f4a097ff7",
+                  "64afdcb83efdfea28601d041"
+                ],
+                "Plate": "655746010177119f4a097ff7",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_back"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        },
+        {
+          "_name": "Left_side_plate",
+          "_id": "961afd0a864e50ac96ed34fe",
+          "_parent": "cc39fe003b945fc39fa095eb",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6557458f83942d705f0c4962",
+                  "64afdb577bb3bfe8fe03fd1d"
+                ],
+                "Plate": "6557458f83942d705f0c4962",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SSAPI_side_left_high"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        },
+        {
+          "_name": "Right_side_plate",
+          "_id": "de33da08fa6c5855bb220529",
+          "_parent": "cc39fe003b945fc39fa095eb",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6557458f83942d705f0c4962",
+                  "64afdb577bb3bfe8fe03fd1d"
+                ],
+                "Plate": "6557458f83942d705f0c4962",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SSAPI_side_right_high"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        },
+        {
+          "_name": "Soft_armor_front",
+          "_id": "7b61f607b8115523ae24138f",
+          "_parent": "cc39fe003b945fc39fa095eb",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "68a5eaab48f18317750a0b92"
+                ],
+                "Plate": "68a5eaab48f18317750a0b92",
+                "armorColliders": [
+                  "RibcageUp",
+                  "RibcageLow"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        },
+        {
+          "_name": "Soft_armor_back",
+          "_id": "41b1cc9d2a8556339f852d5f",
+          "_parent": "cc39fe003b945fc39fa095eb",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "68a5ea26200341f12e08de79"
+                ],
+                "Plate": "68a5ea26200341f12e08de79",
+                "armorColliders": [
+                  "SpineTop",
+                  "SpineDown"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        },
+        {
+          "_name": "Soft_armor_left",
+          "_id": "1798eb5b46ec5ff388cac329",
+          "_parent": "cc39fe003b945fc39fa095eb",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "68a5eb4c200341f12e08e7d1"
+                ],
+                "Plate": "68a5eb4c200341f12e08e7d1",
+                "armorColliders": [
+                  "LeftSideChestDown"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        },
+        {
+          "_name": "soft_armor_right",
+          "_id": "797524ee62425533bc32633c",
+          "_parent": "cc39fe003b945fc39fa095eb",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "68a5eba93acdf023050b1c15"
+                ],
+                "Plate": "68a5eba93acdf023050b1c15",
+                "armorColliders": [
+                  "RightSideChestDown"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        },
+        {
+          "_name": "Collar",
+          "_id": "ffb4c613a59d5d53bac3053c",
+          "_parent": "cc39fe003b945fc39fa095eb",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "68a5ea756e534ad0110eca16"
+                ],
+                "Plate": "68a5ea756e534ad0110eca16",
+                "armorColliders": [
+                  "NeckFront",
+                  "NeckBack"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        },
+        {
+          "_name": "Shoulder_l",
+          "_id": "a3a9471d7b415dc5b441dc01",
+          "_parent": "cc39fe003b945fc39fa095eb",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "68a5eb16c4e56258880dfe96"
+                ],
+                "Plate": "68a5eb16c4e56258880dfe96",
+                "armorColliders": [
+                  "LeftUpperArm"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        },
+        {
+          "_name": "Shoulder_r",
+          "_id": "9590c845c4165662b594a0ab",
+          "_parent": "cc39fe003b945fc39fa095eb",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "68a5eb856e534ad0110efa05"
+                ],
+                "Plate": "68a5eb856e534ad0110efa05",
+                "armorColliders": [
+                  "RightUpperArm"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        },
+        {
+          "_name": "Groin",
+          "_id": "9de65fb40f895c58a6a0d635",
+          "_parent": "cc39fe003b945fc39fa095eb",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "68a5eadd2c125bac5a097cbf"
+                ],
+                "Plate": "68a5eadd2c125bac5a097cbf",
+                "armorColliders": [
+                  "Pelvis"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        }
+      ],
+      "BluntThroughput": 0.34,
+      "RigLayoutName": "BD4_siege",
+      "mousePenalty": -5,
+      "speedPenaltyPercent": -8,
+      "weaponErgonomicPenalty": -6
+    },
+    "locales": {
+      "en": {
+        "name": "First Spear Siege-R Optimized M.A.S.S. Plate Carrier (SCP Foundation)",
+        "shortName": "Siege-R",
+        "description": "A Siege-R Optimized plate carrier equipped with the M.A.S.S. Shoulder System. Provides reliable all-around protection while offering ample workspace for equipment placement. Black version. (SCP Foundation)"
+      },
+      "po": {
+        "name": "Plate carrier First Spear Siege-R Optimized M.A.S.S. (Fundação SCP)",
+        "shortName": "Siege-R",
+        "description": "Um plate carrier Siege-R Optimized equipado com o sistema de proteção de ombros M.A.S.S. Oferece proteção confiável em todas as direções e amplo espaço para posicionar equipamentos. Versão preta. Versão Fundação SCP. (Fundação SCP)"
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "fleaPriceRoubles": 23572,
+    "handbookPriceRoubles": 250000,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "staticLootContainers": [],
+    "addtoHallOfFame": false,
+    "hallOfFameSlots": [],
+    "addtoSpecialSlots": false,
+    "addtoHideoutPosterSlots": false,
+    "addPosterToMaps": false,
+    "posterSpawnProbability": 0,
+    "addtoStatuetteSlots": false,
+    "addCaliberToAllCloneLocations": false,
+    "addtoStaticAmmo": false,
+    "staticAmmoProbability": 0,
+    "addtoSecureFilters": false,
+    "masteries": false,
+    "masterySections": [],
+    "addtoItemBlacklist": true,
+    "addtoTraders": false,
+    "traders": {},
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_id": "38c15815e96b55988f00dc1c",
+        "_type": "Preset",
+        "_changeWeaponName": false,
+        "_name": "First Spear Siege-R M.A.S.S. - SCP Nightops Standard",
+        "_parent": "27361c6715dd5a9e9dffece3",
+        "_items": [
+          {
+            "_id": "27361c6715dd5a9e9dffece3",
+            "_tpl": "cc39fe003b945fc39fa095eb"
+          },
+          {
+            "_id": "c81735c8e6875024a6c6f977",
+            "_tpl": "68a5eaab48f18317750a0b92",
+            "parentId": "27361c6715dd5a9e9dffece3",
+            "slotId": "Soft_armor_front"
+          },
+          {
+            "_id": "4e64d62324575695aaf61195",
+            "_tpl": "68a5ea26200341f12e08de79",
+            "parentId": "27361c6715dd5a9e9dffece3",
+            "slotId": "Soft_armor_back"
+          },
+          {
+            "_id": "08b83be88772519b8c520f95",
+            "_tpl": "68a5eb4c200341f12e08e7d1",
+            "parentId": "27361c6715dd5a9e9dffece3",
+            "slotId": "Soft_armor_left"
+          },
+          {
+            "_id": "79903ec4265f5e2dbe159030",
+            "_tpl": "68a5eba93acdf023050b1c15",
+            "parentId": "27361c6715dd5a9e9dffece3",
+            "slotId": "soft_armor_right"
+          },
+          {
+            "_id": "ebc8697a7e965c868e4f547e",
+            "_tpl": "68a5ea756e534ad0110eca16",
+            "parentId": "27361c6715dd5a9e9dffece3",
+            "slotId": "Collar"
+          },
+          {
+            "_id": "2be21e22cf825a059d4496ae",
+            "_tpl": "68a5eb16c4e56258880dfe96",
+            "parentId": "27361c6715dd5a9e9dffece3",
+            "slotId": "Shoulder_l"
+          },
+          {
+            "_id": "34b3fd12fc535ceea2f89164",
+            "_tpl": "68a5eb856e534ad0110efa05",
+            "parentId": "27361c6715dd5a9e9dffece3",
+            "slotId": "Shoulder_r"
+          },
+          {
+            "_id": "03ad1bcec53c56e1885966b5",
+            "_tpl": "68a5eadd2c125bac5a097cbf",
+            "parentId": "27361c6715dd5a9e9dffece3",
+            "slotId": "Groin"
+          },
+          {
+            "_id": "3855938c24f55e58a7f4f92f",
+            "_tpl": "655746010177119f4a097ff7",
+            "parentId": "27361c6715dd5a9e9dffece3",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "0c9d758e94e15b22aba68398",
+            "_tpl": "655746010177119f4a097ff7",
+            "parentId": "27361c6715dd5a9e9dffece3",
+            "slotId": "Back_plate"
+          },
+          {
+            "_id": "5cad9d737a79516f97089605",
+            "_tpl": "6557458f83942d705f0c4962",
+            "parentId": "27361c6715dd5a9e9dffece3",
+            "slotId": "Left_side_plate"
+          },
+          {
+            "_id": "8c4e0a71134d5a61b9fda44b",
+            "_tpl": "6557458f83942d705f0c4962",
+            "parentId": "27361c6715dd5a9e9dffece3",
+            "slotId": "Right_side_plate"
+          }
+        ],
+        "_encyclopedia": "cc39fe003b945fc39fa095eb"
+      }
+    ]
+  },
+  "a5f079ec80165ad68b7ac167": {
+    "itemTplToClone": "5645bcc04bdc2d363b8b4572",
+    "parentId": "5645bcb74bdc2ded0b8b4578",
+    "handbookParentId": "5b5f6f3c86f774094242ef87",
+    "overrideProperties": {
+      "BackgroundColor": "yellow",
+      "CanSellOnRagfair": false,
+      "ConflictingItems": [
+        "5bd071d786f7747e707b93a3",
+        "5bd0716d86f774171822ef4b",
+        "5bd06f5d86f77427101ad47c",
+        "6176a48d732a664031271438",
+        "635267ab3c89e2112001f826",
+        "6176a40f0b8c0312ac75a3d3",
+        "5645bcc04bdc2d363b8b4572",
+        "5aa2ba71e5b5b000137b758f",
+        "5a16b9fffcdbcb0176308b34",
+        "66b5f69ea7f72d197e70bcdb",
+        "66b5f6a28ca68c6461709ed8",
+        "6033fa48ffd42c541047f728",
+        "66b5f68de98be930d701c00e",
+        "5b432b965acfc47a8774094e",
+        "66b5f6985891c84aab75ca76",
+        "66b5f693acff495a294927e3",
+        "628e4e576d783146b124c64d",
+        "5c165d832e2216398b5a7e36",
+        "5e4d34ca86f774264f758330",
+        "5f60cd6cf2bcbb675b00dac6"
+      ],
+      "Description": "Custom Aishi pink finish. Matches the Aishi ComTac VII audio profile.",
+      "Height": 1,
+      "Name": "CENS ProFlex DX5 tactical earplug (Aishi)",
+      "Prefab": {
+        "path": "equipment/item_equipment_headset_cens_proflex_dx5_aishi_pink.bundle",
+        "rcid": ""
+      },
+      "RagfairLevelToTrade": 0,
+      "RarityPvE": "Not_exist",
+      "ShortName": "ProFlex Pink",
+      "Weight": 0.28,
+      "Width": 1,
+      "Grids": [],
+      "Slots": [],
+      "AmbientCompressorSendLevel": -23.598039,
+      "AmbientVolume": -61.098039,
+      "ClientPlayerCompressorSendLevel": -11.098039,
+      "CompressorAttack": 23.1,
+      "CompressorGain": 9.278867,
+      "CompressorRelease": 119.0,
+      "CompressorThreshold": -24,
+      "Distortion": 0.042,
+      "DryVolume": -68.098039,
+      "EQBand1Frequency": 309,
+      "EQBand1Gain": 1.19,
+      "EQBand1Q": 1.3,
+      "EQBand2Frequency": 2700,
+      "EQBand2Gain": 1.2,
+      "EQBand2Q": 0.5,
+      "EQBand3Frequency": 5000,
+      "EQBand3Gain": 1.2,
+      "EQBand3Q": 0.6,
+      "EffectsReturnsCompressorSendLevel": -90,
+      "EffectsReturnsGroupVolume": -11.098039,
+      "EnvCommonCompressorSendLevel": -11.898039,
+      "EnvNatureCompressorSendLevel": -11.098039,
+      "EnvTechnicalCompressorSendLevel": -20.598039,
+      "GunsCompressorAttack": 15,
+      "GunsCompressorGain": 2,
+      "GunsCompressorRelease": 265,
+      "GunsCompressorSendLevel": -13.098039,
+      "GunsCompressorThreshold": -23,
+      "HighpassFreq": 250,
+      "HighpassResonance": 2.5,
+      "PrecipitationVolume": -4,
+      "RolloffMultiplier": 1.9955
+    },
+    "locales": {
+      "en": {
+        "name": "CENS ProFlex DX5 tactical earplug (Aishi)",
+        "shortName": "ProFlex Pink",
+        "description": "A modified, exclusive version of CENS ProFlex DX5 with enhanced sensors, an integrated music system, and a few stickers."
+      },
+      "po": {
+        "name": "CENS ProFlex DX5 tactical earplug (Aishi)",
+        "shortName": "ProFlex Pink",
+        "description": "Um modelo modificado e exclusivo do CENS ProFlex DX5 com captadores aprimorados e um sistema integrado de música além de alguns adesivos."
+      }
+    },
+    "addtoInventorySlots": [
+      "Earpiece"
+    ],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "fleaPriceRoubles": 146200,
+    "handbookPriceRoubles": 89900,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "staticLootContainers": [],
+    "addtoHallOfFame": false,
+    "hallOfFameSlots": [],
+    "addtoSpecialSlots": false,
+    "addtoHideoutPosterSlots": false,
+    "addPosterToMaps": false,
+    "posterSpawnProbability": 0,
+    "addtoStatuetteSlots": false,
+    "addCaliberToAllCloneLocations": false,
+    "addtoStaticAmmo": false,
+    "staticAmmoProbability": 0,
+    "addtoSecureFilters": false,
+    "masteries": false,
+    "masterySections": [],
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "addtoTraders": false,
+    "traders": {},
+    "addtoItemBlacklist": true
+  }
+}

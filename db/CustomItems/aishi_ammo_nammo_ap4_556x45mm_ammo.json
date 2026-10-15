@@ -1,46 +1,33 @@
 {
   "692dc61870449aedfa85120f": {
-
     "itemTplToClone": "601949593ae8f707c4608daa",
     "parentId": "5485a8684bdc2da71d8b4567",
     "handbookParentId": "5b47574386f77428ca22b33b",
-
-
-    "overrideProperties": { 
-      "ExaminedByDefault": false,
-        "IsUnsaleable": true,
-        "IsUnbuyable": true,
-        "BallisticCoeficient": 0.115,
-        "MisfireChance": 0.02,
-        "MalfMisfireChance": 0.255,
-        "MalfFeedChance":0.250,
-        "DurabilityBurnModificator": 3.0,
-        "HeatFactor": 2.5,
-        "InitialSpeed": 1395,
-        "Damage": 35,
-        "ArmorDamage": 68,
-        "PenetrationPower":67,
-        "PenetrationChanceObstacle": 0.5,
-        "PenetrationDamageMod": 0.125,
-        "ammoAccr": 10,
-        "ammoRec": -3, 
-
-        
-
+    "overrideProperties": {
+      "IsUnsaleable": true,
+      "IsUnbuyable": true,
+      "BallisticCoeficient": 0.115,
+      "MisfireChance": 0.02,
+      "MalfMisfireChance": 0.255,
+      "MalfFeedChance": 0.25,
+      "DurabilityBurnModificator": 3.0,
+      "HeatFactor": 2.5,
+      "InitialSpeed": 1395,
+      "Damage": 35,
+      "ArmorDamage": 68,
+      "PenetrationPower": 67,
+      "PenetrationChanceObstacle": 0.5,
+      "PenetrationDamageMod": 0.125,
+      "ammoAccr": 10,
+      "ammoRec": -3,
+      "StackMaxSize": 80,
       "Prefab": {
-
         "path": "ammo/patron_556x45_ap4.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
-      "Height": 1,
       "Weight": 0.025,
-
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "5.56x45mm Nammo AP4",
@@ -52,29 +39,17 @@
         "shortName": "AP45",
         "description": "O Nammo AP4, cuja sigla significa AP45, é um cartucho perfurante avançado fabricado pela Nammo, servindo como substituto do M995. O Nammo AP4 possui um núcleo de carboneto de tungstênio, o que lhe confere um poder de penetração significativo tanto em distâncias de tiro de médio quanto de longo alcance, além de eficiência suficiente para perfurar qualquer tipo de blindagem."
       }
-    
     },
-
     "fleaPriceRoubles": 3995,
-
     "handbookPriceRoubles": 2190,
-
     "addCaliberToAllCloneLocations": true,
-
     "addtoStaticAmmo": true,
-
     "staticAmmoProbability": 100,
-
     "addtoBots": true,
-
     "CanSellOnRagfair": false,
-
     "CanRequireOnRagfair": false,
-    
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",

@@ -1,0 +1,925 @@
+{
+  "c3cf0be1b21a5beab925f904": {
+    "itemTplToClone": "6a3bffbebc377285900b85cf",
+    "parentId": "5447b5f14bdc2d61278b4567",
+    "handbookParentId": "5b5f78fc86f77409407a7f90",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "aishiweapons/type20_ral8000/weapon_howa_type20_556x45_container_additional_parts_ral8000.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_name": "mod_pistol_grip",
+          "_id": "d5a9e7ec055f53d9a4ca9f0b",
+          "_parent": "c3cf0be1b21a5beab925f904",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "55d4b9964bdc2d1d4e8b456e",
+                  "571659bb2459771fb2755a12",
+                  "602e71bd53a60014f9705bfa",
+                  "6113c3586c780c1e710c90bc",
+                  "6113cc78d3a39d50044c065a",
+                  "6113cce3d92c473c770200c7",
+                  "5cc9bcaed7f00c011c04e179",
+                  "5bb20e18d4351e00320205d5",
+                  "5bb20e0ed4351e3bac1212dc",
+                  "6193dcd0f8ee7e52e4210a28",
+                  "5d025cc1d7ad1a53845279ef",
+                  "5c6d7b3d2e221600114c9b7d",
+                  "57c55efc2459772d2c6271e7",
+                  "57af48872459771f0b2ebf11",
+                  "57c55f092459772d291a8463",
+                  "57c55f112459772d28133310",
+                  "57c55f172459772d27602381",
+                  "5a339805c4a2826c6e06d73d",
+                  "55802f5d4bdc2dac148b458f",
+                  "5d15cf3bd7ad1a67e71518b2",
+                  "59db3a1d86f77429e05b4e92",
+                  "5fbcbd6c187fea44d52eda14",
+                  "59db3acc86f7742a2c4ab912",
+                  "59db3b0886f77429d72fb895",
+                  "615d8faecabb9b7ad90f4d5d",
+                  "5b07db875acfc40dc528a5f6",
+                  "63f5feead259b42f0b4d6d0f",
+                  "652911675ae2ae97b80fdf3c",
+                  "68a63d4f22b1e0bd360afe6a",
+                  "68c16fcffc90c174e50de1ae",
+                  "68c16fe183e2d814b0093f7c",
+                  "6984b7d56be2752c150e6895",
+                  "6985eb089edef67ade080b72",
+                  "698dac21772d6f3dc00e4284",
+                  "6a3cea0d277d1c54b5008e27",
+                  "6a1577a0bf497aade1002754",
+                  "6a1577b09bbb889992032c14"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": false,
+          "_isPlateSlot": false,
+          "_isPatronSlot": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_magazine",
+          "_id": "8f3a8f9818d250c680494445",
+          "_parent": "c3cf0be1b21a5beab925f904",
+          "_props": {
+            "filters": [
+              {
+                "AnimationIndex": -1,
+                "Filter": [
+                  "55d4887d4bdc2d962f8b4570",
+                  "61840bedd92c473c77021635",
+                  "61840d85568c120fdd2962a5",
+                  "5c05413a0db834001c390617",
+                  "5c6d450c2e221600114c997d",
+                  "5c6d42cb2e2216000e69d7d1",
+                  "59c1383d86f774290a37e0ca",
+                  "5aaa5e60e5b5b000140293d6",
+                  "5448c1d04bdc2dff2f8b4569",
+                  "5aaa5dfee5b5b000140293d3",
+                  "5d1340b3d7ad1a0b52682ed7",
+                  "544a378f4bdc2d30388b4567",
+                  "5d1340bdd7ad1a0e8d245aab",
+                  "55802d5f4bdc2dac148b458e",
+                  "5d1340cad7ad1a0b0b249869",
+                  "6241c2c2117ad530666a5108",
+                  "5c6592372e221600133e47d7",
+                  "544a37c44bdc2d25388b4567",
+                  "5c6d46132e221601da357d56",
+                  "6761765f1f08ed5e8800b7a6",
+                  "68a63b73c92ee33ffa01bf57",
+                  "6a1579afcbb8d0c82606c541",
+                  "6a1579bfb507e45a68038d7f",
+                  "6a16f3a28873771c3704a132"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_isPlateSlot": false,
+          "_isPatronSlot": false,
+          "_proto": "55d30c394bdc2dae468b4577"
+        },
+        {
+          "_name": "mod_reciever",
+          "_id": "740a937a25375daab1ac7faa",
+          "_parent": "c3cf0be1b21a5beab925f904",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6a3ce9c28ce058e3a2059b15",
+                  "cda3cff5eba9597b912973ae"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": false,
+          "_isPlateSlot": false,
+          "_isPatronSlot": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_stock",
+          "_id": "a826c111d5175797b00962e6",
+          "_parent": "c3cf0be1b21a5beab925f904",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6a3ce9e9123fa14cd00631e8",
+                  "ea15b23da62d5f8bb162f4c7"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": false,
+          "_isPlateSlot": false,
+          "_isPatronSlot": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_charge",
+          "_id": "b4dd918bf0815651b91f6382",
+          "_parent": "c3cf0be1b21a5beab925f904",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6a3cf2f17047a606b90f532e"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": false,
+          "_isPlateSlot": false,
+          "_isPatronSlot": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ],
+      "Chambers": [
+        {
+          "_name": "patron_in_weapon",
+          "_id": "a27ae43433e359fabc5063fa",
+          "_parent": "c3cf0be1b21a5beab925f904",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "59e6920f86f77411d82aa167",
+                  "59e6927d86f77411da468256",
+                  "54527a984bdc2d4e668b4567",
+                  "54527ac44bdc2d36668b4567",
+                  "59e68f6f86f7746c9f75e846",
+                  "59e6906286f7746c9f75e847",
+                  "59e690b686f7746c9f75e848",
+                  "59e6918f86f7746c9f75e849",
+                  "60194943740c5d77f6705eea",
+                  "601949593ae8f707c4608daa",
+                  "5c0d5ae286f7741e46554302"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_isPlateSlot": false,
+          "_isPatronSlot": true,
+          "_proto": "55d4af244bdc2d962f8b4571"
+        }
+      ],
+      "Name": "Howa Type 20 5.56x45 assault rifle (RAL 8000)",
+      "ShortName": "Type 20",
+      "Description": "A Japanese 5.56x45 assault rifle developed by Howa Machinery as the successor to the Type 89. Designed to meet modern battlefield requirements, it features improved ergonomics, ambidextrous controls, and enhanced reliability in harsh environments. Currently in service with the Japan Ground Self-Defense Force. RAL 8000 Version.",
+      "BackgroundColor": "black",
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
+    },
+    "handbookPriceRoubles": 9000,
+    "fleaPriceRoubles": 138718,
+    "locales": {
+      "en": {
+        "name": "Howa Type 20 5.56x45 assault rifle (RAL 8000)",
+        "shortName": "Type 20",
+        "description": "A Japanese 5.56x45 assault rifle developed by Howa Machinery as the successor to the Type 89. Designed to meet modern battlefield requirements, it features improved ergonomics, ambidextrous controls, and enhanced reliability in harsh environments. Currently in service with the Japan Ground Self-Defense Force. RAL 8000 Version."
+      },
+      "po": {
+        "name": "Howa Type 20 5.56x45 assault rifle (RAL 8000)",
+        "shortName": "Type 20",
+        "description": "A Japanese 5.56x45 assault rifle developed by Howa Machinery as the successor to the Type 89. Designed to meet modern battlefield requirements, it features improved ergonomics, ambidextrous controls, and enhanced reliability in harsh environments. Currently in service with the Japan Ground Self-Defense Force. RAL 8000 Version."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_id": "beaccef34a225e4eb4168ecb",
+        "_type": "Preset",
+        "_changeWeaponName": false,
+        "_name": "Type 20 RAL 8000",
+        "_parent": "d800e7b998695cb5b66b5d9c",
+        "_items": [
+          {
+            "_id": "d800e7b998695cb5b66b5d9c",
+            "_tpl": "c3cf0be1b21a5beab925f904",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Repairable": {
+                "Durability": 100,
+                "MaxDurability": 100
+              },
+              "FireMode": {
+                "FireMode": "fullauto"
+              }
+            }
+          },
+          {
+            "_id": "305fe068a69c5f4b958f3273",
+            "_tpl": "5a339805c4a2826c6e06d73d",
+            "parentId": "d800e7b998695cb5b66b5d9c",
+            "slotId": "mod_pistol_grip",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "b3a6d552242c5cdd8fd4c2fa",
+            "_tpl": "af5c9c35e78e5867a21807be",
+            "parentId": "d800e7b998695cb5b66b5d9c",
+            "slotId": "mod_magazine",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "ff81cc38956950258efc87c5",
+            "_tpl": "cda3cff5eba9597b912973ae",
+            "parentId": "d800e7b998695cb5b66b5d9c",
+            "slotId": "mod_reciever",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "189418e849b9592c9196332e",
+            "_tpl": "ea15b23da62d5f8bb162f4c7",
+            "parentId": "d800e7b998695cb5b66b5d9c",
+            "slotId": "mod_stock",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "a8d98a19ceb55cd0bd621df6",
+            "_tpl": "6a3cf2f17047a606b90f532e",
+            "parentId": "d800e7b998695cb5b66b5d9c",
+            "slotId": "mod_charge",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "30c76d09085151daad7e816d",
+            "_tpl": "558022b54bdc2dac148b458d",
+            "parentId": "ff81cc38956950258efc87c5",
+            "slotId": "mod_scope",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Sight": {
+                "ScopesCurrentCalibPointIndexes": [
+                  0
+                ],
+                "ScopesSelectedModes": [
+                  0
+                ],
+                "SelectedScope": 0,
+                "ScopeZoomValue": 0
+              }
+            }
+          },
+          {
+            "_id": "7a3c810ccda3567caed23575",
+            "_tpl": "6a3cea4494a96a17e00c4b69",
+            "parentId": "ff81cc38956950258efc87c5",
+            "slotId": "mod_barrel",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "693df773a58254d28a399ee5",
+            "_tpl": "6a3ceacd8ce058e3a2059b28",
+            "parentId": "ff81cc38956950258efc87c5",
+            "slotId": "mod_sight_rear",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Sight": {
+                "ScopesCurrentCalibPointIndexes": [
+                  0
+                ],
+                "ScopesSelectedModes": [
+                  0
+                ],
+                "SelectedScope": 0,
+                "ScopeZoomValue": 0
+              }
+            }
+          },
+          {
+            "_id": "d11453c142595e18b38ef601",
+            "_tpl": "7b097475206c53958e25735a",
+            "parentId": "ff81cc38956950258efc87c5",
+            "slotId": "mod_handguard",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "73cc0d4423955172ae88ecf4",
+            "_tpl": "6a3cea96194a2625b40c863d",
+            "parentId": "7a3c810ccda3567caed23575",
+            "slotId": "mod_muzzle",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "87abfb70ebeb5416a9e5039c",
+            "_tpl": "6a3cea5e94a96a17e00c4b6f",
+            "parentId": "7a3c810ccda3567caed23575",
+            "slotId": "mod_gas_block",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "66004b11262759f3b48e8fc7",
+            "_tpl": "d365c02ec4a35cb7be897982",
+            "parentId": "d11453c142595e18b38ef601",
+            "slotId": "mod_mount_000",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "8ed927a68cd45c26b8609940",
+            "_tpl": "544909bb4bdc2d6f028b4577",
+            "parentId": "d11453c142595e18b38ef601",
+            "slotId": "mod_tactical",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Light": {
+                "IsActive": true,
+                "SelectedMode": 0
+              }
+            }
+          },
+          {
+            "_id": "ad6797031afb5dbb9f826e44",
+            "_tpl": "651a8e529829226ceb67c319",
+            "parentId": "d11453c142595e18b38ef601",
+            "slotId": "mod_foregrip",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "abd5e5ea33255b679c49ae69",
+            "_tpl": "6a3ceadb6280cb85bc03f99a",
+            "parentId": "d11453c142595e18b38ef601",
+            "slotId": "mod_sight_front",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Sight": {
+                "ScopesCurrentCalibPointIndexes": [
+                  0
+                ],
+                "ScopesSelectedModes": [
+                  0
+                ],
+                "SelectedScope": 0,
+                "ScopeZoomValue": 0
+              }
+            }
+          },
+          {
+            "_id": "69ee1908342c5a4a8548ec51",
+            "_tpl": "b8a6f585d9ae50918f5b09ac",
+            "parentId": "73cc0d4423955172ae88ecf4",
+            "slotId": "mod_muzzle",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          },
+          {
+            "_id": "d3b2421ec19858e6822efff7",
+            "_tpl": "0878b569e56e5844b58c7b1f",
+            "parentId": "66004b11262759f3b48e8fc7",
+            "slotId": "mod_tactical",
+            "upd": {
+              "StackObjectsCount": 1,
+              "Light": {
+                "IsActive": true,
+                "SelectedMode": 0
+              }
+            }
+          }
+        ],
+        "_encyclopedia": "c3cf0be1b21a5beab925f904"
+      }
+    ]
+  },
+  "cda3cff5eba9597b912973ae": {
+    "itemTplToClone": "6a3ce9c28ce058e3a2059b15",
+    "parentId": "55818a304bdc2db5418b457d",
+    "handbookParentId": "5b5f764186f77447ec5d7714",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "aishiweapons/type20_ral8000/reciever_type20_howa_type20_std_additional_parts_ral8000.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_name": "mod_scope",
+          "_id": "7a808a88035a5a888bc22bc4",
+          "_parent": "cda3cff5eba9597b912973ae",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "57ac965c24597706be5f975c",
+                  "57aca93d2459771f2c7e26db",
+                  "544a3f024bdc2d1d388b4568",
+                  "544a3a774bdc2d3a388b4567",
+                  "5d2dc3e548f035404a1a4798",
+                  "57adff4f24597737f373b6e6",
+                  "5c0517910db83400232ffee5",
+                  "591c4efa86f7741030027726",
+                  "570fd79bd2720bc7458b4583",
+                  "570fd6c2d2720bc6458b457f",
+                  "558022b54bdc2dac148b458d",
+                  "5c07dd120db834001c39092d",
+                  "5c0a2cec0db834001b7ce47d",
+                  "58491f3324597764bc48fa02",
+                  "584924ec24597768f12ae244",
+                  "5b30b0dc5acfc400153b7124",
+                  "6165ac8c290d254f5e6b2f6c",
+                  "60a23797a37c940de7062d02",
+                  "5d2da1e948f035477b1ce2ba",
+                  "5c0505e00db834001b735073",
+                  "609a63b6e2ff132951242d09",
+                  "584984812459776a704a82a6",
+                  "59f9d81586f7744c7506ee62",
+                  "570fd721d2720bc5458b4596",
+                  "57ae0171245977343c27bfcf",
+                  "5dfe6104585a0c3e995c7b82",
+                  "544a3d0a4bdc2d1b388b4567",
+                  "5d1b5e94d7ad1a2b865a96b0",
+                  "609bab8b455afd752b2e6138",
+                  "58d39d3d86f77445bb794ae7",
+                  "616554fe50224f204c1da2aa",
+                  "5c7d55f52e221644f31bff6a",
+                  "616584766ef05c2ce828ef57",
+                  "5b3b6dc75acfc47a8773fb1e",
+                  "615d8d878004cc50514c3233",
+                  "5b2389515acfc4771e1be0c0",
+                  "577d128124597739d65d0e56",
+                  "618b9643526131765025ab35",
+                  "618bab21526131765025ab3f",
+                  "5c86592b2e2216000e69e77c",
+                  "5a37ca54c4a282000d72296a",
+                  "5d0a29fed7ad1a002769ad08",
+                  "5c064c400db834001d23f468",
+                  "58d2664f86f7747fec5834f6",
+                  "57c69dd424597774c03b7bbc",
+                  "5b3b99265acfc4704b4a1afb",
+                  "5aa66a9be5b5b0214e506e89",
+                  "5aa66c72e5b5b00016327c93",
+                  "5c1cdd302e221602b3137250",
+                  "61714b2467085e45ef140b2c",
+                  "6171407e50224f204c1da3c5",
+                  "61713cc4d8e3106d9806c109",
+                  "5b31163c5acfc400153b71cb",
+                  "5a33b652c4a28232996e407c",
+                  "5a33b2c9c4a282000c5a9511",
+                  "59db7eed86f77461f8380365",
+                  "5a1ead28fcdbcb001912fa9f",
+                  "5dff77c759400025ea5150cf",
+                  "626bb8532c923541184624b4",
+                  "62811f461d5df4475f46a332",
+                  "63fc449f5bd61c6cf3784a88",
+                  "6477772ea8a38bb2050ed4db",
+                  "6478641c19d732620e045e17",
+                  "64785e7c19d732620e045e15",
+                  "65392f611406374f82152ba5",
+                  "653931da5db71d30ab1d6296",
+                  "655f13e0a246670fb0373245",
+                  "6567e751a715f85433025998",
+                  "67641a851b2899700609901a",
+                  "6761759e7ee06333f108bf86",
+                  "68a5ab09c44fa287ba0a97b5",
+                  "688a0bf28cdd409ce60911ce",
+                  "68caacc7933990601c07f479",
+                  "6985bed26be2752c150e6898",
+                  "6985beb1812f88c79b0eed39",
+                  "6a3ceaf01ac10a22850e295a",
+                  "6a18508bae175e037a0be420",
+                  "69f9ec80aae020b0db02f670",
+                  "6a16dc17b7b9778bee072c65",
+                  "6a16dc0b82cfbdc3ab09f58a"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_isPlateSlot": false,
+          "_isPatronSlot": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_barrel",
+          "_id": "3c12a10865e452d98dfc0ab5",
+          "_parent": "cda3cff5eba9597b912973ae",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6a3cea4494a96a17e00c4b69"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": false,
+          "_isPlateSlot": false,
+          "_isPatronSlot": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_sight_rear",
+          "_id": "108e0bf91a2e51f89418287c",
+          "_parent": "cda3cff5eba9597b912973ae",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "61817865d3a39d50044c13a4",
+                  "5bb20e49d4351e3bac1212de",
+                  "5ba26b17d4351e00367f9bdd",
+                  "5dfa3d7ac41b2312ea33362a",
+                  "5c1780312e221602b66cc189",
+                  "5fb6564947ce63734e3fa1da",
+                  "5bc09a18d4351e003562b68e",
+                  "5c18b9192e2216398b5a8104",
+                  "5fc0fa957283c4046c58147e",
+                  "5894a81786f77427140b8347",
+                  "55d5f46a4bdc2d1b198b4567",
+                  "5ae30bad5acfc400185c2dc4",
+                  "68a63d3c8e977b40b2032286",
+                  "6a3ceacd8ce058e3a2059b28",
+                  "6a1578658d059ca69c0a7853",
+                  "68caad70269e10396503ad00"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_isPlateSlot": false,
+          "_isPatronSlot": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_handguard",
+          "_id": "4d85753318905508a4d30972",
+          "_parent": "cda3cff5eba9597b912973ae",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6a3cea2b9768ff15af06d5e9",
+                  "7b097475206c53958e25735a"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": false,
+          "_isPlateSlot": false,
+          "_isPatronSlot": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ],
+      "Name": "Type 20 5.56x45 upper receiver (RAL 8000)",
+      "ShortName": "Type 20",
+      "Description": "An upper receiver for the Type 20 assault rifle, manufactured by Howa Machinery. Features a top rail for installation of additional equipment. RAL 8000 Version.",
+      "BackgroundColor": "blue",
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": true
+    },
+    "handbookPriceRoubles": 6900,
+    "fleaPriceRoubles": 15180,
+    "locales": {
+      "en": {
+        "name": "Type 20 5.56x45 upper receiver (RAL 8000)",
+        "shortName": "Type 20",
+        "description": "An upper receiver for the Type 20 assault rifle, manufactured by Howa Machinery. Features a top rail for installation of additional equipment. RAL 8000 Version."
+      },
+      "po": {
+        "name": "Type 20 5.56x45 upper receiver (RAL 8000)",
+        "shortName": "Type 20",
+        "description": "An upper receiver for the Type 20 assault rifle, manufactured by Howa Machinery. Features a top rail for installation of additional equipment. RAL 8000 Version."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_reciever"
+    ]
+  },
+  "ea15b23da62d5f8bb162f4c7": {
+    "itemTplToClone": "6a3ce9e9123fa14cd00631e8",
+    "parentId": "55818a594bdc2db9688b456a",
+    "handbookParentId": "5b5f757486f774093e6cb507",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "aishiweapons/type20_ral8000/stock_type20_howa_type20_std_additional_parts_ral8000.bundle",
+        "rcid": ""
+      },
+      "Name": "Type 20 buttstock (RAL 8000)",
+      "ShortName": "Type 20",
+      "Description": "A telescopic buttstock for the Type 20 assault rifle. Manufactured by Howa Machinery. RAL 8000 Version.",
+      "BackgroundColor": "blue",
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": true
+    },
+    "handbookPriceRoubles": 8230,
+    "fleaPriceRoubles": 18106,
+    "locales": {
+      "en": {
+        "name": "Type 20 buttstock (RAL 8000)",
+        "shortName": "Type 20",
+        "description": "A telescopic buttstock for the Type 20 assault rifle. Manufactured by Howa Machinery. RAL 8000 Version."
+      },
+      "po": {
+        "name": "Type 20 buttstock (RAL 8000)",
+        "shortName": "Type 20",
+        "description": "A telescopic buttstock for the Type 20 assault rifle. Manufactured by Howa Machinery. RAL 8000 Version."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_stock"
+    ]
+  },
+  "7b097475206c53958e25735a": {
+    "itemTplToClone": "6a3cea2b9768ff15af06d5e9",
+    "parentId": "55818a104bdc2db9688b4569",
+    "handbookParentId": "5b5f75e486f77447ec5d7712",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "aishiweapons/type20_ral8000/handguard_type20_howa_type20_mlok_std_additional_parts_ral8000.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_name": "mod_mount_000",
+          "_id": "ead730140a4f5b4f9164b43b",
+          "_parent": "7b097475206c53958e25735a",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5b7be47f5acfc400170e2dd2",
+                  "6269220d70b6c02e665f2635",
+                  "6269545d0e57f218e4548ca2",
+                  "669a6a4a525be1d2d004b8eb",
+                  "689c8b454b91399db3085f2a"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_isPlateSlot": false,
+          "_isPatronSlot": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_mount_001",
+          "_id": "cdc3bc552e7b55ac8f992692",
+          "_parent": "7b097475206c53958e25735a",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5b7be47f5acfc400170e2dd2",
+                  "6269220d70b6c02e665f2635",
+                  "6269545d0e57f218e4548ca2",
+                  "669a6a4a525be1d2d004b8eb",
+                  "689c8b454b91399db3085f2a"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_isPlateSlot": false,
+          "_isPatronSlot": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_tactical",
+          "_id": "d6bc2e18c0ba501cadf42b35",
+          "_parent": "7b097475206c53958e25735a",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "57fd23e32459772d0805bcf1",
+                  "544909bb4bdc2d6f028b4577",
+                  "5d10b49bd7ad1a1a560708b0",
+                  "5c06595c0db834001a66af6c",
+                  "5a7b483fe899ef0016170d15",
+                  "61605d88ffa6e502ac5e7eeb",
+                  "5c5952732e2216398b5abda2",
+                  "644a3df63b0b6f03e101e065",
+                  "68bedc0365e7dcf94f0cb0fc",
+                  "6a186ccfbe0d66d438005e4e",
+                  "5649a2464bdc2d91118b45a8"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_isPlateSlot": false,
+          "_isPatronSlot": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_foregrip",
+          "_id": "d3211e1c56fe5dff8ab4bc1b",
+          "_parent": "7b097475206c53958e25735a",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "57cffb66245977632f391a99",
+                  "57cffcd624597763133760c5",
+                  "57cffcdd24597763f5110006",
+                  "57cffce524597763b31685d8",
+                  "5b7be4895acfc400170e2dd5",
+                  "651a8bf3a8520e48047bf708",
+                  "651a8e529829226ceb67c319",
+                  "665d5d9e338229cfd6078da1",
+                  "665edce564fb556f940ab32a"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_isPlateSlot": false,
+          "_isPatronSlot": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_sight_front",
+          "_id": "aa25dcf318275ac98b1ed0c7",
+          "_parent": "7b097475206c53958e25735a",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ba26b01d4351e0085325a51",
+                  "5dfa3d950dee1b22f862eae0",
+                  "5c17804b2e2216152006c02f",
+                  "5fb6567747ce63734e3fa1dc",
+                  "5bc09a30d4351e00367fb7c8",
+                  "5c18b90d2e2216152142466b",
+                  "5fc0fa362770a0045c59c677",
+                  "5894a73486f77426d259076c",
+                  "55d4af3a4bdc2d972f8b456f",
+                  "6a3ceadb6280cb85bc03f99a",
+                  "6a15785370efdef7be017253"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_isPlateSlot": false,
+          "_isPatronSlot": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ],
+      "Name": "Type 20 M-LOK handguard (RAL 8000)",
+      "ShortName": "T20 MLOK",
+      "Description": "A handguard for the Type 20 assault rifle equipped with an M-LOK interface for installation of additional devices and accessories. Manufactured by Howa Machinery. RAL 8000 Version.",
+      "BackgroundColor": "blue",
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": true
+    },
+    "handbookPriceRoubles": 12300,
+    "fleaPriceRoubles": 27060,
+    "locales": {
+      "en": {
+        "name": "Type 20 M-LOK handguard (RAL 8000)",
+        "shortName": "T20 MLOK",
+        "description": "A handguard for the Type 20 assault rifle equipped with an M-LOK interface for installation of additional devices and accessories. Manufactured by Howa Machinery. RAL 8000 Version."
+      },
+      "po": {
+        "name": "Type 20 M-LOK handguard (RAL 8000)",
+        "shortName": "T20 MLOK",
+        "description": "A handguard for the Type 20 assault rifle equipped with an M-LOK interface for installation of additional devices and accessories. Manufactured by Howa Machinery. RAL 8000 Version."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_handguard"
+    ]
+  },
+  "b8a6f585d9ae50918f5b09ac": {
+    "itemTplToClone": "6a3ceab8194a2625b40c8641",
+    "parentId": "550aa4cd4bdc2dd8348b456c",
+    "handbookParentId": "5b5f731a86f774093e6cb4f9",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "aishiweapons/type20_ral8000/silencer_base_bt_print_x_type20_556x45_ral8000.bundle",
+        "rcid": ""
+      },
+      "Name": "B&T Howa Print-X 5.56x45 sound suppressor (RAL 8000)",
+      "ShortName": "Howa Print-X",
+      "Description": "A 5.56x45/.223 sound suppressor designed to be installed on the compatible muzzle devices. Manufactured by Brugger & Thomet. RAL 8000 Version.",
+      "BackgroundColor": "blue",
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": true
+    },
+    "handbookPriceRoubles": 63700,
+    "fleaPriceRoubles": 140140,
+    "locales": {
+      "en": {
+        "name": "B&T Howa Print-X 5.56x45 sound suppressor (RAL 8000)",
+        "shortName": "Howa Print-X",
+        "description": "A 5.56x45/.223 sound suppressor designed to be installed on the compatible muzzle devices. Manufactured by Brugger & Thomet. RAL 8000 Version."
+      },
+      "po": {
+        "name": "B&T Howa Print-X 5.56x45 sound suppressor (RAL 8000)",
+        "shortName": "Howa Print-X",
+        "description": "A 5.56x45/.223 sound suppressor designed to be installed on the compatible muzzle devices. Manufactured by Brugger & Thomet. RAL 8000 Version."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_muzzle"
+    ]
+  }
+}

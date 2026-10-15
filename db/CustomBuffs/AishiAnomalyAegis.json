@@ -1,0 +1,13 @@
+{
+  "AishiAnomalyAegis": [
+    {
+      "BuffType": "DamageModifier",
+      "Chance": 1,
+      "Delay": 0,
+      "Duration": 300,
+      "Value": -0.4,
+      "AbsoluteValue": false,
+      "SkillName": ""
+    }
+  ]
+}

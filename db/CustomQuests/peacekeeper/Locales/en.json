@@ -1,6 +1,6 @@
 {
-    "69a9e0c6feecd672795d259b name": "Fishing for Information (Peacekeeper)",
-    "69a9e0c6feecd672795d259b description": "An explosion at Lighthouse? I hadn't heard about it, but it's certainly not very common to get explosives around here. That's definitely the work of those damn Scavs.",
-    "69a9e0c6feecd672795d259b successMessageText": "No problem. Take care, mercenary!",
-    "69a9ebdc5f90ba2f7dbf2916": "Talk to Peacekeeper about the events at Lighthouse"
+  "69a9e0c6feecd672795d259b name": "Fishing for Information (Peacekeeper)",
+  "69a9e0c6feecd672795d259b description": "An explosion at Lighthouse? I hadn't heard about it, but it's certainly not very common to get explosives around here. That's definitely the work of those damn Scavs.",
+  "69a9e0c6feecd672795d259b successMessageText": "No problem. Take care, mercenary!",
+  "69a9ebdc5f90ba2f7dbf2916": "Talk to Peacekeeper about the events at Lighthouse"
 }

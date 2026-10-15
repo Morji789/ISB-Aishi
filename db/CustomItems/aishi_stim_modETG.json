@@ -1,40 +1,28 @@
 {
   "69dedb462e45a1248bf6b96a": {
-
     "itemTplToClone": "5c0e534186f7747fa1419867",
     "parentId": "5448f3a64bdc2d60728b456a",
     "handbookParentId": "5b47574386f77428ca22b33a",
-
-
-    "overrideProperties": { 
-        "ExaminedByDefault": false,
-        "IsUnsaleable": true,
-        "IsUnbuyable": true,
-        "CanSellOnRagfair": false,
-        "StimulatorBuffs": "BuffseTGchange",        
-        "MaxHpResource": 2,
-        "effects_damage": {
+    "overrideProperties": {
+      "ExaminedByDefault": false,
+      "IsUnsaleable": true,
+      "IsUnbuyable": true,
+      "CanSellOnRagfair": false,
+      "MaxHpResource": 2,
+      "effects_damage": {
         "Pain": {
           "delay": 0,
-          "duration": 1200,
+          "duration": 700,
           "fadeOut": 0
         }
-        },
-
+      },
       "Prefab": {
-
-        "path": "assets/content/weapons/usable_items/item_syringe/item_stimulator_etg-change_loot.bundle",
+        "path": "equipment/isb_stim_etg_loot.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
-      "Height": 1,
       "Weight": 0.09,
-
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "eTG-change Dual-Action upgraded regenerative stimulant injector",
@@ -46,19 +34,12 @@
         "shortName": "eTG-c",
         "description": "Um poderoso estimulante dos processos de regeneração. É utilizado para a rápida recuperação de um soldado após uma lesão ou durante o transporte de pessoal gravemente ferido. Seu uso é permitido apenas a médicos e paramédicos. Apresenta efeitos colaterais graves."
       }
-    
     },
-
-    "medUseTime": 2, 
-
+    "medUseTime": 2,
     "fleaPriceRoubles": 275000,
-
     "handbookPriceRoubles": 100000,
-
     "addtoBots": true,
-
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",

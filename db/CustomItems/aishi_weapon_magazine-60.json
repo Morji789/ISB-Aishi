@@ -1,21 +1,16 @@
 {
   "69f058abe6c9802225abaf21": {
-
     "itemTplToClone": "544a37c44bdc2d25388b4567",
     "parentId": "5448bc234bdc2d3c308b4569",
     "handbookParentId": "5b5f754a86f774094242f19b",
-
-
-    "overrideProperties": { 
-        "ExaminedByDefault": true,
-        "IsUnsaleable": true,
-        "IsUnbuyable": true,
-        "CanSellOnRagfair": true,
-        "CanRequireOnRagfair": true,
-        "addtoItemBlacklist": false,   
-        "Ergonomics": -2,
-        "CanPutIntoDuringTheRaid": true,
-        "Cartridges": [
+    "overrideProperties": {
+      "IsUnsaleable": true,
+      "IsUnbuyable": true,
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": true,
+      "addtoItemBlacklist": false,
+      "Ergonomics": -2,
+      "Cartridges": [
         {
           "_id": "69f059b0318eb09bcd06e4e4",
           "_max_count": 60,
@@ -51,21 +46,11 @@
           "_proto": "69f059ae1e667f63eddb3b7c"
         }
       ],
-
       "Prefab": {
-
-        "path": "equipment/magazine_test.bundle",
+        "path": "equipment/magazine_ar15_surefire_mag5_60_fde.bundle",
         "rcid": ""
-      },
-
-
-      "Width": 1,
-      "Height": 2,
-      "Weight": 0.18
+      }
     },
-
-
-
     "locales": {
       "en": {
         "name": "AR-15 5.56x45 SureFire MAG5-60 STANAG 60-round magazine (FDE)",
@@ -77,29 +62,18 @@
         "shortName": "MAG5-60",
         "description": "Um carregador metálico de alta capacidade SureFire MAG5-60 para munição 5,56x45, com capacidade para 60 cartuchos."
       }
-    
     },
-
     "fleaPriceRoubles": 54755,
-
     "handbookPriceRoubles": 24755,
-
     "addtoBots": true,
-
     "addtoModSlots": true,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-    
+    "addtoItemBlacklist": true,
     "modSlot": [
       "mod_magazine"
     ],
-
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",

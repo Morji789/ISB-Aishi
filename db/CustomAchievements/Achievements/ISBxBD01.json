@@ -1,11 +1,11 @@
 [
-{
-  "id": "694bf54ab3c3a56da952d2f4",
-  "description": "694bf54ab3c3a56da952d2f4 description",
-  "name": "694bf54ab3c3a56da952d2f4 name",
-  "imageUrl": "/files/achievement/ISB-BD01.png",
-  "assetPath": "",
-  "rewards": [
+  {
+    "id": "694bf54ab3c3a56da952d2f4",
+    "description": "694bf54ab3c3a56da952d2f4 description",
+    "name": "694bf54ab3c3a56da952d2f4 name",
+    "imageUrl": "/files/achievement/ISB-BD01.png",
+    "assetPath": "",
+    "rewards": [
       {
         "id": "69d6c2a57c463fe03f0a5fbc",
         "unknown": false,
@@ -32,97 +32,97 @@
         "target": "692a5154a869f0dbd92fafee",
         "type": "CustomizationDirect"
       },
-    {
-      "id": "69d6cf7e1c2453e6d71c4bb8",
-      "unknown": false,
-      "gameMode": [
-        "regular",
-        "pve"
-      ],
-      "availableInGameEditions": [],
-      "illustrationConfig": null,
-      "isHidden": false,
-      "target": "69bb1f4160f6724f2c6d36a9",
-      "loyaltyLevel": 4,
-      "traderId": "690766de550bc322a810ea1e",
-      "items": [
-        {
-          "_id": "69bb1f4160f6724f2c6d36a9",
-          "_tpl": "689b3fffa1295e322207a677",
-          "upd": {}
-        }
-      ],
-      "type": "AssortmentUnlock"
-    },
-    {
-      "id": "69d6e2c3cb62e1fa5eb2e27d",
-      "unknown": false,
-      "gameMode": [
-        "regular",
-        "pve"
-      ],
-      "availableInGameEditions": [],
-      "illustrationConfig": null,
-      "isHidden": false,
-      "target": "69bb229ece70222dd66dfa83",
-      "loyaltyLevel": 4,
-      "traderId": "690766de550bc322a810ea1e",
-      "items": [
-        {
-          "_id": "69bb229ece70222dd66dfa83",
-          "_tpl": "689b404db49f27df1c0873f6",
-          "upd": {}
-        }
-      ],
-      "type": "AssortmentUnlock"
-    },
-    {
-      "id": "69d6e99686d7dafee7cff137",
-      "unknown": false,
-      "gameMode": [
-        "regular",
-        "pve"
-      ],
-      "availableInGameEditions": [],
-      "illustrationConfig": null,
-      "isHidden": false,
-      "target": "69d6e93ad5b1e2b8d9572909",
-      "loyaltyLevel": 4,
-      "traderId": "690766de550bc322a810ea1e",
-      "items": [
-        {
-          "_id": "69d6e93ad5b1e2b8d9572909",
-          "_tpl": "689479cb47e5acd1e10be986",
-          "upd": {}
-        }
-      ],
-      "type": "AssortmentUnlock"
-    },
-    {
-      "id": "69d6ed0357258143cc6646aa",
-      "unknown": false,
-      "gameMode": [
-        "regular",
-        "pve"
-      ],
-      "availableInGameEditions": [],
-      "illustrationConfig": null,
-      "isHidden": false,
-      "target": "69d6ecfe2d421bb8977d86d9",
-      "loyaltyLevel": 4,
-      "traderId": "690766de550bc322a810ea1e",
-      "items": [
-        {
-          "_id": "69d6ecfe2d421bb8977d86d9",
-          "_tpl": "689479eb30cc5ba7be00f5ff",
-          "upd": {}
-        }
-      ],
-      "type": "AssortmentUnlock"
-    }
+      {
+        "id": "69d6cf7e1c2453e6d71c4bb8",
+        "unknown": false,
+        "gameMode": [
+          "regular",
+          "pve"
+        ],
+        "availableInGameEditions": [],
+        "illustrationConfig": null,
+        "isHidden": false,
+        "target": "69bb1f4160f6724f2c6d36a9",
+        "loyaltyLevel": 4,
+        "traderId": "690766de550bc322a810ea1e",
+        "items": [
+          {
+            "_id": "69bb1f4160f6724f2c6d36a9",
+            "_tpl": "689b3fffa1295e322207a677",
+            "upd": {}
+          }
+        ],
+        "type": "AssortmentUnlock"
+      },
+      {
+        "id": "69d6e2c3cb62e1fa5eb2e27d",
+        "unknown": false,
+        "gameMode": [
+          "regular",
+          "pve"
+        ],
+        "availableInGameEditions": [],
+        "illustrationConfig": null,
+        "isHidden": false,
+        "target": "69bb229ece70222dd66dfa83",
+        "loyaltyLevel": 4,
+        "traderId": "690766de550bc322a810ea1e",
+        "items": [
+          {
+            "_id": "69bb229ece70222dd66dfa83",
+            "_tpl": "689b404db49f27df1c0873f6",
+            "upd": {}
+          }
+        ],
+        "type": "AssortmentUnlock"
+      },
+      {
+        "id": "69d6e99686d7dafee7cff137",
+        "unknown": false,
+        "gameMode": [
+          "regular",
+          "pve"
+        ],
+        "availableInGameEditions": [],
+        "illustrationConfig": null,
+        "isHidden": false,
+        "target": "69d6e93ad5b1e2b8d9572909",
+        "loyaltyLevel": 4,
+        "traderId": "690766de550bc322a810ea1e",
+        "items": [
+          {
+            "_id": "69d6e93ad5b1e2b8d9572909",
+            "_tpl": "689479cb47e5acd1e10be986",
+            "upd": {}
+          }
+        ],
+        "type": "AssortmentUnlock"
+      },
+      {
+        "id": "69d6ed0357258143cc6646aa",
+        "unknown": false,
+        "gameMode": [
+          "regular",
+          "pve"
+        ],
+        "availableInGameEditions": [],
+        "illustrationConfig": null,
+        "isHidden": false,
+        "target": "69d6ecfe2d421bb8977d86d9",
+        "loyaltyLevel": 4,
+        "traderId": "690766de550bc322a810ea1e",
+        "items": [
+          {
+            "_id": "69d6ecfe2d421bb8977d86d9",
+            "_tpl": "689479eb30cc5ba7be00f5ff",
+            "upd": {}
+          }
+        ],
+        "type": "AssortmentUnlock"
+      }
     ],
-  "conditions": {
-    "availableForFinish": [
+    "conditions": {
+      "availableForFinish": [
         {
           "availableAfter": 0,
           "conditionType": "Quest",
@@ -139,18 +139,18 @@
           "target": "6a6d684930253f787fd50a01",
           "visibilityConditions": []
         }
-    ],
-    "fail": []
-  },
-  "instantComplete": false,
-  "showNotificationsInGame": false,
-  "showProgress": false,
-  "prefab": "",
-  "rarity": "Common",
-  "hidden": false,
-  "showConditions": false,
-  "progressBarEnabled": false,
-  "side": "Pmc",
-  "index": 3301
-}
+      ],
+      "fail": []
+    },
+    "instantComplete": false,
+    "showNotificationsInGame": false,
+    "showProgress": false,
+    "prefab": "",
+    "rarity": "Common",
+    "hidden": false,
+    "showConditions": false,
+    "progressBarEnabled": false,
+    "side": "Pmc",
+    "index": 3301
+  }
 ]

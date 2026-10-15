@@ -1,19 +1,12 @@
 {
   "693ce97ae3778b9839af5852": {
-
     "itemTplToClone": "628bc7fb408e2b2e9c0801b1",
     "parentId": "5448e53e4bdc2d60728b4567",
     "handbookParentId": "5b5f6f6c86f774093f2ecf0b",
-
     "overrideProperties": {
-      "QuestItem": false,  
-      "ExaminedByDefault": false,
-      "IsUnsaleable": false,
       "CanSellOnRagfair": false,
-      "CanRequireOnRagfair": false,
       "InsuranceDisabled": true,
-      "addtoItemBlacklist": true,   
-       
+      "addtoItemBlacklist": true,
       "Grids": [
         {
           "_id": "6a2786ba05154b8296f4a1ec",
@@ -41,51 +34,35 @@
           "_proto": "6a2786d95da4c669f4680014"
         }
       ],
-
       "Prefab": {
-
         "path": "equipment/item_equipment_backpack_boss_birdeye_black.bundle",
         "rcid": ""
       },
-
-      "Width": 4,
-      "Height": 5,
-
-
       "Weight": 8.5
     },
-
     "locales": {
       "en": {
         "name": "Modified Mystery Ranch NICE COMM 3 BVS frame system (USEC Intelligence Support Bureau)",
         "shortName": "COMM 3",
         "description": "The NICE Frame special system for carrying oversized or heavy loads with an installed COMM 3 backpack for carrying radio systems. The COMM 3 main bay is designed for PRC117F or G, PRC119F, 152, or ASIP radios. The Hitchhiker and Daypack lid allows you to carry separate gear if needed. The modular NICE COMM 3 system is ready to adapt to changing tasks. An extremely rare thing, for which a real hunt is conducted in Tarkov. Black Version for ISB Special Forces"
       },
-        "po": {
+      "po": {
         "name": "Sistema de mochilas Mystery Ranch NICE COMM 3 BVS modificado (Agência de Suporte a Inteligência da USEC)",
         "shortName": "COMM 3",
         "description": "O sistema especial NICE Frame para transportar cargas pesadas ou de grandes dimensões com uma mochila COMM 3 instalada para transportar sistemas de rádio. O compartimento principal da COMM 3 foi concebido para rádios PRC117F ou G, PRC119F, 152 ou ASIP. A tampa Hitchhiker e Daypack permite transportar equipamentos separados, se necessário. O sistema modular NICE COMM 3 está pronto para se adaptar a tarefas variáveis. Uma coisa extremamente rara, pela qual se realiza uma verdadeira caçada em Tarkov. Versão preta para as Forças Especiais ISB."
       }
     },
-
     "fleaPriceRoubles": 199000,
-
     "handbookPriceRoubles": 190000,
-
-    "addtoInventorySlots": ["Backpack"],
-
+    "addtoInventorySlots": [
+      "Backpack"
+    ],
     "addtoStaticLootContainers": false,
-
     "IsAlwaysAvailableForInsurance": false,
-
     "InsuranceDisabled": true,
-
     "CanSellOnRagfair": false,
-
     "CanRequireOnRagfair": false,
-    
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "StaticLootContainers": [
       {
         "ContainerName": "",

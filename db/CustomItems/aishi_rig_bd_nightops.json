@@ -1,0 +1,108 @@
+{
+  "00d2d09193fe193187f65c98": {
+    "itemTplToClone": "689479a4a733b1602007e2eb",
+    "parentId": "5448e5284bdc2dcb718b4567",
+    "handbookParentId": "5b5f6f8786f77447ed563642",
+    "overrideProperties": {
+      "QuestItem": false,
+      "ExaminedByDefault": false,
+      "IsUnsaleable": false,
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false,
+      "addtoItemBlacklist": true,
+      "BackgroundColor": "default",
+      "Prefab": {
+        "path": "equipment/item_equipment_armor_lv119_bd_nightops.bundle",
+        "rcid": ""
+      },
+      "Width": 4,
+      "Height": 3,
+      "Weight": 3.95,
+      "Name": "Spiritus Systems LV-119 Plate Carrier (Black Division V4)",
+      "ShortName": "LV-119",
+      "Description": "A highly customizable modular plate carrier by Spiritus Systems, built for maximum comfort in combat. Wolf Grey version. This setup allows full freedom of movement while providing an ergonomic layout for ammunition and essential gear. (Black Division V4)"
+    },
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_id": "e53f3e2d144096bb76a94f61",
+        "_type": "Preset",
+        "_changeWeaponName": false,
+        "_name": "Spiritus Systems LV-119 (Black Division - Night Ops)",
+        "_parent": "95d3bf1da8726d9e8dda6486",
+        "_items": [
+          {
+            "_id": "95d3bf1da8726d9e8dda6486",
+            "_tpl": "00d2d09193fe193187f65c98"
+          },
+          {
+            "_id": "63e21810cc7b22ec237a47f9",
+            "_tpl": "68a5f30248f18317750ab20b",
+            "parentId": "95d3bf1da8726d9e8dda6486",
+            "slotId": "Soft_armor_front"
+          },
+          {
+            "_id": "05f3cb6a5ca9f2b48fd069ac",
+            "_tpl": "68a5f3a348f18317750ab4be",
+            "parentId": "95d3bf1da8726d9e8dda6486",
+            "slotId": "Soft_armor_back"
+          },
+          {
+            "_id": "70497f2058155d93b4ddee50",
+            "_tpl": "68a5f3ec7c9f6975d00238be",
+            "parentId": "95d3bf1da8726d9e8dda6486",
+            "slotId": "Soft_armor_left"
+          },
+          {
+            "_id": "b09a3f8788f4b443e58554fe",
+            "_tpl": "68a5f42948f18317750ab543",
+            "parentId": "95d3bf1da8726d9e8dda6486",
+            "slotId": "soft_armor_right"
+          },
+          {
+            "_id": "6bb563fa954eb137a5fc46b7",
+            "_tpl": "656faf0ca0dce000a2020f77",
+            "parentId": "95d3bf1da8726d9e8dda6486",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "88cb0a00ad45489979a708fb",
+            "_tpl": "656faf0ca0dce000a2020f77",
+            "parentId": "95d3bf1da8726d9e8dda6486",
+            "slotId": "Back_plate"
+          }
+        ],
+        "_encyclopedia": "00d2d09193fe193187f65c98"
+      }
+    ],
+    "locales": {
+      "en": {
+        "name": "Spiritus Systems LV-119 Plate Carrier (Black Division V4)",
+        "shortName": "LV-119",
+        "description": "A highly customizable modular plate carrier by Spiritus Systems, built for maximum comfort in combat. Wolf Grey version. This setup allows full freedom of movement while providing an ergonomic layout for ammunition and essential gear. (Black Division V4)"
+      },
+      "po": {
+        "name": "Plate carrier Spiritus Systems LV-119 (Black Division V4)",
+        "shortName": "LV-119",
+        "description": "Um plate carrier modular altamente personalizável da Spiritus Systems, desenvolvido para oferecer o máximo de conforto em combate. Versão Wolf Grey. Esta configuração permite total liberdade de movimento e oferece uma disposição ergonômica para munição e equipamentos essenciais. (Black Division V4)"
+      }
+    },
+    "fleaPriceRoubles": 72348,
+    "handbookPriceRoubles": 10342,
+    "addtoInventorySlots": [
+      "TacticalRig"
+    ],
+    "addtoStaticLootContainers": false,
+    "CanSellOnRagfair": false,
+    "CanRequireOnRagfair": false,
+    "IsAlwaysAvailableForInsurance": false,
+    "InsuranceDisabled": false,
+    "addtoItemBlacklist": true,
+    "StaticLootContainers": [
+      {
+        "ContainerName": "",
+        "Probability": 0
+      }
+    ]
+  }
+}

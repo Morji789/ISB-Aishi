@@ -1,75 +1,51 @@
 {
   "692776a87654e429f63f1e84": {
-
     "itemTplToClone": "6575e72660703324250610c7",
     "parentId": "65649eb40bf0ed77b8044453",
     "handbookParentId": "6564b96a189fe36f356d177c",
-
-
     "overrideProperties": {
-      "QuestItem": false,  
-      "ExaminedByDefault": true,
       "PushToFleaBlacklist": true,
       "CanSellOnRagfair": false,
-      "CanRequireOnRagfair": false,
-      "MaterialType": "BodyArmor",
       "InsuranceDisabled": true,
       "ArmorMaterial": "Ceramic",
       "ArmorType": "Heavy",
       "BackgroundColor": "yellow",
-      "ItemSound": "gear_armor",
-      "armorPlateColliders":  [
-          "Plate_Granit_SAPI_chest",
-          "Plate_Granit_SAPI_back"
+      "armorPlateColliders": [
+        "Plate_Granit_SAPI_chest",
+        "Plate_Granit_SAPI_back"
       ],
       "armorClass": "4",
       "Durability": 100,
       "MaxDurability": 100,
       "BluntThroughput": 0.1,
-      "RarityPvE":"Superrare"
-                        },
-        "Prefab": {
-
-        "path": "assets/content/items/equipment/armor_plates/soft_armor_back.bundle",
-        "rcid": ""
-        },
-
-
-        "Width": 1,
-        "Height": 1,
-
-
-        "Weight": 0,
-
-
-        "Grids": [
-        ],
-
+      "RarityPvE": "Superrare"
+    },
+    "Prefab": {
+      "path": "assets/content/items/equipment/armor_plates/soft_armor_back.bundle",
+      "rcid": ""
+    },
+    "Width": 1,
+    "Height": 1,
+    "Weight": 0,
+    "Grids": [],
     "locales": {
       "en": {
         "name": "Modified aramid insert",
         "shortName": "Modified aramid insert",
         "description": "Modified aramid insert"
       },
-        "po": {
-            "name": "Modified aramid insert",
-            "shortName": "Modified aramid insert",
-            "description": "Modified aramid insert"
+      "po": {
+        "name": "Modified aramid insert",
+        "shortName": "Modified aramid insert",
+        "description": "Modified aramid insert"
       }
     },
-
-    "fleaPriceRoubles": 0,
-
-    "handbookPriceRoubles": 0,
-
+    "fleaPriceRoubles": 26400,
+    "handbookPriceRoubles": 26400,
     "InsuranceDisabled": true,
-
     "addtoInventorySlots": [],
-
     "addtoStaticLootContainers": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "StaticLootContainers": [
       {
         "ContainerName": "",

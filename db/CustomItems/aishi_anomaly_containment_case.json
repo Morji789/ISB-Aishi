@@ -1,0 +1,102 @@
+{
+  "667a400d44455c10e40f761f": {
+    "itemTplToClone": "590c60fc86f77412b13fddcf",
+    "parentId": "5795f317245977243854e041",
+    "handbookParentId": "5b5f6fd286f774093f2ecf0d",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "BackgroundColor": "blue",
+      "Prefab": {
+        "path": "containers/anomalous_containment/item_container_anomalous_containment.bundle",
+        "rcid": ""
+      },
+      "Width": 3,
+      "Height": 2,
+      "Weight": 2,
+      "CanPutIntoDuringTheRaid": true,
+      "CanSellOnRagfair": false,
+      "Grids": [
+        {
+          "_name": "main",
+          "_id": "aa214547fd38517507b32d92",
+          "_parent": "667a400d44455c10e40f761f",
+          "_proto": "55d329c24bdc2d892f8b4567",
+          "_props": {
+            "cellsH": 4,
+            "cellsV": 4,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false,
+            "filters": [
+              {
+                "Filter": [
+                  "b27508815b9307ccd1bffa36",
+                  "1800c994e11cfa35b423e8ed",
+                  "6183f2a51cb013b5ab62a796",
+                  "fac4f1a658ad562cddde72c6",
+                  "72eb2bb2416ee48ee80d63d4",
+                  "a38cbf3abbfdcbedaa1b9a0e",
+                  "b543125009b989d7287b58ab",
+                  "9644da05612ad219e7fc4387",
+                  "cd19a7a32ec3820a6ea48800",
+                  "1254eb68d298789e43b45ed3",
+                  "36be503998aadd53701c57e3",
+                  "f131c988930a86c7e5610c57",
+                  "45e6cfe53aabe0b5e846cad5",
+                  "9df4b9812799170d2f7295f7",
+                  "57d2c307a64e179e8995e061",
+                  "90c688feeba7c89aa1a3c8a7",
+                  "4a2e4aaef50cda01112c41b2",
+                  "73cc246044b1d66dd70aedb7",
+                  "06f0d5bdc44c4ddcd0759d31",
+                  "a8d639d499ac25709f630d2c",
+                  "922129d70c57a265f61ee8b1",
+                  "d180bb453e8bb2027c5fa540",
+                  "51574a824fe10af4518191af",
+                  "0056a97d873bba252113c74b",
+                  "ae711ed0c5878f74a4264e27",
+                  "d94f4a94edf1050b40c93cdb",
+                  "eee72a686853f282c7cd01da",
+                  "25dd7397974f7d7940ad9742",
+                  "68c80d9fb3ef768bbe58a072",
+                  "d88925f5ddd4cd8795d5c9bd",
+                  "a2c16b836b441dc953652bd6",
+                  "571e1ce5aa8a32c10b70d206",
+                  "3ddc22a4b7e5ba67ee38edf9",
+                  "b7e0639e756abd3bbb872c2c",
+                  "337052e7f499ba2f52dfa089",
+                  "397495f6cda093c895814c0f",
+                  "e57cfb4c1b58a40f9032db70"
+                ],
+                "ExcludedFilter": [
+                  "667a400d44455c10e40f761f",
+                  "c5c72a7a3bf1f02421a145bb"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Unlocked Anomalous Containment Case",
+        "shortName": "Containment Box",
+        "description": "An anomalous containment box. It contains anomalous items that were under investigation by TerraGroup. The contents of the box may be dangerous and unstable."
+      },
+      "po": {
+        "name": "Unlocked Anomalous Containment Case",
+        "shortName": "Containment Box",
+        "description": "An anomalous containment box. It contains anomalous items that were under investigation by TerraGroup. The contents of the box may be dangerous and unstable."
+      }
+    },
+    "handbookPriceRoubles": 50000,
+    "addtoItemBlacklist": true,
+    "CanSellOnRagfair": false,
+    "CanRequireOnRagfair": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "fleaPriceRoubles": 50000
+  }
+}

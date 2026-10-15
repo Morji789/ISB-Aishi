@@ -1,35 +1,17 @@
 {
   "6944b4b15a0413f1b7f50724": {
-
     "itemTplToClone": "5c1d0f4986f7744bb01837fa",
     "parentId": "5c164d2286f774194c5e69fa",
     "handbookParentId": "5c518ed586f774119a772aee",
-
-
     "overrideProperties": {
-      "QuestItem": false,  
-      "ExaminedByDefault": false,
       "CanSellOnRagfair": false,
-      "CanRequireOnRagfair": false,
-      "addtoItemBlacklist": true,  
-      "MaximumNumberOfUsage": 20,
-      "BackgroundColor": "violet",
-        
-
+      "addtoItemBlacklist": true,
       "Prefab": {
-
-        "path": "quests/quest_item_info_temp_isbaishi_keycard.bundle",
+        "path": "quests/aishi_limited_keycard.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
-      "Height": 1,
-      "Weight": 0.010,
-
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "Limited TerraGroup Labs Access Keycard issued to the Deputy Director of ISB",
@@ -41,49 +23,32 @@
         "shortName": "CL Aishi",
         "description": "Um cartão de acesso de alto nível emitido pela USEC para a Diretora Interina da ISB para acesso especial nas instalações da TerraGroup."
       }
-    
     },
-
     "fleaPriceRoubles": 2175600,
-
     "handbookPriceRoubles": 1250700,
-
     "addtoBots": false,
-
     "Unlootable": true,
     "UnlootableFromSide": [
-        "Bear",
-        "Usec",
-        "Savage"
-      ],
-      
+      "Bear",
+      "Usec",
+      "Savage"
+    ],
     "UnlootableFromSlot": "SpecialSlot",
-
     "IsSpecialSlotOnly": false,
-
     "addtoSpecialSlots": false,
-
     "IsUnremovable": false,
-
     "IsUnsaleable": true,
-
     "CanSellOnRagfair": false,
-
     "CanRequireOnRagfair": false,
-    
-    "addtoItemBlacklist": true,  
-
+    "addtoItemBlacklist": true,
     "addtoSecureFilters": false,
-
     "addtoTraders": false,
-
-    "traders": {
-          },
-          "barters": [
-            {
-              "count": 0,
-              "_tpl": "0" 
-            }
-          ]
+    "traders": {},
+    "barters": [
+      {
+        "count": 0,
+        "_tpl": "0"
+      }
+    ]
   }
 }

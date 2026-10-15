@@ -1,0 +1,38 @@
+{
+  "a2c16b836b441dc953652bd6": {
+    "itemTplToClone": "62a09cb7a04c0c5c6e0a84f8",
+    "parentId": "590c745b86f7743cc433c5f2",
+    "handbookParentId": "5b47574386f77428ca22b2f1",
+    "handbookPriceRoubles": 285000,
+    "fleaPriceRoubles": 950000,
+    "overrideProperties": {
+      "CanSellOnRagfair": false,
+      "Prefab": {
+        "path": "equipment/anomalous_items/aishiS2/press/item_kte_press.bundle",
+        "rcid": ""
+      },
+      "MaxResource": 10,
+      "Resource": 10,
+      "CanRequireOnRagfair": false
+    },
+    "locales": {
+      "en": {
+        "name": "KTE 887",
+        "shortName": "KTE 887",
+        "description": "<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 887</b></color>\n<size=90%>TerraGroup research • Unknown properties.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 887</b></color>\n<size=90%><color=#B2B9B5>PROPERTIES IDENTIFIED • REPORT BELOW</color></size></align>\n\nWhile carried in the inventory.\n\n<color=#E88888><b>Negative effects:</b></color>\n• Consumes one of 10 uses per unlock; disappears when depleted.\n\n<color=#92CAA1><b>Positive effects:</b></color>\n• Unlocks doors within 0.3 metres."
+      },
+      "po": {
+        "name": "KTE 887",
+        "shortName": "KTE 887",
+        "description": "<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 887</b></color>\n<size=90%>Pesquisa TerraGroup • Propriedades desconhecidas.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 887</b></color>\n<size=90%><color=#B2B9B5>PROPRIEDADES IDENTIFICADAS • RELATÓRIO ABAIXO</color></size></align>\n\nEnquanto carregado no inventário.\n\n<color=#E88888><b>Efeitos negativos:</b></color>\n• Consome um dos 10 usos por porta; desaparece ao esgotar.\n\n<color=#92CAA1><b>Efeitos positivos:</b></color>\n• Destranca portas a até 0,3 metro."
+      }
+    },
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "addtoItemBlacklist": true,
+    "addtoSecureFilters": false,
+    "addtoSpecialSlots": false
+  }
+}

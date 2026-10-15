@@ -1,60 +1,28 @@
 {
   "69fca77d3a0b02c8aec59eb4": {
-
     "itemTplToClone": "5447a9cd4bdc2dbd208b4567",
     "parentId": "5447b5f14bdc2d61278b4567",
-    "handbookParentId": "5b5f78e986f77447ed5636b1",
-
-
-    "overrideProperties": { 
-      "ExaminedByDefault": true,
-        "IsUnsaleable": true,
-        "IsUnbuyable": true,
-        "AllowFeed": false,
-        "AllowJam": true,
-        "InsuranceDisabled": true,
-        "BackgroundColor": "yellow",
-        "AllowMisfire": false,
-        "AllowOverheat": true,
-        "AllowSlide": false,
-        "Ergonomics": 58,
-        "ammoCaliber": "Caliber556x45NATO",
-        "bEffDist": 500,
-        "bFirerate": 890,
-        "bHearDist": 80,
-        "blockLeftStance": false,
-        "chamberAmmoCount": 1,
-        "defAmmo": "54527a984bdc2d4e668b4567",
-        "defMagType": "5d1340b3d7ad1a0b52682ed7",
-        "durabSpawnMax": 100,
-        "durabSpawnMin": 50,
-        "isBoltCatch": true,
-        "isChamberLoad": true,
-        "isFastReload": true,
-        "shotgunDispersion": 0,
-        "weapClass": "assaultRifle",
-        "weapFireType": [
-        "single",
-        "fullauto"
-        ],
-        "weapUseType": "primary",
-
-        
-
+    "handbookParentId": "5b5f78fc86f77409407a7f90",
+    "overrideProperties": {
+      "IsUnsaleable": true,
+      "IsUnbuyable": true,
+      "AllowFeed": false,
+      "InsuranceDisabled": true,
+      "BackgroundColor": "yellow",
+      "AllowMisfire": false,
+      "AllowSlide": false,
+      "Ergonomics": 58,
+      "bFirerate": 890,
+      "defMagType": "5d1340b3d7ad1a0b52682ed7",
+      "durabSpawnMax": 100,
+      "durabSpawnMin": 50,
       "Prefab": {
-
         "path": "aishiweapons/weapon_isbm4a1_fde.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
-      "Height": 1,
       "Weight": 0.025,
-
       "Grids": []
     },
-
     "addWeaponPreset": true,
     "weaponPresets": [
       {
@@ -71,257 +39,259 @@
               "Repairable": {
                 "Durability": 100,
                 "MaxDurability": 100
+              },
+              "FireMode": {
+                "FireMode": "fullauto"
               }
             }
           },
-    {
-      "_id": "69ff7175420f60b5b440cc1b",
-      "_tpl": "5a339805c4a2826c6e06d73d",
-      "parentId": "69ff7178420f60b5b440cc32",
-      "slotId": "mod_pistol_grip",
-      "upd": {
-        "SpawnedInSession": true
-      }
-    },
-    {
-      "_id": "69ff7175420f60b5b440cc1c",
-      "_tpl": "69f058abe6c9802225abaf21",
-      "parentId": "69ff7178420f60b5b440cc32",
-      "slotId": "mod_magazine",
-      "upd": {
-        "SpawnedInSession": true
-      }
-    },
-    {
-      "_id": "69ff7175420f60b5b440cc1d",
-      "_tpl": "69fcbf779ea8940faa793551",
-      "parentId": "69ff7178420f60b5b440cc32",
-      "slotId": "mod_reciever"
-    },
-    {
-      "_id": "69ff7175420f60b5b440cc1e",
-      "_tpl": "69fccb4b144b3ba3fde464bd",
-      "parentId": "69ff7178420f60b5b440cc32",
-      "slotId": "mod_stock"
-    },
-    {
-      "_id": "69ff7175420f60b5b440cc1f",
-      "_tpl": "5ea16d4d5aad6446a939753d",
-      "parentId": "69ff7178420f60b5b440cc32",
-      "slotId": "mod_charge",
-      "upd": {
-        "SpawnedInSession": true
-      }
-    },
-    {
-      "_id": "69ff7175420f60b5b440cc20",
-      "_tpl": "618bab21526131765025ab3f",
-      "parentId": "69ff7175420f60b5b440cc1d",
-      "slotId": "mod_scope",
-      "upd": {
-        "SpawnedInSession": true
-      }
-    },
-    {
-      "_id": "69ff7175420f60b5b440cc21",
-      "_tpl": "63d3ce0446bd475bcb50f55f",
-      "parentId": "69ff7175420f60b5b440cc1d",
-      "slotId": "mod_barrel",
-      "upd": {
-        "SpawnedInSession": true
-      }
-    },
-    {
-      "_id": "69ff7175420f60b5b440cc22",
-      "_tpl": "69fcd2dc03d8476407fb7ec0",
-      "parentId": "69ff7175420f60b5b440cc1d",
-      "slotId": "mod_handguard"
-    },
-    {
-      "_id": "69ff7175420f60b5b440cc23",
-      "_tpl": "5c18b9192e2216398b5a8104",
-      "parentId": "69ff7175420f60b5b440cc1d",
-      "slotId": "mod_sight_rear",
-      "upd": {
-        "SpawnedInSession": true,
-        "Sight": {
-          "ScopesCurrentCalibPointIndexes": [
-            0
-          ],
-          "ScopesSelectedModes": [
-            0
-          ],
-          "SelectedScope": 0,
-          "ScopeZoomValue": 0
-        }
-      }
-    },
-    {
-      "_id": "69ff7175420f60b5b440cc24",
-      "_tpl": "58d2946386f774496974c37e",
-      "parentId": "69ff7175420f60b5b440cc1e",
-      "slotId": "mod_stock_000",
-      "upd": {
-        "SpawnedInSession": true
-      }
-    },
-    {
-      "_id": "69ff7175420f60b5b440cc25",
-      "_tpl": "69fc2eed42c2198ea9ca68de",
-      "parentId": "69ff7175420f60b5b440cc20",
-      "slotId": "mod_scope",
-      "upd": {
-        "SpawnedInSession": true,
-        "Sight": {
-          "ScopesCurrentCalibPointIndexes": [
-            0
-          ],
-          "ScopesSelectedModes": [
-            0
-          ],
-          "SelectedScope": 0,
-          "ScopeZoomValue": 0
-        }
-      }
-    },
-    {
-      "_id": "69ff7175420f60b5b440cc26",
-      "_tpl": "618ba92152ecee1505530bd3",
-      "parentId": "69ff7175420f60b5b440cc20",
-      "slotId": "mod_mount",
-      "upd": {
-        "SpawnedInSession": true
-      }
-    },
-    {
-      "_id": "69ff7175420f60b5b440cc27",
-      "_tpl": "6386120cd6baa055ad1e201c",
-      "parentId": "69ff7175420f60b5b440cc21",
-      "slotId": "mod_muzzle",
-      "upd": {
-        "SpawnedInSession": true
-      }
-    },
-    {
-      "_id": "69ff7175420f60b5b440cc28",
-      "_tpl": "63d3ce281fe77d0f2801859e",
-      "parentId": "69ff7175420f60b5b440cc21",
-      "slotId": "mod_gas_block",
-      "upd": {
-        "SpawnedInSession": true
-      }
-    },
-    {
-      "_id": "69ff7175420f60b5b440cc29",
-      "_tpl": "669a6a4a525be1d2d004b8eb",
-      "parentId": "69ff7175420f60b5b440cc22",
-      "slotId": "mod_mount_000",
-      "upd": {
-        "SpawnedInSession": true
-      }
-    },
-    {
-      "_id": "69ff7175420f60b5b440cc2a",
-      "_tpl": "544909bb4bdc2d6f028b4577",
-      "parentId": "69ff7175420f60b5b440cc22",
-      "slotId": "mod_tactical_000",
-      "upd": {
-        "SpawnedInSession": true,
-        "Light": {
-          "IsActive": true,
-          "SelectedMode": 0
-        }
-      }
-    },
-    {
-      "_id": "69ff7175420f60b5b440cc2b",
-      "_tpl": "5b7be4895acfc400170e2dd5",
-      "parentId": "69ff7175420f60b5b440cc22",
-      "slotId": "mod_foregrip",
-      "upd": {
-        "SpawnedInSession": true
-      }
-    },
-    {
-      "_id": "69ff7175420f60b5b440cc2c",
-      "_tpl": "5c18b90d2e2216152142466b",
-      "parentId": "69ff7175420f60b5b440cc22",
-      "slotId": "mod_sight_front",
-      "upd": {
-        "SpawnedInSession": true,
-        "Sight": {
-          "ScopesCurrentCalibPointIndexes": [
-            0
-          ],
-          "ScopesSelectedModes": [
-            0
-          ],
-          "SelectedScope": 0,
-          "ScopeZoomValue": 0
-        }
-      }
-    },
-    {
-      "_id": "69ff7175420f60b5b440cc2d",
-      "_tpl": "688b4bd81cef2a61d0052738",
-      "parentId": "69ff7175420f60b5b440cc26",
-      "slotId": "mod_scope",
-      "upd": {
-        "SpawnedInSession": true,
-        "Sight": {
-          "ScopesCurrentCalibPointIndexes": [
-            0
-          ],
-          "ScopesSelectedModes": [
-            0
-          ],
-          "SelectedScope": 0,
-          "ScopeZoomValue": 0
-        }
-      }
-    },
-    {
-      "_id": "69ff7175420f60b5b440cc2e",
-      "_tpl": "69f0eb8c02bba0856602897e",
-      "parentId": "69ff7175420f60b5b440cc27",
-      "slotId": "mod_muzzle"
-    },
-    {
-      "_id": "69ff7175420f60b5b440cc2f",
-      "_tpl": "626becf9582c3e319310b837",
-      "parentId": "69ff7175420f60b5b440cc29",
-      "slotId": "mod_tactical",
-      "upd": {
-        "SpawnedInSession": true,
-        "Light": {
-          "IsActive": true,
-          "SelectedMode": 0
-        }
-      }
-    },
-    {
-      "_id": "69ff7175420f60b5b440cc30",
-      "_tpl": "588226dd24597767ad33f789",
-      "parentId": "69ff7175420f60b5b440cc2b",
-      "slotId": "mod_foregrip",
-      "upd": {
-        "SpawnedInSession": true
-      }
-    },
-    {
-      "_id": "69ff7175420f60b5b440cc31",
-      "_tpl": "58d2912286f7744e27117493",
-      "parentId": "69ff7175420f60b5b440cc24",
-      "slotId": "mod_stock",
-      "upd": {
-        "SpawnedInSession": true
-      }
-    }
+          {
+            "_id": "69ff7175420f60b5b440cc1b",
+            "_tpl": "5a339805c4a2826c6e06d73d",
+            "parentId": "69ff7178420f60b5b440cc32",
+            "slotId": "mod_pistol_grip",
+            "upd": {
+              "SpawnedInSession": true
+            }
+          },
+          {
+            "_id": "69ff7175420f60b5b440cc1c",
+            "_tpl": "69f058abe6c9802225abaf21",
+            "parentId": "69ff7178420f60b5b440cc32",
+            "slotId": "mod_magazine",
+            "upd": {
+              "SpawnedInSession": true
+            }
+          },
+          {
+            "_id": "69ff7175420f60b5b440cc1d",
+            "_tpl": "69fcbf779ea8940faa793551",
+            "parentId": "69ff7178420f60b5b440cc32",
+            "slotId": "mod_reciever"
+          },
+          {
+            "_id": "69ff7175420f60b5b440cc1e",
+            "_tpl": "69fccb4b144b3ba3fde464bd",
+            "parentId": "69ff7178420f60b5b440cc32",
+            "slotId": "mod_stock"
+          },
+          {
+            "_id": "69ff7175420f60b5b440cc1f",
+            "_tpl": "5ea16d4d5aad6446a939753d",
+            "parentId": "69ff7178420f60b5b440cc32",
+            "slotId": "mod_charge",
+            "upd": {
+              "SpawnedInSession": true
+            }
+          },
+          {
+            "_id": "69ff7175420f60b5b440cc20",
+            "_tpl": "618bab21526131765025ab3f",
+            "parentId": "69ff7175420f60b5b440cc1d",
+            "slotId": "mod_scope",
+            "upd": {
+              "SpawnedInSession": true
+            }
+          },
+          {
+            "_id": "69ff7175420f60b5b440cc21",
+            "_tpl": "63d3ce0446bd475bcb50f55f",
+            "parentId": "69ff7175420f60b5b440cc1d",
+            "slotId": "mod_barrel",
+            "upd": {
+              "SpawnedInSession": true
+            }
+          },
+          {
+            "_id": "69ff7175420f60b5b440cc22",
+            "_tpl": "69fcd2dc03d8476407fb7ec0",
+            "parentId": "69ff7175420f60b5b440cc1d",
+            "slotId": "mod_handguard"
+          },
+          {
+            "_id": "69ff7175420f60b5b440cc23",
+            "_tpl": "5c18b9192e2216398b5a8104",
+            "parentId": "69ff7175420f60b5b440cc1d",
+            "slotId": "mod_sight_rear",
+            "upd": {
+              "SpawnedInSession": true,
+              "Sight": {
+                "ScopesCurrentCalibPointIndexes": [
+                  0
+                ],
+                "ScopesSelectedModes": [
+                  0
+                ],
+                "SelectedScope": 0,
+                "ScopeZoomValue": 0
+              }
+            }
+          },
+          {
+            "_id": "69ff7175420f60b5b440cc24",
+            "_tpl": "58d2946386f774496974c37e",
+            "parentId": "69ff7175420f60b5b440cc1e",
+            "slotId": "mod_stock_000",
+            "upd": {
+              "SpawnedInSession": true
+            }
+          },
+          {
+            "_id": "69ff7175420f60b5b440cc25",
+            "_tpl": "69fc2eed42c2198ea9ca68de",
+            "parentId": "69ff7175420f60b5b440cc20",
+            "slotId": "mod_scope",
+            "upd": {
+              "SpawnedInSession": true,
+              "Sight": {
+                "ScopesCurrentCalibPointIndexes": [
+                  0
+                ],
+                "ScopesSelectedModes": [
+                  0
+                ],
+                "SelectedScope": 0,
+                "ScopeZoomValue": 0
+              }
+            }
+          },
+          {
+            "_id": "69ff7175420f60b5b440cc26",
+            "_tpl": "618ba92152ecee1505530bd3",
+            "parentId": "69ff7175420f60b5b440cc20",
+            "slotId": "mod_mount",
+            "upd": {
+              "SpawnedInSession": true
+            }
+          },
+          {
+            "_id": "69ff7175420f60b5b440cc27",
+            "_tpl": "6386120cd6baa055ad1e201c",
+            "parentId": "69ff7175420f60b5b440cc21",
+            "slotId": "mod_muzzle",
+            "upd": {
+              "SpawnedInSession": true
+            }
+          },
+          {
+            "_id": "69ff7175420f60b5b440cc28",
+            "_tpl": "63d3ce281fe77d0f2801859e",
+            "parentId": "69ff7175420f60b5b440cc21",
+            "slotId": "mod_gas_block",
+            "upd": {
+              "SpawnedInSession": true
+            }
+          },
+          {
+            "_id": "69ff7175420f60b5b440cc29",
+            "_tpl": "669a6a4a525be1d2d004b8eb",
+            "parentId": "69ff7175420f60b5b440cc22",
+            "slotId": "mod_mount_000",
+            "upd": {
+              "SpawnedInSession": true
+            }
+          },
+          {
+            "_id": "69ff7175420f60b5b440cc2a",
+            "_tpl": "544909bb4bdc2d6f028b4577",
+            "parentId": "69ff7175420f60b5b440cc22",
+            "slotId": "mod_tactical_000",
+            "upd": {
+              "SpawnedInSession": true,
+              "Light": {
+                "IsActive": true,
+                "SelectedMode": 0
+              }
+            }
+          },
+          {
+            "_id": "69ff7175420f60b5b440cc2b",
+            "_tpl": "5b7be4895acfc400170e2dd5",
+            "parentId": "69ff7175420f60b5b440cc22",
+            "slotId": "mod_foregrip",
+            "upd": {
+              "SpawnedInSession": true
+            }
+          },
+          {
+            "_id": "69ff7175420f60b5b440cc2c",
+            "_tpl": "5c18b90d2e2216152142466b",
+            "parentId": "69ff7175420f60b5b440cc22",
+            "slotId": "mod_sight_front",
+            "upd": {
+              "SpawnedInSession": true,
+              "Sight": {
+                "ScopesCurrentCalibPointIndexes": [
+                  0
+                ],
+                "ScopesSelectedModes": [
+                  0
+                ],
+                "SelectedScope": 0,
+                "ScopeZoomValue": 0
+              }
+            }
+          },
+          {
+            "_id": "69ff7175420f60b5b440cc2d",
+            "_tpl": "688b4bd81cef2a61d0052738",
+            "parentId": "69ff7175420f60b5b440cc26",
+            "slotId": "mod_scope",
+            "upd": {
+              "SpawnedInSession": true,
+              "Sight": {
+                "ScopesCurrentCalibPointIndexes": [
+                  0
+                ],
+                "ScopesSelectedModes": [
+                  0
+                ],
+                "SelectedScope": 0,
+                "ScopeZoomValue": 0
+              }
+            }
+          },
+          {
+            "_id": "69ff7175420f60b5b440cc2e",
+            "_tpl": "69f0eb8c02bba0856602897e",
+            "parentId": "69ff7175420f60b5b440cc27",
+            "slotId": "mod_muzzle"
+          },
+          {
+            "_id": "69ff7175420f60b5b440cc2f",
+            "_tpl": "626becf9582c3e319310b837",
+            "parentId": "69ff7175420f60b5b440cc29",
+            "slotId": "mod_tactical",
+            "upd": {
+              "SpawnedInSession": true,
+              "Light": {
+                "IsActive": true,
+                "SelectedMode": 0
+              }
+            }
+          },
+          {
+            "_id": "69ff7175420f60b5b440cc30",
+            "_tpl": "588226dd24597767ad33f789",
+            "parentId": "69ff7175420f60b5b440cc2b",
+            "slotId": "mod_foregrip",
+            "upd": {
+              "SpawnedInSession": true
+            }
+          },
+          {
+            "_id": "69ff7175420f60b5b440cc31",
+            "_tpl": "58d2912286f7744e27117493",
+            "parentId": "69ff7175420f60b5b440cc24",
+            "slotId": "mod_stock",
+            "upd": {
+              "SpawnedInSession": true
+            }
+          }
         ],
         "_encyclopedia": "69fca77d3a0b02c8aec59eb4"
       }
     ],
-
     "locales": {
       "en": {
         "name": "ISB Modified Colt M4A1 5.56x45 Assault Rifle (FDE)",
@@ -333,27 +303,27 @@
         "shortName": "M4A1 da ISB",
         "description": "Uma variante modificada da carabina Colt M4A1, adaptada pela ISB SOF para uso em operações especiais de alta intensidade. Esta versão substitui diversos componentes padrão por peças otimizadas, incluindo um sistema de gases reajustado, conjunto de ferrolho aprimorado e componentes internos reforçados, resultando em uma cadência de tiro superior sem comprometer a confiabilidade da plataforma."
       }
-    
     },
-
     "fleaPriceRoubles": 149800,
-
     "handbookPriceRoubles": 906700,
-
     "addtoBots": false,
-
+    "masteries": true,
+    "masterySections": [
+      {
+        "Level2": 1600,
+        "Level3": 2000,
+        "Name": "M4",
+        "Templates": [
+          "69fca77d3a0b02c8aec59eb4"
+        ]
+      }
+    ],
     "CanSellOnRagfair": false,
-
     "IsAlwaysAvailableForInsurance": false,
-
     "InsuranceDisabled": true,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",
@@ -362,23 +332,16 @@
     ]
   },
   "69fcbf779ea8940faa793551": {
-
     "itemTplToClone": "55d355e64bdc2d962f8b4569",
     "parentId": "55818a304bdc2db5418b457d",
     "handbookParentId": "5b5f764186f77447ec5d7714",
-
-
     "overrideProperties": {
-      "QuestItem": false,
       "BackgroundColor": "yellow",
-      "IsUnsaleable": false,
       "InsuranceDisabled": true,
-      "Durability": 100,
       "Ergonomics": 9,
       "HeatFactor": 1.02,
       "Recoil": -5,
       "Accuracy": 1,
-
       "Slots": [
         {
           "_id": "69fcbfcb792fc6431e187289",
@@ -479,13 +442,13 @@
             "filters": [
               {
                 "Filter": [
-                "55d35ee94bdc2d61338b4568",
-                "55d3632e4bdc2d972f8b4569",
-                "5d440b93a4b9364276578d4b",
-                "5d440b9fa4b93601354d480c",
-                "5c0e2f94d174af029f650d56",
-                "63d3ce0446bd475bcb50f55f",
-                "63d3d44a2a49307baf09386d"
+                  "55d35ee94bdc2d61338b4568",
+                  "55d3632e4bdc2d972f8b4569",
+                  "5d440b93a4b9364276578d4b",
+                  "5d440b9fa4b93601354d480c",
+                  "5c0e2f94d174af029f650d56",
+                  "63d3ce0446bd475bcb50f55f",
+                  "63d3d44a2a49307baf09386d"
                 ],
                 "Shift": 0
               }
@@ -503,43 +466,43 @@
             "filters": [
               {
                 "Filter": [
-                "5c0e2f5cd174af02a012cfc9",
-                "619b5db699fb192e7430664f",
-                "5b2cfa535acfc432ff4db7a0",
-                "5ae30db85acfc408fb139a05",
-                "5c9a25172e2216000f20314e",
-                "55f84c3c4bdc2d5f408b4576",
-                "588b56d02459771481110ae2",
-                "5c9a26332e2216001219ea70",
-                "5ea16ada09aa976f2e7a51be",
-                "69fcd2dc03d8476407fb7ec0",
-                "5ea16acdfadf1d18c87b0784",
-                "55d459824bdc2d892f8b4573",
-                "5d122e7bd7ad1a07102d6d7f",
-                "5d123102d7ad1a004e475fe5",
-                "5d4405f0a4b9361e6a4e6bd9",
-                "5c78f2792e221600106f4683",
-                "5c78f26f2e221601da3581d1",
-                "5c78f2492e221600114c9f04",
-                "5c78f2612e221600114c9f0d",
-                "6034e3e20ddce744014cb878",
-                "6034e3d953a60014f970617b",
-                "6034e3cb0ddce744014cb870",
-                "5c6d5d8b2e221644fc630b39",
-                "5d00e0cbd7ad1a6c6566a42d",
-                "5d00f63bd7ad1a59283b1c1e",
-                "6087e0336d0bd7580617bb7a",
-                "595cfa8b86f77427437e845b",
-                "595cf16b86f77427440c32e2",
-                "63888bbd28e5cc32cc09d2b6",
-                "63f4ba71f31d4a33b87bd046",
-                "640b20359ab20e15ee445fa9",
-                "647de824196bf69818044c93",
-                "68c1707983e2d814b0093f7e",
-                "68c170e383e2d814b0093f87",
-                "68caac360bfe742288085e16",
-                "68caac28f42a4476cf0be2ac",
-                "68cc2ae66e59cb54f4054f47"
+                  "5c0e2f5cd174af02a012cfc9",
+                  "619b5db699fb192e7430664f",
+                  "5b2cfa535acfc432ff4db7a0",
+                  "5ae30db85acfc408fb139a05",
+                  "5c9a25172e2216000f20314e",
+                  "55f84c3c4bdc2d5f408b4576",
+                  "588b56d02459771481110ae2",
+                  "5c9a26332e2216001219ea70",
+                  "5ea16ada09aa976f2e7a51be",
+                  "69fcd2dc03d8476407fb7ec0",
+                  "5ea16acdfadf1d18c87b0784",
+                  "55d459824bdc2d892f8b4573",
+                  "5d122e7bd7ad1a07102d6d7f",
+                  "5d123102d7ad1a004e475fe5",
+                  "5d4405f0a4b9361e6a4e6bd9",
+                  "5c78f2792e221600106f4683",
+                  "5c78f26f2e221601da3581d1",
+                  "5c78f2492e221600114c9f04",
+                  "5c78f2612e221600114c9f0d",
+                  "6034e3e20ddce744014cb878",
+                  "6034e3d953a60014f970617b",
+                  "6034e3cb0ddce744014cb870",
+                  "5c6d5d8b2e221644fc630b39",
+                  "5d00e0cbd7ad1a6c6566a42d",
+                  "5d00f63bd7ad1a59283b1c1e",
+                  "6087e0336d0bd7580617bb7a",
+                  "595cfa8b86f77427437e845b",
+                  "595cf16b86f77427440c32e2",
+                  "63888bbd28e5cc32cc09d2b6",
+                  "63f4ba71f31d4a33b87bd046",
+                  "640b20359ab20e15ee445fa9",
+                  "647de824196bf69818044c93",
+                  "68c1707983e2d814b0093f7e",
+                  "68c170e383e2d814b0093f87",
+                  "68caac360bfe742288085e16",
+                  "68caac28f42a4476cf0be2ac",
+                  "68cc2ae66e59cb54f4054f47"
                 ],
                 "Shift": 0
               }
@@ -578,25 +541,13 @@
           "_required": false
         }
       ],
-
       "Prefab": {
-
         "path": "aishiweapons/weapon_isbm4a1_RECI_fde.bundle",
         "rcid": ""
       },
-
-
-      "Width": 2,
-      "Height": 1,
-
-
       "Weight": 1.0,
-
-
-      "Grids": [
-      ]
+      "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "Modified M4A1 5.56x45 upper receiver (FDE)",
@@ -609,35 +560,24 @@
         "description": "Um receptor superior para o fuzil de assalto M4A1 fabricado pela Colt. Equipado com um suporte para a fixação de dispositivos adicionais. Uma versão modificada projetada para oferecer maior estabilidade, melhor controle do recuo e equilíbrio ergonômico quando combinada com outras modificações. Versão FDE"
       }
     },
-
     "fleaPriceRoubles": 89202,
-
     "handbookPriceRoubles": 8592,
-
     "addtoBots": true,
-
     "IsAlwaysAvailableForInsurance": false,
-
     "InsuranceDisabled": true,
-
     "CanSellOnRagfair": false,
-
     "ExaminedByDefault": true,
-
-    "PushToFleaBlacklist": true,    
-
+    "PushToFleaBlacklist": true,
     "addtoModSlots": true,
     "modSlot": [
       "mod_reciever"
     ],
-
     "staticLootContainers": [
       {
         "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
         "probability": 200
       }
     ],
-
     "StaticLootContainers": [
       {
         "ContainerName": "",
@@ -646,84 +586,70 @@
     ]
   },
   "69fccb4b144b3ba3fde464bd": {
-
     "itemTplToClone": "638de3603a1a4031d8260b8c",
     "parentId": "55818a594bdc2db9688b456a",
     "handbookParentId": "5b5f757486f774093e6cb507",
-
-
-    "overrideProperties": { 
-        "ExaminedByDefault": true,
-        "IsUnsaleable": true,
-        "IsUnbuyable": true,  
-        "InsuranceDisabled": true,
-        "BackgroundColor": "yellow",
-        "Ergonomics": 3,
-        "Recoil": -3,
-        "Accuracy": 3,
-        "CanPutIntoDuringTheRaid": true,
-        "Slots": [
-      {
-        "_name": "mod_stock_000",
-        "_id": "69fccb7f9d1ce042eb5c40b3",
-        "_parent": "69fccb4b144b3ba3fde464bd",
-        "_props": {
-          "filters": [
-            {
-              "Filter": [
-                "5fc2369685fd526b824a5713",
-                "606587d11246154cad35d635",
-                "602e620f9b513876d4338d9a",
-                "5a9eb32da2750c00171b3f9c",
-                "5bfe86df0db834001b734685",
-                "55d4ae6c4bdc2d8b2f8b456e",
-                "5c87a07c2e2216001219d4a2",
-                "5bb20e70d4351e0035629f8f",
-                "5beec8c20db834001d2c465c",
-                "5ae30c9a5acfc408fb139a03",
-                "5d135e83d7ad1a21b83f42d8",
-                "5d135ecbd7ad1a21c176542e",
-                "56eabf3bd2720b75698b4569",
-                "58d2946386f774496974c37e",
-                "58d2946c86f7744e271174b5",
-                "58d2947686f774485c6a1ee5",
-                "58d2947e86f77447aa070d53",
-                "5d44069ca4b9361ebd26fc37",
-                "5d4406a8a4b9361e4f6eb8b7",
-                "5947c73886f7747701588af5",
-                "5c793fde2e221601da358614",
-                "5b39f8db5acfc40016387a1b",
-                "628a85ee6b1d481ff772e9d5",
-                "5fbbaa86f9986c4cff3fe5f6",
-                "5fce16961f152d4312622bc9",
-                "6516e91f609aaf354b34b3e2",
-                "6516e971a3d4c6497930b450",
-                "6529370c405a5f51dd023db8"
-              ],
-              "Shift": 0
-            }
-          ]
-        },
-        "_required": false,
-        "_mergeSlotWithChildren": false,
-        "_proto": "69fccb852b1cce23a1600707"
-      }
-    ],
-
+    "overrideProperties": {
+      "IsUnsaleable": true,
+      "IsUnbuyable": true,
+      "InsuranceDisabled": true,
+      "BackgroundColor": "yellow",
+      "Ergonomics": 3,
+      "Recoil": -3,
+      "Accuracy": 3,
+      "Slots": [
+        {
+          "_name": "mod_stock_000",
+          "_id": "69fccb7f9d1ce042eb5c40b3",
+          "_parent": "69fccb4b144b3ba3fde464bd",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5fc2369685fd526b824a5713",
+                  "606587d11246154cad35d635",
+                  "602e620f9b513876d4338d9a",
+                  "5a9eb32da2750c00171b3f9c",
+                  "5bfe86df0db834001b734685",
+                  "55d4ae6c4bdc2d8b2f8b456e",
+                  "5c87a07c2e2216001219d4a2",
+                  "5bb20e70d4351e0035629f8f",
+                  "5beec8c20db834001d2c465c",
+                  "5ae30c9a5acfc408fb139a03",
+                  "5d135e83d7ad1a21b83f42d8",
+                  "5d135ecbd7ad1a21c176542e",
+                  "56eabf3bd2720b75698b4569",
+                  "58d2946386f774496974c37e",
+                  "58d2946c86f7744e271174b5",
+                  "58d2947686f774485c6a1ee5",
+                  "58d2947e86f77447aa070d53",
+                  "5d44069ca4b9361ebd26fc37",
+                  "5d4406a8a4b9361e4f6eb8b7",
+                  "5947c73886f7747701588af5",
+                  "5c793fde2e221601da358614",
+                  "5b39f8db5acfc40016387a1b",
+                  "628a85ee6b1d481ff772e9d5",
+                  "5fbbaa86f9986c4cff3fe5f6",
+                  "5fce16961f152d4312622bc9",
+                  "6516e91f609aaf354b34b3e2",
+                  "6516e971a3d4c6497930b450",
+                  "6529370c405a5f51dd023db8"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "69fccb852b1cce23a1600707"
+        }
+      ],
       "Prefab": {
-
         "path": "aishiweapons/weapon_isbm4a1_TUBE_fde.bundle",
         "rcid": ""
       },
-
-
-      "Width": 2,
-      "Height": 1,
       "Weight": 0.18
     },
-
-
-
     "locales": {
       "en": {
         "name": "Modified AR-15 RTM ATP buffer tube (FDE)",
@@ -735,33 +661,20 @@
         "shortName": "ATP",
         "description": "O tubo de tampão de ATP modificado, com 6 posições e diâmetro conforme especificações militares, é compatível com qualquer carabina baseada no AR-15. Fabricado pela RTM."
       }
-    
     },
-
     "fleaPriceRoubles": 54755,
-
     "handbookPriceRoubles": 24755,
-
     "addtoBots": true,
-
     "addtoModSlots": true,
-
     "IsAlwaysAvailableForInsurance": false,
-
     "InsuranceDisabled": true,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": false, 
-    
+    "addtoItemBlacklist": false,
     "modSlot": [
       "mod_stock"
     ],
-
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",
@@ -770,201 +683,186 @@
     ]
   },
   "69fcd2dc03d8476407fb7ec0": {
-
     "itemTplToClone": "5ea16ada09aa976f2e7a51be",
     "parentId": "55818a104bdc2db9688b4569",
     "handbookParentId": "5b5f75e486f77447ec5d7712",
-
-
-    "overrideProperties": { 
-        "ExaminedByDefault": true,
-        "InsuranceDisabled": true,
-        "IsUnsaleable": true,
-        "BackgroundColor": "yellow",
-        "IsUnbuyable": true,  
-        "Ergonomics": 12,
-        "HeatFactor": 0.905,
-        "CoolFactor": 1.000,
-        "Recoil": -2.5,
-        "CanPutIntoDuringTheRaid": true,
-
-
-    "Slots": [
-      {
-        "_name": "mod_mount_000",
-        "_id": "69fcd32ef0537a4c0cf7bf97",
-        "_parent": "69fcd2dc03d8476407fb7ec0",
-        "_props": {
-          "filters": [
-            {
-              "Filter": [
-                "5b7be47f5acfc400170e2dd2",
-                "6269220d70b6c02e665f2635",
-                "6269545d0e57f218e4548ca2",
-                "669a6a4a525be1d2d004b8eb"
-              ],
-              "Shift": 0
-            }
-          ]
+    "overrideProperties": {
+      "InsuranceDisabled": true,
+      "IsUnsaleable": true,
+      "BackgroundColor": "yellow",
+      "IsUnbuyable": true,
+      "Ergonomics": 12,
+      "HeatFactor": 0.905,
+      "CoolFactor": 1.0,
+      "Recoil": -2.5,
+      "Slots": [
+        {
+          "_name": "mod_mount_000",
+          "_id": "69fcd32ef0537a4c0cf7bf97",
+          "_parent": "69fcd2dc03d8476407fb7ec0",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5b7be47f5acfc400170e2dd2",
+                  "6269220d70b6c02e665f2635",
+                  "6269545d0e57f218e4548ca2",
+                  "669a6a4a525be1d2d004b8eb"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "69fcd34221c8415b5415b723"
         },
-        "_required": false,
-        "_mergeSlotWithChildren": false,
-        "_proto": "69fcd34221c8415b5415b723"
-      },
-      {
-        "_name": "mod_mount_001",
-        "_id": "69fcd330117091c85ea4b33b",
-        "_parent": "69fcd2dc03d8476407fb7ec0",
-        "_props": {
-          "filters": [
-            {
-              "Filter": [
-                "5b7be47f5acfc400170e2dd2",
-                "6269220d70b6c02e665f2635",
-                "6269545d0e57f218e4548ca2",
-                "669a6a4a525be1d2d004b8eb"
-              ],
-              "Shift": 0
-            }
-          ]
+        {
+          "_name": "mod_mount_001",
+          "_id": "69fcd330117091c85ea4b33b",
+          "_parent": "69fcd2dc03d8476407fb7ec0",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5b7be47f5acfc400170e2dd2",
+                  "6269220d70b6c02e665f2635",
+                  "6269545d0e57f218e4548ca2",
+                  "669a6a4a525be1d2d004b8eb"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "69fcd34221c8415b5415b723"
         },
-        "_required": false,
-        "_mergeSlotWithChildren": false,
-        "_proto": "69fcd34221c8415b5415b723"
-      },
-      {
-        "_name": "mod_mount_002",
-        "_id": "69fcd3328e5d1f7576534503",
-        "_parent": "69fcd2dc03d8476407fb7ec0",
-        "_props": {
-          "filters": [
-            {
-              "Filter": [
-                "5b7be47f5acfc400170e2dd2",
-                "6269220d70b6c02e665f2635",
-                "6269545d0e57f218e4548ca2",
-                "669a6a4a525be1d2d004b8eb",
-                "671126b049e181972e0681fa"
-              ],
-              "Shift": 0
-            }
-          ]
+        {
+          "_name": "mod_mount_002",
+          "_id": "69fcd3328e5d1f7576534503",
+          "_parent": "69fcd2dc03d8476407fb7ec0",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5b7be47f5acfc400170e2dd2",
+                  "6269220d70b6c02e665f2635",
+                  "6269545d0e57f218e4548ca2",
+                  "669a6a4a525be1d2d004b8eb",
+                  "671126b049e181972e0681fa"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "69fcd34221c8415b5415b723"
         },
-        "_required": false,
-        "_mergeSlotWithChildren": false,
-        "_proto": "69fcd34221c8415b5415b723"
-      },
-      {
-        "_name": "mod_tactical_000",
-        "_id": "69fcd33535a9cc0bad761b17",
-        "_parent": "69fcd2dc03d8476407fb7ec0",
-        "_props": {
-          "filters": [
-            {
-              "Filter": [
-                "57fd23e32459772d0805bcf1",
-                "544909bb4bdc2d6f028b4577",
-                "5d10b49bd7ad1a1a560708b0",
-                "5c06595c0db834001a66af6c",
-                "5a7b483fe899ef0016170d15",
-                "61605d88ffa6e502ac5e7eeb",
-                "5c5952732e2216398b5abda2",
-                "644a3df63b0b6f03e101e065"
-              ],
-              "Shift": 0
-            }
-          ]
+        {
+          "_name": "mod_tactical_000",
+          "_id": "69fcd33535a9cc0bad761b17",
+          "_parent": "69fcd2dc03d8476407fb7ec0",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "57fd23e32459772d0805bcf1",
+                  "544909bb4bdc2d6f028b4577",
+                  "5d10b49bd7ad1a1a560708b0",
+                  "5c06595c0db834001a66af6c",
+                  "5a7b483fe899ef0016170d15",
+                  "61605d88ffa6e502ac5e7eeb",
+                  "5c5952732e2216398b5abda2",
+                  "644a3df63b0b6f03e101e065"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "69fcd34221c8415b5415b723"
         },
-        "_required": false,
-        "_mergeSlotWithChildren": false,
-        "_proto": "69fcd34221c8415b5415b723"
-      },
-      {
-        "_name": "mod_scope",
-        "_id": "69fcd33720eb757076d80bae",
-        "_parent": "69fcd2dc03d8476407fb7ec0",
-        "_props": {
-          "filters": [
-            {
-              "Filter": [
-                "5649a2464bdc2d91118b45a8"
-              ],
-              "Shift": 0
-            }
-          ]
+        {
+          "_name": "mod_scope",
+          "_id": "69fcd33720eb757076d80bae",
+          "_parent": "69fcd2dc03d8476407fb7ec0",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5649a2464bdc2d91118b45a8"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "69fcd34221c8415b5415b723"
         },
-        "_required": false,
-        "_mergeSlotWithChildren": false,
-        "_proto": "69fcd34221c8415b5415b723"
-      },
-      {
-        "_name": "mod_foregrip",
-        "_id": "69fcd33aca66b5f25beaa9df",
-        "_parent": "69fcd2dc03d8476407fb7ec0",
-        "_props": {
-          "filters": [
-            {
-              "Filter": [
-                "57cffb66245977632f391a99",
-                "57cffcd624597763133760c5",
-                "57cffcdd24597763f5110006",
-                "57cffce524597763b31685d8",
-                "5b7be4895acfc400170e2dd5",
-                "651a8bf3a8520e48047bf708",
-                "651a8e529829226ceb67c319",
-                "665d5d9e338229cfd6078da1",
-                "665edce564fb556f940ab32a"
-              ],
-              "Shift": 0
-            }
-          ]
+        {
+          "_name": "mod_foregrip",
+          "_id": "69fcd33aca66b5f25beaa9df",
+          "_parent": "69fcd2dc03d8476407fb7ec0",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "57cffb66245977632f391a99",
+                  "57cffcd624597763133760c5",
+                  "57cffcdd24597763f5110006",
+                  "57cffce524597763b31685d8",
+                  "5b7be4895acfc400170e2dd5",
+                  "651a8bf3a8520e48047bf708",
+                  "651a8e529829226ceb67c319",
+                  "665d5d9e338229cfd6078da1",
+                  "665edce564fb556f940ab32a"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "69fcd34221c8415b5415b723"
         },
-        "_required": false,
-        "_mergeSlotWithChildren": false,
-        "_proto": "69fcd34221c8415b5415b723"
-      },
-      {
-        "_name": "mod_sight_front",
-        "_id": "69fcd33d50830d708ee69989",
-        "_parent": "69fcd2dc03d8476407fb7ec0",
-        "_props": {
-          "filters": [
-            {
-              "Filter": [
-                "5ba26b01d4351e0085325a51",
-                "5dfa3d950dee1b22f862eae0",
-                "5c17804b2e2216152006c02f",
-                "5fb6567747ce63734e3fa1dc",
-                "5bc09a30d4351e00367fb7c8",
-                "5c18b90d2e2216152142466b",
-                "5fc0fa362770a0045c59c677",
-                "5894a73486f77426d259076c",
-                "55d4af3a4bdc2d972f8b456f"
-              ],
-              "Shift": 0
-            }
-          ]
-        },
-        "_required": false,
-        "_mergeSlotWithChildren": false,
-        "_proto": "69fcd34221c8415b5415b723"
-      }
-    ],
-
+        {
+          "_name": "mod_sight_front",
+          "_id": "69fcd33d50830d708ee69989",
+          "_parent": "69fcd2dc03d8476407fb7ec0",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ba26b01d4351e0085325a51",
+                  "5dfa3d950dee1b22f862eae0",
+                  "5c17804b2e2216152006c02f",
+                  "5fb6567747ce63734e3fa1dc",
+                  "5bc09a30d4351e00367fb7c8",
+                  "5c18b90d2e2216152142466b",
+                  "5fc0fa362770a0045c59c677",
+                  "5894a73486f77426d259076c",
+                  "55d4af3a4bdc2d972f8b456f"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "69fcd34221c8415b5415b723"
+        }
+      ],
       "Prefab": {
-
-        "path": "aishiweapons/weapon_isbm4a1_SMR13_fde.bundle",
+        "path": "aishiweapons/weapon_isbm4a1_SMR13_fde_v2.bundle",
         "rcid": ""
       },
-
-
       "Width": 2,
-      "Height": 1,
       "Weight": 0.18
     },
-
-
-
     "locales": {
       "en": {
         "name": "Modified AR-15 Geissele SMR MK16 13.5 inch M-LOK handguard (FDE)",
@@ -976,33 +874,20 @@
         "shortName": "ATP",
         "description": "O tubo de tampão de ATP modificado, com 6 posições e diâmetro conforme especificações militares, é compatível com qualquer carabina baseada no AR-15. Fabricado pela RTM."
       }
-    
     },
-
     "fleaPriceRoubles": 54755,
-
     "handbookPriceRoubles": 24755,
-
     "addtoBots": true,
-
     "addtoModSlots": true,
-
     "CanSellOnRagfair": false,
-
     "IsAlwaysAvailableForInsurance": false,
-
     "InsuranceDisabled": true,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": false, 
-    
+    "addtoItemBlacklist": false,
     "modSlot": [
       "mod_handguard"
     ],
-
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",

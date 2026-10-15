@@ -1,0 +1,1857 @@
+[
+  {
+    "Key": "54caa064650556708af1dc97",
+    "Kind": "tape",
+    "Name": "SA58/FAL/SLR 7.62x51 30-round magazine (RAL 8000)",
+    "Variants": [
+      {
+        "Label": "Green",
+        "Color": "#32703A",
+        "TagColor": 100
+      },
+      {
+        "Label": "Red",
+        "Color": "#9D262A",
+        "TagColor": 101
+      },
+      {
+        "Label": "Blue",
+        "Color": "#2453A1",
+        "TagColor": 102
+      },
+      {
+        "Label": "Gray",
+        "Color": "#717174",
+        "TagColor": 103
+      },
+      {
+        "Label": "Yellow",
+        "Color": "#C3A01E",
+        "TagColor": 104
+      },
+      {
+        "Label": "Purple",
+        "Color": "#72358F",
+        "TagColor": 105
+      },
+      {
+        "Label": "Brown",
+        "Color": "#70492B",
+        "TagColor": 106
+      },
+      {
+        "Label": "Pink",
+        "Color": "#D05C95",
+        "TagColor": 107
+      },
+      {
+        "Label": "Orange",
+        "Color": "#CF641C",
+        "TagColor": 108
+      }
+    ],
+    "Tape": "6ca8efce63275c0097d30bc3"
+  },
+  {
+    "Key": "5aaa5dfee5b5b000140293d3",
+    "Kind": "tape",
+    "Name": "AR-15 5.56x45 Magpul PMAG 30 GEN M3 STANAG 30-round magazine",
+    "Variants": [
+      {
+        "Label": "Green",
+        "Color": "#32703A",
+        "TagColor": 100
+      },
+      {
+        "Label": "Red",
+        "Color": "#9D262A",
+        "TagColor": 101
+      },
+      {
+        "Label": "Blue",
+        "Color": "#2453A1",
+        "TagColor": 102
+      },
+      {
+        "Label": "Gray",
+        "Color": "#717174",
+        "TagColor": 103
+      },
+      {
+        "Label": "Yellow",
+        "Color": "#C3A01E",
+        "TagColor": 104
+      },
+      {
+        "Label": "Purple",
+        "Color": "#72358F",
+        "TagColor": 105
+      },
+      {
+        "Label": "Brown",
+        "Color": "#70492B",
+        "TagColor": 106
+      },
+      {
+        "Label": "Pink",
+        "Color": "#D05C95",
+        "TagColor": 107
+      },
+      {
+        "Label": "Orange",
+        "Color": "#CF641C",
+        "TagColor": 108
+      }
+    ],
+    "Tape": "85acf87f8ec85bcca32d7eae"
+  },
+  {
+    "Key": "5b7d37845acfc400170e2f87",
+    "Kind": "tape",
+    "Name": "SA58/FAL/SLR 7.62x51 30-round magazine",
+    "Variants": [
+      {
+        "Label": "Green",
+        "Color": "#32703A",
+        "TagColor": 100
+      },
+      {
+        "Label": "Red",
+        "Color": "#9D262A",
+        "TagColor": 101
+      },
+      {
+        "Label": "Blue",
+        "Color": "#2453A1",
+        "TagColor": 102
+      },
+      {
+        "Label": "Gray",
+        "Color": "#717174",
+        "TagColor": 103
+      },
+      {
+        "Label": "Yellow",
+        "Color": "#C3A01E",
+        "TagColor": 104
+      },
+      {
+        "Label": "Purple",
+        "Color": "#72358F",
+        "TagColor": 105
+      },
+      {
+        "Label": "Brown",
+        "Color": "#70492B",
+        "TagColor": 106
+      },
+      {
+        "Label": "Pink",
+        "Color": "#D05C95",
+        "TagColor": 107
+      },
+      {
+        "Label": "Orange",
+        "Color": "#CF641C",
+        "TagColor": 108
+      }
+    ],
+    "Tape": "83bb868f4cd45d7d9883f10a"
+  },
+  {
+    "Key": "7b6273cecf835787aacfeeae",
+    "Kind": "tape",
+    "Name": "AK 7.62x39 FAB Defense Ultimag 30R 30-round magazine (RAL 8000)",
+    "Variants": [
+      {
+        "Label": "Green",
+        "Color": "#32703A",
+        "TagColor": 100
+      },
+      {
+        "Label": "Red",
+        "Color": "#9D262A",
+        "TagColor": 101
+      },
+      {
+        "Label": "Blue",
+        "Color": "#2453A1",
+        "TagColor": 102
+      },
+      {
+        "Label": "Gray",
+        "Color": "#717174",
+        "TagColor": 103
+      },
+      {
+        "Label": "Yellow",
+        "Color": "#C3A01E",
+        "TagColor": 104
+      },
+      {
+        "Label": "Purple",
+        "Color": "#72358F",
+        "TagColor": 105
+      },
+      {
+        "Label": "Brown",
+        "Color": "#70492B",
+        "TagColor": 106
+      },
+      {
+        "Label": "Pink",
+        "Color": "#D05C95",
+        "TagColor": 107
+      },
+      {
+        "Label": "Orange",
+        "Color": "#CF641C",
+        "TagColor": 108
+      }
+    ],
+    "Tape": "fba628b96403501fb066b035"
+  },
+  {
+    "Key": "544a378f4bdc2d30388b4567",
+    "Kind": "tape",
+    "Name": "AR-15 5.56x45 Magpul PMAG 40 GEN M3 STANAG 40-round magazine",
+    "Variants": [
+      {
+        "Label": "Green",
+        "Color": "#579755",
+        "TagColor": 100
+      },
+      {
+        "Label": "Red",
+        "Color": "#BC424F",
+        "TagColor": 101
+      },
+      {
+        "Label": "Blue",
+        "Color": "#467ACA",
+        "TagColor": 102
+      },
+      {
+        "Label": "Gray",
+        "Color": "#929699",
+        "TagColor": 103
+      },
+      {
+        "Label": "Yellow",
+        "Color": "#D7C648",
+        "TagColor": 104
+      },
+      {
+        "Label": "Purple",
+        "Color": "#9D55BE",
+        "TagColor": 105
+      },
+      {
+        "Label": "Brown",
+        "Color": "#70492B",
+        "TagColor": 106
+      },
+      {
+        "Label": "Pink",
+        "Color": "#D05C95",
+        "TagColor": 107
+      },
+      {
+        "Label": "Orange",
+        "Color": "#CF641C",
+        "TagColor": 108
+      }
+    ],
+    "Tape": "93589bf85a5955808cacd285"
+  },
+  {
+    "Key": "544a37c44bdc2d25388b4567",
+    "Kind": "tape",
+    "Name": "AR-15 5.56x45 SureFire MAG5-60 STANAG 60-round magazine",
+    "Variants": [
+      {
+        "Label": "Green",
+        "Color": "#579755",
+        "TagColor": 100
+      },
+      {
+        "Label": "Red",
+        "Color": "#BC424F",
+        "TagColor": 101
+      },
+      {
+        "Label": "Blue",
+        "Color": "#467ACA",
+        "TagColor": 102
+      },
+      {
+        "Label": "Gray",
+        "Color": "#929699",
+        "TagColor": 103
+      },
+      {
+        "Label": "Yellow",
+        "Color": "#D7C648",
+        "TagColor": 104
+      },
+      {
+        "Label": "Purple",
+        "Color": "#9D55BE",
+        "TagColor": 105
+      },
+      {
+        "Label": "Brown",
+        "Color": "#70492B",
+        "TagColor": 106
+      },
+      {
+        "Label": "Pink",
+        "Color": "#D05C95",
+        "TagColor": 107
+      },
+      {
+        "Label": "Orange",
+        "Color": "#CF641C",
+        "TagColor": 108
+      }
+    ],
+    "Tape": "ba0f13da81915cc7b9bc9d7f"
+  },
+  {
+    "Key": "55802d5f4bdc2dac148b458e",
+    "Kind": "tape",
+    "Name": "AR-15 5.56x45 Magpul PMAG 30 GEN M3 W STANAG 30-round magazine",
+    "Variants": [
+      {
+        "Label": "Green",
+        "Color": "#579755",
+        "TagColor": 100
+      },
+      {
+        "Label": "Red",
+        "Color": "#BC424F",
+        "TagColor": 101
+      },
+      {
+        "Label": "Blue",
+        "Color": "#467ACA",
+        "TagColor": 102
+      },
+      {
+        "Label": "Gray",
+        "Color": "#929699",
+        "TagColor": 103
+      },
+      {
+        "Label": "Yellow",
+        "Color": "#D7C648",
+        "TagColor": 104
+      },
+      {
+        "Label": "Purple",
+        "Color": "#9D55BE",
+        "TagColor": 105
+      },
+      {
+        "Label": "Brown",
+        "Color": "#70492B",
+        "TagColor": 106
+      },
+      {
+        "Label": "Pink",
+        "Color": "#D05C95",
+        "TagColor": 107
+      },
+      {
+        "Label": "Orange",
+        "Color": "#CF641C",
+        "TagColor": 108
+      }
+    ],
+    "Tape": "4ef82195fffe5527a881e1d7"
+  },
+  {
+    "Key": "55d481904bdc2d8c2f8b456a",
+    "Kind": "tape",
+    "Name": "AK-74 5.45x39 6L26 45-round magazine",
+    "Variants": [
+      {
+        "Label": "Green",
+        "Color": "#32703A",
+        "TagColor": 100
+      },
+      {
+        "Label": "Red",
+        "Color": "#9D262A",
+        "TagColor": 101
+      },
+      {
+        "Label": "Blue",
+        "Color": "#2453A1",
+        "TagColor": 102
+      },
+      {
+        "Label": "Gray",
+        "Color": "#717174",
+        "TagColor": 103
+      },
+      {
+        "Label": "Yellow",
+        "Color": "#C3A01E",
+        "TagColor": 104
+      },
+      {
+        "Label": "Purple",
+        "Color": "#72358F",
+        "TagColor": 105
+      },
+      {
+        "Label": "Brown",
+        "Color": "#70492B",
+        "TagColor": 106
+      },
+      {
+        "Label": "Pink",
+        "Color": "#D05C95",
+        "TagColor": 107
+      },
+      {
+        "Label": "Orange",
+        "Color": "#CF641C",
+        "TagColor": 108
+      }
+    ],
+    "Tape": "a9faa557e9c259a9b3149f60"
+  },
+  {
+    "Key": "55d482194bdc2d1d4e8b456b",
+    "Kind": "tape",
+    "Name": "AK-74 5.45x39 6L31 60-round magazine",
+    "Variants": [
+      {
+        "Label": "Green",
+        "Color": "#32703A",
+        "TagColor": 100
+      },
+      {
+        "Label": "Red",
+        "Color": "#9D262A",
+        "TagColor": 101
+      },
+      {
+        "Label": "Blue",
+        "Color": "#2453A1",
+        "TagColor": 102
+      },
+      {
+        "Label": "Gray",
+        "Color": "#717174",
+        "TagColor": 103
+      },
+      {
+        "Label": "Yellow",
+        "Color": "#C3A01E",
+        "TagColor": 104
+      },
+      {
+        "Label": "Purple",
+        "Color": "#72358F",
+        "TagColor": 105
+      },
+      {
+        "Label": "Brown",
+        "Color": "#70492B",
+        "TagColor": 106
+      },
+      {
+        "Label": "Pink",
+        "Color": "#D05C95",
+        "TagColor": 107
+      },
+      {
+        "Label": "Orange",
+        "Color": "#CF641C",
+        "TagColor": 108
+      }
+    ],
+    "Tape": "093565ad01cd57a2a54c8303"
+  },
+  {
+    "Key": "59c1383d86f774290a37e0ca",
+    "Kind": "tape",
+    "Name": "AR-15 5.56x45 Magpul PMAG D-60 STANAG 60-round magazine",
+    "Variants": [
+      {
+        "Label": "Green",
+        "Color": "#579755",
+        "TagColor": 100
+      },
+      {
+        "Label": "Red",
+        "Color": "#BC424F",
+        "TagColor": 101
+      },
+      {
+        "Label": "Blue",
+        "Color": "#467ACA",
+        "TagColor": 102
+      },
+      {
+        "Label": "Gray",
+        "Color": "#929699",
+        "TagColor": 103
+      },
+      {
+        "Label": "Yellow",
+        "Color": "#D7C648",
+        "TagColor": 104
+      },
+      {
+        "Label": "Purple",
+        "Color": "#9D55BE",
+        "TagColor": 105
+      },
+      {
+        "Label": "Brown",
+        "Color": "#70492B",
+        "TagColor": 106
+      },
+      {
+        "Label": "Pink",
+        "Color": "#D05C95",
+        "TagColor": 107
+      },
+      {
+        "Label": "Orange",
+        "Color": "#CF641C",
+        "TagColor": 108
+      }
+    ],
+    "Tape": "f98ba8a74bc758cb9465f3b2"
+  },
+  {
+    "Key": "59d6272486f77466146386ff",
+    "Kind": "tape",
+    "Name": "AK 7.62x39 Magpul PMAG 30 GEN M3 30-round magazine",
+    "Variants": [
+      {
+        "Label": "Green",
+        "Color": "#32703A",
+        "TagColor": 100
+      },
+      {
+        "Label": "Red",
+        "Color": "#9D262A",
+        "TagColor": 101
+      },
+      {
+        "Label": "Blue",
+        "Color": "#2453A1",
+        "TagColor": 102
+      },
+      {
+        "Label": "Gray",
+        "Color": "#717174",
+        "TagColor": 103
+      },
+      {
+        "Label": "Yellow",
+        "Color": "#C3A01E",
+        "TagColor": 104
+      },
+      {
+        "Label": "Purple",
+        "Color": "#72358F",
+        "TagColor": 105
+      },
+      {
+        "Label": "Brown",
+        "Color": "#70492B",
+        "TagColor": 106
+      },
+      {
+        "Label": "Pink",
+        "Color": "#D05C95",
+        "TagColor": 107
+      },
+      {
+        "Label": "Orange",
+        "Color": "#CF641C",
+        "TagColor": 108
+      }
+    ],
+    "Tape": "fa281a21c94658059a346a5c"
+  },
+  {
+    "Key": "5a3501acc4a282000d72293a",
+    "Kind": "tape",
+    "Name": "AR-10 7.62x51 Magpul PMAG 20 SR-LR GEN M3 20-round magazine",
+    "Variants": [
+      {
+        "Label": "Green",
+        "Color": "#32703A",
+        "TagColor": 100
+      },
+      {
+        "Label": "Red",
+        "Color": "#9D262A",
+        "TagColor": 101
+      },
+      {
+        "Label": "Blue",
+        "Color": "#2453A1",
+        "TagColor": 102
+      },
+      {
+        "Label": "Gray",
+        "Color": "#717174",
+        "TagColor": 103
+      },
+      {
+        "Label": "Yellow",
+        "Color": "#C3A01E",
+        "TagColor": 104
+      },
+      {
+        "Label": "Purple",
+        "Color": "#72358F",
+        "TagColor": 105
+      },
+      {
+        "Label": "Brown",
+        "Color": "#70492B",
+        "TagColor": 106
+      },
+      {
+        "Label": "Pink",
+        "Color": "#D05C95",
+        "TagColor": 107
+      },
+      {
+        "Label": "Orange",
+        "Color": "#CF641C",
+        "TagColor": 108
+      }
+    ],
+    "Tape": "0eafc344b76f5164bd11eb2f"
+  },
+  {
+    "Key": "5aaa4194e5b5b055d06310a5",
+    "Kind": "tape",
+    "Name": "AK-74 5.45x39 Magpul PMAG 30 GEN M3 30-round magazine",
+    "Variants": [
+      {
+        "Label": "Green",
+        "Color": "#32703A",
+        "TagColor": 100
+      },
+      {
+        "Label": "Red",
+        "Color": "#9D262A",
+        "TagColor": 101
+      },
+      {
+        "Label": "Blue",
+        "Color": "#2453A1",
+        "TagColor": 102
+      },
+      {
+        "Label": "Gray",
+        "Color": "#717174",
+        "TagColor": 103
+      },
+      {
+        "Label": "Yellow",
+        "Color": "#C3A01E",
+        "TagColor": 104
+      },
+      {
+        "Label": "Purple",
+        "Color": "#72358F",
+        "TagColor": 105
+      },
+      {
+        "Label": "Brown",
+        "Color": "#70492B",
+        "TagColor": 106
+      },
+      {
+        "Label": "Pink",
+        "Color": "#D05C95",
+        "TagColor": 107
+      },
+      {
+        "Label": "Orange",
+        "Color": "#CF641C",
+        "TagColor": 108
+      }
+    ],
+    "Tape": "f0f2939ba83d5d47b0eaf275"
+  },
+  {
+    "Key": "5c6d450c2e221600114c997d",
+    "Kind": "tape",
+    "Name": "AR-15 5.56x45 HK PM Gen.2 STANAG 30-round magazine",
+    "Variants": [
+      {
+        "Label": "Green",
+        "Color": "#32703A",
+        "TagColor": 100
+      },
+      {
+        "Label": "Red",
+        "Color": "#9D262A",
+        "TagColor": 101
+      },
+      {
+        "Label": "Blue",
+        "Color": "#2453A1",
+        "TagColor": 102
+      },
+      {
+        "Label": "Gray",
+        "Color": "#717174",
+        "TagColor": 103
+      },
+      {
+        "Label": "Yellow",
+        "Color": "#C3A01E",
+        "TagColor": 104
+      },
+      {
+        "Label": "Purple",
+        "Color": "#72358F",
+        "TagColor": 105
+      },
+      {
+        "Label": "Brown",
+        "Color": "#70492B",
+        "TagColor": 106
+      },
+      {
+        "Label": "Pink",
+        "Color": "#D05C95",
+        "TagColor": 107
+      },
+      {
+        "Label": "Orange",
+        "Color": "#CF641C",
+        "TagColor": 108
+      }
+    ],
+    "Tape": "cc3e263b11465058a0f4d1fa"
+  },
+  {
+    "Key": "5c6d46132e221601da357d56",
+    "Kind": "tape",
+    "Name": "AR-15 5.56x45 TROY BattleMag STANAG 30-round magazine",
+    "Variants": [
+      {
+        "Label": "Green",
+        "Color": "#32703A",
+        "TagColor": 100
+      },
+      {
+        "Label": "Red",
+        "Color": "#9D262A",
+        "TagColor": 101
+      },
+      {
+        "Label": "Blue",
+        "Color": "#2453A1",
+        "TagColor": 102
+      },
+      {
+        "Label": "Gray",
+        "Color": "#717174",
+        "TagColor": 103
+      },
+      {
+        "Label": "Yellow",
+        "Color": "#C3A01E",
+        "TagColor": 104
+      },
+      {
+        "Label": "Purple",
+        "Color": "#72358F",
+        "TagColor": 105
+      },
+      {
+        "Label": "Brown",
+        "Color": "#70492B",
+        "TagColor": 106
+      },
+      {
+        "Label": "Pink",
+        "Color": "#D05C95",
+        "TagColor": 107
+      },
+      {
+        "Label": "Orange",
+        "Color": "#CF641C",
+        "TagColor": 108
+      }
+    ],
+    "Tape": "cc4aa5e8aed95c5d93329cb1"
+  },
+  {
+    "Key": "5cfe8010d7ad1a59283b14c6",
+    "Kind": "tape",
+    "Name": "AK 7.62x39 X Products X-47 50-round drum magazine",
+    "Variants": [
+      {
+        "Label": "Green",
+        "Color": "#32703A",
+        "TagColor": 100
+      },
+      {
+        "Label": "Red",
+        "Color": "#9D262A",
+        "TagColor": 101
+      },
+      {
+        "Label": "Blue",
+        "Color": "#2453A1",
+        "TagColor": 102
+      },
+      {
+        "Label": "Gray",
+        "Color": "#717174",
+        "TagColor": 103
+      },
+      {
+        "Label": "Yellow",
+        "Color": "#C3A01E",
+        "TagColor": 104
+      },
+      {
+        "Label": "Purple",
+        "Color": "#72358F",
+        "TagColor": 105
+      },
+      {
+        "Label": "Brown",
+        "Color": "#70492B",
+        "TagColor": 106
+      },
+      {
+        "Label": "Pink",
+        "Color": "#D05C95",
+        "TagColor": 107
+      },
+      {
+        "Label": "Orange",
+        "Color": "#CF641C",
+        "TagColor": 108
+      }
+    ],
+    "Tape": "13c35a79db1c598ab36c876e"
+  },
+  {
+    "Key": "5d1340cad7ad1a0b0b249869",
+    "Kind": "tape",
+    "Name": "AR-15 5.56x45 Magpul PMAG 30 GEN M3 W STANAG 30-round magazine (FDE)",
+    "Variants": [
+      {
+        "Label": "Green",
+        "Color": "#579755",
+        "TagColor": 100
+      },
+      {
+        "Label": "Red",
+        "Color": "#BC424F",
+        "TagColor": 101
+      },
+      {
+        "Label": "Blue",
+        "Color": "#467ACA",
+        "TagColor": 102
+      },
+      {
+        "Label": "Gray",
+        "Color": "#929699",
+        "TagColor": 103
+      },
+      {
+        "Label": "Yellow",
+        "Color": "#D7C648",
+        "TagColor": 104
+      },
+      {
+        "Label": "Purple",
+        "Color": "#9D55BE",
+        "TagColor": 105
+      },
+      {
+        "Label": "Brown",
+        "Color": "#70492B",
+        "TagColor": 106
+      },
+      {
+        "Label": "Pink",
+        "Color": "#D05C95",
+        "TagColor": 107
+      },
+      {
+        "Label": "Orange",
+        "Color": "#CF641C",
+        "TagColor": 108
+      }
+    ],
+    "Tape": "af5c9c35e78e5867a21807be"
+  },
+  {
+    "Key": "6272874a6c47bd74f92e2087",
+    "Kind": "tape",
+    "Name": "AK 7.62x39 FAB Defense Ultimag 30R 30-round magazine",
+    "Variants": [
+      {
+        "Label": "Green",
+        "Color": "#32703A",
+        "TagColor": 100
+      },
+      {
+        "Label": "Red",
+        "Color": "#9D262A",
+        "TagColor": 101
+      },
+      {
+        "Label": "Blue",
+        "Color": "#2453A1",
+        "TagColor": 102
+      },
+      {
+        "Label": "Gray",
+        "Color": "#717174",
+        "TagColor": 103
+      },
+      {
+        "Label": "Yellow",
+        "Color": "#C3A01E",
+        "TagColor": 104
+      },
+      {
+        "Label": "Purple",
+        "Color": "#72358F",
+        "TagColor": 105
+      },
+      {
+        "Label": "Brown",
+        "Color": "#70492B",
+        "TagColor": 106
+      },
+      {
+        "Label": "Pink",
+        "Color": "#D05C95",
+        "TagColor": 107
+      },
+      {
+        "Label": "Orange",
+        "Color": "#CF641C",
+        "TagColor": 108
+      }
+    ],
+    "Tape": "4865d3ad76ee54958044a60c"
+  },
+  {
+    "Key": "62dedffc281e5939bad847a1",
+    "Kind": "tape",
+    "Name": "SA58/FAL 7.62x51 X Products X-FAL 50-round drum magazine (RAL 8000)",
+    "Variants": [
+      {
+        "Label": "Green",
+        "Color": "#32703A",
+        "TagColor": 100
+      },
+      {
+        "Label": "Red",
+        "Color": "#9D262A",
+        "TagColor": 101
+      },
+      {
+        "Label": "Blue",
+        "Color": "#2453A1",
+        "TagColor": 102
+      },
+      {
+        "Label": "Gray",
+        "Color": "#717174",
+        "TagColor": 103
+      },
+      {
+        "Label": "Yellow",
+        "Color": "#C3A01E",
+        "TagColor": 104
+      },
+      {
+        "Label": "Purple",
+        "Color": "#72358F",
+        "TagColor": 105
+      },
+      {
+        "Label": "Brown",
+        "Color": "#70492B",
+        "TagColor": 106
+      },
+      {
+        "Label": "Pink",
+        "Color": "#D05C95",
+        "TagColor": 107
+      },
+      {
+        "Label": "Orange",
+        "Color": "#CF641C",
+        "TagColor": 108
+      }
+    ],
+    "Tape": "f8863af1b0f65a8a8e8911c5"
+  },
+  {
+    "Key": "65293c38fc460e50a509cb25",
+    "Kind": "tape",
+    "Name": "AR-10 7.62x51 Lancer L7AWM 20-round magazine",
+    "Variants": [
+      {
+        "Label": "Green",
+        "Color": "#32703A",
+        "TagColor": 100
+      },
+      {
+        "Label": "Red",
+        "Color": "#9D262A",
+        "TagColor": 101
+      },
+      {
+        "Label": "Blue",
+        "Color": "#2453A1",
+        "TagColor": 102
+      },
+      {
+        "Label": "Gray",
+        "Color": "#717174",
+        "TagColor": 103
+      },
+      {
+        "Label": "Yellow",
+        "Color": "#C3A01E",
+        "TagColor": 104
+      },
+      {
+        "Label": "Purple",
+        "Color": "#72358F",
+        "TagColor": 105
+      },
+      {
+        "Label": "Brown",
+        "Color": "#70492B",
+        "TagColor": 106
+      },
+      {
+        "Label": "Pink",
+        "Color": "#D05C95",
+        "TagColor": 107
+      },
+      {
+        "Label": "Orange",
+        "Color": "#CF641C",
+        "TagColor": 108
+      }
+    ],
+    "Tape": "ec49264b68675a3a83853649"
+  },
+  {
+    "Key": "65293c7a17e14363030ad308",
+    "Kind": "tape",
+    "Name": "AR-10 7.62x51 Lancer L7AWM 25-round magazine",
+    "Variants": [
+      {
+        "Label": "Green",
+        "Color": "#32703A",
+        "TagColor": 100
+      },
+      {
+        "Label": "Red",
+        "Color": "#9D262A",
+        "TagColor": 101
+      },
+      {
+        "Label": "Blue",
+        "Color": "#2453A1",
+        "TagColor": 102
+      },
+      {
+        "Label": "Gray",
+        "Color": "#717174",
+        "TagColor": 103
+      },
+      {
+        "Label": "Yellow",
+        "Color": "#C3A01E",
+        "TagColor": 104
+      },
+      {
+        "Label": "Purple",
+        "Color": "#72358F",
+        "TagColor": 105
+      },
+      {
+        "Label": "Brown",
+        "Color": "#70492B",
+        "TagColor": 106
+      },
+      {
+        "Label": "Pink",
+        "Color": "#D05C95",
+        "TagColor": 107
+      },
+      {
+        "Label": "Orange",
+        "Color": "#CF641C",
+        "TagColor": 108
+      }
+    ],
+    "Tape": "bab1f6f134db5a5a8e022660"
+  },
+  {
+    "Key": "698433340750b999d91e3465",
+    "Kind": "tape",
+    "Name": "AR-10 7.62x51 Lancer L7AWM-A55 30-round magazine",
+    "Variants": [
+      {
+        "Label": "Green",
+        "Color": "#32703A",
+        "TagColor": 100
+      },
+      {
+        "Label": "Red",
+        "Color": "#9D262A",
+        "TagColor": 101
+      },
+      {
+        "Label": "Blue",
+        "Color": "#2453A1",
+        "TagColor": 102
+      },
+      {
+        "Label": "Gray",
+        "Color": "#717174",
+        "TagColor": 103
+      },
+      {
+        "Label": "Yellow",
+        "Color": "#C3A01E",
+        "TagColor": 104
+      },
+      {
+        "Label": "Purple",
+        "Color": "#72358F",
+        "TagColor": 105
+      },
+      {
+        "Label": "Brown",
+        "Color": "#70492B",
+        "TagColor": 106
+      },
+      {
+        "Label": "Pink",
+        "Color": "#D05C95",
+        "TagColor": 107
+      },
+      {
+        "Label": "Orange",
+        "Color": "#CF641C",
+        "TagColor": 108
+      }
+    ],
+    "Tape": "f977c3a650b954f69eae3d7f"
+  },
+  {
+    "Key": "69f058abe6c9802225abaf21",
+    "Kind": "tape",
+    "Name": "AR-15 5.56x45 SureFire MAG5-60 STANAG 60-round magazine (FDE)",
+    "Variants": [
+      {
+        "Label": "Green",
+        "Color": "#579755",
+        "TagColor": 100
+      },
+      {
+        "Label": "Red",
+        "Color": "#BC424F",
+        "TagColor": 101
+      },
+      {
+        "Label": "Blue",
+        "Color": "#467ACA",
+        "TagColor": 102
+      },
+      {
+        "Label": "Gray",
+        "Color": "#929699",
+        "TagColor": 103
+      },
+      {
+        "Label": "Yellow",
+        "Color": "#D7C648",
+        "TagColor": 104
+      },
+      {
+        "Label": "Purple",
+        "Color": "#9D55BE",
+        "TagColor": 105
+      },
+      {
+        "Label": "Brown",
+        "Color": "#70492B",
+        "TagColor": 106
+      },
+      {
+        "Label": "Pink",
+        "Color": "#D05C95",
+        "TagColor": 107
+      },
+      {
+        "Label": "Orange",
+        "Color": "#CF641C",
+        "TagColor": 108
+      }
+    ],
+    "Tape": "8805ece53da85942823c9c35"
+  },
+  {
+    "Key": "69f0d28ca0c7d37d9130aab8",
+    "Kind": "tape",
+    "Name": "AR-15 5.56x45 Magpul PMAG D-60 STANAG 60-round magazine (FDE)",
+    "Variants": [
+      {
+        "Label": "Green",
+        "Color": "#579755",
+        "TagColor": 100
+      },
+      {
+        "Label": "Red",
+        "Color": "#BC424F",
+        "TagColor": 101
+      },
+      {
+        "Label": "Blue",
+        "Color": "#467ACA",
+        "TagColor": 102
+      },
+      {
+        "Label": "Gray",
+        "Color": "#929699",
+        "TagColor": 103
+      },
+      {
+        "Label": "Yellow",
+        "Color": "#D7C648",
+        "TagColor": 104
+      },
+      {
+        "Label": "Purple",
+        "Color": "#9D55BE",
+        "TagColor": 105
+      },
+      {
+        "Label": "Brown",
+        "Color": "#70492B",
+        "TagColor": 106
+      },
+      {
+        "Label": "Pink",
+        "Color": "#D05C95",
+        "TagColor": 107
+      },
+      {
+        "Label": "Orange",
+        "Color": "#CF641C",
+        "TagColor": 108
+      }
+    ],
+    "Tape": "24205930efad5921a1fb8e1e"
+  },
+  {
+    "Key": "69f9ec5a7596e93e340c0a1e",
+    "Kind": "tape",
+    "Name": "QBZ-191 5.8x42 30-round magazine",
+    "Variants": [
+      {
+        "Label": "Green",
+        "Color": "#32703A",
+        "TagColor": 100
+      },
+      {
+        "Label": "Red",
+        "Color": "#9D262A",
+        "TagColor": 101
+      },
+      {
+        "Label": "Blue",
+        "Color": "#2453A1",
+        "TagColor": 102
+      },
+      {
+        "Label": "Gray",
+        "Color": "#717174",
+        "TagColor": 103
+      },
+      {
+        "Label": "Yellow",
+        "Color": "#C3A01E",
+        "TagColor": 104
+      },
+      {
+        "Label": "Purple",
+        "Color": "#72358F",
+        "TagColor": 105
+      },
+      {
+        "Label": "Brown",
+        "Color": "#70492B",
+        "TagColor": 106
+      },
+      {
+        "Label": "Pink",
+        "Color": "#D05C95",
+        "TagColor": 107
+      },
+      {
+        "Label": "Orange",
+        "Color": "#CF641C",
+        "TagColor": 108
+      }
+    ],
+    "Tape": "6b7ebec521a9577485088938"
+  },
+  {
+    "Key": "69fa8ea590bf94cacd7f5e38",
+    "Kind": "tape",
+    "Name": "SLR-106/AK 5.56x45 Circle 10 30-round magazine (Black)",
+    "Variants": [
+      {
+        "Label": "Green",
+        "Color": "#32703A",
+        "TagColor": 100
+      },
+      {
+        "Label": "Red",
+        "Color": "#9D262A",
+        "TagColor": 101
+      },
+      {
+        "Label": "Blue",
+        "Color": "#2453A1",
+        "TagColor": 102
+      },
+      {
+        "Label": "Gray",
+        "Color": "#717174",
+        "TagColor": 103
+      },
+      {
+        "Label": "Yellow",
+        "Color": "#C3A01E",
+        "TagColor": 104
+      },
+      {
+        "Label": "Purple",
+        "Color": "#72358F",
+        "TagColor": 105
+      },
+      {
+        "Label": "Brown",
+        "Color": "#70492B",
+        "TagColor": 106
+      },
+      {
+        "Label": "Pink",
+        "Color": "#D05C95",
+        "TagColor": 107
+      },
+      {
+        "Label": "Orange",
+        "Color": "#CF641C",
+        "TagColor": 108
+      }
+    ],
+    "Tape": "fe24d01db70557e8898cdf00"
+  },
+  {
+    "Key": "69faa0d657249bee9c41f47b",
+    "Kind": "tape",
+    "Name": "SLR-106/AK 5.56x45 Circle 10 30-round magazine (FDE)",
+    "Variants": [
+      {
+        "Label": "Green",
+        "Color": "#32703A",
+        "TagColor": 100
+      },
+      {
+        "Label": "Red",
+        "Color": "#9D262A",
+        "TagColor": 101
+      },
+      {
+        "Label": "Blue",
+        "Color": "#2453A1",
+        "TagColor": 102
+      },
+      {
+        "Label": "Gray",
+        "Color": "#717174",
+        "TagColor": 103
+      },
+      {
+        "Label": "Yellow",
+        "Color": "#C3A01E",
+        "TagColor": 104
+      },
+      {
+        "Label": "Purple",
+        "Color": "#72358F",
+        "TagColor": 105
+      },
+      {
+        "Label": "Brown",
+        "Color": "#70492B",
+        "TagColor": 106
+      },
+      {
+        "Label": "Pink",
+        "Color": "#D05C95",
+        "TagColor": 107
+      },
+      {
+        "Label": "Orange",
+        "Color": "#CF641C",
+        "TagColor": 108
+      }
+    ],
+    "Tape": "003ac6702b835ac4ac30b0f7"
+  },
+  {
+    "Key": "6a1579afcbb8d0c82606c541",
+    "Kind": "tape",
+    "Name": "AR-15 5.56x45 Lancer L5 AWM 30-round magazine",
+    "Variants": [
+      {
+        "Label": "Green",
+        "Color": "#579755",
+        "TagColor": 100
+      },
+      {
+        "Label": "Red",
+        "Color": "#BC424F",
+        "TagColor": 101
+      },
+      {
+        "Label": "Blue",
+        "Color": "#467ACA",
+        "TagColor": 102
+      },
+      {
+        "Label": "Gray",
+        "Color": "#929699",
+        "TagColor": 103
+      },
+      {
+        "Label": "Yellow",
+        "Color": "#D7C648",
+        "TagColor": 104
+      },
+      {
+        "Label": "Purple",
+        "Color": "#9D55BE",
+        "TagColor": 105
+      },
+      {
+        "Label": "Brown",
+        "Color": "#70492B",
+        "TagColor": 106
+      },
+      {
+        "Label": "Pink",
+        "Color": "#D05C95",
+        "TagColor": 107
+      },
+      {
+        "Label": "Orange",
+        "Color": "#CF641C",
+        "TagColor": 108
+      }
+    ],
+    "Tape": "d71bf3f7b2635ef59a897f17"
+  },
+  {
+    "Key": "6a1579bfb507e45a68038d7f",
+    "Kind": "tape",
+    "Name": "AR-15 5.56x45 Lancer L5 AWM 30-round magazine (Tan)",
+    "Variants": [
+      {
+        "Label": "Green",
+        "Color": "#579755",
+        "TagColor": 100
+      },
+      {
+        "Label": "Red",
+        "Color": "#BC424F",
+        "TagColor": 101
+      },
+      {
+        "Label": "Blue",
+        "Color": "#467ACA",
+        "TagColor": 102
+      },
+      {
+        "Label": "Gray",
+        "Color": "#929699",
+        "TagColor": 103
+      },
+      {
+        "Label": "Yellow",
+        "Color": "#D7C648",
+        "TagColor": 104
+      },
+      {
+        "Label": "Purple",
+        "Color": "#9D55BE",
+        "TagColor": 105
+      },
+      {
+        "Label": "Brown",
+        "Color": "#70492B",
+        "TagColor": 106
+      },
+      {
+        "Label": "Pink",
+        "Color": "#D05C95",
+        "TagColor": 107
+      },
+      {
+        "Label": "Orange",
+        "Color": "#CF641C",
+        "TagColor": 108
+      }
+    ],
+    "Tape": "3b6f7e56416a5fb8b502dc91"
+  },
+  {
+    "Key": "6a16f3a28873771c3704a132",
+    "Kind": "tape",
+    "Name": "AR-15 5.56x45 Daniel Defense 32-round magazine",
+    "Variants": [
+      {
+        "Label": "Green",
+        "Color": "#579755",
+        "TagColor": 100
+      },
+      {
+        "Label": "Red",
+        "Color": "#BC424F",
+        "TagColor": 101
+      },
+      {
+        "Label": "Blue",
+        "Color": "#467ACA",
+        "TagColor": 102
+      },
+      {
+        "Label": "Gray",
+        "Color": "#929699",
+        "TagColor": 103
+      },
+      {
+        "Label": "Yellow",
+        "Color": "#D7C648",
+        "TagColor": 104
+      },
+      {
+        "Label": "Purple",
+        "Color": "#9D55BE",
+        "TagColor": 105
+      },
+      {
+        "Label": "Brown",
+        "Color": "#70492B",
+        "TagColor": 106
+      },
+      {
+        "Label": "Pink",
+        "Color": "#D05C95",
+        "TagColor": 107
+      },
+      {
+        "Label": "Orange",
+        "Color": "#CF641C",
+        "TagColor": 108
+      }
+    ],
+    "Tape": "13b140e5489a542b969bce99"
+  },
+  {
+    "Key": "8b49d50621665612a5f2173d",
+    "Kind": "tape",
+    "Name": "QBZ-191 5.8x42 30-round magazine (RAL 8000)",
+    "Variants": [
+      {
+        "Label": "Green",
+        "Color": "#32703A",
+        "TagColor": 100
+      },
+      {
+        "Label": "Red",
+        "Color": "#9D262A",
+        "TagColor": 101
+      },
+      {
+        "Label": "Blue",
+        "Color": "#2453A1",
+        "TagColor": 102
+      },
+      {
+        "Label": "Gray",
+        "Color": "#717174",
+        "TagColor": 103
+      },
+      {
+        "Label": "Yellow",
+        "Color": "#C3A01E",
+        "TagColor": 104
+      },
+      {
+        "Label": "Purple",
+        "Color": "#72358F",
+        "TagColor": 105
+      },
+      {
+        "Label": "Brown",
+        "Color": "#70492B",
+        "TagColor": 106
+      },
+      {
+        "Label": "Pink",
+        "Color": "#D05C95",
+        "TagColor": 107
+      },
+      {
+        "Label": "Orange",
+        "Color": "#CF641C",
+        "TagColor": 108
+      }
+    ],
+    "Tape": "0f2011e9cceb5fd386efcce6"
+  },
+  {
+    "Key": "fd0379c533b65d388640812c",
+    "Kind": "tape",
+    "Name": "AK 7.62x39 Magpul PMAG 30 GEN M3 30-round magazine (RAL 8000)",
+    "Variants": [
+      {
+        "Label": "Green",
+        "Color": "#32703A",
+        "TagColor": 100
+      },
+      {
+        "Label": "Red",
+        "Color": "#9D262A",
+        "TagColor": 101
+      },
+      {
+        "Label": "Blue",
+        "Color": "#2453A1",
+        "TagColor": 102
+      },
+      {
+        "Label": "Gray",
+        "Color": "#717174",
+        "TagColor": 103
+      },
+      {
+        "Label": "Yellow",
+        "Color": "#C3A01E",
+        "TagColor": 104
+      },
+      {
+        "Label": "Purple",
+        "Color": "#72358F",
+        "TagColor": 105
+      },
+      {
+        "Label": "Brown",
+        "Color": "#70492B",
+        "TagColor": 106
+      },
+      {
+        "Label": "Pink",
+        "Color": "#D05C95",
+        "TagColor": 107
+      },
+      {
+        "Label": "Orange",
+        "Color": "#CF641C",
+        "TagColor": 108
+      }
+    ],
+    "Tape": "de913e951733527d978227dd"
+  },
+  {
+    "Key": "69f68305a8eea15aea284ef9",
+    "Tape": "69f68305a8eea15aea284ef9",
+    "Name": "AR-10 5.56x45 Modified Lancer L7AWM-A55 30-round magazine",
+    "Kind": "tape",
+    "Variants": [
+      {
+        "Label": "Green",
+        "Color": "#32703A",
+        "TagColor": 100
+      },
+      {
+        "Label": "Red",
+        "Color": "#9D262A",
+        "TagColor": 101
+      },
+      {
+        "Label": "Blue",
+        "Color": "#2453A1",
+        "TagColor": 102
+      },
+      {
+        "Label": "Gray",
+        "Color": "#717174",
+        "TagColor": 103
+      },
+      {
+        "Label": "Yellow",
+        "Color": "#C3A01E",
+        "TagColor": 104
+      },
+      {
+        "Label": "Purple",
+        "Color": "#72358F",
+        "TagColor": 105
+      },
+      {
+        "Label": "Brown",
+        "Color": "#70492B",
+        "TagColor": 106
+      },
+      {
+        "Label": "Pink",
+        "Color": "#D05C95",
+        "TagColor": 107
+      },
+      {
+        "Label": "Orange",
+        "Color": "#CF641C",
+        "TagColor": 108
+      }
+    ]
+  },
+  {
+    "Key": "69f683cb5fe79e067a85d9ef",
+    "Tape": "69f683cb5fe79e067a85d9ef",
+    "Name": "AR-10 5.56x45 Modified Lancer L7AWM 25-round magazine",
+    "Kind": "tape",
+    "Variants": [
+      {
+        "Label": "Green",
+        "Color": "#32703A",
+        "TagColor": 100
+      },
+      {
+        "Label": "Red",
+        "Color": "#9D262A",
+        "TagColor": 101
+      },
+      {
+        "Label": "Blue",
+        "Color": "#2453A1",
+        "TagColor": 102
+      },
+      {
+        "Label": "Gray",
+        "Color": "#717174",
+        "TagColor": 103
+      },
+      {
+        "Label": "Yellow",
+        "Color": "#C3A01E",
+        "TagColor": 104
+      },
+      {
+        "Label": "Purple",
+        "Color": "#72358F",
+        "TagColor": 105
+      },
+      {
+        "Label": "Brown",
+        "Color": "#70492B",
+        "TagColor": 106
+      },
+      {
+        "Label": "Pink",
+        "Color": "#D05C95",
+        "TagColor": 107
+      },
+      {
+        "Label": "Orange",
+        "Color": "#CF641C",
+        "TagColor": 108
+      }
+    ]
+  },
+  {
+    "Key": "69f683f01b84e0c82074cadb",
+    "Tape": "69f683f01b84e0c82074cadb",
+    "Name": "AR-10 5.56x45 X Products X-25 Modified 50-round drum magazine",
+    "Kind": "tape",
+    "Variants": [
+      {
+        "Label": "Green",
+        "Color": "#32703A",
+        "TagColor": 100
+      },
+      {
+        "Label": "Red",
+        "Color": "#9D262A",
+        "TagColor": 101
+      },
+      {
+        "Label": "Blue",
+        "Color": "#2453A1",
+        "TagColor": 102
+      },
+      {
+        "Label": "Gray",
+        "Color": "#717174",
+        "TagColor": 103
+      },
+      {
+        "Label": "Yellow",
+        "Color": "#C3A01E",
+        "TagColor": 104
+      },
+      {
+        "Label": "Purple",
+        "Color": "#72358F",
+        "TagColor": 105
+      },
+      {
+        "Label": "Brown",
+        "Color": "#70492B",
+        "TagColor": 106
+      },
+      {
+        "Label": "Pink",
+        "Color": "#D05C95",
+        "TagColor": 107
+      },
+      {
+        "Label": "Orange",
+        "Color": "#CF641C",
+        "TagColor": 108
+      }
+    ]
+  }
+]

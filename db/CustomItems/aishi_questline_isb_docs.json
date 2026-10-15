@@ -1,0 +1,868 @@
+{
+  "6aa5ff857a930fba7793141b": {
+    "itemTplToClone": "5ac78a9b86f7741cca0bbd8d",
+    "parentId": "5447e0e74bdc2d3c308b4567",
+    "handbookParentId": "5b47574386f77428ca22b345",
+    "overrideProperties": {
+      "BackgroundColor": "yellow",
+      "CanSellOnRagfair": false,
+      "InsuranceDisabled": true,
+      "addtoItemBlacklist": true,
+      "Prefab": {
+        "path": "quests/quest_item_info_radio2.bundle",
+        "rcid": ""
+      },
+      "Height": 2,
+      "Weight": 0.8,
+      "Grids": [],
+      "IsSpecialSlotOnly": false,
+      "IsUnremovable": true
+    },
+    "locales": {
+      "en": {
+        "name": "ISB Model KW12 Advanced Modified SSTV Radio",
+        "shortName": "KW12",
+        "description": "A modified radio that transmits on an ‘ISB’ encoded frequency. It is capable of emitting low-power signals that are undetectable by other devices. Perfect for internal team communication."
+      },
+      "po": {
+        "name": "Rádio Modificado Avançado Modelo SSTV KW12 da \"ASI\"",
+        "shortName": "KW12",
+        "description": "Um Rádio modificado que transmite em uma frequência codificada da \"ASI\". Ele é capaz de emitir sinais baixos e indetectáveis por outros dispositivos. Perfeitos para comunicação interna da equipe."
+      }
+    },
+    "fleaPriceRoubles": 500000,
+    "CanSellOnRagfair": false,
+    "addtoSpecialSlots": true,
+    "CanRequireOnRagfair": false,
+    "addtoItemBlacklist": true,
+    "handbookPriceRoubles": 500000,
+    "addtoSecureFilters": true
+  },
+  "4d57eab7724cdd35474d84eb": {
+    "itemTplToClone": "5448ba0b4bdc2d02308b456c",
+    "parentId": "5c99f98d86f7745c314214b3",
+    "handbookParentId": "5b47574386f77428ca22b2ed",
+    "overrideProperties": {
+      "CanSellOnRagfair": false,
+      "ExaminedByDefault": true,
+      "BackgroundColor": "yellow",
+      "Prefab": {
+        "path": "quests/item_barter_energy_greenbat_modified_ISB.bundle",
+        "rcid": ""
+      },
+      "MaximumNumberOfUsage": 5,
+      "Weight": 0.18,
+      "ItemSound": "generic",
+      "Grids": []
+    },
+    "locales": {
+      "en": {
+        "name": "Modified GreenBat lithium battery",
+        "shortName": "GreenBat V2",
+        "description": "A modified battery capable of delivering a high enough electrical discharge to temporarily power devices. Highly volatile and sensitive."
+      },
+      "po": {
+        "name": "Bateria GreenBat de lítio modificada",
+        "shortName": "GreenBat V2",
+        "description": "Uma bateria modificada para ser capaz de causar uma descarga elétrica suficiente para energizar temporariamente dispositivos. Altamente volátil e sensível."
+      }
+    },
+    "fleaPriceRoubles": 100000,
+    "handbookPriceRoubles": 100000,
+    "addtoItemBlacklist": true,
+    "CanSellOnRagfair": false,
+    "CanRequireOnRagfair": false,
+    "addtoBots": false,
+    "addtoSecureFilters": true
+  },
+  "6a8f0a4350e8e920dd389fd7": {
+    "itemTplToClone": "590c392f86f77444754deb29",
+    "parentId": "590c745b86f7743cc433c5f2",
+    "handbookParentId": "5b47574386f77428ca22b2f4",
+    "overrideProperties": {
+      "CanSellOnRagfair": false,
+      "ExaminedByDefault": false,
+      "BackgroundColor": "yellow",
+      "Prefab": {
+        "path": "equipment/item_barter_dogtags_isb_pawn.bundle",
+        "rcid": ""
+      },
+      "Weight": 0.1,
+      "Grids": []
+    },
+    "locales": {
+      "en": {
+        "name": "ISB Dogtag Pawn",
+        "shortName": "ISB",
+        "description": "A dog tag used by low-ranking ISB operatives. Unlike an identification dog tag, it appears to be used more as a trophy. Reconditioned from operatives of another unit."
+      },
+      "po": {
+        "name": "Dogtag Peão da ASI",
+        "shortName": "ASI",
+        "description": "Uma Dogtag utilizada pelos operadores de baixo nível da ISB. Diferente de uma dogtag de identificação ela parece ser utilizada mais como um troféu. Recondicionada de operadores de uma outra designação."
+      }
+    },
+    "fleaPriceRoubles": 840,
+    "handbookPriceRoubles": 404,
+    "addtoItemBlacklist": true,
+    "CanSellOnRagfair": false,
+    "CanRequireOnRagfair": false,
+    "addtoBots": false,
+    "addtoSecureFilters": true
+  },
+  "6a8f0e0be1730357d098267b": {
+    "itemTplToClone": "590c392f86f77444754deb29",
+    "parentId": "590c745b86f7743cc433c5f2",
+    "handbookParentId": "5b47574386f77428ca22b2f4",
+    "overrideProperties": {
+      "CanSellOnRagfair": false,
+      "ExaminedByDefault": false,
+      "BackgroundColor": "yellow",
+      "Prefab": {
+        "path": "equipment/item_barter_dogtags_isb_tower.bundle",
+        "rcid": ""
+      },
+      "Weight": 0.1,
+      "Grids": []
+    },
+    "locales": {
+      "en": {
+        "name": "ISB Dogtag Rook",
+        "shortName": "ISB",
+        "description": "A dog tag used by specialized ISB operatives. Unlike an identification dog tag, it appears to be used more as a trophy. Reconditioned from operatives of another unit."
+      },
+      "po": {
+        "name": "Dogtag Torre da ASI",
+        "shortName": "ASI",
+        "description": "Uma Dogtag utilizada pelos operadores especializados da ISB. Diferente de uma dogtag de identificação ela parece ser utilizada mais como um troféu. Recondicionada de operadores de uma outra designação."
+      }
+    },
+    "fleaPriceRoubles": 2440,
+    "handbookPriceRoubles": 1204,
+    "addtoItemBlacklist": true,
+    "CanSellOnRagfair": false,
+    "CanRequireOnRagfair": false,
+    "addtoBots": false,
+    "addtoSecureFilters": true
+  },
+  "6a8f540c650b4dbe25badff8": {
+    "itemTplToClone": "590c392f86f77444754deb29",
+    "parentId": "590c745b86f7743cc433c5f2",
+    "handbookParentId": "5b47574386f77428ca22b2f4",
+    "overrideProperties": {
+      "CanSellOnRagfair": false,
+      "ExaminedByDefault": false,
+      "BackgroundColor": "yellow",
+      "Prefab": {
+        "path": "equipment/item_barter_dogtags_isb_horse.bundle",
+        "rcid": ""
+      },
+      "Weight": 0.1,
+      "Grids": []
+    },
+    "locales": {
+      "en": {
+        "name": "ISB Dogtag Knight",
+        "shortName": "ISB",
+        "description": "A dog tag used by specialized ISB operatives. Unlike an identification dog tag, it appears to be used more as a trophy. Reconditioned from operatives of another unit."
+      },
+      "po": {
+        "name": "Dogtag Cavalo da ASI",
+        "shortName": "ASI",
+        "description": "Uma Dogtag utilizada pelos operadores especializados da ISB. Diferente de uma dogtag de identificação ela parece ser utilizada mais como um troféu. Recondicionada de operadores de uma outra designação."
+      }
+    },
+    "fleaPriceRoubles": 4840,
+    "handbookPriceRoubles": 2804,
+    "addtoItemBlacklist": true,
+    "CanSellOnRagfair": false,
+    "CanRequireOnRagfair": false,
+    "addtoBots": false,
+    "addtoSecureFilters": true
+  },
+  "6a8f1e073b022db2a04c1b76": {
+    "itemTplToClone": "590c392f86f77444754deb29",
+    "parentId": "590c745b86f7743cc433c5f2",
+    "handbookParentId": "5b47574386f77428ca22b2f4",
+    "overrideProperties": {
+      "CanSellOnRagfair": false,
+      "ExaminedByDefault": false,
+      "BackgroundColor": "yellow",
+      "Prefab": {
+        "path": "equipment/item_barter_dogtags_isb_bishop.bundle",
+        "rcid": ""
+      },
+      "Weight": 0.1,
+      "Grids": []
+    },
+    "locales": {
+      "en": {
+        "name": "ISB Dogtag Bishop",
+        "shortName": "ISB",
+        "description": "A dog tag used by specialized ISB operatives. Unlike an identification dog tag, it appears to be used more as a trophy. Reconditioned from operatives of another unit."
+      },
+      "po": {
+        "name": "Dogtag Bispo da ASI",
+        "shortName": "ASI",
+        "description": "Uma Dogtag utilizada pelos operadores especializados da ISB. Diferente de uma dogtag de identificação ela parece ser utilizada mais como um troféu. Recondicionada de operadores de uma outra designação."
+      }
+    },
+    "fleaPriceRoubles": 7240,
+    "handbookPriceRoubles": 5204,
+    "addtoItemBlacklist": true,
+    "CanSellOnRagfair": false,
+    "CanRequireOnRagfair": false,
+    "addtoBots": false,
+    "addtoSecureFilters": true
+  },
+  "6a8f1e1f60f1022c46406c5b": {
+    "itemTplToClone": "590c392f86f77444754deb29",
+    "parentId": "590c745b86f7743cc433c5f2",
+    "handbookParentId": "5b47574386f77428ca22b2f4",
+    "overrideProperties": {
+      "CanSellOnRagfair": false,
+      "ExaminedByDefault": false,
+      "BackgroundColor": "yellow",
+      "Prefab": {
+        "path": "equipment/item_barter_dogtags_isb_king.bundle",
+        "rcid": ""
+      },
+      "Weight": 0.1,
+      "Grids": []
+    },
+    "locales": {
+      "en": {
+        "name": "ISB Dogtag King",
+        "shortName": "ISB",
+        "description": "A dog tag used by high-ranking ISB operatives. Unlike an identification dog tag, it appears to be used more as a trophy. Reconditioned from operatives of another unit."
+      },
+      "po": {
+        "name": "Dogtag Rei da ASI",
+        "shortName": "ASI",
+        "description": "Uma Dogtag utilizada pelos operadores de mais alto nível da ISB. Diferente de uma dogtag de identificação ela parece ser utilizada mais como um troféu. Recondicionada de operadores de uma outra designação."
+      }
+    },
+    "fleaPriceRoubles": 9640,
+    "handbookPriceRoubles": 10004,
+    "addtoItemBlacklist": true,
+    "CanSellOnRagfair": false,
+    "CanRequireOnRagfair": false,
+    "addtoBots": false,
+    "addtoSecureFilters": true
+  },
+  "6a8f1e3beb9811b096e224c3": {
+    "itemTplToClone": "590c392f86f77444754deb29",
+    "parentId": "590c745b86f7743cc433c5f2",
+    "handbookParentId": "5b47574386f77428ca22b2f4",
+    "overrideProperties": {
+      "CanSellOnRagfair": false,
+      "ExaminedByDefault": false,
+      "BackgroundColor": "yellow",
+      "Prefab": {
+        "path": "equipment/item_barter_dogtags_isb_queen.bundle",
+        "rcid": ""
+      },
+      "Weight": 0.1,
+      "Grids": []
+    },
+    "locales": {
+      "en": {
+        "name": "ISB Dogtag Queen",
+        "shortName": "ISB",
+        "description": "A dog tag used by ISB Leaders. Unlike an identification dog tag, it appears to be used more as a trophy. Reconditioned from operatives of another unit."
+      },
+      "po": {
+        "name": "Dogtag Rainha da ASI",
+        "shortName": "ASI",
+        "description": "Uma Dogtag utilizada pelos líderes de mais alto nível da ISB. Diferente de uma dogtag de identificação ela parece ser utilizada mais como um troféu. Recondicionada de operadores de uma outra designação."
+      }
+    },
+    "fleaPriceRoubles": 12040,
+    "handbookPriceRoubles": 11604,
+    "addtoItemBlacklist": true,
+    "CanSellOnRagfair": false,
+    "CanRequireOnRagfair": false,
+    "addtoBots": false,
+    "addtoSecureFilters": true
+  },
+  "6a8cff3621e52fbbd04f4113": {
+    "itemTplToClone": "590c621186f774138d11ea29",
+    "parentId": "5448ecbe4bdc2d60728b4568",
+    "handbookParentId": "5b47574386f77428ca22b341",
+    "overrideProperties": {
+      "CanSellOnRagfair": false,
+      "ExaminedByDefault": false,
+      "BackgroundColor": "yellow",
+      "StackMaxRandom": 1,
+      "StackMaxSize": 100,
+      "StackMinRandom": 1,
+      "Prefab": {
+        "path": "assets/content/items/barter/item_barter_info_personal/item_barter_info_personal.bundle",
+        "rcid": ""
+      },
+      "Height": 2,
+      "Weight": 0.15,
+      "Grids": []
+    },
+    "locales": {
+      "en": {
+        "name": "PMC personnel files",
+        "shortName": "PMC",
+        "description": "Rumor has it that TerraGroup keeps a personnel file on nearly every PMC operator. Judging by these documents, the rumors are true."
+      },
+      "po": {
+        "name": "Arquivos pessoais de PMC",
+        "shortName": "PMC",
+        "description": "Há rumores de que a TerraGroup mantém um arquivo pessoal sobre quase todos os operadores de PMC. A julgar por esses documentos, os rumores são verdadeiros."
+      }
+    },
+    "fleaPriceRoubles": 155500,
+    "handbookPriceRoubles": 105500,
+    "addtoItemBlacklist": true,
+    "CanSellOnRagfair": false,
+    "CanRequireOnRagfair": false,
+    "addtoBots": false,
+    "addtoSecureFilters": true
+  },
+  "6a8cfc98ca0eb181f2df0059": {
+    "itemTplToClone": "590c621186f774138d11ea29",
+    "parentId": "5448ecbe4bdc2d60728b4568",
+    "handbookParentId": "5b47574386f77428ca22b341",
+    "overrideProperties": {
+      "CanSellOnRagfair": false,
+      "ExaminedByDefault": false,
+      "BackgroundColor": "yellow",
+      "StackMaxRandom": 1,
+      "StackMaxSize": 100,
+      "StackMinRandom": 1,
+      "Prefab": {
+        "path": "assets/content/items/barter/item_barter_info_finance/item_barter_info_finance.bundle",
+        "rcid": ""
+      },
+      "Height": 2,
+      "Weight": 0.15,
+      "Grids": []
+    },
+    "locales": {
+      "en": {
+        "name": "Financial documents",
+        "shortName": "Finances",
+        "description": "Financial reports from TerraGroup and its affiliated companies. There's bound to be plenty of inconsistencies and evidence hidden inside, but are you really willing to spend hours of your life reading dry financial paperwork?"
+      },
+      "po": {
+        "name": "Documentos financeiros",
+        "shortName": "Finanças",
+        "description": "Relatórios financeiros do TerraGroup e de suas empresas afiliadas. Certamente há muitas inconsistências e evidências ocultas neles, mas você está realmente disposto a gastar horas da sua vida lendo documentos financeiros enfadonhos?"
+      }
+    },
+    "fleaPriceRoubles": 175500,
+    "handbookPriceRoubles": 135500,
+    "addtoItemBlacklist": true,
+    "CanSellOnRagfair": false,
+    "CanRequireOnRagfair": false,
+    "addtoBots": false,
+    "addtoSecureFilters": true
+  },
+  "6a8cfca2e34752ad44304cd6": {
+    "itemTplToClone": "590c621186f774138d11ea29",
+    "parentId": "5448ecbe4bdc2d60728b4568",
+    "handbookParentId": "5b47574386f77428ca22b341",
+    "overrideProperties": {
+      "CanSellOnRagfair": false,
+      "ExaminedByDefault": false,
+      "BackgroundColor": "yellow",
+      "StackMaxRandom": 1,
+      "StackMaxSize": 100,
+      "StackMinRandom": 1,
+      "Prefab": {
+        "path": "assets/content/items/barter/item_barter_info_project/item_barter_info_project.bundle",
+        "rcid": ""
+      },
+      "Height": 2,
+      "Weight": 0.15,
+      "Grids": []
+    },
+    "locales": {
+      "en": {
+        "name": "Project documentation",
+        "shortName": "Project",
+        "description": "Documentation from Tarkov Infraline. The company officially specialized in road construction, but these blueprints clearly have nothing to do with transportation infrastructure."
+      },
+      "po": {
+        "name": "Documentação do projeto",
+        "shortName": "Projeto",
+        "description": "Documentação da Tarkov Infraline. A empresa é oficialmente especializada em construção de estradas, mas essas plantas claramente não têm nada a ver com infraestrutura de transporte."
+      }
+    },
+    "fleaPriceRoubles": 195500,
+    "handbookPriceRoubles": 175500,
+    "addtoItemBlacklist": true,
+    "CanSellOnRagfair": false,
+    "CanRequireOnRagfair": false,
+    "addtoBots": false,
+    "addtoSecureFilters": true
+  },
+  "6a8e765f2bee6c4abdb52713": {
+    "itemTplToClone": "590c621186f774138d11ea29",
+    "parentId": "5448ecbe4bdc2d60728b4568",
+    "handbookParentId": "5b47574386f77428ca22b341",
+    "overrideProperties": {
+      "CanSellOnRagfair": false,
+      "ExaminedByDefault": false,
+      "BackgroundColor": "yellow",
+      "StackMaxRandom": 1,
+      "StackMaxSize": 100,
+      "StackMinRandom": 1,
+      "Prefab": {
+        "path": "assets/content/items/barter/item_barter_info_scheme/item_barter_info_scheme.bundle",
+        "rcid": ""
+      },
+      "Width": 2,
+      "Height": 2,
+      "Weight": 0.15,
+      "Grids": []
+    },
+    "locales": {
+      "en": {
+        "name": "Blueprints and technical documentation",
+        "shortName": "Blueprints",
+        "description": "Blueprints and technical documentation belonging to TerraGroup. For convenience, all of the data has also been backed up onto a disk."
+      },
+      "po": {
+        "name": "Plantas e documentação técnica",
+        "shortName": "Plantas",
+        "description": "Plantas e documentação técnica pertencentes ao TerraGroup. Por conveniência, todos os dados também foram copiados para um disco."
+      }
+    },
+    "fleaPriceRoubles": 235500,
+    "handbookPriceRoubles": 215500,
+    "addtoItemBlacklist": true,
+    "CanSellOnRagfair": false,
+    "CanRequireOnRagfair": false,
+    "addtoBots": false,
+    "addtoSecureFilters": true
+  },
+  "6a8e76785c3f75a6b4455e41": {
+    "itemTplToClone": "590c621186f774138d11ea29",
+    "parentId": "5448ecbe4bdc2d60728b4568",
+    "handbookParentId": "5b47574386f77428ca22b341",
+    "overrideProperties": {
+      "CanSellOnRagfair": false,
+      "ExaminedByDefault": false,
+      "BackgroundColor": "yellow",
+      "StackMaxRandom": 1,
+      "StackMaxSize": 100,
+      "StackMinRandom": 1,
+      "Prefab": {
+        "path": "assets/content/items/barter/item_barter_info_testing/item_barter_info_testing.bundle",
+        "rcid": ""
+      },
+      "Height": 2,
+      "Weight": 0.15,
+      "Grids": []
+    },
+    "locales": {
+      "en": {
+        "name": "Test documentation",
+        "shortName": "Test",
+        "description": "Documents detailing tests of various experimental compounds from TerraGroup-controlled laboratories. It's surprising they've managed to remain in Tarkov at all."
+      },
+      "po": {
+        "name": "Documentos sobre Testes",
+        "shortName": "Testes",
+        "description": "Documentos que detalham os testes de vários compostos experimentais realizados em laboratórios controlados pelo TerraGroup. É surpreendente que eles tenham conseguido permanecer em Tarkov."
+      }
+    },
+    "fleaPriceRoubles": 265500,
+    "handbookPriceRoubles": 235500,
+    "addtoItemBlacklist": true,
+    "CanSellOnRagfair": false,
+    "CanRequireOnRagfair": false,
+    "addtoBots": false,
+    "addtoSecureFilters": true
+  },
+  "6a8e76b6fd6a7d4953c567cc": {
+    "itemTplToClone": "590c621186f774138d11ea29",
+    "parentId": "5448ecbe4bdc2d60728b4568",
+    "handbookParentId": "5b47574386f77428ca22b341",
+    "overrideProperties": {
+      "CanSellOnRagfair": false,
+      "ExaminedByDefault": false,
+      "BackgroundColor": "yellow",
+      "StackMaxRandom": 1,
+      "StackMaxSize": 100,
+      "StackMinRandom": 1,
+      "Prefab": {
+        "path": "assets/content/items/barter/item_barter_info_user/item_barter_info_user.bundle",
+        "rcid": ""
+      },
+      "Height": 2,
+      "Weight": 0.15,
+      "Grids": []
+    },
+    "locales": {
+      "en": {
+        "name": "User documentation",
+        "shortName": "User",
+        "description": "Documentation issued to every new TerraGroup employee upon signing. It contains both useful information and the obligatory, mind-numbing office rules like how to chip in for a coworker's birthday gift."
+      },
+      "po": {
+        "name": "Documentação de Usuários",
+        "shortName": "Usuários",
+        "description": "Documentação entregue a todos os novos funcionários da TerraGroup no momento da assinatura do contrato. Ela contém tanto informações úteis quanto as regras obrigatórias e enfadonhas do escritório, como, por exemplo, como contribuir para o presente de aniversário de um colega de trabalho."
+      }
+    },
+    "fleaPriceRoubles": 295500,
+    "handbookPriceRoubles": 265500,
+    "addtoItemBlacklist": true,
+    "CanSellOnRagfair": false,
+    "CanRequireOnRagfair": false,
+    "addtoBots": false,
+    "addtoSecureFilters": true
+  },
+  "6a8e76ea2c551db921771c4f": {
+    "itemTplToClone": "590c621186f774138d11ea29",
+    "parentId": "5448ecbe4bdc2d60728b4568",
+    "handbookParentId": "5b47574386f77428ca22b341",
+    "overrideProperties": {
+      "CanSellOnRagfair": false,
+      "ExaminedByDefault": false,
+      "BackgroundColor": "yellow",
+      "StackMaxRandom": 1,
+      "StackMaxSize": 100,
+      "StackMinRandom": 1,
+      "Prefab": {
+        "path": "assets/content/items/barter/item_barter_info_medicine/item_barter_info_medicine.bundle",
+        "rcid": ""
+      },
+      "Height": 2,
+      "Weight": 0.15,
+      "Grids": []
+    },
+    "locales": {
+      "en": {
+        "name": "Medical documents",
+        "shortName": "Medical",
+        "description": "Medical records containing research findings. Many of them are ethically questionable, yet remarkably successful in every other regard. Truth is in the eye of the beholder."
+      },
+      "po": {
+        "name": "Documentos médicos",
+        "shortName": "Registros",
+        "description": "Registros médicos que contêm resultados de pesquisas. Muitos deles são eticamente questionáveis, mas notavelmente bem-sucedidos em todos os outros aspectos. A verdade está nos olhos de quem vê."
+      }
+    },
+    "fleaPriceRoubles": 315500,
+    "handbookPriceRoubles": 295500,
+    "addtoItemBlacklist": true,
+    "CanSellOnRagfair": false,
+    "CanRequireOnRagfair": false,
+    "addtoBots": false,
+    "addtoSecureFilters": true
+  },
+  "6a8e770988343498f639d557": {
+    "itemTplToClone": "590c621186f774138d11ea29",
+    "parentId": "5448ecbe4bdc2d60728b4568",
+    "handbookParentId": "5b47574386f77428ca22b341",
+    "overrideProperties": {
+      "CanSellOnRagfair": false,
+      "ExaminedByDefault": false,
+      "BackgroundColor": "yellow",
+      "StackMaxRandom": 1,
+      "StackMaxSize": 100,
+      "StackMinRandom": 1,
+      "Prefab": {
+        "path": "assets/content/items/barter/item_barter_info_operating/item_barter_info_operating.bundle",
+        "rcid": ""
+      },
+      "Height": 2,
+      "Weight": 0.15,
+      "Grids": []
+    },
+    "locales": {
+      "en": {
+        "name": "Technical documentation",
+        "shortName": "Technical",
+        "description": "Operating manuals for TerraGroup equipment. Essential for anyone who'd rather not lose a few fingers or break machinery worth millions of dollars. Or for anyone looking to make a tidy profit."
+      },
+      "po": {
+        "name": "Documentação técnica",
+        "shortName": "Documentação",
+        "description": "Manuais de operação dos equipamentos da TerraGroup. Indispensáveis para quem não quer perder alguns dedos ou danificar máquinas que valem milhões de dólares. Ou para quem quer obter um bom lucro."
+      }
+    },
+    "fleaPriceRoubles": 355500,
+    "handbookPriceRoubles": 315500,
+    "addtoItemBlacklist": true,
+    "CanSellOnRagfair": false,
+    "CanRequireOnRagfair": false,
+    "addtoBots": false,
+    "addtoSecureFilters": true
+  },
+  "6a8e772b8dc2aa06f80099e4": {
+    "itemTplToClone": "590c621186f774138d11ea29",
+    "parentId": "5448ecbe4bdc2d60728b4568",
+    "handbookParentId": "5b47574386f77428ca22b341",
+    "overrideProperties": {
+      "CanSellOnRagfair": false,
+      "ExaminedByDefault": false,
+      "BackgroundColor": "yellow",
+      "StackMaxRandom": 1,
+      "StackMaxSize": 100,
+      "StackMinRandom": 1,
+      "Prefab": {
+        "path": "assets/content/items/barter/item_barter_info_secretdoc/item_barter_info_secretdoc.bundle",
+        "rcid": ""
+      },
+      "Height": 2,
+      "Weight": 0.15,
+      "Grids": []
+    },
+    "locales": {
+      "en": {
+        "name": "Classified documents",
+        "shortName": "Classified",
+        "description": "Classified information that somehow survived against all odds. Arguably the most valuable thing left in Tarkov."
+      },
+      "po": {
+        "name": "Documentos confidenciais",
+        "shortName": "Confidencial",
+        "description": "Informações confidenciais que, de alguma forma, sobreviveram contra todas as expectativas. Provavelmente, o que há de mais valioso que restou em Tarkov."
+      }
+    },
+    "fleaPriceRoubles": 1500000,
+    "handbookPriceRoubles": 1500000,
+    "addtoItemBlacklist": true,
+    "CanSellOnRagfair": false,
+    "CanRequireOnRagfair": false,
+    "addtoBots": false,
+    "addtoSecureFilters": true
+  },
+  "6a8f2f19785af4cc71c3b8e2": {
+    "itemTplToClone": "590c621186f774138d11ea29",
+    "parentId": "5448ecbe4bdc2d60728b4568",
+    "handbookParentId": "5b47574386f77428ca22b341",
+    "overrideProperties": {
+      "CanSellOnRagfair": false,
+      "ExaminedByDefault": false,
+      "BackgroundColor": "yellow",
+      "Prefab": {
+        "path": "quests/quest_item_info_tablet.bundle",
+        "rcid": ""
+      },
+      "Width": 2,
+      "Height": 2,
+      "Weight": 0.43,
+      "Grids": []
+    },
+    "locales": {
+      "en": {
+        "name": "ISB TDL Military Tactical Tablet",
+        "shortName": "Tablet",
+        "description": "A high-performance tablet with a large screen. Built for durability and an operating system optimized for military operations. "
+      },
+      "po": {
+        "name": "Tablet Tático TDL da ISB",
+        "shortName": "Tablet",
+        "description": "Um tablet de alta performance com uma grande tela. Fabricado para ter resistência e um sistema operacional otimizado para operações militares. "
+      }
+    },
+    "fleaPriceRoubles": 500000,
+    "handbookPriceRoubles": 500000,
+    "addtoItemBlacklist": true,
+    "CanSellOnRagfair": false,
+    "CanRequireOnRagfair": false,
+    "addtoBots": false,
+    "addtoSecureFilters": true
+  },
+  "6a8f3078020049bfa86a8f4a": {
+    "itemTplToClone": "590c621186f774138d11ea29",
+    "parentId": "5448ecbe4bdc2d60728b4568",
+    "handbookParentId": "5b47574386f77428ca22b341",
+    "overrideProperties": {
+      "CanSellOnRagfair": false,
+      "ExaminedByDefault": false,
+      "BackgroundColor": "yellow",
+      "StackMaxRandom": 1,
+      "StackMaxSize": 100,
+      "StackMinRandom": 1,
+      "Prefab": {
+        "path": "quests/quest_item_hack_device.bundle",
+        "rcid": ""
+      },
+      "Height": 2,
+      "Weight": 1.25,
+      "Grids": []
+    },
+    "locales": {
+      "en": {
+        "name": "Improvised ISB device for hacking systems",
+        "shortName": "Hack Dev",
+        "description": "A makeshift device used to hack small electronic devices, intercept radio communications, electrical controllers, and wireless networks."
+      },
+      "po": {
+        "name": "Dispositivo improvisado para invadir sistemas da ASI",
+        "shortName": "Hack Dev",
+        "description": "Um dispositivo improvisado utilizado para hackear pequenos aparelhos eletrônicos, interceptar comunicações por rádio, controladores elétricos e redes sem fio."
+      }
+    },
+    "fleaPriceRoubles": 250000,
+    "handbookPriceRoubles": 250000,
+    "addtoItemBlacklist": true,
+    "CanSellOnRagfair": false,
+    "CanRequireOnRagfair": false,
+    "addtoBots": false,
+    "addtoSecureFilters": true
+  },
+  "6a8f316e428d01f93b84c6dc": {
+    "itemTplToClone": "590c621186f774138d11ea29",
+    "parentId": "5448ecbe4bdc2d60728b4568",
+    "handbookParentId": "5b47574386f77428ca22b341",
+    "overrideProperties": {
+      "CanSellOnRagfair": false,
+      "ExaminedByDefault": false,
+      "BackgroundColor": "yellow",
+      "StackMaxRandom": 1,
+      "StackMaxSize": 100,
+      "StackMinRandom": 1,
+      "Prefab": {
+        "path": "quests/quest_item_usbadge.bundle",
+        "rcid": ""
+      },
+      "Weight": 0.5,
+      "Grids": []
+    },
+    "locales": {
+      "en": {
+        "name": "Unknown US Army Special Group Golden Badge",
+        "shortName": "Badge",
+        "description": "An insignia used by a US Army special operations group that carried out a secret operation in Tarkov."
+      },
+      "po": {
+        "name": "Insígnia Dourada de Grupo Especial desconhecido do exercito dos Estados Únidos",
+        "shortName": "Insígnia",
+        "description": "Uma insígnia utilizada por um grupo de operações especiais do exercito dos Estados Unidos que realizou uma operação secreta em Tarkov "
+      }
+    },
+    "fleaPriceRoubles": 1120000,
+    "handbookPriceRoubles": 1250000,
+    "addtoItemBlacklist": true,
+    "CanSellOnRagfair": false,
+    "CanRequireOnRagfair": false,
+    "addtoBots": false,
+    "addtoSecureFilters": true
+  },
+  "6a8f332eff53d07351a35f93": {
+    "itemTplToClone": "590c621186f774138d11ea29",
+    "parentId": "5448ecbe4bdc2d60728b4568",
+    "handbookParentId": "5b47574386f77428ca22b341",
+    "overrideProperties": {
+      "CanSellOnRagfair": false,
+      "ExaminedByDefault": false,
+      "BackgroundColor": "yellow",
+      "StackMaxRandom": 1,
+      "StackMaxSize": 100,
+      "StackMinRandom": 1,
+      "Prefab": {
+        "path": "assets/content/items/quest/item_quest_event_labyrinth_chem_container/item_quest_event_labyrinth_chem_container.bundle",
+        "rcid": ""
+      },
+      "Weight": 2,
+      "Grids": []
+    },
+    "locales": {
+      "en": {
+        "name": "Sealed Chemical Container",
+        "shortName": "Container",
+        "description": "A container holding experimental chemicals. Sealed, it appears to be unstable, and it's definitely not a good idea to mess with it."
+      },
+      "po": {
+        "name": "Recipiente Quimico Selado",
+        "shortName": "Recipiente",
+        "description": "Um recipiente com quimicos experimentais. Selado, ele parece ser instável e definitivamente não é bom mexer com isso."
+      }
+    },
+    "fleaPriceRoubles": 920000,
+    "handbookPriceRoubles": 950000,
+    "addtoItemBlacklist": true,
+    "CanSellOnRagfair": false,
+    "CanRequireOnRagfair": false,
+    "addtoBots": false,
+    "addtoSecureFilters": true
+  },
+  "6a8f38698a6847c4a8bb6527": {
+    "itemTplToClone": "665829424de4820934746ce6",
+    "parentId": "62f109593b54472778797866",
+    "handbookParentId": "5b5f6fd286f774093f2ecf0d",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "BackgroundColor": "yellow",
+      "Prefab": {
+        "path": "assets/content/items/quest/item_quest_container_box_closed/item_quest_container_box.bundle",
+        "rcid": ""
+      },
+      "Width": 2,
+      "Height": 1,
+      "Weight": 2,
+      "Grids": []
+    },
+    "locales": {
+      "en": {
+        "name": "Valuables Container",
+        "shortName": "Container",
+        "description": "A reinforced box containing valuable items and documents. Unpack it in the stash to receive five random items. The box is consumed when opened."
+      },
+      "po": {
+        "name": "Caixa de Itens Valiosos",
+        "shortName": "Container",
+        "description": "Uma caixa reforçada contendo itens valiosos e documentos. Abra-a no esconderijo para receber cinco itens aleatórios. A caixa é consumida ao ser aberta."
+      }
+    },
+    "fleaPriceRoubles": 920000,
+    "handbookPriceRoubles": 950000,
+    "addtoItemBlacklist": true,
+    "CanSellOnRagfair": false,
+    "CanRequireOnRagfair": false,
+    "addtoBots": false,
+    "addtoSecureFilters": true,
+    "isRandomLootContainer": true,
+    "randomLootContainerRewards": {
+      "rewardCount": 5,
+      "foundInRaid": true,
+      "rewardTplPool": {
+        "5bc9c049d4351e44f824d360": 2,
+        "573474f924597738002c6174": 1,
+        "5df8a77486f77412672a1e3f": 1,
+        "5df8a72c86f77412640e2e83": 1,
+        "5df8a6a186f77412640e2e80": 1,
+        "69f9d547b98cc4120608692a": 1,
+        "5d235a5986f77443f6329bc6": 1,
+        "62a09cfe4f842e1bd12da3e4": 1,
+        "5734758f24597738025ee253": 1,
+        "573478bc24597738002c6175": 1,
+        "5bc9c377d4351e3bac12251b": 1,
+        "59faff1d86f7746c51718c9c": 1,
+        "5e54f62086f774219b0f1937": 1,
+        "59faf7ca86f7740dbe19f6c2": 1,
+        "5bc9bdb8d4351e003562b8a1": 2,
+        "5f745ee30acaeb0d490d8c5b": 1,
+        "6389c92d52123d5dd17f8876": 1,
+        "62a09e73af34e73a266d932a": 1,
+        "590c645c86f77412b01304d9": 1,
+        "69f9d60b5de6674f08060f2a": 1,
+        "5c12613b86f7743bbe2c3f76": 1,
+        "679b992329acd1f2f60985a5": 1,
+        "62a0a16d0b9d3c46de5b6e97": 1,
+        "590c37d286f77443be3d7827": 1,
+        "590c621186f774138d11ea29": 1,
+        "61bf7c024770ee6f9c6b8b53": 1,
+        "6389c8fb46b54c634724d847": 1,
+        "590c651286f7741e566b6461": 1,
+        "590c392f86f77444754deb29": 1,
+        "590c639286f774151567fa95": 1,
+        "6389c8c5dbfd5e4b95197e6b": 1,
+        "62a0a124de7ac81993580542": 1,
+        "62a09e974f842e1bd12da3f0": 1
+      }
+    }
+  }
+}

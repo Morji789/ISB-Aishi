@@ -1,16 +1,13 @@
 {
   "699b6b973e813e0eaa275b56": {
-
     "itemTplToClone": "657023c61419851aef03e6eb",
     "parentId": "543be5cb4bdc2deb348b4568",
     "handbookParentId": "5b47574386f77428ca22b33c",
-
-
-    "overrideProperties": { 
+    "overrideProperties": {
       "ExaminedByDefault": false,
-        "IsUnsaleable": true,
-        "IsUnbuyable": true,
-        "StackSlots": [
+      "IsUnsaleable": true,
+      "IsUnbuyable": true,
+      "StackSlots": [
         {
           "_id": "699b6b88be849a7f65b7e866",
           "_max_count": 50,
@@ -28,23 +25,13 @@
           "_proto": "699b549e6f3af48efd25f703"
         }
       ],
-
-        
-
       "Prefab": {
-
         "path": "assets/content/items/ammo/boxes/item_ammo_box_68x51.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
-      "Height": 1,
       "Weight": 0.125,
-
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": ".300 Blackout Barnes VOR-TX ammo pack (50 pcs)",
@@ -56,36 +43,20 @@
         "shortName": "VOR-TX",
         "description": "Um pacote de munição .300 Blackout Barnes VOR-TX, 50 cartuchos."
       }
-    
     },
-
     "fleaPriceRoubles": 99150,
-
     "handbookPriceRoubles": 51690,
-
     "addCaliberToAllCloneLocations": true,
-
     "addtoStaticAmmo": false,
-
     "CanSellOnRagfair": false,
-
     "CanRequireOnRagfair": false,
-    
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "staticAmmoProbability": 100,
-
     "addtoBots": true,
-
     "addtoStaticLootContainers": true,
-
     "staticLootContainers": [
       {
         "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 350
-      },
-      {
-        "containerName": "LOOTCONTAINER_SCAV_BODY",
         "probability": 350
       },
       {

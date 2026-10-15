@@ -1,0 +1,387 @@
+{
+  "21e7dc0046d15b638601aae2": {
+    "itemTplToClone": "5f5f41476bdad616ad46d631",
+    "parentId": "5448e54d4bdc2dcc718b4568",
+    "handbookParentId": "5b5f701386f774093f2ecf0f",
+    "overrideProperties": {
+      "Description": "The NPP KlASS Korund-VM heavy bulletproof vest, adopted by the units of the Ministry of Internal Affairs of Russia. MultiCam Black Version.",
+      "Grids": [],
+      "Name": "NPP KlASS Korund-VM body armor (MultiCam Black)",
+      "Prefab": {
+        "path": "equipment/item_equipment_armor_korundvm_multicam_black_aishi.bundle",
+        "rcid": ""
+      },
+      "ShortName": "Korund-VM",
+      "Slots": [
+        {
+          "_id": "89f058e160b952c886471fc3",
+          "_mergeSlotWithChildren": true,
+          "_name": "Front_plate",
+          "_parent": "21e7dc0046d15b638601aae2",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "656f664200d62bcd2e024077",
+                  "654a4dea7c17dec2f50cc86a",
+                  "656f66b5c6baea13cd07e108"
+                ],
+                "Plate": "656f664200d62bcd2e024077",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Korund_chest"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": false
+        },
+        {
+          "_id": "c5cdad84a90650a89d3c6edc",
+          "_mergeSlotWithChildren": true,
+          "_name": "Back_plate",
+          "_parent": "21e7dc0046d15b638601aae2",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "657b22485f444d6dff0c6c2f",
+                  "657b2797c3dbcb01d60c35ea",
+                  "657b28d25f444d6dff0c6c77"
+                ],
+                "Plate": "657b2797c3dbcb01d60c35ea",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_back"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": false
+        },
+        {
+          "_id": "adfa812c69e85cef9290c66c",
+          "_mergeSlotWithChildren": true,
+          "_name": "Left_side_plate",
+          "_parent": "21e7dc0046d15b638601aae2",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "654a4f8bc721968a4404ef18"
+                ],
+                "Plate": "654a4f8bc721968a4404ef18",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Korund_side_left_high"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": false
+        },
+        {
+          "_id": "e6c5586af29157f0a95ed6ee",
+          "_mergeSlotWithChildren": true,
+          "_name": "Right_side_plate",
+          "_parent": "21e7dc0046d15b638601aae2",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "654a4f8bc721968a4404ef18"
+                ],
+                "Plate": "654a4f8bc721968a4404ef18",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Korund_side_right_high"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": false
+        },
+        {
+          "_id": "b3979af275bc5aeb8e5ee9fd",
+          "_mergeSlotWithChildren": true,
+          "_name": "Soft_armor_front",
+          "_parent": "21e7dc0046d15b638601aae2",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "65731b46cea9255e2102360a"
+                ],
+                "Plate": "65731b46cea9255e2102360a",
+                "armorColliders": [
+                  "RibcageLow",
+                  "RibcageUp"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        },
+        {
+          "_id": "f1f187ff4210593fab5af391",
+          "_mergeSlotWithChildren": true,
+          "_name": "Soft_armor_back",
+          "_parent": "21e7dc0046d15b638601aae2",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "65731b4fcea9255e2102360e"
+                ],
+                "Plate": "65731b4fcea9255e2102360e",
+                "armorColliders": [
+                  "SpineDown",
+                  "SpineTop"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        },
+        {
+          "_id": "9c9de1cc80d6513f93204288",
+          "_mergeSlotWithChildren": true,
+          "_name": "Soft_armor_left",
+          "_parent": "21e7dc0046d15b638601aae2",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "65731b576e709cddd001ec3f"
+                ],
+                "Plate": "65731b576e709cddd001ec3f",
+                "armorColliders": [
+                  "LeftSideChestDown"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        },
+        {
+          "_id": "dfd75fbe725356aabc29e169",
+          "_mergeSlotWithChildren": true,
+          "_name": "soft_armor_right",
+          "_parent": "21e7dc0046d15b638601aae2",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "65731b60ff6dc44a7d068c4a"
+                ],
+                "Plate": "65731b60ff6dc44a7d068c4a",
+                "armorColliders": [
+                  "RightSideChestDown"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        },
+        {
+          "_id": "2c297ff683825c70bee143e9",
+          "_mergeSlotWithChildren": true,
+          "_name": "Collar",
+          "_parent": "21e7dc0046d15b638601aae2",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "65731b666e709cddd001ec43"
+                ],
+                "Plate": "65731b666e709cddd001ec43",
+                "armorColliders": [
+                  "NeckFront",
+                  "NeckBack"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        },
+        {
+          "_id": "252b9d680c68559b94c673ca",
+          "_mergeSlotWithChildren": true,
+          "_name": "Groin",
+          "_parent": "21e7dc0046d15b638601aae2",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "65731b716e709cddd001ec47"
+                ],
+                "Plate": "65731b716e709cddd001ec47",
+                "armorColliders": [
+                  "Pelvis"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        },
+        {
+          "_id": "be63a0502595565caf15558f",
+          "_mergeSlotWithChildren": true,
+          "_name": "Groin_back",
+          "_parent": "21e7dc0046d15b638601aae2",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "65731b6b6042b0f210020ef6"
+                ],
+                "Plate": "65731b6b6042b0f210020ef6",
+                "armorColliders": [
+                  "PelvisBack"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "NPP KlASS Korund-VM body armor (MultiCam Black)",
+        "shortName": "Korund-VM",
+        "description": "The NPP KlASS Korund-VM heavy bulletproof vest, adopted by the units of the Ministry of Internal Affairs of Russia. MultiCam Black Version."
+      }
+    },
+    "handbookPriceRoubles": 3927,
+    "fleaPriceRoubles": 71638,
+    "addtoInventorySlots": [],
+    "addtoBots": false,
+    "addtoTraders": false,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": false,
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_changeWeaponName": false,
+        "_encyclopedia": "21e7dc0046d15b638601aae2",
+        "_id": "da8f6ac04a425fef8625b686",
+        "_items": [
+          {
+            "_id": "3ef0e04ba49651a1accf281c",
+            "_tpl": "21e7dc0046d15b638601aae2"
+          },
+          {
+            "_id": "963b9f5933855077a73c33d4",
+            "_tpl": "65731b46cea9255e2102360a",
+            "parentId": "3ef0e04ba49651a1accf281c",
+            "slotId": "Soft_armor_front"
+          },
+          {
+            "_id": "eb3b86c2d65057bea1702bc7",
+            "_tpl": "65731b4fcea9255e2102360e",
+            "parentId": "3ef0e04ba49651a1accf281c",
+            "slotId": "Soft_armor_back"
+          },
+          {
+            "_id": "29d06f15707b593f9b230a0c",
+            "_tpl": "65731b576e709cddd001ec3f",
+            "parentId": "3ef0e04ba49651a1accf281c",
+            "slotId": "Soft_armor_left"
+          },
+          {
+            "_id": "b53bc85a115d5ce9afe63533",
+            "_tpl": "65731b60ff6dc44a7d068c4a",
+            "parentId": "3ef0e04ba49651a1accf281c",
+            "slotId": "soft_armor_right"
+          },
+          {
+            "_id": "3cb3b5be06785bc2b3f287c4",
+            "_tpl": "65731b666e709cddd001ec43",
+            "parentId": "3ef0e04ba49651a1accf281c",
+            "slotId": "Collar"
+          },
+          {
+            "_id": "eb3d8f0c8ac45c42ab968602",
+            "_tpl": "65731b716e709cddd001ec47",
+            "parentId": "3ef0e04ba49651a1accf281c",
+            "slotId": "Groin"
+          },
+          {
+            "_id": "a26cb99505515a5fba1d44a5",
+            "_tpl": "65731b6b6042b0f210020ef6",
+            "parentId": "3ef0e04ba49651a1accf281c",
+            "slotId": "Groin_back"
+          },
+          {
+            "_id": "aaa54f9ca70b5fe8b8995fe6",
+            "_tpl": "656f664200d62bcd2e024077",
+            "parentId": "3ef0e04ba49651a1accf281c",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "940a6110e389510b975cb819",
+            "_tpl": "654a4f8bc721968a4404ef18",
+            "parentId": "3ef0e04ba49651a1accf281c",
+            "slotId": "Left_side_plate"
+          },
+          {
+            "_id": "1fcd8df2353655edb199c363",
+            "_tpl": "654a4f8bc721968a4404ef18",
+            "parentId": "3ef0e04ba49651a1accf281c",
+            "slotId": "Right_side_plate"
+          },
+          {
+            "_id": "66343897327e5bc38dda83e2",
+            "_tpl": "657b2797c3dbcb01d60c35ea",
+            "parentId": "3ef0e04ba49651a1accf281c",
+            "slotId": "Back_plate"
+          }
+        ],
+        "_name": "NPP KlASS Korund-VM body armor (MultiCam Black)",
+        "_parent": "3ef0e04ba49651a1accf281c",
+        "_type": "Preset"
+      }
+    ]
+  }
+}

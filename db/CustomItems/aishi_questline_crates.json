@@ -1,26 +1,17 @@
 {
   "6a7bbf80d68132981f99bd82": {
-
     "itemTplToClone": "665829424de4820934746ce6",
     "parentId": "62f109593b54472778797866",
     "handbookParentId": "5b5f6fd286f774093f2ecf0d",
-
     "overrideProperties": {
       "ExaminedByDefault": true,
-      "QuestItem": false,
       "BackgroundColor": "yellow",
       "Prefab": {
-
         "path": "assets/content/items/containers/item_container_tarkov_battlepass/item_container_tarkov_battlepass.bundle",
         "rcid": ""
       },
-
-
-      "Width": 5,
-      "Height": 2,
-      "Weight": 12.50
+      "Weight": 12.5
     },
-
     "locales": {
       "en": {
         "name": "USEC Intelligence Support Bureau Gear Crate",
@@ -32,105 +23,88 @@
         "shortName": "Caixa da ISB",
         "description": "Uma pesada de caixa de equipamentos da ISB da USEC. Ela pode conter diversas peças de equipamento da facção, munições, armas e itens especiais utilizados frequentemente pelos operadores em combate."
       }
-    
     },
-
-      "isRandomLootContainer": true,
-      "randomLootContainerRewards":
-    {
-          "rewardCount": 5,
-          "foundInRaid": true,
-          "rewardTplPool": {
-            "69fca77d3a0b02c8aec59eb4": 1,
-            "6933764646149ffb28ed75e0": 1,
-            "69842a195bdc0574dbdf25ca": 1,
-            "6895bb82c4519957df062f82": 1,
-            "6a01221f642040cc21286f0e": 1,
-            "6a08060a7aace4c0c7377b99": 1,
-            "6a0132335800bd16221e79fd": 1,
-            "6a0136a1fae06fd4bbd20288": 1,
-            "6a0805a4f4ca65c231f2566b": 1,
-            "6a01375552833cf4cd0f2ea0": 1,
-            "6a07e925f6c3b7986c02f80b": 1,
-            "696d81b236067d6c3ef793ca": 1,
-            "69575d3136babdc4ee38913b": 1,
-            "6a07e91cbe3fc4e84a5e6fb2": 1,
-            "693ad9fede941f880a36e51d": 1,
-            "693ada144cedf3aae4935143": 1,
-            "6a07e920d7a2c6d597db893c": 1,
-            "6984d63f164eb72f4dfb473b": 1,
-            "693ce88b2d491ae03c5326cd": 1,
-            "6939d6ae15efda5797902659": 1,
-            "693a2a8c8ca17192ef82abae": 1,
-            "6a12553381219c9c8d5e5e0e": 1,
-            "6a12667fec1b599645cd7183": 1,
-            "6a126adc0d1adc1541f74ad4": 1,
-            "6a1267fd0580910d4ffbdec0": 1,
-            "6a111c7164b1373374405287": 1,
-            "6a12643e06424c709d450e7c": 1,
-            "693ce97ae3778b9839af5852": 1,
-            "693aeb052ca153e9abf1fe56": 1,
-            "693aeaff56c3eeda87817550": 1,
-            "69420ebfe113c8264c419d3d": 1,
-            "696eb88de33ae15a9957f724": 1,
-            "696dc61aea4264c0d6dddd53": 1,
-            "696dc1681e9886c9481337a1": 1,
-            "6a07e92cf0655c4e29c5127e": 1,
-            "6a07e928f6c73d88baf0d370": 1,
-            "694204bc230f3fb07068884f": 1,
-            "6a0c8252cdf53775685d923e": 1,
-            "6a0c8d060ae9d5ea831d93c9": 1,
-            "6a07e9346cb94e635eeaffb9": 1,
-            "6a30a69a9c38c641cae11c90": 1,
-            "69575d3755b37eacd8f3a92a": 1,
-            "6957e050afda56ab90744761": 1,
-            "693873a5b94c659818e18a1c": 1,
-            "6a0c8971059c31bc88b71651": 1,
-            "6a07e931698298899e8270e4": 1,
-            "6957e05fbac14a6e9fcfafc2": 1,
-            "693ad9f9b7a7a2ad8112bbea": 1,
-            "6a07e93836380a0f34f772aa": 1,
-            "628e4e576d783146b124c64d": 1,
-            "66b5f693acff495a294927e3": 1,
-            "69c1632ca078dbb51e0e31b5": 1,
-            "66b5f6985891c84aab75ca76": 1,
-            "69c163b17c7040819b086502": 1,
-            "69860f957139b00c69e69cb7": 1
-          }
-    }, 
-
+    "isRandomLootContainer": true,
+    "randomLootContainerRewards": {
+      "rewardCount": 5,
+      "foundInRaid": true,
+      "rewardTplPool": {
+        "69fca77d3a0b02c8aec59eb4": 1,
+        "6933764646149ffb28ed75e0": 1,
+        "69842a195bdc0574dbdf25ca": 1,
+        "6895bb82c4519957df062f82": 1,
+        "6a01221f642040cc21286f0e": 1,
+        "6a08060a7aace4c0c7377b99": 1,
+        "6a0132335800bd16221e79fd": 1,
+        "6a0136a1fae06fd4bbd20288": 1,
+        "6a0805a4f4ca65c231f2566b": 1,
+        "6a01375552833cf4cd0f2ea0": 1,
+        "6a07e925f6c3b7986c02f80b": 1,
+        "696d81b236067d6c3ef793ca": 1,
+        "69575d3136babdc4ee38913b": 1,
+        "6a07e91cbe3fc4e84a5e6fb2": 1,
+        "693ad9fede941f880a36e51d": 1,
+        "693ada144cedf3aae4935143": 1,
+        "6a07e920d7a2c6d597db893c": 1,
+        "6984d63f164eb72f4dfb473b": 1,
+        "693ce88b2d491ae03c5326cd": 1,
+        "6939d6ae15efda5797902659": 1,
+        "693a2a8c8ca17192ef82abae": 1,
+        "6a12553381219c9c8d5e5e0e": 1,
+        "6a12667fec1b599645cd7183": 1,
+        "6a126adc0d1adc1541f74ad4": 1,
+        "6a1267fd0580910d4ffbdec0": 1,
+        "6a111c7164b1373374405287": 1,
+        "6a12643e06424c709d450e7c": 1,
+        "693ce97ae3778b9839af5852": 1,
+        "693aeb052ca153e9abf1fe56": 1,
+        "693aeaff56c3eeda87817550": 1,
+        "69420ebfe113c8264c419d3d": 1,
+        "696eb88de33ae15a9957f724": 1,
+        "696dc61aea4264c0d6dddd53": 1,
+        "696dc1681e9886c9481337a1": 1,
+        "6a07e92cf0655c4e29c5127e": 1,
+        "6a07e928f6c73d88baf0d370": 1,
+        "694204bc230f3fb07068884f": 1,
+        "6a0c8252cdf53775685d923e": 1,
+        "6a0c8d060ae9d5ea831d93c9": 1,
+        "6a07e9346cb94e635eeaffb9": 1,
+        "6a30a69a9c38c641cae11c90": 1,
+        "69575d3755b37eacd8f3a92a": 1,
+        "6957e050afda56ab90744761": 1,
+        "693873a5b94c659818e18a1c": 1,
+        "6a0c8971059c31bc88b71651": 1,
+        "6a07e931698298899e8270e4": 1,
+        "6957e05fbac14a6e9fcfafc2": 1,
+        "693ad9f9b7a7a2ad8112bbea": 1,
+        "6a07e93836380a0f34f772aa": 1,
+        "628e4e576d783146b124c64d": 1,
+        "66b5f693acff495a294927e3": 1,
+        "69c1632ca078dbb51e0e31b5": 1,
+        "66b5f6985891c84aab75ca76": 1,
+        "69c163b17c7040819b086502": 1,
+        "69860f957139b00c69e69cb7": 1
+      }
+    },
     "fleaPriceRoubles": 5000000,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "handbookPriceRoubles": 2500000
   },
   "6a7cf0b5c2f90e0e4ece5684": {
-
     "itemTplToClone": "665829424de4820934746ce6",
     "parentId": "62f109593b54472778797866",
     "handbookParentId": "5b5f6fd286f774093f2ecf0d",
-
     "overrideProperties": {
       "ExaminedByDefault": true,
-      "QuestItem": false,
       "BackgroundColor": "yellow",
       "Prefab": {
-
         "path": "assets/content/items/containers/item_container_tarkov_battlepass/item_container_tarkov_battlepass.bundle",
         "rcid": ""
       },
-
-
-      "Width": 5,
-      "Height": 2,
-      "Weight": 12.50
+      "Weight": 12.5
     },
-
     "locales": {
       "en": {
         "name": "Black Division Gear Crate",
@@ -142,42 +116,164 @@
         "shortName": "Caixa da Black Division",
         "description": "Uma caixa pesada de equipamentos da Black Division. Ela contem diversas peças de equipamento da facção, munições, armas e itens especiais utilizados frequentemente pelos operadores em combate."
       }
-    
     },
-
-      "isRandomLootContainer": true,
-      "randomLootContainerRewards":
-    {
-          "rewardCount": 4,
-          "foundInRaid": true,
-          "rewardTplPool": {
-            "689479cb47e5acd1e10be986": 1,
-            "68947a4be4bf255d1b0ca746": 1,
-            "689479a4a733b1602007e2eb": 1,
-            "689479eb30cc5ba7be00f5ff": 1,
-            "68947a8ce4bf255d1b0ca759": 1,
-            "68947ab5a733b1602007e2fe": 1,
-            "68947ad3e4bf255d1b0ca75c": 1,
-            "689b3fffa1295e322207a677": 1,
-            "628e4e576d783146b124c64d": 1,
-            "66b5f693acff495a294927e3": 1,
-            "69c1632ca078dbb51e0e31b5": 1,
-            "66b5f6985891c84aab75ca76": 1,
-            "69c163b17c7040819b086502": 1,
-            "5e00c1ad86f774747333222c": 1,
-            "5e4bfc1586f774264f7582d3": 1,
-            "69439100a320344f805ba61f": 1
-          }
-    }, 
-
+    "isRandomLootContainer": true,
+    "randomLootContainerRewards": {
+      "rewardCount": 4,
+      "foundInRaid": true,
+      "rewardTplPool": {
+        "689479cb47e5acd1e10be986": 1,
+        "68947a4be4bf255d1b0ca746": 1,
+        "689479a4a733b1602007e2eb": 1,
+        "689479eb30cc5ba7be00f5ff": 1,
+        "68947a8ce4bf255d1b0ca759": 1,
+        "68947ab5a733b1602007e2fe": 1,
+        "68947ad3e4bf255d1b0ca75c": 1,
+        "689b3fffa1295e322207a677": 1,
+        "628e4e576d783146b124c64d": 1,
+        "66b5f693acff495a294927e3": 1,
+        "69c1632ca078dbb51e0e31b5": 1,
+        "66b5f6985891c84aab75ca76": 1,
+        "69c163b17c7040819b086502": 1,
+        "5e00c1ad86f774747333222c": 1,
+        "5e4bfc1586f774264f7582d3": 1,
+        "69439100a320344f805ba61f": 1
+      }
+    },
     "fleaPriceRoubles": 5000000,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "handbookPriceRoubles": 2500000
+  },
+  "6a8ccebf9302acfd1468abdc": {
+    "itemTplToClone": "665829424de4820934746ce6",
+    "parentId": "62f109593b54472778797866",
+    "handbookParentId": "5b5f6fd286f774093f2ecf0d",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "BackgroundColor": "yellow",
+      "Prefab": {
+        "path": "equipment/item_isb_container_briefcase.bundle",
+        "rcid": ""
+      },
+      "Width": 2,
+      "Weight": 4.0
+    },
+    "locales": {
+      "en": {
+        "name": "ISB Briefcase with TerraGroup Documents",
+        "shortName": "Briefcase",
+        "description": "A Briefcase containing confidential TerraGroup documents. Highly confidential material containing operational details for the entire corporation."
+      },
+      "po": {
+        "name": "Pasta da ASI com Documentos da TerraGroup",
+        "shortName": "Pasta",
+        "description": "Uma pasta de documentos confidenciais da TerraGroup. Material altamente confidencial contendo detalhes operacionais de toda a corporação."
+      }
+    },
+    "isRandomLootContainer": true,
+    "randomLootContainerRewards": {
+      "rewardCount": 4,
+      "foundInRaid": true,
+      "rewardTplPool": {
+        "6a8cff3621e52fbbd04f4113": 1,
+        "6a8cfc98ca0eb181f2df0059": 1,
+        "6a8cfca2e34752ad44304cd6": 1,
+        "6a8e765f2bee6c4abdb52713": 1,
+        "6a8e76785c3f75a6b4455e41": 1,
+        "6a8e76b6fd6a7d4953c567cc": 1,
+        "6a8e76ea2c551db921771c4f": 1,
+        "6a8e770988343498f639d557": 1,
+        "6a8e772b8dc2aa06f80099e4": 1
+      }
+    },
+    "fleaPriceRoubles": 5000000,
+    "CanSellOnRagfair": false,
+    "CanRequireOnRagfair": false,
+    "addtoItemBlacklist": true,
+    "handbookPriceRoubles": 2500000
+  },
+  "6a8f39899225d6a63dd472a1": {
+    "itemTplToClone": "590c621186f774138d11ea29",
+    "parentId": "5448ecbe4bdc2d60728b4568",
+    "handbookParentId": "5b47574386f77428ca22b341",
+    "overrideProperties": {
+      "CanSellOnRagfair": false,
+      "ExaminedByDefault": false,
+      "BackgroundColor": "yellow",
+      "Prefab": {
+        "path": "equipment/item_isb_container_money.bundle",
+        "rcid": ""
+      },
+      "Width": 2,
+      "Height": 2,
+      "Weight": 6.0,
+      "Grids": []
+    },
+    "locales": {
+      "en": {
+        "name": "Locked Reinforced Briefcase with ISB Documents",
+        "shortName": "Briefcase",
+        "description": "A reinforced briefcase containing ISB documents and items. It has an electronic lock and is believed to contain sensitive information."
+      },
+      "po": {
+        "name": "Locked Pasta com Documentos da ASI reforçada",
+        "shortName": "Pasta",
+        "description": "Uma pasta reforçada com documentos e itens da ASI. Essa possui uma fechadura eletrónica e deve conter informações sensíveis."
+      }
+    },
+    "fleaPriceRoubles": 920000,
+    "handbookPriceRoubles": 950000,
+    "addtoItemBlacklist": true,
+    "CanSellOnRagfair": false,
+    "CanRequireOnRagfair": false,
+    "addtoBots": false,
+    "addtoSecureFilters": true
+  },
+  "6a8f29c48faabd7edce25062": {
+    "itemTplToClone": "665829424de4820934746ce6",
+    "parentId": "62f109593b54472778797866",
+    "handbookParentId": "5b5f6fd286f774093f2ecf0d",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "BackgroundColor": "yellow",
+      "Prefab": {
+        "path": "equipment/item_isb_container_money.bundle",
+        "rcid": ""
+      },
+      "Width": 2,
+      "Weight": 6.0
+    },
+    "locales": {
+      "en": {
+        "name": "Reinforced Briefcase with ISB Documents",
+        "shortName": "Briefcase",
+        "description": "A reinforced briefcase containing ISB documents and items. It has an electronic lock and is believed to contain sensitive information."
+      },
+      "po": {
+        "name": "Pasta com Documentos da ASI reforçada",
+        "shortName": "Pasta",
+        "description": "Uma pasta reforçada com documentos e itens da ASI. Essa possui uma fechadura eletrónica e deve conter informações sensíveis."
+      }
+    },
+    "isRandomLootContainer": true,
+    "randomLootContainerRewards": {
+      "rewardCount": 4,
+      "foundInRaid": true,
+      "rewardTplPool": {
+        "6a8f2f19785af4cc71c3b8e2": 1,
+        "6a8f316e428d01f93b84c6dc": 1,
+        "6a8f3078020049bfa86a8f4a": 1,
+        "6a8f332eff53d07351a35f93": 1,
+        "6a8f38698a6847c4a8bb6527": 1,
+        "67c031b79320f644db06f456": 1
+      }
+    },
+    "fleaPriceRoubles": 7000000,
+    "CanSellOnRagfair": false,
+    "CanRequireOnRagfair": false,
+    "addtoItemBlacklist": true,
+    "handbookPriceRoubles": 4500000
   }
 }

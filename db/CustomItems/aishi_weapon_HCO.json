@@ -1,32 +1,20 @@
 {
   "69fd43ec50a5c7077199c905": {
-
     "itemTplToClone": "64785e7c19d732620e045e15",
     "parentId": "55818ad54bdc2ddc698b4569",
     "handbookParentId": "5b5f742686f774093e6cb4ff",
-
-
-    "overrideProperties": { 
-        "ExaminedByDefault": true,
-        "IsUnsaleable": true,
-        "IsUnbuyable": true,
-        "CanSellOnRagfair": true,
-        "CanRequireOnRagfair": true,
-        "addtoItemBlacklist": false,   
-        "Ergonomics": -2,
-        
-
-        "Prefab": {
+    "overrideProperties": {
+      "IsUnsaleable": true,
+      "IsUnbuyable": true,
+      "CanRequireOnRagfair": true,
+      "addtoItemBlacklist": false,
+      "Prefab": {
         "path": "equipment/item_equipment_sight_HCO.bundle",
         "rcid": ""
-        },
-
-        "Width": 1,
-        "Height": 1,
-        "Weight": 0.79,
-        "Grids": []
       },
-
+      "Weight": 0.79,
+      "Grids": []
+    },
     "locales": {
       "en": {
         "name": "ELCAN Specter HCO holographic sight (Pink)",
@@ -38,20 +26,15 @@
         "shortName": "HCO",
         "description": "Mira óptica de combate holográfica Specter. Fabricada pela ELCAN. Versão rosa"
       }
-    
     },
-
     "fleaPriceRoubles": 55000,
-
     "handbookPriceRoubles": 21000,
-
     "addtoBots": true,
-
     "addtoModSlots": true,
-    "modSlot": ["mod_scope"],
-
+    "modSlot": [
+      "mod_scope"
+    ],
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",

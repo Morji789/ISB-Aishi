@@ -1,16 +1,11 @@
 {
   "6984d63f164eb72f4dfb473b": {
-
     "itemTplToClone": "6570aead4d84f81fd002a033",
     "parentId": "5a341c4686f77469e155819e",
     "handbookParentId": "5b47574386f77428ca22b32f",
-
     "overrideProperties": {
-      "QuestItem": false,  
       "ExaminedByDefault": false,
-      "CanSellOnRagfair": false,
-      "CanRequireOnRagfair": false,
-      "addtoItemBlacklist": true,  
+      "addtoItemBlacklist": true,
       "armorClass": "4",
       "InsuranceDisabled": true,
       "BackgroundColor": "yellow",
@@ -18,64 +13,43 @@
       "BlindnessProtection": 0.5,
       "Durability": 40,
       "MaxDurability": 40,
-      "Unlootable": false,
       "UnlootableFromSide": [
         "Bear",
         "Usec",
         "Savage"
       ],
-      "UnlootableFromSlot": "FaceCover", 
-        
-
+      "UnlootableFromSlot": "FaceCover",
       "Prefab": {
-
         "path": "equipment/item_equipment_isb_deathshadow.bundle",
         "rcid": ""
       },
-
-
-      "Width": 2,
-      "Height": 2,
-
-
       "Weight": 0.75,
-
-    "Grids": []
+      "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "Modified Death Shadow lightweight armored mask (USEC Intelligence Support Bureau)",
         "shortName": "Death Shadow",
         "description": "The ISB \"Death Shadow\" mask for face protection, reinforced with carbon fibers."
       },
-        "po": {
+      "po": {
         "name": "Máscara blindada leve Death Shadow modificada (Agência de Suporte a Inteligência da USEC)",
         "shortName": "Death Shadow",
         "description": "A máscara ‘Death Shadow’ da ASI para proteção facial, reforçada com fibras de carbono"
       }
     },
-
     "fleaPriceRoubles": 70942,
-
     "handbookPriceRoubles": 69842,
-
-    "addtoInventorySlots": ["FaceCover"],
-
+    "addtoInventorySlots": [
+      "FaceCover"
+    ],
     "addtoBots": false,
-
     "CanSellOnRagfair": false,
-
     "IsAlwaysAvailableForInsurance": false,
-
     "InsuranceDisabled": true,
-
     "CanRequireOnRagfair": false,
-    
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",

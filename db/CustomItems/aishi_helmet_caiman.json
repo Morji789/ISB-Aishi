@@ -1,43 +1,24 @@
 {
   "6a08060a7aace4c0c7377b99": {
-
     "itemTplToClone": "5f60b34a41e30a4ab12a6947",
     "parentId": "5a341c4086f77401f2541505",
     "handbookParentId": "5b47574386f77428ca22b330",
-
-
     "overrideProperties": {
-      "QuestItem": false,
       "BackgroundColor": "yellow",
-      "IsUnsaleable": false,
-      "CanSellOnRagfair": false,
       "InsuranceDisabled": true,
-      "CanRequireOnRagfair": false,
-      "addtoItemBlacklist": true,   
+      "addtoItemBlacklist": true,
       "ExaminedByDefault": false,
       "PushToFleaBlacklist": true,
-      "Durability": 0,
-      "MaxDurability": 0,
-        
-
       "Prefab": {
-
         "path": "equipment/item_equipment_helmet_galvion_caiman_black.bundle",
         "rcid": ""
       },
-
-
-      "Width": 2,
-      "Height": 2,
-
-
-      "Weight": 1.250,
-
-
-      "Grids": [
-      ]
+      "Weight": 1.25,
+      "Grids": [],
+      "Name": "Galvion Caiman Hybrid helmet (Black)",
+      "ShortName": "Caiman",
+      "Description": "The Caiman Hybrid helmet is a new generation of lightweight special forces helmet. A series of modular accessories enhances the package, providing users with lightweight, comfortable and maximum head protection. Manufactured by Galvion. Black Version."
     },
-
     "addWeaponPreset": true,
     "weaponPresets": [
       {
@@ -62,51 +43,35 @@
             "_tpl": "6a080f4c15c5a6c89f01e460",
             "parentId": "6a0806159acb91e15f88dbd7",
             "slotId": "Helmet_back"
-          },
-          {
-            "_id": "6a080626d56fdcf1e64f8e13",
-            "_tpl": "6a054ac4faf625ac7020acd8",
-            "parentId": "6a0806159acb91e15f88dbd7",
-            "slotId": "Helmet_ears"
           }
         ],
         "_encyclopedia": "6a08060a7aace4c0c7377b99"
       }
     ],
-
     "locales": {
       "en": {
         "name": "Modified Galvion Caiman Hybrid helmet (Black)",
-        "shortName": "ISB Caiman",
+        "shortName": "Caiman",
         "description": "The Caiman Hybrid helmet is a new generation of lightweight special forces helmet. A series of modular accessories enhances the package, providing users with lightweight, comfortable and maximum head protection. Manufactured by Galvion."
       },
-        "po": {
-        "name": "Capacete Galvion Caiman Hibrido modificado (Preto)",
-        "shortName": "ISB Caiman",
-        "description": "O capacete Caiman Hybrid é uma nova geração de capacetes leves para forças especiais. Uma série de acessórios modulares complementa o conjunto, proporcionando aos usuários uma proteção leve, confortável e máxima para a cabeça. Fabricado pela Galvion."
+      "po": {
+        "name": "Capacete balístico Galvion Caiman Hybrid (Preto)",
+        "shortName": "Caiman",
+        "description": "O Capacete Híbrido Caiman (Caiman Hybrid Helmet) é uma nova geração de capacetes balísticos para forças especiais. Possui suporte para varias modificações e acessórios que melhoram o pacote final, proporcionando aos usuários uma proteção máxima para cabeça de forma confortável e leve. Versão Preto."
       }
     },
-
     "fleaPriceRoubles": 442400,
-
     "handbookPriceRoubles": 354900,
-
-    "addtoInventorySlots": ["HeadWear"],
-
+    "addtoInventorySlots": [
+      "HeadWear"
+    ],
     "addtoBots": false,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
     "IsAlwaysAvailableForInsurance": false,
-
     "InsuranceDisabled": true,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",
@@ -115,62 +80,42 @@
     ]
   },
   "6a0d1a13a8cfda46fb0d5984": {
-
     "itemTplToClone": "657bbad7a1c61ee0c3036323",
     "parentId": "65649eb40bf0ed77b8044453",
     "handbookParentId": "6564b96a189fe36f356d177c",
-
-
     "overrideProperties": {
-      "QuestItem": false,  
-      "ExaminedByDefault": true,
-      "IsUnsaleable": false,
       "InsuranceDisabled": true,
       "CanSellOnRagfair": false,
-      "MaterialType": "Helmet",
       "ArmorMaterial": "Titan",
-      "ArmorType": "Heavy",
       "BackgroundColor": "yellow",
-      "ItemSound": "gear_armor",
-      "armorPlateColliders":  [],
       "armorClass": "5",
       "Durability": 35,
       "MaxDurability": 35,
       "BluntThroughput": 0.1,
-      "RarityPvE":"Superrare",
+      "RarityPvE": "Superrare",
       "Prefab": {
-
         "path": "assets/content/items/equipment/armor_plates/helmet_top.bundle",
         "rcid": ""
       }
-      },
-
-
-        "Width": 1,
-        "Height": 1,
-
-
-        "Weight": 0,
-
-
-        "Grids": [
-        ],
-
+    },
+    "Width": 1,
+    "Height": 1,
+    "Weight": 0,
+    "Grids": [],
     "locales": {
       "en": {
-          "name": "Modified Layers of aramid fiber",
-          "shortName": "Modified Layers of aramid fiber",
-          "description": "Modified Layers of aramid fiber"
+        "name": "Modified Layers of aramid fiber",
+        "shortName": "Modified Layers of aramid fiber",
+        "description": "Modified Layers of aramid fiber"
       },
-        "po": {
-          "name": "Modified Layers of aramid fiber",
-          "shortName": "Modified Layers of aramid fiber",
-          "description": "Modified Layers of aramid fiber"
+      "po": {
+        "name": "Modified Layers of aramid fiber",
+        "shortName": "Modified Layers of aramid fiber",
+        "description": "Modified Layers of aramid fiber"
       }
     },
-
-    "fleaPriceRoubles": 0,
-    "handbookPriceRoubles": 0, 
+    "fleaPriceRoubles": 17000,
+    "handbookPriceRoubles": 17000,
     "addtoBots": false,
     "addtoStaticLootContainers": false,
     "StaticLootContainers": [
@@ -181,62 +126,42 @@
     ]
   },
   "6a080f4c15c5a6c89f01e460": {
-
     "itemTplToClone": "657bbb31b30eca9763051183",
     "parentId": "65649eb40bf0ed77b8044453",
     "handbookParentId": "6564b96a189fe36f356d177c",
-
-
     "overrideProperties": {
-      "QuestItem": false,  
-      "ExaminedByDefault": true,
-      "IsUnsaleable": false,
       "InsuranceDisabled": true,
       "CanSellOnRagfair": false,
-      "MaterialType": "Helmet",
       "ArmorMaterial": "Titan",
-      "ArmorType": "Heavy",
       "BackgroundColor": "yellow",
-      "ItemSound": "gear_armor",
-      "armorPlateColliders":  [],
       "armorClass": "5",
       "Durability": 35,
       "MaxDurability": 35,
       "BluntThroughput": 0.1,
-      "RarityPvE":"Superrare",
+      "RarityPvE": "Superrare",
       "Prefab": {
-
         "path": "assets/content/items/equipment/armor_plates/helmet_back.bundle",
         "rcid": ""
       }
-      },
-
-
-        "Width": 1,
-        "Height": 1,
-
-
-        "Weight": 0,
-
-
-        "Grids": [
-        ],
-
+    },
+    "Width": 1,
+    "Height": 1,
+    "Weight": 0,
+    "Grids": [],
     "locales": {
       "en": {
         "name": "Modified Layers of aramid fiber",
         "shortName": "Modified Layers of aramid fiber",
         "description": "Modified Layers of aramid fiber"
       },
-        "po": {
-            "name": "Modified Layers of aramid fiber",
-            "shortName": "Modified Layers of aramid fiber",
-            "description": "Modified Layers of aramid fiber"
+      "po": {
+        "name": "Modified Layers of aramid fiber",
+        "shortName": "Modified Layers of aramid fiber",
+        "description": "Modified Layers of aramid fiber"
       }
     },
-
-    "fleaPriceRoubles": 0,
-    "handbookPriceRoubles": 0, 
+    "fleaPriceRoubles": 17000,
+    "handbookPriceRoubles": 17000,
     "addtoBots": false,
     "addtoStaticLootContainers": false,
     "StaticLootContainers": [
@@ -247,73 +172,49 @@
     ]
   },
   "6a080d584a66939befef7e05": {
-
     "itemTplToClone": "5f60b85bbdb8e27dee3dc985",
     "parentId": "57bef4c42459772e8d35a53b",
     "handbookParentId": "5b5f704686f77447ec5d76d7",
-
     "overrideProperties": {
-      "QuestItem": false,  
       "ExaminedByDefault": false,
       "InsuranceDisabled": true,
       "CanSellOnRagfair": false,
-      "CanRequireOnRagfair": false,
-      "addtoItemBlacklist": true,  
+      "addtoItemBlacklist": true,
       "armorClass": "6",
       "BackgroundColor": "yellow",
       "IsUnbuyable": true,
       "Durability": 70,
       "MaxDurability": 70,
-      "Unlootable": false,
-        
-
       "Prefab": {
-
         "path": "equipment/item_equipment_helmet_galvion_applique_ISB.bundle",
         "rcid": ""
       },
-
-
-      "Width": 2,
-      "Height": 1,
-
-
       "Weight": 0.75
     },
-
     "locales": {
       "en": {
         "name": "Modified Galvion Caiman Hybrid Ballistic Applique",
         "shortName": "Caiman BA",
         "description": "An additional up-armor helmet shell attachment to elevate or enhance ballistic and fragmentation protection of the Caiman Hybrid Helmet. Manufactured by Galvion. "
       },
-        "po": {
+      "po": {
         "name": "Modified Galvion Caiman Hybrid Ballistic Applique",
         "shortName": "Caiman BA",
         "description": "An additional up-armor helmet shell attachment to elevate or enhance ballistic and fragmentation protection of the Caiman Hybrid Helmet. Manufactured by Galvion."
       }
     },
-
     "fleaPriceRoubles": 70942,
-
     "handbookPriceRoubles": 69842,
-
     "addtoInventorySlots": [],
-
-    "addtoBots": false,  
-
+    "addtoBots": false,
     "CanSellOnRagfair": false,
-
     "addtoModSlots": true,
-
-    "modSlot": ["mod_equipment_002"],
-
+    "modSlot": [
+      "mod_equipment_002"
+    ],
     "CanRequireOnRagfair": false,
-    
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",

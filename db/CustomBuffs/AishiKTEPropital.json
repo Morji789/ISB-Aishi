@@ -1,0 +1,40 @@
+{
+  "AishiKTEPropital": [
+    {
+      "AbsoluteValue": true,
+      "BuffType": "HealthRate",
+      "Chance": 1,
+      "Delay": 0,
+      "Duration": 60,
+      "SkillName": "",
+      "Value": 1
+    },
+    {
+      "AbsoluteValue": true,
+      "BuffType": "SkillRate",
+      "Chance": 1,
+      "Delay": 0,
+      "Duration": 60,
+      "SkillName": "Metabolism",
+      "Value": 20
+    },
+    {
+      "AbsoluteValue": true,
+      "BuffType": "SkillRate",
+      "Chance": 1,
+      "Delay": 0,
+      "Duration": 60,
+      "SkillName": "Health",
+      "Value": 20
+    },
+    {
+      "AbsoluteValue": true,
+      "BuffType": "SkillRate",
+      "Chance": 1,
+      "Delay": 0,
+      "Duration": 60,
+      "SkillName": "Vitality",
+      "Value": 20
+    }
+  ]
+}

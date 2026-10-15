@@ -1,41 +1,23 @@
 {
   "6a01221f642040cc21286f0e": {
-
     "itemTplToClone": "5aa7cfc0e5b5b00015693143",
     "parentId": "5a341c4086f77401f2541505",
     "handbookParentId": "5b47574386f77428ca22b330",
-
-
     "overrideProperties": {
-      "QuestItem": false,
       "BackgroundColor": "yellow",
-      "IsUnsaleable": false,
       "CanSellOnRagfair": false,
-      "CanRequireOnRagfair": false,
       "InsuranceDisabled": true,
       "ExaminedByDefault": false,
-      "Durability": 0,
-      "MaxDurability": 0,
-        
-
       "Prefab": {
-
         "path": "equipment/item_equipment_helmet_6B47_black.bundle",
         "rcid": ""
       },
-
-
-      "Width": 2,
-      "Height": 2,
-
-
-      "Weight": 1.50,
-
-
-      "Grids": [
-      ]
+      "Weight": 1.5,
+      "Grids": [],
+      "Name": "6B47 Ratnik-BSh helmet (Black)",
+      "ShortName": "6B47 EMR",
+      "Description": "6B47 is an aramid helmet of Russian origin. As part of the Ratnik program, it is the new standard-issue helmet for most of the Russian Armed Forces. The 6B47 is similar to previous generation helmets such as the 6B7-1M and 6B27. It has equal protection but weighs slightly less, floats in water, and has mounting equipment for lights and night vision devices. The helmet can be fitted with a variety of covers for different environments. Equipped with an EMR (Digital Flora) camouflage cover. Black Version."
     },
-
     "addWeaponPreset": true,
     "weaponPresets": [
       {
@@ -71,36 +53,28 @@
         "_encyclopedia": "6a01221f642040cc21286f0e"
       }
     ],
-
     "locales": {
       "en": {
         "name": "Modified 6B47 Ratnik-BSh helmet (Black)",
-        "shortName": "ISB 6B47",
+        "shortName": "6B47 EMR",
         "description": "6B47 is an aramid helmet of Russian origin. As part of the Ratnik program, it is the new standard-issue helmet for most of the Russian Armed Forces. The 6B47 is similar to previous generation helmets such as the 6B7-1M and 6B27. It has equal protection but weighs slightly less, floats in water, and has mounting equipment for lights and night vision devices. The helmet can be fitted with a variety of covers for different environments. Equipped with an black camouflage cover."
       },
-        "po": {
-        "name": "Capacete 6B47 Ratnik-BSh modificado (Preto)",
-        "shortName": "ISB 6B47",
-        "description": "O 6B47 é um capacete de aramida de origem russa. Como parte do programa Ratnik, é o novo capacete padrão para a maior parte das Forças Armadas russas. O 6B47 é semelhante aos capacetes da geração anterior, como o 6B7-1M e o 6B27. Oferece o mesmo nível de proteção, mas pesa um pouco menos, flutua na água e possui suportes para lanternas e dispositivos de visão noturna. O capacete pode ser equipado com uma variedade de capas para diferentes ambientes. Equipado com uma capa de camuflagem preta."
+      "po": {
+        "name": "Capacete 6B47 com capa (Preto)",
+        "shortName": "6B47",
+        "description": "Principal capacete balístico do exército Russo, com cobertura camuflada Versão Preto."
       }
     },
-
     "fleaPriceRoubles": 442400,
-
     "handbookPriceRoubles": 354900,
-
-    "addtoInventorySlots": ["HeadWear"],
-
+    "addtoInventorySlots": [
+      "HeadWear"
+    ],
     "addtoBots": false,
-
     "IsAlwaysAvailableForInsurance": false,
-
     "InsuranceDisabled": true,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",
@@ -109,65 +83,45 @@
     ]
   },
   "6a0549ceaaddbad96fb399af": {
-
     "itemTplToClone": "657baaf0b7e9ca9a02045c02",
     "parentId": "65649eb40bf0ed77b8044453",
     "handbookParentId": "6564b96a189fe36f356d177c",
-
-
     "overrideProperties": {
-      "QuestItem": false,  
-      "ExaminedByDefault": true,
-      "IsUnsaleable": false,
       "InsuranceDisabled": true,
       "CanSellOnRagfair": false,
-      "CanRequireOnRagfair": false,
-      "MaterialType": "Helmet",
       "ArmorMaterial": "Titan",
       "ArmorType": "Heavy",
       "BackgroundColor": "yellow",
-      "ItemSound": "gear_armor",
-      "armorPlateColliders":  [],
       "armorClass": "5",
       "Durability": 30,
       "MaxDurability": 30,
       "BluntThroughput": 0.1,
-      "RarityPvE":"Superrare",
+      "RarityPvE": "Superrare",
       "Prefab": {
-
         "path": "assets/content/items/equipment/armor_plates/helmet_top.bundle",
         "rcid": ""
       }
-      },
-
-
-        "Width": 1,
-        "Height": 1,
-
-
-        "Weight": 0,
-
-
-        "Grids": [
-        ],
-
+    },
+    "Width": 1,
+    "Height": 1,
+    "Weight": 0,
+    "Grids": [],
     "locales": {
       "en": {
-          "name": "Modified Layers of aramid fiber",
-          "shortName": "Modified Layers of aramid fiber",
-          "description": "Modified Layers of aramid fiber"
+        "name": "Modified Layers of aramid fiber",
+        "shortName": "Modified Layers of aramid fiber",
+        "description": "Modified Layers of aramid fiber"
       },
-        "po": {
-          "name": "Modified Layers of aramid fiber",
-          "shortName": "Modified Layers of aramid fiber",
-          "description": "Modified Layers of aramid fiber"
+      "po": {
+        "name": "Modified Layers of aramid fiber",
+        "shortName": "Modified Layers of aramid fiber",
+        "description": "Modified Layers of aramid fiber"
       }
     },
-
-    "fleaPriceRoubles": 0,
-    "handbookPriceRoubles": 0, 
+    "fleaPriceRoubles": 16000,
+    "handbookPriceRoubles": 16000,
     "addtoBots": false,
-    "addtoItemBlacklist": true, 
+    "addtoItemBlacklist": true,
     "addtoStaticLootContainers": false,
     "StaticLootContainers": [
       {
@@ -177,66 +131,46 @@
     ]
   },
   "6a054a4fc3a9bb41a9126b74": {
-
     "itemTplToClone": "657bab6ec6f689d3a205b85f",
     "parentId": "65649eb40bf0ed77b8044453",
     "handbookParentId": "6564b96a189fe36f356d177c",
-
-
     "overrideProperties": {
-      "QuestItem": false,  
-      "ExaminedByDefault": true,
-      "IsUnsaleable": false,
       "InsuranceDisabled": true,
       "CanSellOnRagfair": false,
-      "CanRequireOnRagfair": false,
-      "MaterialType": "Helmet",
       "ArmorMaterial": "Titan",
       "ArmorType": "Heavy",
       "BackgroundColor": "yellow",
-      "ItemSound": "gear_armor",
-      "armorPlateColliders":  [],
       "armorClass": "5",
       "Durability": 30,
       "MaxDurability": 30,
       "BluntThroughput": 0.1,
-      "RarityPvE":"Superrare",
+      "RarityPvE": "Superrare",
       "Prefab": {
-
         "path": "assets/content/items/equipment/armor_plates/helmet_back.bundle",
         "rcid": ""
       }
-      },
-
-
-        "Width": 1,
-        "Height": 1,
-
-
-        "Weight": 0,
-
-
-        "Grids": [
-        ],
-
+    },
+    "Width": 1,
+    "Height": 1,
+    "Weight": 0,
+    "Grids": [],
     "locales": {
       "en": {
         "name": "Modified Layers of aramid fiber",
         "shortName": "Modified Layers of aramid fiber",
         "description": "Modified Layers of aramid fiber"
       },
-        "po": {
-            "name": "Modified Layers of aramid fiber",
-            "shortName": "Modified Layers of aramid fiber",
-            "description": "Modified Layers of aramid fiber"
+      "po": {
+        "name": "Modified Layers of aramid fiber",
+        "shortName": "Modified Layers of aramid fiber",
+        "description": "Modified Layers of aramid fiber"
       }
     },
-
-    "fleaPriceRoubles": 0,
-    "handbookPriceRoubles": 0, 
+    "fleaPriceRoubles": 16000,
+    "handbookPriceRoubles": 16000,
     "addtoBots": false,
     "addtoStaticLootContainers": false,
-    "addtoItemBlacklist": true, 
+    "addtoItemBlacklist": true,
     "StaticLootContainers": [
       {
         "ContainerName": "",
@@ -245,67 +179,47 @@
     ]
   },
   "6a054ac4faf625ac7020acd8": {
-
     "itemTplToClone": "657babc6f58ba5a6250107a2",
     "parentId": "65649eb40bf0ed77b8044453",
     "handbookParentId": "6564b96a189fe36f356d177c",
-
-
     "overrideProperties": {
-      "QuestItem": false,  
-      "ExaminedByDefault": true,
-      "IsUnsaleable": false,
       "InsuranceDisabled": true,
       "CanSellOnRagfair": false,
-      "CanRequireOnRagfair": false,
-      "addtoItemBlacklist": true, 
-      "MaterialType": "Helmet",
+      "addtoItemBlacklist": true,
       "ArmorMaterial": "Titan",
       "ArmorType": "Heavy",
       "BackgroundColor": "yellow",
-      "ItemSound": "gear_armor",
-      "armorPlateColliders":  [],
       "armorClass": "5",
       "Durability": 20,
       "MaxDurability": 20,
       "BluntThroughput": 0.1,
-      "RarityPvE":"Superrare",
+      "RarityPvE": "Superrare",
       "Prefab": {
-
         "path": "assets/content/items/equipment/armor_plates/helmet_ears.bundle",
         "rcid": ""
       }
-      },
-
-
-        "Width": 1,
-        "Height": 1,
-
-
-        "Weight": 0,
-
-
-        "Grids": [
-        ],
-
+    },
+    "Width": 1,
+    "Height": 1,
+    "Weight": 0,
+    "Grids": [],
     "locales": {
       "en": {
         "name": "Modified Layers of aramid fiber",
         "shortName": "Modified Layers of aramid fiber",
         "description": "Modified Layers of aramid fiber"
       },
-        "po": {
-            "name": "Modified Layers of aramid fiber",
-            "shortName": "Modified Layers of aramid fiber",
-            "description": "Modified Layers of aramid fiber"
+      "po": {
+        "name": "Modified Layers of aramid fiber",
+        "shortName": "Modified Layers of aramid fiber",
+        "description": "Modified Layers of aramid fiber"
       }
     },
-
-    "fleaPriceRoubles": 0,
-    "handbookPriceRoubles": 0, 
+    "fleaPriceRoubles": 14000,
+    "handbookPriceRoubles": 14000,
     "addtoBots": false,
     "addtoStaticLootContainers": false,
-    "addtoItemBlacklist": true, 
+    "addtoItemBlacklist": true,
     "StaticLootContainers": [
       {
         "ContainerName": "",

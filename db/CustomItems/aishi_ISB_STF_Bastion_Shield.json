@@ -1,38 +1,22 @@
 {
   "69e9a6ecb9a707df5df24b0d": {
-
     "itemTplToClone": "5ea18c84ecf1982c7712d9a2",
     "parentId": "57bef4c42459772e8d35a53b",
     "handbookParentId": "5b5f704686f77447ec5d76d7",
-
     "overrideProperties": {
-      "QuestItem": false,  
       "ExaminedByDefault": false,
-      "CanSellOnRagfair": false,
-      "CanRequireOnRagfair": false,
       "InsuranceDisabled": true,
       "armorClass": "5",
       "BackgroundColor": "yellow",
       "IsUnbuyable": true,
       "Durability": 55,
       "MaxDurability": 55,
-      "Unlootable": false,
-        
-
       "Prefab": {
-
         "path": "equipment/item_equipment_helmet_diamond_age_bastion_shield_V2.bundle",
         "rcid": ""
       },
-
-
-      "Width": 2,
-      "Height": 1,
-
-
       "Weight": 0.85,
-
-    "Grids": [],
+      "Grids": [],
       "Slots": [
         {
           "_id": "69e9ac6687d5098caa458f2a",
@@ -55,49 +39,36 @@
         }
       ]
     },
-
     "locales": {
       "en": {
         "name": "Modified Diamond Age Bastion helmet armor plate",
         "shortName": "Bastion plate",
         "description": "An optional modular ballistic protection for the Diamond Age Bastion helmet. A model painted in light silver with stripes and a matte finish, featuring modified decals. Designed for Vipper of ISB SOF, leader of the Snake squadron. "
       },
-        "po": {
+      "po": {
         "name": "Proteção modificada adicional para o capacete Bastion",
         "shortName": "Bastion",
         "description": "Uma proteção balística modular opcional para o capacete Diamond Age Bastion. Um modelo pintado em prata clara com listras e acabamento fosco, com decalques modificados. Projetado para Vipper, da ISB SOF, líder do esquadrão Snake. "
       }
     },
-
     "fleaPriceRoubles": 150942,
-
     "handbookPriceRoubles": 79842,
-
     "addtoInventorySlots": [],
-
     "addtoBots": false,
-
     "IsAlwaysAvailableForInsurance": false,
-
     "InsuranceDisabled": true,
-
-    "modSlot": ["mod_nvg"],
-
+    "modSlot": [
+      "mod_nvg"
+    ],
     "addtoEmptyPropSlots": true,
-
     "emptyPropSlot": {
       "itemToAddTo": "5ea17ca01412a1425304d1c0",
       "modSlot": "mod_nvg"
-    },   
-
+    },
     "CanSellOnRagfair": false,
-
     "CanRequireOnRagfair": false,
-    
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",

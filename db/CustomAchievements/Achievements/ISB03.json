@@ -1,13 +1,13 @@
 [
-{
-  "id": "694178105154d75f7a0cfd10",
-  "description": "694178105154d75f7a0cfd10 description",
-  "name": "694178105154d75f7a0cfd10 name",
-  "imageUrl": "/files/achievement/ISB03.png",
-  "assetPath": "",
-  "rewards": [],
-  "conditions": {
-    "availableForFinish": [
+  {
+    "id": "694178105154d75f7a0cfd10",
+    "description": "694178105154d75f7a0cfd10 description",
+    "name": "694178105154d75f7a0cfd10 name",
+    "imageUrl": "/files/achievement/ISB03.png",
+    "assetPath": "",
+    "rewards": [],
+    "conditions": {
+      "availableForFinish": [
         {
           "availableAfter": 0,
           "conditionType": "Quest",
@@ -24,18 +24,18 @@
           "target": "6a6d684930253f787fd50a01",
           "visibilityConditions": []
         }
-    ],
-    "fail": []
-  },
-  "instantComplete": false,
-  "showNotificationsInGame": false,
-  "showProgress": false,
-  "prefab": "",
-  "rarity": "Legendary",
-  "hidden": false,
-  "showConditions": false,
-  "progressBarEnabled": false,
-  "side": "Pmc",
-  "index": 3301
-}
+      ],
+      "fail": []
+    },
+    "instantComplete": false,
+    "showNotificationsInGame": false,
+    "showProgress": false,
+    "prefab": "",
+    "rarity": "Legendary",
+    "hidden": false,
+    "showConditions": false,
+    "progressBarEnabled": false,
+    "side": "Pmc",
+    "index": 3301
+  }
 ]

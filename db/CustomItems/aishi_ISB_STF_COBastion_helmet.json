@@ -1,38 +1,20 @@
 {
   "69e9a2584f96ca8b30449811": {
-
     "itemTplToClone": "66b5f65ca7f72d197e70bcd6",
     "parentId": "5a341c4086f77401f2541505",
     "handbookParentId": "5b47574386f77428ca22b330",
-
     "overrideProperties": {
-      "QuestItem": false,  
       "ExaminedByDefault": false,
       "CanSellOnRagfair": false,
-      "CanRequireOnRagfair": false,
-      "armorClass": "5",
       "InsuranceDisabled": true,
       "BackgroundColor": "yellow",
       "IsUnbuyable": true,
-      "Durability": 0,
-      "MaxDurability": 0,
-      "Unlootable": false,
-        
-
       "Prefab": {
-
         "path": "equipment/item_equipment_helmet_bastion_ISB.bundle",
         "rcid": ""
       },
-
-
-      "Width": 2,
-      "Height": 2,
-
-
       "Weight": 1.55,
-
-    "Grids": [],
+      "Grids": [],
       "Slots": [
         {
           "_id": "69e9b6093280468061a50c68",
@@ -103,32 +85,26 @@
         }
       ]
     },
-
     "locales": {
       "en": {
-        "name": "Modified Ballistic Armor Co. Bastion helmet (ISB STF-A Edition)",
+        "name": "Modified Ballistic Armor Co. Bastion helmet (White Tusk Edition)",
         "shortName": "BAC Bastion",
         "description": "The Bastion NIJ level IIIA tactical helmet designed for law enforcement and civilian use. Equipped with M-LOK interface rails for mounting additional equipment. Manufactured by Ballistic Armor Co. A model painted in a light silver camouflage finish with modified decals. Designed for Firefly, the leader of the Cipher squadron, from ISB SOF."
       },
-        "po": {
-        "name": "Capacete Ballistic Armor Co. Bastion modificado (Edição ISB STF-A)",
+      "po": {
+        "name": "Capacete Ballistic Armor Co. Bastion modificado (Edição White Tusk)",
         "shortName": "BAC Bastion",
         "description": "O capacete tático Bastion NIJ nível IIIA, projetado para uso policial e civil. Equipado com trilhos de interface M-LOK para a montagem de equipamentos adicionais. Fabricado pela Ballistic Armor Co. A model painted in a light silver camouflage finish with modified decals. Um modelo pintado com um acabamento camuflado prateado claro e decalques modificados. Concebido para o Firefly, o líder do esquadrão Cipher, da ISB SOF."
       }
     },
-
     "fleaPriceRoubles": 150942,
-
     "handbookPriceRoubles": 69842,
-
-    "addtoInventorySlots": ["HeadWear"],
-
+    "addtoInventorySlots": [
+      "HeadWear"
+    ],
     "addtoBots": false,
-
     "IsAlwaysAvailableForInsurance": false,
-
     "InsuranceDisabled": true,
-
     "addWeaponPreset": true,
     "weaponPresets": [
       {
@@ -158,11 +134,8 @@
         "_encyclopedia": "69e9a2584f96ca8b30449811"
       }
     ],
-    
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",
@@ -171,66 +144,46 @@
     ]
   },
   "69ea65a9e640bbb08c86a4bb": {
-
     "itemTplToClone": "66b61cfae98be930d701c029",
     "parentId": "65649eb40bf0ed77b8044453",
     "handbookParentId": "6564b96a189fe36f356d177c",
-
-
     "overrideProperties": {
-      "QuestItem": false,  
-      "ExaminedByDefault": true,
-      "IsUnsaleable": false,
       "InsuranceDisabled": true,
       "CanSellOnRagfair": false,
-      "CanRequireOnRagfair": false,
-      "MaterialType": "Helmet",
       "ArmorMaterial": "Titan",
       "ArmorType": "Heavy",
       "BackgroundColor": "yellow",
-      "ItemSound": "gear_armor",
-      "armorPlateColliders":  [],
       "armorClass": "5",
       "Durability": 35,
       "MaxDurability": 35,
       "BluntThroughput": 0.1,
-      "RarityPvE":"Superrare",
+      "RarityPvE": "Superrare",
       "Prefab": {
-
         "path": "assets/content/items/equipment/armor_plates/helmet_back.bundle",
         "rcid": ""
       }
-      },
-
-
-        "Width": 1,
-        "Height": 1,
-
-
-        "Weight": 0,
-
-
-        "Grids": [
-        ],
-
+    },
+    "Width": 1,
+    "Height": 1,
+    "Weight": 0,
+    "Grids": [],
     "locales": {
       "en": {
         "name": "Modified hybrid composite materials",
         "shortName": "Modified hybrid composite materials",
         "description": "Modified hybrid composite materials"
       },
-        "po": {
-            "name": "Modified hybrid composite materials",
-            "shortName": "Modified hybrid composite materials",
-            "description": "Modified hybrid composite materials"
+      "po": {
+        "name": "Modified hybrid composite materials",
+        "shortName": "Modified hybrid composite materials",
+        "description": "Modified hybrid composite materials"
       }
     },
-
-    "fleaPriceRoubles": 0,
-    "handbookPriceRoubles": 0, 
+    "fleaPriceRoubles": 17000,
+    "handbookPriceRoubles": 17000,
     "addtoBots": false,
     "addtoStaticLootContainers": false,
-    "addtoItemBlacklist": true, 
+    "addtoItemBlacklist": true,
     "StaticLootContainers": [
       {
         "ContainerName": "",
@@ -239,65 +192,45 @@
     ]
   },
   "69ea673522ba0b3c326b668e": {
-
     "itemTplToClone": "66b61ce0c5d72b027748867e",
     "parentId": "65649eb40bf0ed77b8044453",
     "handbookParentId": "6564b96a189fe36f356d177c",
-
-
     "overrideProperties": {
-      "QuestItem": false,  
-      "ExaminedByDefault": true,
-      "IsUnsaleable": false,
       "InsuranceDisabled": true,
       "CanSellOnRagfair": false,
-      "CanRequireOnRagfair": false,
-      "MaterialType": "Helmet",
       "ArmorMaterial": "Titan",
       "ArmorType": "Heavy",
       "BackgroundColor": "yellow",
-      "ItemSound": "gear_armor",
-      "armorPlateColliders":  [],
       "armorClass": "5",
       "Durability": 35,
       "MaxDurability": 35,
       "BluntThroughput": 0.1,
-      "RarityPvE":"Superrare",
+      "RarityPvE": "Superrare",
       "Prefab": {
-
         "path": "assets/content/items/equipment/armor_plates/helmet_back.bundle",
         "rcid": ""
       }
-      },
-
-
-        "Width": 1,
-        "Height": 1,
-
-
-        "Weight": 0,
-
-
-        "Grids": [
-        ],
-
+    },
+    "Width": 1,
+    "Height": 1,
+    "Weight": 0,
+    "Grids": [],
     "locales": {
       "en": {
         "name": "Modified hybrid composite materials",
         "shortName": "Modified hybrid composite materials",
         "description": "Modified hybrid composite materials"
       },
-        "po": {
-            "name": "Modified hybrid composite materials",
-            "shortName": "Modified hybrid composite materials",
-            "description": "Modified hybrid composite materials"
+      "po": {
+        "name": "Modified hybrid composite materials",
+        "shortName": "Modified hybrid composite materials",
+        "description": "Modified hybrid composite materials"
       }
     },
-
-    "fleaPriceRoubles": 0,
-    "handbookPriceRoubles": 0, 
+    "fleaPriceRoubles": 17000,
+    "handbookPriceRoubles": 17000,
     "addtoBots": false,
-    "addtoItemBlacklist": true, 
+    "addtoItemBlacklist": true,
     "addtoStaticLootContainers": false,
     "StaticLootContainers": [
       {

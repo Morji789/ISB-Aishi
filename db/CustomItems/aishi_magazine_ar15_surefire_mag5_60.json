@@ -1,0 +1,154 @@
+{
+  "8805ece53da85942823c9c35": {
+    "itemTplToClone": "544a37c44bdc2d25388b4567",
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "overrideProperties": {
+      "IsUnsaleable": true,
+      "IsUnbuyable": true,
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": true,
+      "addtoItemBlacklist": false,
+      "Ergonomics": -2,
+      "Cartridges": [
+        {
+          "_id": "98aba13e12345ba7ba9705e0",
+          "_max_count": 60,
+          "_name": "cartridges",
+          "_parent": "8805ece53da85942823c9c35",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "59e6920f86f77411d82aa167",
+                  "59e6927d86f77411da468256",
+                  "54527a984bdc2d4e668b4567",
+                  "54527ac44bdc2d36668b4567",
+                  "59e68f6f86f7746c9f75e846",
+                  "59e6906286f7746c9f75e847",
+                  "59e690b686f7746c9f75e848",
+                  "59e6918f86f7746c9f75e849",
+                  "60194943740c5d77f6705eea",
+                  "601949593ae8f707c4608daa",
+                  "5c0d5ae286f7741e46554302",
+                  "5fbe3ffdf8b6a877a729ea82",
+                  "5fd20ff893a8961fc660a954",
+                  "619636be6db0f2477964e710",
+                  "6196364158ef8c428c287d9f",
+                  "6196365d58ef8c428c287da1",
+                  "64b8725c4b75259c590fa899",
+                  "692dc61870449aedfa85120f",
+                  "699b6b973e813e0eaa275b56"
+                ]
+              }
+            ]
+          },
+          "_proto": "69f059ae1e667f63eddb3b7c"
+        }
+      ],
+      "Prefab": {
+        "path": "aishiweapons/magazines/ar15_surefire_mag5_60_fde_tape/magazine_ar15_surefire_mag5_60_fde_tape.bundle",
+        "rcid": ""
+      },
+      "Name": "AR-15 5.56x45 SureFire MAG5-60 STANAG 60-round magazine (Tape)",
+      "ShortName": "MAG5-60",
+      "Description": "A 60-round 5.56x45 SureFire MAG5-60 metal high capacity magazine. Tape Version. Change the tape color from the magazine menu in your stash."
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_magazine"
+    ],
+    "locales": {
+      "en": {
+        "name": "AR-15 5.56x45 SureFire MAG5-60 STANAG 60-round magazine (Tape)",
+        "shortName": "MAG5-60",
+        "description": "A 60-round 5.56x45 SureFire MAG5-60 metal high capacity magazine. Tape Version. Change the tape color from the magazine menu in your stash."
+      },
+      "po": {
+        "name": "AR-15 5.56x45 SureFire MAG5-60 STANAG 60-round magazine (Tape)",
+        "shortName": "MAG5-60",
+        "description": "Um carregador metálico de alta capacidade SureFire MAG5-60 para munição 5,56x45, com capacidade para 60 cartuchos. Tape Version. Change the tape color from the magazine menu in your stash."
+      }
+    },
+    "handbookPriceRoubles": 24755,
+    "fleaPriceRoubles": 54755
+  },
+  "ba0f13da81915cc7b9bc9d7f": {
+    "itemTplToClone": "544a37c44bdc2d25388b4567",
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "overrideProperties": {
+      "Name": "AR-15 5.56x45 SureFire MAG5-60 STANAG 60-round magazine (Tape)",
+      "Prefab": {
+        "path": "aishiweapons/magazines/ar15_surefire_mag5_60_tape/mag_stanag_surefire_mag5_556x45_60_tape.bundle",
+        "rcid": ""
+      },
+      "Cartridges": [
+        {
+          "_id": "1ce9a6cb91d65bbeaa869bec",
+          "_max_count": 60,
+          "_name": "cartridges",
+          "_parent": "ba0f13da81915cc7b9bc9d7f",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "59e6920f86f77411d82aa167",
+                  "59e6927d86f77411da468256",
+                  "54527a984bdc2d4e668b4567",
+                  "54527ac44bdc2d36668b4567",
+                  "59e68f6f86f7746c9f75e846",
+                  "59e6906286f7746c9f75e847",
+                  "59e690b686f7746c9f75e848",
+                  "59e6918f86f7746c9f75e849",
+                  "60194943740c5d77f6705eea",
+                  "601949593ae8f707c4608daa",
+                  "5c0d5ae286f7741e46554302",
+                  "5fbe3ffdf8b6a877a729ea82",
+                  "5fd20ff893a8961fc660a954",
+                  "619636be6db0f2477964e710",
+                  "6196364158ef8c428c287d9f",
+                  "6196365d58ef8c428c287da1",
+                  "64b8725c4b75259c590fa899"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ],
+      "ShortName": "MAG5-60",
+      "Description": "A 60-round 5.56x45 SureFire MAG5-60 metal high capacity magazine. Tape Version. Change the tape color from the magazine menu in your stash.",
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": true
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_magazine"
+    ],
+    "locales": {
+      "en": {
+        "name": "AR-15 5.56x45 SureFire MAG5-60 STANAG 60-round magazine (Tape)",
+        "shortName": "MAG5-60",
+        "description": "A 60-round 5.56x45 SureFire MAG5-60 metal high capacity magazine. Tape Version. Change the tape color from the magazine menu in your stash."
+      },
+      "po": {
+        "name": "AR-15 5.56x45 SureFire MAG5-60 STANAG 60-round magazine (Tape)",
+        "shortName": "MAG5-60",
+        "description": "Carregador de metal com capacidade de 60 munições calibre 5.56x45, marca Surefire, modelo MAG5-60 Tape Version. Change the tape color from the magazine menu in your stash."
+      }
+    },
+    "handbookPriceRoubles": 22755,
+    "fleaPriceRoubles": 22755
+  }
+}

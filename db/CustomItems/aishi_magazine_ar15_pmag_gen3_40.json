@@ -1,0 +1,74 @@
+{
+  "93589bf85a5955808cacd285": {
+    "itemTplToClone": "544a378f4bdc2d30388b4567",
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "overrideProperties": {
+      "Name": "AR-15 5.56x45 Magpul PMAG 40 GEN M3 STANAG 40-round magazine (Tape)",
+      "Prefab": {
+        "path": "aishiweapons/magazines/ar15_pmag_gen3_40_tape/mag_stanag_magpul_pmag_gen_m3_556x45_40_tape.bundle",
+        "rcid": ""
+      },
+      "Cartridges": [
+        {
+          "_id": "604d767d80ff5dbe949bdb38",
+          "_max_count": 40,
+          "_name": "cartridges",
+          "_parent": "93589bf85a5955808cacd285",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "59e6920f86f77411d82aa167",
+                  "59e6927d86f77411da468256",
+                  "54527a984bdc2d4e668b4567",
+                  "54527ac44bdc2d36668b4567",
+                  "59e68f6f86f7746c9f75e846",
+                  "59e6906286f7746c9f75e847",
+                  "59e690b686f7746c9f75e848",
+                  "59e6918f86f7746c9f75e849",
+                  "60194943740c5d77f6705eea",
+                  "601949593ae8f707c4608daa",
+                  "5c0d5ae286f7741e46554302",
+                  "5fbe3ffdf8b6a877a729ea82",
+                  "5fd20ff893a8961fc660a954",
+                  "619636be6db0f2477964e710",
+                  "6196364158ef8c428c287d9f",
+                  "6196365d58ef8c428c287da1",
+                  "64b8725c4b75259c590fa899"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ],
+      "ShortName": "GEN M3",
+      "Description": "The PMAG 40 GEN M3 is a 40-round 5.56x45 NATO (.223 Remington) polymer magazine for AR-15/M4 compatible weapons. Tape Version. Change the tape color from the magazine menu in your stash.",
+      "CanRequireOnRagfair": true
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_magazine"
+    ],
+    "locales": {
+      "en": {
+        "name": "AR-15 5.56x45 Magpul PMAG 40 GEN M3 STANAG 40-round magazine (Tape)",
+        "shortName": "GEN M3",
+        "description": "The PMAG 40 GEN M3 is a 40-round 5.56x45 NATO (.223 Remington) polymer magazine for AR-15/M4 compatible weapons. Tape Version. Change the tape color from the magazine menu in your stash."
+      },
+      "po": {
+        "name": "AR-15 5.56x45 Magpul PMAG 40 GEN M3 STANAG 40-round magazine (Tape)",
+        "shortName": "GEN M3 40",
+        "description": "Carregador de polímero de 40 munições, marca Magpul, modelo PMAG GEN M3 40 para calibre 5.56x45. Tape Version. Change the tape color from the magazine menu in your stash."
+      }
+    },
+    "handbookPriceRoubles": 6177,
+    "fleaPriceRoubles": 24248
+  }
+}

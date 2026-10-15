@@ -1,18 +1,16 @@
 {
-    "6a6aa8e25ce77038f78f5360 name": "I can be generous sometimes",
-    "6a6aa8e25ce77038f78f5360 description": "You know, sometimes I get bored watching my people's bodycams and whatever network is still up in Tarkov, and I decide to hack into any vulnerability just to see what's going on.\n\nDo you know Lotus? She's a big trader here in Tarkov, and she has a lot of people too. From the data we have on her, she's more connected to Russia as a whole, RUAF, and their allies.\n\nWell, that doesn't matter much right now. What matters is that I intercepted some signals, and it seems a few Raiders managed to eavesdrop on a broadcast from Lotus to some of her mercenaries. That ended up leaking the location of one of her stashes on Woods.\n\nEven if I offered help, she'd hardly accept it. So head over to Reserve and plant some Jammers on those two main antennas near the tents and the helicopter. That will make them stop listening in on other people's conversations.",
-    "6a6aa8e25ce77038f78f5360 successMessageText": "Confirmed. The signal stopped. Now we just need to get them off that route.",
-    "6a6ab094783b46ba47b5772b": "Plant a Signal Jammer on the first antenna on Reserve",
-    "6a6ab14a2dca8e1e627b78f0": "Plant a Signal Jammer on the second antenna on Reserve",
-
-    "6a6ab405957e20e3ed0af439 name": "Raider Purge",
-    "6a6ab405957e20e3ed0af439 description": "Now that those shits have stopped eavesdropping on other people's conversations, let's teach them a lesson, ISB style. Find some Raiders and wipe them off the map.",
-    "6a6ab405957e20e3ed0af439 successMessageText": "Good, Lotus' stashes are secure. Moving on.",
-    "6a6ab40e060af6fe3c0d533e": "Eliminate 25 Raiders all over Tarkov",
-
-    "6a6be0db93f4ebb01828169d name": "Light of Lotus?",
-    "6a6be0db93f4ebb01828169d description": "An investigation in record time. Why didn't you tell me sooner? Well, I guess in a way this was payback for that business involving the Raiders.\n\nAnyway, it seems you guys really got me out of a tight spot, not that it makes much of a difference because I'm going to hunt these shits down to the very last second.\n\nTake this, pay Lotus, and keep the change.",
-    "6a6be0db93f4ebb01828169d successMessageText": "Thank you for the help. And thank Lotus as well.",
-    "6a6be54ed788b87d372816a2": "Fulfill Lotus's request",
-    "6a6be5aab8e36105e72816aa": "Hand over the Notebook with the documents"
+  "6a6aa8e25ce77038f78f5360 name": "I can be generous sometimes",
+  "6a6aa8e25ce77038f78f5360 description": "You know, sometimes I get bored watching my people's bodycams and whatever network is still up in Tarkov, and I decide to hack into any vulnerability just to see what's going on.\n\nDo you know Lotus? She's a big trader here in Tarkov, and she has a lot of people too. From the data we have on her, she's more connected to Russia as a whole, RUAF, and their allies.\n\nWell, that doesn't matter much right now. What matters is that I intercepted some signals, and it seems a few Raiders managed to eavesdrop on a broadcast from Lotus to some of her mercenaries. That ended up leaking the location of one of her stashes on Woods.\n\nEven if I offered help, she'd hardly accept it. So head over to Reserve and plant some Jammers on those two main antennas near the tents and the helicopter. That will make them stop listening in on other people's conversations.",
+  "6a6aa8e25ce77038f78f5360 successMessageText": "Confirmed. The signal stopped. Now we just need to get them off that route.",
+  "6a6ab094783b46ba47b5772b": "Plant a Signal Jammer on the first antenna on Reserve",
+  "6a6ab14a2dca8e1e627b78f0": "Plant a Signal Jammer on the second antenna on Reserve",
+  "6a6ab405957e20e3ed0af439 name": "Raider Purge",
+  "6a6ab405957e20e3ed0af439 description": "Now that those shits have stopped eavesdropping on other people's conversations, let's teach them a lesson, ISB style. Find some Raiders and wipe them off the map.",
+  "6a6ab405957e20e3ed0af439 successMessageText": "Good, Lotus' stashes are secure. Moving on.",
+  "6a6ab40e060af6fe3c0d533e": "Eliminate 25 Raiders all over Tarkov",
+  "6a6be0db93f4ebb01828169d name": "Light of Lotus?",
+  "6a6be0db93f4ebb01828169d description": "An investigation in record time. Why didn't you tell me sooner? Well, I guess in a way this was payback for that business involving the Raiders.\n\nAnyway, it seems you guys really got me out of a tight spot, not that it makes much of a difference because I'm going to hunt these shits down to the very last second.\n\nTake this, pay Lotus, and keep the change.",
+  "6a6be0db93f4ebb01828169d successMessageText": "Thank you for the help. And thank Lotus as well.",
+  "6a6be54ed788b87d372816a2": "Fulfill Lotus's request",
+  "6a6be5aab8e36105e72816aa": "Hand over the Notebook with the documents"
 }

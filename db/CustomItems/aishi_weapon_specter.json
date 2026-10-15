@@ -1,32 +1,21 @@
 {
   "69fd4c184b6b64d765f4634e": {
-
     "itemTplToClone": "57aca93d2459771f2c7e26db",
     "parentId": "55818add4bdc2d5b648b456f",
     "handbookParentId": "5b5f740a86f77447ec5d7706",
-
-
-    "overrideProperties": { 
-        "ExaminedByDefault": true,
-        "IsUnsaleable": true,
-        "IsUnbuyable": true,
-        "CanSellOnRagfair": true,
-        "CanRequireOnRagfair": true,
-        "addtoItemBlacklist": false,   
-        "Ergonomics": -2,
-        
-
-        "Prefab": {
+    "overrideProperties": {
+      "IsUnsaleable": true,
+      "IsUnbuyable": true,
+      "CanRequireOnRagfair": true,
+      "addtoItemBlacklist": false,
+      "Ergonomics": -2,
+      "Prefab": {
         "path": "equipment/item_equipment_sight_specter.bundle",
         "rcid": ""
-        },
-
-        "Width": 2,
-        "Height": 1,
-        "Weight": 0.79,
-        "Grids": []
       },
-
+      "Weight": 0.79,
+      "Grids": []
+    },
     "locales": {
       "en": {
         "name": "ELCAN SpecterDR 1x/4x scope (TAN)",
@@ -38,27 +27,18 @@
         "shortName": "SpecterDR",
         "description": "A mira SpecterDR (Dual Role) 1x/4x, da série Specter projetada pela ELCAN, representou um avanço no desenvolvimento de miras ópticas ao se tornar a primeira mira com ampliação variável que possui, de fato, dois modos de operação, permitindo alternar da ampliação de 4x para 1x com um único toque. Também possui uma mira mecânica de reserva. Versão TAN."
       }
-    
     },
-
     "fleaPriceRoubles": 95000,
-
     "handbookPriceRoubles": 76000,
-
     "addtoBots": true,
-
     "addtoModSlots": true,
-
-    "modSlot": ["mod_scope"],
-
+    "modSlot": [
+      "mod_scope"
+    ],
     "addtoStaticLootContainers": false,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": false,
     "StaticLootContainers": [
       {
         "ContainerName": "",

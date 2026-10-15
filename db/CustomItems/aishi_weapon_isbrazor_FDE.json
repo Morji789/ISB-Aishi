@@ -1,64 +1,49 @@
 {
   "69fc2eed42c2198ea9ca68de": {
-
     "itemTplToClone": "618ba27d9008e4636a67f61d",
     "parentId": "55818ae44bdc2dde698b456c",
     "handbookParentId": "5b5f748386f774093e6cb501",
-
-
-    "overrideProperties": { 
-        "ExaminedByDefault": true,
-        "IsUnsaleable": true,
-        "IsUnbuyable": true,
-        "CanSellOnRagfair": true,
-        "CanRequireOnRagfair": true,
-        "addtoItemBlacklist": false,   
-        "Ergonomics": -2,
-        
-
-        "Prefab": {
+    "overrideProperties": {
+      "IsUnsaleable": true,
+      "IsUnbuyable": true,
+      "CanRequireOnRagfair": true,
+      "addtoItemBlacklist": false,
+      "Ergonomics": -2,
+      "Prefab": {
         "path": "equipment/item_equipment_scope_razor_FDE.bundle",
         "rcid": ""
-        },
-
-        "Width": 2,
-        "Height": 1,
-        "Weight": 0.79,
-        "Grids": []
       },
-
-      "AimSensitivity": [
-        [
-          0.1,
-          0.6
-        ]
-      ],
-
-      "SightingRange": 2500,
-
-      "CalibrationDistances": [
-        [
-          50,
-          100,
-          150,
-          200,
-          250,
-          300,
-          350,
-          400,
-          450,
-          500
-        ]
-      ],
-
-      "Zooms": [
-        [
-          1,
-          6
-        ]
-      ],
-      "sightModType": "optic",
-
+      "Weight": 0.79,
+      "Grids": []
+    },
+    "AimSensitivity": [
+      [
+        0.1,
+        0.6
+      ]
+    ],
+    "SightingRange": 2500,
+    "CalibrationDistances": [
+      [
+        50,
+        100,
+        150,
+        200,
+        250,
+        300,
+        350,
+        400,
+        450,
+        500
+      ]
+    ],
+    "Zooms": [
+      [
+        1,
+        6
+      ]
+    ],
+    "sightModType": "optic",
     "locales": {
       "en": {
         "name": "Vortex Razor HD Gen.2 1-6x24 30mm riflescope (FDE)",
@@ -70,20 +55,15 @@
         "shortName": "Razor HD Gen.2",
         "description": "Uma mira tática projetada para a rápida localização do alvo e máxima precisão. Fabricada pela Vortex Optics. Versão em FDE"
       }
-    
     },
-
     "fleaPriceRoubles": 125000,
-
     "handbookPriceRoubles": 80000,
-
     "addtoBots": true,
-
     "addtoModSlots": true,
-    "modSlot": ["mod_scope"],
-
+    "modSlot": [
+      "mod_scope"
+    ],
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",

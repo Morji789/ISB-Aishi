@@ -1,0 +1,36 @@
+{
+  "d94f4a94edf1050b40c93cdb": {
+    "itemTplToClone": "5bc9be8fd4351e00334cae6e",
+    "parentId": "590c745b86f7743cc433c5f2",
+    "handbookParentId": "5b47574386f77428ca22b2f1",
+    "handbookPriceRoubles": 54000,
+    "fleaPriceRoubles": 180000,
+    "overrideProperties": {
+      "CanSellOnRagfair": false,
+      "Prefab": {
+        "path": "equipment/anomalous_items/aishiS2/tea/item_kte_tea.bundle",
+        "rcid": ""
+      },
+      "CanRequireOnRagfair": false
+    },
+    "locales": {
+      "en": {
+        "name": "KTE 642",
+        "shortName": "KTE 642",
+        "description": "<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 642</b></color>\n<size=90%>TerraGroup research • Unknown properties.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 642</b></color>\n<size=90%><color=#B2B9B5>PROPERTIES IDENTIFIED • REPORT BELOW</color></size></align>\n\nWhile carried in the inventory.\n\n<color=#E88888><b>Negative effects:</b></color>\nNone found.\n\n<color=#92CAA1><b>Positive effects:</b></color>\n• Applies Propital for 1 minute every 5 minutes."
+      },
+      "po": {
+        "name": "KTE 642",
+        "shortName": "KTE 642",
+        "description": "<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 642</b></color>\n<size=90%>Pesquisa TerraGroup • Propriedades desconhecidas.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 642</b></color>\n<size=90%><color=#B2B9B5>PROPRIEDADES IDENTIFICADAS • RELATÓRIO ABAIXO</color></size></align>\n\nEnquanto carregado no inventário.\n\n<color=#E88888><b>Efeitos negativos:</b></color>\nNão encontrado.\n\n<color=#92CAA1><b>Efeitos positivos:</b></color>\n• Aplica Propital por 1 minuto a cada 5 minutos."
+      }
+    },
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "addtoItemBlacklist": true,
+    "addtoSecureFilters": false,
+    "addtoSpecialSlots": false
+  }
+}

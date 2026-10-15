@@ -6,6 +6,7 @@ namespace AishiKeys.Config
         UltraKeyOne,
         UltraKeyTwo,
         UltraKeyThree,
-        UltraKeyFour
+        UltraKeyFour,
+        UltraKeyFive
     }
 }

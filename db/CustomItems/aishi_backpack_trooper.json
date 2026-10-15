@@ -1,67 +1,41 @@
 {
   "693aeaff56c3eeda87817550": {
-
     "itemTplToClone": "639346cc1c8f182ad90c8972",
     "parentId": "5448e53e4bdc2d60728b4567",
     "handbookParentId": "5b5f6f6c86f774093f2ecf0b",
-
     "overrideProperties": {
-      "QuestItem": false,  
       "ExaminedByDefault": false,
-      "IsUnsaleable": false,
-      "CanSellOnRagfair": false,
-      "CanRequireOnRagfair": false,
-      "addtoItemBlacklist": true,   
-        
-
+      "addtoItemBlacklist": true,
       "Prefab": {
-
         "path": "equipment/item_equipment_backpack_trooper_35_black.bundle",
         "rcid": ""
-      },
-
-      "Width": 5,
-      "Height": 7,
-
-
-      "Weight": 1.004
+      }
     },
-
     "locales": {
       "en": {
         "name": "Tasmanian Tiger Trooper 35 backpack (USEC Intelligence Support Bureau)",
         "shortName": "Trooper 35",
         "description": "The TT Trooper Light Pack 35 is a lightweight and functional 35 liter backpack from Tasmanian Tiger with a comfortable and ergonomic PaddenBack suspension system and anatomical shoulder straps. Black Customized Version for ISB Special Forces."
       },
-        "po": {
+      "po": {
         "name": "Mochila Tasmanian Tiger Trooper 35 (Agência de Suporte a Inteligência da USEC)",
         "shortName": "Trooper 35",
         "description": "A TT Trooper Light Pack 35 é uma mochila leve e funcional de 35 litros da Tasmanian Tiger com um sistema de suspensão PaddenBack confortável e ergonômico e alças anatômicas. Versão personalizada em preto para as Forças Especiais da ISB."
       }
     },
-
     "fleaPriceRoubles": 150000,
-
     "handbookPriceRoubles": 92765,
-
     "addtoHideoutPosterSlots": false,
-
     "CanSellOnRagfair": false,
-
     "CanRequireOnRagfair": false,
-    
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "IsAlwaysAvailableForInsurance": false,
-
     "InsuranceDisabled": false,
-
-    "addtoInventorySlots": ["Backpack"],
-
+    "addtoInventorySlots": [
+      "Backpack"
+    ],
     "addtoBots": false,
-
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",

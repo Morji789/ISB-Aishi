@@ -1,28 +1,17 @@
 {
   "6a11e1e951f16801020b4061": {
-
     "itemTplToClone": "61605d88ffa6e502ac5e7eeb",
     "parentId": "55818b164bdc2ddc698b456c",
     "handbookParentId": "5b5f737886f774093e6cb4fb",
-
-
-    "overrideProperties": { 
-        "ExaminedByDefault": true,
-        "IsUnsaleable": true,
-        "IsUnbuyable": true,   
-        
-
-        "Prefab": {
+    "overrideProperties": {
+      "IsUnsaleable": true,
+      "IsUnbuyable": true,
+      "Prefab": {
         "path": "equipment/tactical_all_wilcox_raptar_black.bundle",
         "rcid": ""
-        },
-
-        "Width": 1,
-        "Height": 1,
-        "Weight": 0.308,
-        "Grids": []
       },
-
+      "Grids": []
+    },
     "locales": {
       "en": {
         "name": "Wilcox RAPTAR ES Tactical Rangefinder (Black)",
@@ -34,15 +23,10 @@
         "shortName": "RAPTAR",
         "description": "A primeira geração do dispositivo tático denominado “RAPTAR” era equipada com um telêmetro. Possui lasers visíveis e infravermelhos, bem como um iluminador infravermelho."
       }
-    
     },
-
     "fleaPriceRoubles": 35000,
-
     "handbookPriceRoubles": 22000,
-
     "addtoBots": true,
-
     "addtoModSlots": true,
     "modSlot": [
       "mod_scope",
@@ -51,9 +35,7 @@
       "mod_tactical_001",
       "mod_tactical_002"
     ],
-
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",

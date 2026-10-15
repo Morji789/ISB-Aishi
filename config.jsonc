@@ -1,0 +1,13 @@
+{
+  "logging": {
+    "localeDiagnostics": false
+  },
+  "reputationCalibration": {
+    "enabled": true,
+    "migrationVersion": 3,
+    "logs": false
+  },
+  "anomalousItems": {
+    "requiredEquippedItem": "2b20c487a99515b22b11ff78"
+  }
+}

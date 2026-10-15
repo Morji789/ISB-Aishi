@@ -1,0 +1,74 @@
+{
+  "cc4aa5e8aed95c5d93329cb1": {
+    "itemTplToClone": "5c6d46132e221601da357d56",
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "handbookPriceRoubles": 4680,
+    "fleaPriceRoubles": 18831,
+    "overrideProperties": {
+      "Prefab": {
+        "path": "aishiweapons/magazines/ar15_troy_battlemag_30_tape/mag_stanag_troy_battlemag_556x45_30_tape.bundle",
+        "rcid": ""
+      },
+      "Cartridges": [
+        {
+          "_id": "2e87bc8746c250599f4af293",
+          "_max_count": 30,
+          "_name": "cartridges",
+          "_parent": "cc4aa5e8aed95c5d93329cb1",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "59e6920f86f77411d82aa167",
+                  "59e6927d86f77411da468256",
+                  "54527a984bdc2d4e668b4567",
+                  "54527ac44bdc2d36668b4567",
+                  "59e68f6f86f7746c9f75e846",
+                  "59e6906286f7746c9f75e847",
+                  "59e690b686f7746c9f75e848",
+                  "59e6918f86f7746c9f75e849",
+                  "60194943740c5d77f6705eea",
+                  "601949593ae8f707c4608daa",
+                  "5c0d5ae286f7741e46554302",
+                  "5fbe3ffdf8b6a877a729ea82",
+                  "5fd20ff893a8961fc660a954",
+                  "619636be6db0f2477964e710",
+                  "6196364158ef8c428c287d9f",
+                  "6196365d58ef8c428c287da1",
+                  "64b8725c4b75259c590fa899"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ],
+      "Name": "AR-15 5.56x45 TROY BattleMag STANAG 30-round magazine (Tape)",
+      "ShortName": "BattleMag",
+      "Description": "The TROY BattleMag polymer 30-round magazine, for 5.56x45 ammunition. Tape Version. Change the tape color from the magazine menu in your stash.",
+      "CanRequireOnRagfair": true
+    },
+    "locales": {
+      "en": {
+        "name": "AR-15 5.56x45 TROY BattleMag STANAG 30-round magazine (Tape)",
+        "shortName": "BattleMag",
+        "description": "The TROY BattleMag polymer 30-round magazine, for 5.56x45 ammunition. Tape Version. Change the tape color from the magazine menu in your stash."
+      },
+      "po": {
+        "name": "Carregador de 30 munições TROY Battlemag 5.56x45 STANAG (Tape)",
+        "shortName": "Battlemag",
+        "description": "Carregador de polímero TROY Battlemag capacidade de 30 munições 5.56x45. Tape Version. Change the tape color from the magazine menu in your stash."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_magazine"
+    ]
+  }
+}

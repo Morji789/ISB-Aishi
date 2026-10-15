@@ -1,33 +1,19 @@
 {
   "69f0eb9054288f30f3789ec1": {
-
     "itemTplToClone": "60926df0132d4d12c81fd9df",
     "parentId": "550aa4cd4bdc2dd8348b456c",
     "handbookParentId": "5b5f731a86f774093e6cb4f9",
-
-
-    "overrideProperties": { 
-        "ExaminedByDefault": true,
-        "IsUnsaleable": true,
-        "IsUnbuyable": true,
-        "CanSellOnRagfair": true,
-        "CanRequireOnRagfair": true,
-        "addtoItemBlacklist": false,   
-
+    "overrideProperties": {
+      "IsUnsaleable": true,
+      "IsUnbuyable": true,
+      "CanRequireOnRagfair": true,
+      "addtoItemBlacklist": false,
       "Prefab": {
-
-        "path": "equipment/supressor_test2.bundle",
+        "path": "equipment/suppressor_saker_asr_fde.bundle",
         "rcid": ""
       },
-
-
-      "Width": 2,
-      "Height": 1,
       "Weight": 0.18
     },
-
-
-
     "locales": {
       "en": {
         "name": "SilencerCo Saker ASR 556 5.56x45 sound suppressor (FDE)",
@@ -39,23 +25,15 @@
         "shortName": "Saker ASR 556",
         "description": "O silenciador SilencerCo Saker ASR 556, projetado para uso com sistemas de armas do calibre 5,56x45. Pode ser instalado em dispositivos de boca compatíveis com ASR."
       }
-    
     },
-
     "fleaPriceRoubles": 97000,
-
     "handbookPriceRoubles": 62325,
-
     "addtoBots": true,
-
     "addtoModSlots": true,
-    
     "modSlot": [
       "mod_muzzle"
     ],
-
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",

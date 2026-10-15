@@ -1,0 +1,43 @@
+{
+  "54d85e84263051398785a34f": {
+    "itemTplToClone": "5755356824597772cb798962",
+    "parentId": "5448f39d4bdc2d0a728b4568",
+    "handbookParentId": "5b47574386f77428ca22b338",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "equipment/ai2_isb/item_medkit_loot_isb.bundle",
+        "rcid": ""
+      },
+      "UsePrefab": {
+        "path": "equipment/ai2_isb/item_medkit_container_isb.bundle",
+        "rcid": ""
+      },
+      "Name": "Modified AI-2 medkit",
+      "ShortName": "AI-2",
+      "Description": "The AI-2 medkit was developed as a standard service first aid kit for various defense and law enforcement agencies and civil defense forces of USSR. In case of all-out conflict with the use of weapons of mass destruction it should have been distributed to the population of the affected and surrounding areas.",
+      "BackgroundColor": "yellow",
+      "CanSellOnRagfair": false,
+      "MaxHpResource": 300
+    },
+    "weaponPresets": [],
+    "locales": {
+      "en": {
+        "name": "Modified AI-2 medkit",
+        "shortName": "AI-2",
+        "description": "The AI-2 medkit was developed as a standard service first aid kit for various defense and law enforcement agencies and civil defense forces of USSR. In case of all-out conflict with the use of weapons of mass destruction it should have been distributed to the population of the affected and surrounding areas."
+      },
+      "po": {
+        "name": "Modificado Kit médico AI-2",
+        "shortName": "AI-2",
+        "description": "O kit médico AI-2 foi desenvolvido como um kit de primeiros socorros de serviço padrão para vários defesa e agências de aplicação da lei e as forças de defesa civil da URSS. Em caso de conflito total com o uso de armas de destruição em massa, deveria ter sido distribuída para a população das áreas afetadas e adjacentes."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "handbookPriceRoubles": 24000,
+    "fleaPriceRoubles": 24000,
+    "addtoStaticLootContainers": false
+  }
+}

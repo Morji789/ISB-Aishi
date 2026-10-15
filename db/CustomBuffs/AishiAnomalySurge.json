@@ -1,0 +1,22 @@
+{
+  "AishiAnomalySurge": [
+    {
+      "BuffType": "StaminaRate",
+      "Chance": 1,
+      "Delay": 0,
+      "Duration": 300,
+      "Value": 100,
+      "AbsoluteValue": true,
+      "SkillName": ""
+    },
+    {
+      "BuffType": "HealthRate",
+      "Chance": 1,
+      "Delay": 0,
+      "Duration": 300,
+      "Value": -1.5,
+      "AbsoluteValue": true,
+      "SkillName": ""
+    }
+  ]
+}

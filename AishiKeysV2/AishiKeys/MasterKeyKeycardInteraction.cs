@@ -11,11 +11,7 @@ namespace AishiKeys
         private readonly KeycardDoor _door;
         private readonly GamePlayerOwner _owner;
         private readonly KeyComponent _keyComponent;
-
-        public MasterKeyKeycardInteraction(
-            KeycardDoor door,
-            GamePlayerOwner owner,
-            KeyComponent keyComponent)
+        public MasterKeyKeycardInteraction(KeycardDoor door, GamePlayerOwner owner, KeyComponent keyComponent)
         {
             _door = door;
             _owner = owner;
@@ -24,27 +20,15 @@ namespace AishiKeys
 
         public void Unlock()
         {
-            string templateId = _keyComponent != null && _keyComponent.Item != null
-                ? _keyComponent.Item.TemplateId
-                : string.Empty;
-
-            if (AishiKeysMod.TryHandleSynchronizedUnlock(
-                    _door,
-                    _owner,
-                    templateId,
-                    _keyComponent,
-                    true))
+            string templateId = _keyComponent != null && _keyComponent.Item != null ? _keyComponent.Item.TemplateId : string.Empty;
+            if (AishiKeysMod.TryHandleSynchronizedUnlock(_door, _owner, templateId, _keyComponent, true))
             {
                 return;
             }
 
             if (_owner == null || _owner.Player == null)
                 return;
-
-            MasterKeyUnlockExecutor.UnlockKeycard(
-                _door,
-                _owner.Player,
-                _keyComponent);
+            MasterKeyUnlockExecutor.UnlockKeycard(_door, _owner.Player, _keyComponent);
         }
     }
 }

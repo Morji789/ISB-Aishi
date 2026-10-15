@@ -1,117 +1,117 @@
-    {
-    "692a7d6661f0a0969fc2334e": {
-      "_changeWeaponName": true,
-      "_id": "692a7d6661f0a0969fc2334e",
-      "_items": [
-    {
-      "_id": "69417f32f30756b16cfdb581",
-      "_tpl": "5a7ae0c351dfba0017554310",
-      "upd": {
-        "Repairable": {
-          "Durability": 100,
-          "MaxDurability": 100
+{
+  "692a7d6661f0a0969fc2334e": {
+    "_changeWeaponName": true,
+    "_id": "692a7d6661f0a0969fc2334e",
+    "_items": [
+      {
+        "_id": "69417f32f30756b16cfdb581",
+        "_tpl": "5a7ae0c351dfba0017554310",
+        "upd": {
+          "Repairable": {
+            "Durability": 100,
+            "MaxDurability": 100
+          }
+        }
+      },
+      {
+        "_id": "69417f32f30756b16cfdb582",
+        "_tpl": "5a6b5f868dc32e000a311389",
+        "parentId": "69417f32f30756b16cfdb581",
+        "slotId": "mod_barrel",
+        "upd": {
+          "SpawnedInSession": true
+        }
+      },
+      {
+        "_id": "69417f32f30756b16cfdb583",
+        "_tpl": "5a7b4960e899ef197b331a2d",
+        "parentId": "69417f32f30756b16cfdb581",
+        "slotId": "mod_pistol_grip",
+        "upd": {
+          "SpawnedInSession": true
+        }
+      },
+      {
+        "_id": "69417f32f30756b16cfdb584",
+        "_tpl": "5a6f5e048dc32e00094b97da",
+        "parentId": "69417f32f30756b16cfdb581",
+        "slotId": "mod_reciever",
+        "upd": {
+          "SpawnedInSession": true
+        }
+      },
+      {
+        "_id": "69417f32f30756b16cfdb585",
+        "_tpl": "5a718da68dc32e000d46d264",
+        "parentId": "69417f32f30756b16cfdb581",
+        "slotId": "mod_magazine",
+        "upd": {
+          "SpawnedInSession": true
+        }
+      },
+      {
+        "_id": "69417f32f30756b16cfdb586",
+        "_tpl": "5a7ad74e51dfba0015068f45",
+        "parentId": "69417f32f30756b16cfdb581",
+        "slotId": "mod_tactical",
+        "upd": {
+          "SpawnedInSession": true
+        }
+      },
+      {
+        "_id": "69417f32f30756b16cfdb587",
+        "_tpl": "5a6f5d528dc32e00094b97d9",
+        "parentId": "69417f32f30756b16cfdb584",
+        "slotId": "mod_sight_rear",
+        "upd": {
+          "SpawnedInSession": true,
+          "Sight": {
+            "ScopesCurrentCalibPointIndexes": [
+              0
+            ],
+            "ScopesSelectedModes": [
+              0
+            ],
+            "SelectedScope": 0,
+            "ScopeZoomValue": 0
+          }
+        }
+      },
+      {
+        "_id": "69417f32f30756b16cfdb588",
+        "_tpl": "5a6f58f68dc32e000a311390",
+        "parentId": "69417f32f30756b16cfdb584",
+        "slotId": "mod_sight_front",
+        "upd": {
+          "SpawnedInSession": true,
+          "Sight": {
+            "ScopesCurrentCalibPointIndexes": [
+              0
+            ],
+            "ScopesSelectedModes": [
+              0
+            ],
+            "SelectedScope": 0,
+            "ScopeZoomValue": 0
+          }
+        }
+      },
+      {
+        "_id": "69417f32f30756b16cfdb589",
+        "_tpl": "56def37dd2720bec348b456a",
+        "parentId": "69417f32f30756b16cfdb586",
+        "slotId": "mod_tactical",
+        "upd": {
+          "SpawnedInSession": true,
+          "Light": {
+            "IsActive": true,
+            "SelectedMode": 0
+          }
         }
       }
-    },
-    {
-      "_id": "69417f32f30756b16cfdb582",
-      "_tpl": "5a6b5f868dc32e000a311389",
-      "parentId": "69417f32f30756b16cfdb581",
-      "slotId": "mod_barrel",
-      "upd": {
-        "SpawnedInSession": true
-      }
-    },
-    {
-      "_id": "69417f32f30756b16cfdb583",
-      "_tpl": "5a7b4960e899ef197b331a2d",
-      "parentId": "69417f32f30756b16cfdb581",
-      "slotId": "mod_pistol_grip",
-      "upd": {
-        "SpawnedInSession": true
-      }
-    },
-    {
-      "_id": "69417f32f30756b16cfdb584",
-      "_tpl": "5a6f5e048dc32e00094b97da",
-      "parentId": "69417f32f30756b16cfdb581",
-      "slotId": "mod_reciever",
-      "upd": {
-        "SpawnedInSession": true
-      }
-    },
-    {
-      "_id": "69417f32f30756b16cfdb585",
-      "_tpl": "5a718da68dc32e000d46d264",
-      "parentId": "69417f32f30756b16cfdb581",
-      "slotId": "mod_magazine",
-      "upd": {
-        "SpawnedInSession": true
-      }
-    },
-    {
-      "_id": "69417f32f30756b16cfdb586",
-      "_tpl": "5a7ad74e51dfba0015068f45",
-      "parentId": "69417f32f30756b16cfdb581",
-      "slotId": "mod_tactical",
-      "upd": {
-        "SpawnedInSession": true
-      }
-    },
-    {
-      "_id": "69417f32f30756b16cfdb587",
-      "_tpl": "5a6f5d528dc32e00094b97d9",
-      "parentId": "69417f2ff30756b16cfdb577",
-      "slotId": "mod_sight_rear",
-      "upd": {
-        "SpawnedInSession": true,
-        "Sight": {
-          "ScopesCurrentCalibPointIndexes": [
-            0
-          ],
-          "ScopesSelectedModes": [
-            0
-          ],
-          "SelectedScope": 0,
-          "ScopeZoomValue": 0
-        }
-      }
-    },
-    {
-      "_id": "69417f32f30756b16cfdb588",
-      "_tpl": "5a6f58f68dc32e000a311390",
-      "parentId": "69417f2ff30756b16cfdb577",
-      "slotId": "mod_sight_front",
-      "upd": {
-        "SpawnedInSession": true,
-        "Sight": {
-          "ScopesCurrentCalibPointIndexes": [
-            0
-          ],
-          "ScopesSelectedModes": [
-            0
-          ],
-          "SelectedScope": 0,
-          "ScopeZoomValue": 0
-        }
-      }
-    },
-    {
-      "_id": "69417f32f30756b16cfdb589",
-      "_tpl": "56def37dd2720bec348b456a",
-      "parentId": "69417f2ff30756b16cfdb579",
-      "slotId": "mod_tactical",
-      "upd": {
-        "SpawnedInSession": true,
-        "Light": {
-          "IsActive": true,
-          "SelectedMode": 0
-        }
-      }
-    }
-  ],
-  "_name": "Aishi's First Glock-17",
-  "_parent": "69417f32f30756b16cfdb581",
-  "_type": "Preset"
-}
+    ],
+    "_name": "Aishi's First Glock-17",
+    "_parent": "69417f32f30756b16cfdb581",
+    "_type": "Preset"
+  }
 }

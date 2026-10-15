@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net472</TargetFramework>
     <AssemblyName>AishiKeysV2.Fika</AssemblyName>
@@ -51,7 +51,8 @@
       <Private>false</Private>
     </Reference>
     <Reference Include="Fika.Core">
-      <HintPath>..\..\ISB SOF BUILD 1.0.4\Reference\Fika.Core.dll</HintPath>
+      <HintPath>$(FikaCorePath)</HintPath>
+      <Private>false</Private>
     </Reference>
     <Reference Include="UnityEngine">
       <HintPath>$(ManagedPath)\UnityEngine.dll</HintPath>

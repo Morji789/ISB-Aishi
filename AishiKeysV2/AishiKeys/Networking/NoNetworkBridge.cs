@@ -5,7 +5,6 @@ namespace AishiKeys.Networking
     internal sealed class NoNetworkBridge : IAishiKeysNetworkBridge
     {
         internal static readonly NoNetworkBridge Instance = new NoNetworkBridge();
-
         private NoNetworkBridge()
         {
         }

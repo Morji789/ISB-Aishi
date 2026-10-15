@@ -1,0 +1,310 @@
+[
+  {
+    "type": "top",
+    "suiteId": "c356a93e2bc75dc091db04ca",
+    "outfitId": "584244d55b6f53dfbc83a2fc",
+    "topId": "5746988fa2925492a006a231",
+    "handsId": "c4100b0b0f5455e2afedb7b7",
+    "locales": {
+      "en": {
+        "name": "USEC ISB BOSS Delta MC (Moonlight)",
+        "description": "ISB Combat Jacket"
+      }
+    },
+    "topBundlePath": "clothing/isb_delta_moonlight/top_isb_delta_moonlight.bundle",
+    "handsBundlePath": "clothing/isb_delta_moonlight/hands_isb_delta_moonlight.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 45,
+    "standing": 0.6,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 6500,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "bottom",
+    "suiteId": "f6afdc1c6c9257aaab050b7a",
+    "outfitId": "d8897e5ffad35395aedba752",
+    "bottomId": "c7a3c8a81d6d52ef982e799b",
+    "locales": {
+      "en": {
+        "name": "USEC ISB BOSS Delta MC (Moonlight)",
+        "description": "ISB Black Camouflage Pants"
+      }
+    },
+    "bottomBundlePath": "clothing/isb_delta_moonlight/pants_isb_delta_moonlight.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 40,
+    "standing": 0.4,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 2000,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "top",
+    "suiteId": "87ff2f31262e59f192406daa",
+    "outfitId": "ddf3634968ff5b28a68044e2",
+    "topId": "5083b907752c5cf2afc28bb3",
+    "handsId": "d60fd9f276665bf2b876b847",
+    "locales": {
+      "en": {
+        "name": "USEC ISB BOSS Delta MC (Red Camo)",
+        "description": "ISB Combat Jacket"
+      }
+    },
+    "topBundlePath": "clothing/isb_delta_red_camo/top_isb_delta_red_camo.bundle",
+    "handsBundlePath": "clothing/isb_delta_red_camo/hands_isb_delta_red_camo.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 45,
+    "standing": 0.6,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 6500,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "bottom",
+    "suiteId": "a855fc3cf5ce512593e03395",
+    "outfitId": "b236e34a10af5960969fb96c",
+    "bottomId": "55d791213eff5bb1b6cfb041",
+    "locales": {
+      "en": {
+        "name": "USEC ISB BOSS Delta MC (Red Camo)",
+        "description": "ISB Black Camouflage Pants"
+      }
+    },
+    "bottomBundlePath": "clothing/isb_delta_red_camo/pants_isb_delta_red_camo.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 40,
+    "standing": 0.4,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 2000,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "top",
+    "suiteId": "d56d4517c6b0507e9e304069",
+    "outfitId": "89b19f95c498558b9909c695",
+    "topId": "a6e4df6b154755c3a3c0eb72",
+    "handsId": "17f8497333325d0784a563a5",
+    "locales": {
+      "en": {
+        "name": "USEC ISB BOSS Delta MC (Multicam Black)",
+        "description": "ISB Combat Jacket"
+      }
+    },
+    "topBundlePath": "clothing/isb_delta_multicam_black/top_isb_delta_multicam_black.bundle",
+    "handsBundlePath": "clothing/isb_delta_multicam_black/hands_isb_delta_multicam_black.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 45,
+    "standing": 0.6,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 6500,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "bottom",
+    "suiteId": "0c42fd5081bb5ed293c7d7fe",
+    "outfitId": "3bf89cf8e5865528b8d6e3e2",
+    "bottomId": "1940cc7297325123a5770dad",
+    "locales": {
+      "en": {
+        "name": "USEC ISB BOSS Delta MC (Multicam Black)",
+        "description": "ISB Black Camouflage Pants"
+      }
+    },
+    "bottomBundlePath": "clothing/isb_delta_multicam_black/pants_isb_delta_multicam_black.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 40,
+    "standing": 0.4,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 2000,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "top",
+    "suiteId": "9a9c8e7576a85fef98336986",
+    "outfitId": "da7370e6edae57fba0f7104e",
+    "topId": "f4664a1de01253b1877a1827",
+    "handsId": "1a15c7c477865bfb8c161cc1",
+    "locales": {
+      "en": {
+        "name": "USEC ISB Black Camouflage (Moonlight)",
+        "description": "ISB Black Camo Uniform"
+      }
+    },
+    "topBundlePath": "clothing/isb_camouflage_moonlight/top_isb_camouflage_moonlight.bundle",
+    "handsBundlePath": "clothing/isb_camouflage_moonlight/hands_isb_camouflage_moonlight.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 40,
+    "standing": 0.4,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 2000,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "bottom",
+    "suiteId": "c10784ca26175e9891e7e458",
+    "outfitId": "4bd94b652c2d55fb97a65083",
+    "bottomId": "df893d39c11f5519a705c42b",
+    "locales": {
+      "en": {
+        "name": "USEC ISB Black Camouflage (Moonlight)",
+        "description": "ISB Black Camouflage Pants"
+      }
+    },
+    "bottomBundlePath": "clothing/isb_camouflage_moonlight/pants_isb_camouflage_moonlight.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 40,
+    "standing": 0.4,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 2000,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "top",
+    "suiteId": "89a2a0e83da3578c80de1b43",
+    "outfitId": "03ad34b479ce5e2bb8958e41",
+    "topId": "780e40164bc35e5aa2649f36",
+    "handsId": "3842906862af54b094a541b4",
+    "locales": {
+      "en": {
+        "name": "USEC ISB Black Camouflage (Red Camo)",
+        "description": "ISB Black Camo Uniform"
+      }
+    },
+    "topBundlePath": "clothing/isb_camouflage_red_camo/top_isb_camouflage_red_camo.bundle",
+    "handsBundlePath": "clothing/isb_camouflage_red_camo/hands_isb_camouflage_red_camo.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 40,
+    "standing": 0.4,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 2000,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "bottom",
+    "suiteId": "82a3b11ac573557aa2018485",
+    "outfitId": "7475499ddf795f3b9c25cf33",
+    "bottomId": "5a4dcb3067b259a6a001c981",
+    "locales": {
+      "en": {
+        "name": "USEC ISB Black Camouflage (Red Camo)",
+        "description": "ISB Black Camouflage Pants"
+      }
+    },
+    "bottomBundlePath": "clothing/isb_camouflage_red_camo/pants_isb_camouflage_red_camo.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 40,
+    "standing": 0.4,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 2000,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "top",
+    "suiteId": "bb8fa73fb02a57d39e8443ab",
+    "outfitId": "308f8ee7a81e507886b5e32f",
+    "topId": "a47ef80fab0858c69ed7103f",
+    "handsId": "90f86493f3ea5206adb39e31",
+    "locales": {
+      "en": {
+        "name": "USEC ISB Black Camouflage (Multicam Black)",
+        "description": "ISB Black Camo Uniform"
+      }
+    },
+    "topBundlePath": "clothing/isb_camouflage_multicam_black/top_isb_camouflage_multicam_black.bundle",
+    "handsBundlePath": "clothing/isb_camouflage_multicam_black/hands_isb_camouflage_multicam_black.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 40,
+    "standing": 0.4,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 2000,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "bottom",
+    "suiteId": "1935696fda1b524abae2b5e3",
+    "outfitId": "d269c57d2c1155d2b65fbcc4",
+    "bottomId": "b7c8a66864785defb2c84d8a",
+    "locales": {
+      "en": {
+        "name": "USEC ISB Black Camouflage (Multicam Black)",
+        "description": "ISB Black Camouflage Pants"
+      }
+    },
+    "bottomBundlePath": "clothing/isb_camouflage_multicam_black/pants_isb_camouflage_multicam_black.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 40,
+    "standing": 0.4,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 2000,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "top",
+    "suiteId": "ea0c17807642546682b14920",
+    "outfitId": "ac36eb4b732e54979e81386d",
+    "topId": "2a8daab814c5537e95979c9c",
+    "handsId": "973f322a76d853c09af397dc",
+    "locales": {
+      "en": {
+        "name": "The Desert 6 (Dark - Black Boots)",
+        "description": "Combat shirt in six-color desert camouflage."
+      }
+    },
+    "topBundlePath": "clothing/usec_desert_six_dark/top_usec_desert_six_dark.bundle",
+    "handsBundlePath": "clothing/usec_desert_six_dark/hands_usec_desert_six_dark.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 2,
+    "profileLevel": 10,
+    "standing": 0.45,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 2000,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "bottom",
+    "suiteId": "292fb6dee3f65ea3998cb789",
+    "outfitId": "8062e707df6156409deb4dfa",
+    "bottomId": "19923a8532cf5754a8f4b269",
+    "locales": {
+      "en": {
+        "name": "The Desert 6 (Dark - Black Boots)",
+        "description": "Combat trousers in six-color desert camouflage."
+      }
+    },
+    "bottomBundlePath": "clothing/usec_desert_six_dark/pants_usec_desert_six_dark.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 35,
+    "standing": 0.45,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 3000,
+    "questRequirements": [],
+    "achievementRequirements": []
+  }
+]

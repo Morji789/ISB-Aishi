@@ -1,0 +1,70 @@
+{
+  "093565ad01cd57a2a54c8303": {
+    "itemTplToClone": "55d482194bdc2d1d4e8b456b",
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "handbookPriceRoubles": 18319,
+    "fleaPriceRoubles": 24855,
+    "overrideProperties": {
+      "Prefab": {
+        "path": "aishiweapons/magazines/ak74_6l31_60_tape/mag_ak74_izhmash_6l31_545x39_60_tape.bundle",
+        "rcid": ""
+      },
+      "Cartridges": [
+        {
+          "_id": "3cd0693ce8f35e6880da989c",
+          "_max_count": 60,
+          "_name": "cartridges",
+          "_parent": "093565ad01cd57a2a54c8303",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5c0d5e4486f77478390952fe",
+                  "61962b617c6c7b169525f168",
+                  "56dfef82d2720bbd668b4567",
+                  "56dff026d2720bb8668b4567",
+                  "56dff061d2720bb5668b4567",
+                  "56dff0bed2720bb0668b4567",
+                  "56dff216d2720bbd668b4568",
+                  "56dff2ced2720bb4668b4567",
+                  "56dff338d2720bbd668b4569",
+                  "56dff3afd2720bba668b4567",
+                  "56dff421d2720b5f5a8b4567",
+                  "56dff4a2d2720bbd668b456a",
+                  "56dff4ecd2720b5f5a8b4568"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ],
+      "Name": "AK-74 5.45x39 6L31 60-round magazine (Tape)",
+      "ShortName": "6L31",
+      "Description": "A 60-round 5.45x39 quad-stack polymer Izhmash 6L31 magazine for AK-74 and compatible systems. Produced in a small batch, never serialized. Tape Version. Change the tape color from the magazine menu in your stash.",
+      "CanRequireOnRagfair": true
+    },
+    "locales": {
+      "en": {
+        "name": "AK-74 5.45x39 6L31 60-round magazine (Tape)",
+        "shortName": "6L31",
+        "description": "A 60-round 5.45x39 quad-stack polymer Izhmash 6L31 magazine for AK-74 and compatible systems. Produced in a small batch, never serialized. Tape Version. Change the tape color from the magazine menu in your stash."
+      },
+      "po": {
+        "name": "Carregador de 60 munições 6L31 5.45x39 para AK-74 e compatíveis (Tape)",
+        "shortName": "6L31",
+        "description": "Carregador de 60 munições 6L31 feito de polímero para munição calibre 5.45x39 para AK-74 e compatíveis. Produzido em pouca escala e nunca em serie. Produzido pela Izhmekh. Tape Version. Change the tape color from the magazine menu in your stash."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_magazine"
+    ]
+  }
+}

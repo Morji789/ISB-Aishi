@@ -1,32 +1,18 @@
 {
   "6a1267fd0580910d4ffbdec0": {
-
     "itemTplToClone": "5ab8f04f86f774585f4237d8",
     "parentId": "5448e53e4bdc2d60728b4567",
     "handbookParentId": "5b5f6f6c86f774093f2ecf0b",
-
     "overrideProperties": {
-      "QuestItem": false,  
       "ExaminedByDefault": false,
-      "IsUnsaleable": false,
       "CanSellOnRagfair": false,
       "InsuranceDisabled": true,
-      "CanRequireOnRagfair": false,
-      "addtoItemBlacklist": false,   
-        
-
+      "addtoItemBlacklist": false,
       "Prefab": {
-
         "path": "equipment/item_equipment_backpack_molle_ISB.bundle",
         "rcid": ""
       },
-
-      "Width": 3,
-      "Height": 3,
-
-
       "Weight": 0.68,
-
       "Grids": [
         {
           "_name": "main",
@@ -64,47 +50,36 @@
         }
       ]
     },
-
     "locales": {
       "en": {
         "name": "Extended Tactical sling bag (USEC Intelligence Support Bureau)",
         "shortName": "Sling",
         "description": "An original sling bag for everyday wear or for active rest."
       },
-        "po": {
+      "po": {
         "name": "Bolsa Tática estendida (Agência de Suporte a Inteligência da USEC)",
         "shortName": "Bolsa",
         "description": "Uma bolsa tipo sling original, ideal para o dia a dia ou para atividades de lazer."
       }
     },
-
     "fleaPriceRoubles": 95000,
-
     "handbookPriceRoubles": 10000,
-
-    "addtoInventorySlots": ["Backpack"],
-
+    "addtoInventorySlots": [
+      "Backpack"
+    ],
     "addtoBots": true,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
     "IsAlwaysAvailableForInsurance": false,
-
     "InsuranceDisabled": true,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",
         "Probability": 0
       }
     ],
-
     "addtoSecureFilters": false
   }
 }

@@ -1,70 +1,53 @@
 {
   "6a0c8252cdf53775685d923e": {
-
     "itemTplToClone": "693fd0e9deee848f70054999",
     "parentId": "5448e5284bdc2dcb718b4567",
     "handbookParentId": "5b5f6f8786f77447ed563642",
-
-
     "overrideProperties": {
-      "QuestItem": false,  
+      "QuestItem": false,
       "ExaminedByDefault": false,
       "IsUnsaleable": false,
       "CanSellOnRagfair": false,
       "CanRequireOnRagfair": false,
-      "addtoItemBlacklist": true,   
-      "BackgroundColor": "default", 
-        
+      "addtoItemBlacklist": true,
+      "BackgroundColor": "default",
       "Prefab": {
-
         "path": "equipment/item_equipment_rig_jpc_first_gen_mil_spec_v1_ISB.bundle",
         "rcid": ""
       },
-
-
       "Width": 3,
       "Height": 4,
-
-
-      "Weight": 1.83
+      "Weight": 1.83,
+      "Name": "Crye Precision JPC Plate Carrier (USEC Intelligence Support Bureau)",
+      "ShortName": "JPC",
+      "Description": "The widely beloved Jumpable Plate Carrier (JPC) was designed to maximize operator mobility by reducing weight and bulk. Its modular system allows for personalized loadouts and quick gear adjustments depending on the mission. Manufactured by Crye Precision. MultiCam version. (ISB SOF)"
     },
-
     "addWeaponPreset": false,
     "weaponPresets": [],
-
     "locales": {
       "en": {
         "name": "Crye Precision JPC Plate Carrier (USEC Intelligence Support Bureau)",
         "shortName": "JPC",
-        "description": "The widely beloved Jumpable Plate Carrier (JPC) was designed to maximize operator mobility by reducing weight and bulk. Its modular system allows for personalized loadouts and quick gear adjustments depending on the mission. Manufactured by Crye Precision. Black version."
+        "description": "The widely beloved Jumpable Plate Carrier (JPC) was designed to maximize operator mobility by reducing weight and bulk. Its modular system allows for personalized loadouts and quick gear adjustments depending on the mission. Manufactured by Crye Precision. MultiCam version. (ISB SOF)"
       },
-        "po": {
+      "po": {
         "name": "Colete Tático Crye Precision JPC (Agência de Suporte a Inteligência da USEC)",
         "shortName": "JPC",
-        "description": "O amplamente apreciado Jumpable Plate Carrier (JPC) foi projetado para maximizar a mobilidade do operador, reduzindo o peso e o volume. Seu sistema modular permite configurações personalizadas e ajustes rápidos do equipamento, dependendo da missão. Fabricado pela Crye Precision. Versão em preto."
+        "description": "O popular Jumpable Plate Carrier (JPC) foi projetado para maximizar a mobilidade do operador, reduzindo o peso e o volume. Seu sistema modular permite configurações personalizadas e ajustes rápidos de equipamento conforme a missão. Fabricado pela Crye Precision. Versão MultiCam. (ISB SOF)"
       }
     },
-
     "fleaPriceRoubles": 136000,
-
     "handbookPriceRoubles": 120526,
-
     "addtoHideoutPosterSlots": false,
-
-    "addtoInventorySlots": ["TacticalRig"],
-
+    "addtoInventorySlots": [
+      "TacticalRig"
+    ],
     "addtoStaticLootContainers": false,
-
     "IsAlwaysAvailableForInsurance": false,
-
     "InsuranceDisabled": false,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "StaticLootContainers": [
       {
         "ContainerName": "",

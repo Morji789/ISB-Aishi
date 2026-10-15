@@ -1,0 +1,34 @@
+{
+  "3401a3220a7355a3ad4b0f54": {
+    "itemTplToClone": "a7d9ede064cc53bd8cc78bfe",
+    "parentId": "5a341c4686f77469e155819e",
+    "handbookParentId": "5b47574386f77428ca22b32f",
+    "handbookPriceRoubles": 16588,
+    "fleaPriceRoubles": 16588,
+    "overrideProperties": {
+      "Name": "MSA Millennium Riot Control gas mask (Red)",
+      "ShortName": "MRC",
+      "Description": "The MSA Millennium Riot Control gas mask combines protection against chemical, biological, radiological, and nuclear threats with excellent build quality and a level of comfort rarely found in gas masks.",
+      "Prefab": {
+        "path": "equipment/isb_ghostbuster/item_equipment_facecover_msa_red_visor.bundle",
+        "rcid": ""
+      },
+      "IsUnbuyable": false
+    },
+    "locales": {
+      "en": {
+        "name": "MSA Millennium Riot Control gas mask (Red)",
+        "shortName": "MRC",
+        "description": "The MSA Millennium Riot Control gas mask combines protection against chemical, biological, radiological, and nuclear threats with excellent build quality and a level of comfort rarely found in gas masks."
+      },
+      "po": {
+        "name": "Máscara de gás MSA Millennium Riot Control (Red)",
+        "shortName": "MRC",
+        "description": "The MSA Millennium Riot Control gas mask combines protection against chemical, biological, radiological, and nuclear threats with excellent build quality and a level of comfort rarely found in gas masks."
+      }
+    },
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoItemBlacklist": true
+  }
+}

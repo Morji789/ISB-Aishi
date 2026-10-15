@@ -1,0 +1,149 @@
+{
+  "0140978ce1035280be45a118": {
+    "itemTplToClone": "63737f448b28897f2802b874",
+    "parentId": "5448e54d4bdc2dcc718b4568",
+    "handbookParentId": "5b5f701386f774093f2ecf0f",
+    "overrideProperties": {
+      "Description": "PLATEminus modular plate carrier in Grey. (Black Division)",
+      "Grids": [],
+      "Name": "Blue Force Gear PLATEminus V2 body armor (Black Division)",
+      "Prefab": {
+        "path": "equipment/item_equipment_plateminus_grey_bd_aishi.bundle",
+        "rcid": ""
+      },
+      "ShortName": "PLATEminus V2",
+      "Slots": [
+        {
+          "_id": "e30ab642654455e097603e1d",
+          "_mergeSlotWithChildren": true,
+          "_name": "Front_plate",
+          "_parent": "0140978ce1035280be45a118",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "656f9d5900d62bcd2e02407c",
+                  "656fa8d700d62bcd2e024084",
+                  "656fa99800d62bcd2e024088",
+                  "656fae5f7c2d57afe200c0d7",
+                  "656faf0ca0dce000a2020f77",
+                  "656fafe3498d1b7e3e071da4",
+                  "656fa0fb498d1b7e3e071d9c",
+                  "656fa76500d62bcd2e024080",
+                  "656fad8c498d1b7e3e071da0",
+                  "656fa25e94b480b8a500c0e0",
+                  "656fa61e94b480b8a500c0e8",
+                  "656fb21fa0dce000a2020f7c",
+                  "656fac30c6baea13cd07e10c",
+                  "656fb0bd7c2d57afe200c0dc",
+                  "656f9fa0498d1b7e3e071d98",
+                  "656fa53d94b480b8a500c0e4",
+                  "655746010177119f4a097ff7",
+                  "64afdcb83efdfea28601d041"
+                ],
+                "Plate": "656fae5f7c2d57afe200c0d7",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_chest"
+                ],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": false
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": false
+        },
+        {
+          "_id": "d34e1529a2f552789f727f1a",
+          "_mergeSlotWithChildren": true,
+          "_name": "Back_plate",
+          "_parent": "0140978ce1035280be45a118",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "656f9d5900d62bcd2e02407c",
+                  "656fa8d700d62bcd2e024084",
+                  "656fa99800d62bcd2e024088",
+                  "656fae5f7c2d57afe200c0d7",
+                  "656faf0ca0dce000a2020f77",
+                  "656fa0fb498d1b7e3e071d9c",
+                  "656fafe3498d1b7e3e071da4",
+                  "656fa25e94b480b8a500c0e0",
+                  "656fa76500d62bcd2e024080",
+                  "656fad8c498d1b7e3e071da0",
+                  "656fa61e94b480b8a500c0e8",
+                  "656fb21fa0dce000a2020f7c",
+                  "656fac30c6baea13cd07e10c",
+                  "656fb0bd7c2d57afe200c0dc",
+                  "656f9fa0498d1b7e3e071d98",
+                  "656fa53d94b480b8a500c0e4",
+                  "655746010177119f4a097ff7",
+                  "64afdcb83efdfea28601d041"
+                ],
+                "Plate": "656fae5f7c2d57afe200c0d7",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_back"
+                ],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": false
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": false
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Blue Force Gear PLATEminus V2 body armor (Black Division)",
+        "shortName": "PLATEminus V2",
+        "description": "PLATEminus modular plate carrier in Grey. (Black Division)"
+      },
+      "pt": {
+        "name": "Blue Force Gear PLATEminus V2 body armor (Black Division)",
+        "shortName": "PLATEminus V2",
+        "description": "PLATEminus modular plate carrier in Grey. (Black Division)"
+      }
+    },
+    "handbookPriceRoubles": 183864,
+    "fleaPriceRoubles": 183864,
+    "addtoInventorySlots": [],
+    "addtoBots": false,
+    "addtoTraders": false,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": false,
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_changeWeaponName": false,
+        "_encyclopedia": "0140978ce1035280be45a118",
+        "_id": "32e462e14cb853f083eeb9c0",
+        "_items": [
+          {
+            "_id": "1971f0ca757f597fa3b9d614",
+            "_tpl": "0140978ce1035280be45a118"
+          },
+          {
+            "_id": "3360a75bdfdf50b0a03d1892",
+            "_tpl": "656fae5f7c2d57afe200c0d7",
+            "parentId": "1971f0ca757f597fa3b9d614",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "04d08a89f219597f8ab7c785",
+            "_tpl": "656fae5f7c2d57afe200c0d7",
+            "parentId": "1971f0ca757f597fa3b9d614",
+            "slotId": "Back_plate"
+          }
+        ],
+        "_name": "Blue Force Gear PLATEminus plate carrier (Grey) (Black Division)",
+        "_parent": "1971f0ca757f597fa3b9d614",
+        "_type": "Preset"
+      }
+    ]
+  }
+}

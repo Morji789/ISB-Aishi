@@ -1,32 +1,19 @@
 {
   "6969cedc9980a5f16abc2a26": {
-
     "itemTplToClone": "590c621186f774138d11ea29",
     "parentId": "5448ecbe4bdc2d60728b4568",
     "handbookParentId": "5b47574386f77428ca22b341",
-
-
     "overrideProperties": {
-      "QuestItem": true,  
+      "QuestItem": true,
       "ExaminedByDefault": false,
       "BackgroundColor": "yellow",
-
-        
-
       "Prefab": {
-
         "path": "assets/content/items/infosubject/item_flash_card_slider.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
-      "Height": 1,
-      "Weight": 0.00,
-
+      "Weight": 0.0,
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "Encrypted flash drive with unknown information",
@@ -38,113 +25,74 @@
         "shortName": "Pendrive",
         "description": "Um pendrive criptografado com algumas informações desconhecidas e impossíveis de serem acessadas sem um método específico."
       }
-    
     },
-
     "fleaPriceRoubles": 1,
-
     "handbookPriceRoubles": 1,
-
     "addtoHideoutPosterSlots": false,
-
     "addPosterToMaps": false,
-
     "posterSpawnProbability": 0,
-
     "addtoStatuetteSlots": false,
-
     "addCaliberToAllCloneLocations": false,
-
     "addtoStaticAmmo": false,
-
     "staticAmmoProbability": 0,
-
     "addtoBots": false,
-
     "addtoSpecialSlots": false,
-
     "addtoModSlots": false,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
-    "modSlot": [""],
-
+    "addtoItemBlacklist": true,
+    "modSlot": [
+      ""
+    ],
     "addtoHallOfFame": false,
-
     "hallOfFameSlots": [
-      "bigTrophies", 
-      "smallTrophies", 
+      "bigTrophies",
+      "smallTrophies",
       "dogTags"
     ],
-
     "addtoGeneratorAsFuel": false,
-
     "generatorFuelSlotStages": [
       "1",
       "2",
       "3"
     ],
-
     "addtoEmptyPropSlots": false,
-
     "emptyPropSlot": {
       "itemToAddTo": "",
       "modSlot": ""
     },
-
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",
         "Probability": 0
       }
     ],
-
-
     "addtoSecureFilters": false,
-
     "addtoTraders": false,
-
-    "traders": {
-          },
-          "barters": [
-            {
-              "count": 0,
-              "_tpl": "0" 
-            }
-          ]
+    "traders": {},
+    "barters": [
+      {
+        "count": 0,
+        "_tpl": "0"
+      }
+    ]
   },
   "6969cf4ecb8460933cb02b65": {
-
     "itemTplToClone": "6389c8c5dbfd5e4b95197e6b",
     "parentId": "5448ecbe4bdc2d60728b4568",
     "handbookParentId": "5b619f1a86f77450a702a6f3",
-
     "overrideProperties": {
       "ExaminedByDefault": true,
       "QuestItem": true,
       "BackgroundColor": "yellow",
-        
-
       "Prefab": {
-
         "path": "quests/quest_item_info_radio2.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
-      "Height": 2,
-      "Weight": 0.00,
-
+      "Weight": 0.0,
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "Advanced SSTV KW12 Military Radio",
@@ -156,45 +104,28 @@
         "shortName": "Rádio KW12",
         "description": "Um rádio militar avançado de alto alcance fabricado pela AEG-Telefunken. Ele foi utilizado durante operações no mundo inteiro da OTAN devido a alta confiabilidade e difícil capacidade de interrupções ou interceptações."
       }
-    
     },
-
     "fleaPriceRoubles": 1,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "handbookPriceRoubles": 1
   },
   "69895ab4bac10fe7a55b5fba": {
-
     "itemTplToClone": "6389c8c5dbfd5e4b95197e6b",
     "parentId": "5448ecbe4bdc2d60728b4568",
     "handbookParentId": "5b619f1a86f77450a702a6f3",
-
     "overrideProperties": {
       "ExaminedByDefault": true,
       "QuestItem": true,
       "BackgroundColor": "yellow",
-        
-
       "Prefab": {
-
         "path": "assets/content/items/quest/item_quest_photograph_album/item_quest_photograph_album.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
-      "Height": 2,
-      "Weight": 0.00,
-
+      "Weight": 0.0,
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "Photo Folder with Strange Images",
@@ -206,45 +137,30 @@
         "shortName": "Pasta",
         "description": "Uma pasta com fotos estranhas de equipamentos ocidentais, dogtags de PMCs e alguns injetores da TerraGroup."
       }
-    
     },
-
     "fleaPriceRoubles": 1,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "handbookPriceRoubles": 1
   },
   "69895d2ebf2c588cb5503924": {
-
     "itemTplToClone": "6389c8c5dbfd5e4b95197e6b",
     "parentId": "5448ecbe4bdc2d60728b4568",
     "handbookParentId": "5b619f1a86f77450a702a6f3",
-
     "overrideProperties": {
       "ExaminedByDefault": true,
       "QuestItem": true,
       "BackgroundColor": "yellow",
-        
-
       "Prefab": {
-
         "path": "assets/content/items/barter/item_barter_electr_toughbook/item_barter_electr_toughbook.bundle",
         "rcid": ""
       },
-
-
       "Width": 3,
       "Height": 3,
-      "Weight": 0.00,
-
+      "Weight": 0.0,
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "Encrypted and Armored Laptop",
@@ -256,45 +172,28 @@
         "shortName": "Notebook",
         "description": "Um notebook com uma carcaça reforçada e criptografia em fechadura."
       }
-    
     },
-
     "fleaPriceRoubles": 1,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "handbookPriceRoubles": 1
   },
   "69b38ba3c95602273354aaff": {
-
     "itemTplToClone": "6389c8c5dbfd5e4b95197e6b",
     "parentId": "5448ecbe4bdc2d60728b4568",
     "handbookParentId": "5b619f1a86f77450a702a6f3",
-
     "overrideProperties": {
       "ExaminedByDefault": true,
       "QuestItem": true,
       "BackgroundColor": "yellow",
-        
-
       "Prefab": {
-
         "path": "assets/content/items/quest/item_quest_letter/item_quest_letter.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
-      "Height": 2,
-      "Weight": 0.00,
-
+      "Weight": 0.0,
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "Secret documents",
@@ -306,304 +205,195 @@
         "shortName": "Docs",
         "description": "Uma pilha de documentos que e cartas relacionadas a compra de explosivos de diversos tamanhos e modelos em específico C4. As informações dos compradores parecem confidenciais e foram intencionalmente censuradas."
       }
-    
     },
-
     "fleaPriceRoubles": 1,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "handbookPriceRoubles": 1
   },
   "69e5613a079c7bc64a33bb77": {
-
     "itemTplToClone": "6389c8c5dbfd5e4b95197e6b",
     "parentId": "5448ecbe4bdc2d60728b4568",
     "handbookParentId": "5b619f1a86f77450a702a6f3",
-
     "overrideProperties": {
       "ExaminedByDefault": true,
       "QuestItem": true,
       "BackgroundColor": "yellow",
-        
-
       "Prefab": {
-
         "path": "assets/content/items/quest/item_quest_packinglist/item_quest_packinglist_goshan.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
-      "Height": 2,
-      "Weight": 0.00,
-
+      "Weight": 0.0,
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "Clipboard with customs documents",
         "shortName": "Transfer",
         "description": "A clipboard with customs documents allowing the passage of vehicles with classified cargo, along with some explosive logs. The vehicles were owned by TerraGroup and had an itinerary stating they would later be unloaded on Shoreline. The clearance was signed and approved by two UNTAR officers."
-    },
+      },
       "po": {
         "name": "Prancheta com documentos alfandegários",
         "shortName": "Transferência",
         "description": "Uma prancheta com documentos alfandegários permitindo a passagem de veículos com carga classificada e alguns registros de explosivos. Os veículos eram de propriedade da TerraGroup e possuíam itinerário informando serem descarregados posteriormente na Shoreline. A passagem foi assinada e aprovada por dois oficiais da UNTAR."
       }
-    
     },
-
     "fleaPriceRoubles": 1,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "handbookPriceRoubles": 1
   },
   "69e5691d7508ab4bcec902dd": {
-
     "itemTplToClone": "6389c8c5dbfd5e4b95197e6b",
     "parentId": "5448ecbe4bdc2d60728b4568",
     "handbookParentId": "5b619f1a86f77450a702a6f3",
-
     "overrideProperties": {
       "ExaminedByDefault": true,
       "QuestItem": true,
       "BackgroundColor": "yellow",
-        
-
       "Prefab": {
-
         "path": "assets/content/items/quest/item_quest_envelope/item_quest_envelope.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
-      "Height": 2,
-      "Weight": 0.00,
-
+      "Weight": 0.0,
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "Letter from one of Ref's people",
         "shortName": "Letter",
         "description": "A letter from one of Ref's associates detailing the outcome of an ambush plan on a TerraGroup freighter passing through the UNTAR roadblock on Woods. The operation was a failure, as they were intercepted by a specialized group before it even began. Only the sender of the letter survived the attack."
-    },
+      },
       "po": {
         "name": "Carta de um dos homens do Ref",
         "shortName": "Carta",
         "description": "Uma carta de um dos associados de Ref informando o resultado do plano de emboscada de um cargueiro da TerraGroup que estava passando pelo bloqueio da UNTAR na Woods. A operação foi um fracasso uma vez que foram interceptados por um grupo especializado antes mesmo da operação começar. Apenas o remetente da carta sobreviveu ao ataque."
       }
-    
     },
-
     "fleaPriceRoubles": 1,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "handbookPriceRoubles": 1
   },
   "69e58c872c4f50f3899570be": {
-
     "itemTplToClone": "6389c8c5dbfd5e4b95197e6b",
     "parentId": "5448ecbe4bdc2d60728b4568",
     "handbookParentId": "5b619f1a86f77450a702a6f3",
-
     "overrideProperties": {
       "ExaminedByDefault": true,
       "QuestItem": true,
       "BackgroundColor": "yellow",
-        
-
       "Prefab": {
-
         "path": "assets/content/items/barter/item_barter_info_maps/item_barter_info_host.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
-      "Height": 2,
-      "Weight": 0.00,
-
+      "Weight": 0.0,
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "TerraGroup and UNTAR Cargo and Transport Report",
         "shortName": "Cargo",
         "description": "A set of documents and photos regarding a long TerraGroup cargo transport with UNTAR. The documents log several C4 explosives under TerraGroup's name, as well as Western weaponry like HKs, M4A1s, around 5000 rounds of 5.56x45mm M995, 3000 rounds of 5.56x45mm SSA AP, and a few night vision devices."
-    },
+      },
       "po": {
         "name": "Relatório de Carga e Transporte da TerraGroup e UNTAR",
         "shortName": "Carga",
         "description": "Um conjunto de documentos e fotos relacionadas a um longo transporte de carga da TerraGroup com a UNTAR. Os documentos registram diversos explosivos C4 em nome da TerraGroup, além de armamento ocidental como HKs, M4A1s, cerca de 5000 unidades de 5.56x45mm M995 e 3000 unidades de 5.56x45mm SSA AP e alguns dispositivos de visão noturna."
       }
-    
     },
-
     "fleaPriceRoubles": 1,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "handbookPriceRoubles": 1
   },
   "69e58ee426845b37bdc250fd": {
-
     "itemTplToClone": "6389c8c5dbfd5e4b95197e6b",
     "parentId": "5448ecbe4bdc2d60728b4568",
     "handbookParentId": "5b619f1a86f77450a702a6f3",
-
     "overrideProperties": {
       "ExaminedByDefault": true,
       "QuestItem": true,
       "BackgroundColor": "yellow",
-        
-
       "Prefab": {
-
         "path": "assets/content/items/quest/item_quest_container_case_folder/item_quest_container_case_0013.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
-      "Height": 2,
-      "Weight": 0.00,
-
+      "Weight": 0.0,
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "Marked Hard Drive",
         "shortName": "Drive",
         "description": "A special hard drive sealed with a digital lock. Its contents must be highly important, which makes it suspicious that it was left behind."
-    },
+      },
       "po": {
         "name": "Disco Rígido com marcações",
         "shortName": "Drive",
         "description": "Um disco rígido especial e lacrado com uma fechadura digital. O conteúdo dele deve ser altamente importante, o que torna suspeito ter sido deixado para trás."
       }
-    
     },
-
     "fleaPriceRoubles": 1,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "handbookPriceRoubles": 1
   },
   "6a3daa4960d41b71a463ffa5": {
-
     "itemTplToClone": "65ddcc9cfa85b9f17d0dfb07",
     "parentId": "5448ecbe4bdc2d60728b4568",
     "handbookParentId": "5b47574386f77428ca22b341",
-
     "overrideProperties": {
-      "ExaminedByDefault": true,
-      "QuestItem": false,
       "BackgroundColor": "yellow",
-        
-
       "Prefab": {
-
         "path": "assets/content/items/quest/item_quest_container_case_folder/item_quest_container_case_0013.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
       "Height": 2,
-      "Weight": 0.00,
-
+      "Weight": 0.0,
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "Marked Hard Drive",
         "shortName": "Drive",
         "description": "A special hard drive sealed with a digital lock. Its contents must be highly important, which makes it suspicious that it was left behind."
-    },
+      },
       "po": {
         "name": "Disco Rígido com marcações",
         "shortName": "Drive",
         "description": "Um disco rígido especial e lacrado com uma fechadura digital. O conteúdo dele deve ser altamente importante, o que torna suspeito ter sido deixado para trás."
       }
-    
     },
-
-    "fleaPriceRoubles": 1,
-
-    "handbookPriceRoubles": 1,
-
+    "fleaPriceRoubles": 100000,
+    "handbookPriceRoubles": 100000,
     "addtoStaticAmmo": false,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "staticAmmoProbability": 0,
-
     "addtoBots": false,
-
     "addtoSecureFilters": false
   },
   "6a3c4686e9f7c8f646e2f3ca": {
-
     "itemTplToClone": "65ddcc9cfa85b9f17d0dfb07",
     "parentId": "5448ecbe4bdc2d60728b4568",
     "handbookParentId": "5b47574386f77428ca22b341",
-
-
     "overrideProperties": {
-      "QuestItem": false,  
       "ExaminedByDefault": false,
       "BackgroundColor": "yellow",
-        
-
       "Prefab": {
-
         "path": "assets/content/items/spec/item_spec_jammer/item_spec_jammer.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
-      "Height": 1,
       "Weight": 0.15,
-
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "Modified low-frequency signal jammer.",
@@ -615,162 +405,100 @@
         "shortName": "Jammer",
         "description": "Um disruptor de sinal modificado pela ISB para cortar comunicações de baixa frequência de explosivos."
       }
-    
     },
-
-    "fleaPriceRoubles": 1,
-
-    "handbookPriceRoubles": 1,
-
+    "fleaPriceRoubles": 100000,
+    "handbookPriceRoubles": 100000,
     "addtoStaticAmmo": false,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "staticAmmoProbability": 0,
-
     "addtoBots": false,
-
     "addtoSecureFilters": false
   },
   "6a3cc5443ba523695fa73012": {
-
     "itemTplToClone": "6389c8c5dbfd5e4b95197e6b",
     "parentId": "5448ecbe4bdc2d60728b4568",
     "handbookParentId": "5b619f1a86f77450a702a6f3",
-
     "overrideProperties": {
       "ExaminedByDefault": true,
       "QuestItem": true,
       "BackgroundColor": "yellow",
-        
-
       "Prefab": {
-
         "path": "assets/content/items/infosubject/item_flash_card_ironkey.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
       "Height": 1,
-      "Weight": 0.00,
-
+      "Weight": 0.0,
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "Flash Drive com Informações criptografadas",
         "shortName": "Flash",
         "description": "A special hard drive sealed with a digital lock. Its contents must be highly important, which makes it suspicious that it was left behind."
-    },
+      },
       "po": {
         "name": "Flash Drive com Informações criptografadas",
         "shortName": "Flash",
         "description": "Um disco rígido especial e lacrado com uma fechadura digital. O conteúdo dele deve ser altamente importante, o que torna suspeito ter sido deixado para trás."
       }
-    
     },
-
     "fleaPriceRoubles": 1,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "handbookPriceRoubles": 1
   },
   "6a3da2317b20335d4e35c1aa": {
-
     "itemTplToClone": "65ddcc9cfa85b9f17d0dfb07",
     "parentId": "5448ecbe4bdc2d60728b4568",
     "handbookParentId": "5b47574386f77428ca22b341",
-
     "overrideProperties": {
-      "ExaminedByDefault": true,
-      "QuestItem": false,
       "BackgroundColor": "yellow",
-        
-
       "Prefab": {
-
         "path": "assets/content/items/infosubject/item_flash_card_ironkey.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
-      "Height": 1,
-      "Weight": 0.00,
-
+      "Weight": 0.0,
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "Flash Drive with Encrypted Data",
         "shortName": "Flash",
         "description": "A special hard drive sealed with a digital lock. Its contents must be highly important, which makes it suspicious that it was left behind."
-    },
+      },
       "po": {
         "name": "Flash Drive com Informações da TerraGroup",
         "shortName": "Flash",
         "description": "Um Pendrive que contem informações operacionais secretas da TerraGroup. Dados altamente criptografados que foram possíveis de serem lidos graças ao trabalho de Mechanic."
       }
-    
     },
-
-    "fleaPriceRoubles": 1,
-
-    "handbookPriceRoubles": 1,
-
+    "fleaPriceRoubles": 100000,
+    "handbookPriceRoubles": 100000,
     "addtoStaticAmmo": false,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "staticAmmoProbability": 0,
-
     "addtoBots": false,
-
     "addtoSecureFilters": false
   },
   "6a3da7acbae85c40d75b5022": {
-
     "itemTplToClone": "65ddcc9cfa85b9f17d0dfb07",
     "parentId": "5448ecbe4bdc2d60728b4568",
     "handbookParentId": "5b47574386f77428ca22b341",
-
-
     "overrideProperties": {
-      "QuestItem": false,  
       "ExaminedByDefault": false,
       "BackgroundColor": "yellow",
-        
-
       "Prefab": {
-
         "path": "assets/content/items/quest/item_quest_packinglist/item_quest_packinglist_idea.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
-      "Height": 1,
       "Weight": 0.15,
-
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "TerraGroup Transport Report",
@@ -782,48 +510,29 @@
         "shortName": "Documentos",
         "description": "Todo o relatório descriptografado cita uma grande operação de transporte da TerraGroup de equipamentos militares e veiculos para entrada na cidade através de pontos de bloqueio confiáveis da UNTAR. O Documento também cita alguns oficiais da UNTAR confiáveis que podem ajudar a facilitar a entrada do equipamento em Tarkov, além de deixar claro que o uso é restrito de uma força especial."
       }
-    
     },
-
-    "fleaPriceRoubles": 1,
-
-    "handbookPriceRoubles": 1,
-
+    "fleaPriceRoubles": 100000,
+    "handbookPriceRoubles": 100000,
     "addtoBots": false,
-
     "addtoEmptyPropSlots": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "addtoSecureFilters": false
   },
   "6a61491533e4372425ec2f56": {
-
     "itemTplToClone": "6389c8c5dbfd5e4b95197e6b",
     "parentId": "5448ecbe4bdc2d60728b4568",
     "handbookParentId": "5b619f1a86f77450a702a6f3",
-
-
     "overrideProperties": {
-      "QuestItem": true,  
-      "ExaminedByDefault": false,
+      "QuestItem": true,
       "BackgroundColor": "yellow",
-        
-
       "Prefab": {
-
         "path": "assets/content/items/infosubject/item_info_note_folder/item_info_note_folder_closed_terragrouplabs.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
       "Height": 1,
       "Weight": 0.15,
-
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "TerraGroup Transport Folder",
@@ -835,17 +544,11 @@
         "shortName": "Folder",
         "description": "Uma pasta da TerraGroup com algumas marcações e escritos como \"Para: Força Pacificadora 4\". Alguns documentos parecem ausentes mas mostra a colaboração da UNTAR com alguns transportes da TerraGroup."
       }
-    
     },
-
     "fleaPriceRoubles": 1,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "handbookPriceRoubles": 1
   }
 }

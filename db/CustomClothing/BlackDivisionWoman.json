@@ -1,0 +1,631 @@
+[
+  {
+    "type": "top",
+    "suiteId": "1dd245300d8bd98d13bf3048",
+    "outfitId": "20c87c2bec4064ec1f27f1ad",
+    "topId": "5b2ecb937b963aab204dae43",
+    "handsId": "4bbb41a6034a568f08f78b91",
+    "locales": {
+      "en": {
+        "name": "Black Division Heavy Operative (Woman) (No Patches)",
+        "description": "Black Division Heavy Operative Combat Shirt"
+      },
+      "po": {
+        "name": "Black Division Heavy Operative (Woman) (No Patches)",
+        "description": "Black Division Heavy Operative Combat Shirt"
+      }
+    },
+    "topBundlePath": "clothing/black_division_woman/heavy/no_patches/top_bd_heavy_woman_no_patches.bundle",
+    "handsBundlePath": "clothing/black_division_woman/heavy/no_patches/hands_bd_heavy_woman_no_patches.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 30,
+    "standing": 0.4,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 1250,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "top",
+    "suiteId": "1e7c03f352ff5f2988b5cfd8",
+    "outfitId": "6ef23fe304ab5f3a828b6f27",
+    "topId": "5d8bea236d79ff7b1c19bbe7",
+    "handsId": "d6cf1abf03bc6f3eefd0aeda",
+    "locales": {
+      "en": {
+        "name": "Black Division Heavy Operative (Woman)",
+        "description": "Black Division Heavy Operative Combat Shirt"
+      },
+      "po": {
+        "name": "Black Division Heavy Operative (Woman)",
+        "description": "Black Division Heavy Operative Combat Shirt"
+      }
+    },
+    "topBundlePath": "clothing/black_division_woman/heavy/default/top_bd_heavy_woman.bundle",
+    "handsBundlePath": "clothing/black_division_woman/heavy/default/hands_bd_heavy_woman.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 30,
+    "standing": 0.4,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 2500,
+    "questRequirements": [],
+    "achievementRequirements": [
+      "694176555b56f8b3181945b1"
+    ]
+  },
+  {
+    "type": "bottom",
+    "suiteId": "56cbf798691e1ce2e56eeac3",
+    "outfitId": "5b9eda006b976a40f9858968",
+    "bottomId": "906936ef82d3da2a6f2c7119",
+    "locales": {
+      "en": {
+        "name": "Black Division Heavy Operative (Woman)",
+        "description": "Black Division Heavy Operative Tactical Trousers"
+      },
+      "po": {
+        "name": "Black Division Heavy Operative (Woman)",
+        "description": "Black Division Heavy Operative Tactical Trousers"
+      }
+    },
+    "bottomBundlePath": "clothing/black_division_woman/heavy/default/pants_bd_heavy_woman.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 30,
+    "standing": 0.4,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 2500,
+    "questRequirements": [],
+    "achievementRequirements": [
+      "694176555b56f8b3181945b1"
+    ]
+  },
+  {
+    "type": "top",
+    "suiteId": "e5e202c582d4c695124cb399",
+    "outfitId": "614910c2d312c5de4679c838",
+    "topId": "e859084b75d3395e5083905f",
+    "handsId": "434ee89c60c8338d35554d74",
+    "locales": {
+      "en": {
+        "name": "Black Division Nocturnal (Woman) (No Patches)",
+        "description": "Black Division Nocturnal Combat Shirt"
+      },
+      "po": {
+        "name": "Black Division Nocturnal (Woman) (No Patches)",
+        "description": "Black Division Nocturnal Combat Shirt"
+      }
+    },
+    "topBundlePath": "clothing/black_division_woman/nocturnal/no_patches/top_bd_nocturnal_woman_no_patches.bundle",
+    "handsBundlePath": "clothing/black_division_woman/nocturnal/no_patches/hands_bd_nocturnal_woman_no_patches.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 30,
+    "standing": 0.4,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 1250,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "top",
+    "suiteId": "f5329dc3d1aefdfbafc7a8b5",
+    "outfitId": "8f36912cc13f9a90bc11b394",
+    "topId": "1c2a3ab112201ab838706228",
+    "handsId": "b91b7be0dc7e41ef506a2962",
+    "locales": {
+      "en": {
+        "name": "Black Division Nocturnal (Woman)",
+        "description": "Black Division Nocturnal Combat Shirt"
+      },
+      "po": {
+        "name": "Black Division Nocturnal (Woman)",
+        "description": "Black Division Nocturnal Combat Shirt"
+      }
+    },
+    "topBundlePath": "clothing/black_division_woman/nocturnal/default/top_bd_nocturnal_woman.bundle",
+    "handsBundlePath": "clothing/black_division_woman/nocturnal/default/hands_bd_nocturnal_woman.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 30,
+    "standing": 0.4,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 2500,
+    "questRequirements": [],
+    "achievementRequirements": [
+      "694176555b56f8b3181945b1"
+    ]
+  },
+  {
+    "type": "bottom",
+    "suiteId": "132d5560602c319c3982d0e1",
+    "outfitId": "d79b9d7d1afbfcfbdad211e6",
+    "bottomId": "7717a917233a131d63deed20",
+    "locales": {
+      "en": {
+        "name": "Black Division Nocturnal (Woman)",
+        "description": "Black Division Nocturnal Tactical Trousers"
+      },
+      "po": {
+        "name": "Black Division Nocturnal (Woman)",
+        "description": "Black Division Nocturnal Tactical Trousers"
+      }
+    },
+    "bottomBundlePath": "clothing/black_division_woman/nocturnal/default/pants_bd_nocturnal_woman.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 30,
+    "standing": 0.4,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 2500,
+    "questRequirements": [],
+    "achievementRequirements": [
+      "694176555b56f8b3181945b1"
+    ]
+  },
+  {
+    "type": "top",
+    "suiteId": "d03b299c20fc8eb6c060317b",
+    "outfitId": "140e9ef118c9486120c71701",
+    "topId": "f3eaa97787620313fe52c6de",
+    "handsId": "ef83e32c6ad3f8c4de6bce89",
+    "locales": {
+      "en": {
+        "name": "Black Division Red Right Hand (Woman) (No Patches)",
+        "description": "Black Division Red Right Hand Combat Shirt"
+      },
+      "po": {
+        "name": "Black Division Red Right Hand (Woman) (No Patches)",
+        "description": "Black Division Red Right Hand combat shirt"
+      }
+    },
+    "topBundlePath": "clothing/black_division_woman/red_right_hand/no_patches/top_bd_red_right_hand_woman_no_patches.bundle",
+    "handsBundlePath": "clothing/black_division_woman/red_right_hand/no_patches/hands_bd_red_right_hand_woman_no_patches.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 50,
+    "standing": 1.0,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 15000,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "top",
+    "suiteId": "a9516e41713fb169d4fa4692",
+    "outfitId": "5d65afe3e9217a24bd11d033",
+    "topId": "576a10378df52d74f1237c5c",
+    "handsId": "e7cc56d5fab603de278a589c",
+    "locales": {
+      "en": {
+        "name": "Black Division Red Right Hand (Woman)",
+        "description": "Black Division Red Right Hand Combat Shirt"
+      },
+      "po": {
+        "name": "Black Division Red Right Hand (Woman)",
+        "description": "Black Division Red Right Hand combat shirt"
+      }
+    },
+    "topBundlePath": "clothing/black_division_woman/red_right_hand/default/top_bd_red_right_hand_woman.bundle",
+    "handsBundlePath": "clothing/black_division_woman/red_right_hand/default/hands_bd_red_right_hand_woman.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 50,
+    "standing": 1.0,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 30000,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "bottom",
+    "suiteId": "3364d86cc306c944628640f4",
+    "outfitId": "a7a5ca5108ba0d86ede55408",
+    "bottomId": "4e182a806660847a1e93ea1e",
+    "locales": {
+      "en": {
+        "name": "Black Division Red Right Hand (Woman)",
+        "description": "Black Division Red Right Hand Tactical Trousers"
+      },
+      "po": {
+        "name": "Black Division Red Right Hand (Woman)",
+        "description": "Black Division Red Right Hand tactical trousers"
+      }
+    },
+    "bottomBundlePath": "clothing/black_division_woman/red_right_hand/default/pants_bd_red_right_hand_woman.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 50,
+    "standing": 1.0,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 30000,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "top",
+    "suiteId": "931e591e7ae35c440b1416d5",
+    "outfitId": "d93e5ec53c33a5456a78c325",
+    "topId": "c3ba5cf791d61f41d4ca4972",
+    "handsId": "6f7acc1cd192374d0eeeb48d",
+    "locales": {
+      "en": {
+        "name": "Black Division Scorpion (Woman) (No Patches)",
+        "description": "Black Division Scorpion Combat Shirt"
+      },
+      "po": {
+        "name": "Black Division Scorpion (Woman) (No Patches)",
+        "description": "Black Division Scorpion Combat Shirt"
+      }
+    },
+    "topBundlePath": "clothing/black_division_woman/scorpion/no_patches/top_bd_scorpion_woman_no_patches.bundle",
+    "handsBundlePath": "clothing/black_division_woman/scorpion/no_patches/hands_bd_scorpion_woman_no_patches.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 30,
+    "standing": 0.4,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 1250,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "top",
+    "suiteId": "1a250d82ef53d62aa4a906b6",
+    "outfitId": "b0b1f28c7038263eb2bc175d",
+    "topId": "681e6e70eef95cb637dbbb67",
+    "handsId": "ac0533239b6f55fb1856f7b6",
+    "locales": {
+      "en": {
+        "name": "Black Division Scorpion (Woman)",
+        "description": "Black Division Scorpion Combat Shirt"
+      },
+      "po": {
+        "name": "Black Division Scorpion (Woman)",
+        "description": "Black Division Scorpion Combat Shirt"
+      }
+    },
+    "topBundlePath": "clothing/black_division_woman/scorpion/default/top_bd_scorpion_woman.bundle",
+    "handsBundlePath": "clothing/black_division_woman/scorpion/default/hands_bd_scorpion_woman.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 30,
+    "standing": 0.4,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 2500,
+    "questRequirements": [],
+    "achievementRequirements": [
+      "694176555b56f8b3181945b1"
+    ]
+  },
+  {
+    "type": "bottom",
+    "suiteId": "7443fa46f9c98880c0845077",
+    "outfitId": "6790d3755e3ec6690b13a58f",
+    "bottomId": "c073c4b5b566826b1efbc365",
+    "locales": {
+      "en": {
+        "name": "Black Division Scorpion (Woman)",
+        "description": "Black Division Scorpion Tactical Trousers"
+      },
+      "po": {
+        "name": "Black Division Scorpion (Woman)",
+        "description": "Black Division Scorpion Tactical Trousers"
+      }
+    },
+    "bottomBundlePath": "clothing/black_division_woman/scorpion/default/pants_bd_scorpion_woman.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 30,
+    "standing": 0.4,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 2500,
+    "questRequirements": [],
+    "achievementRequirements": [
+      "694176555b56f8b3181945b1"
+    ]
+  },
+  {
+    "type": "top",
+    "suiteId": "791122cac05075c6a0ef1877",
+    "outfitId": "228d55187a25c66eac6a79c5",
+    "topId": "3224a872004e2a720d4e88d8",
+    "handsId": "1dbdab7aa5c68f4943a81812",
+    "locales": {
+      "en": {
+        "name": "Black Division Scout Operative (Woman) (No Patches)",
+        "description": "Black Division Scout Operative Combat Shirt"
+      },
+      "po": {
+        "name": "Black Division Scout Operative (Woman) (No Patches)",
+        "description": "Black Division Scout Operative Combat Shirt"
+      }
+    },
+    "topBundlePath": "clothing/black_division_woman/scout/no_patches/top_bd_scout_woman_no_patches.bundle",
+    "handsBundlePath": "clothing/black_division_woman/scout/no_patches/hands_bd_scout_woman_no_patches.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 45,
+    "standing": 0.5,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 3750,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "top",
+    "suiteId": "b9bcdc012ff6d8d975115347",
+    "outfitId": "0b043a86388191f7a6b8cb7a",
+    "topId": "6ee24491af1b3b6aeada243f",
+    "handsId": "3ad37ef127ed21e93063801d",
+    "locales": {
+      "en": {
+        "name": "Black Division Scout Operative (Woman)",
+        "description": "Black Division Scout Operative Combat Shirt"
+      },
+      "po": {
+        "name": "Black Division Scout Operative (Woman)",
+        "description": "Black Division Scout Operative Combat Shirt"
+      }
+    },
+    "topBundlePath": "clothing/black_division_woman/scout/default/top_bd_scout_woman.bundle",
+    "handsBundlePath": "clothing/black_division_woman/scout/default/hands_bd_scout_woman.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 45,
+    "standing": 0.5,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 7500,
+    "questRequirements": [],
+    "achievementRequirements": [
+      "694176555b56f8b3181945b1"
+    ]
+  },
+  {
+    "type": "bottom",
+    "suiteId": "5b0ecc890321996e4c8dc412",
+    "outfitId": "c5e1c7b1f803ee098a05076c",
+    "bottomId": "0f505f96e98e17bb00cf5ce6",
+    "locales": {
+      "en": {
+        "name": "Black Division Scout Operative (Woman)",
+        "description": "Black Division Scout Operative Tactical Trousers"
+      },
+      "po": {
+        "name": "Black Division Scout Operative (Woman)",
+        "description": "Black Division Scout Operative Tactical Trousers"
+      }
+    },
+    "bottomBundlePath": "clothing/black_division_woman/scout/default/pants_bd_scout_woman.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 45,
+    "standing": 0.5,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 7500,
+    "questRequirements": [],
+    "achievementRequirements": [
+      "694176555b56f8b3181945b1"
+    ]
+  },
+  {
+    "type": "top",
+    "suiteId": "86c561b1506ae31a5141474c",
+    "outfitId": "b52448c8ea7aa43b0a4c00b4",
+    "topId": "c9cf103a90cf01dc9a3510cf",
+    "handsId": "731670961f4c749dc32a97af",
+    "locales": {
+      "en": {
+        "name": "Black Division Specialist Operative (Woman) (No Patches)",
+        "description": "Black Division Specialist Operative Combat Shirt"
+      },
+      "po": {
+        "name": "Black Division Specialist Operative (Woman) (No Patches)",
+        "description": "Black Division Specialist Operative Combat Shirt"
+      }
+    },
+    "topBundlePath": "clothing/black_division_woman/specialist/no_patches/top_bd_specialist_woman_no_patches.bundle",
+    "handsBundlePath": "clothing/black_division_woman/specialist/no_patches/hands_bd_specialist_woman_no_patches.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 45,
+    "standing": 0.5,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 3750,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "top",
+    "suiteId": "d782f88d6073170054e856a0",
+    "outfitId": "839b3b48fe30cd76247ef440",
+    "topId": "0ef548806638f7abcf456357",
+    "handsId": "31722d1fe53040d9006aee21",
+    "locales": {
+      "en": {
+        "name": "Black Division Specialist Operative (Woman)",
+        "description": "Black Division Specialist Operative Combat Shirt"
+      },
+      "po": {
+        "name": "Black Division Specialist Operative (Woman)",
+        "description": "Black Division Specialist Operative Combat Shirt"
+      }
+    },
+    "topBundlePath": "clothing/black_division_woman/specialist/default/top_bd_specialist_woman.bundle",
+    "handsBundlePath": "clothing/black_division_woman/specialist/default/hands_bd_specialist_woman.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 45,
+    "standing": 0.5,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 7500,
+    "questRequirements": [],
+    "achievementRequirements": [
+      "694176555b56f8b3181945b1"
+    ]
+  },
+  {
+    "type": "bottom",
+    "suiteId": "68fbb7ccbef16086eb3b770a",
+    "outfitId": "40f8352772368c826a6d5a98",
+    "bottomId": "5cffdc4c6a75c80d00fbbe4a",
+    "locales": {
+      "en": {
+        "name": "Black Division Specialist Operative (Woman)",
+        "description": "Black Division Specialist Operative Tactical Trousers"
+      },
+      "po": {
+        "name": "Black Division Specialist Operative (Woman)",
+        "description": "Black Division Specialist Operative Tactical Trousers"
+      }
+    },
+    "bottomBundlePath": "clothing/black_division_woman/specialist/default/pants_bd_specialist_woman.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 45,
+    "standing": 0.5,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 7500,
+    "questRequirements": [],
+    "achievementRequirements": [
+      "694176555b56f8b3181945b1"
+    ]
+  },
+  {
+    "type": "top",
+    "suiteId": "c10a0c541a47b6bf180dc8f0",
+    "outfitId": "e9d30064f27cbcd5c775025f",
+    "topId": "04ca2dc37ad97fad5c6b6505",
+    "handsId": "7c8286266224e56215a8229e",
+    "locales": {
+      "en": {
+        "name": "Black Division Squad Leader (Woman — Arctic - No Patches)",
+        "description": "Black Division Squad Leader Combat Shirt"
+      },
+      "po": {
+        "name": "Black Division Squad Leader (Woman — Arctic - No Patches)",
+        "description": "Black Division Squad Leader Combat Shirt"
+      }
+    },
+    "topBundlePath": "clothing/black_division_woman/squad_leader/arctic/top_bd_team_leader_01_woman_arctic.bundle",
+    "handsBundlePath": "clothing/black_division_woman/squad_leader/arctic/top_team_leader_bd1_hands_woman_arctic.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 55,
+    "standing": 0.6,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 7500,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "bottom",
+    "suiteId": "07bc7d6224f4756264124857",
+    "outfitId": "f4dfca09645a52aaedde60ed",
+    "bottomId": "3de77342cb98720e5e36e4c7",
+    "locales": {
+      "en": {
+        "name": "Black Division Squad Leader (Woman — Arctic - No Patches)",
+        "description": "Black Division Squad Leader Tactical Trousers"
+      },
+      "po": {
+        "name": "Black Division Squad Leader (Woman — Arctic - No Patches)",
+        "description": "Black Division Squad Leader Tactical Trousers"
+      }
+    },
+    "bottomBundlePath": "clothing/black_division_woman/squad_leader/arctic/pants_bd_team_leader_01_woman_arctic.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 55,
+    "standing": 0.6,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 7500,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "top",
+    "suiteId": "6af1867d3e512492ef1e4c1f",
+    "outfitId": "676529cf054278dc7d2d8ca4",
+    "topId": "2ca1525f4f715e1699c43adb",
+    "handsId": "7fc05beff5bec061ae655cab",
+    "locales": {
+      "en": {
+        "name": "Black Division Squad Leader (Woman) (No Patches)",
+        "description": "Black Division Squad Leader Combat Shirt"
+      },
+      "po": {
+        "name": "Black Division Squad Leader (Woman) (No Patches)",
+        "description": "Black Division Squad Leader Combat Shirt"
+      }
+    },
+    "topBundlePath": "clothing/black_division_woman/squad_leader/no_patches/top_bd_squad_leader_woman_no_patches.bundle",
+    "handsBundlePath": "clothing/black_division_woman/squad_leader/no_patches/hands_bd_squad_leader_woman_no_patches.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 55,
+    "standing": 0.6,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 7500,
+    "questRequirements": [],
+    "achievementRequirements": []
+  },
+  {
+    "type": "top",
+    "suiteId": "65fbb30c3eb7fa693b49604a",
+    "outfitId": "9eea6c235b2ca7d3c25724aa",
+    "topId": "f8bc4c8fef187e28c70de5a1",
+    "handsId": "91db00511c49621f4586cb99",
+    "locales": {
+      "en": {
+        "name": "Black Division Squad Leader (Woman)",
+        "description": "Black Division Squad Leader Combat Shirt"
+      },
+      "po": {
+        "name": "Black Division Squad Leader (Woman)",
+        "description": "Black Division Squad Leader Combat Shirt"
+      }
+    },
+    "topBundlePath": "clothing/black_division_woman/squad_leader/default/top_bd_squad_leader_woman.bundle",
+    "handsBundlePath": "clothing/black_division_woman/squad_leader/default/hands_bd_squad_leader_woman.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 55,
+    "standing": 0.6,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 15000,
+    "questRequirements": [],
+    "achievementRequirements": [
+      "694176555b56f8b3181945b1"
+    ]
+  },
+  {
+    "type": "bottom",
+    "suiteId": "a731c65619adcba6c215ff44",
+    "outfitId": "586717b2e8a9dc6d711c4f21",
+    "bottomId": "b1e482bbcc8e8b69811acc5d",
+    "locales": {
+      "en": {
+        "name": "Black Division Squad Leader (Woman)",
+        "description": "Black Division Squad Leader Tactical Trousers"
+      },
+      "po": {
+        "name": "Black Division Squad Leader (Woman)",
+        "description": "Black Division Squad Leader Tactical Trousers"
+      }
+    },
+    "bottomBundlePath": "clothing/black_division_woman/squad_leader/default/pants_bd_squad_leader_woman.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 4,
+    "profileLevel": 55,
+    "standing": 0.6,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 15000,
+    "questRequirements": [],
+    "achievementRequirements": [
+      "694176555b56f8b3181945b1"
+    ]
+  }
+]

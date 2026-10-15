@@ -1,0 +1,60 @@
+{
+  "999a5a06e1a05ca89b786f34": {
+    "itemTplToClone": "5c1d0f4986f7744bb01837fa",
+    "parentId": "5c164d2286f774194c5e69fa",
+    "handbookParentId": "5c518ed586f774119a772aee",
+    "overrideProperties": {
+      "CanSellOnRagfair": false,
+      "addtoItemBlacklist": true,
+      "MaximumNumberOfUsage": 15,
+      "BackgroundColor": "yellow",
+      "Prefab": {
+        "path": "quests/white_tusks/isb_soldier_keycard_white_tusks.bundle",
+        "rcid": "item_keycard_factory_stock"
+      },
+      "Grids": [],
+      "Name": "ISB Special Access Keycard (White Tusk)",
+      "ShortName": "WT KC",
+      "Description": "A card issued by USEC to an ISB agent during the TerraGroup operation in Tarkov. It grants a high level of access."
+    },
+    "locales": {
+      "en": {
+        "name": "ISB Special Access Keycard (White Tusk)",
+        "shortName": "WT KC",
+        "description": "A card issued by USEC to an ISB agent during the TerraGroup operation in Tarkov. It grants a high level of access."
+      },
+      "po": {
+        "name": "Cartão de acesso especial da ISB (White Tusk)",
+        "shortName": "WT KC",
+        "description": "Um cartão emitido pela USEC a um agente da ASI durante a operação TerraGroup em Tarkov. Ele concede um alto nível de acesso."
+      }
+    },
+    "fleaPriceRoubles": 2500000,
+    "handbookPriceRoubles": 2500000,
+    "addtoBots": false,
+    "Unlootable": true,
+    "UnlootableFromSide": [
+      "Bear",
+      "Usec",
+      "Savage"
+    ],
+    "UnlootableFromSlot": "SpecialSlot",
+    "IsSpecialSlotOnly": false,
+    "addtoSpecialSlots": false,
+    "IsUnremovable": false,
+    "CanSellOnRagfair": false,
+    "CanRequireOnRagfair": false,
+    "addtoItemBlacklist": true,
+    "IsUnsaleable": true,
+    "addtoSecureFilters": false,
+    "addtoTraders": false,
+    "traders": {},
+    "barters": [
+      {
+        "count": 0,
+        "_tpl": "0"
+      }
+    ],
+    "addtoStaticLootContainers": false
+  }
+}

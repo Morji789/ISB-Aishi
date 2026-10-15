@@ -1,0 +1,31 @@
+{
+  "c8d4e7f7bed652d98f1e7b36": {
+    "itemTplToClone": "66b5f693acff495a294927e3",
+    "parentId": "5645bcb74bdc2ded0b8b4578",
+    "handbookParentId": "5b5f6f3c86f774094242ef87",
+    "handbookPriceRoubles": 83896,
+    "fleaPriceRoubles": 83896,
+    "overrideProperties": {
+      "Prefab": {
+        "path": "equipment/item_equipment_headset_comtac_5_ucp_aishi.bundle",
+        "rcid": ""
+      },
+      "Name": "Peltor ComTac V headset (UCP)",
+      "ShortName": "ComTac V",
+      "Description": "A communication headset equipped with a microphone and omnidirectional high-fidelity speakers that are optimized for voice communication and capable of picking up sounds with high sensitivity. Manufactured by 3M Peltor. (UCP)"
+    },
+    "locales": {
+      "en": {
+        "name": "Peltor ComTac V headset (UCP)",
+        "shortName": "ComTac V",
+        "description": "A communication headset equipped with a microphone and omnidirectional high-fidelity speakers that are optimized for voice communication and capable of picking up sounds with high sensitivity. Manufactured by 3M Peltor. (UCP)"
+      }
+    },
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoModSlots": false,
+    "addtoInventorySlots": [
+      "Earpiece"
+    ]
+  }
+}

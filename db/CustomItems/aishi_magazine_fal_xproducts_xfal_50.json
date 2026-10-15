@@ -1,0 +1,128 @@
+{
+  "f8863af1b0f65a8a8e8911c5": {
+    "itemTplToClone": "5b7bef9c5acfc43d102852ec",
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "handbookPriceRoubles": 26294,
+    "fleaPriceRoubles": 27625,
+    "overrideProperties": {
+      "Name": "SA58/FAL 7.62x51 X Products X-FAL 50-round drum magazine (RAL 8000) (Tape)",
+      "CanRequireOnRagfair": true,
+      "Prefab": {
+        "path": "aishiweapons/magazines/fal_xproducts_xfal_50_ral8000_tape/mag_fal_x_products_x_fal_762x51_50_tape.bundle",
+        "rcid": ""
+      },
+      "Cartridges": [
+        {
+          "_id": "2aabeb72861053b6b1bebe2e",
+          "_max_count": 50,
+          "_name": "cartridges",
+          "_parent": "f8863af1b0f65a8a8e8911c5",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a6086ea4f39f99cd479502f",
+                  "5a608bf24f39f98ffc77720e",
+                  "58dd3ad986f77403051cba8f",
+                  "5e023e53d4353e3302577c4c",
+                  "5efb0c1bd79ff02a1f5e68d9",
+                  "5e023e6e34d52a55c3304f71",
+                  "5e023e88277cce2b522ff2b1",
+                  "6768c25aa7b238f14a08d3f6"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ],
+      "ShortName": "X-FAL",
+      "Description": "X-FAL is a 50-round drum magazine for FAL/SA58 7.62x51 NATO rounds. Manufactured by X Products. RAL 8000 Version. Tape Version. Change the tape color from the magazine menu in your stash."
+    },
+    "locales": {
+      "en": {
+        "name": "SA58/FAL 7.62x51 X Products X-FAL 50-round drum magazine (RAL 8000) (Tape)",
+        "shortName": "X-FAL",
+        "description": "X-FAL is a 50-round drum magazine for FAL/SA58 7.62x51 NATO rounds. Manufactured by X Products. RAL 8000 Version. Tape Version. Change the tape color from the magazine menu in your stash."
+      },
+      "po": {
+        "name": "SA58/FAL 7.62x51 X Products X-FAL 50-round drum magazine (RAL 8000) (Tape)",
+        "shortName": "X-FAL 7.62x51",
+        "description": "O X-FAL é um carregador tambor com capacidade de 50 munições calibre 7.62x51 NATO para FAL/SA-58 produzido pela X-Products. RAL 8000 Version. Tape Version. Change the tape color from the magazine menu in your stash."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_magazine"
+    ]
+  },
+  "62dedffc281e5939bad847a1": {
+    "itemTplToClone": "5b7bef9c5acfc43d102852ec",
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "overrideProperties": {
+      "Name": "SA58/FAL 7.62x51 X Products X-FAL 50-round drum magazine (RAL 8000)",
+      "CanRequireOnRagfair": true,
+      "Prefab": {
+        "path": "aishiweapons/sa58_ral8000/mag_fal_x_products_x_fal_762x51_50_ral8000.bundle",
+        "rcid": ""
+      },
+      "Cartridges": [
+        {
+          "_id": "b978d533e00a5f528fa143bf",
+          "_max_count": 50,
+          "_name": "cartridges",
+          "_parent": "62dedffc281e5939bad847a1",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a6086ea4f39f99cd479502f",
+                  "5a608bf24f39f98ffc77720e",
+                  "58dd3ad986f77403051cba8f",
+                  "5e023e53d4353e3302577c4c",
+                  "5efb0c1bd79ff02a1f5e68d9",
+                  "5e023e6e34d52a55c3304f71",
+                  "5e023e88277cce2b522ff2b1",
+                  "6768c25aa7b238f14a08d3f6"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ],
+      "ShortName": "X-FAL",
+      "Description": "X-FAL is a 50-round drum magazine for FAL/SA58 7.62x51 NATO rounds. Manufactured by X Products. RAL 8000 Version."
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "handbookPriceRoubles": 26294,
+    "fleaPriceRoubles": 27625,
+    "locales": {
+      "en": {
+        "name": "SA58/FAL 7.62x51 X Products X-FAL 50-round drum magazine (RAL 8000)",
+        "shortName": "X-FAL",
+        "description": "X-FAL is a 50-round drum magazine for FAL/SA58 7.62x51 NATO rounds. Manufactured by X Products. RAL 8000 Version."
+      },
+      "po": {
+        "name": "SA58/FAL 7.62x51 X Products X-FAL 50-round drum magazine (RAL 8000)",
+        "shortName": "X-FAL 7.62x51",
+        "description": "O X-FAL é um carregador tambor com capacidade de 50 munições calibre 7.62x51 NATO para FAL/SA-58 produzido pela X-Products. RAL 8000 Version."
+      }
+    },
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_magazine"
+    ]
+  }
+}

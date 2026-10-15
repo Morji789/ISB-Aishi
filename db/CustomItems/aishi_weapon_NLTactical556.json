@@ -1,28 +1,25 @@
 {
   "69f572b4492391522e8fb0de": {
-
     "itemTplToClone": "68c16b9ab6b75a8a480520a6",
     "parentId": "5447b5f14bdc2d61278b4567",
     "handbookParentId": "5b5f78fc86f77409407a7f90",
-
-
     "overrideProperties": {
-        "CanSellOnRagfair": false,
-        "CanRequireOnRagfair": false,
-        "addtoItemBlacklist": true,    
-        "ExaminedByDefault": true,
-        "InsuranceDisabled": true,
-        "IsUnsaleable": true,
-        "BackgroundColor": "yellow",
-        "IsUnbuyable": true,
-        "AllowFeed": false,
-        "AllowJam": true,
-        "AllowMisfire": false,
-        "AllowOverheat": true,
-        "AllowSlide": false,
-        "Ergonomics": 42,
-        "ammoCaliber": "Caliber556x45NATO",
-        "Chambers": [
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false,
+      "addtoItemBlacklist": true,
+      "ExaminedByDefault": true,
+      "InsuranceDisabled": true,
+      "IsUnsaleable": true,
+      "BackgroundColor": "yellow",
+      "IsUnbuyable": true,
+      "AllowFeed": false,
+      "AllowJam": true,
+      "AllowMisfire": false,
+      "AllowOverheat": true,
+      "AllowSlide": false,
+      "Ergonomics": 42,
+      "ammoCaliber": "Caliber556x45NATO",
+      "Chambers": [
         {
           "_name": "patron_in_weapon",
           "_id": "68c16b9ab6b75a8a480520ad",
@@ -49,29 +46,28 @@
           "_required": false,
           "_mergeSlotWithChildren": false,
           "_proto": "69f57343d8fb59e51866326f"
-          }
-        ],
-        "UnlootableFromSlot": "FirstPrimaryWeapon",
-        "bEffDist": 500,
-        "bFirerate": 875,
-        "bHearDist": 80,
-        "blockLeftStance": false,
-        "chamberAmmoCount": 1,
-        "defAmmo": "54527a984bdc2d4e668b4567",
-        "defMagType": "5aaa4194e5b5b055d06310a5",
-        "durabSpawnMax": 100,
-        "durabSpawnMin": 50,
-        "isBoltCatch": true,
-        "isChamberLoad": true,
-        "isFastReload": true,
-        "shotgunDispersion": 0,
-        "weapClass": "assaultRifle",
-        "weapFireType": [
+        }
+      ],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "bEffDist": 500,
+      "bFirerate": 875,
+      "bHearDist": 80,
+      "blockLeftStance": false,
+      "chamberAmmoCount": 1,
+      "defAmmo": "54527a984bdc2d4e668b4567",
+      "defMagType": "5aaa4194e5b5b055d06310a5",
+      "durabSpawnMax": 100,
+      "durabSpawnMin": 50,
+      "isBoltCatch": true,
+      "isChamberLoad": true,
+      "isFastReload": true,
+      "shotgunDispersion": 0,
+      "weapClass": "assaultRifle",
+      "weapFireType": [
         "single",
         "fullauto"
-                  ],
-        "weapUseType": "primary",
-
+      ],
+      "weapUseType": "primary",
       "Slots": [
         {
           "_name": "mod_pistol_grip",
@@ -215,23 +211,15 @@
           "_proto": "69f57343d8fb59e51866326f"
         }
       ],
-
       "Prefab": {
-
         "path": "assets/content/weapons/nl545/weapon_cgnl_nl545_di_545x39_container.bundle",
         "rcid": ""
       },
-
-
       "Width": 1,
       "Height": 1,
-
-
-      "Weight": 1.0,  
-
-
-      "Grids": [
-      ]
+      "Weight": 1.0,
+      "Grids": [],
+      "IsAlwaysAvailableForInsurance": false
     },
     "addWeaponPreset": true,
     "weaponPresets": [
@@ -249,199 +237,206 @@
               "Repairable": {
                 "Durability": 100,
                 "MaxDurability": 100
+              },
+              "FireMode": {
+                "FireMode": "fullauto"
               }
             }
           },
-    {
-      "_id": "69f69474cbd61f4870cd35fb",
-      "_tpl": "6113cce3d92c473c770200c7",
-      "parentId": "69f69594cbd61f4870cd7705",
-      "slotId": "mod_pistol_grip"
-    },
-    {
-      "_id": "69f69474cbd61f4870cd35fc",
-      "_tpl": "69faa0d657249bee9c41f47b",
-      "parentId": "69f69594cbd61f4870cd7705",
-      "slotId": "mod_magazine"
-    },
-    {
-      "_id": "69f69474cbd61f4870cd35fd",
-      "_tpl": "69f64ffa8aee7c5fc321dc70",
-      "parentId": "69f69594cbd61f4870cd7705",
-      "slotId": "mod_reciever"
-    },
-    {
-      "_id": "69f69474cbd61f4870cd35fe",
-      "_tpl": "5c793fb92e221644f31bfb64",
-      "parentId": "69f69594cbd61f4870cd7705",
-      "slotId": "mod_stock_001"
-    },
-    {
-      "_id": "69f69474cbd61f4870cd35ff",
-      "_tpl": "68c16f15efac701f800dfd36",
-      "parentId": "69f69594cbd61f4870cd7705",
-      "slotId": "mod_charge"
-    },
-    {
-      "_id": "69f69474cbd61f4870cd3600",
-      "_tpl": "5c07dd120db834001c39092d",
-      "parentId": "69f69474cbd61f4870cd35fd",
-      "slotId": "mod_scope",
-      "upd": {
-        "Sight": {
-          "ScopesCurrentCalibPointIndexes": [
-            0
-          ],
-          "ScopesSelectedModes": [
-            0
-          ],
-          "SelectedScope": 0,
-          "ScopeZoomValue": 0
-        }
-      }
-    },
-    {
-      "_id": "69f69474cbd61f4870cd3601",
-      "_tpl": "68c16edf83e2d814b0093f76",
-      "parentId": "69f69474cbd61f4870cd35fd",
-      "slotId": "mod_barrel"
-    },
-    {
-      "_id": "69f69474cbd61f4870cd3602",
-      "_tpl": "6895bd19d55f0ebf6a0c0306",
-      "parentId": "69f69474cbd61f4870cd35fd",
-      "slotId": "mod_handguard"
-    },
-    {
-      "_id": "69f69474cbd61f4870cd3603",
-      "_tpl": "5bc09a18d4351e003562b68e",
-      "parentId": "69f69474cbd61f4870cd35fd",
-      "slotId": "mod_sight_rear",
-      "upd": {
-        "Sight": {
-          "ScopesCurrentCalibPointIndexes": [
-            0
-          ],
-          "ScopesSelectedModes": [
-            0
-          ],
-          "SelectedScope": 0,
-          "ScopeZoomValue": 0
-        }
-      }
-    },
-    {
-      "_id": "69f69474cbd61f4870cd3604",
-      "_tpl": "56eabf3bd2720b75698b4569",
-      "parentId": "69f69474cbd61f4870cd35fe",
-      "slotId": "mod_stock_000"
-    },
-    {
-      "_id": "69f69474cbd61f4870cd3605",
-      "_tpl": "5b3a16655acfc40016387a2a",
-      "parentId": "69f69474cbd61f4870cd3601",
-      "slotId": "mod_muzzle"
-    },
-    {
-      "_id": "69f69474cbd61f4870cd3606",
-      "_tpl": "68c16f6883e2d814b0093f7a",
-      "parentId": "69f69474cbd61f4870cd3601",
-      "slotId": "mod_gas_block"
-    },
-    {
-      "_id": "69f69474cbd61f4870cd3607",
-      "_tpl": "68bedc0365e7dcf94f0cb0fc",
-      "parentId": "69f69474cbd61f4870cd3602",
-      "slotId": "mod_tactical_000",
-      "upd": {
-        "Light": {
-          "IsActive": true,
-          "SelectedMode": 0
-        }
-      }
-    },
-    {
-      "_id": "69f69474cbd61f4870cd3608",
-      "_tpl": "689c8b454b91399db3085f2a",
-      "parentId": "69f69474cbd61f4870cd3602",
-      "slotId": "mod_mount_001"
-    },
-    {
-      "_id": "69f69474cbd61f4870cd3609",
-      "_tpl": "5bc09a30d4351e00367fb7c8",
-      "parentId": "69f69474cbd61f4870cd3602",
-      "slotId": "mod_sight_front",
-      "upd": {
-        "Sight": {
-          "ScopesCurrentCalibPointIndexes": [
-            0
-          ],
-          "ScopesSelectedModes": [
-            0
-          ],
-          "SelectedScope": 0,
-          "ScopeZoomValue": 0
-        }
-      }
-    },
-    {
-      "_id": "69f69474cbd61f4870cd360a",
-      "_tpl": "5b7be4895acfc400170e2dd5",
-      "parentId": "69f69474cbd61f4870cd3602",
-      "slotId": "mod_foregrip"
-    },
-    {
-      "_id": "69f69474cbd61f4870cd360b",
-      "_tpl": "689c887cd18a3665b8045743",
-      "parentId": "69f69474cbd61f4870cd3608",
-      "slotId": "mod_tactical",
-      "upd": {
-        "Light": {
-          "IsActive": true,
-          "SelectedMode": 0
-        }
-      }
-    },
-    {
-      "_id": "69f69474cbd61f4870cd360c",
-      "_tpl": "588226d124597767ad33f787",
-      "parentId": "69f69474cbd61f4870cd360a",
-      "slotId": "mod_foregrip"
-    },
-    {
-      "_id": "69f69474cbd61f4870cd360d",
-      "_tpl": "58d2912286f7744e27117493",
-      "parentId": "69f69474cbd61f4870cd3604",
-      "slotId": "mod_stock"
-    }
+          {
+            "_id": "69f69474cbd61f4870cd35fb",
+            "_tpl": "6113cce3d92c473c770200c7",
+            "parentId": "69f69594cbd61f4870cd7705",
+            "slotId": "mod_pistol_grip"
+          },
+          {
+            "_id": "69f69474cbd61f4870cd35fc",
+            "_tpl": "69faa0d657249bee9c41f47b",
+            "parentId": "69f69594cbd61f4870cd7705",
+            "slotId": "mod_magazine"
+          },
+          {
+            "_id": "69f69474cbd61f4870cd35fd",
+            "_tpl": "69f64ffa8aee7c5fc321dc70",
+            "parentId": "69f69594cbd61f4870cd7705",
+            "slotId": "mod_reciever"
+          },
+          {
+            "_id": "69f69474cbd61f4870cd35fe",
+            "_tpl": "5c793fb92e221644f31bfb64",
+            "parentId": "69f69594cbd61f4870cd7705",
+            "slotId": "mod_stock_001"
+          },
+          {
+            "_id": "69f69474cbd61f4870cd35ff",
+            "_tpl": "68c16f15efac701f800dfd36",
+            "parentId": "69f69594cbd61f4870cd7705",
+            "slotId": "mod_charge"
+          },
+          {
+            "_id": "69f69474cbd61f4870cd3600",
+            "_tpl": "5c07dd120db834001c39092d",
+            "parentId": "69f69474cbd61f4870cd35fd",
+            "slotId": "mod_scope",
+            "upd": {
+              "Sight": {
+                "ScopesCurrentCalibPointIndexes": [
+                  0
+                ],
+                "ScopesSelectedModes": [
+                  0
+                ],
+                "SelectedScope": 0,
+                "ScopeZoomValue": 0
+              }
+            }
+          },
+          {
+            "_id": "69f69474cbd61f4870cd3601",
+            "_tpl": "68c16edf83e2d814b0093f76",
+            "parentId": "69f69474cbd61f4870cd35fd",
+            "slotId": "mod_barrel"
+          },
+          {
+            "_id": "69f69474cbd61f4870cd3602",
+            "_tpl": "6895bd19d55f0ebf6a0c0306",
+            "parentId": "69f69474cbd61f4870cd35fd",
+            "slotId": "mod_handguard"
+          },
+          {
+            "_id": "69f69474cbd61f4870cd3603",
+            "_tpl": "5bc09a18d4351e003562b68e",
+            "parentId": "69f69474cbd61f4870cd35fd",
+            "slotId": "mod_sight_rear",
+            "upd": {
+              "Sight": {
+                "ScopesCurrentCalibPointIndexes": [
+                  0
+                ],
+                "ScopesSelectedModes": [
+                  0
+                ],
+                "SelectedScope": 0,
+                "ScopeZoomValue": 0
+              }
+            }
+          },
+          {
+            "_id": "69f69474cbd61f4870cd3604",
+            "_tpl": "56eabf3bd2720b75698b4569",
+            "parentId": "69f69474cbd61f4870cd35fe",
+            "slotId": "mod_stock_000"
+          },
+          {
+            "_id": "69f69474cbd61f4870cd3605",
+            "_tpl": "5b3a16655acfc40016387a2a",
+            "parentId": "69f69474cbd61f4870cd3601",
+            "slotId": "mod_muzzle"
+          },
+          {
+            "_id": "69f69474cbd61f4870cd3606",
+            "_tpl": "68c16f6883e2d814b0093f7a",
+            "parentId": "69f69474cbd61f4870cd3601",
+            "slotId": "mod_gas_block"
+          },
+          {
+            "_id": "69f69474cbd61f4870cd3607",
+            "_tpl": "68bedc0365e7dcf94f0cb0fc",
+            "parentId": "69f69474cbd61f4870cd3602",
+            "slotId": "mod_tactical_000",
+            "upd": {
+              "Light": {
+                "IsActive": true,
+                "SelectedMode": 0
+              }
+            }
+          },
+          {
+            "_id": "69f69474cbd61f4870cd3608",
+            "_tpl": "689c8b454b91399db3085f2a",
+            "parentId": "69f69474cbd61f4870cd3602",
+            "slotId": "mod_mount_001"
+          },
+          {
+            "_id": "69f69474cbd61f4870cd3609",
+            "_tpl": "5bc09a30d4351e00367fb7c8",
+            "parentId": "69f69474cbd61f4870cd3602",
+            "slotId": "mod_sight_front",
+            "upd": {
+              "Sight": {
+                "ScopesCurrentCalibPointIndexes": [
+                  0
+                ],
+                "ScopesSelectedModes": [
+                  0
+                ],
+                "SelectedScope": 0,
+                "ScopeZoomValue": 0
+              }
+            }
+          },
+          {
+            "_id": "69f69474cbd61f4870cd360a",
+            "_tpl": "5b7be4895acfc400170e2dd5",
+            "parentId": "69f69474cbd61f4870cd3602",
+            "slotId": "mod_foregrip"
+          },
+          {
+            "_id": "69f69474cbd61f4870cd360b",
+            "_tpl": "689c887cd18a3665b8045743",
+            "parentId": "69f69474cbd61f4870cd3608",
+            "slotId": "mod_tactical",
+            "upd": {
+              "Light": {
+                "IsActive": true,
+                "SelectedMode": 0
+              }
+            }
+          },
+          {
+            "_id": "69f69474cbd61f4870cd360c",
+            "_tpl": "588226d124597767ad33f787",
+            "parentId": "69f69474cbd61f4870cd360a",
+            "slotId": "mod_foregrip"
+          },
+          {
+            "_id": "69f69474cbd61f4870cd360d",
+            "_tpl": "58d2912286f7744e27117493",
+            "parentId": "69f69474cbd61f4870cd3604",
+            "slotId": "mod_stock"
+          }
         ],
         "_encyclopedia": "69f572b4492391522e8fb0de"
       }
     ],
-
     "locales": {
       "en": {
-          "name": "NL15 Tactical 5.56x45 Assault Carbine (Prototype)",
-          "shortName": "NL15 Tactical",
-          "description": "A custom carbine based on the AR-15 platform, designed to combine modern ergonomics, high modularity, and the widespread availability of the 5.56x45mm NATO cartridge. Manufactured by Custom Guns, the NL15 Carbine features a direct-gas-operated bolt assembly, offering a lightweight, versatile, and reliable platform for close- to medium-range combat."
+        "name": "NL15 Tactical 5.56x45 Assault Carbine (Prototype)",
+        "shortName": "NL15 Tactical",
+        "description": "A custom carbine based on the AR-15 platform, designed to combine modern ergonomics, high modularity, and the widespread availability of the 5.56x45mm NATO cartridge. Manufactured by Custom Guns, the NL15 Carbine features a direct-gas-operated bolt assembly, offering a lightweight, versatile, and reliable platform for close- to medium-range combat."
       },
       "po": {
-          "name": "NL15 Tactical 5.56x45 Assault Carbine (Prototype)",
-          "shortName": "NL15 Tactical",
-          "description": "Uma carabina customizada baseada na plataforma AR-15, projetada para combinar ergonomia moderna, alta modularidade e a ampla disponibilidade do cartucho 5.56x45mm NATO. Fabricada pela Custom Guns, a NL15 Carbine utiliza um conjunto de ferrolho em configuração de ação direta por gases, oferecendo uma plataforma leve, versátil e confiável para combates de curta a média distância."
+        "name": "NL15 Tactical 5.56x45 Assault Carbine (Prototype)",
+        "shortName": "NL15 Tactical",
+        "description": "Uma carabina customizada baseada na plataforma AR-15, projetada para combinar ergonomia moderna, alta modularidade e a ampla disponibilidade do cartucho 5.56x45mm NATO. Fabricada pela Custom Guns, a NL15 Carbine utiliza um conjunto de ferrolho em configuração de ação direta por gases, oferecendo uma plataforma leve, versátil e confiável para combates de curta a média distância."
       }
     },
-
     "fleaPriceRoubles": 289202,
-
     "handbookPriceRoubles": 108592,
-
     "addtoBots": true,
-
+    "masteries": true,
+    "masterySections": [
+      {
+        "Level2": 600,
+        "Level3": 1300,
+        "Name": "MK47",
+        "Templates": [
+          "69f572b4492391522e8fb0de"
+        ]
+      }
+    ],
     "addtoModSlots": false,
-
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",

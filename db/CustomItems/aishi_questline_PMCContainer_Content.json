@@ -1,26 +1,18 @@
 {
   "69db2b6d3bfc92db80e8de01": {
-
     "itemTplToClone": "665829424de4820934746ce6",
     "parentId": "62f109593b54472778797866",
     "handbookParentId": "5b5f6fd286f774093f2ecf0d",
-
     "overrideProperties": {
       "ExaminedByDefault": true,
-      "QuestItem": false,
       "BackgroundColor": "yellow",
       "Prefab": {
-
         "path": "assets/content/items/containers/item_container_case_kompromat/item_container_case_kompromat.bundle",
         "rcid": ""
       },
-
-
       "Width": 2,
-      "Height": 2,
-      "Weight": 0.00
+      "Weight": 0.0
     },
-
     "locales": {
       "en": {
         "name": "Unregistered unlocked secure container model with unknown documents",
@@ -32,62 +24,42 @@
         "shortName": "C.Desconhecido",
         "description": "Um container seguro de um modelo não registrado avariado por uma queda. Ele aparenta conter papeis em seu interior."
       }
-    
     },
-
-      "isRandomLootContainer": true,
-      "randomLootContainerRewards":
-    {
-          "rewardCount": 8,
-          "foundInRaid": true,
-          "rewardTplPool": {
-            "69dc7d6fbdd564ab7bccfbd1": 100,
-            "69dc7f46d4b9395c95e79413": 100,
-            "69dc7febec5e15cc1e062b05": 100,
-            "69dc806e8645330aee3a1064": 100,
-            "69dc80cad38b281a47d1257e": 100,
-            "69dc84fe5feb9cfd6040ee32": 100,
-            "69dc85fa59d20caf8ecfcfc4": 100,
-            "69dc874ae348fd1fd7844b31": 100
-          }
-    }, 
-
-    "fleaPriceRoubles": 1,
-
+    "isRandomLootContainer": true,
+    "randomLootContainerRewards": {
+      "rewardCount": 8,
+      "foundInRaid": true,
+      "rewardTplPool": {
+        "69dc7d6fbdd564ab7bccfbd1": 100,
+        "69dc7f46d4b9395c95e79413": 100,
+        "69dc7febec5e15cc1e062b05": 100,
+        "69dc806e8645330aee3a1064": 100,
+        "69dc80cad38b281a47d1257e": 100,
+        "69dc84fe5feb9cfd6040ee32": 100,
+        "69dc85fa59d20caf8ecfcfc4": 100,
+        "69dc874ae348fd1fd7844b31": 100
+      }
+    },
+    "fleaPriceRoubles": 10000,
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
-    "handbookPriceRoubles": 1
+    "addtoItemBlacklist": true,
+    "handbookPriceRoubles": 10000
   },
   "69dc7d6fbdd564ab7bccfbd1": {
-
     "itemTplToClone": "62e910aaf957f2915e0a5e36",
     "parentId": "5448ecbe4bdc2d60728b4568",
     "handbookParentId": "5b619f1a86f77450a702a6f3",
-
     "overrideProperties": {
-      "ExaminedByDefault": false,
-      "QuestItem": false,
       "BackgroundColor": "violet",
-        
-
       "Prefab": {
-
         "path": "assets/content/items/infosubject/item_info_note/item_info_note_missisa_transcript.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
       "Height": 2,
-      "Weight": 0.00,
-
+      "Weight": 0.0,
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "Transcript of conversation with Ms. A.",
@@ -99,45 +71,31 @@
         "shortName": "Sra. A",
         "description": "Uma transcrição da conversa da Sra. A. com uma pessoa não identificada"
       }
-    
     },
-
     "DiscardLimit": 0,
     "DiscardingBlock": true,
     "IsUndiscardable": true,
     "IsUnremovable": true,
     "CanSellOnRagfair": false,
     "CanRequireOnRagfair": false,
-    "addtoItemBlacklist": true,   
-    "fleaPriceRoubles": 1,
-    "handbookPriceRoubles": 1
+    "addtoItemBlacklist": true,
+    "fleaPriceRoubles": 10000,
+    "handbookPriceRoubles": 10000
   },
   "69dc7f46d4b9395c95e79413": {
-
     "itemTplToClone": "62e910aaf957f2915e0a5e36",
     "parentId": "5448ecbe4bdc2d60728b4568",
     "handbookParentId": "5b619f1a86f77450a702a6f3",
-
     "overrideProperties": {
-      "ExaminedByDefault": false,
-      "QuestItem": false,
       "BackgroundColor": "violet",
-        
-
       "Prefab": {
-
         "path": "assets/content/items/infosubject/item_info_note_folder/item_info_note_folder_closed_terragroup.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
       "Height": 2,
-      "Weight": 0.00,
-
+      "Weight": 0.0,
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "Fuel catalyst test report",
@@ -147,47 +105,33 @@
       "po": {
         "name": "Relatório de teste do catalisador de combustível",
         "shortName": "Catalisador",
-        "description": "Um relatório da TerraGroup sobre testes de catalisador de combustível realizados na Usina Química #16." 
+        "description": "Um relatório da TerraGroup sobre testes de catalisador de combustível realizados na Usina Química #16."
       }
-    
     },
-
     "DiscardLimit": 0,
     "DiscardingBlock": true,
     "IsUndiscardable": true,
     "IsUnremovable": true,
     "CanSellOnRagfair": false,
     "CanRequireOnRagfair": false,
-    "addtoItemBlacklist": true,   
-    "fleaPriceRoubles": 1,
-    "handbookPriceRoubles": 1
+    "addtoItemBlacklist": true,
+    "fleaPriceRoubles": 10000,
+    "handbookPriceRoubles": 10000
   },
   "69dc7febec5e15cc1e062b05": {
-
     "itemTplToClone": "62e910aaf957f2915e0a5e36",
     "parentId": "5448ecbe4bdc2d60728b4568",
     "handbookParentId": "5b619f1a86f77450a702a6f3",
-
     "overrideProperties": {
-      "ExaminedByDefault": false,
-      "QuestItem": false,
       "BackgroundColor": "violet",
-        
-
       "Prefab": {
-
         "path": "assets/content/items/infosubject/item_info_note/item_info_note_delegation_authority.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
-      "Height": 2, 
-      "Weight": 0.00,
-
+      "Height": 2,
+      "Weight": 0.0,
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "Document mentioning the Warden",
@@ -199,45 +143,31 @@
         "shortName": "Carcereiro",
         "description": "Um documento manchado com tinta sem selos ou logotipos."
       }
-    
     },
-
     "DiscardLimit": 0,
     "DiscardingBlock": true,
     "IsUndiscardable": true,
     "IsUnremovable": true,
     "CanSellOnRagfair": false,
     "CanRequireOnRagfair": false,
-    "addtoItemBlacklist": true,  
-    "fleaPriceRoubles": 1,
-    "handbookPriceRoubles": 1
+    "addtoItemBlacklist": true,
+    "fleaPriceRoubles": 10000,
+    "handbookPriceRoubles": 10000
   },
   "69dc806e8645330aee3a1064": {
-
     "itemTplToClone": "62e910aaf957f2915e0a5e36",
     "parentId": "5448ecbe4bdc2d60728b4568",
     "handbookParentId": "5b619f1a86f77450a702a6f3",
-
     "overrideProperties": {
-      "ExaminedByDefault": false,
-      "QuestItem": false,
       "BackgroundColor": "violet",
-        
-
       "Prefab": {
-
         "path": "assets/content/items/infosubject/item_info_note_folder/item_info_note_folder_closed_terragroup.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
       "Height": 2,
-      "Weight": 0.00,
-
+      "Weight": 0.0,
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "Item 1156 specification",
@@ -249,45 +179,31 @@
         "shortName": "Specs 1156",
         "description": "A especificação completa para o Item #1156, destinada ao transporte de Tarkov para Norvinsk."
       }
-    
     },
-
     "DiscardLimit": 0,
     "DiscardingBlock": true,
     "IsUndiscardable": true,
     "IsUnremovable": true,
     "CanSellOnRagfair": false,
     "CanRequireOnRagfair": false,
-    "addtoItemBlacklist": true,   
-    "fleaPriceRoubles": 1,
-    "handbookPriceRoubles": 1
+    "addtoItemBlacklist": true,
+    "fleaPriceRoubles": 10000,
+    "handbookPriceRoubles": 10000
   },
   "69dc80cad38b281a47d1257e": {
-
     "itemTplToClone": "62e910aaf957f2915e0a5e36",
     "parentId": "5448ecbe4bdc2d60728b4568",
     "handbookParentId": "5b619f1a86f77450a702a6f3",
-
     "overrideProperties": {
-      "ExaminedByDefault": false,
-      "QuestItem": false,
       "BackgroundColor": "violet",
-        
-
       "Prefab": {
-
         "path": "assets/content/items/infosubject/item_info_note_folder/item_info_note_folder_closed_cardboard.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
       "Height": 2,
-      "Weight": 0.00,
-
+      "Weight": 0.0,
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "ARRS system specifications",
@@ -299,45 +215,31 @@
         "shortName": "ARRS",
         "description": "A especificação completa para o sistema ARRS. A maior parte dela está criptografada."
       }
-    
     },
-
     "DiscardLimit": 0,
     "DiscardingBlock": true,
     "IsUndiscardable": true,
     "IsUnremovable": true,
     "CanSellOnRagfair": false,
     "CanRequireOnRagfair": false,
-    "addtoItemBlacklist": true, 
-    "fleaPriceRoubles": 1,
-    "handbookPriceRoubles": 1
+    "addtoItemBlacklist": true,
+    "fleaPriceRoubles": 10000,
+    "handbookPriceRoubles": 10000
   },
   "69dc84fe5feb9cfd6040ee32": {
-
     "itemTplToClone": "62e910aaf957f2915e0a5e36",
     "parentId": "5448ecbe4bdc2d60728b4568",
     "handbookParentId": "5b619f1a86f77450a702a6f3",
-
     "overrideProperties": {
-      "ExaminedByDefault": false,
-      "QuestItem": false,
       "BackgroundColor": "violet",
-        
-
       "Prefab": {
-
         "path": "assets/content/items/infosubject/item_info_recorder/item_info_recorder_tape_witness.bundle",
         "rcid": ""
       },
-
-
       "Width": 2,
-      "Height": 1,
-      "Weight": 0.00,
-
+      "Weight": 0.0,
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "Audio tape with incriminating evidence",
@@ -349,45 +251,31 @@
         "shortName": "Evidência",
         "description": "Uma fita de áudio preparada por Kozlov para Anastasia. De acordo com as cartas de Kozlov, ela contém provas irrefutáveis sobre os vínculos da administração da cidade com o submundo criminal local."
       }
-    
     },
-
     "DiscardLimit": 0,
     "DiscardingBlock": true,
     "IsUndiscardable": true,
     "IsUnremovable": true,
     "CanSellOnRagfair": false,
     "CanRequireOnRagfair": false,
-    "addtoItemBlacklist": true,  
-    "fleaPriceRoubles": 1,
-    "handbookPriceRoubles": 1
+    "addtoItemBlacklist": true,
+    "fleaPriceRoubles": 10000,
+    "handbookPriceRoubles": 10000
   },
   "69dc85fa59d20caf8ecfcfc4": {
-
     "itemTplToClone": "62e910aaf957f2915e0a5e36",
     "parentId": "5448ecbe4bdc2d60728b4568",
     "handbookParentId": "5b619f1a86f77450a702a6f3",
-
     "overrideProperties": {
-      "ExaminedByDefault": false,
-      "QuestItem": false,
       "BackgroundColor": "violet",
-        
-
       "Prefab": {
-
         "path": "assets/content/items/infosubject/item_info_note_folder/item_info_note_folder_closed_cardboard.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
       "Height": 2,
-      "Weight": 0.00,
-
+      "Weight": 0.0,
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "Agent network deployment report",
@@ -399,45 +287,31 @@
         "shortName": "Rede de agentes",
         "description": "O relatório da The Unheard afirma que seus agentes já invadiram estruturas governamentais em vários países e detêm influência além da Rússia."
       }
-    
     },
-
     "DiscardLimit": 0,
     "DiscardingBlock": true,
     "IsUndiscardable": true,
     "IsUnremovable": true,
     "CanSellOnRagfair": false,
     "CanRequireOnRagfair": false,
-    "addtoItemBlacklist": true, 
-    "fleaPriceRoubles": 1,
-    "handbookPriceRoubles": 1
+    "addtoItemBlacklist": true,
+    "fleaPriceRoubles": 10000,
+    "handbookPriceRoubles": 10000
   },
   "69dc874ae348fd1fd7844b31": {
-
     "itemTplToClone": "62e910aaf957f2915e0a5e36",
     "parentId": "5448ecbe4bdc2d60728b4568",
     "handbookParentId": "5b619f1a86f77450a702a6f3",
-
     "overrideProperties": {
-      "ExaminedByDefault": false,
-      "QuestItem": false,
       "BackgroundColor": "violet",
-        
-
       "Prefab": {
-
         "path": "assets/content/items/infosubject/item_info_note/item_info_plasticbag_labyrinth.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
       "Height": 2,
-      "Weight": 0.00,
-
+      "Weight": 0.0,
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "Labyrinth facility research report",
@@ -449,17 +323,15 @@
         "shortName": "Pesquisa Labyrinth",
         "description": "O relatório de Voronenko detalha os experimentos que a TerraGroup conduziu em humanos na Instalação Labyrinth."
       }
-    
     },
-
     "DiscardLimit": 0,
     "DiscardingBlock": true,
     "IsUndiscardable": true,
     "IsUnremovable": true,
     "CanSellOnRagfair": false,
     "CanRequireOnRagfair": false,
-    "addtoItemBlacklist": true,   
-    "fleaPriceRoubles": 1,
-    "handbookPriceRoubles": 1
+    "addtoItemBlacklist": true,
+    "fleaPriceRoubles": 10000,
+    "handbookPriceRoubles": 10000
   }
 }

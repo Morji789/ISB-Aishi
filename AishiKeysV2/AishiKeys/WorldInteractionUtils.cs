@@ -3,6 +3,7 @@ using EFT;
 using EFT.Interactive;
 using System;
 using System.Reflection;
+using System.Collections.Generic;
 using System.Text;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -19,6 +20,40 @@ namespace AishiKeys
             "DoorId",
             "NetId"
         };
+        private static readonly Dictionary<Type, MemberInfo[]> StableMembers = new Dictionary<Type, MemberInfo[]>();
+        private static readonly Dictionary<string, WeakReference> ResolvedDoors = new Dictionary<string, WeakReference>(StringComparer.Ordinal);
+        private static float nextDoorScan;
+        static WorldInteractionUtils()
+        {
+            SceneManager.sceneLoaded += ClearResolvedDoors;
+            SceneManager.sceneUnloaded += ClearResolvedDoors;
+        }
+
+        private static void ClearResolvedDoors(Scene scene, LoadSceneMode mode) => ClearResolvedDoors(scene);
+        private static void ClearResolvedDoors(Scene scene)
+        {
+            ResolvedDoors.Clear();
+            nextDoorScan = 0f;
+        }
+
+        private static MemberInfo[] GetStableMembers(Type type)
+        {
+            if (StableMembers.TryGetValue(type, out var cached))
+                return cached;
+            var members = new List<MemberInfo>();
+            var flags = BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic;
+            foreach (var name in StableIdMemberNames)
+            {
+                var property = FindProperty(type, name, flags);
+                if (property != null && property.GetIndexParameters().Length == 0)
+                    members.Add(property);
+                var field = FindField(type, name, flags);
+                if (field != null)
+                    members.Add(field);
+            }
+
+            return StableMembers[type] = members.ToArray();
+        }
 
         public static bool IsBotInteraction(GamePlayerOwner owner)
         {
@@ -26,7 +61,7 @@ namespace AishiKeys
             if (owner != null)
             {
                 Player player = owner.Player;
-                ownerId = player != null ? new int?(player.Id) : null;
+                ownerId = player != null ? new int? (player.Id) : null;
             }
 
             int? mainPlayerId = null;
@@ -34,111 +69,82 @@ namespace AishiKeys
             if (instance != null)
             {
                 Player mainPlayer = instance.MainPlayer;
-                mainPlayerId = mainPlayer != null ? new int?(mainPlayer.Id) : null;
+                mainPlayerId = mainPlayer != null ? new int? (mainPlayer.Id) : null;
             }
 
-            return !(ownerId.GetValueOrDefault() == mainPlayerId.GetValueOrDefault() &&
-                     (ownerId != null) == (mainPlayerId != null));
+            return !(ownerId.GetValueOrDefault() == mainPlayerId.GetValueOrDefault() && (ownerId != null) == (mainPlayerId != null));
         }
 
         internal static string GetStableInteractiveId(WorldInteractiveObject interactive)
         {
             if (interactive == null)
                 return string.Empty;
-
-            Type type = interactive.GetType();
-            BindingFlags flags = BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic;
-
-            foreach (string memberName in StableIdMemberNames)
+            foreach (var member in GetStableMembers(interactive.GetType()))
             {
-                PropertyInfo property = FindProperty(type, memberName, flags);
-                if (property != null && property.GetIndexParameters().Length == 0)
+                try
                 {
-                    try
-                    {
-                        object value = property.GetValue(interactive, null);
-                        string text = ConvertStableValue(value);
-                        if (!string.IsNullOrEmpty(text))
-                            return memberName + ":" + text;
-                    }
-                    catch
-                    {
-                    }
+                    var value = member is PropertyInfo property ? property.GetValue(interactive, null) : ((FieldInfo)member).GetValue(interactive);
+                    var text = ConvertStableValue(value);
+                    if (!string.IsNullOrEmpty(text))
+                        return member.Name + ":" + text;
                 }
-
-                FieldInfo field = FindField(type, memberName, flags);
-                if (field != null)
+                catch
                 {
-                    try
-                    {
-                        object value = field.GetValue(interactive);
-                        string text = ConvertStableValue(value);
-                        if (!string.IsNullOrEmpty(text))
-                            return memberName + ":" + text;
-                    }
-                    catch
-                    {
-                    }
                 }
             }
 
             Transform transform = interactive.transform;
             if (transform == null)
                 return string.Empty;
-
             Scene scene = interactive.gameObject.scene;
             Vector3 position = transform.position;
-
-            return "Path:" +
-                   (scene.IsValid() ? scene.name : string.Empty) + "|" +
-                   BuildHierarchyPath(transform) + "|" +
-                   position.x.ToString("F2", System.Globalization.CultureInfo.InvariantCulture) + "," +
-                   position.y.ToString("F2", System.Globalization.CultureInfo.InvariantCulture) + "," +
-                   position.z.ToString("F2", System.Globalization.CultureInfo.InvariantCulture);
+            return "Path:" + (scene.IsValid() ? scene.name : string.Empty) + "|" + BuildHierarchyPath(transform) + "|" + position.x.ToString("F2", System.Globalization.CultureInfo.InvariantCulture) + "," + position.y.ToString("F2", System.Globalization.CultureInfo.InvariantCulture) + "," + position.z.ToString("F2", System.Globalization.CultureInfo.InvariantCulture);
         }
 
         internal static WorldInteractiveObject FindInteractiveByStableId(string stableId)
         {
             if (string.IsNullOrEmpty(stableId))
                 return null;
+            if (ResolvedDoors.TryGetValue(stableId, out var reference))
+            {
+                var cached = reference.Target as WorldInteractiveObject;
+                if (cached != null && cached.gameObject.scene.IsValid() && cached.gameObject.scene.isLoaded && string.Equals(GetStableInteractiveId(cached), stableId, StringComparison.Ordinal))
+                    return cached;
+                ResolvedDoors.Remove(stableId);
+            }
 
-            WorldInteractiveObject[] interactives = Resources.FindObjectsOfTypeAll<WorldInteractiveObject>();
-            if (interactives == null)
+            if (Time.realtimeSinceStartup < nextDoorScan)
                 return null;
-
-            foreach (WorldInteractiveObject interactive in interactives)
+            nextDoorScan = Time.realtimeSinceStartup + 1f;
+            WorldInteractiveObject match = null;
+            foreach (var interactive in Resources.FindObjectsOfTypeAll<WorldInteractiveObject>())
             {
                 if (interactive == null || interactive.gameObject == null)
                     continue;
-
-                Scene scene = interactive.gameObject.scene;
+                var scene = interactive.gameObject.scene;
                 if (!scene.IsValid() || !scene.isLoaded)
                     continue;
-
-                if (string.Equals(
-                        GetStableInteractiveId(interactive),
-                        stableId,
-                        StringComparison.Ordinal))
-                {
-                    return interactive;
-                }
+                string id = GetStableInteractiveId(interactive);
+                if (string.IsNullOrEmpty(id))
+                    continue;
+                if (!ResolvedDoors.ContainsKey(id))
+                    ResolvedDoors[id] = new WeakReference(interactive);
+                if (match == null && string.Equals(id, stableId, StringComparison.Ordinal))
+                    match = interactive;
             }
 
-            return null;
+            if (match != null)
+                ResolvedDoors[stableId] = new WeakReference(match);
+            return match;
         }
 
-        internal static bool TryApplyAuthoritativeDoorState(
-            WorldInteractiveObject door,
-            int authorityState)
+        internal static bool TryApplyAuthoritativeDoorState(WorldInteractiveObject door, int authorityState)
         {
             if (door == null)
                 return false;
-
             EDoorState targetState = ResolveFallbackDoorState(authorityState);
-
             if (door.DoorState == targetState)
                 return true;
-
             if (door.DoorState == (EDoorState)1 && targetState != (EDoorState)1)
             {
                 try
@@ -149,8 +155,7 @@ namespace AishiKeys
                 {
                 }
 
-                if (door.DoorState != (EDoorState)1 &&
-                    (authorityState < 0 || door.DoorState == targetState))
+                if (door.DoorState != (EDoorState)1 && (authorityState < 0 || door.DoorState == targetState))
                 {
                     return true;
                 }
@@ -158,7 +163,6 @@ namespace AishiKeys
 
             Type type = door.GetType();
             BindingFlags flags = BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic;
-
             PropertyInfo property = FindProperty(type, "DoorState", flags);
             if (property != null && property.PropertyType == typeof(EDoorState))
             {
@@ -183,10 +187,7 @@ namespace AishiKeys
                 {
                     if (field.FieldType != typeof(EDoorState))
                         continue;
-
-                    if (field.Name.IndexOf("doorstate", StringComparison.OrdinalIgnoreCase) < 0 &&
-                        field.Name.IndexOf("doorState", StringComparison.OrdinalIgnoreCase) < 0 &&
-                        field.Name.IndexOf("<DoorState>", StringComparison.OrdinalIgnoreCase) < 0)
+                    if (field.Name.IndexOf("doorstate", StringComparison.OrdinalIgnoreCase) < 0 && field.Name.IndexOf("doorState", StringComparison.OrdinalIgnoreCase) < 0 && field.Name.IndexOf("<DoorState>", StringComparison.OrdinalIgnoreCase) < 0)
                     {
                         continue;
                     }
@@ -207,16 +208,17 @@ namespace AishiKeys
 
         private static EDoorState ResolveFallbackDoorState(int authorityState)
         {
-            // EDoorState is backed by System.Byte. Enum.IsDefined(Type, object) throws
-            // when it receives a boxed Int32, even when the numeric value is valid.
-            if (authorityState >= byte.MinValue &&
-                authorityState <= byte.MaxValue &&
-                authorityState != 1)
+            if (authorityState >= byte.MinValue && authorityState <= byte.MaxValue && authorityState != 1)
             {
                 return (EDoorState)(byte)authorityState;
             }
 
-            string[] preferredNames = { "Shut", "Closed", "Open" };
+            string[] preferredNames =
+            {
+                "Shut",
+                "Closed",
+                "Open"
+            };
             foreach (string name in preferredNames)
             {
                 EDoorState parsed;
@@ -239,12 +241,10 @@ namespace AishiKeys
         {
             StringBuilder builder = new StringBuilder();
             Transform current = transform;
-
             while (current != null)
             {
                 if (builder.Length > 0)
                     builder.Insert(0, '/');
-
                 builder.Insert(0, current.name ?? string.Empty);
                 current = current.parent;
             }
@@ -256,18 +256,14 @@ namespace AishiKeys
         {
             if (value == null)
                 return string.Empty;
-
             string text = value as string;
             if (text != null)
                 return text.Trim();
-
             if (value is Guid)
                 return value.ToString();
-
             Type type = value.GetType();
             if (type.IsPrimitive || type.IsEnum || value is decimal)
                 return Convert.ToString(value, System.Globalization.CultureInfo.InvariantCulture);
-
             return string.Empty;
         }
 

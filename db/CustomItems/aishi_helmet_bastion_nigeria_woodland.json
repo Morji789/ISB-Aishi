@@ -1,0 +1,131 @@
+{
+  "1f3dcd7094f05e0daac4ff70": {
+    "itemTplToClone": "66b5f65ca7f72d197e70bcd6",
+    "parentId": "5a341c4086f77401f2541505",
+    "handbookParentId": "5b47574386f77428ca22b330",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "equipment/item_equipment_helmet_bastion_nigeria_woodland_aishi.bundle",
+        "rcid": ""
+      },
+      "Name": "Ballistic Armor Co. Bastion helmet (M14 Nigeria Woodland)",
+      "ShortName": "BAC Bastion (M14 Nigeria Woodland)",
+      "Description": "The Bastion NIJ level IIIA tactical helmet designed for law enforcement and civilian use. Equipped with M-LOK interface rails for mounting additional equipment. Manufactured by Ballistic Armor Co. M14 Nigeria Woodland version.",
+      "CanSellOnRagfair": false,
+      "Slots": [
+        {
+          "_id": "bd07e03758bc5fe7a34a7872",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_nvg",
+          "_parent": "1f3dcd7094f05e0daac4ff70",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5c0558060db834001b735271",
+                  "5a16b8a9fcdbcb00165aa6ca"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "db67561bc5b35154be5dda6a",
+          "_mergeSlotWithChildren": true,
+          "_name": "Helmet_top",
+          "_parent": "1f3dcd7094f05e0daac4ff70",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "66b61cfae98be930d701c029"
+                ],
+                "Plate": "66b61cfae98be930d701c029",
+                "armorColliders": [
+                  "ParietalHead"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        },
+        {
+          "_id": "7f7fd3208c5c5ac59b60da1c",
+          "_mergeSlotWithChildren": true,
+          "_name": "Helmet_back",
+          "_parent": "1f3dcd7094f05e0daac4ff70",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "66b61ce0c5d72b027748867e"
+                ],
+                "Plate": "66b61ce0c5d72b027748867e",
+                "armorColliders": [
+                  "BackHead"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Ballistic Armor Co. Bastion helmet (M14 Nigeria Woodland)",
+        "shortName": "BAC Bastion",
+        "description": "The Bastion NIJ level IIIA tactical helmet designed for law enforcement and civilian use. Equipped with M-LOK interface rails for mounting additional equipment. Manufactured by Ballistic Armor Co. M14 Nigeria Woodland version."
+      }
+    },
+    "handbookPriceRoubles": 13205,
+    "fleaPriceRoubles": 13205,
+    "addtoInventorySlots": [
+      "HeadWear"
+    ],
+    "addtoBots": false,
+    "addtoTraders": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_id": "989b5c2b1a445d51abc277f8",
+        "_type": "Preset",
+        "_changeWeaponName": false,
+        "_name": "Ballistic Armor Co. Bastion helmet (M14 Nigeria Woodland)",
+        "_parent": "292b59c29a2255fdac27bbb1",
+        "_encyclopedia": "1f3dcd7094f05e0daac4ff70",
+        "_items": [
+          {
+            "_id": "292b59c29a2255fdac27bbb1",
+            "_tpl": "1f3dcd7094f05e0daac4ff70"
+          },
+          {
+            "_id": "14c57882d5d450e996aee58d",
+            "_tpl": "66b61cfae98be930d701c029",
+            "parentId": "292b59c29a2255fdac27bbb1",
+            "slotId": "Helmet_top"
+          },
+          {
+            "_id": "f314f7aaf1e15ae9a4ed6f21",
+            "_tpl": "66b61ce0c5d72b027748867e",
+            "parentId": "292b59c29a2255fdac27bbb1",
+            "slotId": "Helmet_back"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,35 +1,17 @@
 {
   "6966abe029836c9054d74ce5": {
-
     "itemTplToClone": "65ddcc9cfa85b9f17d0dfb07",
     "parentId": "5448ecbe4bdc2d60728b4568",
     "handbookParentId": "5b619f1a86f77450a702a6f3",
-
     "overrideProperties": {
-      "ExaminedByDefault": true,
       "BackgroundColor": "yellow",
-      "IsSpecialSlotOnly": true,
-      "IsUnbuyable": true,
-      "IsUndiscardable": true,
-      "IsUnremovable": true,
-      "IsUnsaleable": true,
-      "Unlootable": true,
-        
-
       "Prefab": {
-
         "path": "assets/content/items/quest/item_quest_envelope/item_quest_envelope.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
-      "Height": 1,
       "Weight": 0.06,
-
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "TG Letter",
@@ -41,46 +23,28 @@
         "shortName": "Carta TG",
         "description": "Uma carta selada que deveria ser entregue a uma oficial da TerraGroup responsável pelos últimos grupos de evacuação no Terminal. \n\n[CONFIDENCIAL] DESTRUA APÓS LER \n\n[CONFIDENCIAL] DESTRUA APÓS LER \n\n[CONFIDENCIAL] DESTRUA APÓS LER \n\nDe: Almen James\nPara: Rostova Rais \n\nBoa tarde senhora Rais, o fato de eu estar escrevendo isso utilizando nossos protocolos analogicos já mostra a importância desse recado. \n\nA evacuação ainda não terminou, eu imploro, suplico para que a senhora reconsidere e atrase o começo da nova fase da operação de limpeza. \n\nTemos muitos cientistas e funcionarios esperando evacuação, se os novos contratados começarem a operação você sabe exatamente o que vai acontecer, muitas coisas importantes serão perdidas além de vidas. Por favor, atrase o começo da operação LIMPEZA. \n\nAtenciosamente, Almen James\nPesquisador Chefe da TerraGroup Labs"
       }
-    
     },
-
-    "fleaPriceRoubles": 1,
-
-    "handbookPriceRoubles": 1,    
-
+    "fleaPriceRoubles": 100000,
+    "handbookPriceRoubles": 100000,
     "CanSellOnRagfair": false,
-
     "CanRequireOnRagfair": false,
-    
     "addtoItemBlacklist": true
   },
   "6966abe33f2ebecc04530070": {
-
     "itemTplToClone": "590c621186f774138d11ea29",
     "parentId": "5448ecbe4bdc2d60728b4568",
     "handbookParentId": "5b47574386f77428ca22b341",
-
-
     "overrideProperties": {
-      "QuestItem": true,  
+      "QuestItem": true,
       "ExaminedByDefault": false,
       "BackgroundColor": "yellow",
-        
-
       "Prefab": {
-
         "path": "quests/quest_item_pendrive.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
-      "Height": 1,
       "Weight": 0.15,
-
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "Military flash drive with data for an fixed and upgraded tracking application",
@@ -92,81 +56,47 @@
         "shortName": "Pendrive",
         "description": "Um pendrive criptografado com informações de um software de rastreamento de ponta já atualizado e com aprimoramentos de ponta."
       }
-    
     },
-
     "fleaPriceRoubles": 1,
-
     "handbookPriceRoubles": 1,
-
     "addtoHideoutPosterSlots": false,
-
     "addPosterToMaps": false,
-
     "posterSpawnProbability": 0,
-
     "addtoStatuetteSlots": false,
-
     "addCaliberToAllCloneLocations": false,
-
     "addtoStaticAmmo": false,
-
     "staticAmmoProbability": 0,
-
     "addtoBots": false,
-
     "addtoSpecialSlots": false,
-
     "CanSellOnRagfair": false,
-
     "CanRequireOnRagfair": false,
-    
     "addtoItemBlacklist": true,
-
     "addtoGeneratorAsFuel": false,
-
     "generatorFuelSlotStages": [
       "1",
       "2",
       "3"
     ],
-
     "addtoEmptyPropSlots": false,
-
     "emptyPropSlot": {
       "itemToAddTo": "",
       "modSlot": ""
     },
-
     "addtoSecureFilters": false
   },
   "6966abeb22c07d5770860464": {
-
     "itemTplToClone": "5bc9b720d4351e450201234b",
     "parentId": "5448ecbe4bdc2d60728b4568",
     "handbookParentId": "5b47574386f77428ca22b341",
-
-
     "overrideProperties": {
-      "QuestItem": false,  
-      "ExaminedByDefault": false,
       "BackgroundColor": "yellow",
-        
-
       "Prefab": {
-
         "path": "assets/content/items/barter/item_barter_valuable_1gphone/item_barter_valuable_1gphone.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
-      "Height": 1,
       "Weight": 0.15,
-
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "Golden 1GPhone with a dormant tracking application",
@@ -178,80 +108,48 @@
         "shortName": "1GPhone Mod",
         "description": "Um 1GPhone Dourado que passou por modificações para uma instalação de um aplicativo de rastreamento em profunda hibernação."
       }
-    
     },
-
-    "fleaPriceRoubles": 1,
-
-    "handbookPriceRoubles": 1,
-
+    "fleaPriceRoubles": 44639,
+    "handbookPriceRoubles": 44639,
     "addtoHideoutPosterSlots": false,
-
     "addPosterToMaps": false,
-
     "posterSpawnProbability": 0,
-
     "addtoStatuetteSlots": false,
-
     "CanSellOnRagfair": false,
-
     "CanRequireOnRagfair": false,
-    
     "addtoItemBlacklist": true,
-
     "addCaliberToAllCloneLocations": false,
-
     "addtoStaticAmmo": false,
-
     "staticAmmoProbability": 0,
-
     "addtoBots": false,
-
     "addtoSpecialSlots": false,
-
     "addtoGeneratorAsFuel": false,
-
     "generatorFuelSlotStages": [
       "1",
       "2",
       "3"
     ],
-
     "addtoEmptyPropSlots": false,
-
     "emptyPropSlot": {
       "itemToAddTo": "",
       "modSlot": ""
     },
-
     "addtoSecureFilters": false
   },
   "6966abee65811f8362f381e0": {
-
     "itemTplToClone": "544a11ac4bdc2d470e8b456a",
     "parentId": "5448bf274bdc2dfc2f8b456a",
     "handbookParentId": "5b5f6fd286f774093f2ecf0d",
-
     "overrideProperties": {
-      "ExaminedByDefault": true,
       "QuestItem": true,
       "BackgroundColor": "yellow",
-        
-
       "Prefab": {
-
         "path": "assets/content/items/containers/double_gun_case/item_double_gun_case.bundle",
         "rcid": ""
       },
-
-
-      "Width": 2,
-      "Height": 2,
       "Weight": 0.06,
-
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "Beta Secure Container with unknown documents",
@@ -263,45 +161,27 @@
         "shortName": "C.Beta Desconhecido",
         "description": "Um container seguro do modelo Beta avariado por uma queda. Ele aparenta conter papeis em seu interior."
       }
-    
     },
-
     "fleaPriceRoubles": 1,
-
     "CanSellOnRagfair": false,
-
     "CanRequireOnRagfair": false,
-    
     "addtoItemBlacklist": true,
-
     "handbookPriceRoubles": 1
   },
   "6966abf2e6001880baf0ada0": {
-
     "itemTplToClone": "59f32bb586f774757e1e8442",
     "parentId": "590c745b86f7743cc433c5f2",
     "handbookParentId": "5b47574386f77428ca22b2f4",
-
     "overrideProperties": {
-      "ExaminedByDefault": true,
       "QuestItem": true,
       "BackgroundColor": "yellow",
-        
-
       "Prefab": {
-
         "path": "assets/content/items/barter/item_barter_dogtags_story/item_barter_dogtags_story_04_for_humanity.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
-      "Height": 1,
       "Weight": 0.06,
-
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "USEC dogtag with unique markings",
@@ -313,45 +193,28 @@
         "shortName": "Dogtag",
         "description": "Uma dogtag personalizada de um PMC da USEC com marcações relacionadas a salvação da humanidade e uma luta constante contra alguém."
       }
-    
     },
-
     "fleaPriceRoubles": 1,
-
     "CanSellOnRagfair": false,
-
     "CanRequireOnRagfair": false,
-    
     "addtoItemBlacklist": true,
-
     "handbookPriceRoubles": 1
   },
   "6966abf5be964754132c1c42": {
-
     "itemTplToClone": "5c1d0f4986f7744bb01837fa",
     "parentId": "5c164d2286f774194c5e69fa",
     "handbookParentId": "5c518ed586f774119a772aee",
-
     "overrideProperties": {
       "ExaminedByDefault": true,
       "QuestItem": true,
       "BackgroundColor": "yellow",
-        
-
       "Prefab": {
-
         "path": "assets/content/items/spec/key_card/key_card_black.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
-      "Height": 1,
       "Weight": 0.06,
-
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "Custom RFID Keycard with unknown certificates and credentials",
@@ -363,96 +226,60 @@
         "shortName": "RFID",
         "description": "Um cartão com marcações da TerraGroup que possui informações codificadas que levam acesso a um lugar desconhecido. Ele foi danificado e não está mais operacional."
       }
-    
     },
-
     "fleaPriceRoubles": 1,
-
     "CanSellOnRagfair": false,
-
     "CanRequireOnRagfair": false,
-    
     "addtoItemBlacklist": true,
-
     "handbookPriceRoubles": 1
   },
   "69eaf72c4cf2c393c76e0847": {
-
     "itemTplToClone": "5ac78a9b86f7741cca0bbd8d",
     "parentId": "5447e0e74bdc2d3c308b4567",
     "handbookParentId": "5b47574386f77428ca22b345",
-
     "overrideProperties": {
-      "ExaminedByDefault": true,
       "QuestItem": true,
       "BackgroundColor": "yellow",
-        
-
       "Prefab": {
-
         "path": "assets/content/items/spec/item_spec_jammer/item_spec_jammer.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
-      "Height": 1,
       "Weight": 0.06,
-
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "Jammer Modificado",
         "shortName": "RFID",
-        "description": "A card with TerraGroup markings containing encoded information that grants access to an unknown location. It has been damaged and is no longer operational."
+        "description": "A modified jammer capable of disrupting low- and very low-frequency communications, specifically the single-frequency signals commonly used in explosives."
       },
       "po": {
         "name": "Jammer Modificado",
         "shortName": "RFID",
-        "description": "Um cartão com marcações da TerraGroup que possui informações codificadas que levam acesso a um lugar desconhecido. Ele foi danificado e não está mais operacional."
+        "description": "Um bloqueador modificado capaz de interferir em comunicações de baixa e baixíssima frequência, especificamente nos sinais de frequência única comumente utilizados em explosivos."
       }
-    
     },
-
     "fleaPriceRoubles": 1,
-
     "CanSellOnRagfair": false,
-
     "CanRequireOnRagfair": false,
-    
     "addtoItemBlacklist": true,
-
     "handbookPriceRoubles": 1
   },
   "6a66997ad3500a8799dfb257": {
-
     "itemTplToClone": "6389c8c5dbfd5e4b95197e6b",
     "parentId": "5448ecbe4bdc2d60728b4568",
     "handbookParentId": "5b619f1a86f77450a702a6f3",
-
-
     "overrideProperties": {
-      "QuestItem": true,  
-      "ExaminedByDefault": false,
+      "QuestItem": true,
       "BackgroundColor": "yellow",
-        
-
       "Prefab": {
-
         "path": "assets/content/items/containers/item_container_weapon_thicc/item_container_weapon_thicc.bundle",
         "rcid": ""
       },
-
-
       "Width": 5,
-      "Height": 2,
       "Weight": 10,
-
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "T H I C C Weapons Case, Labeled and Locked",
@@ -464,50 +291,32 @@
         "shortName": "Caixa de Armas",
         "description": "Uma caixa de arma bem pesada deixada como parte de uma carga. Movimentar ela faz sentir que está lotada e provavelmente vale muito"
       }
-    
     },
-
     "fleaPriceRoubles": 1,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "handbookPriceRoubles": 1
   },
   "6a66c94917ba877b97f279ff": {
-
     "itemTplToClone": "6389c8c5dbfd5e4b95197e6b",
     "parentId": "5448ecbe4bdc2d60728b4568",
     "handbookParentId": "5b619f1a86f77450a702a6f3",
-
-
     "overrideProperties": {
-      "QuestItem": true,  
-      "ExaminedByDefault": false,
+      "QuestItem": true,
       "BackgroundColor": "yellow",
-        
-
       "Prefab": {
-
         "path": "assets/content/items/infosubject/item_info_note/item_info_note_delegation_authority.bundle",
         "rcid": ""
       },
-
-
       "Width": 5,
-      "Height": 2,
       "Weight": 10,
-
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "TESTE1",
-        "shortName": "",
+        "shortName": "TESTE1",
         "description": ""
       },
       "po": {
@@ -515,50 +324,32 @@
         "shortName": "",
         "description": ""
       }
-    
     },
-
     "fleaPriceRoubles": 1,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "handbookPriceRoubles": 1
   },
   "6a66c953ac7b63a28acbff46": {
-
     "itemTplToClone": "6389c8c5dbfd5e4b95197e6b",
     "parentId": "5448ecbe4bdc2d60728b4568",
     "handbookParentId": "5b619f1a86f77450a702a6f3",
-
-
     "overrideProperties": {
-      "QuestItem": true,  
-      "ExaminedByDefault": false,
+      "QuestItem": true,
       "BackgroundColor": "yellow",
-        
-
       "Prefab": {
-
         "path": "assets/content/items/infosubject/item_info_note_folder/item_info_note_envelope_opened.bundle",
         "rcid": ""
       },
-
-
       "Width": 5,
-      "Height": 2,
       "Weight": 10,
-
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "TESTE2",
-        "shortName": "",
+        "shortName": "TESTE2",
         "description": ""
       },
       "po": {
@@ -566,46 +357,27 @@
         "shortName": "",
         "description": ""
       }
-    
     },
-
     "fleaPriceRoubles": 1,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "handbookPriceRoubles": 1
   },
   "6a6980af9994a65e2f0f7a55": {
-
     "itemTplToClone": "6389c8c5dbfd5e4b95197e6b",
     "parentId": "5448ecbe4bdc2d60728b4568",
     "handbookParentId": "5b619f1a86f77450a702a6f3",
-
-
     "overrideProperties": {
-      "QuestItem": true,  
-      "ExaminedByDefault": false,
+      "QuestItem": true,
       "BackgroundColor": "yellow",
-        
-
       "Prefab": {
-
         "path": "quests/aishi_quest_kermantranscript.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
-      "Height": 2,
-      "Weight": 0.10,
-
+      "Weight": 0.1,
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "Transcript of a computer conversation between Aishi and an unknown person",
@@ -617,46 +389,27 @@
         "shortName": "Transcrição",
         "description": "Um documento contendo uma transcrição de uma conversa gravada de Aishi em seu computador pessoal. Não foi possível encontrar informações sobre o outro participante da conversa. Quem quer que tenha registrado isso, é um verdadeiro profissional."
       }
-    
     },
-
     "fleaPriceRoubles": 1,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "handbookPriceRoubles": 1
   },
   "6a699b061078d7158cd6fc79": {
-
     "itemTplToClone": "6389c8c5dbfd5e4b95197e6b",
     "parentId": "5448ecbe4bdc2d60728b4568",
     "handbookParentId": "5b619f1a86f77450a702a6f3",
-
-
     "overrideProperties": {
-      "QuestItem": true,  
-      "ExaminedByDefault": false,
+      "QuestItem": true,
       "BackgroundColor": "yellow",
-        
-
       "Prefab": {
-
         "path": "quests/aishi_quest_knighttranscript.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
-      "Height": 2,
-      "Weight": 0.10,
-
+      "Weight": 0.1,
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "Transcript of a conversation between Aishi and Knight",
@@ -667,98 +420,60 @@
         "name": "Transcrição de uma conversa entre Aishi e Knight",
         "shortName": "Transcrição",
         "description": "Um documento contendo uma transcrição gravada e transmitida por uma escuta tática. Algumas marcações na pasta original indicam que a escuta estava posicionada em algum lugar na Lighthouse."
-      } 
-    
+      }
     },
-
     "fleaPriceRoubles": 1,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "handbookPriceRoubles": 1
   },
   "6a6a208a35e0f5860094fa3d": {
-
     "itemTplToClone": "6389c8c5dbfd5e4b95197e6b",
     "parentId": "5448ecbe4bdc2d60728b4568",
     "handbookParentId": "5b619f1a86f77450a702a6f3",
-
-
     "overrideProperties": {
-      "QuestItem": true,  
-      "ExaminedByDefault": false,
+      "QuestItem": true,
       "BackgroundColor": "yellow",
-        
-
       "Prefab": {
-
         "path": "quests/aishi_quest_aishipersonalreport.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
-      "Height": 2,
-      "Weight": 0.10,
-
+      "Weight": 0.1,
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "Cover page of Juna Aishi's dossier while she was still in service to USEC",
         "shortName": "Aishi",
         "description": "An official document issued during the formation of the \"New USEC\" after KerniSEC and Safe Sea merged into a single company. It contains Juna Aishi's personal details as part of the recruitment plan for high-level officers to serve the corporation."
-      },    
+      },
       "po": {
         "name": "Folha de rosto do dossiê de Juna Aishi enquanto ela ainda estava a serviço da USEC",
         "shortName": "Aishi",
         "description": "Um documento oficial emitido durante a construção da \"Nova USEC\" após a KerniSEC e a Safe Sea se unirem em uma única empresa. Ele contém detalhes pessoais de Juna Aishi como parte do plano de recrutamento de oficiais de alto nível para o serviço da corporação."
       }
-    
     },
-
     "fleaPriceRoubles": 1,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "handbookPriceRoubles": 1
   },
   "6a6a3899fcb69bc1dec561a5": {
-
     "itemTplToClone": "6389c8c5dbfd5e4b95197e6b",
     "parentId": "5448ecbe4bdc2d60728b4568",
     "handbookParentId": "5b619f1a86f77450a702a6f3",
-
-
     "overrideProperties": {
-      "QuestItem": true,  
-      "ExaminedByDefault": false,
+      "QuestItem": true,
       "BackgroundColor": "yellow",
-        
-
       "Prefab": {
-
         "path": "quests/aishi_quest_isbnotefromtg.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
-      "Height": 2,
-      "Weight": 0.10,
-
+      "Weight": 0.1,
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "A note issued by TerraGroup to its security division regarding USEC ISB",
@@ -770,46 +485,28 @@
         "shortName": "Nota",
         "description": "Um documento oficial da TerraGroup encaminhado aos oficiais da divisão de segurança e cientistas de alto nível, alertando sobre a necessidade de precaução com a USEC ISB, sua diretora e o pessoal envolvido no projeto. Ele cita uma \"Black Division\", nome não presente em nenhum dos registros oficiais."
       }
-    
     },
-
     "fleaPriceRoubles": 1,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "handbookPriceRoubles": 1
   },
   "6a6a20af5df54b78cc3ecb91": {
-
     "itemTplToClone": "6389c8c5dbfd5e4b95197e6b",
     "parentId": "5448ecbe4bdc2d60728b4568",
     "handbookParentId": "5b619f1a86f77450a702a6f3",
-
-
     "overrideProperties": {
-      "QuestItem": true,  
-      "ExaminedByDefault": false,
+      "QuestItem": true,
       "BackgroundColor": "yellow",
-        
-
       "Prefab": {
-
-        "path": "quests/aishi_quest_isbreporttg.bundle",
+        "path": "assets/content/items/barter/item_barter_info_tgdocs/item_barter_info_tgdocs.bundle",
         "rcid": ""
       },
-
-
       "Width": 5,
-      "Height": 2,
       "Weight": 10,
-
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "AA2",
@@ -820,102 +517,66 @@
         "name": "AA2",
         "shortName": "Transcrição",
         "description": "Um documento contendo uma transcrição gravada e transmitida por uma escuta de áudio tática. Algumas marcações na pasta original indicam que a escuta estava posicionada em algum lugar na Lighthouse."
-      } 
-    
+      }
     },
-
     "fleaPriceRoubles": 1,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "handbookPriceRoubles": 1
   },
   "6a6a26c485ccac3917b1273c": {
-
     "itemTplToClone": "65ddcc9cfa85b9f17d0dfb07",
     "parentId": "5448ecbe4bdc2d60728b4568",
     "handbookParentId": "5b47574386f77428ca22b341",
-
-
     "overrideProperties": {
-      "QuestItem": false,  
       "ExaminedByDefault": false,
       "BackgroundColor": "yellow",
-        
-
       "Prefab": {
-
         "path": "assets/content/items/infosubject/item_info_note/item_info_notepad_a5_closed_01.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
       "Height": 2,
-      "Weight": 0.50,
-
+      "Weight": 0.5,
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "Black notebook with information on Aishi and USEC ISB",
         "shortName": "Notebook",
         "description": "A notebook containing a few loose pages of documents related to Aishi, along with some additional intel that Lotus and her people compiled during their raids on Ground Zero."
-    },
+      },
       "po": {
         "name": "Caderno preto com informações sobre Aishi e a USEC ISB",
         "shortName": "Caderno",
         "description": "Um caderno com algumas folhas soltas de documentos relacionados a Aishi, além de algumas informações adicionais que a Lotus e seu pessoal compilaram durante as incursões em Ground Zero."
-    }
-    
+      }
     },
-
-    "fleaPriceRoubles": 1,
-
+    "fleaPriceRoubles": 100000,
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
-    "handbookPriceRoubles": 1
+    "addtoItemBlacklist": true,
+    "handbookPriceRoubles": 100000
   },
   "6a6981684aa9bfbef232c28e": {
-
     "itemTplToClone": "6389c8c5dbfd5e4b95197e6b",
     "parentId": "5448ecbe4bdc2d60728b4568",
     "handbookParentId": "5b619f1a86f77450a702a6f3",
-
-
     "overrideProperties": {
-      "QuestItem": true,  
-      "ExaminedByDefault": false,
+      "QuestItem": true,
       "BackgroundColor": "yellow",
-        
-
       "Prefab": {
-
         "path": "assets/content/items/infosubject/item_info_note_folder/item_info_note_folder_closed_cardboard.bundle",
         "rcid": ""
       },
-
-
       "Width": 5,
-      "Height": 2,
       "Weight": 10,
-
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "TESTE5",
-        "shortName": "",
+        "shortName": "TESTE5",
         "description": ""
       },
       "po": {
@@ -923,50 +584,32 @@
         "shortName": "",
         "description": ""
       }
-    
     },
-
     "fleaPriceRoubles": 1,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "handbookPriceRoubles": 1
   },
   "6a69818cc16a924a3c5c8626": {
-
     "itemTplToClone": "6389c8c5dbfd5e4b95197e6b",
     "parentId": "5448ecbe4bdc2d60728b4568",
     "handbookParentId": "5b619f1a86f77450a702a6f3",
-
-
     "overrideProperties": {
-      "QuestItem": true,  
-      "ExaminedByDefault": false,
+      "QuestItem": true,
       "BackgroundColor": "yellow",
-        
-
       "Prefab": {
-
         "path": "assets/content/items/infosubject/item_info_note_folder/item_info_note_folder_closed_terragrouplabs.bundle",
         "rcid": ""
       },
-
-
       "Width": 5,
-      "Height": 2,
       "Weight": 10,
-
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "TESTE6",
-        "shortName": "",
+        "shortName": "TESTE6",
         "description": ""
       },
       "po": {
@@ -974,50 +617,32 @@
         "shortName": "",
         "description": ""
       }
-    
     },
-
     "fleaPriceRoubles": 1,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "handbookPriceRoubles": 1
   },
   "6a6981c2cb84e18b886a10a1": {
-
     "itemTplToClone": "6389c8c5dbfd5e4b95197e6b",
     "parentId": "5448ecbe4bdc2d60728b4568",
     "handbookParentId": "5b619f1a86f77450a702a6f3",
-
-
     "overrideProperties": {
-      "QuestItem": true,  
-      "ExaminedByDefault": false,
+      "QuestItem": true,
       "BackgroundColor": "yellow",
-        
-
       "Prefab": {
-
         "path": "assets/content/items/infosubject/item_info_note/item_info_note_rfid_instruction.bundle",
         "rcid": ""
       },
-
-
       "Width": 5,
-      "Height": 2,
       "Weight": 10,
-
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "TESTE7",
-        "shortName": "",
+        "shortName": "TESTE7",
         "description": ""
       },
       "po": {
@@ -1025,97 +650,59 @@
         "shortName": "",
         "description": ""
       }
-    
     },
-
     "fleaPriceRoubles": 1,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "handbookPriceRoubles": 1
   },
   "6a66cd3bbb61030ed6701699": {
-
     "itemTplToClone": "6389c8c5dbfd5e4b95197e6b",
     "parentId": "5448ecbe4bdc2d60728b4568",
     "handbookParentId": "5b619f1a86f77450a702a6f3",
-
-
     "overrideProperties": {
-      "QuestItem": true,  
-      "ExaminedByDefault": false,
+      "QuestItem": true,
       "BackgroundColor": "yellow",
-        
-
       "Prefab": {
-
         "path": "assets/content/items/infosubject/item_info_note_folder/item_info_note_folder_closed_cardboard_personal.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
-      "Height": 2,
       "Weight": 0,
-
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "BEAR Operator's UNTAR Investigation File",
         "shortName": "Cardboard",
-        "description": "A Cardboard containing various documents from the investigation led by the BEAR Operator regarding TerraGroup. The documents are less conclusive than those of his FSB partner, but they report a contractual link between TerraGroup and a highly specialized security firm, and mention several intercepted emails referring to a \"Cleanup Operation\" scheduled to happen on the day of the final evacuation." 
+        "description": "A Cardboard containing various documents from the investigation led by the BEAR Operator regarding TerraGroup. The documents are less conclusive than those of his FSB partner, but they report a contractual link between TerraGroup and a highly specialized security firm, and mention several intercepted emails referring to a \"Cleanup Operation\" scheduled to happen on the day of the final evacuation."
       },
       "po": {
         "name": "Ficha da investigação dirigida pelo Operador BEAR sobre a UNTAR",
         "shortName": "Ficheiro",
-        "description": "Um ficheiro com vários documentos da investigação dirigida pelo Operador BEAR a respeito da TerraGroup. Os documentos são menos conclusivos que os de seu parceiro da FSB, mas relatam um vínculo contratual da TerraGroup com uma empresa de segurança altamente especializada e mencionam vários e-mails interceptados referindo-se a uma \"Operação de Limpeza\" programada para acontecer no dia da última evacuação."  
+        "description": "Um ficheiro com vários documentos da investigação dirigida pelo Operador BEAR a respeito da TerraGroup. Os documentos são menos conclusivos que os de seu parceiro da FSB, mas relatam um vínculo contratual da TerraGroup com uma empresa de segurança altamente especializada e mencionam vários e-mails interceptados referindo-se a uma \"Operação de Limpeza\" programada para acontecer no dia da última evacuação."
       }
-    
     },
-
     "fleaPriceRoubles": 1,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "handbookPriceRoubles": 1
   },
   "6a66cd3d30580e2e7433b853": {
-
     "itemTplToClone": "6389c8c5dbfd5e4b95197e6b",
     "parentId": "5448ecbe4bdc2d60728b4568",
     "handbookParentId": "5b619f1a86f77450a702a6f3",
-
-
     "overrideProperties": {
-      "QuestItem": true,  
-      "ExaminedByDefault": false,
+      "QuestItem": true,
       "BackgroundColor": "yellow",
-        
-
       "Prefab": {
-
         "path": "assets/content/items/infosubject/item_info_note_folder/item_info_note_folder_closed_cardboard_state.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
-      "Height": 2,
       "Weight": 0,
-
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "FSB Special Agent's UNTAR Investigation File",
@@ -1127,17 +714,11 @@
         "shortName": "Fichário",
         "description": "Um fichário com vários documentos e fotos sobre um oficial da UNTAR conhecido apenas pelo seu título, \"O Supervisor\". O agente da FSB conduziu uma investigação detalhada sobre diversas aprovações do oficial da UNTAR para veículos transportando pessoal e equipamentos de ponta. Transportes não listados nos registros oficiais."
       }
-    
     },
-
     "fleaPriceRoubles": 1,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "handbookPriceRoubles": 1
   }
 }

@@ -1,0 +1,13 @@
+{
+  "AishiCyanRestoration": [
+    {
+      "BuffType": "HealthRate",
+      "Chance": 1,
+      "Delay": 1,
+      "Duration": 15,
+      "Value": 35,
+      "AbsoluteValue": true,
+      "SkillName": ""
+    }
+  ]
+}

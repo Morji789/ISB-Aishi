@@ -1,33 +1,26 @@
 {
   "6a42bca292297be57568f928": {
-
     "itemTplToClone": "69e2441a18cb3157560855ec",
     "parentId": "5448e5284bdc2dcb718b4567",
     "handbookParentId": "5b5f6f8786f77447ed563642",
-
-
     "overrideProperties": {
-      "QuestItem": false,  
+      "QuestItem": false,
       "ExaminedByDefault": false,
       "IsUnsaleable": false,
       "CanSellOnRagfair": false,
       "CanRequireOnRagfair": false,
-      "addtoItemBlacklist": true,   
-
+      "addtoItemBlacklist": true,
       "Prefab": {
-
         "path": "equipment/item_equipment_armor_spiritus_icebreaker_night.bundle",
         "rcid": ""
       },
-
-
       "Width": 4,
       "Height": 4,
-
-
-      "Weight": 5.1
+      "Weight": 5.1,
+      "Name": "Spiritus Systems LV-119 Plate Carrier (Midnight)",
+      "ShortName": "LV-119",
+      "Description": "A highly customizable modular plate carrier by Spiritus Systems, built for maximum comfort in combat. This MultiCam Black version setup is built by a Black Division operative with the callsign The Wedge. (Black Camo)"
     },
-
     "addWeaponPreset": true,
     "weaponPresets": [
       {
@@ -69,38 +62,29 @@
         "_encyclopedia": "6a42bca292297be57568f928"
       }
     ],
-
     "locales": {
       "en": {
         "name": "Spiritus Systems LV-119 Plate Carrier (Midnight)",
         "shortName": "LV-119",
-        "description": "A highly customizable modular plate carrier by Spiritus Systems, built for maximum comfort in combat. This MultiCam Arid version."
+        "description": "A highly customizable modular plate carrier by Spiritus Systems, built for maximum comfort in combat. This MultiCam Black version setup is built by a Black Division operative with the callsign The Wedge. (Black Camo)"
       },
-        "po": {
-        "name": "Spiritus Systems LV-119 Plate Carrier (Midnight)",
+      "po": {
+        "name": "Plate carrier Spiritus Systems LV-119 (Midnight)",
         "shortName": "LV-119",
-        "description": "A highly customizable modular plate carrier by Spiritus Systems, built for maximum comfort in combat. This MultiCam Arid version."
+        "description": "Um plate carrier modular altamente personalizável da Spiritus Systems, desenvolvido para oferecer o máximo de conforto em combate. Esta configuração na versão MultiCam Black foi montada por um operador da Black Division com o codinome The Wedge. Versão Camuflagem Preta. (Camuflagem Preta)"
       }
     },
-
-    "fleaPriceRoubles": 0,
-
+    "fleaPriceRoubles": 20108,
     "handbookPriceRoubles": 19580,
-
-    "addtoInventorySlots": ["TacticalRig"],
-
+    "addtoInventorySlots": [
+      "TacticalRig"
+    ],
     "addtoStaticLootContainers": false,
-
     "CanSellOnRagfair": false,
-
     "IsAlwaysAvailableForInsurance": false,
-
     "InsuranceDisabled": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "StaticLootContainers": [
       {
         "ContainerName": "",

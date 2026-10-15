@@ -1,0 +1,36 @@
+{
+  "571e1ce5aa8a32c10b70d206": {
+    "itemTplToClone": "5e2af22086f7746d3f3c33fa",
+    "parentId": "57864ada245977548638de91",
+    "handbookParentId": "5b47574386f77428ca22b2f1",
+    "handbookPriceRoubles": 12000,
+    "fleaPriceRoubles": 40000,
+    "overrideProperties": {
+      "CanSellOnRagfair": false,
+      "Prefab": {
+        "path": "equipment/anomalous_items/aishiS2/welding/item_kte_welding.bundle",
+        "rcid": ""
+      },
+      "CanRequireOnRagfair": false
+    },
+    "locales": {
+      "en": {
+        "name": "KTE 991",
+        "shortName": "KTE 991",
+        "description": "<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 991</b></color>\n<size=90%>TerraGroup research • Unknown properties.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 991</b></color>\n<size=90%><color=#B2B9B5>PROPERTIES IDENTIFIED • REPORT BELOW</color></size></align>\n\nWhile carried in the inventory.\n\n<color=#E88888><b>Negative effects:</b></color>\n• Prevents jumping and reduces movement speed by 50%.\n\n<color=#92CAA1><b>Positive effects:</b></color>\nNone found."
+      },
+      "po": {
+        "name": "KTE 991",
+        "shortName": "KTE 991",
+        "description": "<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 991</b></color>\n<size=90%>Pesquisa TerraGroup • Propriedades desconhecidas.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 991</b></color>\n<size=90%><color=#B2B9B5>PROPRIEDADES IDENTIFICADAS • RELATÓRIO ABAIXO</color></size></align>\n\nEnquanto carregado no inventário.\n\n<color=#E88888><b>Efeitos negativos:</b></color>\n• Impede o pulo e reduz a velocidade de movimento em 50%.\n\n<color=#92CAA1><b>Efeitos positivos:</b></color>\nNão encontrado."
+      }
+    },
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "addtoItemBlacklist": true,
+    "addtoSecureFilters": false,
+    "addtoSpecialSlots": false
+  }
+}

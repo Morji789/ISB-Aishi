@@ -1,0 +1,36 @@
+{
+  "e57cfb4c1b58a40f9032db70": {
+    "itemTplToClone": "5bc9bdb8d4351e003562b8a1",
+    "parentId": "57864a3d24597754843f8721",
+    "handbookParentId": "5b47574386f77428ca22b2f1",
+    "handbookPriceRoubles": 300000,
+    "fleaPriceRoubles": 1000000,
+    "overrideProperties": {
+      "CanSellOnRagfair": false,
+      "Prefab": {
+        "path": "equipment/anomalous_items/aishiS2/badge/item_kte_badge.bundle",
+        "rcid": ""
+      },
+      "CanRequireOnRagfair": false
+    },
+    "locales": {
+      "en": {
+        "name": "KTE 101",
+        "shortName": "KTE 101",
+        "description": "<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 101</b></color>\n<size=90%>TerraGroup research • Unknown properties.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ANOMALOUS ITEM — KTE 101</b></color>\n<size=90%><color=#B2B9B5>PROPERTIES IDENTIFIED • REPORT BELOW</color></size></align>\n\nWhile carried in the inventory.\n\n<color=#E88888><b>Negative effects:</b></color>\nNone found.\n\n<color=#92CAA1><b>Positive effects:</b></color>\n• Generates 1,000 roubles per minute."
+      },
+      "po": {
+        "name": "KTE 101",
+        "shortName": "KTE 101",
+        "description": "<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 101</b></color>\n<size=90%>Pesquisa TerraGroup • Propriedades desconhecidas.</size></align>",
+        "revealedDescription": "\n<align=\"center\"><color=#E35D5D><b>ITEM ANÔMALO — KTE 101</b></color>\n<size=90%><color=#B2B9B5>PROPRIEDADES IDENTIFICADAS • RELATÓRIO ABAIXO</color></size></align>\n\nEnquanto carregado no inventário.\n\n<color=#E88888><b>Efeitos negativos:</b></color>\nNão encontrado.\n\n<color=#92CAA1><b>Efeitos positivos:</b></color>\n• Gera 1.000 rublos por minuto."
+      }
+    },
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "addtoItemBlacklist": true,
+    "addtoSecureFilters": false,
+    "addtoSpecialSlots": false
+  }
+}

@@ -28,17 +28,12 @@ namespace AishiKeys
         private const float ResultRetryDelay = 0.35f;
         private const float OverrideHoldAfterResult = 2.50f;
         private const float OverrideSafetyTimeout = 6.00f;
-
         private readonly AishiKeysMod _plugin;
         private IAishiKeysNetworkBridge _network;
         private readonly ManualLogSource _log;
-        private readonly HashSet<string> _processedRequests =
-            new HashSet<string>(StringComparer.Ordinal);
-        private readonly Dictionary<string, DoorKeyOverride> _doorOverrides =
-            new Dictionary<string, DoorKeyOverride>(StringComparer.Ordinal);
-        private readonly Dictionary<string, PendingLocalKeycard> _pendingLocalKeycards =
-            new Dictionary<string, PendingLocalKeycard>(StringComparer.Ordinal);
-
+        private readonly HashSet<string> _processedRequests = new HashSet<string>(StringComparer.Ordinal);
+        private readonly Dictionary<string, DoorKeyOverride> _doorOverrides = new Dictionary<string, DoorKeyOverride>(StringComparer.Ordinal);
+        private readonly Dictionary<string, PendingLocalKeycard> _pendingLocalKeycards = new Dictionary<string, PendingLocalKeycard>(StringComparer.Ordinal);
         private sealed class DoorKeyOverride
         {
             internal string RequestId;
@@ -67,10 +62,7 @@ namespace AishiKeys
             internal KeyComponent KeyComponent;
         }
 
-        internal AishiKeysNetworkSyncCoordinator(
-            AishiKeysMod plugin,
-            IAishiKeysNetworkBridge network,
-            ManualLogSource log)
+        internal AishiKeysNetworkSyncCoordinator(AishiKeysMod plugin, IAishiKeysNetworkBridge network, ManualLogSource log)
         {
             _plugin = plugin;
             _network = network ?? NoNetworkBridge.Instance;
@@ -85,33 +77,20 @@ namespace AishiKeys
             _network = network ?? NoNetworkBridge.Instance;
         }
 
-        internal bool TryHandleLocalUnlock(
-            WorldInteractiveObject door,
-            GamePlayerOwner owner,
-            string keyTemplateId,
-            KeyComponent localKeyComponent,
-            bool keycard)
+        internal bool TryHandleLocalUnlock(WorldInteractiveObject door, GamePlayerOwner owner, string keyTemplateId, KeyComponent localKeyComponent, bool keycard)
         {
             if (_network == null || !_network.Active || !_network.Ready)
                 return false;
-
             if (door == null || owner == null || owner.Player == null)
                 return false;
-
             string doorId = WorldInteractionUtils.GetStableInteractiveId(door);
-            string profileId = owner.Player.Profile != null
-                ? owner.Player.Profile.Id
-                : string.Empty;
-
-            if (string.IsNullOrEmpty(doorId) ||
-                string.IsNullOrEmpty(profileId) ||
-                string.IsNullOrEmpty(keyTemplateId))
+            string profileId = owner.Player.Profile != null ? owner.Player.Profile.Id : string.Empty;
+            if (string.IsNullOrEmpty(doorId) || string.IsNullOrEmpty(profileId) || string.IsNullOrEmpty(keyTemplateId))
             {
                 return false;
             }
 
             string requestId = Guid.NewGuid().ToString("N");
-
             if (keycard && door is KeycardDoor && localKeyComponent != null)
             {
                 _pendingLocalKeycards[requestId] = new PendingLocalKeycard
@@ -127,35 +106,19 @@ namespace AishiKeys
             if (_network.IsServer)
             {
                 _processedRequests.Add(requestId);
-                BeginAuthoritativeRequest(
-                    requestId,
-                    doorId,
-                    profileId,
-                    keyTemplateId,
-                    keycard,
-                    door,
-                    owner.Player);
+                BeginAuthoritativeRequest(requestId, doorId, profileId, keyTemplateId, keycard, door, owner.Player);
                 return true;
             }
 
-            string payload = BuildRequest(
-                requestId,
-                doorId,
-                profileId,
-                keyTemplateId,
-                keycard);
-
+            string payload = BuildRequest(requestId, doorId, profileId, keyTemplateId, keycard);
             if (!_network.SendToServer(payload))
             {
                 _pendingLocalKeycards.Remove(requestId);
-                _log.LogWarning(
-                    "Aishi Keys Fika: request could not be sent; using the native local interaction fallback.");
+                _log.LogWarning("Aishi Keys Fika: request could not be sent; using the native local interaction fallback.");
                 return false;
             }
 
-            _log.LogInfo(
-                "Aishi Keys Fika: master-key request sent to host. " +
-                "door='" + doorId + "', keycard=" + keycard + ".");
+            _log.LogInfo("Aishi Keys Fika: master-key request sent to host. " + "door='" + doorId + "', keycard=" + keycard + ".");
             return true;
         }
 
@@ -163,8 +126,10 @@ namespace AishiKeys
         {
             if (_network == null || !_network.Active)
                 return;
-
             _network.DrainReceivedPayloads(HandlePayload);
+            AishiAnomalyCurrencyNetwork.Update();
+            AishiAnomalyDuck.Update();
+            AishiAnomalyPressNetwork.Update();
         }
 
         internal void Dispose()
@@ -178,10 +143,14 @@ namespace AishiKeys
         {
             if (string.IsNullOrEmpty(payload))
                 return;
-
+            if (AishiAnomalyCurrencyNetwork.Handle(payload))
+                return;
+            if (AishiAnomalyDuck.Handle(payload))
+                return;
+            if (AishiAnomalyPressNetwork.Handle(payload))
+                return;
             string[] parts = payload.Split('|');
-            if (parts.Length < 3 ||
-                !string.Equals(parts[0], ProtocolVersion, StringComparison.Ordinal))
+            if (parts.Length < 3 || !string.Equals(parts[0], ProtocolVersion, StringComparison.Ordinal))
             {
                 return;
             }
@@ -217,108 +186,46 @@ namespace AishiKeys
         {
             if (parts.Length != 8)
                 return;
-
             string requestId = Decode(parts[2]);
             string doorId = Decode(parts[3]);
             string profileId = Decode(parts[4]);
             string keyTemplateId = Decode(parts[5]);
             bool keycard;
-
-            if (!TryParseBool(parts[6], out keycard) ||
-                !string.Equals(parts[7], "END", StringComparison.Ordinal))
+            if (!TryParseBool(parts[6], out keycard) || !string.Equals(parts[7], "END", StringComparison.Ordinal))
             {
                 return;
             }
 
             if (string.IsNullOrEmpty(requestId) || !_processedRequests.Add(requestId))
                 return;
-
-            WorldInteractiveObject door =
-                WorldInteractionUtils.FindInteractiveByStableId(doorId);
+            WorldInteractiveObject door = WorldInteractionUtils.FindInteractiveByStableId(doorId);
             Player player = FindPlayer(profileId);
-
-            BeginAuthoritativeRequest(
-                requestId,
-                doorId,
-                profileId,
-                keyTemplateId,
-                keycard,
-                door,
-                player);
+            BeginAuthoritativeRequest(requestId, doorId, profileId, keyTemplateId, keycard, door, player);
         }
 
-        private void BeginAuthoritativeRequest(
-            string requestId,
-            string doorId,
-            string profileId,
-            string keyTemplateId,
-            bool keycard,
-            WorldInteractiveObject door,
-            Player player)
+        private void BeginAuthoritativeRequest(string requestId, string doorId, string profileId, string keyTemplateId, bool keycard, WorldInteractiveObject door, Player player)
         {
             ValidatedRequest request;
             string failureReason;
-
-            if (!TryValidateRequest(
-                    door,
-                    player,
-                    keyTemplateId,
-                    keycard,
-                    out request,
-                    out failureReason))
+            if (!TryValidateRequest(door, player, keyTemplateId, keycard, out request, out failureReason))
             {
-                BroadcastResult(
-                    requestId,
-                    doorId,
-                    profileId,
-                    keyTemplateId,
-                    keycard,
-                    false,
-                    door != null ? (int)door.DoorState : -1,
-                    failureReason);
+                BroadcastResult(requestId, doorId, profileId, keyTemplateId, keycard, false, door != null ? (int)door.DoorState : -1, failureReason);
                 return;
             }
 
-            _plugin.StartCoroutine(ExecuteAuthoritativeRequest(
-                requestId,
-                doorId,
-                profileId,
-                request));
+            _plugin.StartCoroutine(ExecuteAuthoritativeRequest(requestId, doorId, profileId, request));
         }
 
-        private IEnumerator ExecuteAuthoritativeRequest(
-            string requestId,
-            string doorId,
-            string profileId,
-            ValidatedRequest request)
+        private IEnumerator ExecuteAuthoritativeRequest(string requestId, string doorId, string profileId, ValidatedRequest request)
         {
-            bool localPrepared = ApplyTemporaryKeyOverride(
-                requestId,
-                doorId,
-                request.KeyTemplateId,
-                request.Door);
-
-            bool prepareSent = _network.Broadcast(BuildPrepare(
-                requestId,
-                doorId,
-                profileId,
-                request.KeyTemplateId,
-                request.Keycard));
-
-            _log.LogInfo(
-                "Aishi Keys Fika: authority prepared synchronized master-key interaction. " +
-                "door='" + doorId + "', keycard=" + request.Keycard +
-                ", localPrepared=" + localPrepared +
-                ", prepareBroadcast=" + prepareSent + ".");
-
+            bool localPrepared = ApplyTemporaryKeyOverride(requestId, doorId, request.KeyTemplateId, request.Door);
+            bool prepareSent = _network.Broadcast(BuildPrepare(requestId, doorId, profileId, request.KeyTemplateId, request.Keycard));
+            _log.LogInfo("Aishi Keys Fika: authority prepared synchronized master-key interaction. " + "door='" + doorId + "', keycard=" + request.Keycard + ", localPrepared=" + localPrepared + ", prepareBroadcast=" + prepareSent + ".");
             if (request.Keycard)
                 StartPreparedLocalKeycard(requestId, doorId, profileId);
-
             yield return new WaitForSeconds(PrepareReplicationDelay);
-
             bool success;
             string failureReason = string.Empty;
-
             if (request.Door == null)
             {
                 success = false;
@@ -330,73 +237,39 @@ namespace AishiKeys
             }
             else if (request.Keycard)
             {
-                success = MasterKeyUnlockExecutor.UnlockKeycard(
-                    (KeycardDoor)request.Door,
-                    request.Player,
-                    request.KeyComponent);
-
+                success = MasterKeyUnlockExecutor.UnlockKeycard((KeycardDoor)request.Door, request.Player, request.KeyComponent);
                 if (!success)
                     failureReason = "keycard unlock operation failed";
             }
             else
             {
-                success = MasterKeyUnlockExecutor.UnlockRegularSynchronized(
-                    request.Door,
-                    request.Player,
-                    request.KeyComponent);
-
+                success = MasterKeyUnlockExecutor.UnlockRegularSynchronized(request.Door, request.Player, request.KeyComponent);
                 if (!success)
                     failureReason = "regular unlock interaction failed";
             }
 
             int state = request.Door != null ? (int)request.Door.DoorState : -1;
-            BroadcastResult(
-                requestId,
-                doorId,
-                profileId,
-                request.KeyTemplateId,
-                request.Keycard,
-                success,
-                state,
-                failureReason);
-
+            BroadcastResult(requestId, doorId, profileId, request.KeyTemplateId, request.Keycard, success, state, failureReason);
             if (success)
             {
                 yield return new WaitForSeconds(ResultStateDelay);
-
                 if (request.Door != null && _network.Ready && _network.IsServer)
                 {
                     int followUpState = (int)request.Door.DoorState;
-                    _network.Broadcast(BuildResult(
-                        requestId,
-                        doorId,
-                        profileId,
-                        request.KeyTemplateId,
-                        request.Keycard,
-                        true,
-                        followUpState));
+                    _network.Broadcast(BuildResult(requestId, doorId, profileId, request.KeyTemplateId, request.Keycard, true, followUpState));
                 }
             }
 
             yield return new WaitForSeconds(OverrideHoldAfterResult);
-
             if (_network.Ready && _network.IsServer)
                 _network.Broadcast(BuildRestore(requestId, doorId));
-
             RestoreTemporaryKeyOverride(requestId, doorId);
         }
 
-        private bool TryValidateRequest(
-            WorldInteractiveObject door,
-            Player player,
-            string keyTemplateId,
-            bool keycard,
-            out ValidatedRequest request,
-            out string failureReason)
+        private bool TryValidateRequest(WorldInteractiveObject door, Player player, string keyTemplateId, bool keycard, out ValidatedRequest request, out string failureReason)
         {
             request = null;
             failureReason = string.Empty;
-
             if (door == null)
             {
                 failureReason = "door was not found on authority";
@@ -443,10 +316,7 @@ namespace AishiKeys
                     return false;
                 }
 
-                if (!string.Equals(
-                        keyTemplateId,
-                        MasterKeyHelper.GetMasterKey(Config.UltraKeys.AishiMK),
-                        StringComparison.Ordinal))
+                if (!string.Equals(keyTemplateId, MasterKeyHelper.GetMasterKey(Config.UltraKeys.AishiMK), StringComparison.Ordinal))
                 {
                     failureReason = "template is not the Aishi master key";
                     return false;
@@ -454,23 +324,10 @@ namespace AishiKeys
             }
 
             KeyComponent keyComponent = null;
-            bool requireAuthoritativeInventory =
-                !_network.IsHeadless && IsLocalProfile(player.Profile.Id);
-
-            // A remote human is represented by an observed player on a normal host and on
-            // a headless host. That replica can have a delayed or incomplete inventory even
-            // though the requesting client already passed the local action validation.
-            Item keyItem = player.Profile.Inventory != null
-                ? player.Profile.Inventory
-                    .GetPlayerItems((EPlayerItems)63)
-                    .FirstOrDefault(item =>
-                        item != null &&
-                        string.Equals(item.TemplateId, keyTemplateId, StringComparison.Ordinal))
-                : null;
-
+            bool requireAuthoritativeInventory = !_network.IsHeadless && IsLocalProfile(player.Profile.Id);
+            Item keyItem = player.Profile.Inventory != null ? player.Profile.Inventory.GetPlayerItems((EPlayerItems)63).FirstOrDefault(item => item != null && string.Equals(item.TemplateId, keyTemplateId, StringComparison.Ordinal)) : null;
             if (keyItem != null)
                 keyComponent = MasterKeyItemResolver.FindKeyComponent(keyItem);
-
             if (requireAuthoritativeInventory && keyItem == null)
             {
                 failureReason = "requesting local authority player does not possess the reported key";
@@ -491,42 +348,19 @@ namespace AishiKeys
                 Keycard = keycard,
                 KeyComponent = keyComponent
             };
-
             return true;
         }
 
-        private void BroadcastResult(
-            string requestId,
-            string doorId,
-            string profileId,
-            string keyTemplateId,
-            bool keycard,
-            bool success,
-            int doorState,
-            string failureReason)
+        private void BroadcastResult(string requestId, string doorId, string profileId, string keyTemplateId, bool keycard, bool success, int doorState, string failureReason)
         {
-            bool sent = _network.Broadcast(BuildResult(
-                requestId,
-                doorId,
-                profileId,
-                keyTemplateId,
-                keycard,
-                success,
-                doorState));
-
+            bool sent = _network.Broadcast(BuildResult(requestId, doorId, profileId, keyTemplateId, keycard, success, doorState));
             if (success)
             {
-                _log.LogInfo(
-                    "Aishi Keys Fika: authority accepted master-key interaction. " +
-                    "door='" + doorId + "', keycard=" + keycard +
-                    ", state=" + doorState + ", broadcast=" + sent + ".");
+                _log.LogInfo("Aishi Keys Fika: authority accepted master-key interaction. " + "door='" + doorId + "', keycard=" + keycard + ", state=" + doorState + ", broadcast=" + sent + ".");
             }
             else
             {
-                _log.LogWarning(
-                    "Aishi Keys Fika: authority rejected master-key interaction. " +
-                    "door='" + doorId + "', reason='" + failureReason +
-                    "', broadcast=" + sent + ".");
+                _log.LogWarning("Aishi Keys Fika: authority rejected master-key interaction. " + "door='" + doorId + "', reason='" + failureReason + "', broadcast=" + sent + ".");
             }
         }
 
@@ -534,35 +368,21 @@ namespace AishiKeys
         {
             if (parts.Length != 8)
                 return;
-
             string requestId = Decode(parts[2]);
             string doorId = Decode(parts[3]);
             string profileId = Decode(parts[4]);
             string keyTemplateId = Decode(parts[5]);
             bool keycard;
-
-            if (!TryParseBool(parts[6], out keycard) ||
-                !string.Equals(parts[7], "END", StringComparison.Ordinal))
+            if (!TryParseBool(parts[6], out keycard) || !string.Equals(parts[7], "END", StringComparison.Ordinal))
             {
                 return;
             }
 
-            WorldInteractiveObject door =
-                WorldInteractionUtils.FindInteractiveByStableId(doorId);
-            bool applied = ApplyTemporaryKeyOverride(
-                requestId,
-                doorId,
-                keyTemplateId,
-                door);
-
-            _log.LogInfo(
-                "Aishi Keys Fika: client prepared replicated master-key interaction. " +
-                "door='" + doorId + "', player='" + profileId +
-                "', keycard=" + keycard + ", applied=" + applied + ".");
-
+            WorldInteractiveObject door = WorldInteractionUtils.FindInteractiveByStableId(doorId);
+            bool applied = ApplyTemporaryKeyOverride(requestId, doorId, keyTemplateId, door);
+            _log.LogInfo("Aishi Keys Fika: client prepared replicated master-key interaction. " + "door='" + doorId + "', player='" + profileId + "', keycard=" + keycard + ", applied=" + applied + ".");
             if (applied)
                 _plugin.StartCoroutine(AutoRestoreTemporaryKeyOverride(requestId, doorId));
-
             if (keycard)
                 StartPreparedLocalKeycard(requestId, doorId, profileId);
         }
@@ -571,7 +391,6 @@ namespace AishiKeys
         {
             if (parts.Length != 10)
                 return;
-
             string requestId = Decode(parts[2]);
             string doorId = Decode(parts[3]);
             string profileId = Decode(parts[4]);
@@ -579,18 +398,13 @@ namespace AishiKeys
             bool keycard;
             bool success;
             int doorState;
-
-            if (!TryParseBool(parts[6], out keycard) ||
-                !TryParseBool(parts[7], out success) ||
-                !int.TryParse(parts[8], out doorState) ||
-                !string.Equals(parts[9], "END", StringComparison.Ordinal))
+            if (!TryParseBool(parts[6], out keycard) || !TryParseBool(parts[7], out success) || !int.TryParse(parts[8], out doorState) || !string.Equals(parts[9], "END", StringComparison.Ordinal))
             {
                 return;
             }
 
             if (_network.IsServer)
                 return;
-
             if (!success)
             {
                 _pendingLocalKeycards.Remove(requestId);
@@ -598,24 +412,13 @@ namespace AishiKeys
                 return;
             }
 
-            _log.LogInfo(
-                "Aishi Keys Fika: client received authoritative master-key result. " +
-                "door='" + doorId + "', keycard=" + keycard +
-                ", state=" + doorState + ".");
-
-            _plugin.StartCoroutine(ApplyAuthoritativeResult(
-                requestId,
-                doorId,
-                profileId,
-                keyTemplateId,
-                keycard,
-                doorState));
+            _log.LogInfo("Aishi Keys Fika: client received authoritative master-key result. " + "door='" + doorId + "', keycard=" + keycard + ", state=" + doorState + ".");
+            _plugin.StartCoroutine(ApplyAuthoritativeResult(requestId, doorId, profileId, keyTemplateId, keycard, doorState));
         }
 
         private void HandleRestore(string[] parts)
         {
-            if (parts.Length != 5 ||
-                !string.Equals(parts[4], "END", StringComparison.Ordinal))
+            if (parts.Length != 5 || !string.Equals(parts[4], "END", StringComparison.Ordinal))
             {
                 return;
             }
@@ -626,63 +429,36 @@ namespace AishiKeys
             RestoreTemporaryKeyOverride(requestId, doorId);
         }
 
-        private IEnumerator AutoRestoreTemporaryKeyOverride(
-            string requestId,
-            string doorId)
+        private IEnumerator AutoRestoreTemporaryKeyOverride(string requestId, string doorId)
         {
             yield return new WaitForSeconds(OverrideSafetyTimeout);
             RestoreTemporaryKeyOverride(requestId, doorId);
         }
 
-        private IEnumerator ApplyAuthoritativeResult(
-            string requestId,
-            string doorId,
-            string profileId,
-            string keyTemplateId,
-            bool keycard,
-            int doorState)
+        private IEnumerator ApplyAuthoritativeResult(string requestId, string doorId, string profileId, string keyTemplateId, bool keycard, int doorState)
         {
             yield return new WaitForSeconds(ResultStateDelay);
-
             for (int attempt = 1; attempt <= 3; attempt++)
             {
-                WorldInteractiveObject door =
-                    WorldInteractionUtils.FindInteractiveByStableId(doorId);
+                WorldInteractiveObject door = WorldInteractionUtils.FindInteractiveByStableId(doorId);
                 if (door == null)
                 {
-                    _log.LogWarning(
-                        "Aishi Keys Fika: synchronized door result could not be applied because " +
-                        "the local door was not found. door='" + doorId + "'.");
+                    _log.LogWarning("Aishi Keys Fika: synchronized door result could not be applied because " + "the local door was not found. door='" + doorId + "'.");
                     yield break;
                 }
 
                 int localState = (int)door.DoorState;
-                bool needsCorrection =
-                    door.DoorState == (EDoorState)1 ||
-                    (doorState >= 0 && localState != doorState);
-
+                bool needsCorrection = door.DoorState == (EDoorState)1 || (doorState >= 0 && localState != doorState);
                 if (!needsCorrection)
                 {
                     _pendingLocalKeycards.Remove(requestId);
                     yield break;
                 }
 
-                bool applied = WorldInteractionUtils.TryApplyAuthoritativeDoorState(
-                    door,
-                    doorState);
+                bool applied = WorldInteractionUtils.TryApplyAuthoritativeDoorState(door, doorState);
                 int correctedState = (int)door.DoorState;
-
-                _log.LogInfo(
-                    "Aishi Keys Fika: applying authoritative door-state correction. " +
-                    "attempt=" + attempt + ", applied=" + applied +
-                    ", door='" + doorId + "', player='" + profileId +
-                    "', key='" + keyTemplateId + "', keycard=" + keycard +
-                    ", previousState=" + localState +
-                    ", correctedState=" + correctedState +
-                    ", authorityState=" + doorState + ".");
-
-                if (door.DoorState != (EDoorState)1 &&
-                    (doorState < 0 || (int)door.DoorState == doorState))
+                _log.LogInfo("Aishi Keys Fika: applying authoritative door-state correction. " + "attempt=" + attempt + ", applied=" + applied + ", door='" + doorId + "', player='" + profileId + "', key='" + keyTemplateId + "', keycard=" + keycard + ", previousState=" + localState + ", correctedState=" + correctedState + ", authorityState=" + doorState + ".");
+                if (door.DoorState != (EDoorState)1 && (doorState < 0 || (int)door.DoorState == doorState))
                 {
                     _pendingLocalKeycards.Remove(requestId);
                     yield break;
@@ -694,17 +470,12 @@ namespace AishiKeys
             _pendingLocalKeycards.Remove(requestId);
         }
 
-        private void StartPreparedLocalKeycard(
-            string requestId,
-            string doorId,
-            string profileId)
+        private void StartPreparedLocalKeycard(string requestId, string doorId, string profileId)
         {
             if (!IsLocalProfile(profileId))
                 return;
-
             PendingLocalKeycard pending;
-            if (!_pendingLocalKeycards.TryGetValue(requestId, out pending) ||
-                pending == null || pending.Started)
+            if (!_pendingLocalKeycards.TryGetValue(requestId, out pending) || pending == null || pending.Started)
             {
                 return;
             }
@@ -717,24 +488,13 @@ namespace AishiKeys
         private IEnumerator ExecutePreparedLocalKeycard(PendingLocalKeycard pending)
         {
             yield return new WaitForSeconds(LocalKeycardStartDelay);
-
             bool success = false;
-            if (pending != null &&
-                pending.Door != null &&
-                pending.Player != null &&
-                pending.KeyComponent != null)
+            if (pending != null && pending.Door != null && pending.Player != null && pending.KeyComponent != null)
             {
-                success = MasterKeyUnlockExecutor.UnlockKeycard(
-                    pending.Door,
-                    pending.Player,
-                    pending.KeyComponent);
+                success = MasterKeyUnlockExecutor.UnlockKeycard(pending.Door, pending.Player, pending.KeyComponent);
             }
 
-            _log.LogInfo(
-                "Aishi Keys Fika: requester executed prepared keycard animation. " +
-                "door='" + (pending != null ? pending.DoorId : string.Empty) +
-                "', success=" + success + ".");
-
+            _log.LogInfo("Aishi Keys Fika: requester executed prepared keycard animation. " + "door='" + (pending != null ? pending.DoorId : string.Empty) + "', success=" + success + ".");
             if (pending != null)
                 _pendingLocalKeycards.Remove(pending.RequestId);
         }
@@ -743,37 +503,22 @@ namespace AishiKeys
         {
             if (_network.IsHeadless || string.IsNullOrEmpty(profileId))
                 return false;
-
             GameWorld gameWorld = Singleton<GameWorld>.Instance;
             Player mainPlayer = gameWorld != null ? gameWorld.MainPlayer : null;
-
-            return mainPlayer != null &&
-                   mainPlayer.Profile != null &&
-                   string.Equals(
-                       mainPlayer.Profile.Id,
-                       profileId,
-                       StringComparison.Ordinal);
+            return mainPlayer != null && mainPlayer.Profile != null && string.Equals(mainPlayer.Profile.Id, profileId, StringComparison.Ordinal);
         }
 
-        private bool ApplyTemporaryKeyOverride(
-            string requestId,
-            string doorId,
-            string temporaryKeyId,
-            WorldInteractiveObject door)
+        private bool ApplyTemporaryKeyOverride(string requestId, string doorId, string temporaryKeyId, WorldInteractiveObject door)
         {
-            if (string.IsNullOrEmpty(requestId) ||
-                string.IsNullOrEmpty(doorId) ||
-                string.IsNullOrEmpty(temporaryKeyId))
+            if (string.IsNullOrEmpty(requestId) || string.IsNullOrEmpty(doorId) || string.IsNullOrEmpty(temporaryKeyId))
             {
                 return false;
             }
 
             if (door == null)
                 door = WorldInteractionUtils.FindInteractiveByStableId(doorId);
-
             if (door == null)
                 return false;
-
             DoorKeyOverride existing;
             if (_doorOverrides.TryGetValue(doorId, out existing))
             {
@@ -792,7 +537,6 @@ namespace AishiKeys
                 OriginalKeyId = door.KeyId,
                 TemporaryKeyId = temporaryKeyId
             };
-
             door.KeyId = temporaryKeyId;
             return true;
         }
@@ -801,20 +545,16 @@ namespace AishiKeys
         {
             if (string.IsNullOrEmpty(doorId))
                 return;
-
             DoorKeyOverride lease;
             if (!_doorOverrides.TryGetValue(doorId, out lease))
                 return;
-
-            if (!string.IsNullOrEmpty(requestId) &&
-                !string.Equals(lease.RequestId, requestId, StringComparison.Ordinal))
+            if (!string.IsNullOrEmpty(requestId) && !string.Equals(lease.RequestId, requestId, StringComparison.Ordinal))
             {
                 return;
             }
 
             if (lease.Door != null)
                 lease.Door.KeyId = lease.OriginalKeyId;
-
             _doorOverrides.Remove(doorId);
         }
 
@@ -834,14 +574,11 @@ namespace AishiKeys
             GameWorld gameWorld = Singleton<GameWorld>.Instance;
             if (gameWorld == null || string.IsNullOrEmpty(profileId))
                 return null;
-
             if (gameWorld.AllAlivePlayersList != null)
             {
                 foreach (Player player in gameWorld.AllAlivePlayersList)
                 {
-                    if (player != null &&
-                        player.Profile != null &&
-                        string.Equals(player.Profile.Id, profileId, StringComparison.Ordinal))
+                    if (player != null && player.Profile != null && string.Equals(player.Profile.Id, profileId, StringComparison.Ordinal))
                     {
                         return player;
                     }
@@ -849,9 +586,7 @@ namespace AishiKeys
             }
 
             Player mainPlayer = gameWorld.MainPlayer;
-            if (mainPlayer != null &&
-                mainPlayer.Profile != null &&
-                string.Equals(mainPlayer.Profile.Id, profileId, StringComparison.Ordinal))
+            if (mainPlayer != null && mainPlayer.Profile != null && string.Equals(mainPlayer.Profile.Id, profileId, StringComparison.Ordinal))
             {
                 return mainPlayer;
             }
@@ -859,90 +594,36 @@ namespace AishiKeys
             return null;
         }
 
-        private static string BuildRequest(
-            string requestId,
-            string doorId,
-            string profileId,
-            string keyTemplateId,
-            bool keycard)
+        private static string BuildRequest(string requestId, string doorId, string profileId, string keyTemplateId, bool keycard)
         {
-            return string.Join(
-                "|",
-                ProtocolVersion,
-                RequestMessage,
-                Encode(requestId),
-                Encode(doorId),
-                Encode(profileId),
-                Encode(keyTemplateId),
-                keycard ? "1" : "0",
-                "END");
+            return string.Join("|", ProtocolVersion, RequestMessage, Encode(requestId), Encode(doorId), Encode(profileId), Encode(keyTemplateId), keycard ? "1" : "0", "END");
         }
 
-        private static string BuildPrepare(
-            string requestId,
-            string doorId,
-            string profileId,
-            string keyTemplateId,
-            bool keycard)
+        private static string BuildPrepare(string requestId, string doorId, string profileId, string keyTemplateId, bool keycard)
         {
-            return string.Join(
-                "|",
-                ProtocolVersion,
-                PrepareMessage,
-                Encode(requestId),
-                Encode(doorId),
-                Encode(profileId),
-                Encode(keyTemplateId),
-                keycard ? "1" : "0",
-                "END");
+            return string.Join("|", ProtocolVersion, PrepareMessage, Encode(requestId), Encode(doorId), Encode(profileId), Encode(keyTemplateId), keycard ? "1" : "0", "END");
         }
 
-        private static string BuildResult(
-            string requestId,
-            string doorId,
-            string profileId,
-            string keyTemplateId,
-            bool keycard,
-            bool success,
-            int doorState)
+        private static string BuildResult(string requestId, string doorId, string profileId, string keyTemplateId, bool keycard, bool success, int doorState)
         {
-            return string.Join(
-                "|",
-                ProtocolVersion,
-                ResultMessage,
-                Encode(requestId),
-                Encode(doorId),
-                Encode(profileId),
-                Encode(keyTemplateId),
-                keycard ? "1" : "0",
-                success ? "1" : "0",
-                doorState.ToString(),
-                "END");
+            return string.Join("|", ProtocolVersion, ResultMessage, Encode(requestId), Encode(doorId), Encode(profileId), Encode(keyTemplateId), keycard ? "1" : "0", success ? "1" : "0", doorState.ToString(), "END");
         }
 
         private static string BuildRestore(string requestId, string doorId)
         {
-            return string.Join(
-                "|",
-                ProtocolVersion,
-                RestoreMessage,
-                Encode(requestId),
-                Encode(doorId),
-                "END");
+            return string.Join("|", ProtocolVersion, RestoreMessage, Encode(requestId), Encode(doorId), "END");
         }
 
         private static string Encode(string value)
         {
-            return Convert.ToBase64String(
-                Encoding.UTF8.GetBytes(value ?? string.Empty));
+            return Convert.ToBase64String(Encoding.UTF8.GetBytes(value ?? string.Empty));
         }
 
         private static string Decode(string value)
         {
             try
             {
-                return Encoding.UTF8.GetString(
-                    Convert.FromBase64String(value ?? string.Empty));
+                return Encoding.UTF8.GetString(Convert.FromBase64String(value ?? string.Empty));
             }
             catch
             {

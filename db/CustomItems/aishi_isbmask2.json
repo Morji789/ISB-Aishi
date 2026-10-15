@@ -1,81 +1,53 @@
 {
   "693ce88b2d491ae03c5326cd": {
-
     "itemTplToClone": "6570aead4d84f81fd002a033",
     "parentId": "5a341c4686f77469e155819e",
     "handbookParentId": "5b47574386f77428ca22b32f",
-
     "overrideProperties": {
-      "QuestItem": false,  
       "ExaminedByDefault": false,
-      "CanSellOnRagfair": false,
-      "CanRequireOnRagfair": false,
-      "addtoItemBlacklist": true,  
-      "armorClass": "2",
+      "addtoItemBlacklist": true,
       "BackgroundColor": "yellow",
       "IsUnbuyable": true,
-      "BlindnessProtection": 0.2,
       "InsuranceDisabled": true,
       "Durability": 20,
       "MaxDurability": 20,
-      "Unlootable": false,
       "UnlootableFromSide": [
         "Bear",
         "Usec",
         "Savage"
       ],
-      "UnlootableFromSlot": "FaceCover", 
-        
-
+      "UnlootableFromSlot": "FaceCover",
       "Prefab": {
-
         "path": "equipment/item_equipment_isb_armored_gas_mask2.bundle",
         "rcid": ""
       },
-
-
-      "Width": 2,
-      "Height": 2,
-
-
       "Weight": 0.45,
-
-    "Grids": []
+      "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "Modified MSA G1 SCBA Gas Mask (USEC Intelligence Support Bureau)",
         "shortName": "MSA G1 SCBA",
         "description": "A military-grade gas mask for individual protection produced by MSA. The design was stolen by ISB in a counterintelligence operation and adapted to provide an armored visor."
       },
-        "po": {
+      "po": {
         "name": "Máscara de gás MSA G1 SCBA modificada (Agência de Suporte a Inteligência da USEC)",
         "shortName": "MSA G1 SCBA",
         "description": "Uma mascara de gás de nível militar para proteção individual produzida pela MSA”. O projeto foi roubado pela ISB em uma operação de contrainteligência e adaptado para fornecer um visor blindado."
       }
     },
-
     "fleaPriceRoubles": 70942,
-
     "handbookPriceRoubles": 69842,
-
-    "addtoInventorySlots": ["FaceCover"],
-
+    "addtoInventorySlots": [
+      "FaceCover"
+    ],
     "addtoBots": false,
-
     "IsAlwaysAvailableForInsurance": false,
-
     "InsuranceDisabled": true,
-
     "CanSellOnRagfair": false,
-
     "CanRequireOnRagfair": false,
-    
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",

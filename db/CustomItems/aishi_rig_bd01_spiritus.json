@@ -1,34 +1,27 @@
 {
   "69575d3136babdc4ee38913b": {
-
     "itemTplToClone": "689479a4a733b1602007e2eb",
     "parentId": "5448e5284bdc2dcb718b4567",
     "handbookParentId": "5b5f6f8786f77447ed563642",
-
-
     "overrideProperties": {
-      "QuestItem": false,  
+      "QuestItem": false,
       "ExaminedByDefault": false,
       "IsUnsaleable": false,
       "CanSellOnRagfair": false,
       "CanRequireOnRagfair": false,
-      "addtoItemBlacklist": true,      
-      "BackgroundColor": "default",       
-        
+      "addtoItemBlacklist": true,
+      "BackgroundColor": "default",
       "Prefab": {
-
         "path": "equipment/item_equipment_rig_bd1_spiritus_black.bundle",
         "rcid": ""
       },
-
-
       "Width": 4,
       "Height": 3,
-
-
-      "Weight": 3.95
+      "Weight": 3.95,
+      "Name": "Spiritus Systems LV-119 Plate Carrier (USEC Intelligence Support Bureau)",
+      "ShortName": "LV-119",
+      "Description": "A highly customizable modular plate carrier by Spiritus Systems, built for maximum comfort in combat. Wolf Grey version. This setup allows full freedom of movement while providing an ergonomic layout for ammunition and essential gear. (ISB SOF)"
     },
-
     "addWeaponPreset": true,
     "weaponPresets": [
       {
@@ -82,38 +75,29 @@
         "_encyclopedia": "69575d3136babdc4ee38913b"
       }
     ],
-
     "locales": {
       "en": {
         "name": "Spiritus Systems LV-119 Plate Carrier (USEC Intelligence Support Bureau)",
         "shortName": "LV-119",
-        "description": "A highly customizable modular plate carrier by Spiritus Systems, built for maximum comfort in combat. Wolf Grey version. This setup allows full freedom of movement while providing an ergonomic layout for ammunition and essential gear. Black Version for ISB Special Forces"
+        "description": "A highly customizable modular plate carrier by Spiritus Systems, built for maximum comfort in combat. Wolf Grey version. This setup allows full freedom of movement while providing an ergonomic layout for ammunition and essential gear. (ISB SOF)"
       },
-        "po": {
+      "po": {
         "name": "Colete Tático LV-119 (Agência de Suporte a Inteligência da USEC)",
         "shortName": "LV-119",
-        "description": "Um porta-placas modular altamente personalizável da Spiritus Systems, concebido para proporcionar o máximo conforto em combate. Versão Wolf Grey. Esta configuração permite total liberdade de movimentos, proporcionando ao mesmo tempo uma disposição ergonómica para munições e equipamento essencial. Versão preta para as Forças Especiais da ISB."
+        "description": "Um plate carrier modular altamente personalizável da Spiritus Systems, desenvolvido para oferecer o máximo de conforto em combate. Versão Wolf Grey. Esta configuração permite total liberdade de movimento e oferece uma disposição ergonômica para munição e equipamentos essenciais. (ISB SOF)"
       }
     },
-
     "fleaPriceRoubles": 72348,
-
     "handbookPriceRoubles": 10342,
-
-    "addtoInventorySlots": ["TacticalRig"],
-
+    "addtoInventorySlots": [
+      "TacticalRig"
+    ],
     "addtoStaticLootContainers": false,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
     "IsAlwaysAvailableForInsurance": false,
-
     "InsuranceDisabled": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "StaticLootContainers": [
       {
         "ContainerName": "",

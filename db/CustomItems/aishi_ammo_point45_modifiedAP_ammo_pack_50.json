@@ -1,16 +1,13 @@
 {
   "699aab2519b875a27d6ec5d3": {
-
     "itemTplToClone": "65702414c5d7d4cb4d078555",
     "parentId": "543be5cb4bdc2deb348b4568",
     "handbookParentId": "5b47574386f77428ca22b33c",
-
-
-    "overrideProperties": { 
+    "overrideProperties": {
       "ExaminedByDefault": false,
-        "IsUnsaleable": true,
-        "IsUnbuyable": true,
-        "StackSlots": [
+      "IsUnsaleable": true,
+      "IsUnbuyable": true,
+      "StackSlots": [
         {
           "_id": "699aab526ac4f65528f1fd63",
           "_max_count": 50,
@@ -28,23 +25,13 @@
           "_proto": "699aab3a8603395700b5fe68"
         }
       ],
-
-        
-
       "Prefab": {
-
         "path": "assets/content/items/ammo/boxes/item_ammo_box_45_acp.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
-      "Height": 1,
       "Weight": 0.125,
-
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": ".45 ACP RIP AP ammo pack (50 pcs)",
@@ -56,36 +43,20 @@
         "shortName": "RIP AP",
         "description": "Um pacote de munição .45 ACP RIP AP, 50 cartuchos."
       }
-    
     },
-
     "fleaPriceRoubles": 59750,
-
     "handbookPriceRoubles": 21690,
-
     "addCaliberToAllCloneLocations": true,
-
     "addtoStaticAmmo": false,
-
     "CanSellOnRagfair": false,
-
     "CanRequireOnRagfair": false,
-    
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "staticAmmoProbability": 100,
-
     "addtoBots": true,
-
     "addtoStaticLootContainers": true,
-
     "staticLootContainers": [
       {
         "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "probability": 350
-      },
-      {
-        "containerName": "LOOTCONTAINER_SCAV_BODY",
         "probability": 350
       },
       {

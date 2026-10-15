@@ -1,38 +1,27 @@
 {
   "699aae8c9b6a4ab2b769c4a3": {
-
     "itemTplToClone": "5c0d56a986f774449d5de529",
     "parentId": "5485a8684bdc2da71d8b4567",
     "handbookParentId": "5b47574386f77428ca22b33b",
-
-
-    "overrideProperties": { 
+    "overrideProperties": {
       "ExaminedByDefault": false,
-        "IsUnsaleable": true,
-        "IsUnbuyable": true,
-        "HeatFactor": 2.0,
-        "Damage": 71,
-        "ArmorDamage": 45,
-        "PenetrationPower": 36,
-        "InitialSpeed": 540,
-        "ammoAccr": 10,
-        "ammoRec": 8, 
-        
-
+      "IsUnsaleable": true,
+      "IsUnbuyable": true,
+      "HeatFactor": 2.0,
+      "Damage": 71,
+      "ArmorDamage": 45,
+      "PenetrationPower": 36,
+      "InitialSpeed": 540,
+      "ammoAccr": 10,
+      "ammoRec": 8,
+      "StackMaxSize": 100,
       "Prefab": {
-
         "path": "ammo/patron_9x19_modrip.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
-      "Height": 1,
       "Weight": 0.025,
-
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "9x19mm RIP AP",
@@ -44,29 +33,17 @@
         "shortName": "RIP AP",
         "description": "Uma munição 9x19 mm Parabellum RIP (Radically Invasive Projectile, ou projétil radicalmente invasivo) é um cartucho com uma bala frangível de 6 gramas projetada para produzir múltiplos canais de ferimento para incapacitar agressores rapidamente. Diferente do design convencional de ponta oca, a munição “R.I.P.” possui 8 pétalas de cobre sem chumbo usinadas ou “trocares”, projetadas para se fragmentar rapidamente e se mover em várias direções, proporcionando assim um efeito de poder de parada superior ao seu calibre, além de ser capaz de causar efeitos adversos substanciais no alvo após o impacto. Esta versão foi modificada com a adição de um núcleo de tungstênio, aumentando a capacidade de penetração da munição."
       }
-    
     },
-
     "fleaPriceRoubles": 1995,
-
     "handbookPriceRoubles": 1190,
-
     "addCaliberToAllCloneLocations": true,
-
     "addtoStaticAmmo": true,
-
     "CanSellOnRagfair": false,
-
     "CanRequireOnRagfair": false,
-    
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "staticAmmoProbability": 100,
-
     "addtoBots": true,
-
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",

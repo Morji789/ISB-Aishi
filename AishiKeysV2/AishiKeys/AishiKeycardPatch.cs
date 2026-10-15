@@ -23,44 +23,33 @@ namespace AishiKeys
         {
             if (door.DoorState != (EFT.Interactive.EDoorState)1)
                 return;
-
             GameWorld instance = Singleton<GameWorld>.Instance;
             if (!((instance != null) ? instance.MainPlayer : null))
                 return;
-
             if (string.IsNullOrEmpty((door != null) ? door.KeyId : null))
                 return;
-
             if (WorldInteractionUtils.IsBotInteraction(owner))
                 return;
-
-            List<Item> masterKeys = (from item in owner.Player.Profile.Inventory.GetPlayerItems((EFT.InventoryLogic.EPlayerItems)63)
-                                     where MasterKeyHelper.AllMasterKeyIds.Contains(item.TemplateId)
-                                     select item).ToList<Item>();
+            List<Item> masterKeys = (
+                from item in owner.Player.Profile.Inventory.GetPlayerItems((EFT.InventoryLogic.EPlayerItems)63)
+                where MasterKeyHelper.AllMasterKeyIds.Contains(item.TemplateId)select item).ToList<Item>();
             if (masterKeys.Count == 0)
                 return;
-
             List<ValueTuple<Item, KeyComponent, string>> resolvedKeys = new List<ValueTuple<Item, KeyComponent, string>>();
             foreach (Item keyItem in masterKeys)
             {
                 KeyComponent keyComponent = MasterKeyItemResolver.FindKeyComponent(keyItem);
                 if (keyComponent == null)
                     continue;
-
-                resolvedKeys.Add(new ValueTuple<Item, KeyComponent, string>(
-                    keyItem,
-                    keyComponent,
-                    GClass2348.Localized(keyItem.ShortName, null)));
+                resolvedKeys.Add(new ValueTuple<Item, KeyComponent, string>(keyItem, keyComponent, GClass2348.Localized(keyItem.ShortName, null)));
             }
 
             if (resolvedKeys.Count == 0)
                 return;
-
             foreach (ActionsTypesClass action in __result.Actions)
             {
                 if (string.IsNullOrEmpty(action.Name))
                     continue;
-
                 foreach (ValueTuple<Item, KeyComponent, string> resolved in resolvedKeys)
                 {
                     KeyComponent keyComponent = resolved.Item2;

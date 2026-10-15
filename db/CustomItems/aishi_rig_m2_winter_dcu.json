@@ -1,0 +1,555 @@
+{
+  "0f51c139e42e582d8b0c2334": {
+    "itemTplToClone": "5ab8dced86f774646209ec87",
+    "parentId": "5448e5284bdc2dcb718b4567",
+    "handbookParentId": "5b5f6f8786f77447ed563642",
+    "overrideProperties": {
+      "CanSellOnRagfair": false,
+      "Description": "The M2 vest is created with the use of the best experience of Russian special forces operators. The versatility of the system makes it possible to use this vest both when carrying out urban tasks and when performing tasks on rough terrain. Manufactured by ANA Tactical. DCU Version.",
+      "Grids": [
+        {
+          "_name": "1",
+          "_id": "e5330af7b7bd5e45bd91e267",
+          "_parent": "0f51c139e42e582d8b0c2334",
+          "_props": {
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "cellsH": 1,
+            "cellsV": 2,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "2",
+          "_id": "6308d0acae5b5f47986d6ba9",
+          "_parent": "0f51c139e42e582d8b0c2334",
+          "_props": {
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "cellsH": 1,
+            "cellsV": 2,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "3",
+          "_id": "9cfbe1a7fb4d53bfbfb6606a",
+          "_parent": "0f51c139e42e582d8b0c2334",
+          "_props": {
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "cellsH": 1,
+            "cellsV": 2,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "4",
+          "_id": "8e14019071015dd4983b2718",
+          "_parent": "0f51c139e42e582d8b0c2334",
+          "_props": {
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "cellsH": 1,
+            "cellsV": 2,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "5",
+          "_id": "7ea7c054a44850dc8ac85fce",
+          "_parent": "0f51c139e42e582d8b0c2334",
+          "_props": {
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "cellsH": 1,
+            "cellsV": 2,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "6",
+          "_id": "bf3b8d0ca9b0590e99f33506",
+          "_parent": "0f51c139e42e582d8b0c2334",
+          "_props": {
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "cellsH": 1,
+            "cellsV": 2,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "7",
+          "_id": "5eb379551dd05fab83f6304e",
+          "_parent": "0f51c139e42e582d8b0c2334",
+          "_props": {
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "cellsH": 1,
+            "cellsV": 2,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "8",
+          "_id": "8d01155488f55a18af06d22d",
+          "_parent": "0f51c139e42e582d8b0c2334",
+          "_props": {
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "cellsH": 1,
+            "cellsV": 2,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "9",
+          "_id": "f17851c096a2515a8e64d927",
+          "_parent": "0f51c139e42e582d8b0c2334",
+          "_props": {
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "cellsH": 2,
+            "cellsV": 1,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        }
+      ],
+      "Name": "ANA Tactical M2 plate carrier (DCU)",
+      "Prefab": {
+        "path": "equipment/item_equipment_rig_m2_winter_dcu_aishi.bundle",
+        "rcid": ""
+      },
+      "ShortName": "ANA M2",
+      "Slots": [
+        {
+          "_name": "Front_plate",
+          "_id": "40b26e7db32e56f899f2f3a6",
+          "_parent": "0f51c139e42e582d8b0c2334",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "656f9d5900d62bcd2e02407c",
+                  "656fa8d700d62bcd2e024084",
+                  "656fa99800d62bcd2e024088",
+                  "656fae5f7c2d57afe200c0d7",
+                  "656faf0ca0dce000a2020f77",
+                  "656fa0fb498d1b7e3e071d9c",
+                  "656fafe3498d1b7e3e071da4",
+                  "656fa76500d62bcd2e024080",
+                  "656fa25e94b480b8a500c0e0",
+                  "656fad8c498d1b7e3e071da0",
+                  "656fa61e94b480b8a500c0e8",
+                  "656fb21fa0dce000a2020f7c",
+                  "656fac30c6baea13cd07e10c",
+                  "656fb0bd7c2d57afe200c0dc",
+                  "656f9fa0498d1b7e3e071d98",
+                  "656fa53d94b480b8a500c0e4",
+                  "655746010177119f4a097ff7",
+                  "64afdcb83efdfea28601d041",
+                  "65573fa5655447403702a816",
+                  "64afc71497cf3a403c01ff38",
+                  "6943c85be2f21398e70378cc"
+                ],
+                "Plate": "656fa25e94b480b8a500c0e0",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_chest"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        },
+        {
+          "_name": "Back_plate",
+          "_id": "79466a7cc7905baa920254a6",
+          "_parent": "0f51c139e42e582d8b0c2334",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "656f9d5900d62bcd2e02407c",
+                  "656fa8d700d62bcd2e024084",
+                  "656fa99800d62bcd2e024088",
+                  "656fae5f7c2d57afe200c0d7",
+                  "656faf0ca0dce000a2020f77",
+                  "656fa0fb498d1b7e3e071d9c",
+                  "656fafe3498d1b7e3e071da4",
+                  "656fa76500d62bcd2e024080",
+                  "656fa25e94b480b8a500c0e0",
+                  "656fa61e94b480b8a500c0e8",
+                  "656fad8c498d1b7e3e071da0",
+                  "656fb21fa0dce000a2020f7c",
+                  "656fac30c6baea13cd07e10c",
+                  "656fb0bd7c2d57afe200c0dc",
+                  "656f9fa0498d1b7e3e071d98",
+                  "656fa53d94b480b8a500c0e4",
+                  "65573fa5655447403702a816",
+                  "64afc71497cf3a403c01ff38",
+                  "655746010177119f4a097ff7",
+                  "64afdcb83efdfea28601d041",
+                  "6943c85be2f21398e70378cc"
+                ],
+                "Plate": "656fa25e94b480b8a500c0e0",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_back"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        },
+        {
+          "_name": "Left_side_plate",
+          "_id": "ff6ec1f8eba755a1aa6b110b",
+          "_parent": "0f51c139e42e582d8b0c2334",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6557458f83942d705f0c4962",
+                  "64afdb577bb3bfe8fe03fd1d",
+                  "64afd81707e2cf40e903a316"
+                ],
+                "Plate": "64afd81707e2cf40e903a316",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SSAPI_side_left_high"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        },
+        {
+          "_name": "Right_side_plate",
+          "_id": "1b36bd69551c52d69b2db4f7",
+          "_parent": "0f51c139e42e582d8b0c2334",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6557458f83942d705f0c4962",
+                  "64afdb577bb3bfe8fe03fd1d",
+                  "64afd81707e2cf40e903a316"
+                ],
+                "Plate": "64afd81707e2cf40e903a316",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SSAPI_side_right_high"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        },
+        {
+          "_name": "Soft_armor_front",
+          "_id": "acdb328687735bada65a7bc8",
+          "_parent": "0f51c139e42e582d8b0c2334",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6570f6e774d84423df065f21"
+                ],
+                "Plate": "6570f6e774d84423df065f21",
+                "armorColliders": [
+                  "RibcageUp",
+                  "RibcageLow"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        },
+        {
+          "_name": "Soft_armor_back",
+          "_id": "57aa9334f8b557aa9e81760b",
+          "_parent": "0f51c139e42e582d8b0c2334",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6570f71dd67d0309980a7af8"
+                ],
+                "Plate": "6570f71dd67d0309980a7af8",
+                "armorColliders": [
+                  "SpineDown",
+                  "SpineTop"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        },
+        {
+          "_name": "Soft_armor_left",
+          "_id": "79cde0003a5858259d62722b",
+          "_parent": "0f51c139e42e582d8b0c2334",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6570f74774d84423df065f25"
+                ],
+                "Plate": "6570f74774d84423df065f25",
+                "armorColliders": [
+                  "LeftSideChestDown"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        },
+        {
+          "_name": "soft_armor_right",
+          "_id": "d0e14edce25f51bc8360d2ec",
+          "_parent": "0f51c139e42e582d8b0c2334",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6570f79c4c65ab77a6015121"
+                ],
+                "Plate": "6570f79c4c65ab77a6015121",
+                "armorColliders": [
+                  "RightSideChestDown"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        }
+      ],
+      "RagfairLevelToTrade": 0
+    },
+    "locales": {
+      "en": {
+        "name": "ANA Tactical M2 plate carrier (DCU)",
+        "shortName": "ANA M2",
+        "description": "The M2 vest is created with the use of the best experience of Russian special forces operators. The versatility of the system makes it possible to use this vest both when carrying out urban tasks and when performing tasks on rough terrain. Manufactured by ANA Tactical. DCU Version."
+      }
+    },
+    "handbookPriceRoubles": 2688,
+    "fleaPriceRoubles": 50995,
+    "addtoInventorySlots": [],
+    "addtoBots": false,
+    "addtoTraders": false,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": false,
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_id": "bf4765e0d74a56089800811e",
+        "_type": "Preset",
+        "_changeWeaponName": false,
+        "_name": "ANA Tactical M2 plate carrier (DCU)",
+        "_parent": "3f1b7156606e5cd6afda8f69",
+        "_items": [
+          {
+            "_id": "3f1b7156606e5cd6afda8f69",
+            "_tpl": "0f51c139e42e582d8b0c2334"
+          },
+          {
+            "_id": "3339ac2b83c655bf82a57057",
+            "_tpl": "6570f6e774d84423df065f21",
+            "parentId": "3f1b7156606e5cd6afda8f69",
+            "slotId": "Soft_armor_front"
+          },
+          {
+            "_id": "d3f3856ed5075705bdd17ef4",
+            "_tpl": "6570f71dd67d0309980a7af8",
+            "parentId": "3f1b7156606e5cd6afda8f69",
+            "slotId": "Soft_armor_back"
+          },
+          {
+            "_id": "2c32758c3b115b11a4af1c70",
+            "_tpl": "6570f74774d84423df065f25",
+            "parentId": "3f1b7156606e5cd6afda8f69",
+            "slotId": "Soft_armor_left"
+          },
+          {
+            "_id": "a796a946e92b5d098dfddc18",
+            "_tpl": "6570f79c4c65ab77a6015121",
+            "parentId": "3f1b7156606e5cd6afda8f69",
+            "slotId": "soft_armor_right"
+          },
+          {
+            "_id": "ee90d14e38775464b0db80d2",
+            "_tpl": "656fa25e94b480b8a500c0e0",
+            "parentId": "3f1b7156606e5cd6afda8f69",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "11fa271ec32f5e6895ea8644",
+            "_tpl": "656fa25e94b480b8a500c0e0",
+            "parentId": "3f1b7156606e5cd6afda8f69",
+            "slotId": "Back_plate"
+          },
+          {
+            "_id": "77a50053dbcf5e5e8aea6040",
+            "_tpl": "64afd81707e2cf40e903a316",
+            "parentId": "3f1b7156606e5cd6afda8f69",
+            "slotId": "Left_side_plate"
+          },
+          {
+            "_id": "fddbb4f4de225ed19c8eb21d",
+            "_tpl": "64afd81707e2cf40e903a316",
+            "parentId": "3f1b7156606e5cd6afda8f69",
+            "slotId": "Right_side_plate"
+          }
+        ],
+        "_encyclopedia": "0f51c139e42e582d8b0c2334"
+      }
+    ]
+  }
+}

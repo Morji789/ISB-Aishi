@@ -1,0 +1,60 @@
+{
+  "_id": "6a8f5ef5bf1992e2c211168f",
+  "areaType": 11,
+  "requirements": [
+    {
+      "areaType": 11,
+      "requiredLevel": 1,
+      "type": "Area"
+    },
+    {
+      "templateId": "6a8f39899225d6a63dd472a1",
+      "count": 1,
+      "isEncoded": false,
+      "isFunctional": false,
+      "isSpawnedInSession": false,
+      "type": "Item"
+    },
+    {
+      "templateId": "6389c70ca33d8c4cdf4932c6",
+      "count": 4,
+      "isEncoded": false,
+      "isFunctional": false,
+      "isSpawnedInSession": false,
+      "type": "Item"
+    },
+    {
+      "templateId": "69f422093640de523b76ea42",
+      "count": 1,
+      "isEncoded": false,
+      "isFunctional": false,
+      "isSpawnedInSession": false,
+      "type": "Item"
+    },
+    {
+      "templateId": "5d0376a486f7747d8050965c",
+      "count": 1,
+      "isEncoded": false,
+      "isFunctional": false,
+      "isSpawnedInSession": false,
+      "type": "Item"
+    },
+    {
+      "templateId": "5d1b31ce86f7742523398394",
+      "type": "Tool"
+    },
+    {
+      "templateId": "5af04b6486f774195a3ebb49",
+      "type": "Tool"
+    }
+  ],
+  "productionTime": 3630,
+  "endProduct": "6a8f29c48faabd7edce25062",
+  "isEncoded": false,
+  "locked": false,
+  "needFuelForAllProductionTime": false,
+  "continuous": false,
+  "count": 1,
+  "productionLimitCount": 0,
+  "isCodeProduction": false
+}

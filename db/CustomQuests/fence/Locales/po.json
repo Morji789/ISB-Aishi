@@ -1,8 +1,19 @@
 {
-    "690e2689cbd10f2ac5e766eb name": "Interceptação",
-    "690e2689cbd10f2ac5e766eb description": "Soube que está procurando informações sobre algumas pessoas. Eles são liderados por uma mulher extremamente perigosa, suas operações colocam em risco Tarkov e todos envolvidos. Não entregue isso para ninguém além de mim.",
-    "6937a89eda352f46b8a30100": "Localize o Diário no Chalé da Lighthouse",
-    "690e26a05d880ff9624676c3": "Entregue o Diário",
-    "690e2689cbd10f2ac5e766eb successMessageText": "Ótimo",
-    "690e2689cbd10f2ac5e766eb failMessageText": "Não diga que não avisei"
+  "690e2689cbd10f2ac5e766eb name": "Interceptação",
+  "690e2689cbd10f2ac5e766eb description": "Soube que está procurando informações sobre algumas pessoas. Eles são liderados por uma mulher extremamente perigosa, suas operações colocam em risco Tarkov e todos envolvidos. Não entregue isso para ninguém além de mim.",
+  "6937a89eda352f46b8a30100": "Localize o Diário no Chalé da Lighthouse",
+  "690e26a05d880ff9624676c3": "Entregue o Diário",
+  "690e2689cbd10f2ac5e766eb successMessageText": "Ótimo",
+  "690e2689cbd10f2ac5e766eb failMessageText": "Não diga que não avisei",
+  "c3dd45d0da2679c60db3c3cb name": "Fast Travel",
+  "c3dd45d0da2679c60db3c3cb description": "Talvez você já tenha ouvido falar dessa ISB. Bom, a líder deles é bem... pragmática. Enfim, talvez dar um empurrãozinho e ajudar você a entrar em contato com ela possa ser vantajoso — está interessado? Que tal contribuir um pouco?",
+  "c3dd45d0da2679c60db3c3cb successMessageText": "Hm...",
+  "c3dd45d0da2679c60db3c3cb acceptPlayerMessage": "Combinado.",
+  "c3dd45d0da2679c60db3c3cb failMessageText": "Você já tem um contato direto.",
+  "c3dd45d0da2679c60db3c3cb completePlayerMessage": "",
+  "c3dd45d0da2679c60db3c3cb startedMessageText": "",
+  "c3dd45d0da2679c60db3c3cb changeQuestMessageText": "",
+  "c3dd45d0da2679c60db3c3cb declinePlayerMessage": "",
+  "c3dd45d0da2679c60db3c3cb note": "",
+  "f3ea573061656070b2292e20": "Entregue 500.000 rublos ao Fence"
 }

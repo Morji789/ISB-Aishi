@@ -1,0 +1,107 @@
+{
+  "b9b336b775e55e39a04c9c35": {
+    "itemTplToClone": "5b44d0de86f774503d30cba8",
+    "parentId": "5448e54d4bdc2dcc718b4568",
+    "handbookParentId": "5b5f701386f774093f2ecf0f",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "equipment/item_equipment_armor_iotv_2_hmk_nightops.bundle",
+        "rcid": ""
+      },
+      "Name": "IOTV Gen4 body armor (High Mobility Kit, Black Camo)",
+      "ShortName": "Gen4 HMK",
+      "Description": "The Improved Outer Tactical Vest (IOTV) Gen IV is designed to permit maximum freedom of movement required to assume correct firing positions with the agility to execute and maneuver tasks. Optimal design characteristics ensure the best possible weight distribution of both the ballistic body armor system as well as additional load bearing equipment, thus providing enhanced comfort, wear duration, and mobility. Increased mobility and comfort kit. (Black Camo)",
+      "CanSellOnRagfair": false
+    },
+    "weaponPresets": [
+      {
+        "_changeWeaponName": false,
+        "_encyclopedia": "b9b336b775e55e39a04c9c35",
+        "_id": "551dc8a7f46d51a2bb526414",
+        "_items": [
+          {
+            "_id": "bdfcfcb4971b5a289b59cfb6",
+            "_tpl": "b9b336b775e55e39a04c9c35"
+          },
+          {
+            "_id": "4aced7fb4da256eeb78db041",
+            "_tpl": "6575c342efc786cd9101a5e5",
+            "parentId": "bdfcfcb4971b5a289b59cfb6",
+            "slotId": "Soft_armor_front"
+          },
+          {
+            "_id": "60961605675b532782844dab",
+            "_tpl": "6575c34bc6700bd6b40e8a84",
+            "parentId": "bdfcfcb4971b5a289b59cfb6",
+            "slotId": "Soft_armor_back"
+          },
+          {
+            "_id": "10dd2c17159f50fdb81cdda0",
+            "_tpl": "6575c35bc6700bd6b40e8a88",
+            "parentId": "bdfcfcb4971b5a289b59cfb6",
+            "slotId": "Soft_armor_left"
+          },
+          {
+            "_id": "357d79b9ba7354ea971c80ba",
+            "_tpl": "6575c366c6700bd6b40e8a8c",
+            "parentId": "bdfcfcb4971b5a289b59cfb6",
+            "slotId": "soft_armor_right"
+          },
+          {
+            "_id": "5fcb619a3b5354ab9c44e021",
+            "_tpl": "6575c373dc9932aed601c5ec",
+            "parentId": "bdfcfcb4971b5a289b59cfb6",
+            "slotId": "Collar"
+          },
+          {
+            "_id": "1aeade7fa8925adfb65843b5",
+            "_tpl": "6575c385dc9932aed601c5f0",
+            "parentId": "bdfcfcb4971b5a289b59cfb6",
+            "slotId": "Groin"
+          },
+          {
+            "_id": "058f7277576e5168ba4787e3",
+            "_tpl": "6575c390efc786cd9101a5e9",
+            "parentId": "bdfcfcb4971b5a289b59cfb6",
+            "slotId": "Groin_back"
+          },
+          {
+            "_id": "3106fe9b4abc50a8bafe69da",
+            "_tpl": "656fa8d700d62bcd2e024084",
+            "parentId": "bdfcfcb4971b5a289b59cfb6",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "f38e75af631c594691320045",
+            "_tpl": "656fa8d700d62bcd2e024084",
+            "parentId": "bdfcfcb4971b5a289b59cfb6",
+            "slotId": "Back_plate"
+          }
+        ],
+        "_name": "IOTV Gen4 HMK - Nightops Standard",
+        "_parent": "bdfcfcb4971b5a289b59cfb6",
+        "_type": "Preset"
+      }
+    ],
+    "addWeaponPreset": true,
+    "locales": {
+      "en": {
+        "name": "IOTV Gen4 body armor (High Mobility Kit, Black Camo)",
+        "shortName": "Gen4 HMK",
+        "description": "The Improved Outer Tactical Vest (IOTV) Gen IV is designed to permit maximum freedom of movement required to assume correct firing positions with the agility to execute and maneuver tasks. Optimal design characteristics ensure the best possible weight distribution of both the ballistic body armor system as well as additional load bearing equipment, thus providing enhanced comfort, wear duration, and mobility. Increased mobility and comfort kit. (Black Camo)"
+      },
+      "po": {
+        "name": "Armadura IOTV Gen4 (conjunto de alta mobilidade, Camuflagem Preta)",
+        "shortName": "Gen4 HMK",
+        "description": "O Colete Tático Externo Improvisado (IOTV) Gen IV foi projetado para permitir máxima movimentação necessária para a posição correta de tiro com agilidade na execução. Projetado com características para assegurar a melhor distribuição de peso da armadura balística corporal e também o peso dos equipamentos carregados, providenciando melhor conforto, maior duração de uso e mobilidade. Conjunto de proteção total.\n\nEsse conjunto melhora a mobilidade e conforto. (Camuflagem Preta)"
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "handbookPriceRoubles": 160000,
+    "fleaPriceRoubles": 160000,
+    "addtoStaticLootContainers": false
+  }
+}

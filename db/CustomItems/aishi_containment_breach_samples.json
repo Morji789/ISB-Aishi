@@ -1,0 +1,229 @@
+{
+  "237feeaa44ee343bd4ebe5ab": {
+    "itemTplToClone": "5c0530ee86f774697952d952",
+    "parentId": "57864c8c245977548867e7f1",
+    "handbookParentId": "5b47574386f77428ca22b2f3",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "CanSellOnRagfair": false,
+      "Prefab": {
+        "path": "assets/content/items/quest/item_quest_event_labyrinth_chem_container/item_quest_event_labyrinth_chem_container.bundle",
+        "rcid": ""
+      },
+      "Weight": 0.1,
+      "BackgroundColor": "yellow",
+      "DiscardLimit": -1,
+      "Grids": []
+    },
+    "locales": {
+      "en": {
+        "name": "Chemical container with a virus sample",
+        "shortName": "Virus",
+        "description": "A sealed container holding a viral sample collected by the Black Division."
+      },
+      "po": {
+        "name": "Contêiner químico com amostra de um vírus",
+        "shortName": "Vírus",
+        "description": "Recipiente selado contendo uma amostra viral recolhida pela Black Division."
+      }
+    },
+    "fleaPriceRoubles": 50000,
+    "handbookPriceRoubles": 50000,
+    "CanSellOnRagfair": false,
+    "CanRequireOnRagfair": false,
+    "addtoItemBlacklist": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "addtoTraders": false,
+    "addtoSecureFilters": false
+  },
+  "108e248f0640ee8a58fbe8b9": {
+    "itemTplToClone": "5c0530ee86f774697952d952",
+    "parentId": "57864c8c245977548867e7f1",
+    "handbookParentId": "5b47574386f77428ca22b2f3",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "CanSellOnRagfair": false,
+      "Prefab": {
+        "path": "assets/content/items/quest/item_quest_chemcontainer/item_quest_chemcontainer.bundle",
+        "rcid": ""
+      },
+      "Weight": 0.1,
+      "BackgroundColor": "yellow",
+      "DiscardLimit": -1,
+      "Grids": []
+    },
+    "locales": {
+      "en": {
+        "name": "Chemical Container with biological material",
+        "shortName": "Bio material",
+        "description": "A transport container for biological material collected by Black Division."
+      },
+      "po": {
+        "name": "Container químico com material biológico",
+        "shortName": "Mat. biológico",
+        "description": "Recipiente de transporte de material biológico recolhido pela Black Division."
+      }
+    },
+    "fleaPriceRoubles": 35000,
+    "handbookPriceRoubles": 35000,
+    "CanSellOnRagfair": false,
+    "CanRequireOnRagfair": false,
+    "addtoItemBlacklist": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "addtoTraders": false,
+    "addtoSecureFilters": false
+  },
+  "0948e0b1242f17ae65b80669": {
+    "itemTplToClone": "5c0530ee86f774697952d952",
+    "parentId": "57864c8c245977548867e7f1",
+    "handbookParentId": "5b47574386f77428ca22b2f3",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "CanSellOnRagfair": false,
+      "Prefab": {
+        "path": "assets/content/items/quest/item_quest_chimicalsample/item_quest_chimicalsample.bundle",
+        "rcid": ""
+      },
+      "Weight": 0.1,
+      "BackgroundColor": "yellow",
+      "DiscardLimit": -1,
+      "Grids": []
+    },
+    "locales": {
+      "en": {
+        "name": "Fungal samples",
+        "shortName": "Fungi",
+        "description": "Fungal samples packaged for laboratory analysis."
+      },
+      "po": {
+        "name": "Amostras de fungos",
+        "shortName": "Fungos",
+        "description": "Amostras de fungos acondicionadas para análise em laboratório."
+      }
+    },
+    "fleaPriceRoubles": 25000,
+    "handbookPriceRoubles": 25000,
+    "CanSellOnRagfair": false,
+    "CanRequireOnRagfair": false,
+    "addtoItemBlacklist": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "addtoTraders": false,
+    "addtoSecureFilters": false
+  },
+  "29d3521830e5a078ac470990": {
+    "itemTplToClone": "5c0530ee86f774697952d952",
+    "parentId": "57864c8c245977548867e7f1",
+    "handbookParentId": "5b47574386f77428ca22b2f3",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "CanSellOnRagfair": false,
+      "Prefab": {
+        "path": "assets/content/items/quest/item_quest_tg-vi-24/item_quest_antivirus-tg-vi-24.bundle",
+        "rcid": ""
+      },
+      "Weight": 0.1,
+      "BackgroundColor": "yellow",
+      "DiscardLimit": -1,
+      "Grids": []
+    },
+    "locales": {
+      "en": {
+        "name": "Virus antidote",
+        "shortName": "Antidote",
+        "description": "A sealed vial containing a TerraGroup antiviral formulation, preserved for collection and analysis."
+      },
+      "po": {
+        "name": "Antídoto do vírus",
+        "shortName": "Antídoto",
+        "description": "Frasco selado com uma formulação antiviral da TerraGroup, preservado para coleta e análise."
+      }
+    },
+    "fleaPriceRoubles": 75000,
+    "handbookPriceRoubles": 75000,
+    "CanSellOnRagfair": false,
+    "CanRequireOnRagfair": false,
+    "addtoItemBlacklist": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "addtoTraders": false,
+    "addtoSecureFilters": false
+  },
+  "890cc1ff79a9633e1d0b5a40": {
+    "itemTplToClone": "5c0530ee86f774697952d952",
+    "parentId": "57864c8c245977548867e7f1",
+    "handbookParentId": "5b47574386f77428ca22b2f3",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "CanSellOnRagfair": false,
+      "Prefab": {
+        "path": "assets/content/items/quest/item_quest_tg-vi-24/item_quest_tg-vi-24.bundle",
+        "rcid": ""
+      },
+      "Weight": 0.1,
+      "BackgroundColor": "yellow",
+      "DiscardLimit": -1,
+      "Grids": []
+    },
+    "locales": {
+      "en": {
+        "name": "Modified virus sample",
+        "shortName": "Mod. virus",
+        "description": "A sealed sample of a modified TerraGroup viral variant, prepared for transport and analysis."
+      },
+      "po": {
+        "name": "Amostra do vírus modificado",
+        "shortName": "Vírus mod.",
+        "description": "Amostra selada de uma variante viral modificada da TerraGroup, preparada para transporte e análise."
+      }
+    },
+    "fleaPriceRoubles": 60000,
+    "handbookPriceRoubles": 60000,
+    "CanSellOnRagfair": false,
+    "CanRequireOnRagfair": false,
+    "addtoItemBlacklist": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "addtoTraders": false,
+    "addtoSecureFilters": false
+  },
+  "4fef2f1523c2754ade168cfa": {
+    "itemTplToClone": "590c621186f774138d11ea29",
+    "parentId": "5448ecbe4bdc2d60728b4568",
+    "handbookParentId": "5b47574386f77428ca22b341",
+    "overrideProperties": {
+      "CanSellOnRagfair": false,
+      "Prefab": {
+        "path": "assets/content/items/infosubject/item_info_flash_card_hash_prapor.bundle",
+        "rcid": ""
+      },
+      "Weight": 0.05,
+      "BackgroundColor": "yellow",
+      "DiscardLimit": -1,
+      "Grids": []
+    },
+    "locales": {
+      "en": {
+        "name": "Flash drive with C.A.S.S.I.E. system data",
+        "shortName": "C.A.S.S.I.E.",
+        "description": "A memory unit containing operation logs and access control data for the TerraGroup Labs C.A.S.S.I.E. system. A highly precise and dangerous artificial intelligence security system."
+      },
+      "po": {
+        "name": "Pendrive com informações sobre o sistema C.A.S.S.I.E.",
+        "shortName": "C.A.S.S.I.E.",
+        "description": "Unidade de memória contendo registros de operação e dados dos controles de acesso do sistema C.A.S.S.I.E. da TerraGroup Labs. Um sistema de segurança por inteligência artificial altamente preciso e perigoso."
+      }
+    },
+    "fleaPriceRoubles": 65000,
+    "handbookPriceRoubles": 65000,
+    "CanSellOnRagfair": false,
+    "CanRequireOnRagfair": false,
+    "addtoItemBlacklist": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "addtoTraders": false,
+    "addtoSecureFilters": false
+  }
+}

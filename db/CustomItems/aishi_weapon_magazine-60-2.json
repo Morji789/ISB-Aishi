@@ -1,21 +1,16 @@
 {
   "69f0d28ca0c7d37d9130aab8": {
-
     "itemTplToClone": "59c1383d86f774290a37e0ca",
     "parentId": "5448bc234bdc2d3c308b4569",
     "handbookParentId": "5b5f754a86f774094242f19b",
-
-
-    "overrideProperties": { 
-        "ExaminedByDefault": true,
-        "IsUnsaleable": true,
-        "IsUnbuyable": true,
-        "CanSellOnRagfair": true,
-        "CanRequireOnRagfair": true,
-        "addtoItemBlacklist": false,   
-        "Ergonomics": -2,
-        "CanPutIntoDuringTheRaid": true,
-        "Cartridges": [
+    "overrideProperties": {
+      "IsUnsaleable": true,
+      "IsUnbuyable": true,
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": true,
+      "addtoItemBlacklist": false,
+      "Ergonomics": -2,
+      "Cartridges": [
         {
           "_id": "69f0d28fd30f976b4b4b63d6",
           "_max_count": 60,
@@ -51,21 +46,12 @@
           "_proto": "69f0d292d652c74d8c591542"
         }
       ],
-
       "Prefab": {
-
-        "path": "equipment/magazine_test2.bundle",
+        "path": "equipment/magazine_ar15_pmag_d60_fde.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
-      "Height": 2,
       "Weight": 0.18
     },
-
-
-
     "locales": {
       "en": {
         "name": "AR-15 5.56x45 Magpul PMAG D-60 STANAG 60-round magazine (FDE)",
@@ -77,29 +63,18 @@
         "shortName": "PMAG D60",
         "description": "O carregador Magpul PMAG D-60 de polímero com capacidade para 60 cartuchos de calibre 5,56x45."
       }
-    
     },
-
     "fleaPriceRoubles": 44755,
-
     "handbookPriceRoubles": 14755,
-
     "addtoBots": true,
-
     "addtoModSlots": true,
-
     "CanSellOnRagfair": false,
-    
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-    
+    "addtoItemBlacklist": true,
     "modSlot": [
       "mod_magazine"
     ],
-
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",

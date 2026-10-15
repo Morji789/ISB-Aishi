@@ -1,60 +1,27 @@
 {
   "6933764646149ffb28ed75e0": {
-
     "itemTplToClone": "5447a9cd4bdc2dbd208b4567",
     "parentId": "5447b5f14bdc2d61278b4567",
-    "handbookParentId": "5b5f78e986f77447ed5636b1",
-
-
-    "overrideProperties": { 
-      "ExaminedByDefault": true,
-        "IsUnsaleable": true,
-        "InsuranceDisabled": true,
-        "IsUnbuyable": true,
-        "AllowFeed": false,
-        "AllowJam": true,
-        "BackgroundColor": "yellow",
-        "AllowMisfire": false,
-        "AllowOverheat": true,
-        "AllowSlide": false,
-        "Ergonomics": 65,
-        "ammoCaliber": "Caliber556x45NATO",
-        "bEffDist": 500,
-        "bFirerate": 880,
-        "bHearDist": 80,
-        "blockLeftStance": false,
-        "chamberAmmoCount": 1,
-        "defAmmo": "54527a984bdc2d4e668b4567",
-        "defMagType": "55d4887d4bdc2d962f8b4570",
-        "durabSpawnMax": 100,
-        "durabSpawnMin": 50,
-        "isBoltCatch": true,
-        "isChamberLoad": true,
-        "isFastReload": true,
-        "shotgunDispersion": 0,
-        "weapClass": "assaultRifle",
-        "weapFireType": [
-        "single",
-        "fullauto"
-        ],
-        "weapUseType": "primary",
-
-        
-
+    "handbookParentId": "5b5f78fc86f77409407a7f90",
+    "overrideProperties": {
+      "IsUnsaleable": true,
+      "InsuranceDisabled": true,
+      "IsUnbuyable": true,
+      "AllowFeed": false,
+      "BackgroundColor": "yellow",
+      "AllowMisfire": false,
+      "AllowSlide": false,
+      "Ergonomics": 65,
+      "bFirerate": 880,
+      "durabSpawnMax": 100,
+      "durabSpawnMin": 50,
       "Prefab": {
-
         "path": "assets/content/weapons/m4a1/weapon_colt_m4a1_556x45_container.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
-      "Height": 1,
       "Weight": 0.025,
-
       "Grids": []
     },
-
     "addWeaponPreset": true,
     "weaponPresets": [
       {
@@ -71,225 +38,227 @@
               "Repairable": {
                 "Durability": 100,
                 "MaxDurability": 100
+              },
+              "FireMode": {
+                "FireMode": "fullauto"
               }
             }
           },
-    {
-      "_id": "69fa24a72662403b948b0024",
-      "_tpl": "5a33e75ac4a2826c6e06d759",
-      "parentId": "69fa24ac2662403b948b0037",
-      "slotId": "mod_pistol_grip",
-      "upd": {
-        "SpawnedInSession": true
-      }
-    },
-    {
-      "_id": "69fa24a72662403b948b0025",
-      "_tpl": "5c6d46132e221601da357d56",
-      "parentId": "69fa24ac2662403b948b0037",
-      "slotId": "mod_magazine",
-      "upd": {
-        "SpawnedInSession": true
-      }
-    },
-    {
-      "_id": "69fa24a72662403b948b0026",
-      "_tpl": "55d355e64bdc2d962f8b4569",
-      "parentId": "69fa24ac2662403b948b0037",
-      "slotId": "mod_reciever",
-      "upd": {
-        "SpawnedInSession": true
-      }
-    },
-    {
-      "_id": "69fa24a72662403b948b0027",
-      "_tpl": "5c793fb92e221644f31bfb64",
-      "parentId": "69fa24ac2662403b948b0037",
-      "slotId": "mod_stock",
-      "upd": {
-        "SpawnedInSession": true
-      }
-    },
-    {
-      "_id": "69fa24a72662403b948b0028",
-      "_tpl": "5f633ff5c444ce7e3c30a006",
-      "parentId": "69fa24ac2662403b948b0037",
-      "slotId": "mod_charge",
-      "upd": {
-        "SpawnedInSession": true
-      }
-    },
-    {
-      "_id": "69fa24a72662403b948b0029",
-      "_tpl": "675307301f7c19a9780f2668",
-      "parentId": "69fa24ac2662403b948b0037",
-      "slotId": "mod_charge_001",
-      "upd": {
-        "SpawnedInSession": true
-      }
-    },
-    {
-      "_id": "69fa24a72662403b948b002a",
-      "_tpl": "57ac965c24597706be5f975c",
-      "parentId": "69fa24a72662403b948b0026",
-      "slotId": "mod_scope",
-      "upd": {
-        "SpawnedInSession": true,
-        "Sight": {
-          "ScopesCurrentCalibPointIndexes": [
-            0,
-            0
-          ],
-          "ScopesSelectedModes": [
-            0,
-            0
-          ],
-          "SelectedScope": 0,
-          "ScopeZoomValue": 0
-        }
-      }
-    },
-    {
-      "_id": "69fa24a72662403b948b002b",
-      "_tpl": "63d3ce0446bd475bcb50f55f",
-      "parentId": "69fa24a72662403b948b0026",
-      "slotId": "mod_barrel",
-      "upd": {
-        "SpawnedInSession": true
-      }
-    },
-    {
-      "_id": "69fa24a72662403b948b002c",
-      "_tpl": "5c9a25172e2216000f20314e",
-      "parentId": "69fa24a72662403b948b0026",
-      "slotId": "mod_handguard",
-      "upd": {
-        "SpawnedInSession": true
-      }
-    },
-    {
-      "_id": "69fa24a72662403b948b002d",
-      "_tpl": "5c1780312e221602b66cc189",
-      "parentId": "69fa24a72662403b948b0026",
-      "slotId": "mod_sight_rear",
-      "upd": {
-        "SpawnedInSession": true,
-        "Sight": {
-          "ScopesCurrentCalibPointIndexes": [
-            0
-          ],
-          "ScopesSelectedModes": [
-            0
-          ],
-          "SelectedScope": 0,
-          "ScopeZoomValue": 0
-        }
-      }
-    },
-    {
-      "_id": "69fa24a72662403b948b002e",
-      "_tpl": "5c7fb51d2e2216001219ce11",
-      "parentId": "69fa24a72662403b948b002b",
-      "slotId": "mod_muzzle",
-      "upd": {
-        "SpawnedInSession": true
-      }
-    },
-    {
-      "_id": "69fa24a72662403b948b002f",
-      "_tpl": "63d3ce281fe77d0f2801859e",
-      "parentId": "69fa24a72662403b948b002b",
-      "slotId": "mod_gas_block",
-      "upd": {
-        "SpawnedInSession": true
-      }
-    },
-    {
-      "_id": "69fa24a72662403b948b0030",
-      "_tpl": "689c8981bce76ccfbf01862f",
-      "parentId": "69fa24a72662403b948b002c",
-      "slotId": "mod_tactical_001",
-      "upd": {
-        "SpawnedInSession": true
-      }
-    },
-    {
-      "_id": "69fa24a72662403b948b0031",
-      "_tpl": "5c17804b2e2216152006c02f",
-      "parentId": "69fa24a72662403b948b002c",
-      "slotId": "mod_sight_front",
-      "upd": {
-        "SpawnedInSession": true,
-        "Sight": {
-          "ScopesCurrentCalibPointIndexes": [
-            0
-          ],
-          "ScopesSelectedModes": [
-            0
-          ],
-          "SelectedScope": 0,
-          "ScopeZoomValue": 0
-        }
-      }
-    },
-    {
-      "_id": "69fa24a72662403b948b0032",
-      "_tpl": "544909bb4bdc2d6f028b4577",
-      "parentId": "69fa24a72662403b948b002c",
-      "slotId": "mod_tactical_000",
-      "upd": {
-        "SpawnedInSession": true,
-        "Light": {
-          "IsActive": true,
-          "SelectedMode": 0
-        }
-      }
-    },
-    {
-      "_id": "69fa24a72662403b948b0033",
-      "_tpl": "638f2003bbd47aeb9e0ff637",
-      "parentId": "69fa24a72662403b948b002c",
-      "slotId": "mod_handguard",
-      "upd": {
-        "SpawnedInSession": true
-      }
-    },
-    {
-      "_id": "69fa24a72662403b948b0034",
-      "_tpl": "55d614004bdc2d86028b4568",
-      "parentId": "69fa24a72662403b948b002e",
-      "slotId": "mod_muzzle",
-      "upd": {
-        "SpawnedInSession": true
-      }
-    },
-    {
-      "_id": "69fa24a72662403b948b0035",
-      "_tpl": "689c887cd18a3665b8045743",
-      "parentId": "69fa24a72662403b948b0030",
-      "slotId": "mod_tactical",
-      "upd": {
-        "SpawnedInSession": true,
-        "Light": {
-          "IsActive": true,
-          "SelectedMode": 0
-        }
-      }
-    },
-    {
-      "_id": "69fa24a72662403b948b0036",
-      "_tpl": "588226d124597767ad33f787",
-      "parentId": "69fa24a72662403b948b0033",
-      "slotId": "mod_foregrip",
-      "upd": {
-        "SpawnedInSession": true
-      }
-    }
+          {
+            "_id": "69fa24a72662403b948b0024",
+            "_tpl": "5a33e75ac4a2826c6e06d759",
+            "parentId": "69fa24ac2662403b948b0037",
+            "slotId": "mod_pistol_grip",
+            "upd": {
+              "SpawnedInSession": true
+            }
+          },
+          {
+            "_id": "69fa24a72662403b948b0025",
+            "_tpl": "5c6d46132e221601da357d56",
+            "parentId": "69fa24ac2662403b948b0037",
+            "slotId": "mod_magazine",
+            "upd": {
+              "SpawnedInSession": true
+            }
+          },
+          {
+            "_id": "69fa24a72662403b948b0026",
+            "_tpl": "55d355e64bdc2d962f8b4569",
+            "parentId": "69fa24ac2662403b948b0037",
+            "slotId": "mod_reciever",
+            "upd": {
+              "SpawnedInSession": true
+            }
+          },
+          {
+            "_id": "69fa24a72662403b948b0027",
+            "_tpl": "5c793fb92e221644f31bfb64",
+            "parentId": "69fa24ac2662403b948b0037",
+            "slotId": "mod_stock",
+            "upd": {
+              "SpawnedInSession": true
+            }
+          },
+          {
+            "_id": "69fa24a72662403b948b0028",
+            "_tpl": "5f633ff5c444ce7e3c30a006",
+            "parentId": "69fa24ac2662403b948b0037",
+            "slotId": "mod_charge",
+            "upd": {
+              "SpawnedInSession": true
+            }
+          },
+          {
+            "_id": "69fa24a72662403b948b0029",
+            "_tpl": "675307301f7c19a9780f2668",
+            "parentId": "69fa24ac2662403b948b0037",
+            "slotId": "mod_charge_001",
+            "upd": {
+              "SpawnedInSession": true
+            }
+          },
+          {
+            "_id": "69fa24a72662403b948b002a",
+            "_tpl": "57ac965c24597706be5f975c",
+            "parentId": "69fa24a72662403b948b0026",
+            "slotId": "mod_scope",
+            "upd": {
+              "SpawnedInSession": true,
+              "Sight": {
+                "ScopesCurrentCalibPointIndexes": [
+                  0,
+                  0
+                ],
+                "ScopesSelectedModes": [
+                  0,
+                  0
+                ],
+                "SelectedScope": 0,
+                "ScopeZoomValue": 0
+              }
+            }
+          },
+          {
+            "_id": "69fa24a72662403b948b002b",
+            "_tpl": "63d3ce0446bd475bcb50f55f",
+            "parentId": "69fa24a72662403b948b0026",
+            "slotId": "mod_barrel",
+            "upd": {
+              "SpawnedInSession": true
+            }
+          },
+          {
+            "_id": "69fa24a72662403b948b002c",
+            "_tpl": "5c9a25172e2216000f20314e",
+            "parentId": "69fa24a72662403b948b0026",
+            "slotId": "mod_handguard",
+            "upd": {
+              "SpawnedInSession": true
+            }
+          },
+          {
+            "_id": "69fa24a72662403b948b002d",
+            "_tpl": "5c1780312e221602b66cc189",
+            "parentId": "69fa24a72662403b948b0026",
+            "slotId": "mod_sight_rear",
+            "upd": {
+              "SpawnedInSession": true,
+              "Sight": {
+                "ScopesCurrentCalibPointIndexes": [
+                  0
+                ],
+                "ScopesSelectedModes": [
+                  0
+                ],
+                "SelectedScope": 0,
+                "ScopeZoomValue": 0
+              }
+            }
+          },
+          {
+            "_id": "69fa24a72662403b948b002e",
+            "_tpl": "5c7fb51d2e2216001219ce11",
+            "parentId": "69fa24a72662403b948b002b",
+            "slotId": "mod_muzzle",
+            "upd": {
+              "SpawnedInSession": true
+            }
+          },
+          {
+            "_id": "69fa24a72662403b948b002f",
+            "_tpl": "63d3ce281fe77d0f2801859e",
+            "parentId": "69fa24a72662403b948b002b",
+            "slotId": "mod_gas_block",
+            "upd": {
+              "SpawnedInSession": true
+            }
+          },
+          {
+            "_id": "69fa24a72662403b948b0030",
+            "_tpl": "689c8981bce76ccfbf01862f",
+            "parentId": "69fa24a72662403b948b002c",
+            "slotId": "mod_tactical_001",
+            "upd": {
+              "SpawnedInSession": true
+            }
+          },
+          {
+            "_id": "69fa24a72662403b948b0031",
+            "_tpl": "5c17804b2e2216152006c02f",
+            "parentId": "69fa24a72662403b948b002c",
+            "slotId": "mod_sight_front",
+            "upd": {
+              "SpawnedInSession": true,
+              "Sight": {
+                "ScopesCurrentCalibPointIndexes": [
+                  0
+                ],
+                "ScopesSelectedModes": [
+                  0
+                ],
+                "SelectedScope": 0,
+                "ScopeZoomValue": 0
+              }
+            }
+          },
+          {
+            "_id": "69fa24a72662403b948b0032",
+            "_tpl": "544909bb4bdc2d6f028b4577",
+            "parentId": "69fa24a72662403b948b002c",
+            "slotId": "mod_tactical_000",
+            "upd": {
+              "SpawnedInSession": true,
+              "Light": {
+                "IsActive": true,
+                "SelectedMode": 0
+              }
+            }
+          },
+          {
+            "_id": "69fa24a72662403b948b0033",
+            "_tpl": "638f2003bbd47aeb9e0ff637",
+            "parentId": "69fa24a72662403b948b002c",
+            "slotId": "mod_handguard",
+            "upd": {
+              "SpawnedInSession": true
+            }
+          },
+          {
+            "_id": "69fa24a72662403b948b0034",
+            "_tpl": "55d614004bdc2d86028b4568",
+            "parentId": "69fa24a72662403b948b002e",
+            "slotId": "mod_muzzle",
+            "upd": {
+              "SpawnedInSession": true
+            }
+          },
+          {
+            "_id": "69fa24a72662403b948b0035",
+            "_tpl": "689c887cd18a3665b8045743",
+            "parentId": "69fa24a72662403b948b0030",
+            "slotId": "mod_tactical",
+            "upd": {
+              "SpawnedInSession": true,
+              "Light": {
+                "IsActive": true,
+                "SelectedMode": 0
+              }
+            }
+          },
+          {
+            "_id": "69fa24a72662403b948b0036",
+            "_tpl": "588226d124597767ad33f787",
+            "parentId": "69fa24a72662403b948b0033",
+            "slotId": "mod_foregrip",
+            "upd": {
+              "SpawnedInSession": true
+            }
+          }
         ],
         "_encyclopedia": "6933764646149ffb28ed75e0"
       }
     ],
-
     "locales": {
       "en": {
         "name": "ISB Modified Colt M4A1 5.56x45 assault rifle",
@@ -301,27 +270,27 @@
         "shortName": "M4A1 da ISB",
         "description": "Uma variante modificada da carabina Colt M4A1, adaptada pela ISB SOF para uso em operações especiais de alta intensidade. Esta versão substitui diversos componentes padrão por peças otimizadas, incluindo um sistema de gases reajustado, conjunto de ferrolho aprimorado e componentes internos reforçados, resultando em uma cadência de tiro superior sem comprometer a confiabilidade da plataforma."
       }
-    
     },
-
     "fleaPriceRoubles": 149800,
-
     "handbookPriceRoubles": 906700,
-
     "addtoBots": false,
-
     "CanSellOnRagfair": false,
-
     "IsAlwaysAvailableForInsurance": false,
-
     "InsuranceDisabled": true,
-    
+    "masteries": true,
+    "masterySections": [
+      {
+        "Level2": 1600,
+        "Level3": 2000,
+        "Name": "M4",
+        "Templates": [
+          "6a1e14b82ce3a438f4b6b2e8"
+        ]
+      }
+    ],
     "CanRequireOnRagfair": false,
-
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "addtoStaticLootContainers": false,
-
     "StaticLootContainers": [
       {
         "ContainerName": "",

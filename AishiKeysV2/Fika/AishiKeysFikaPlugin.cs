@@ -14,24 +14,19 @@ namespace AishiKeys.Fika
         public const string PluginName = "Aishi Keys - Fika";
         public const string PluginVersion = "1.0.0";
         public const string FikaPluginGuid = "com.fika.core";
-
         private FikaAishiKeysNetworkBridge _bridge;
         private Harmony _harmony;
-
         public void Awake()
         {
             try
             {
                 _harmony = new Harmony(PluginGuid);
                 _harmony.PatchAll(typeof(AishiKeysFikaPlugin).Assembly);
-
                 _bridge = new FikaAishiKeysNetworkBridge(Logger);
                 _bridge.Initialize();
-
                 if (!AishiKeysMod.InstallNetworkBridge(_bridge))
                 {
-                    Logger.LogError(
-                        "Aishi Keys Fika: the main plugin rejected the network bridge.");
+                    Logger.LogError("Aishi Keys Fika: the main plugin rejected the network bridge.");
                     _bridge.Dispose();
                     _bridge = null;
                     _harmony?.UnpatchSelf();
@@ -39,9 +34,7 @@ namespace AishiKeys.Fika
                     return;
                 }
 
-                Logger.LogInfo(
-                    "Aishi Keys Fika 1.0.0 initialized. Host, client and headless synchronization enabled; " +
-                    "native Fika key interactions are patched for ultra-key compatibility.");
+                Logger.LogInfo("Aishi Keys Fika 1.0.0 initialized. Host, client and headless synchronization enabled; " + "native Fika key interactions are patched for ultra-key compatibility.");
             }
             catch (Exception ex)
             {

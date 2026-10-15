@@ -1,0 +1,83 @@
+[
+  {
+    "ZoneId": "isb_cb_office_plant_hack",
+    "ZoneName": "isb_cb_office_plant_hack",
+    "ZoneLocation": "laboratory",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-120.924",
+      "Y": "1.374",
+      "Z": "-324.012",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "2.4",
+      "Y": "2.4",
+      "Z": "2.4",
+      "W": "0"
+    },
+    "GroupPosition": null,
+    "Salvage": null
+  },
+  {
+    "ZoneId": "isb_cb_office_plant_upload",
+    "ZoneName": "isb_cb_office_plant_upload",
+    "ZoneLocation": "laboratory",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-183.028",
+      "Y": "0.071",
+      "Z": "-329.122",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "2.4",
+      "Y": "2.4",
+      "Z": "2.4",
+      "W": "0"
+    },
+    "GroupPosition": null,
+    "Salvage": null
+  },
+  {
+    "ZoneId": "isb_cb_office_plant_ssd",
+    "ZoneName": "isb_cb_office_plant_ssd",
+    "ZoneLocation": "laboratory",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-267.751",
+      "Y": "4.188",
+      "Z": "-374.327",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "2.4",
+      "Y": "2.4",
+      "Z": "2.4",
+      "W": "0"
+    },
+    "GroupPosition": null,
+    "Salvage": null
+  }
+]

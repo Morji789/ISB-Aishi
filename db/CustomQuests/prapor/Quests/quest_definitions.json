@@ -1,5 +1,5 @@
 {
-"69a9e13ce82619b85edf32ed": {
+  "69a9e13ce82619b85edf32ed": {
     "QuestName": "Dúvida 01",
     "_id": "69a9e13ce82619b85edf32ed",
     "acceptPlayerMessage": "69a9e13ce82619b85edf32ed acceptPlayerMessage",
@@ -99,6 +99,6 @@
     "status": 0,
     "successMessageText": "69a9e13ce82619b85edf32ed successMessageText",
     "traderId": "54cb50c76803fa8b248b4571",
-                "type": "Skill"
- }
+    "type": "Skill"
+  }
 }

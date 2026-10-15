@@ -1,0 +1,67 @@
+{
+  "0eafc344b76f5164bd11eb2f": {
+    "itemTplToClone": "5a3501acc4a282000d72293a",
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "handbookPriceRoubles": 3232,
+    "fleaPriceRoubles": 33400,
+    "overrideProperties": {
+      "Prefab": {
+        "path": "aishiweapons/magazines/ar10_pmag_srlr_20_tape/mag_ar10_magpul_pmag_sr_gen_3_762x51_20_tape.bundle",
+        "rcid": ""
+      },
+      "Cartridges": [
+        {
+          "_id": "2ec484d3f24c56d585dd92ac",
+          "_max_count": 20,
+          "_name": "cartridges",
+          "_parent": "0eafc344b76f5164bd11eb2f",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a6086ea4f39f99cd479502f",
+                  "5a608bf24f39f98ffc77720e",
+                  "58dd3ad986f77403051cba8f",
+                  "5e023e53d4353e3302577c4c",
+                  "5efb0c1bd79ff02a1f5e68d9",
+                  "5e023e6e34d52a55c3304f71",
+                  "5e023e88277cce2b522ff2b1",
+                  "6529243824cbe3c74a05e5c1",
+                  "6529302b8c26af6326029fb7",
+                  "6768c25aa7b238f14a08d3f6"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ],
+      "Name": "AR-10 7.62x51 Magpul PMAG 20 SR-LR GEN M3 20-round magazine (Tape)",
+      "ShortName": "PMAG 7.62",
+      "Description": "A 20-round double-stack Magpul PMAG SR/LR GEN M3 20 magazine for 7.62x51 NATO ammunition. Tape Version. Change the tape color from the magazine menu in your stash.",
+      "CanRequireOnRagfair": true
+    },
+    "locales": {
+      "en": {
+        "name": "AR-10 7.62x51 Magpul PMAG 20 SR-LR GEN M3 20-round magazine (Tape)",
+        "shortName": "PMAG 7.62",
+        "description": "A 20-round double-stack Magpul PMAG SR/LR GEN M3 20 magazine for 7.62x51 NATO ammunition. Tape Version. Change the tape color from the magazine menu in your stash."
+      },
+      "po": {
+        "name": "Carregador de 20 munições Magpul PMAG SR-LR GEN M3 AR-10 7.62x51mm (Tape)",
+        "shortName": "PMAG 20",
+        "description": "Carregador PMAG SR/LR GEN M3 20, com fileira dupla de alimentação com 20 munições de calibre 7.62x51 NATO Tape Version. Change the tape color from the magazine menu in your stash."
+      }
+    },
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoItemBlacklist": true,
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_magazine"
+    ]
+  }
+}
