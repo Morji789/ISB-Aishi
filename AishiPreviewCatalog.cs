@@ -74,6 +74,12 @@ public sealed class AishiPreviewCatalog(ModHelper mods, JsonUtil json, DatabaseS
             return assetStamps[key] = Digest(string.Join("|", parts));
         }
         var stamps = new Dictionary<string, string>(StringComparer.Ordinal);
+        JsonNode? Visual(JsonNode? value) => value switch
+        {
+            JsonObject obj => new JsonObject(obj.Where(property => property.Key != "_id").Select(property => new KeyValuePair<string, JsonNode?>(property.Key, Visual(property.Value)))),
+            JsonArray array => new JsonArray(array.Select(Visual).ToArray()),
+            _ => value?.DeepClone()
+        };
         string Stamp(string id)
         {
             if (stamps.TryGetValue(id, out var cached)) return cached;
@@ -81,7 +87,7 @@ public sealed class AishiPreviewCatalog(ModHelper mods, JsonUtil json, DatabaseS
             var visual = new JsonObject();
             foreach (var property in properties.OrderBy(property => property.Key, StringComparer.Ordinal))
                 if (property.Key is "Prefab" or "Width" or "Height" or "Slots" or "Grids" or "Foldable" or "HasHinge" or "HideEntrails" or "VisibleAmmoRangesString" or "UsePrefabSprite" || property.Key.StartsWith("ExtraSize", StringComparison.Ordinal))
-                    visual[property.Key] = property.Value?.DeepClone();
+                    visual[property.Key] = property.Key is "Slots" or "Grids" ? Visual(property.Value) : property.Value?.DeepClone();
             var path = properties["Prefab"]?["path"]?.GetValue<string>() ?? "";
             return stamps[id] = Digest(visual.ToJsonString() + Asset(path));
         }
