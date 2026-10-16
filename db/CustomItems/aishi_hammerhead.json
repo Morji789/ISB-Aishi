@@ -8,7 +8,7 @@
         "path": "equipment/aishi_hammerhead/hammerhead.bundle",
         "rcid": ""
       },
-      "Weight": 2.6,
+      "Weight": 4.2,
       "Width": 2,
       "Height": 2,
       "Grids": [],
@@ -46,7 +46,8 @@
       "DeafStrength": "Low",
       "FaceShieldComponent": false,
       "HasHinge": false,
-      "MergesWithChildren": false
+      "MergesWithChildren": false,
+      "BlindnessProtection": 0.4
     },
     "locales": {
       "en": {
@@ -68,7 +69,7 @@
     "addtoBots": false,
     "CanSellOnRagfair": true,
     "CanRequireOnRagfair": false,
-    "addtoItemBlacklist": false,
+    "addtoItemBlacklist": true,
     "addtoStaticLootContainers": false,
     "StaticLootContainers": [
       {

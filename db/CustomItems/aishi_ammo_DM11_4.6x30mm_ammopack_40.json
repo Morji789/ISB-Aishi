@@ -1,16 +1,13 @@
 {
   "6a30ec66d725140ed59cdd1c": {
-
     "itemTplToClone": "6489870774a806211e4fb685",
     "parentId": "543be5cb4bdc2deb348b4568",
     "handbookParentId": "5b47574386f77428ca22b33c",
-
-
-    "overrideProperties": { 
+    "overrideProperties": {
       "ExaminedByDefault": false,
-        "IsUnsaleable": true,
-        "IsUnbuyable": true,
-        "StackSlots": [
+      "IsUnsaleable": true,
+      "IsUnbuyable": true,
+      "StackSlots": [
         {
           "_id": "6a31cebf49b9219416309862",
           "_max_count": 40,
@@ -28,23 +25,13 @@
           "_proto": "6a31d65f7bc5b4431d99b12c"
         }
       ],
-
-        
-
       "Prefab": {
-
         "path": "assets/content/items/ammo/boxes/item_ammo_box_4_6x30mm.bundle",
         "rcid": ""
       },
-
-
-      "Width": 1,
-      "Height": 1,
       "Weight": 0.125,
-
       "Grids": []
     },
-
     "locales": {
       "en": {
         "name": "4.6x30mm DM11 ammo pack (40 pcs)",
@@ -56,29 +43,17 @@
         "shortName": "DM11",
         "description": "Um pacote de munição 4.6x30mm DM11, 40 cartuchos."
       }
-    
     },
-
     "fleaPriceRoubles": 66990,
-
     "handbookPriceRoubles": 111690,
-
     "addCaliberToAllCloneLocations": true,
-
     "addtoStaticAmmo": false,
-
     "staticAmmoProbability": 100,
-
     "addtoBots": true,
-
     "CanSellOnRagfair": false,
-
     "CanRequireOnRagfair": false,
-    
-    "addtoItemBlacklist": true, 
-
+    "addtoItemBlacklist": true,
     "addtoStaticLootContainers": true,
-
     "staticLootContainers": [
       {
         "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
