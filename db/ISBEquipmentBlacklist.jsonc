@@ -6,1234 +6,1076 @@
   "preserveExplicitEventLoot": true,
   "categories": {
     "chestRigs": [
-      "69420ebfe113c8264c419d3d", // item_equipment_rig_carrierTactec
-      "d67ad69a3dbb5f7db30448c4", // ana_tactical_m2
-      "6a07e92cf0655c4e29c5127e", // ana_tactical_m2
-      "6a07e928f6c73d88baf0d370", // item_equipment_armor_a18
-      "694204bc230f3fb07068884f", // item_equipment_armor_arscpc
-      "696dc36137943ac278917ac7", // bearRig
-      "3d4db03445b9519c8b551175", // bearRig
-      "024925dff8b05f2aa3cdbc6d", // item_equipment_rig_tv110
-      "1753fe76be5c50808fd90d1d", // item_equipment_rig_tv110
-      "e8c9b4c9ed10529190d67709", // item_equipment_rig_tv110
-      "185e1694688754378fc7aae3", // item_equipment_rig_tv110
-      "5f4b9516b5c95359aae3496f", // item_equipment_rig_tv110
-      "cbca7b76be4a59b28dbad0b7", // item_equipment_rig_tv110
-      "fb81f4923b6c5484bffdb122", // item_equipment_rig_tv110
-      "6b12e74840795586adb79d20", // item_equipment_rig_tv110
-      "30cea75e15155b20bf35fa0f", // item_equipment_rig_tv110
-      "bb7ac024e7e755438838e1f1", // item_equipment_rig_tv110
-      "d96a92812231531f9a0eaf7f", // item_equipment_rig_tv110
-      "da50ae18c81c5add9c9231f3", // item_equipment_rig_tv110
-      "798b9eec540753e9a38f9500", // item_equipment_rig_tv110
-      "be5f08f5165055df89511f06", // item_equipment_rig_tv110
-      "221f2a8e694658a98fc0405b", // item_equipment_rig_tv110
-      "2a3ca34d0be75671afb3728b", // item_equipment_rig_tv110
-      "be1ea47eec1f59fabfedc36b", // item_equipment_rig_tv110
-      "e1e4b956da175d83acfbb112", // item_equipment_rig_tv110
-      "16420ba211b75359a2d0aeb5", // item_equipment_rig_tv110
-      "49eb6a6b878b568aa3be1f9e", // item_equipment_rig_tv110
-      "4d779106d4695d1bb9f1f824", // item_equipment_rig_tv110
-      "e4d47681bc6d52029ca7a3f7", // item_equipment_rig_tv110
-      "9e163e28065c536790eb8e63", // item_equipment_rig_tv110
-      "d68371bd65fd542fa48555c2", // item_equipment_rig_tv110
-      "6317307fb5095330ae64213d", // item_equipment_rig_tv110
-      "ff3e2b73fc4ed86753c51e62", // item_equipment_rig_triton
-      "6a36f2ff7521fe0456759339", // item_equipment_rig_boss_blackknight
-      "69e993970ae63611e1b219d0", // item_equipment_rig_boss_blackknight
-      "6a0c8d060ae9d5ea831d93c9", // item_equipment_rig_thunderbolt
-      "6a07e9346cb94e635eeaffb9", // item_equipment_rig_MBSS
-      "dea3b4d4670e523381e82172", // item_equipment_rig_tv110
-      "55cc46b4a0635083aeb4817b", // item_equipment_rig_boss_birdeye
-      "69e98f93bfb21d9384a9440c", // item_equipment_rig_boss_birdeye
-      "693873a5b94c659818e18a1c", // item_equipment_rig_boss_birdeye
-      "6a0c8971059c31bc88b71651", // item_equipment_rig_boss_birdeye
-      "cc39fe003b945fc39fa095eb", // item_equipment_armor_a18
-      "48ff2a0d74195cee92d76d4a", // item_equipment_armor_a18
-      "6a07e931698298899e8270e4", // item_equipment_rig_boss_big_pipe
-      "9b9a352c2f205a6eb7dcc69c", // item_equipment_rig_tv110
-      "544dac9ec61f5b779d460600", // item_equipment_rig_tv110
-      "badc44d55a0050fc8a847e06", // item_equipment_rig_stich_defense_mod2
-      "693ad9f9b7a7a2ad8112bbea", // item_equipment_rig_stich_defense_mod2
-      "6a07e93836380a0f34f772aa", // item_equipment_rig_tt_plate_carrier_mk_3
-      "be2b0419e31f55249e24ab1b", // item_equipment_rig_tv110
-      "5cd1d99f9044524fb247f500" // item_equipment_armor_a18
+      "69420ebfe113c8264c419d3d", // 5.11 Tactical TacTec plate carrier (USEC Intelligence Support Bureau)
+      "6a07e92cf0655c4e29c5127e", // ANA Tactical M2 plate carrier (USEC Intelligence Support Bureau)
+      "6a07e928f6c73d88baf0d370", // Ars Arma A18 Skanda plate carrier (USEC Intelligence Support Bureau)
+      "694204bc230f3fb07068884f", // Ars Arma CPC MOD.1 plate carrier (USEC Intelligence Support Bureau)
+      "024925dff8b05f2aa3cdbc6d", // Blue Force Gear PLATEminus V2 Plate Carrier (Black Division)
+      "1753fe76be5c50808fd90d1d", // Blue Force Gear PLATEminus V2 Plate Carrier (Black Division)
+      "e8c9b4c9ed10529190d67709", // Blue Force Gear PLATEminus V2 Plate Carrier (Black Division)
+      "be5f08f5165055df89511f06", // Blue Force Gear PLATEminus V2 Plate Carrier (MultiCam)
+      "6a36f2ff7521fe0456759339", // Crye Precision CPC plate carrier (Goons II)
+      "69e993970ae63611e1b219d0", // Crye Precision CPC plate carrier (White Tusk Edition)
+      "6a0c8d060ae9d5ea831d93c9", // Direct Action Thunderbolt compact chest rig (USEC Intelligence Support Bureau)
+      "6a07e9346cb94e635eeaffb9", // Eagle Allied Industries MBSS plate carrier (USEC Intelligence Support Bureau)
+      "69e98f93bfb21d9384a9440c", // LBT-1961A Load Bearing Chest Rig (White Tusk Edition)
+      "693873a5b94c659818e18a1c", // Modified LBT-1961A Load Bearing Chest Rig (USEC Intelligence Support Bureau)
+      "6a0c8971059c31bc88b71651", // Modified LBT-1961A Load Bearing Chest Rig V2 (USEC Intelligence Support Bureau Version II)
+      "cc39fe003b945fc39fa095eb", // First Spear Siege-R Optimized M.A.S.S. Plate Carrier (SCP Foundation)
+      "48ff2a0d74195cee92d76d4a", // Spiritus Systems LV-119 Plate Carrier (Black Division V3)
+      "6a07e931698298899e8270e4", // S&S Precision PlateFrame plate carrier (USEC Intelligence Support Bureau)
+      "693ad9f9b7a7a2ad8112bbea", // Stich Profi Stich Defense mod.2 plate carrier (USEC Intelligence Support Bureau)
+      "6a07e93836380a0f34f772aa", // Tasmanian Tiger Plate Carrier MKIII (USEC Intelligence Support Bureau)
+      "5cd1d99f9044524fb247f500" // First Spear Siege-R Optimized M.A.S.S. Plate Carrier (Black Division V2)
     ],
     "armor": [
-      "6a07e925f6c3b7986c02f80b", // heavy
-      "7684785c71295a7292ce6897", // heavy
-      "138f84926c17515ab57833db", // item_equipment_armor_iotv
-      "b9b336b775e55e39a04c9c35", // item_equipment_armor_iotv_2
-      "5f98648760ce5ebe9ba96d92", // item_equipment_armor_iotv_1
-      "0140978ce1035280be45a118", // item_equipment_armor_hexatac
-      "bdc406a9dc2652eb9efef9bd", // item_equipment_armor_hexatac
-      "d052717704bf51a1bdef91f1", // item_equipment_armor_hexatac
-      "13ec9619adf65faf87998dab", // item_equipment_armor_hexatac
-      "606c5003f3505cd8b235dbfe", // item_equipment_armor_hexatac
-      "08b86349fe0e52d381bb6b1f", // item_equipment_armor_hexatac
-      "d94e6339da1f5863a47bdfbe", // item_equipment_armor_hexatac
-      "693ada08f776b05c34f460a5", // armor_gjel
-      "6939bd487e7422a256744950", // item_equipment_armor_trooper
-      "6a0d09c36f85033057ae496a", // item_equipment_armor_trooper
-      "692485fa6de7f1ffffaf1167", // item_equipment_armor_slick
-      "6a07e9181d633a50969d3145", // item_equipment_armor_defender2
-      "45086e6a313050a1ac3d9933", // item_equipment_armor_redut_m
-      "6a07e91cbe3fc4e84a5e6fb2", // item_equipment_armor_redut_m
-      "693ad9fede941f880a36e51d", // item_equipment_armor_redut_t
-      "604f6781e72f590f9f1e65b0", // item_equipment_armor_hexatac
-      "b55292761c0d52adbf45d394", // item_equipment_armor_slick
-      "69e987f14aa57d074d451fc3", // item_equipment_armor_slick
-      "693ada144cedf3aae4935143", // item_equipment_armor_custom_thorintcar
-      "18e3e9173f365975995bc1f0", // item_equipment_armor_korundvm
-      "6a07e920d7a2c6d597db893c" // item_equipment_armor_korundvm
+      "6a07e925f6c3b7986c02f80b", // 6B43 Zabralo-Sh body armor (USEC Intelligence Support Bureau)
+      "0140978ce1035280be45a118", // Blue Force Gear PLATEminus V2 body armor (Black Division)
+      "693ada08f776b05c34f460a5", // BNTI Gzhel-K body armor (USEC Intelligence Support Bureau)
+      "6939bd487e7422a256744950", // Custom ISB SOF HighCom Trooper TFO body armor
+      "6a0d09c36f85033057ae496a", // Custom ISB SOF HighCom Trooper TFO body armor (Version II)
+      "692485fa6de7f1ffffaf1167", // LBT-6094A Slick Plate Carrier (Black)
+      "6a07e9181d633a50969d3145", // FORT Defender-2 body armor (USEC Intelligence Support Bureau)
+      "6a07e91cbe3fc4e84a5e6fb2", // FORT Redut-M body armor (USEC Intelligence Support Bureau)
+      "693ad9fede941f880a36e51d", // FORT Redut-T5 body armor (USEC Intelligence Support Bureau)
+      "69e987f14aa57d074d451fc3", // LBT-6094A Slick Plate Carrier (White Tusk Edition)
+      "693ada144cedf3aae4935143", // NFM THOR Integrated Carrier body armor (USEC Intelligence Support Bureau)
+      "6a07e920d7a2c6d597db893c" // NPP KlASS Korund-VM body armor (USEC Intelligence Support Bureau)
     ],
     "weapons": [
-      "adba052afbd95bb2a0484900", // weapon_glock_glock_17_gen3_9x19
-      "6cd78254487656f08cb22343", // weapon_hk_mp7a2_46x30
-      "13b5cfc385d05dee918b98ba" // weapon_colt_m4a1_556x45
+      "adba052afbd95bb2a0484900", // Glock 17 9x19 pistol (Aishi)
+      "6cd78254487656f08cb22343", // HK MP7A2 4.6x30 submachine gun (Aishi)
+      "13b5cfc385d05dee918b98ba" // Radian Weapons Model 1 FA 5.56x45 assault rifle (Aishi)
     ],
     "mods": [
-      "694b2e29274ab9b2a319b6ed", // nvg_l3_gpnvg-18_anvis
-      "cec10c301d8451328feb203e", // silencer_all_rotor_43_v2_556x45
-      "a48303604ee75e36ba2f3846", // barrel_ar15_370mm
-      "9d6d098f696c5d979e759915", // mag_stanag_magpul_pmag_gen_m3_556x45_20
-      "2143ceb4f2585f19b74b94f2", // mag_stanag_magpul_pmag_gen_m3_556x45_30
-      "f98b7ee596e65bb58e6039be", // mag_stanag_surefire_mag5_556x45_60
-      "b893b06bdc3e55998db05143", // handguard_ar15_aeroknox_ax15_15,8_m_lok
-      "6482d4f300045dfba655e278", // muzzle_ar15_colt_usgi_a2_556x45
-      "e2402a6967f75e769d4ab611", // muzzle_ai_accuracy_international_thread_protector_86x70
-      "f6dd8c2a139b5117ab92f0df", // gas_block_ar15_ba_lo_pro
-      "28045996683d5e9ebcdc9c71", // pistolgrip_ar15_aeroknox_orion_grip
-      "d4e3386c6f495baca8e8b3c5", // stock_ar15_magpul_moe_carbine_blk
-      "02203b3decbc55a69c711261", // reciever_ar15_colt_m4a1_std
-      "a1d50d652e34532e8d27e0f2", // charge_ar15_radian_raptor_ambidextrous_charging_handle
-      "e23480b7d58c54d8b7165c37", // stock_ar15_strike_industries_advanced_receiver_extension
-      "c0f9a64c13fb5a99b0779f0a", // tactical_all_bemeyers_mawl_c1_plus
-      "c3efbaaab97b59ecb9bbb1b3", // tactical_all_bemeyers_mawl_c1_plus
-      "aaf7e0cb2d285c18b6d32048", // scope_all_eotech_xps3-0
-      "412ecb325d22540e8e3b78c3", // mount_all_geissele_super_precision_30mm
-      "fbd18fbdc9b45efb9c6289cd", // mag_glock_glock_big_stick_9x19_24_fde
-      "ad7325ccd95654fe82ac8da8", // mag_glock_glock_big_stick_9x19_31_fde
-      "5ee5b280c16758cc9c21db3d", // mag_glock_glock_w_pad_9x19_19_fde
-      "c0570de6916753e8b8ad6d27", // barrel_glock_alpha_wolf_114mm_threaded_9x19
-      "6604a4f55b495f76a7df70f6", // mag_glock_sgmt_glock_drum_50_9x19_50
-      "6b929b053df3587ba7aa28c7", // reciever_glock_zev_tech_spartan_rmr_cut_gen_3
-      "a804481b43da5f09bc39a0d9", // mag_mp7_hk_std_46x30_20
-      "5794ef94f0f0556ea8b94c2d", // mag_mp7_hk_std_46x30_30
-      "8b577ee9945a538d95a6c4a4", // mag_mp7_hk_std_46x30_40
-      "13c8c2a508d258958ae68af0", // sight_front_all_hk_mp7_std
-      "1a0fee6216175ed09db4bb92", // muzzle_mp7_hk_a1_std_46x30
-      "f7080aaea57a589083f54de9", // stock_mp7_hk_a2_std
-      "039226f90982556c87f2132e", // mount_m_lok_magpul_4,1_inch_picatinny_rail_section
-      "17987f26da82526aa8cb9c30", // mount_m_lok_magpul_cantilever_rail_light_mount
-      "6690e866d6815f48984ec762", // sight_front_all_magpul_mbus_gen2
-      "c2b2b9bbba7a5959bb908481", // sight_rear_all_magpul_mbus_gen2
-      "21bc1f1f5bad5f66a37fec78", // stock_ar15_magpul_rubber_butt_pad
-      "85ca987b1c5951f8912d4a07", // mount_geissele_reptilia_rof_90_trijicon_30mm
-      "50344b9462df580fb599fbbf", // silencer_all_sig_srd_9_9x19
-      "7095b61f529d598ea6a5bcb5", // foregrip_all_stark_se_5_express_grip
-      "3c764a2f7acc5de08f9b7e42", // mount_all_noname_25mm_ring
-      "a284b416da5454939109f6c1", // mount_all_noname_25mm_ring
-      "bbc7c6ae077754adaa65560a", // tactical_all_insight_wmx200
-      "6bb5f3fa56c458d5acc31bbb", // tactical_all_insight_wmx200
-      "eb95ca01f4595bfa949a3c90", // silencer_socom_surefire_socom556_monster_556x45
-      "dd05ecd32ba1527598078ff3", // tactical_all_surefire_x400_vis_laser
-      "c7732e3b558b588f85c3148a", // scope_base_trijicon_rmr
-      "85ec76f36aeb5cb3b1b12328", // scope_base_trijicon_rmr
-      "9866cd5abe45533ebf317ee1", // scope_30mm_razor_hd_gen_2_1_6x24
-      "457bc78d5b1f5e83b327ad26" // foregrip_all_zenit_b25u_rk_1
+      "694b2e29274ab9b2a319b6ed", // Modified L3Harris GPNVG-18 night vision goggles (Black)
+      "cec10c301d8451328feb203e", // Allen Engineering AEM-5 5.56x45 sound suppressor (Aishi)
+      "a48303604ee75e36ba2f3846", // AR-15 5.56x45 Centurion Arms Mk12 18 inch barrel (Aishi)
+      "9d6d098f696c5d979e759915", // AR-15 5.56x45 Daniel Defense 32-round magazine (Aishi)
+      "2143ceb4f2585f19b74b94f2", // AR-15 5.56x45 Magpul PMAG 30 GEN M3 STANAG 30-round magazine (Aishi)
+      "f98b7ee596e65bb58e6039be", // AR-15 5.56x45 SureFire MAG5-60 STANAG 60-round magazine (Aishi)
+      "b893b06bdc3e55998db05143", // AR-15 Aeroknox AX-15 15.8 inch M-LOK handguard (Aishi)
+      "6482d4f300045dfba655e278", // AR-15 Allen Engineering SPR Brake 5.56x45 (Aishi)
+      "e2402a6967f75e769d4ab611", // AR-15 Allen Engineering SPR Collar suppressor mount (Aishi)
+      "f6dd8c2a139b5117ab92f0df", // AR-15 Ballistic Advantage Lo-Pro Gas Block (Aishi)
+      "28045996683d5e9ebcdc9c71", // AR-15 Daniel Defense Enhanced Pistol Grip (Aishi)
+      "d4e3386c6f495baca8e8b3c5", // AR-15 Magpul MOE Carbine stock (Aishi)
+      "02203b3decbc55a69c711261", // AR-15 Radian Weapons Model 1 5.56x45 upper receiver (Aishi)
+      "a1d50d652e34532e8d27e0f2", // AR-15 Radian Weapons Raptor-SD charging handle (Aishi)
+      "e23480b7d58c54d8b7165c37", // AR-15 Strike Industries Advanced Receiver Extension buffer tube (Aishi)
+      "c0f9a64c13fb5a99b0779f0a", // B.E. Meyers MAWL-C1+ tactical device (Aishi)
+      "c3efbaaab97b59ecb9bbb1b3", // B.E. Meyers MAWL-C1+ tactical device (Aishi)
+      "aaf7e0cb2d285c18b6d32048", // EOTech XPS3-0 holographic sight (Aishi)
+      "412ecb325d22540e8e3b78c3", // Geissele Super Precision 30mm ring scope mount (Aishi)
+      "fbd18fbdc9b45efb9c6289cd", // Glock 9x19 "Big Stick" 24-round magazine (Coyote) (Aishi)
+      "ad7325ccd95654fe82ac8da8", // Glock 9x19 "Big Stick" 31-round magazine (Coyote) (Aishi)
+      "5ee5b280c16758cc9c21db3d", // Glock 9x19 19-round magazine (Aishi)
+      "c0570de6916753e8b8ad6d27", // Glock 9x19 Lone Wolf AlphaWolf 114mm threaded barrel (Aishi)
+      "6604a4f55b495f76a7df70f6", // Glock 9x19 SGM Tactical 50-round drum magazine (Aishi)
+      "6b929b053df3587ba7aa28c7", // Glock ZEV Tech HEX Spartan RMR pistol slide (Aishi)
+      "a804481b43da5f09bc39a0d9", // HK MP7 4.6x30 20-round magazine (Aishi)
+      "5794ef94f0f0556ea8b94c2d", // HK MP7 4.6x30 30-round magazine (Aishi)
+      "8b577ee9945a538d95a6c4a4", // HK MP7 4.6x30 40-round magazine (Aishi)
+      "13c8c2a508d258958ae68af0", // HK MP7 flip-up front sight (Aishi)
+      "1a0fee6216175ed09db4bb92", // HK MP7 SureFire SF3P 4.6x30 flash hider (Aishi)
+      "f7080aaea57a589083f54de9", // HK MP7A2 stock (Aishi)
+      "039226f90982556c87f2132e", // Magpul M-LOK 4.1 inch rail (Aishi)
+      "17987f26da82526aa8cb9c30", // Magpul M-LOK Cantilever Mount (Aishi)
+      "6690e866d6815f48984ec762", // Magpul MBUS Gen2 flip-up front sight (Aishi)
+      "c2b2b9bbba7a5959bb908481", // Magpul MBUS Gen2 flip-up rear sight (Aishi)
+      "21bc1f1f5bad5f66a37fec78", // Magpul MOE Carbine rubber buttpad (Aishi)
+      "85ca987b1c5951f8912d4a07", // Reptilia ROF-90 RMR mount for Geissele scope mounts (Aishi)
+      "50344b9462df580fb599fbbf", // SIG Sauer SRD9 9x19 sound suppressor (Aishi)
+      "7095b61f529d598ea6a5bcb5", // Stark SE-5 Express Forward foregrip (Aishi)
+      "3c764a2f7acc5de08f9b7e42", // SureFire M600 Scout Light Thumbscrew Mount (Aishi)
+      "a284b416da5454939109f6c1", // SureFire M600 Scout Light Thumbscrew Mount (Aishi)
+      "bbc7c6ae077754adaa65560a", // SureFire M600 Ultra Scout Light (Aishi)
+      "6bb5f3fa56c458d5acc31bbb", // SureFire M600 Ultra Scout Light (Aishi)
+      "eb95ca01f4595bfa949a3c90", // SureFire SOCOM556-MONSTER 5.56x45 sound suppressor (Aishi)
+      "dd05ecd32ba1527598078ff3", // SureFire X400 Ultra tactical flashlight with laser (Aishi)
+      "c7732e3b558b588f85c3148a", // Trijicon SRO reflex sight (Aishi)
+      "85ec76f36aeb5cb3b1b12328", // Trijicon SRO reflex sight (Aishi)
+      "9866cd5abe45533ebf317ee1", // Vortex Razor HD Gen.2 1-6x24 30mm riflescope (Aishi)
+      "457bc78d5b1f5e83b327ad26" // Zenit RK-1 tactical foregrip on B-25U mount (Aishi)
     ],
-    "ammo": [
-      "699b6b88be849a7f65b7e866", // patron_762x35_whisper
-      "699aab526ac4f65528f1fd63", // patron_1143x23_rip
-      "6a30ec62eb1babffc84227d8", // patron_46x30_ap_sx
-      "6a30ed97ce95057496b93476", // patron_545x39_BS
-      "692dc61870449aedfa85120f", // patron_556x45_ssa_ap
-      "bf758ead73d35346a4843695", // patron_57x28_ss190
-      "699b54a97d3c1c9f69f616b6", // patron_68x51
-      "6931b6a2161edf5b558ee5bc", // patron_762x39_mai_ap
-      "692e3991aeebb57de9a2386b", // patron_762x51_m993
-      "699aae8c9b6a4ab2b769c4a3", // patron_9x19_rip
-      "699b42cc85f85eadd558c083" // patron_9x21_7n42
-    ],
+    "ammo": [],
     "looseLoot": [
-      "699b6b973e813e0eaa275b56", // item_ammo_box_whisper_50
-      "699aab2519b875a27d6ec5d3", // item_ammo_box_1143x23_50_rip
-      "6a30ec66d725140ed59cdd1c", // item_ammo_box_46x30_40_AP
-      "6a31d5c14a24835f775bd1e2", // item_ammo_box_545x39_120_igolnik
-      "6a31d5c8c667d4db08650272", // item_ammo_box_545x39_7N39_30
-      "692dd013f000b7372c0610fe", // item_ammo_box_556x45_100_ssa_ap
-      "692dcf1c9a1816076adbb9d5", // item_ammo_box_556x45_50_SSA_AP
-      "60d24547d27297e5350053bd", // item_ammo_box_57x28_50_ss190
-      "b6280d62f0e343c0120d8481", // item_ammo_box_57x28_50_ss190
-      "699b5493b88594edb24c683a", // item_ammo_box_68x51_20_hybrid
-      "696d81b236067d6c3ef793ca", // heavy
-      "696dc1681e9886c9481337a1", // item_equipment_armor_a18
-      "696dc61aea4264c0d6dddd53", // item_equipment_armor_a18
-      "696eb88de33ae15a9957f724", // item_equipment_armor_a18
-      "6931bc184dd0bd3f32f5c97f", // item_ammo_box_762x39_20_PP
-      "6931bca8197ad8567a64bf86", // item_ammo_box_762x39_20_PP
-      "692e39b730695e0930caff1d", // item_ammo_box_556x45_50_SSA_AP
-      "692e39aea47e15277d847591", // item_ammo_box_556x45_100_ssa_ap
-      "699aad8c961ebda759f9e7fe", // item_ammo_box_9x19_rip_20
-      "699b42575d5c6b46a1eaada5", // item_ammo_box_9x21_30_7n42
-      "6944a28d9f870b0d2db05972", // item_electr_gasanalyzer
-      "6a6a3899fcb69bc1dec561a5", // Item_barter_info_tgdocs
-      "6a6a20af5df54b78cc3ecb91", // Item_barter_info_tgdocs
-      "6943505b469b39a1ccd538bc", // item_electr_gasanalyzer
-      "6969cf4ecb8460933cb02b65", // Item_barter_info_tgdocs
-      "69dc85fa59d20caf8ecfcfc4", // item_spec_radiotransmitter
-      "c5c72a7a3bf1f02421a145bb", // c5c72a7a3bf1f02421a145bb
-      "693a3e0ab997d4dce888921d", // item_equipment_armband_usec
-      "6939c4665f6efbd0b927a45f", // item_equipment_armband_usec
-      "69dc80cad38b281a47d1257e", // item_spec_radiotransmitter
-      "6aa5ff857a930fba7793141b", // item_quest_signal_jammer
-      "69dc84fe5feb9cfd6040ee32", // item_spec_radiotransmitter
-      "6944a50e209575cbdb8cec8e", // item_barter_valuable_elibadge
-      "6a66cd3bbb61030ed6701699", // Item_barter_info_tgdocs
-      "6966abee65811f8362f381e0", // Alpha container
-      "6a7cf0b5c2f90e0e4ece5684", // 6a7cf0b5c2f90e0e4ece5684
-      "693a3989e77a08d438a73bb1", // item_info_intelligence
-      "6a6a26c485ccac3917b1273c", // mark_of_unknown
-      "6a8e765f2bee6c4abdb52713", // item_flash_card_ironkey
-      "4a4661aa041c7a92541e1933", // item_flash_card_ironkey
-      "69e9a15b5e3782f47564fd86", // cap
-      "108e248f0640ee8a58fbe8b9", // Item_barter_medical_transilluminator
-      "237feeaa44ee343bd4ebe5ab", // Item_barter_medical_transilluminator
-      "69435056750a396cab0ff3ad", // item_electr_gasanalyzer
-      "6a8e772b8dc2aa06f80099e4", // item_flash_card_ironkey
-      "69e5613a079c7bc64a33bb77", // Item_barter_info_tgdocs
-      "6a6a208a35e0f5860094fa3d", // Item_barter_info_tgdocs
-      "6a0c8252cdf53775685d923e", // item_equipment_rig_mmac
-      "385ba68eace29436100eec63", // item_equipment_helmet_diamond_age_bastion_shield
-      "690e15d7799d853668054517", // item_thin_diary
-      "69dc7febec5e15cc1e062b05", // item_spec_radiotransmitter
-      "69895d2ebf2c588cb5503924", // Item_barter_info_tgdocs
-      "6969cedc9980a5f16abc2a26", // item_flash_card_ironkey
-      "6a30a69a9c38c641cae11c90", // item_equipment_armor_a18
-      "6a111c7164b1373374405287", // item_equipment_backpack_mystery_ranch_satl
-      "692d327ffeba9ebc0937875e", // item_info_intelligence
-      "69575d3755b37eacd8f3a92a", // item_equipment_armor_a18
-      "1c6be0b9f16730b71ee8ac17", // item_equipment_armor_a18
-      "6a8cfc98ca0eb181f2df0059", // item_flash_card_ironkey
-      "6a45905dc1d900a2efe4eac8", // item_equipment_armor_a18
-      "6957e050afda56ab90744761", // item_equipment_armor_a18
-      "69e97f550b197e4084c986f6", // item_equipment_armor_a18
-      "6a3cc5443ba523695fa73012", // Item_barter_info_tgdocs
-      "6a3da2317b20335d4e35c1aa", // mark_of_unknown
-      "4fef2f1523c2754ade168cfa", // item_flash_card_ironkey
-      "e75a2f88bf9247b6d8096427", // item_equipment_rig_tv110
-      "0743de38a7cf1bd20d6159fe", // item_equipment_rig_tv110
-      "6a4543c3f4d5564b34873434", // item_equipment_armor_redut_m
-      "6a4c68b8a90f66f581bf790f", // item_equipment_rig_tv110
-      "6a4c674d34a3f449ea803c52", // item_equipment_rig_tv110
-      "6a66cd3d30580e2e7433b853", // Item_barter_info_tgdocs
-      "69dc7f46d4b9395c95e79413", // item_spec_radiotransmitter
-      "0948e0b1242f17ae65b80669", // Item_barter_medical_transilluminator
-      "69628e8dd443134f2aa0e9fe", // item_barter_valuable_1gphone
-      "6966abeb22c07d5770860464", // item_barter_valuable_1gphone
-      "6943505f5ebe991629d48f0d", // item_electr_gasanalyzer
-      "6943919a5a189b2f9b98e0ac", // item_electr_gasanalyzer
-      "6a8f3078020049bfa86a8f4a", // item_flash_card_ironkey
-      "693a3be2c852f2c79c4fa10f", // item_info_intelligence
-      "2b20c487a99515b22b11ff78", // item_geiger_counter
-      "6a8ccebf9302acfd1468abdc", // 6a8ccebf9302acfd1468abdc
-      "6a8f1e073b022db2a04c1b76", // item_barter_electr_ssd
-      "6a8f1e1f60f1022c46406c5b", // item_barter_electr_ssd
-      "6a8f540c650b4dbe25badff8", // item_barter_electr_ssd
-      "6a8f0a4350e8e920dd389fd7", // item_barter_electr_ssd
-      "6a8f1e3beb9811b096e224c3", // item_barter_electr_ssd
-      "6a8f0e0be1730357d098267b", // item_barter_electr_ssd
-      "6a8f2f19785af4cc71c3b8e2", // item_flash_card_ironkey
-      "05c26946e5101112654ff5c0", // 05c26946e5101112654ff5c0
-      "69dc806e8645330aee3a1064", // item_spec_radiotransmitter
-      "69eaf72c4cf2c393c76e0847", // item_quest_signal_jammer
-      "1254eb68d298789e43b45ed3", // item_barter_valuable_raven
-      "6183f2a51cb013b5ab62a796", // wallet
-      "b7e0639e756abd3bbb872c2c", // Item_barter_medical_transilluminator
-      "e57cfb4c1b58a40f9032db70", // item_barter_valuable_elibadge
-      "d88925f5ddd4cd8795d5c9bd", // item_barter_other_paracord
-      "9644da05612ad219e7fc4387", // item_barter_other_teddyb
-      "9df4b9812799170d2f7295f7", // item_quest_barter_valuable_teapot
-      "73cc246044b1d66dd70aedb7", // item_barter_electr_hdd_meh_quest
-      "57d2c307a64e179e8995e061", // item_barter_valuable_lion
-      "4a2e4aaef50cda01112c41b2", // item_barter_valuable_skullring
-      "3ddc22a4b7e5ba67ee38edf9", // zibbo
-      "397495f6cda093c895814c0f", // item_barter_valuable_egg
-      "eee72a686853f282c7cd01da", // cigarettes_soyuz_apollo
-      "b543125009b989d7287b58ab", // item_barter_valuable_parrot
-      "68c80d9fb3ef768bbe58a072", // item_barter_other_pickles
-      "72eb2bb2416ee48ee80d63d4", // item_barter_valuable_kunai
-      "337052e7f499ba2f52dfa089", // Item_barter_medical_defibrillator
-      "d94f4a94edf1050b40c93cdb", // item_barter_other_tea
-      "06f0d5bdc44c4ddcd0759d31", // item_barter_valuable_bitcoin
-      "ae711ed0c5878f74a4264e27", // Item_barter_tarko_deputat
-      "fac4f1a658ad562cddde72c6", // item_barter_valuable_rolex
-      "25dd7397974f7d7940ad9742", // item_barter_other_lupo
-      "90c688feeba7c89aa1a3c8a7", // item_barter_valuable_prokill
-      "45e6cfe53aabe0b5e846cad5", // item_barter_building_kektape
-      "a2c16b836b441dc953652bd6", // Item_barter_other_bage_ng
-      "a38cbf3abbfdcbedaa1b9a0e", // item_barter_valuable_sneaker
-      "571e1ce5aa8a32c10b70d206", // item_barter_building_poxeram
-      "69dc874ae348fd1fd7844b31", // item_spec_radiotransmitter
-      "69449dec6d32b699b23c2ae5", // car_battery
-      "694bfa72ece7568b0aa9d916", // Item_barter_medical_transilluminator
-      "69e5691d7508ab4bcec902dd", // Item_barter_info_tgdocs
-      "6a8f39899225d6a63dd472a1", // item_flash_card_ironkey
-      "d84c0f0331dd5b10be0029f5", // level3_soft_armor_back
-      "ac2355e3037f5066a6af52a3", // level3_soft_armor_back
-      "69e58ee426845b37bdc250fd", // Item_barter_info_tgdocs
-      "6a3daa4960d41b71a463ffa5", // mark_of_unknown
-      "694479f61287f9a2b1060a7f", // item_spec_radiotransmitter
-      "6a8e76ea2c551db921771c4f", // item_flash_card_ironkey
-      "69628cbc7ff0cc09cfde00e2", // Item_barter_info_tgdocs
-      "6966abe33f2ebecc04530070", // item_flash_card_ironkey
-      "6961ce32b53e77c8567378f6", // item_flash_card_ironkey
-      "694391d982509830da94f5d0", // item_flash_card_ironkey
-      "69eb9ab4a518a569e3693de9", // level3_soft_armor_back
-      "69eb9afecf8ecad78737ab87", // level3_soft_armor_back
-      "69eb9b5fb83cefe5297f85fd", // level3_soft_armor_back
-      "69eb9bc687c136384bdf0769", // level3_soft_armor_back
-      "69eb9c95641f4b74ac0ddee8", // level3_soft_armor_back
-      "69eb9cb8f7190defda7fae35", // level3_soft_armor_back
-      "69eb9cf5ea68c8c4b96d32fe", // level3_soft_armor_back
-      "69eb9d795b4e3846c7e534e3", // level3_soft_armor_back
-      "6a30aad1ab8b8a08436b7359", // level3_soft_armor_back
-      "6a30ab0c152fd118ecd969b0", // level3_soft_armor_back
-      "6a30ab2d017bf1af07715f6c", // level3_soft_armor_back
-      "6a30ab3c9ba5586cbee06620", // level3_soft_armor_back
-      "0f7880bda029d3322f3eb603", // item_equipment_helmet_crye_airframe_tan
-      "e875fa2b6553908dc57716f6", // item_flash_card_ironkey
-      "69e9a6ecb9a707df5df24b0d", // item_equipment_helmet_diamond_age_bastion_shield
-      "69e9a740c5601070091d418b", // item_equipment_helmet_neosteel_mandible
-      "f45c413c96ffdd24e9718baa", // level3_soft_armor_back
-      "164509b59f450107a5ab9025", // level3_soft_armor_back
-      "c446d91d442ef3c4ca73281d", // level3_soft_armor_back
-      "fa3700c39f5dc88282249b35", // level3_soft_armor_back
-      "6a080d584a66939befef7e05", // item_equipment_helmet_galvion_applique
-      "3aba08d3ee3ee948768d510b", // paca_level2_soft_armor_back
-      "7b1568a60c1ba51890fdf3ea", // ana_m1_level2_soft_armor_front
-      "865299f33353ca900257e11e", // rbav_af_level2_soft_armor_groin_front
-      "a447cf7e9f7bdba6b0e84295", // strandhogg_level2_soft_armor_left_side
-      "0b58589aa5f8190c34e36e79", // ana_m1_level2_soft_armor_right_side
-      "6a0132335800bd16221e79fd", // cap
-      "69ea552ab22ec6fe8eee2241", // level3_soft_armor_back
-      "69ea599bc7045f8e1c03a018", // level3_soft_armor_back
-      "69ea5a3f2b531e892d540545", // level3_soft_armor_back
-      "69ea5ab038a6cade103f5c63", // level3_soft_armor_back
-      "6a4c74f853926ec162d22a43", // nvg_norotos_dual_dovetail_mount
-      "6a4c716dcbf243af9349bafd", // nvg_norotos_dual_dovetail_mount
-      "6a4c7475199066d1ea0b5131", // nvg_norotos_dual_dovetail_mount
-      "6a3c4686e9f7c8f646e2f3ca", // mark_of_unknown
-      "890cc1ff79a9633e1d0b5a40", // Item_barter_medical_transilluminator
-      "69fce4a63974614588b85dc7", // item_equipment_backpack_mystery_ranch_satl
-      "692d302aa11c340bc5198946", // item_info_intelligence
-      "69895ab4bac10fe7a55b5fba", // Item_barter_info_tgdocs
-      "00d2d09193fe193187f65c98", // item_equipment_armor_a18
-      "a005254ae00be0612c5dcf96", // item_equipment_armor_a18
-      "6a8cff3621e52fbbd04f4113", // item_flash_card_ironkey
-      "6a8cfca2e34752ad44304cd6", // item_flash_card_ironkey
-      "69f422093640de523b76ea42", // item_electr_gasanalyzer
-      "6a8f29c48faabd7edce25062", // 6a8f29c48faabd7edce25062
-      "69439094f017540f5df671f1", // item_electr_gasanalyzer
-      "6a8f332eff53d07351a35f93", // item_flash_card_ironkey
-      "6a6d234944cd24f0ae3243c6", // Item_barter_info_tgdocs
-      "69b38ba3c95602273354aaff", // Item_barter_info_tgdocs
-      "6988145ba9682d977f9359a2", // item_container_secured_kappa
-      "109f634519a753018fbb71ff", // item_equipment_rig_bankrobber
+      "696d81b236067d6c3ef793ca", // 6B45 body armor (USEC Intelligence Support Bureau)
+      "696dc1681e9886c9481337a1", // 6B45 body armor (USEC Intelligence Support Bureau)
+      "696dc61aea4264c0d6dddd53", // 6B45 body armor (USEC Intelligence Support Bureau)
+      "696eb88de33ae15a9957f724", // 6B45 body armor (USEC Intelligence Support Bureau)
+      "6944a28d9f870b0d2db05972", // A cylinder containing radioactive material
+      "6a6a3899fcb69bc1dec561a5", // A note issued by TerraGroup to its security division regarding USEC ISB
+      "6a6a20af5df54b78cc3ecb91", // AA2
+      "6943505b469b39a1ccd538bc", // Advanced SSTV KW12 Military Radio
+      "6969cf4ecb8460933cb02b65", // Advanced SSTV KW12 Military Radio
+      "69dc85fa59d20caf8ecfcfc4", // Agent network deployment report
+      "c5c72a7a3bf1f02421a145bb", // Anomalous Containment Case
+      "693a3e0ab997d4dce888921d", // Armband (Black Division)
+      "6939c4665f6efbd0b927a45f", // Armband (ISB)
+      "69dc80cad38b281a47d1257e", // ARRS system specifications
+      "6aa5ff857a930fba7793141b", // ISB Model KW12 Advanced Modified SSTV Radio
+      "69dc84fe5feb9cfd6040ee32", // Audio tape with incriminating evidence
+      "6944a50e209575cbdb8cec8e", // Badge from the Russian Committee for State Security
+      "6a66cd3bbb61030ed6701699", // BEAR Operator's UNTAR Investigation File
+      "6966abee65811f8362f381e0", // Beta Secure Container with unknown documents
+      "6a7cf0b5c2f90e0e4ece5684", // Black Division Gear Crate
+      "693a3989e77a08d438a73bb1", // Black Division intelligence plans
+      "6a6a26c485ccac3917b1273c", // Black notebook with information on Aishi and USEC ISB
+      "6a8e765f2bee6c4abdb52713", // Blueprints and technical documentation
+      "4a4661aa041c7a92541e1933", // C.A.S.S.I.E. data flash drive
+      "69e9a15b5e3782f47564fd86", // Champion's helmet (White Tusk Edition)
+      "108e248f0640ee8a58fbe8b9", // Chemical Container with biological material
+      "237feeaa44ee343bd4ebe5ab", // Chemical container with a virus sample
+      "69435056750a396cab0ff3ad", // Civilian Radio Baofeng UV-5R
+      "6a8e772b8dc2aa06f80099e4", // Classified documents
+      "69e5613a079c7bc64a33bb77", // Clipboard with customs documents
+      "6a6a208a35e0f5860094fa3d", // Cover page of Juna Aishi's dossier while she was still in service to USEC
+      "6a0c8252cdf53775685d923e", // Crye Precision JPC Plate Carrier (USEC Intelligence Support Bureau)
+      "385ba68eace29436100eec63", // Diamond Age Bastion helmet armor plate (Desert)
+      "690e15d7799d853668054517", // Diary with contact details for Aishi and her team.
+      "69dc7febec5e15cc1e062b05", // Document mentioning the Warden
+      "69895d2ebf2c588cb5503924", // Encrypted and Armored Laptop
+      "6969cedc9980a5f16abc2a26", // Encrypted flash drive with unknown information
+      "6a30a69a9c38c641cae11c90", // Enhanced Ferro Concepts FCPC V5 Plate Carrier (USEC Intelligence Support Bureau)
+      "6a111c7164b1373374405287", // Extended Tasmanian Tiger Modular Pack 45 Plus (USEC Intelligence Support Bureau)
+      "692d327ffeba9ebc0937875e", // Fake plans for the SV-98
+      "69575d3755b37eacd8f3a92a", // Ferro Concepts FCPC V5 Plate Carrier (USEC Intelligence Support Bureau)
+      "1c6be0b9f16730b71ee8ac17", // Ferro Concepts FCPC V5 Plate Carrier (White Tusk)
+      "6a8cfc98ca0eb181f2df0059", // Financial documents
+      "6957e050afda56ab90744761", // First Spear Siege-R Optimized M.A.S.S. Plate Carrier (USEC Intelligence Support Bureau)
+      "69e97f550b197e4084c986f6", // First Spear Siege-R Optimized M.A.S.S. Plate Carrier (White Tusk Edition)
+      "6a3cc5443ba523695fa73012", // Flash Drive com Informações criptografadas
+      "6a3da2317b20335d4e35c1aa", // Flash Drive with Encrypted Data
+      "4fef2f1523c2754ade168cfa", // Flash drive with C.A.S.S.I.E. system data
+      "e75a2f88bf9247b6d8096427", // FORT Gladiator-S plate carrier (ISB Edition)
+      "0743de38a7cf1bd20d6159fe", // FORT Gladiator-S plate carrier (Lightweight, White Tusk)
+      "6a4c68b8a90f66f581bf790f", // FORT Gladiator-S plate carrier (White Tusk Lightweight)
+      "6a4c674d34a3f449ea803c52", // FORT Gladiator-S plate carrier (White Tusk)
+      "6a66cd3d30580e2e7433b853", // FSB Special Agent's UNTAR Investigation File
+      "69dc7f46d4b9395c95e79413", // Fuel catalyst test report
+      "0948e0b1242f17ae65b80669", // Fungal samples
+      "69628e8dd443134f2aa0e9fe", // Golden 1GPhone with a dormant tracking application
+      "6966abeb22c07d5770860464", // Golden 1GPhone with a dormant tracking application
+      "6943505f5ebe991629d48f0d", // H4n Pro Audio Recorder
+      "6943919a5a189b2f9b98e0ac", // Improvised device for hacking systems
+      "6a8f3078020049bfa86a8f4a", // Improvised ISB device for hacking systems
+      "693a3be2c852f2c79c4fa10f", // Intelligence Support Bureau intel plans
+      "2b20c487a99515b22b11ff78", // ISB Anomalous Property Detector
+      "6a8ccebf9302acfd1468abdc", // ISB Briefcase with TerraGroup Documents
+      "6a8f1e073b022db2a04c1b76", // ISB Dogtag Bishop
+      "6a8f1e1f60f1022c46406c5b", // ISB Dogtag King
+      "6a8f540c650b4dbe25badff8", // ISB Dogtag Knight
+      "6a8f0a4350e8e920dd389fd7", // ISB Dogtag Pawn
+      "6a8f1e3beb9811b096e224c3", // ISB Dogtag Queen
+      "6a8f0e0be1730357d098267b", // ISB Dogtag Rook
+      "6a8f2f19785af4cc71c3b8e2", // ISB TDL Military Tactical Tablet
+      "05c26946e5101112654ff5c0", // ISB Weapon Case
+      "69dc806e8645330aee3a1064", // Item 1156 specification
+      "69eaf72c4cf2c393c76e0847", // Jammer Modificado
+      "1254eb68d298789e43b45ed3", // KTE 044
+      "6183f2a51cb013b5ab62a796", // KTE 076
+      "b7e0639e756abd3bbb872c2c", // KTE 094
+      "e57cfb4c1b58a40f9032db70", // KTE 101
+      "d88925f5ddd4cd8795d5c9bd", // KTE 111
+      "9644da05612ad219e7fc4387", // KTE 135
+      "9df4b9812799170d2f7295f7", // KTE 166
+      "73cc246044b1d66dd70aedb7", // KTE 218
+      "57d2c307a64e179e8995e061", // KTE 229
+      "4a2e4aaef50cda01112c41b2", // KTE 294
+      "3ddc22a4b7e5ba67ee38edf9", // KTE 325
+      "397495f6cda093c895814c0f", // KTE 435
+      "eee72a686853f282c7cd01da", // KTE 501
+      "b543125009b989d7287b58ab", // KTE 540
+      "68c80d9fb3ef768bbe58a072", // KTE 572
+      "72eb2bb2416ee48ee80d63d4", // KTE 598
+      "337052e7f499ba2f52dfa089", // KTE 611
+      "d94f4a94edf1050b40c93cdb", // KTE 642
+      "06f0d5bdc44c4ddcd0759d31", // KTE 664
+      "ae711ed0c5878f74a4264e27", // KTE 711
+      "fac4f1a658ad562cddde72c6", // KTE 722
+      "25dd7397974f7d7940ad9742", // KTE 787
+      "90c688feeba7c89aa1a3c8a7", // KTE 863
+      "45e6cfe53aabe0b5e846cad5", // KTE 876
+      "a2c16b836b441dc953652bd6", // KTE 887
+      "a38cbf3abbfdcbedaa1b9a0e", // KTE 949
+      "571e1ce5aa8a32c10b70d206", // KTE 991
+      "69dc874ae348fd1fd7844b31", // Labyrinth facility research report
+      "69449dec6d32b699b23c2ae5", // Lead Battery S4 004
+      "694bfa72ece7568b0aa9d916", // LEDX Skin Transilluminator
+      "69e5691d7508ab4bcec902dd", // Letter from one of Ref's people
+      "6a8f39899225d6a63dd472a1", // Locked Reinforced Briefcase with ISB Documents
+      "d84c0f0331dd5b10be0029f5", // LV-119 GhostBuster class 5 back soft armor insert
+      "ac2355e3037f5066a6af52a3", // LV-119 GhostBuster class 5 front soft armor insert
+      "69e58ee426845b37bdc250fd", // Marked Hard Drive
+      "6a3daa4960d41b71a463ffa5", // Marked Hard Drive
+      "694479f61287f9a2b1060a7f", // Masterkey issued to the Deputy Director of ISB, "Juna Aishi".
+      "6a8e76ea2c551db921771c4f", // Medical documents
+      "69628cbc7ff0cc09cfde00e2", // Military flash drive with data for an fixed and upgraded tracking application
+      "6966abe33f2ebecc04530070", // Military flash drive with data for an fixed and upgraded tracking application
+      "6961ce32b53e77c8567378f6", // Military flash drive with data for an outdated tracking application
+      "694391d982509830da94f5d0", // Military Pendrive
+      "69eb9ab4a518a569e3693de9", // Modified aramid insert
+      "69eb9afecf8ecad78737ab87", // Modified aramid insert
+      "69eb9b5fb83cefe5297f85fd", // Modified aramid insert
+      "69eb9bc687c136384bdf0769", // Modified aramid insert
+      "69eb9c95641f4b74ac0ddee8", // Modified aramid insert
+      "69eb9cb8f7190defda7fae35", // Modified aramid insert
+      "69eb9cf5ea68c8c4b96d32fe", // Modified aramid insert
+      "69eb9d795b4e3846c7e534e3", // Modified aramid insert
+      "6a30aad1ab8b8a08436b7359", // Modified aramid insert
+      "6a30ab0c152fd118ecd969b0", // Modified aramid insert
+      "6a30ab2d017bf1af07715f6c", // Modified aramid insert
+      "6a30ab3c9ba5586cbee06620", // Modified aramid insert
+      "0f7880bda029d3322f3eb603", // Modified Atlant Armour Titan helmet (White Tusk Edition)
+      "e875fa2b6553908dc57716f6", // Modified C.A.S.S.I.E. flash drive
+      "69e9a6ecb9a707df5df24b0d", // Modified Diamond Age Bastion helmet armor plate
+      "69e9a740c5601070091d418b", // Modified Diamond Age NeoSteel helmet ballistic mandible (White Tusk Edition)
+      "f45c413c96ffdd24e9718baa", // Modified FCPC V5 back insert (White Tusk)
+      "164509b59f450107a5ab9025", // Modified FCPC V5 front insert (White Tusk)
+      "c446d91d442ef3c4ca73281d", // Modified FCPC V5 left insert (White Tusk)
+      "fa3700c39f5dc88282249b35", // Modified FCPC V5 right insert (White Tusk)
+      "6a080d584a66939befef7e05", // Modified Galvion Caiman Hybrid Ballistic Applique
+      "3aba08d3ee3ee948768d510b", // Modified Gladiator-S back insert (White Tusk)
+      "7b1568a60c1ba51890fdf3ea", // Modified Gladiator-S front insert (White Tusk)
+      "865299f33353ca900257e11e", // Modified Gladiator-S groin insert (White Tusk)
+      "a447cf7e9f7bdba6b0e84295", // Modified Gladiator-S left side insert (White Tusk)
+      "0b58589aa5f8190c34e36e79", // Modified Gladiator-S right side insert (White Tusk)
+      "6a0132335800bd16221e79fd", // Modified HighCom Striker ULACH IIIA helmet (Black)
+      "69ea552ab22ec6fe8eee2241", // Modified hybrid composite materials
+      "69ea599bc7045f8e1c03a018", // Modified hybrid composite materials
+      "69ea5a3f2b531e892d540545", // Modified hybrid composite materials
+      "69ea5ab038a6cade103f5c63", // Modified hybrid composite materials
+      "6a4c74f853926ec162d22a43", // Modified L3Harris PVS-31A night vision goggles (FDE)
+      "6a4c716dcbf243af9349bafd", // Modified L3Harris PVS-31A night vision goggles (Green Phosphor)
+      "6a4c7475199066d1ea0b5131", // Modified L3Harris PVS-31A night vision goggles (White)
+      "6a3c4686e9f7c8f646e2f3ca", // Modified low-frequency signal jammer.
+      "890cc1ff79a9633e1d0b5a40", // Modified virus sample
+      "69fce4a63974614588b85dc7", // Mystery Ranch 2 Day Assault Pack (Olive Drab)
+      "692d302aa11c340bc5198946", // Original plans for the SV-98
+      "69895ab4bac10fe7a55b5fba", // Photo Folder with Strange Images
+      "00d2d09193fe193187f65c98", // Spiritus Systems LV-119 Plate Carrier (Black Division V4)
+      "a005254ae00be0612c5dcf96", // Spiritus Systems LV-119 Plate Carrier (SCP Foundation)
+      "6a8cff3621e52fbbd04f4113", // PMC personnel files
+      "6a8cfca2e34752ad44304cd6", // Project documentation
+      "69f422093640de523b76ea42", // Radio Frequency Stabilizer
+      "6a8f29c48faabd7edce25062", // Reinforced Briefcase with ISB Documents
+      "69439094f017540f5df671f1", // RF Broadcaster
+      "6a8f332eff53d07351a35f93", // Sealed Chemical Container
+      "6a6d234944cd24f0ae3243c6", // Sealed TerraGroup letter containing operational details
+      "69b38ba3c95602273354aaff", // Secret documents
+      "6988145ba9682d977f9359a2", // Secure Container "Pelican"
+      "109f634519a753018fbb71ff", // Spiritus Systems LV-119 Plate Carrier (Black Division)
       "6a42bca292297be57568f928", // Spiritus Systems LV-119 Plate Carrier (Midnight)
-      "6a42a192ffa7266f3ae7139f", // item_equipment_rig_bankrobber
-      "69575d3136babdc4ee38913b", // item_equipment_armor_a18
-      "6957e05fbac14a6e9fcfafc2", // item_equipment_armor_a18
-      "02505e86dbddb393d4bae17f", // item_barter_electr_ssd
-      "6a66997ad3500a8799dfb257", // Item_barter_info_tgdocs
-      "69439149c7ef4ab29be86cc8", // item_electr_gasanalyzer
-      "6a4d5879b498ae06e3582412", // helmet_zsh_1-2m_v2
-      "6a4d5940473d4411b409b02a", // helmet_zsh_1-2m_v2
-      "6a8e770988343498f639d557", // item_flash_card_ironkey
-      "69e58c872c4f50f3899570be", // Item_barter_info_tgdocs
-      "690bea5659ebccb1310d6ce2", // Item_barter_info_tgdocs
-      "6a61491533e4372425ec2f56", // Item_barter_info_tgdocs
-      "6a3da7acbae85c40d75b5022", // mark_of_unknown
-      "6a8e76785c3f75a6b4455e41", // item_flash_card_ironkey
-      "6a66c94917ba877b97f279ff", // Item_barter_info_tgdocs
-      "6a66c953ac7b63a28acbff46", // Item_barter_info_tgdocs
-      "6a6981684aa9bfbef232c28e", // Item_barter_info_tgdocs
-      "6a69818cc16a924a3c5c8626", // Item_barter_info_tgdocs
-      "6a6981c2cb84e18b886a10a1", // Item_barter_info_tgdocs
-      "6966abe029836c9054d74ce5", // mark_of_unknown
-      "6a6980af9994a65e2f0f7a55", // Item_barter_info_tgdocs
-      "6a699b061078d7158cd6fc79", // Item_barter_info_tgdocs
-      "69dc7d6fbdd564ab7bccfbd1", // item_spec_radiotransmitter
-      "69449b065290d85888ed7c17", // item_barter_valuable_elibadge
-      "6a8f316e428d01f93b84c6dc", // item_flash_card_ironkey
-      "667a400d44455c10e40f761f", // item_info_docbag
-      "6963cefaf6234b5806891f49", // item_barter_energy_batterymilitary
-      "69db2b6d3bfc92db80e8de01", // 69db2b6d3bfc92db80e8de01
-      "6963dede566c81e5c5dc9b4a", // dogtags_bear
-      "6966abf2e6001880baf0ada0", // dogtags_bear
-      "6a7bbf80d68132981f99bd82", // 6a7bbf80d68132981f99bd82
-      "6a8e76b6fd6a7d4953c567cc", // item_flash_card_ironkey
-      "6a8f38698a6847c4a8bb6527", // 6a8f38698a6847c4a8bb6527
-      "29d3521830e5a078ac470990" // Item_barter_medical_transilluminator
+      "6a42a192ffa7266f3ae7139f", // Spiritus Systems LV-119 Plate Carrier (MultiCam Arid)
+      "69575d3136babdc4ee38913b", // Spiritus Systems LV-119 Plate Carrier (USEC Intelligence Support Bureau)
+      "6957e05fbac14a6e9fcfafc2", // Spiritus Systems LV-119 Plate Carrier V2 (USEC Intelligence Support Bureau)
+      "02505e86dbddb393d4bae17f", // SSD with C.A.S.S.I.E. system files
+      "6a66997ad3500a8799dfb257", // T H I C C Weapons Case, Labeled and Locked
+      "69439149c7ef4ab29be86cc8", // TDL Military Tactical Tablet
+      "6a8e770988343498f639d557", // Technical documentation
+      "69e58c872c4f50f3899570be", // TerraGroup and UNTAR Cargo and Transport Report
+      "690bea5659ebccb1310d6ce2", // TerraGroup Document with Compromising Information
+      "6a61491533e4372425ec2f56", // TerraGroup Transport Folder
+      "6a3da7acbae85c40d75b5022", // TerraGroup Transport Report
+      "6a8e76785c3f75a6b4455e41", // Test documentation
+      "6a66c94917ba877b97f279ff", // TESTE1
+      "6a66c953ac7b63a28acbff46", // TESTE2
+      "6a6981684aa9bfbef232c28e", // TESTE5
+      "6a69818cc16a924a3c5c8626", // TESTE6
+      "6a6981c2cb84e18b886a10a1", // TESTE7
+      "6966abe029836c9054d74ce5", // TG Letter
+      "6a6980af9994a65e2f0f7a55", // Transcript of a computer conversation between Aishi and an unknown person
+      "6a699b061078d7158cd6fc79", // Transcript of a conversation between Aishi and Knight
+      "69dc7d6fbdd564ab7bccfbd1", // Transcript of conversation with Ms. A.
+      "69449b065290d85888ed7c17", // Unknown US Army Special Group Badge
+      "6a8f316e428d01f93b84c6dc", // Unknown US Army Special Group Golden Badge
+      "667a400d44455c10e40f761f", // Unlocked Anomalous Containment Case
+      "6963cefaf6234b5806891f49", // Unregistered secure container model with unknown documents
+      "69db2b6d3bfc92db80e8de01", // Unregistered unlocked secure container model with unknown documents
+      "6963dede566c81e5c5dc9b4a", // USEC dogtag with unique markings
+      "6966abf2e6001880baf0ada0", // USEC dogtag with unique markings
+      "6a7bbf80d68132981f99bd82", // USEC Intelligence Support Bureau Gear Crate
+      "6a8e76b6fd6a7d4953c567cc", // User documentation
+      "6a8f38698a6847c4a8bb6527", // Valuables Container
+      "29d3521830e5a078ac470990" // Virus antidote
     ],
     "keys": [
-      "69439100a320344f805ba61f", // item_keycard_lab_blue
-      "6963e26f0dd99b3578894fa1", // item_keycard_lab_black
-      "6966abf5be964754132c1c42", // item_keycard_lab_black
-      "6a321d846b38e922175d1878",
-      "4d57eab7724cdd35474d84eb", // exitkey
-      "69860f957139b00c69e69cb7", // item_keycard_lab_black
-      "999a5a06e1a05ca89b786f34", // item_keycard_lab_black
-      "6944b4b15a0413f1b7f50724", // item_keycard_lab_black
-      "6a275572b6e9c235461d6f7b", // item_keycard_lab_black
-      "264f194ae30547c55dfbf0d9", // exitkey
-      "6a0a5091eb733b78d06f82b2", // item_keycard_lab_black
-      "6a27a0b9804ef665f75718ba" // item_keycard_lab_black
+      "69439100a320344f805ba61f", // Black Division Access Card
+      "6963e26f0dd99b3578894fa1", // Custom RFID Keycard with unknown certificates and credentials
+      "6966abf5be964754132c1c42", // Custom RFID Keycard with unknown certificates and credentials
+      "6a321d846b38e922175d1878", // ISB Credential Cracking Device
+      "4d57eab7724cdd35474d84eb", // Modified GreenBat lithium battery
+      "69860f957139b00c69e69cb7", // ISB Special Access Keycard
+      "999a5a06e1a05ca89b786f34", // ISB Special Access Keycard (White Tusk)
+      "6944b4b15a0413f1b7f50724", // Limited TerraGroup Labs Access Keycard issued to the Deputy Director of ISB
+      "6a275572b6e9c235461d6f7b", // Modified cloner for RFID cards
+      "264f194ae30547c55dfbf0d9", // Modified low-frequency battery
+      "6a0a5091eb733b78d06f82b2", // TerraGroup High-Level Access Keycard
+      "6a27a0b9804ef665f75718ba" // TerraGroup High-Level Access Keycard no longer operational
     ],
     "backpacks": [
-      "38b7c5e7ff2bc509c45da419", // backpack_Raid_6SH118
-      "6a12553381219c9c8d5e5e0e", // backpack_pilgrim
-      "693a2a8c8ca17192ef82abae", // backpack_Raid_6SH118
-      "6a12667fec1b599645cd7183", // backpack_pilgrim
-      "6a1267fd0580910d4ffbdec0", // backpack_molle
-      "6a12643e06424c709d450e7c", // item_equipment_backpack_lbt1476a_slick_winter
-      "693ce97ae3778b9839af5852", // item_equipment_backpack_boss_birdeye
-      "693aeb052ca153e9abf1fe56", // item_equipment_backpack_blackjack
-      "6a126adc0d1adc1541f74ad4", // backpack_pilgrim
-      "8de375ced53817e038b6cbc4", // item_equipment_backpack_mystery_ranch_satl
-      "9f734f48e0cc5d35dca9967c", // item_equipment_backpack_trooper_35
-      "693aeaff56c3eeda87817550" // item_equipment_backpack_trooper_35
+      "6a12553381219c9c8d5e5e0e", // Extended 3V Gear Paratus 3-Day Operator's Tactical backpack (USEC Intelligence Support Bureau)
+      "693a2a8c8ca17192ef82abae", // Extended 6Sh118 raid backpack (USEC Intelligence Support Bureau)
+      "6a12667fec1b599645cd7183", // Extended Eberlestock F4 Terminator load bearing backpack (USEC Intelligence Support Bureau)
+      "6a1267fd0580910d4ffbdec0", // Extended Tactical sling bag (USEC Intelligence Support Bureau)
+      "6a12643e06424c709d450e7c", // LBT-1476A 3Day Pack (USEC Intelligence Support Bureau)
+      "693ce97ae3778b9839af5852", // Modified Mystery Ranch NICE COMM 3 BVS frame system (USEC Intelligence Support Bureau)
+      "693aeb052ca153e9abf1fe56", // Mystery Ranch Blackjack 50 backpack (USEC Intelligence Support Bureau)
+      "6a126adc0d1adc1541f74ad4", // Pilgrim backpack (USEC Intelligence Support Bureau)
+      "693aeaff56c3eeda87817550" // Tasmanian Tiger Trooper 35 backpack (USEC Intelligence Support Bureau)
     ],
     "headwear": [
-      "b10386d1c36b5a12bfdd24dd", // item_equipment_helmet_ballisticarmorco_bastion_black
-      "2043d569d1b559a395d239d4", // item_equipment_helmet_ballisticarmorco_bastion_black
-      "e96458b2ff10523e9fdc32da", // item_equipment_helmet_ballisticarmorco_bastion_black
-      "729a41b1deb15cdc937ff15b", // item_equipment_helmet_ballisticarmorco_bastion_black
-      "90c4b3f1d5cd56a0a3b1c852", // item_equipment_helmet_ballisticarmorco_bastion_black
-      "195376bb64f856daa74fdef1", // item_equipment_helmet_ballisticarmorco_bastion_black
-      "90784631e9e355569e84afd8", // item_equipment_helmet_ballisticarmorco_bastion_black
-      "6db14eedb7735d47aa2b3815", // item_equipment_helmet_ballisticarmorco_bastion_black
-      "7db9f76679ea561090f8531a", // item_equipment_helmet_ballisticarmorco_bastion_black
-      "3bc4413f4e8051cd8d69d58b", // item_equipment_helmet_ballisticarmorco_bastion_black
-      "7b4c3852889357178e23eb73", // item_equipment_helmet_ballisticarmorco_bastion_black
-      "89f136d7de8255a1a3ac1352", // item_equipment_helmet_ballisticarmorco_bastion_black
-      "d1a83c503b0659f1ba0e2c9e", // item_equipment_helmet_ballisticarmorco_bastion_black
-      "1f3dcd7094f05e0daac4ff70", // item_equipment_helmet_ballisticarmorco_bastion_black
-      "3954ff02a19c52c0b6d0701b", // item_equipment_helmet_ballisticarmorco_bastion_black
-      "7a198335056358f39565afc8", // item_equipment_helmet_ballisticarmorco_bastion_black
-      "084d7637489c5577b01977ad", // item_equipment_helmet_ballisticarmorco_bastion_black
-      "ef45995fcb1655e4b4a1bd70", // item_equipment_helmet_ballisticarmorco_bastion_black
-      "0a32f18896bf5f0dabf37c24", // item_equipment_helmet_ballisticarmorco_bastion_black
-      "b45f79e172f75b0cb03b118d", // item_equipment_helmet_ballisticarmorco_bastion_black
-      "a5f079ec80165ad68b7ac167", // headphones
-      "9fe22467cd8852e2b3eba0d4", // item_equipment_helmet_crye_airframe_tan
-      "7465817db0f85d818d90c934", // item_equipment_helmet_crye_airframe_tan
-      "b73a9944b2d558ad8b69810e", // item_equipment_helmet_crye_airframe_tan
-      "2c5795c7a7c6521e8c25383a", // item_equipment_helmet_crye_airframe_tan
-      "0684b0c47f5a584e8854376d", // item_equipment_helmet_crye_airframe_tan
-      "dfc86dc0f49753afb5219198", // item_equipment_helmet_crye_airframe_tan
-      "c4c197c2e308552eb588b69e", // item_equipment_helmet_crye_airframe_tan
-      "e0cc9714a737516ca1ce7292", // item_equipment_helmet_crye_airframe_tan
-      "c2750480583a5a8a960cf168", // item_equipment_helmet_crye_airframe_tan
-      "ab9f7ded798a520992a4f3e4", // item_equipment_helmet_crye_airframe_tan
-      "6995cef3d3135926892e615a", // item_equipment_helmet_crye_airframe_tan
-      "cc7a11533ba85ed283cc6abf", // item_equipment_helmet_crye_airframe_tan
-      "08e0f355f3fd52ac8d7ba45d", // item_equipment_helmet_crye_airframe_tan
-      "813ce8eefd4358868b2848a7", // item_equipment_helmet_crye_airframe_tan
-      "259c68aa1a5c5369bd56fe9b", // item_equipment_helmet_crye_airframe_tan
-      "30a2550e5ce9568199ff43e6", // item_equipment_helmet_crye_airframe_tan
-      "4aff1054f21f5bc09924aa9a", // item_equipment_helmet_crye_airframe_tan
-      "ba68e48688c755e1a83ae78f", // item_equipment_helmet_crye_airframe_tan
-      "f0d30c96b8e252eaa1f1be1d", // item_equipment_helmet_crye_airframe_tan
-      "ccc6f5ae9b0850bfa2dfe716", // item_equipment_helmet_crye_airframe_tan
-      "692497f0e4b9e93740b14c13", // item_equipment_helmet_diamond_age_bastion
-      "c5eaa714c48373e25a990c24", // item_equipment_helmet_diamond_age_bastion
-      "851c002942b058bf8c29e51c", // item_equipment_helmet_neosteel
-      "e4300a17638f596c959f6aa3", // item_equipment_helmet_neosteel
-      "d770537e7de95c18b44ba664", // item_equipment_helmet_neosteel
-      "0adf017025895774b13d3aba", // item_equipment_helmet_neosteel
-      "1c4962edf5d051dca0db086a", // item_equipment_helmet_neosteel
-      "cc8c2230876157889553549c", // item_equipment_helmet_neosteel
-      "46f35d7a74b5584887f317d9", // item_equipment_helmet_neosteel
-      "0db2ffeb18d15ac09e529e00", // item_equipment_helmet_neosteel
-      "788f33bf387c5dd29bbd654f", // item_equipment_helmet_neosteel
-      "6ef87c9bac635974805c0415", // item_equipment_helmet_neosteel
-      "e61c9197a5a75e2fbc3b62e3", // item_equipment_helmet_neosteel
-      "e74bf4cdc3665c3e8df06767", // item_equipment_helmet_neosteel
-      "e55ca2d8f4a855bc81cec9ea", // item_equipment_helmet_neosteel
-      "dd2df3e4b61359f5af76b97c", // item_equipment_helmet_neosteel
-      "f47587d41bba57269b1b883c", // item_equipment_helmet_neosteel
-      "c64cd4f4ba6a546e8cb3eff6", // item_equipment_helmet_neosteel
-      "829058eb33895a1ba9cceba9", // item_equipment_helmet_neosteel
-      "5db7d0ed2655505f85d68b08", // item_equipment_helmet_neosteel
-      "8b169b151ec1508a91c74c32", // item_equipment_helmet_neosteel
-      "03d084b26a105930bd8f4047", // item_equipment_helmet_neosteel
-      "6a01221f642040cc21286f0e", // helmet_6B47_cover
-      "69e9a2584f96ca8b30449811", // item_equipment_helmet_ballisticarmorco_bastion_black
-      "69e9a8f20e957d2d8862225e", // item_equipment_helmet_neosteel
-      "6a08060a7aace4c0c7377b99", // item_equipment_helmet_galvion_caiman
-      "6a0136a1fae06fd4bbd20288", // helmet_mich2002_od
-      "6a0805a4f4ca65c231f2566b", // item_equipment_helmet_tc800
-      "6a01375552833cf4cd0f2ea0", // Item_equipment_helmet_flux
-      "774ffab2004504eab3888c95", // helmet_ops_core_fast
-      "f0ec46c9161a52d3aa976e23", // item_equipment_headset_comtac_v
-      "9d049eb3c2c05305be0a0891", // item_equipment_headset_comtac_v
-      "7e6a08497c2a5dea998ed75b", // item_equipment_headset_comtac_v
-      "b4198be4bb0059ef9a1800d8", // item_equipment_headset_comtac_v
-      "22e556e4f8665ec5b853156f", // item_equipment_headset_comtac_v
-      "6fac263934a85dac83843f61", // item_equipment_headset_comtac_v
-      "249729bc30865c8eb9be18e4", // item_equipment_headset_comtac_v
-      "b9bf505281b25ddb87f7ee3e", // item_equipment_headset_comtac_v
-      "d662061967115e25b4143107", // item_equipment_headset_comtac_v
-      "3d66279b7ec45bcf863aeccd", // item_equipment_headset_comtac_v
-      "8ea24fef5647547ba574b6f9", // item_equipment_headset_comtac_v
-      "2721d1dd9fd65557bb976ac2", // item_equipment_headset_comtac_v
-      "67bc371965dc5582a7670c2b", // item_equipment_headset_comtac_v
-      "1db6de41907f5c63b4d51a32", // item_equipment_headset_comtac_v
-      "d8e4cc624a505ce590710aa5", // item_equipment_headset_comtac_v
-      "7f862d28802a511186f9dc59", // item_equipment_headset_comtac_v
-      "ec0bbb1bbabc587e94f4a4b1", // item_equipment_headset_comtac_v
-      "6cf91c247d6f508ebdf8ba3c", // item_equipment_headset_comtac_v
-      "c8d4e7f7bed652d98f1e7b36", // item_equipment_headset_comtac_v
-      "49d259509b745f7881a1d629", // item_equipment_headset_comtac_vi
-      "cf7e1ac9f2a859d688846118", // item_equipment_headset_comtac_vi
-      "f4c9f5431f575e9d8fb4e4e1", // item_equipment_headset_comtac_vi
-      "f18e3547e74a58338f037728", // item_equipment_headset_comtac_vi
-      "f971806be83b5eaeb36fdd9d", // item_equipment_headset_comtac_vi
-      "456fbec9fa93523d9d89fd55", // item_equipment_headset_comtac_vi
-      "02687ae6036d5df7b37d9896", // item_equipment_headset_comtac_vi
-      "d4e633ea0a7c55b48c28e44a", // item_equipment_headset_comtac_vi
-      "dfab8e3c3e2c59fa964c1503", // item_equipment_headset_comtac_vi
-      "51bfcb2f76495e8bb1fbce8e", // item_equipment_headset_comtac_vi
-      "8796ea49bde456e692a4275f", // item_equipment_headset_comtac_vi
-      "39f9b503dc2f57d094fd0603", // item_equipment_headset_comtac_vi
-      "12a22c8491165e209c24d286", // item_equipment_headset_comtac_vi
-      "99b2894d6c7054d9b4bda2fb", // item_equipment_headset_comtac_vi
-      "3cd88725a8d15274b01f4c09", // item_equipment_headset_comtac_vi
-      "369389a169c85bf48280396d", // item_equipment_headset_comtac_vi
-      "e870ffceda3e5bf0b95f2a71", // item_equipment_headset_comtac_vi
-      "df073356129e5dc1ab68f984", // item_equipment_headset_comtac_vi
-      "0c657e2adfad5a68a02f0ed4", // item_equipment_headset_comtac_vi
-      "c9c453d6c82f5754828be4b3", // item_equipment_headset_comtac_vi
-      "fb7fb28e480a5507bafcebd9", // item_equipment_headset_comtac_vi
-      "f50c1345e7bd5eb4afdd58dc", // item_equipment_headset_comtac_vi
-      "b9cba9970e455e6ebda7d4b7", // item_equipment_headset_comtac_vi
-      "69b8289f8ec3dce259c4036a", // item_equipment_headset_comtac_vi
-      "3c2d42546f5b53b494956dd0", // item_equipment_headset_comtac_vi
-      "52c0718983385129aa933f67", // item_equipment_headset_comtac_vi
-      "3f03bc48e07756e9962b5321", // item_equipment_headset_comtac_vi
-      "7696f114865c56ea8cd2af11", // item_equipment_headset_comtac_vi
-      "3f2403c0677f5bea946ae741", // item_equipment_headset_comtac_vi
-      "ff62d1cbabc45daebbeccaf4", // item_equipment_headset_comtac_vi
-      "ba4f85b831c7590aaedd91b7", // item_equipment_headset_comtac_vi
-      "a37f8816101b5d6992cc40da", // item_equipment_headset_comtac_vi
-      "765d0741b622575f869aa341", // item_equipment_headset_comtac_vi
-      "a2cbaddf9f7d535e9d3f40a8", // item_equipment_headset_comtac_vi
-      "3f33bae25b845eaca8c03e7a", // item_equipment_headset_comtac_vi
-      "c57285879be1535e8bb44396", // item_equipment_headset_comtac_vi
-      "0b0537ecb17e5cf2925ef255", // item_equipment_headset_comtac_vi
-      "75a7d77355695dab89abd6c5", // item_equipment_headset_comtac_vi
-      "3f7ffe8688f9520699b4c8ba", // item_equipment_headset_comtac_vi
-      "c6527eeffaa350dd8196072a", // item_equipment_headset_comtac_vi
-      "318cfa40f65250fcbe237232", // item_equipment_headset_comtac_vi
-      "dfc5313c5fe45c96a19e0d39", // item_equipment_headset_comtac_vi
-      "11e882cbb8c95d079fc0b866", // item_equipment_helmet_team_wendy_exfil
-      "43df24fffd6f5da78ef33943", // item_equipment_helmet_team_wendy_exfil
-      "0e894a71f0af50769d9ecc5e", // item_equipment_helmet_team_wendy_exfil
-      "81a9f318a0d0573b979a464f", // item_equipment_helmet_team_wendy_exfil
-      "1db402270dc253dd9c18e606", // item_equipment_helmet_team_wendy_exfil
-      "585f8dc380465acebecfd6c8", // item_equipment_helmet_team_wendy_exfil
-      "059a0a5c3aba51ac932424db", // item_equipment_helmet_team_wendy_exfil
-      "10804583f37958208cfc05b7", // item_equipment_helmet_team_wendy_exfil
-      "1afa224ed3145f9d922393b1", // item_equipment_helmet_team_wendy_exfil
-      "8ddcc60a0a6b57819ed82118", // item_equipment_helmet_team_wendy_exfil
-      "68d30eae3a305412b46bde25", // item_equipment_helmet_team_wendy_exfil
-      "f974ffb2411b5550b346906e", // item_equipment_helmet_team_wendy_exfil
-      "87d447e71a125a8fa28f657a", // item_equipment_helmet_team_wendy_exfil
-      "3621d52b761e5892adcb12c1", // item_equipment_helmet_team_wendy_exfil
-      "d8f6f35e9b2a54fb8b56f6cd", // item_equipment_helmet_team_wendy_exfil
-      "563b06201f72577b8291df5d", // item_equipment_helmet_team_wendy_exfil
-      "0bc36a6cebf252d986c130d4", // item_equipment_helmet_team_wendy_exfil
-      "dfc198ea294757d19d660c89", // item_equipment_helmet_team_wendy_exfil
-      "2ba98158af925210ab9fb48d", // item_equipment_helmet_team_wendy_exfil
-      "089ef8429f555f5f8bd6d19a", // item_equipment_helmet_team_wendy_exfil
-      "a321239209cb583baea69ca1", // item_equipment_helmet_team_wendy_exfil
-      "7e4d2ec3cc9e5f87aecdf39b", // helmet_zsh_1-2m_v2
-      "94211dba2f9d5ccf86a65a5f", // helmet_zsh_1-2m_v2
-      "8d7e1e7c6bed52f88f7445f2", // helmet_zsh_1-2m_v2
-      "049f903594a15648b85049be", // helmet_zsh_1-2m_v2
-      "f8c0d2c9c3f25528b6afff62", // helmet_zsh_1-2m_v2
-      "ea3b994c77d35701a587ee82", // helmet_zsh_1-2m_v2
-      "ccaab422b8a659f8a03abd5e", // helmet_zsh_1-2m_v2
-      "65dba93847465e95a9ded01e", // helmet_zsh_1-2m_v2
-      "71833ecb94b354ed9af475f2", // helmet_zsh_1-2m_v2
-      "1822c6ab9077537fa6a2d0ca", // helmet_zsh_1-2m_v2
-      "9e3d23e969fb5a93833adb62", // helmet_zsh_1-2m_v2
-      "d9f78d0d55ec56838b296a7b", // helmet_zsh_1-2m_v2
-      "41310ba059d25bc0a3e22564", // helmet_zsh_1-2m_v2
-      "811054d359f651ae8ad48b98", // helmet_zsh_1-2m_v2
-      "382178c7df6b54e5bfdecbd1", // helmet_zsh_1-2m_v2
-      "ba096bc674cd5da390d00e74", // helmet_zsh_1-2m_v2
-      "43b0e1422f7d59b8ad3d8a0b", // helmet_zsh_1-2m_v2
-      "5b326dfd4d6f5ae1a307bef4" // helmet_zsh_1-2m_v2
+      "a5f079ec80165ad68b7ac167", // CENS ProFlex DX5 tactical earplug (Aishi)
+      "692497f0e4b9e93740b14c13", // Custom ISB SOF Diamond Age Bastion helmet (Black)
+      "c5eaa714c48373e25a990c24", // Custom ISB SOF Diamond Age Bastion helmet (Desert)
+      "6a01221f642040cc21286f0e", // Modified 6B47 Ratnik-BSh helmet (Black)
+      "6a08060a7aace4c0c7377b99", // Modified Galvion Caiman Hybrid helmet (Black)
+      "6a0136a1fae06fd4bbd20288", // Modified MSA ACH TC-2002 MICH Series helmet (Black)
+      "6a0805a4f4ca65c231f2566b", // Modified MSA Gallet TC 800 High Cut combat helmet (Black)
+      "6a01375552833cf4cd0f2ea0", // Modified MTEK FLUX Ballistic helmet (Black)
+      "774ffab2004504eab3888c95", // Ops-Core FAST MT Super High Cut helmet (White Tusk)
+      "fb7fb28e480a5507bafcebd9", // Peltor ComTac VII headset (Aishi)
+      "f50c1345e7bd5eb4afdd58dc", // Peltor ComTac VII headset (Arctic Camo)
+      "b9cba9970e455e6ebda7d4b7", // Peltor ComTac VII headset (Black Camo)
+      "69b8289f8ec3dce259c4036a", // Peltor ComTac VII headset (Black)
+      "3c2d42546f5b53b494956dd0", // Peltor ComTac VII headset (CADPAT)
+      "52c0718983385129aa933f67", // Peltor ComTac VII headset (Coyote)
+      "3f03bc48e07756e9962b5321", // Peltor ComTac VII headset (CP MultiCam)
+      "7696f114865c56ea8cd2af11", // Peltor ComTac VII headset (DBDU)
+      "3f2403c0677f5bea946ae741", // Peltor ComTac VII headset (DCU)
+      "ff62d1cbabc45daebbeccaf4", // Peltor ComTac VII headset (DPM Desert)
+      "ba4f85b831c7590aaedd91b7", // Peltor ComTac VII headset (DPM Woodland)
+      "a37f8816101b5d6992cc40da", // Peltor ComTac VII headset (Flecktarn)
+      "765d0741b622575f869aa341", // Peltor ComTac VII headset (French Woodland)
+      "a2cbaddf9f7d535e9d3f40a8", // Peltor ComTac VII headset (Green MultiCam)
+      "3f33bae25b845eaca8c03e7a", // Peltor ComTac VII headset (M14 Nigeria Desert)
+      "c57285879be1535e8bb44396", // Peltor ComTac VII headset (M14 Nigeria Woodland)
+      "0b0537ecb17e5cf2925ef255", // Peltor ComTac VII headset (M81 US Woodland)
+      "75a7d77355695dab89abd6c5", // Peltor ComTac VII headset (MARPAT)
+      "3f7ffe8688f9520699b4c8ba", // Peltor ComTac VII headset (MCCUU)
+      "c6527eeffaa350dd8196072a", // Peltor ComTac VII headset (MultiCam Black)
+      "318cfa40f65250fcbe237232", // Peltor ComTac VII headset (Red Right Hand)
+      "dfc5313c5fe45c96a19e0d39" // Peltor ComTac VII headset (UCP)
     ],
     "faceCovers": [
-      "cd19a7a32ec3820a6ea48800", // item_equipment_facecover_glorious
-      "6984d63f164eb72f4dfb473b", // item_equipment_facecover_strikeball_mask
-      "693ce88b2d491ae03c5326cd", // item_equipment_facecover_strikeball_mask
-      "da716663ea505d11956d19f8", // item_equipment_facecover_strikeball_mask
-      "6939d6ae15efda5797902659", // item_equipment_facecover_strikeball_mask
-      "6a279d1b7bb85ffaa461cd9e", // item_equipment_facecover_gasmask_gp7
-      "9a4a5d94afc658af9fb22ad6", // item_equipment_facecover_gasmask_gp7
-      "a7d9ede064cc53bd8cc78bfe", // item_equipment_facecover_gasmask_gp7
-      "3401a3220a7355a3ad4b0f54", // item_equipment_facecover_gasmask_gp7
-      "6a222d3dc7ebe3f5fbc2b01d", // item_equipment_facecover_welding_minotaur
-      "6a279c95534fb23d302b6b27", // item_equipment_facecover_gasmask_gp7
-      "7f3d1490eb7e5442947f28f5" // item_equipment_helmet_maska_1sh
+      "cd19a7a32ec3820a6ea48800", // KTE 636
+      "6984d63f164eb72f4dfb473b", // Modified Death Shadow lightweight armored mask (USEC Intelligence Support Bureau)
+      "da716663ea505d11956d19f8", // Modified MSA Millennium armored gas mask (USEC Intelligence Support Bureau)
+      "6a222d3dc7ebe3f5fbc2b01d", // Tagilla's welding mask "Swineherd"
+      "7f3d1490eb7e5442947f28f5" // Hammerhead Combat Helmet
     ],
     "medical": [
-      "282e86b6bc2955c6998fea9f", // Trimadol
-      "69dedb462e45a1248bf6b96a", // eTG_change
-      "778261046311c86a18968cfd", // Trimadol
-      "1800c994e11cfa35b423e8ed", // Trimadol
-      "d180bb453e8bb2027c5fa540", // Trimadol
-      "a8d639d499ac25709f630d2c", // Trimadol
-      "51574a824fe10af4518191af", // Trimadol
-      "36be503998aadd53701c57e3", // Trimadol
-      "922129d70c57a265f61ee8b1", // Trimadol
-      "f131c988930a86c7e5610c57", // Trimadol
-      "0056a97d873bba252113c74b", // Trimadol
-      "b27508815b9307ccd1bffa36", // Trimadol
-      "54d85e84263051398785a34f", // medkit
-      "dc830bbf5edf5e67ac21d737", // item_meds_hemostatic
-      "692bbee2e2bf5108b9310186" // SJ9_TGLabs
+      "282e86b6bc2955c6998fea9f", // BONE-02 Restorative Stimulant Injector
+      "69dedb462e45a1248bf6b96a", // eTG-change Dual-Action upgraded regenerative stimulant injector
+      "778261046311c86a18968cfd", // BONE-03 Restorative Stimulant Injector
+      "1800c994e11cfa35b423e8ed", // KTE 070
+      "d180bb453e8bb2027c5fa540", // KTE 199
+      "a8d639d499ac25709f630d2c", // KTE 292
+      "51574a824fe10af4518191af", // KTE 430
+      "36be503998aadd53701c57e3", // KTE 652
+      "922129d70c57a265f61ee8b1", // KTE 663
+      "f131c988930a86c7e5610c57", // KTE 665
+      "0056a97d873bba252113c74b", // KTE 728
+      "b27508815b9307ccd1bffa36", // KTE 952
+      "54d85e84263051398785a34f", // Modified AI-2 medkit
+      "dc830bbf5edf5e67ac21d737", // Modified CALOK-B hemostatic applicator
+      "692bbee2e2bf5108b9310186" // SJE3 TGLabs combat stimulant injector
     ]
   },
   "allowedItemIDs": {
     "chestRigs": [
-      "c5d8a1d334a955fabfff0a1d", // ana_tactical_m2
-      "1e9a8e779dd1580d9fc2f8c1", // ana_tactical_m2
-      "572413809afa5030aa3324de", // ana_tactical_m2
-      "057aabe8cb4d5a35b2ff5752", // ana_tactical_m2
-      "776e4ad6e5be570e8a01c7b3", // ana_tactical_m2
-      "fa1da256bb7c59a2b8d66ad4", // ana_tactical_m2
-      "0f51c139e42e582d8b0c2334", // ana_tactical_m2
-      "853890d2355b54b099f3784d", // ana_tactical_m2
-      "5666c3d38bb4558dbeca939b", // ana_tactical_m2
-      "6b3e19ee1983550a9c5cf8b8", // ana_tactical_m2
-      "cbb3359a8ec75a1ba189d360", // ana_tactical_m2
-      "8f9f2f03bb07583aaf328bb9", // ana_tactical_m2
-      "9500f252301b53f0ac45f424", // ana_tactical_m2
-      "93b50ac8573453adbcc8fbdf", // ana_tactical_m2
-      "cb61337630e455228d9c912a", // ana_tactical_m2
-      "51df9fb2529354689df2a524", // ana_tactical_m2
-      "550ae52e09655446898b2deb", // ana_tactical_m2
-      "08aae070ae9f5e09b1985f16", // ana_tactical_m2
-      "261a9c9c4eb752f795f37a36", // ana_tactical_m2
-      "90bdd25a69275d42a5953420", // bearRig
-      "9b6490335a3157d088df3237", // bearRig
-      "78ca3527e9155016aea494ab", // bearRig
-      "62b51c08767d53a08536d0c2", // bearRig
-      "58189281ead35cbf80883548", // bearRig
-      "2eb6f2fef9ea5a7b8c45fd4f", // bearRig
-      "a4909546a95751679fdd8547", // bearRig
-      "bc01ebb960aa585297259fa5", // bearRig
-      "b3acd4a50f8257bea0c5dfc6", // bearRig
-      "d7d0295d9a2d54d290c3a75c", // bearRig
-      "2b7cad1049895455ae9dc9cf", // bearRig
-      "8e343d5a432950dd8d82ad52", // bearRig
-      "4fff6c4e51615e7f9d67623b", // bearRig
-      "b092594bfa845cab98efe22d", // bearRig
-      "d46a8898895f5a99bfe2e5d2", // bearRig
-      "1c554f00bc245b2ead65cf79", // bearRig
-      "89b523a88a7d5974aaab2dd0", // bearRig
-      "f660c6d9fb7a5e658c0c5f43", // bearRig
-      "cf54312d10215bcd87b5533c", // bearRig
-      "e37ed3a6b094581783f8da1a", // item_equipment_rig_boss_birdeye
-      "d150e90fda1b5e968474b36f", // item_equipment_rig_boss_birdeye
-      "27fcae0292135ad193b9e143", // item_equipment_rig_boss_birdeye
-      "7de7f35b757e553d80605086", // item_equipment_rig_boss_birdeye
-      "4c13d134b11559cfbbf0e364", // item_equipment_rig_boss_birdeye
-      "b40a9d74f84956878fe08091", // item_equipment_rig_boss_birdeye
-      "ba1073242b8659688f76be82", // item_equipment_rig_boss_birdeye
-      "641a34e53a7f5dafb6be440f", // item_equipment_rig_boss_birdeye
-      "705028be3ac05509a3621d61", // item_equipment_rig_boss_birdeye
-      "d1cb7596db455f4e96ca2864", // item_equipment_rig_boss_birdeye
-      "442f50dfaecf5d4cbf8d4dde", // item_equipment_rig_boss_birdeye
-      "6400def2c67359ce9f924715", // item_equipment_rig_boss_birdeye
-      "880d66fe034c5575a02a783d", // item_equipment_rig_boss_birdeye
-      "eeaaba94049e5dc4ad3645df", // item_equipment_rig_boss_birdeye
-      "4660d850e0e158b7b193e199", // item_equipment_rig_boss_birdeye
-      "c0fe75b12f875112892b8b27", // item_equipment_rig_boss_birdeye
-      "466b47a85356538eb66f0a13", // item_equipment_rig_boss_birdeye
-      "542bd48964a156a18c8bc788", // item_equipment_rig_boss_birdeye
-      "1a589d5d3ed4596297b3f739", // item_equipment_rig_boss_birdeye
-      "a8c5d3b7b2cd531487c7fb38", // item_equipment_rig_stich_defense_mod2
-      "fb7f482b26fa50c7b14e931e", // item_equipment_rig_stich_defense_mod2
-      "81b12ab282e45f68ae697619", // item_equipment_rig_stich_defense_mod2
-      "ca0ed2f7099857c9bf7a31c4", // item_equipment_rig_stich_defense_mod2
-      "ce186fdb92105a228cf3aa01", // item_equipment_rig_stich_defense_mod2
-      "03e1a772d7df56ee93c4bc37", // item_equipment_rig_stich_defense_mod2
-      "8742e64d99b452b4bc6cf2d2", // item_equipment_rig_stich_defense_mod2
-      "0b1a157885a65aa1a5425c55", // item_equipment_rig_stich_defense_mod2
-      "9bac1d7e91695cb5b86ffca1", // item_equipment_rig_stich_defense_mod2
-      "0312d268c6fe522bb0a90fba", // item_equipment_rig_stich_defense_mod2
-      "2fa394a402b95a9bbf0ba778", // item_equipment_rig_stich_defense_mod2
-      "ea3cf47c664d5c8f91cf9b5c", // item_equipment_rig_stich_defense_mod2
-      "6d12c3efa8885383a24a26d4", // item_equipment_rig_stich_defense_mod2
-      "7b5f821a5ac95411afefc201", // item_equipment_rig_stich_defense_mod2
-      "f893c66d49aa5210ab58f2d9", // item_equipment_rig_stich_defense_mod2
-      "ed852bfb7aea53c7b2b9286c", // item_equipment_rig_stich_defense_mod2
-      "00fad605b3e050eaa4a61482", // item_equipment_rig_stich_defense_mod2
-      "4fb7f5fd08fb5710a6e1dee8", // item_equipment_rig_stich_defense_mod2
-      "533bd376af79517aad860825", // item_equipment_rig_stich_defense_mod2
-      "f3f0bc2104855b53bc647ab1", // item_equipment_rig_tv110
-      "526c6f2175fa5a3b80b79101", // item_equipment_rig_tv110
-      "a8320914f8705b8f892da42e", // item_equipment_rig_tv110
-      "30c864dbd84d50bcb742571e", // item_equipment_rig_tv110
-      "7df7b35e7c285a709c449cd4", // item_equipment_rig_tv110
-      "dfcaab6e9f1654b39192ce90", // item_equipment_rig_tv110
-      "99abae98cc9953fb8ffdb457", // item_equipment_rig_tv110
-      "f509c21ef99d52aa876f5e15", // item_equipment_rig_tv110
-      "759493a3ff8059c3a9a8c3e6", // item_equipment_rig_tv110
-      "849d69aadac15aea9a4de18f", // item_equipment_rig_tv110
-      "b029cd97008b578bb0bbc96e", // item_equipment_rig_tv110
-      "f6cc11f8c5275e5baa4e7f84", // item_equipment_rig_tv110
-      "985716b1504e5a92a71c3e73", // item_equipment_rig_tv110
-      "ac2685a4abdf548fa7bbe6a5", // item_equipment_rig_tv110
-      "9410c6aa59cf50bbb73c67b7", // item_equipment_rig_tv110
-      "ba4a3992c0cc52d59a7666d2", // item_equipment_rig_tv110
-      "a21de7fb0d765e429cf9c478", // item_equipment_rig_tv110
-      "3dffa2949d585ae8998a3246", // item_equipment_rig_tv110
-      "45ed5e1446f153ae92e0cb2f", // item_equipment_rig_tv110
-      "16420ba211b75359a2d0aeb5", // item_equipment_rig_tv110
-      "185e1694688754378fc7aae3", // item_equipment_rig_tv110
-      "221f2a8e694658a98fc0405b", // item_equipment_rig_tv110
-      "2a3ca34d0be75671afb3728b", // item_equipment_rig_tv110
-      "30cea75e15155b20bf35fa0f", // item_equipment_rig_tv110
-      "3d4db03445b9519c8b551175", // bearRig
-      "49eb6a6b878b568aa3be1f9e", // item_equipment_rig_tv110
-      "4d779106d4695d1bb9f1f824", // item_equipment_rig_tv110
-      "544dac9ec61f5b779d460600", // item_equipment_rig_tv110
-      "55cc46b4a0635083aeb4817b", // item_equipment_rig_boss_birdeye
-      "5f4b9516b5c95359aae3496f", // item_equipment_rig_tv110
-      "6317307fb5095330ae64213d", // item_equipment_rig_tv110
-      "696dc36137943ac278917ac7", // bearRig
-      "6b12e74840795586adb79d20", // item_equipment_rig_tv110
-      "798b9eec540753e9a38f9500", // item_equipment_rig_tv110
-      "902ead4b9872963a1eeb23df", // item_equipment_armor_a18
-      "9b9a352c2f205a6eb7dcc69c", // item_equipment_rig_tv110
-      "9e163e28065c536790eb8e63", // item_equipment_rig_tv110
-      "badc44d55a0050fc8a847e06", // item_equipment_rig_stich_defense_mod2
-      "bb7ac024e7e755438838e1f1", // item_equipment_rig_tv110
-      "be1ea47eec1f59fabfedc36b", // item_equipment_rig_tv110
-      "be2b0419e31f55249e24ab1b", // item_equipment_rig_tv110
-      "cbca7b76be4a59b28dbad0b7", // item_equipment_rig_tv110
-      "d67ad69a3dbb5f7db30448c4", // ana_tactical_m2
-      "d68371bd65fd542fa48555c2", // item_equipment_rig_tv110
-      "d96a92812231531f9a0eaf7f", // item_equipment_rig_tv110
-      "da50ae18c81c5add9c9231f3", // item_equipment_rig_tv110
-      "dea3b4d4670e523381e82172", // item_equipment_rig_tv110
-      "e1e4b956da175d83acfbb112", // item_equipment_rig_tv110
-      "e4d47681bc6d52029ca7a3f7", // item_equipment_rig_tv110
-      "fb81f4923b6c5484bffdb122", // item_equipment_rig_tv110
-      "ff3e2b73fc4ed86753c51e62" // item_equipment_rig_triton
+      "c5d8a1d334a955fabfff0a1d", // ANA Tactical M2 plate carrier (Arctic Camo)
+      "1e9a8e779dd1580d9fc2f8c1", // ANA Tactical M2 plate carrier (Black Camo)
+      "572413809afa5030aa3324de", // ANA Tactical M2 plate carrier (CADPAT)
+      "057aabe8cb4d5a35b2ff5752", // ANA Tactical M2 plate carrier (Coyote)
+      "776e4ad6e5be570e8a01c7b3", // ANA Tactical M2 plate carrier (CP MultiCam)
+      "fa1da256bb7c59a2b8d66ad4", // ANA Tactical M2 plate carrier (DBDU)
+      "0f51c139e42e582d8b0c2334", // ANA Tactical M2 plate carrier (DCU)
+      "853890d2355b54b099f3784d", // ANA Tactical M2 plate carrier (DPM Desert)
+      "5666c3d38bb4558dbeca939b", // ANA Tactical M2 plate carrier (DPM Woodland)
+      "6b3e19ee1983550a9c5cf8b8", // ANA Tactical M2 plate carrier (Flecktarn)
+      "cbb3359a8ec75a1ba189d360", // ANA Tactical M2 plate carrier (French Woodland)
+      "8f9f2f03bb07583aaf328bb9", // ANA Tactical M2 plate carrier (Green MultiCam)
+      "9500f252301b53f0ac45f424", // ANA Tactical M2 plate carrier (M14 Nigeria Desert)
+      "93b50ac8573453adbcc8fbdf", // ANA Tactical M2 plate carrier (M14 Nigeria Woodland)
+      "cb61337630e455228d9c912a", // ANA Tactical M2 plate carrier (M81 US Woodland)
+      "51df9fb2529354689df2a524", // ANA Tactical M2 plate carrier (MARPAT)
+      "550ae52e09655446898b2deb", // ANA Tactical M2 plate carrier (MCCUU)
+      "08aae070ae9f5e09b1985f16", // ANA Tactical M2 plate carrier (MultiCam Black)
+      "d67ad69a3dbb5f7db30448c4", // ANA Tactical M2 plate carrier (Red Right Hand)
+      "261a9c9c4eb752f795f37a36", // ANA Tactical M2 plate carrier (UCP)
+      "90bdd25a69275d42a5953420", // BlackRock chest rig (Arctic Camo)
+      "9b6490335a3157d088df3237", // BlackRock chest rig (Black Camo)
+      "696dc36137943ac278917ac7", // BlackRock chest rig (Black)
+      "78ca3527e9155016aea494ab", // BlackRock chest rig (CADPAT)
+      "62b51c08767d53a08536d0c2", // BlackRock chest rig (Coyote)
+      "58189281ead35cbf80883548", // BlackRock chest rig (CP MultiCam)
+      "2eb6f2fef9ea5a7b8c45fd4f", // BlackRock chest rig (DBDU)
+      "a4909546a95751679fdd8547", // BlackRock chest rig (DCU)
+      "bc01ebb960aa585297259fa5", // BlackRock chest rig (DPM Desert)
+      "b3acd4a50f8257bea0c5dfc6", // BlackRock chest rig (DPM Woodland)
+      "d7d0295d9a2d54d290c3a75c", // BlackRock chest rig (Flecktarn)
+      "2b7cad1049895455ae9dc9cf", // BlackRock chest rig (French Woodland)
+      "8e343d5a432950dd8d82ad52", // BlackRock chest rig (Green MultiCam)
+      "4fff6c4e51615e7f9d67623b", // BlackRock chest rig (M14 Nigeria Desert)
+      "b092594bfa845cab98efe22d", // BlackRock chest rig (M14 Nigeria Woodland)
+      "d46a8898895f5a99bfe2e5d2", // BlackRock chest rig (M81 US Woodland)
+      "1c554f00bc245b2ead65cf79", // BlackRock chest rig (MARPAT)
+      "89b523a88a7d5974aaab2dd0", // BlackRock chest rig (MCCUU)
+      "f660c6d9fb7a5e658c0c5f43", // BlackRock chest rig (MultiCam Black)
+      "3d4db03445b9519c8b551175", // BlackRock chest rig (Red Right Hand)
+      "cf54312d10215bcd87b5533c", // BlackRock chest rig (UCP)
+      "185e1694688754378fc7aae3", // Blue Force Gear PLATEminus V2 Plate Carrier (Black)
+      "5f4b9516b5c95359aae3496f", // Blue Force Gear PLATEminus V2 Plate Carrier (Black)
+      "cbca7b76be4a59b28dbad0b7", // Blue Force Gear PLATEminus V2 Plate Carrier (Black)
+      "fb81f4923b6c5484bffdb122", // Blue Force Gear PLATEminus V2 Plate Carrier (Black)
+      "6b12e74840795586adb79d20", // Blue Force Gear PLATEminus V2 Plate Carrier (Coyote Brown)
+      "30cea75e15155b20bf35fa0f", // Blue Force Gear PLATEminus V2 Plate Carrier (MultiCam Black)
+      "bb7ac024e7e755438838e1f1", // Blue Force Gear PLATEminus V2 Plate Carrier (MultiCam Black)
+      "d96a92812231531f9a0eaf7f", // Blue Force Gear PLATEminus V2 Plate Carrier (MultiCam Black)
+      "da50ae18c81c5add9c9231f3", // Blue Force Gear PLATEminus V2 Plate Carrier (MultiCam Black)
+      "798b9eec540753e9a38f9500", // Blue Force Gear PLATEminus V2 Plate Carrier (MultiCam)
+      "221f2a8e694658a98fc0405b", // Blue Force Gear PLATEminus V2 Plate Carrier (Night Ops)
+      "2a3ca34d0be75671afb3728b", // Blue Force Gear PLATEminus V2 Plate Carrier (Night Ops)
+      "be1ea47eec1f59fabfedc36b", // Blue Force Gear PLATEminus V2 Plate Carrier (Night Ops)
+      "e1e4b956da175d83acfbb112", // Blue Force Gear PLATEminus V2 Plate Carrier (Night Ops)
+      "16420ba211b75359a2d0aeb5", // Blue Force Gear PLATEminus V2 Plate Carrier (Red Right Hand)
+      "49eb6a6b878b568aa3be1f9e", // Blue Force Gear PLATEminus V2 Plate Carrier (Red Right Hand)
+      "4d779106d4695d1bb9f1f824", // Blue Force Gear PLATEminus V2 Plate Carrier (Red Right Hand)
+      "e4d47681bc6d52029ca7a3f7", // Blue Force Gear PLATEminus V2 Plate Carrier (Red Right Hand)
+      "9e163e28065c536790eb8e63", // Blue Force Gear PLATEminus V2 Plate Carrier (Scourge)
+      "d68371bd65fd542fa48555c2", // Blue Force Gear PLATEminus V2 Plate Carrier (Wolf Gray)
+      "ff3e2b73fc4ed86753c51e62", // Dynaforce Triton M43-A chest harness (Desert)
+      "6a45905dc1d900a2efe4eac8", // First Spear Siege-R Optimized M.A.S.S. Plate Carrier (MultiCam Arid)
+      "902ead4b9872963a1eeb23df", // First Spear Siege-R Optimized M.A.S.S. Plate Carrier (Red Right Hand)
+      "6317307fb5095330ae64213d", // First Spear Strandhogg plate carrier (Black Camo)
+      "dea3b4d4670e523381e82172", // FORT Gladiator-S plate carrier (Black Camo)
+      "e37ed3a6b094581783f8da1a", // LBT-1961A Load Bearing Chest Rig (Arctic Camo)
+      "d150e90fda1b5e968474b36f", // LBT-1961A Load Bearing Chest Rig (Black Camo)
+      "27fcae0292135ad193b9e143", // LBT-1961A Load Bearing Chest Rig (CADPAT)
+      "7de7f35b757e553d80605086", // LBT-1961A Load Bearing Chest Rig (Coyote)
+      "4c13d134b11559cfbbf0e364", // LBT-1961A Load Bearing Chest Rig (CP MultiCam)
+      "b40a9d74f84956878fe08091", // LBT-1961A Load Bearing Chest Rig (DBDU)
+      "ba1073242b8659688f76be82", // LBT-1961A Load Bearing Chest Rig (DCU)
+      "641a34e53a7f5dafb6be440f", // LBT-1961A Load Bearing Chest Rig (DPM Desert)
+      "705028be3ac05509a3621d61", // LBT-1961A Load Bearing Chest Rig (DPM Woodland)
+      "d1cb7596db455f4e96ca2864", // LBT-1961A Load Bearing Chest Rig (Flecktarn)
+      "442f50dfaecf5d4cbf8d4dde", // LBT-1961A Load Bearing Chest Rig (French Woodland)
+      "6400def2c67359ce9f924715", // LBT-1961A Load Bearing Chest Rig (Green MultiCam)
+      "880d66fe034c5575a02a783d", // LBT-1961A Load Bearing Chest Rig (M14 Nigeria Desert)
+      "eeaaba94049e5dc4ad3645df", // LBT-1961A Load Bearing Chest Rig (M14 Nigeria Woodland)
+      "4660d850e0e158b7b193e199", // LBT-1961A Load Bearing Chest Rig (M81 US Woodland)
+      "c0fe75b12f875112892b8b27", // LBT-1961A Load Bearing Chest Rig (MARPAT)
+      "466b47a85356538eb66f0a13", // LBT-1961A Load Bearing Chest Rig (MCCUU)
+      "542bd48964a156a18c8bc788", // LBT-1961A Load Bearing Chest Rig (MultiCam Black)
+      "55cc46b4a0635083aeb4817b", // LBT-1961A Load Bearing Chest Rig (Red Right Hand)
+      "1a589d5d3ed4596297b3f739", // LBT-1961A Load Bearing Chest Rig (UCP)
+      "9b9a352c2f205a6eb7dcc69c", // Stich Profi Stich Defense mod.2 plate carrier (A-TACS FG)
+      "a8c5d3b7b2cd531487c7fb38", // Stich Profi Stich Defense mod.2 plate carrier (Arctic Camo)
+      "fb7f482b26fa50c7b14e931e", // Stich Profi Stich Defense mod.2 plate carrier (Black Camo)
+      "81b12ab282e45f68ae697619", // Stich Profi Stich Defense mod.2 plate carrier (CADPAT)
+      "544dac9ec61f5b779d460600", // Stich Profi Stich Defense mod.2 plate carrier (Cleanup Crew)
+      "ca0ed2f7099857c9bf7a31c4", // Stich Profi Stich Defense mod.2 plate carrier (Coyote)
+      "ce186fdb92105a228cf3aa01", // Stich Profi Stich Defense mod.2 plate carrier (CP MultiCam)
+      "03e1a772d7df56ee93c4bc37", // Stich Profi Stich Defense mod.2 plate carrier (DBDU)
+      "8742e64d99b452b4bc6cf2d2", // Stich Profi Stich Defense mod.2 plate carrier (DCU)
+      "0b1a157885a65aa1a5425c55", // Stich Profi Stich Defense mod.2 plate carrier (DPM Desert)
+      "9bac1d7e91695cb5b86ffca1", // Stich Profi Stich Defense mod.2 plate carrier (DPM Woodland)
+      "0312d268c6fe522bb0a90fba", // Stich Profi Stich Defense mod.2 plate carrier (Flecktarn)
+      "2fa394a402b95a9bbf0ba778", // Stich Profi Stich Defense mod.2 plate carrier (French Woodland)
+      "ea3cf47c664d5c8f91cf9b5c", // Stich Profi Stich Defense mod.2 plate carrier (Green MultiCam)
+      "6d12c3efa8885383a24a26d4", // Stich Profi Stich Defense mod.2 plate carrier (M14 Nigeria Desert)
+      "7b5f821a5ac95411afefc201", // Stich Profi Stich Defense mod.2 plate carrier (M14 Nigeria Woodland)
+      "f893c66d49aa5210ab58f2d9", // Stich Profi Stich Defense mod.2 plate carrier (M81 US Woodland)
+      "ed852bfb7aea53c7b2b9286c", // Stich Profi Stich Defense mod.2 plate carrier (MARPAT)
+      "00fad605b3e050eaa4a61482", // Stich Profi Stich Defense mod.2 plate carrier (MCCUU)
+      "4fb7f5fd08fb5710a6e1dee8", // Stich Profi Stich Defense mod.2 plate carrier (MultiCam Black)
+      "badc44d55a0050fc8a847e06", // Stich Profi Stich Defense mod.2 plate carrier (Red Right Hand)
+      "533bd376af79517aad860825", // Stich Profi Stich Defense mod.2 plate carrier (UCP)
+      "f3f0bc2104855b53bc647ab1", // WARTECH TV-110 plate carrier (Arctic Camo)
+      "526c6f2175fa5a3b80b79101", // WARTECH TV-110 plate carrier (Black Camo)
+      "a8320914f8705b8f892da42e", // WARTECH TV-110 plate carrier (CADPAT)
+      "30c864dbd84d50bcb742571e", // WARTECH TV-110 plate carrier (Coyote)
+      "7df7b35e7c285a709c449cd4", // WARTECH TV-110 plate carrier (CP MultiCam)
+      "dfcaab6e9f1654b39192ce90", // WARTECH TV-110 plate carrier (DBDU)
+      "99abae98cc9953fb8ffdb457", // WARTECH TV-110 plate carrier (DCU)
+      "f509c21ef99d52aa876f5e15", // WARTECH TV-110 plate carrier (DPM Desert)
+      "759493a3ff8059c3a9a8c3e6", // WARTECH TV-110 plate carrier (DPM Woodland)
+      "849d69aadac15aea9a4de18f", // WARTECH TV-110 plate carrier (Flecktarn)
+      "b029cd97008b578bb0bbc96e", // WARTECH TV-110 plate carrier (French Woodland)
+      "f6cc11f8c5275e5baa4e7f84", // WARTECH TV-110 plate carrier (Green MultiCam)
+      "985716b1504e5a92a71c3e73", // WARTECH TV-110 plate carrier (M14 Nigeria Desert)
+      "ac2685a4abdf548fa7bbe6a5", // WARTECH TV-110 plate carrier (M14 Nigeria Woodland)
+      "9410c6aa59cf50bbb73c67b7", // WARTECH TV-110 plate carrier (M81 US Woodland)
+      "ba4a3992c0cc52d59a7666d2", // WARTECH TV-110 plate carrier (MARPAT)
+      "a21de7fb0d765e429cf9c478", // WARTECH TV-110 plate carrier (MCCUU)
+      "3dffa2949d585ae8998a3246", // WARTECH TV-110 plate carrier (MultiCam Black)
+      "be2b0419e31f55249e24ab1b", // WARTECH TV-110 plate carrier (Red Right Hand)
+      "45ed5e1446f153ae92e0cb2f" // WARTECH TV-110 plate carrier (UCP)
     ],
     "armor": [
-      "87758f3f54ad592882ea59e6", // heavy
-      "b38b50e9af8f52c7ad201dbd", // heavy
-      "afe915b0f3455d358f44e9ff", // heavy
-      "203df50ae44452ec8947ca02", // heavy
-      "a90aa94d6f1e514cb8d80d60", // heavy
-      "aee3a5958c5e5294a36ee4ee", // heavy
-      "07f6ce6722d65264842df52e", // heavy
-      "af4f500ed7905f55a2a12ebe", // heavy
-      "8cdfb8d8758f51959bbda48f", // heavy
-      "8aebe756c9795c8d97123514", // heavy
-      "30ecc5cef21852e6a8c812e4", // heavy
-      "a295491c19b458a88fe9c95f", // heavy
-      "a62fe10d9037568d909e6315", // heavy
-      "daf53b05425650068db992ee", // heavy
-      "b6187879d70c550fa27968b5", // heavy
-      "231e542e8a3b5acfb5fa5026", // heavy
-      "be9db3f8a9b15ebf9051e08f", // heavy
-      "a2bb0f683e1a564e98a4e304", // heavy
-      "8e7410131b6d537ca44545f7", // heavy
-      "f321a3a2121f5fbb83b4c515", // item_equipment_armor_redut_m
-      "c9f87f3def255e8080151e59", // item_equipment_armor_redut_m
-      "7dcf9103d76e57c1b77e00af", // item_equipment_armor_redut_m
-      "4747ddbc1d935e32bea89160", // item_equipment_armor_redut_m
-      "5d6acf7f64b05350b19f737e", // item_equipment_armor_redut_m
-      "018c09475c6157cba9d426db", // item_equipment_armor_redut_m
-      "0d338aefac3250c48ff6f1eb", // item_equipment_armor_redut_m
-      "bb2f888152245f8e98ac58c2", // item_equipment_armor_redut_m
-      "6bba95a71c385e90a4767e0b", // item_equipment_armor_redut_m
-      "22c2595ddd845494b0bf33a6", // item_equipment_armor_redut_m
-      "8561d7994609586a96f88761", // item_equipment_armor_redut_m
-      "dddf4e508e1c571fb6021fca", // item_equipment_armor_redut_m
-      "23803a8953675528bf7f99c8", // item_equipment_armor_redut_m
-      "7d7d7ec7529558e39570301e", // item_equipment_armor_redut_m
-      "07385470aac75a52b7402ddc", // item_equipment_armor_redut_m
-      "17bb756c12195b02aa60f4a9", // item_equipment_armor_redut_m
-      "32286846ad4b5b5bbfffe293", // item_equipment_armor_redut_m
-      "193f3ea94f2d514d99ecae39", // item_equipment_armor_redut_m
-      "f901bf5ad3655a37a5e8fd19", // item_equipment_armor_redut_m
-      "2e74b476747159968bdfed9c", // item_equipment_armor_hexatac
-      "21facf3305b055d18e098abb", // item_equipment_armor_hexatac
-      "2b1635a9739a5a548987711e", // item_equipment_armor_hexatac
-      "cc350b6cec0a56728829d126", // item_equipment_armor_hexatac
-      "d92d1947548a5d82a52c325c", // item_equipment_armor_hexatac
-      "f2f5aa5c753c520db7a679fd", // item_equipment_armor_hexatac
-      "f8d6a7bbca3258b09d943fd7", // item_equipment_armor_hexatac
-      "326b4f8f8e28553283e26037", // item_equipment_armor_hexatac
-      "4de3434d66595e5c95ff3413", // item_equipment_armor_hexatac
-      "843898ea9f0c5a6a93815701", // item_equipment_armor_hexatac
-      "9fd0b1ed32e951ecb4909c67", // item_equipment_armor_hexatac
-      "39db7daf65b75b3183819727", // item_equipment_armor_hexatac
-      "316ce48dfa1a590d84b080d3", // item_equipment_armor_hexatac
-      "a07d2621b31656789ba8a67a", // item_equipment_armor_hexatac
-      "93c13c8131d857aaa392111e", // item_equipment_armor_hexatac
-      "2e9595385f6859829d88a674", // item_equipment_armor_hexatac
-      "dad11220c9de518689bd2c26", // item_equipment_armor_hexatac
-      "c6734a14c6d6560d93d4fd3f", // item_equipment_armor_hexatac
-      "b9f114cb09525b5f9f0ebf09", // item_equipment_armor_slick
-      "dded9682652b515db831294a", // item_equipment_armor_slick
-      "8d5c5bf8169255c4a51e030b", // item_equipment_armor_slick
-      "193457f7306456a0ba087e25", // item_equipment_armor_slick
-      "9e43b9588c69501b84de4cf3", // item_equipment_armor_slick
-      "ce769e5cb4b45007abbaaf94", // item_equipment_armor_slick
-      "38018d3e5f4757018ea788c7", // item_equipment_armor_slick
-      "1f0a2fb047815b5bb2d3e0ee", // item_equipment_armor_slick
-      "45ff0f73279e53c0a76af0ef", // item_equipment_armor_slick
-      "e837a1dfd3f654a0abbb94e9", // item_equipment_armor_slick
-      "24fb9988bd3f5bf998104c84", // item_equipment_armor_slick
-      "fa26c0bf406e56a181c202bf", // item_equipment_armor_slick
-      "7f17fbc293a45d409b24745a", // item_equipment_armor_slick
-      "8ae2ba31c7f451efa800d842", // item_equipment_armor_slick
-      "d0dae3a5077d5b13b8b2c432", // item_equipment_armor_slick
-      "bb5df462afc8569c93f931dc", // item_equipment_armor_slick
-      "ab566fd27c1c5b4d861cb767", // item_equipment_armor_slick
-      "4227e137be7a5e4fb6326b26", // item_equipment_armor_slick
-      "fb8e3e5521dd51bf857bb7de", // item_equipment_armor_slick
-      "6869df7a21ca5d6d862cfba0", // item_equipment_armor_korundvm
-      "d00e61dbee7a5d6881b75899", // item_equipment_armor_korundvm
-      "6df133c51f335a22b4d07d8f", // item_equipment_armor_korundvm
-      "79636b2f4e0a53eabacdeb74", // item_equipment_armor_korundvm
-      "05fe88db78b85cecbd00ab93", // item_equipment_armor_korundvm
-      "79e13f25f79c53f28e6300e1", // item_equipment_armor_korundvm
-      "bee8971093115244a8b8a195", // item_equipment_armor_korundvm
-      "1c2f77f8468850d7a2386010", // item_equipment_armor_korundvm
-      "a7806ad6fc1550018cd449d6", // item_equipment_armor_korundvm
-      "4fc76c69f1ba570294ab5cba", // item_equipment_armor_korundvm
-      "efcd5b35890a514bbd943211", // item_equipment_armor_korundvm
-      "e5d9ba830b8f5fb6b65de6a5", // item_equipment_armor_korundvm
-      "b493ad533b64531ebbfa9476", // item_equipment_armor_korundvm
-      "2b465d2d087b5078851af755", // item_equipment_armor_korundvm
-      "7481d2d949165b47948c4dc8", // item_equipment_armor_korundvm
-      "1a83d587dd1e5084a1f062cd", // item_equipment_armor_korundvm
-      "eedb25b44c5058578ffb029b", // item_equipment_armor_korundvm
-      "21e7dc0046d15b638601aae2", // item_equipment_armor_korundvm
-      "41ea2d40790e58c08de10938", // item_equipment_armor_korundvm
-      "08b86349fe0e52d381bb6b1f", // item_equipment_armor_hexatac
-      "138f84926c17515ab57833db", // item_equipment_armor_iotv
-      "13ec9619adf65faf87998dab", // item_equipment_armor_hexatac
-      "18e3e9173f365975995bc1f0", // item_equipment_armor_korundvm
-      "45086e6a313050a1ac3d9933", // item_equipment_armor_redut_m
-      "5f98648760ce5ebe9ba96d92", // item_equipment_armor_iotv_1
-      "604f6781e72f590f9f1e65b0", // item_equipment_armor_hexatac
-      "606c5003f3505cd8b235dbfe", // item_equipment_armor_hexatac
-      "7684785c71295a7292ce6897", // heavy
-      "b55292761c0d52adbf45d394", // item_equipment_armor_slick
-      "b9b336b775e55e39a04c9c35", // item_equipment_armor_iotv_2
-      "bdc406a9dc2652eb9efef9bd", // item_equipment_armor_hexatac
-      "d052717704bf51a1bdef91f1", // item_equipment_armor_hexatac
-      "d94e6339da1f5863a47bdfbe" // item_equipment_armor_hexatac
+      "87758f3f54ad592882ea59e6", // 6B45 body armor (Arctic Camo)
+      "b38b50e9af8f52c7ad201dbd", // 6B45 body armor (Black Camo)
+      "afe915b0f3455d358f44e9ff", // 6B45 body armor (CADPAT)
+      "203df50ae44452ec8947ca02", // 6B45 body armor (Coyote)
+      "a90aa94d6f1e514cb8d80d60", // 6B45 body armor (CP MultiCam)
+      "aee3a5958c5e5294a36ee4ee", // 6B45 body armor (DBDU)
+      "07f6ce6722d65264842df52e", // 6B45 body armor (DCU)
+      "af4f500ed7905f55a2a12ebe", // 6B45 body armor (DPM Desert)
+      "8cdfb8d8758f51959bbda48f", // 6B45 body armor (DPM Woodland)
+      "8aebe756c9795c8d97123514", // 6B45 body armor (Flecktarn)
+      "30ecc5cef21852e6a8c812e4", // 6B45 body armor (French Woodland)
+      "a295491c19b458a88fe9c95f", // 6B45 body armor (Green MultiCam)
+      "a62fe10d9037568d909e6315", // 6B45 body armor (M14 Nigeria Desert)
+      "daf53b05425650068db992ee", // 6B45 body armor (M14 Nigeria Woodland)
+      "b6187879d70c550fa27968b5", // 6B45 body armor (M81 US Woodland)
+      "231e542e8a3b5acfb5fa5026", // 6B45 body armor (MARPAT)
+      "be9db3f8a9b15ebf9051e08f", // 6B45 body armor (MCCUU)
+      "a2bb0f683e1a564e98a4e304", // 6B45 body armor (MultiCam Black)
+      "7684785c71295a7292ce6897", // 6B45 body armor (Red Right Hand)
+      "8e7410131b6d537ca44545f7", // 6B45 body armor (UCP)
+      "bdc406a9dc2652eb9efef9bd", // Blue Force Gear PLATEminus V2 body armor (Black)
+      "d052717704bf51a1bdef91f1", // Blue Force Gear PLATEminus V2 body armor (Coyote Brown)
+      "13ec9619adf65faf87998dab", // Blue Force Gear PLATEminus V2 body armor (MultiCam Black)
+      "606c5003f3505cd8b235dbfe", // Blue Force Gear PLATEminus V2 body armor (Night Ops)
+      "08b86349fe0e52d381bb6b1f", // Blue Force Gear PLATEminus V2 body armor (Red Right Hand)
+      "d94e6339da1f5863a47bdfbe", // Blue Force Gear PLATEminus V2 body armor (Wolf Gray)
+      "f321a3a2121f5fbb83b4c515", // FORT Gladiator-S plate carrier (Arctic Camo)
+      "c9f87f3def255e8080151e59", // FORT Gladiator-S plate carrier (Black Camo)
+      "7dcf9103d76e57c1b77e00af", // FORT Gladiator-S plate carrier (CADPAT)
+      "4747ddbc1d935e32bea89160", // FORT Gladiator-S plate carrier (Coyote)
+      "5d6acf7f64b05350b19f737e", // FORT Gladiator-S plate carrier (CP MultiCam)
+      "018c09475c6157cba9d426db", // FORT Gladiator-S plate carrier (DBDU)
+      "0d338aefac3250c48ff6f1eb", // FORT Gladiator-S plate carrier (DCU)
+      "bb2f888152245f8e98ac58c2", // FORT Gladiator-S plate carrier (DPM Desert)
+      "6bba95a71c385e90a4767e0b", // FORT Gladiator-S plate carrier (DPM Woodland)
+      "22c2595ddd845494b0bf33a6", // FORT Gladiator-S plate carrier (Flecktarn)
+      "8561d7994609586a96f88761", // FORT Gladiator-S plate carrier (French Woodland)
+      "dddf4e508e1c571fb6021fca", // FORT Gladiator-S plate carrier (Green MultiCam)
+      "23803a8953675528bf7f99c8", // FORT Gladiator-S plate carrier (M14 Nigeria Desert)
+      "7d7d7ec7529558e39570301e", // FORT Gladiator-S plate carrier (M14 Nigeria Woodland)
+      "07385470aac75a52b7402ddc", // FORT Gladiator-S plate carrier (M81 US Woodland)
+      "17bb756c12195b02aa60f4a9", // FORT Gladiator-S plate carrier (MARPAT)
+      "32286846ad4b5b5bbfffe293", // FORT Gladiator-S plate carrier (MCCUU)
+      "6a4543c3f4d5564b34873434", // FORT Gladiator-S plate carrier (MultiCam Arid)
+      "193f3ea94f2d514d99ecae39", // FORT Gladiator-S plate carrier (MultiCam Black)
+      "45086e6a313050a1ac3d9933", // FORT Gladiator-S plate carrier (Red Right Hand)
+      "f901bf5ad3655a37a5e8fd19", // FORT Gladiator-S plate carrier (UCP)
+      "2e74b476747159968bdfed9c", // Hexatac HPC Plate Carrier (Arctic Camo)
+      "21facf3305b055d18e098abb", // Hexatac HPC Plate Carrier (Black Camo)
+      "2b1635a9739a5a548987711e", // Hexatac HPC Plate Carrier (CADPAT)
+      "cc350b6cec0a56728829d126", // Hexatac HPC Plate Carrier (Coyote)
+      "d92d1947548a5d82a52c325c", // Hexatac HPC Plate Carrier (CP MultiCam)
+      "f2f5aa5c753c520db7a679fd", // Hexatac HPC Plate Carrier (DBDU)
+      "f8d6a7bbca3258b09d943fd7", // Hexatac HPC Plate Carrier (DCU)
+      "326b4f8f8e28553283e26037", // Hexatac HPC Plate Carrier (DPM Desert)
+      "4de3434d66595e5c95ff3413", // Hexatac HPC Plate Carrier (DPM Woodland)
+      "843898ea9f0c5a6a93815701", // Hexatac HPC Plate Carrier (Flecktarn)
+      "9fd0b1ed32e951ecb4909c67", // Hexatac HPC Plate Carrier (French Woodland)
+      "39db7daf65b75b3183819727", // Hexatac HPC Plate Carrier (Green MultiCam)
+      "316ce48dfa1a590d84b080d3", // Hexatac HPC Plate Carrier (M14 Nigeria Desert)
+      "a07d2621b31656789ba8a67a", // Hexatac HPC Plate Carrier (M14 Nigeria Woodland)
+      "93c13c8131d857aaa392111e", // Hexatac HPC Plate Carrier (M81 US Woodland)
+      "2e9595385f6859829d88a674", // Hexatac HPC Plate Carrier (MARPAT)
+      "dad11220c9de518689bd2c26", // Hexatac HPC Plate Carrier (MCCUU)
+      "604f6781e72f590f9f1e65b0", // Hexatac HPC Plate Carrier (Red Right Hand)
+      "c6734a14c6d6560d93d4fd3f", // Hexatac HPC Plate Carrier (UCP)
+      "5f98648760ce5ebe9ba96d92", // IOTV Gen4 body armor (Assault Kit, Black Camo)
+      "138f84926c17515ab57833db", // IOTV Gen4 body armor (Full Protection Kit, Black Camo)
+      "b9b336b775e55e39a04c9c35", // IOTV Gen4 body armor (High Mobility Kit, Black Camo)
+      "b9f114cb09525b5f9f0ebf09", // LBT-6094A Slick Plate Carrier (Arctic Camo)
+      "dded9682652b515db831294a", // LBT-6094A Slick Plate Carrier (Black Camo)
+      "8d5c5bf8169255c4a51e030b", // LBT-6094A Slick Plate Carrier (CADPAT)
+      "193457f7306456a0ba087e25", // LBT-6094A Slick Plate Carrier (Coyote)
+      "9e43b9588c69501b84de4cf3", // LBT-6094A Slick Plate Carrier (CP MultiCam)
+      "ce769e5cb4b45007abbaaf94", // LBT-6094A Slick Plate Carrier (DBDU)
+      "38018d3e5f4757018ea788c7", // LBT-6094A Slick Plate Carrier (DCU)
+      "1f0a2fb047815b5bb2d3e0ee", // LBT-6094A Slick Plate Carrier (DPM Desert)
+      "45ff0f73279e53c0a76af0ef", // LBT-6094A Slick Plate Carrier (DPM Woodland)
+      "e837a1dfd3f654a0abbb94e9", // LBT-6094A Slick Plate Carrier (Flecktarn)
+      "24fb9988bd3f5bf998104c84", // LBT-6094A Slick Plate Carrier (French Woodland)
+      "fa26c0bf406e56a181c202bf", // LBT-6094A Slick Plate Carrier (Green MultiCam)
+      "7f17fbc293a45d409b24745a", // LBT-6094A Slick Plate Carrier (M14 Nigeria Desert)
+      "8ae2ba31c7f451efa800d842", // LBT-6094A Slick Plate Carrier (M14 Nigeria Woodland)
+      "d0dae3a5077d5b13b8b2c432", // LBT-6094A Slick Plate Carrier (M81 US Woodland)
+      "bb5df462afc8569c93f931dc", // LBT-6094A Slick Plate Carrier (MARPAT)
+      "ab566fd27c1c5b4d861cb767", // LBT-6094A Slick Plate Carrier (MCCUU)
+      "4227e137be7a5e4fb6326b26", // LBT-6094A Slick Plate Carrier (MultiCam Black)
+      "b55292761c0d52adbf45d394", // LBT-6094A Slick Plate Carrier (Red Right Hand)
+      "fb8e3e5521dd51bf857bb7de", // LBT-6094A Slick Plate Carrier (UCP)
+      "6869df7a21ca5d6d862cfba0", // NPP KlASS Korund-VM body armor (Arctic Camo)
+      "d00e61dbee7a5d6881b75899", // NPP KlASS Korund-VM body armor (Black Camo)
+      "6df133c51f335a22b4d07d8f", // NPP KlASS Korund-VM body armor (CADPAT)
+      "79636b2f4e0a53eabacdeb74", // NPP KlASS Korund-VM body armor (Coyote)
+      "05fe88db78b85cecbd00ab93", // NPP KlASS Korund-VM body armor (CP MultiCam)
+      "79e13f25f79c53f28e6300e1", // NPP KlASS Korund-VM body armor (DBDU)
+      "bee8971093115244a8b8a195", // NPP KlASS Korund-VM body armor (DCU)
+      "1c2f77f8468850d7a2386010", // NPP KlASS Korund-VM body armor (DPM Desert)
+      "a7806ad6fc1550018cd449d6", // NPP KlASS Korund-VM body armor (DPM Woodland)
+      "4fc76c69f1ba570294ab5cba", // NPP KlASS Korund-VM body armor (Flecktarn)
+      "efcd5b35890a514bbd943211", // NPP KlASS Korund-VM body armor (French Woodland)
+      "e5d9ba830b8f5fb6b65de6a5", // NPP KlASS Korund-VM body armor (Green MultiCam)
+      "b493ad533b64531ebbfa9476", // NPP KlASS Korund-VM body armor (M14 Nigeria Desert)
+      "2b465d2d087b5078851af755", // NPP KlASS Korund-VM body armor (M14 Nigeria Woodland)
+      "7481d2d949165b47948c4dc8", // NPP KlASS Korund-VM body armor (M81 US Woodland)
+      "1a83d587dd1e5084a1f062cd", // NPP KlASS Korund-VM body armor (MARPAT)
+      "eedb25b44c5058578ffb029b", // NPP KlASS Korund-VM body armor (MCCUU)
+      "21e7dc0046d15b638601aae2", // NPP KlASS Korund-VM body armor (MultiCam Black)
+      "18e3e9173f365975995bc1f0", // NPP KlASS Korund-VM body armor (Red Right Hand)
+      "41ea2d40790e58c08de10938" // NPP KlASS Korund-VM body armor (UCP)
     ],
     "weapons": [
-      "260061e8303c5f779db7db20", // weapon_cmmg_mk47_762x39
-      "cb80fe3f3cfb52b5a87e6094", // weapon_dt_mdr_556x45
-      "efcffd19f0435f04a82374c2", // weapon_dt_mdr_762x51
-      "cf57ac872fca521998e54395", // weapon_dsa_sa58_762x51
-      "642260b62a82540dbf9bfc36", // weapon_fn_40gl_s
-      "b3d61fbd952d5c4c8c9187c5", // weapon_hk_g28_762x51
-      "7c035e445456522b8dfb749d", // weapon_hk_mp7a1_46x30
-      "03539977e9ae5795a74b30b9", // weapon_hk_mp7a2_46x30
-      "6933764646149ffb28ed75e0", // weapon_colt_m4a1_556x45
-      "69fca77d3a0b02c8aec59eb4", // weapon_colt_m4a1_556x45
-      "6a1e14b82ce3a438f4b6b2e8", // weapon_colt_m4a1_556x45
-      "0be7b355555056dc92995312", // weapon_milkor_m32a1_msgl_40x46
-      "18e10187041456dbaa900de2", // weapon_cmmg_mk47_762x39
-      "a3f35b5ff515570584c64f0f", // weapon_fn_p90_57x28
-      "6a4d24532666085a03d7b1e3", // weapon_hk_mp7a2_46x30
-      "8fbcdfe7577d5fefbb207557", // weapon_rifle_dynamics_704_762x39
-      "69842a195bdc0574dbdf25ca", // weapon_sig_mcx_spear_68x51
-      "7b0c1938f1745313a76e2aa9", // weapon_remington_r11_rsass_762x51
-      "9c0d097975b25ceca897c853", // weapon_rifle_dynamics_704_762x39
-      "dfba67dbc6035b6aa1ebc594", // weapon_sako_trg_m10_86x70
-      "1e42a15d2f63539693e5c7f8", // weapon_sig_mcx_gen1_762x35
-      "69f67aaf276f5880ea08136f", // weapon_sig_mcx_spear_68x51
-      "9e99618280a4576e8e3e1f64", // weapon_sig_mcx_spear_68x51
-      "6fe40d1ffec95b6ab6610a4a", // weapon_sig_mcx_spear_68x51
-      "1a17ed32613c5cb6a7c961da" // weapon_sword_int_mk_18_mjolnir_86x70
+      "260061e8303c5f779db7db20", // CMMG Mk47 Mutant 7.62x39 assault rifle (RAL 8000)
+      "cb80fe3f3cfb52b5a87e6094", // Desert Tech MDR 5.56x45 assault rifle (Black)
+      "efcffd19f0435f04a82374c2", // Desert Tech MDR 7.62x51 assault rifle (FDE)
+      "cf57ac872fca521998e54395", // DS Arms SA58 7.62x51 assault rifle (RAL 8000)
+      "642260b62a82540dbf9bfc36", // FN40GL Mk2 40mm grenade launcher (Black)
+      "b3d61fbd952d5c4c8c9187c5", // HK G28 7.62x51 marksman rifle (Black)
+      "7c035e445456522b8dfb749d", // HK MP7A1 4.6x30 submachine gun (FDE)
+      "03539977e9ae5795a74b30b9", // HK MP7A2 4.6x30 submachine gun (Black)
+      "6933764646149ffb28ed75e0", // ISB Modified Colt M4A1 5.56x45 assault rifle
+      "69fca77d3a0b02c8aec59eb4", // ISB Modified Colt M4A1 5.56x45 Assault Rifle (FDE)
+      "6a1e14b82ce3a438f4b6b2e8", // ISB Modified Colt M4A1 5.56x45 Assault Rifle V2 (FDE)
+      "0be7b355555056dc92995312", // Milkor M32A1 MSGL 40mm grenade launcher (Black)
+      "18e10187041456dbaa900de2", // Modified CMMG Mk47 Mutant 7.62x39 assault rifle
+      "a3f35b5ff515570584c64f0f", // Modified FN P90 5.7x28 submachine gun (Scourge)
+      "6a4d24532666085a03d7b1e3", // Modified HK MP7-SF 4.6x30 submachine gun (Prototype)
+      "8fbcdfe7577d5fefbb207557", // Modified Rifle Dynamics RD-704 7.62x39 assault rifle
+      "69842a195bdc0574dbdf25ca", // Modified SIG MCX-SPEAR 6.8x51 assault rifle
+      "7b0c1938f1745313a76e2aa9", // Remington R11 RSASS 7.62x51 marksman rifle (Black)
+      "9c0d097975b25ceca897c853", // Rifle Dynamics RD-704 7.62x39 assault rifle (RAL 8000)
+      "dfba67dbc6035b6aa1ebc594", // Sako TRG M10 .338 LM bolt-action sniper rifle (Black)
+      "1e42a15d2f63539693e5c7f8", // SIG MCX .300 Blackout assault rifle (RAL 8000)
+      "69f67aaf276f5880ea08136f", // SIG MCX-SPEAR 5.56x45 assault rifle
+      "9e99618280a4576e8e3e1f64", // SIG MCX-SPEAR 5.56x45 assault rifle (Black)
+      "6fe40d1ffec95b6ab6610a4a", // SIG MCX-SPEAR 6.8x51 assault rifle (Black)
+      "1a17ed32613c5cb6a7c961da" // SWORD International Mk-18 .338 LM marksman rifle (Black)
     ],
-    "mods": [],
+    "mods": [
+      "7b6273cecf835787aacfeeae", // AK 7.62x39 FAB Defense Ultimag 30R 30-round magazine (RAL 8000)
+      "fba628b96403501fb066b035", // AK 7.62x39 FAB Defense Ultimag 30R 30-round magazine (RAL 8000) (Tape)
+      "4865d3ad76ee54958044a60c", // AK 7.62x39 FAB Defense Ultimag 30R 30-round magazine (Tape)
+      "fd0379c533b65d388640812c", // AK 7.62x39 Magpul PMAG 30 GEN M3 30-round magazine (RAL 8000)
+      "de913e951733527d978227dd", // AK 7.62x39 Magpul PMAG 30 GEN M3 30-round magazine (RAL 8000) (Tape)
+      "fa281a21c94658059a346a5c", // AK 7.62x39 Magpul PMAG 30 GEN M3 30-round magazine (Tape)
+      "13c35a79db1c598ab36c876e", // AK 7.62x39 X Products X-47 50-round drum magazine (Tape)
+      "a9faa557e9c259a9b3149f60", // AK-74 5.45x39 6L26 45-round magazine (Tape)
+      "093565ad01cd57a2a54c8303", // AK-74 5.45x39 6L31 60-round magazine (Tape)
+      "f0f2939ba83d5d47b0eaf275", // AK-74 5.45x39 Magpul PMAG 30 GEN M3 30-round magazine (Tape)
+      "69f683cb5fe79e067a85d9ef", // AR-10 5.56x45 Modified Lancer L7AWM 25-round magazine
+      "fe3d0874787c51618baf2894", // AR-10 5.56x45 Modified Lancer L7AWM 25-round magazine
+      "69f68305a8eea15aea284ef9", // AR-10 5.56x45 Modified Lancer L7AWM-A55 30-round magazine
+      "69f683f01b84e0c82074cadb", // AR-10 5.56x45 X Products X-25 Modified 50-round drum magazine
+      "ec49264b68675a3a83853649", // AR-10 7.62x51 Lancer L7AWM 20-round magazine (Tape)
+      "bab1f6f134db5a5a8e022660", // AR-10 7.62x51 Lancer L7AWM 25-round magazine (Tape)
+      "698433340750b999d91e3465", // AR-10 7.62x51 Lancer L7AWM-A55 30-round magazine
+      "f977c3a650b954f69eae3d7f", // AR-10 7.62x51 Lancer L7AWM-A55 30-round magazine (Tape)
+      "0eafc344b76f5164bd11eb2f", // AR-10 7.62x51 Magpul PMAG 20 SR-LR GEN M3 20-round magazine (Tape)
+      "13b140e5489a542b969bce99", // AR-15 5.56x45 Daniel Defense 32-round magazine (Tape)
+      "cc3e263b11465058a0f4d1fa", // AR-15 5.56x45 HK PM Gen.2 STANAG 30-round magazine (Tape)
+      "3b6f7e56416a5fb8b502dc91", // AR-15 5.56x45 Lancer L5 AWM 30-round magazine (Tape)
+      "d71bf3f7b2635ef59a897f17", // AR-15 5.56x45 Lancer L5 AWM 30-round magazine (Tape)
+      "85acf87f8ec85bcca32d7eae", // AR-15 5.56x45 Magpul PMAG 30 GEN M3 STANAG 30-round magazine (Tape)
+      "4ef82195fffe5527a881e1d7", // AR-15 5.56x45 Magpul PMAG 30 GEN M3 W STANAG 30-round magazine (Tape)
+      "af5c9c35e78e5867a21807be", // AR-15 5.56x45 Magpul PMAG 30 GEN M3 W STANAG 30-round magazine (Tape)
+      "93589bf85a5955808cacd285", // AR-15 5.56x45 Magpul PMAG 40 GEN M3 STANAG 40-round magazine (Tape)
+      "69f0d28ca0c7d37d9130aab8", // AR-15 5.56x45 Magpul PMAG D-60 STANAG 60-round magazine (FDE)
+      "24205930efad5921a1fb8e1e", // AR-15 5.56x45 Magpul PMAG D-60 STANAG 60-round magazine (Tape)
+      "f98ba8a74bc758cb9465f3b2", // AR-15 5.56x45 Magpul PMAG D-60 STANAG 60-round magazine (Tape)
+      "69f058abe6c9802225abaf21", // AR-15 5.56x45 SureFire MAG5-60 STANAG 60-round magazine (FDE)
+      "8805ece53da85942823c9c35", // AR-15 5.56x45 SureFire MAG5-60 STANAG 60-round magazine (Tape)
+      "ba0f13da81915cc7b9bc9d7f", // AR-15 5.56x45 SureFire MAG5-60 STANAG 60-round magazine (Tape)
+      "cc4aa5e8aed95c5d93329cb1", // AR-15 5.56x45 TROY BattleMag STANAG 30-round magazine (Tape)
+      "ef505f9cf2e05ef7bd384c04", // HK MP7 4.6x30 20-round magazine (FDE)
+      "b1612c1383345037a162831c", // HK MP7 4.6x30 30-round magazine (FDE)
+      "6a36c59807f70ebddae4b757", // HK MP7 4.6x30 40-round magazine (Tan)
+      "9ff35e08411e54c89131e4a7", // HK417/G28 7.62x51 10-round magazine (Black)
+      "b464b20d78cc512f8c5ea376", // HK417/G28 7.62x51 20-round magazine (Black)
+      "8b49d50621665612a5f2173d", // QBZ-191 5.8x42 30-round magazine (RAL 8000)
+      "0f2011e9cceb5fd386efcce6", // QBZ-191 5.8x42 30-round magazine (RAL 8000) (Tape)
+      "6b7ebec521a9577485088938", // QBZ-191 5.8x42 30-round magazine (Tape)
+      "026e210543a558378853ee6a", // SA58/FAL 7.62x51 10-round magazine (RAL 8000)
+      "fcdb78018f7e549383207bac", // SA58/FAL 7.62x51 20-round magazine (RAL 8000)
+      "5bbef1a514f0544099801a8b", // SA58/FAL 7.62x51 30-round magazine (RAL 8000)
+      "62dedffc281e5939bad847a1", // SA58/FAL 7.62x51 X Products X-FAL 50-round drum magazine (RAL 8000)
+      "f8863af1b0f65a8a8e8911c5", // SA58/FAL 7.62x51 X Products X-FAL 50-round drum magazine (RAL 8000) (Tape)
+      "54caa064650556708af1dc97", // SA58/FAL/SLR 7.62x51 30-round magazine (RAL 8000)
+      "6ca8efce63275c0097d30bc3", // SA58/FAL/SLR 7.62x51 30-round magazine (RAL 8000) (Tape)
+      "83bb868f4cd45d7d9883f10a", // SA58/FAL/SLR 7.62x51 30-round magazine (Tape)
+      "b512d0c7c1ba54c2b6a011cc", // Sako TRG M10 .338 LM 8-round magazine (Black)
+      "69fa8ea590bf94cacd7f5e38", // SLR-106/AK 5.56x45 Circle 10 30-round magazine (Black)
+      "fe24d01db70557e8898cdf00", // SLR-106/AK 5.56x45 Circle 10 30-round magazine (Black) (Tape)
+      "69faa0d657249bee9c41f47b", // SLR-106/AK 5.56x45 Circle 10 30-round magazine (FDE)
+      "003ac6702b835ac4ac30b0f7" // SLR-106/AK 5.56x45 Circle 10 30-round magazine (FDE) (Tape)
+    ],
     "ammo": [
-      "6a30ec66d725140ed59cdd1c" // item_ammo_box_46x30_40_AP
+      "699b6b88be849a7f65b7e866", // .300 Blackout Barnes VOR-TX
+      "699aab526ac4f65528f1fd63", // .45 ACP RIP AP
+      "6a30ec62eb1babffc84227d8", // 4.6x30mm DM11
+      "6a30ec66d725140ed59cdd1c", // 4.6x30mm DM11 ammo pack (40 pcs)
+      "6a30ed97ce95057496b93476", // 5.45x39mm 7N24M
+      "692dc61870449aedfa85120f", // 5.56x45mm Nammo AP4
+      "bf758ead73d35346a4843695", // 5.7x28mm Elite Ammunition T6B
+      "699b54a97d3c1c9f69f616b6", // 6.8x51mm SIG XM1184 AP
+      "6931b6a2161edf5b558ee5bc", // 7.62x39mm 7N26 BS
+      "692e3991aeebb57de9a2386b", // 7.62x51mm M948 SLAP
+      "699aae8c9b6a4ab2b769c4a3", // 9x19mm RIP AP
+      "699b42cc85f85eadd558c083" // 9x21mm 7N31 AP
     ],
     "looseLoot": [
-      "7b6273cecf835787aacfeeae", // mag_ak_fab_defense_ultimag_ak_30r_762x39_30
-      "fba628b96403501fb066b035", // mag_ak_fab_defense_ultimag_ak_30r_762x39_30
-      "4865d3ad76ee54958044a60c", // mag_ak_fab_defense_ultimag_ak_30r_762x39_30
-      "fd0379c533b65d388640812c", // mag_ak_magpul_pmag_30_ak_akm_gen_m3_762x39_30
-      "de913e951733527d978227dd", // mag_ak_magpul_pmag_30_ak_akm_gen_m3_762x39_30
-      "fa281a21c94658059a346a5c", // mag_ak_magpul_pmag_30_ak_akm_gen_m3_762x39_30
-      "13c35a79db1c598ab36c876e", // mag_ak_x_products_x_47_drum_762x39_50
-      "b6a8b1c25d8d537589ad51e0", // reciever_ak_akademia_bastion
-      "a9faa557e9c259a9b3149f60", // mag_ak74_izhmash_6L26_545x39_45
-      "093565ad01cd57a2a54c8303", // mag_ak74_izhmash_6L31_545x39_60
-      "f0f2939ba83d5d47b0eaf275", // mag_ak74_magpul_pmag_30_ak74_gen_m3_545x39_30
-      "dbfebfe868215813988c9b32", // stock_ak_magpul_zhukov_s
-      "69f683cb5fe79e067a85d9ef", // mag_ar10_lancer_l7_awm_762x51_25
-      "fe3d0874787c51618baf2894", // mag_ar10_lancer_l7_awm_762x51_25
-      "69f68305a8eea15aea284ef9", // mag_ar10_lancer_l7_awm_762x51_25
-      "69f683f01b84e0c82074cadb", // mag_ar10_x_products_x_25_drum_762x51_50
-      "ec49264b68675a3a83853649", // mag_ar10_lancer_l7_awm_762x51_20
-      "bab1f6f134db5a5a8e022660", // mag_ar10_lancer_l7_awm_762x51_25
-      "698433340750b999d91e3465", // mag_ar10_lancer_l7_awm_762x51_25
-      "f977c3a650b954f69eae3d7f", // mag_ar10_lancer_l7_awm_762x51_25
-      "0eafc344b76f5164bd11eb2f", // mag_ar10_magpul_pmag_sr_gen_3_762x51_20
-      "f0aea80c90d359148749841d", // handguard_ar10_cmmg_mk3_rml15_m_lok
-      "af9115e2ace857c4b55e1b0e", // handguard_ar10_cmmg_mk3_rml9_m_lok
-      "5eec0311de905cadb9f7c337", // handguard_ar10_lancer_lch7_12_5_inch_carbon
-      "13b140e5489a542b969bce99", // mag_stanag_magpul_pmag_gen_m3_556x45_20
-      "cc3e263b11465058a0f4d1fa", // mag_stanag_hk_gen_2_pm_556x45_30
-      "3b6f7e56416a5fb8b502dc91", // mag_stanag_magpul_pmag_gen_m3_556x45_20
-      "d71bf3f7b2635ef59a897f17", // mag_stanag_magpul_pmag_gen_m3_556x45_20
-      "85acf87f8ec85bcca32d7eae", // mag_stanag_magpul_pmag_gen_m3_556x45_30
-      "af5c9c35e78e5867a21807be", // mag_stanag_magpul_pmag_gen_m3_window_556x45_30_fde
-      "4ef82195fffe5527a881e1d7", // mag_stanag_magpul_pmag_gen_m3_window_556x45_30
-      "93589bf85a5955808cacd285", // mag_stanag_magpul_pmag_gen_m3_556x45_40
-      "69f0d28ca0c7d37d9130aab8", // mag_stanag_magpul_pmag_d-60_556x45_60
-      "f98ba8a74bc758cb9465f3b2", // mag_stanag_magpul_pmag_d-60_556x45_60
-      "24205930efad5921a1fb8e1e", // mag_stanag_magpul_pmag_d-60_556x45_60
-      "69f058abe6c9802225abaf21", // mag_stanag_surefire_mag5_556x45_60
-      "8805ece53da85942823c9c35", // mag_stanag_surefire_mag5_556x45_60
-      "ba0f13da81915cc7b9bc9d7f", // mag_stanag_surefire_mag5_556x45_60
-      "cc4aa5e8aed95c5d93329cb1", // mag_stanag_troy_battlemag_556x45_30
-      "094f71467ee5555e94b09b8b", // pistolgrip_ar15_damage_industries_ecs_fde
-      "69f0eb8c02bba0856602897e", // silencer_sdqd_griffin_m4sd_k_silencer_556x45
-      "f90a78d8987e5bb989eb1874", // pistolgrip_ar15_magpul_moe
-      "b4eefc5aa5515222b381c865", // pistolgrip_ar15_magpul_moe
-      "e873e0b977025e6d81d9a0a2", // handguard_ar15_aeroknox_ax15_10,5_m_lok
-      "27a61cf47bf55b869bcfee7c", // reciever_ar15_colt_m4a1_std
-      "face946bdefd547db260da66", // muzzle_ar15_colt_usgi_a2_556x45
-      "d365c02ec4a35cb7be897982", // mount_m_lok_magpul_cantilever_rail_light_mount
-      "b8a6f585d9ae50918f5b09ac", // muzzle_pk_zenit_dtk_1p_762x54r
-      "0142e65482e05d7c82daea3a", // tactical_all_bemeyers_mawl_c1_plus
-      "69e90614c926337ef78d0730", // weapon_labris_axe
-      "69fd43ec50a5c7077199c905", // scope_all_elcan_specter_hco
-      "69fd4c184b6b64d765f4634e", // scope_all_elcan_specter_dr_1-4_fde
-      "69fa52ff8196fcfde3e548b4", // scope_30mm_eotech_vudu_1_6x24
-      "6a4211bd0f49361eea023bc9", // stock_mp7_hk_a1_std
-      "5de5dfbf8da25005adc1d29c", // handguard_fal_fn_original_stamped_steel
-      "93a39a7909545f0ea8c77d98", // reciever_fal_fn_fal_dust_cover_std
-      "3cd57334e65a5ba798d24634", // muzzle_p90_fn_p90_std_57x28
-      "edefcaa0007e5763ab71ab77", // stock_p90_fn_p90_std
-      "a1174d4983a8509baa081dd5", // stock_p90_fn_p90_butt_pad_std
-      "57aa4a5282da5d119374d7cf", // handguard_ar15_kac_ris
-      "97de3798d16d55d8b019b90f", // stock_417_hk_417_adjustable_buttstock_cheek
-      "3cf4ff94d893593eb73facdb", // reciever_g28_hk_g28_std
-      "ef505f9cf2e05ef7bd384c04", // mag_mp7_hk_std_46x30_20
-      "b1612c1383345037a162831c", // mag_mp7_hk_std_46x30_30
-      "6a36c59807f70ebddae4b757", // mag_mp7_hk_std_46x30_40
-      "6a36c4a9048318267fba37a9", // silencer_mp7_bt_rotex_2_46x30
-      "6a421242a73b4261c17eb638", // stock_mp7_hk_a1_std
-      "98d24843ffc856518553886f", // stock_mp7_hk_a1_std
-      "903c4ffb7b575937818f3c5d", // stock_mp7_hk_a2_std
-      "9993e83893da5ccfa523998d", // stock_417_hk_417_adjustable_buttstock
-      "e216e68aab6c598684dc28c9", // charge_417_hk_e1_extended_charging_handle
-      "3394bc1e3c0f56eb882ccb7c", // handguard_417_hk_417_extended_free_float
-      "606dbfe23ff6578fb5d22843", // handguard_417_hk_417_patrol_rail
-      "9ff35e08411e54c89131e4a7", // mag_417_hk_417_std_762x51_10
-      "b464b20d78cc512f8c5ea376", // mag_417_hk_417_std_762x51_20
-      "c3cf0be1b21a5beab925f904", // weapon_hk_416a5_556x45
-      "88066a7866985ce4857be897", // silencer_qdc_kac_prs_qdc_762x51
-      "f4f994bcfaaf5341b11de5dd", // tactical_all_insight_anpeq15
-      "1e568703497553c1ab093d4c", // mag_msgl_milkor_cylinder_mag_std_40x46_6
-      "69fb9d99f3104a4abd9e3c47", // weapon_grenade_m67
-      "971c223e604558298cda41f0", // charge_mcx_sig_mcx_std
-      "51b34b78c68f5c33b3c37399", // reciever_mcx_sig_mcx_gen1
-      "45a6ba58d7c155459d826bd9", // handguard_mcx_sig_gen1_12_inch_keymod
-      "04a8246f4b7d53028a07c128", // handguard_mcx_sig_gen1_12_inch_keymod
-      "9ad2510ac9ec5e589cb998aa", // handguard_mcx_sig_gen1_8_inch_keymod
-      "c6988506313e5296a452d385", // handguard_mcx_sig_gen1_12_inch_keymod
-      "adba9c392d4a504e8d27401d", // handguard_mcx_sig_gen1_12_inch_keymod
-      "3997c6ddceff5983ab5818b4", // handguard_mcx_sig_gen1_12_inch_keymod
-      "ee3c34639d035057afced353", // handguard_mcx_sig_spear_m_lok
-      "698423d597bea7872bc75f98", // handguard_mcx_sig_spear_m_lok
-      "530bbd98088d5504b7abd00b", // reciever_mcx_sig_spear_upper
-      "9c4d6ba73bcb5d36981b9c47", // charge_spear_sig_spear_std
-      "1f31adc1de265a288bf11011", // muzzle_ar10_sig_clutch_lok_qd_flash_hider_68x51
-      "df9a59276f5f5093aee55b52", // reciever_mk18_sword_mjolnir_std
-      "c88031ecf0705f248999298c", // handguard_mk18_sword_mjolnir_18_inch
-      "924111a41c1f53d8a8bbe96c", // reciever_mk47_cmmg_mk47_std
-      "69fcd2dc03d8476407fb7ec0", // handguard_ar15_geissele_smr_mk16_135_inch
-      "69fccb4b144b3ba3fde464bd", // stock_ar15_rtm_atp_buffer_tube
-      "69fcbf779ea8940faa793551", // reciever_ar15_colt_m4a1_std
-      "6a1e14e951104aabd4fa3b6e", // reciever_ar15_colt_m4a1_std
-      "698430ea529f337360a2c9bc", // reciever_mcx_sig_spear_upper
-      "6892180ee9f15149b0677260", // reciever_mcx_sig_spear_upper
-      "0b0e13dc774c5bb3abb3f16f", // mount_all_nightforce_x_treme_duty_ultralite_30mm
-      "69f586053cad5a4bb4cd61ee", // weapon_cmmg_mk47_762x39
-      "69f572b4492391522e8fb0de", // weapon_cmmg_mk47_762x39
-      "69f64ffa8aee7c5fc321dc70", // reciever_mk47_cmmg_mk47_std
-      "57ed69ef8afa5360adbe7063", // scope_all_leupold_mark4_hamr
-      "f9c3104d5f3852ffa9f3bab8", // weapon_hk_416a5_556x45
-      "5095530cfb6659a2b17c688e", // muzzle_pk_zenit_dtk_1p_762x54r
-      "8b49d50621665612a5f2173d", // mag_ak_izhmash_akms_aluminium_762x39_10
-      "0f2011e9cceb5fd386efcce6", // mag_ak_izhmash_akms_aluminium_762x39_10
-      "6b7ebec521a9577485088938", // mag_ak_izhmash_akms_aluminium_762x39_10
-      "9dac6a7309455efcb6657b10", // reciever_ar15_hk_hk416a5_std
-      "7c3fa5be301e51acb03a834d", // stock_ar15_high_standart_m4ss
-      "7a3d70fe2e3452f1b3714a66", // stock_ar15_high_standart_m4ss
-      "0fba997d84065cbfb4aeee6e", // handguard_pk_zenit_b50
-      "c11cebf56d0a5f119b5c8b89", // handguard_pk_zenit_b50
-      "ae0f924b9c7f55fa81771a81", // pistolgrip_ar15_aeroknox_orion_grip
-      "6974eab74eae55e3b73a1e4c", // handguard_pk_zenit_b50
-      "277b7a05483e5986a290f993", // handguard_ar15_jp_rsass_std_fde
-      "9c16b7be0acc599faffb6086", // weapon_colt_m4a1_556x45
-      "6b87f46f89fc56828d6f7f65", // reciever_ak_rifle_dynamics_rd_704_std
-      "e0a04eb7ab6a543daa2505ec", // gas_block_akp_slr_ak_railed_gas_tube
-      "55d1870f43a35387af69b053", // stock_sa58_ds_arms_para_brs
-      "501dcdb240845804ae3f0e87", // reciever_sa58_ds_arms_extreme_duty_scope_mount_extended
-      "91c182ebaee75231bbc8d42e", // pistolgrip_fal_fab_defense_ag_fal
-      "d049d4a79bfb509dabe2845e", // stock_sa58_ds_arms_para_folding_stock
-      "2d8cb2c68dae5443b355a380", // stock_sa58_ds_arms_humpback_stock
-      "a69281afc6be5e2f9cff9472", // pistolgrip_sa58_ds_arms_metric_std
-      "508800542a9356e8bfd0ec10", // handguard_sa58_ds_arms_picatinny_full_lenght_quad_rail
-      "31c7cae0327f527287db70c5", // handguard_sa58_ds_arms_picatinny_quad_rail
-      "b34649bb0e2e5a47b4a007c6", // pistolgrip_sa58_ds_arms_saw_style
-      "93cd73c7d1ab5e7bb1169bcc", // stock_sa58_ds_arms_para_spr_stock
-      "026e210543a558378853ee6a", // mag_fal_ds_arms_fal_sa58_762x51_10
-      "fcdb78018f7e549383207bac", // mag_fal_ds_arms_fal_sa58_762x51_20
-      "5bbef1a514f0544099801a8b", // mag_fal_ds_arms_fal_sa58_762x51_30
-      "62dedffc281e5939bad847a1", // mag_fal_x_products_x_fal_762x51_50
-      "f8863af1b0f65a8a8e8911c5", // mag_fal_x_products_x_fal_762x51_50
-      "f3a9a477ee0850de84766bcf", // handguard_fal_aim_sport_universal_keymod
-      "cb54d1e039945b53a0a95908", // handguard_fal_aim_sport_universal_m_lok
-      "91786b42b2295420bd257d3a", // handguard_fal_ds_arms_belgian_style_full_lenght
-      "2da30c7f526f5b04aae0e45a", // stock_fal_magpul_prs_2
-      "9b99b3ac7d85595580cf500a", // handguard_fal_vltor_casv_fal
-      "8e275bb018325fca87d5c539", // handguard_fal_vltor_casv_fas
-      "54caa064650556708af1dc97", // mag_fal_sarco_fal_l1a1_orig_762x51_30
-      "6ca8efce63275c0097d30bc3", // mag_fal_sarco_fal_l1a1_orig_762x51_30
-      "83bb868f4cd45d7d9883f10a", // mag_fal_sarco_fal_l1a1_orig_762x51_30
-      "4092989d8b8c5eb1845f0414", // barrel_trg_sako_m10_685mm_86x70
-      "b512d0c7c1ba54c2b6a011cc", // mag_trg_sako_trg_m10_86x70_8
-      "43d4f16d00055c6aac21ce70", // charge_trg_sako_trg_m10_bolt_86x70
-      "f42d7b1a0fe95756b425f5cf", // reciever_trg_sako_trg_m10_std
-      "5e4c90030c435c87a667709b", // handguard_trg_sako_m10_forend_11_inch
-      "64084d966cd3504888709c29", // handguard_trg_sako_m10_forend_15_inch
-      "30fe710f5344558eaee2337d", // stock_trg_sako_trg_m10_chassis_std
-      "1b158ebf3aff57a6ab52a812", // foregrip_trg_sako_m10_base_pad
-      "7e92c528366a57f2a070ee2d", // handguard_trg_sako_m10_forend_m_lok_15_inch
-      "0eda7978b58e54cba9a6365c", // mount_trg_sako_m10_scope_mount
-      "667bd532892c5ddca6d3111c", // stock_all_sig_mpx_brace
-      "6a34b11b12fc7ef0209ec45d", // scope_30mm_s&b_pm_ii_1_8x24
-      "6a34b1f7baab2fa3e69fc9ce", // scope_34mm_s&b_pm_ii_3_12x50
-      "6a34b1fbbcb0691a5d047e05", // scope_34mm_s&b_pm_ii_5_25x56
-      "b0ff4d4c59df5ada86d2f6ea", // silencer_base_sig_srd_762_qd_762x51
-      "69fa5313cc7338d9dec96f77", // scope_30mm_sig_tango6t_1_6x24
-      "7f3393f8f600550493a17720", // stock_all_sig_thin_folding_stock
-      "69f0eb9054288f30f3789ec1", // silencer_asr_silencerco_saker_556_556x45
-      "69fa8ea590bf94cacd7f5e38", // mag_ak_arsenal_cwp_mag_556x45_30
-      "fe24d01db70557e8898cdf00", // mag_ak_arsenal_cwp_mag_556x45_30
-      "69faa0d657249bee9c41f47b", // mag_ak_arsenal_cwp_mag_556x45_30
-      "003ac6702b835ac4ac30b0f7", // mag_ak_arsenal_cwp_mag_556x45_30
-      "6984367b0aa5465355c4ded3", // silencer_clutchlok_sig_slx68_mg_qd_suppressor_68x51
-      "7fa4e580f16f57e6ad4b5a88", // muzzle_ferfrans_ferfrans_crd_556x45
-      "0878b569e56e5844b58c7b1f", // tactical_all_insight_wmx200
-      "cda3cff5eba9597b912973ae", // reciever_ar15_hk_hk416a5_std
-      "ea15b23da62d5f8bb162f4c7", // stock_ar15_high_standart_m4ss
-      "7b097475206c53958e25735a", // handguard_416_hk_quad_rail
-      "6984d3dba12142d30f5e03c8", // scope_30mm_razor_hd_gen_2_1_6x24
-      "69fc2eed42c2198ea9ca68de", // scope_30mm_razor_hd_gen_2_1_6x24
-      "6a11e1e951f16801020b4061", // tactical_all_wilcox_raptar_es
-      "60d24547d27297e5350053bd", // item_ammo_box_57x28_50_ss190
-      "692dcf1c9a1816076adbb9d5", // item_ammo_box_556x45_50_SSA_AP
-      "692dd013f000b7372c0610fe", // item_ammo_box_556x45_100_ssa_ap
-      "692e39aea47e15277d847591", // item_ammo_box_556x45_100_ssa_ap
-      "692e39b730695e0930caff1d", // item_ammo_box_556x45_50_SSA_AP
-      "6931bc184dd0bd3f32f5c97f", // item_ammo_box_762x39_20_PP
-      "6931bca8197ad8567a64bf86", // item_ammo_box_762x39_20_PP
-      "699aab2519b875a27d6ec5d3", // item_ammo_box_1143x23_50_rip
-      "699aad8c961ebda759f9e7fe", // item_ammo_box_9x19_rip_20
-      "699b42575d5c6b46a1eaada5", // item_ammo_box_9x21_30_7n42
-      "699b5493b88594edb24c683a", // item_ammo_box_68x51_20_hybrid
-      "699b6b973e813e0eaa275b56", // item_ammo_box_whisper_50
-      "6a31d5c14a24835f775bd1e2", // item_ammo_box_545x39_120_igolnik
-      "6a31d5c8c667d4db08650272", // item_ammo_box_545x39_7N39_30
-      "6a4d5879b498ae06e3582412", // helmet_zsh_1-2m_v2
-      "6a4d5940473d4411b409b02a", // helmet_zsh_1-2m_v2
-      "b6280d62f0e343c0120d8481" // item_ammo_box_57x28_50_ss190
+      "7b6273cecf835787aacfeeae", // AK 7.62x39 FAB Defense Ultimag 30R 30-round magazine (RAL 8000)
+      "fba628b96403501fb066b035", // AK 7.62x39 FAB Defense Ultimag 30R 30-round magazine (RAL 8000) (Tape)
+      "4865d3ad76ee54958044a60c", // AK 7.62x39 FAB Defense Ultimag 30R 30-round magazine (Tape)
+      "fd0379c533b65d388640812c", // AK 7.62x39 Magpul PMAG 30 GEN M3 30-round magazine (RAL 8000)
+      "de913e951733527d978227dd", // AK 7.62x39 Magpul PMAG 30 GEN M3 30-round magazine (RAL 8000) (Tape)
+      "fa281a21c94658059a346a5c", // AK 7.62x39 Magpul PMAG 30 GEN M3 30-round magazine (Tape)
+      "13c35a79db1c598ab36c876e", // AK 7.62x39 X Products X-47 50-round drum magazine (Tape)
+      "b6a8b1c25d8d537589ad51e0", // AK AKademia Bastion dust cover (RAL 8000)
+      "a9faa557e9c259a9b3149f60", // AK-74 5.45x39 6L26 45-round magazine (Tape)
+      "093565ad01cd57a2a54c8303", // AK-74 5.45x39 6L31 60-round magazine (Tape)
+      "f0f2939ba83d5d47b0eaf275", // AK-74 5.45x39 Magpul PMAG 30 GEN M3 30-round magazine (Tape)
+      "dbfebfe868215813988c9b32", // AKM/AK-74 Magpul Zhukov-S stock (RAL 8000)
+      "69f683cb5fe79e067a85d9ef", // AR-10 5.56x45 Modified Lancer L7AWM 25-round magazine
+      "fe3d0874787c51618baf2894", // AR-10 5.56x45 Modified Lancer L7AWM 25-round magazine
+      "69f68305a8eea15aea284ef9", // AR-10 5.56x45 Modified Lancer L7AWM-A55 30-round magazine
+      "69f683f01b84e0c82074cadb", // AR-10 5.56x45 X Products X-25 Modified 50-round drum magazine
+      "ec49264b68675a3a83853649", // AR-10 7.62x51 Lancer L7AWM 20-round magazine (Tape)
+      "bab1f6f134db5a5a8e022660", // AR-10 7.62x51 Lancer L7AWM 25-round magazine (Tape)
+      "698433340750b999d91e3465", // AR-10 7.62x51 Lancer L7AWM-A55 30-round magazine
+      "f977c3a650b954f69eae3d7f", // AR-10 7.62x51 Lancer L7AWM-A55 30-round magazine (Tape)
+      "0eafc344b76f5164bd11eb2f", // AR-10 7.62x51 Magpul PMAG 20 SR-LR GEN M3 20-round magazine (Tape)
+      "f0aea80c90d359148749841d", // AR-10 CMMG MK3 RML15 15 inch M-LOK handguard (RAL 8000)
+      "af9115e2ace857c4b55e1b0e", // AR-10 CMMG MK3 RML9 9 inch M-LOK handguard (RAL 8000)
+      "5eec0311de905cadb9f7c337", // AR-10 Lancer LCH7 12.5 inch M-LOK handguard (RAL 8000)
+      "13b140e5489a542b969bce99", // AR-15 5.56x45 Daniel Defense 32-round magazine (Tape)
+      "cc3e263b11465058a0f4d1fa", // AR-15 5.56x45 HK PM Gen.2 STANAG 30-round magazine (Tape)
+      "3b6f7e56416a5fb8b502dc91", // AR-15 5.56x45 Lancer L5 AWM 30-round magazine (Tape)
+      "d71bf3f7b2635ef59a897f17", // AR-15 5.56x45 Lancer L5 AWM 30-round magazine (Tape)
+      "85acf87f8ec85bcca32d7eae", // AR-15 5.56x45 Magpul PMAG 30 GEN M3 STANAG 30-round magazine (Tape)
+      "af5c9c35e78e5867a21807be", // AR-15 5.56x45 Magpul PMAG 30 GEN M3 W STANAG 30-round magazine (Tape)
+      "4ef82195fffe5527a881e1d7", // AR-15 5.56x45 Magpul PMAG 30 GEN M3 W STANAG 30-round magazine (Tape)
+      "93589bf85a5955808cacd285", // AR-15 5.56x45 Magpul PMAG 40 GEN M3 STANAG 40-round magazine (Tape)
+      "69f0d28ca0c7d37d9130aab8", // AR-15 5.56x45 Magpul PMAG D-60 STANAG 60-round magazine (FDE)
+      "f98ba8a74bc758cb9465f3b2", // AR-15 5.56x45 Magpul PMAG D-60 STANAG 60-round magazine (Tape)
+      "24205930efad5921a1fb8e1e", // AR-15 5.56x45 Magpul PMAG D-60 STANAG 60-round magazine (Tape)
+      "69f058abe6c9802225abaf21", // AR-15 5.56x45 SureFire MAG5-60 STANAG 60-round magazine (FDE)
+      "8805ece53da85942823c9c35", // AR-15 5.56x45 SureFire MAG5-60 STANAG 60-round magazine (Tape)
+      "ba0f13da81915cc7b9bc9d7f", // AR-15 5.56x45 SureFire MAG5-60 STANAG 60-round magazine (Tape)
+      "cc4aa5e8aed95c5d93329cb1", // AR-15 5.56x45 TROY BattleMag STANAG 30-round magazine (Tape)
+      "094f71467ee5555e94b09b8b", // AR-15 Damage Industries ECS pistol grip (Black)
+      "69f0eb8c02bba0856602897e", // AR-15 Griffin Armament M4SD-K 5.56x45 sound suppressor (FDE)
+      "f90a78d8987e5bb989eb1874", // AR-15 Magpul MOE pistol grip (Black)
+      "b4eefc5aa5515222b381c865", // AR-15 Magpul MOE pistol grip (Black)
+      "e873e0b977025e6d81d9a0a2", // AR-15 Radian Model 1 14 inch handguard (RAL 8000)
+      "27a61cf47bf55b869bcfee7c", // AR-15 Radian Weapons Model 1 5.56x45 upper receiver (RAL 8000)
+      "face946bdefd547db260da66", // AR-15 Strike Industries Checkmate 5.56x45 compensator
+      "d365c02ec4a35cb7be897982", // Arisaka Inline Scout Mount M-LOK (RAL 8000)
+      "b8a6f585d9ae50918f5b09ac", // B&T Howa Print-X 5.56x45 sound suppressor (RAL 8000)
+      "0142e65482e05d7c82daea3a", // B.E. Meyers MAWL-C1+ tactical device (RAL 8000)
+      "69e90614c926337ef78d0730", // Chained Labrys
+      "69fd43ec50a5c7077199c905", // ELCAN Specter HCO holographic sight (Pink)
+      "69fd4c184b6b64d765f4634e", // ELCAN SpecterDR 1x/4x scope (TAN)
+      "69fa52ff8196fcfde3e548b4", // EOTech Vudu 1-6x24 30mm riflescope (FDE)
+      "6a4211bd0f49361eea023bc9", // FAB Defense FX-KPOS ARS stock (FDE)
+      "5de5dfbf8da25005adc1d29c", // FAL original handguard (RAL 8000)
+      "93a39a7909545f0ea8c77d98", // FAL standard dust cover (RAL 8000)
+      "3cd57334e65a5ba798d24634", // FN P90 CMMG 5.56x45 muzzle device adapter
+      "edefcaa0007e5763ab71ab77", // FN P90 Strike Industries SMC-90 buttstock
+      "a1174d4983a8509baa081dd5", // FN P90 Strike Industries SMC-90 cheek rest
+      "57aa4a5282da5d119374d7cf", // FN P90 Strike Industries SMC-90 Short M-LOK handguard
+      "97de3798d16d55d8b019b90f", // HK Adjustable Buttstock cheek rest (Black)
+      "3cf4ff94d893593eb73facdb", // HK G28 7.62x51 upper receiver (Black)
+      "ef505f9cf2e05ef7bd384c04", // HK MP7 4.6x30 20-round magazine (FDE)
+      "b1612c1383345037a162831c", // HK MP7 4.6x30 30-round magazine (FDE)
+      "6a36c59807f70ebddae4b757", // HK MP7 4.6x30 40-round magazine (Tan)
+      "6a36c4a9048318267fba37a9", // HK MP7 B&T Rotex 2 4.6x30 sound suppressor (Tan)
+      "6a421242a73b4261c17eb638", // HK MP7 FAB Defense ARS stock adapter (FDE)
+      "98d24843ffc856518553886f", // HK MP7A1 stock (FDE)
+      "903c4ffb7b575937818f3c5d", // HK MP7A2 stock (Black)
+      "9993e83893da5ccfa523998d", // HK417 Adjustable Buttstock (Black)
+      "e216e68aab6c598684dc28c9", // HK417 E1 Extended Charging Handle (Black)
+      "3394bc1e3c0f56eb882ccb7c", // HK417 Extended Free Float handguard with flip-up front sight (Black)
+      "606dbfe23ff6578fb5d22843", // HK417 Patrol handguard with flip-up front sight (Black)
+      "9ff35e08411e54c89131e4a7", // HK417/G28 7.62x51 10-round magazine (Black)
+      "b464b20d78cc512f8c5ea376", // HK417/G28 7.62x51 20-round magazine (Black)
+      "c3cf0be1b21a5beab925f904", // Howa Type 20 5.56x45 assault rifle (RAL 8000)
+      "88066a7866985ce4857be897", // KAC PRS/QDC 7.62x51 sound suppressor (RAL 8000)
+      "f4f994bcfaaf5341b11de5dd", // L3Harris NGAL tactical device (Black)
+      "1e568703497553c1ab093d4c", // M32A1 40mm cylinder (Black)
+      "69fb9d99f3104a4abd9e3c47", // M67 hand grenade (Reduced Delay)
+      "971c223e604558298cda41f0", // MCX charging handle (RAL 8000)
+      "51b34b78c68f5c33b3c37399", // MCX GEN1 .300 BLK upper receiver (RAL 8000)
+      "45a6ba58d7c155459d826bd9", // MCX GEN1 10.5 inch handguard (RAL 8000)
+      "04a8246f4b7d53028a07c128", // MCX GEN1 KeyMod 12 inch handguard (RAL 8000)
+      "9ad2510ac9ec5e589cb998aa", // MCX GEN1 KeyMod 8 inch handguard (RAL 8000)
+      "c6988506313e5296a452d385", // MCX Lancer Carbon Fiber M-LOK 10.5 inch handguard (RAL 8000)
+      "adba9c392d4a504e8d27401d", // MCX Lancer Carbon Fiber M-LOK 12 inch handguard (RAL 8000)
+      "3997c6ddceff5983ab5818b4", // MCX Lancer Carbon Fiber M-LOK 18 inch handguard (RAL 8000)
+      "ee3c34639d035057afced353", // MCX-SPEAR 11 inch M-LOK handguard (Black)
+      "698423d597bea7872bc75f98", // MCX-SPEAR 11 inch M-LOK handguard (Black)
+      "530bbd98088d5504b7abd00b", // MCX-SPEAR 6.8x51 upper receiver (Black)
+      "9c4d6ba73bcb5d36981b9c47", // MCX-SPEAR charging handle (Black)
+      "1f31adc1de265a288bf11011", // MCX-SPEAR Clutch-Lok QD 6.8x51 Shouldered Flash Hider
+      "df9a59276f5f5093aee55b52", // Mk-18 .338 LM upper receiver (Black)
+      "c88031ecf0705f248999298c", // Mk-18 18 inch handguard (Black)
+      "924111a41c1f53d8a8bbe96c", // Mk47 Resolute 7.62x39 upper receiver (RAL 8000)
+      "69fcd2dc03d8476407fb7ec0", // Modified AR-15 Geissele SMR MK16 13.5 inch M-LOK handguard (FDE)
+      "69fccb4b144b3ba3fde464bd", // Modified AR-15 RTM ATP buffer tube (FDE)
+      "69fcbf779ea8940faa793551", // Modified M4A1 5.56x45 upper receiver (FDE)
+      "6a1e14e951104aabd4fa3b6e", // Modified M4A1 5.56x45 upper receiver v2 (FDE)
+      "698430ea529f337360a2c9bc", // Modified MCX-SPEAR 6.8x51 upper receiver
+      "6892180ee9f15149b0677260", // Modified MCX-SPEAR 6.8x51 upper receiver (Black)
+      "0b0e13dc774c5bb3abb3f16f", // Nightforce Magmount 30mm ring scope mount
+      "69f586053cad5a4bb4cd61ee", // NL15 Tactical .300 Blackout Assault Rifle (Prototype)
+      "69f572b4492391522e8fb0de", // NL15 Tactical 5.56x45 Assault Carbine (Prototype)
+      "69f64ffa8aee7c5fc321dc70", // NL545 (DI) Multi-Calliber upper receiver
+      "57ed69ef8afa5360adbe7063", // Norinco long rail (RAL 8000)
+      "f9c3104d5f3852ffa9f3bab8", // Norinco QBZ-191 5.8x42 assault rifle (RAL 8000)
+      "5095530cfb6659a2b17c688e", // Norinco VQX-191 5.8x42 sound suppressor (RAL 8000)
+      "8b49d50621665612a5f2173d", // QBZ-191 5.8x42 30-round magazine (RAL 8000)
+      "0f2011e9cceb5fd386efcce6", // QBZ-191 5.8x42 30-round magazine (RAL 8000) (Tape)
+      "6b7ebec521a9577485088938", // QBZ-191 5.8x42 30-round magazine (Tape)
+      "9dac6a7309455efcb6657b10", // QBZ-191 5.8x42 upper receiver (RAL 8000)
+      "7c3fa5be301e51acb03a834d", // QBZ-191 buffer tube (RAL 8000)
+      "7a3d70fe2e3452f1b3714a66", // QBZ-191 buttstock (RAL 8000)
+      "0fba997d84065cbfb4aeee6e", // QBZ-191 Jia Zhou TRS M-LOK 10 inch handguard (RAL 8000)
+      "c11cebf56d0a5f119b5c8b89", // QBZ-191 Jia Zhou TRS M-LOK 13.5 inch handguard (RAL 8000)
+      "ae0f924b9c7f55fa81771a81", // QBZ-191 pistol grip (RAL 8000)
+      "6974eab74eae55e3b73a1e4c", // QBZ-191 polymer handguard (RAL 8000)
+      "277b7a05483e5986a290f993", // R11 RSASS handguard (Black)
+      "9c16b7be0acc599faffb6086", // Radian Weapons Model 1 FA 5.56x45 assault rifle (RAL 8000)
+      "6b87f46f89fc56828d6f7f65", // RD-704 dust cover (RAL 8000)
+      "e0a04eb7ab6a543daa2505ec", // RD-704 SLR ION Lite + Railed Gas Tube handguard with gas tube (RAL 8000)
+      "55d1870f43a35387af69b053", // SA58 BRS stock (RAL 8000)
+      "501dcdb240845804ae3f0e87", // SA58 Extreme Duty dust cover (RAL 8000)
+      "91c182ebaee75231bbc8d42e", // SA58 FAB Defense AG-FAL pistol grip (RAL 8000)
+      "d049d4a79bfb509dabe2845e", // SA58 folding stock (RAL 8000)
+      "2d8cb2c68dae5443b355a380", // SA58 humpback polymer stock (RAL 8000)
+      "a69281afc6be5e2f9cff9472", // SA58 pistol grip (RAL 8000)
+      "508800542a9356e8bfd0ec10", // SA58 quad rail full length handguard (RAL 8000)
+      "31c7cae0327f527287db70c5", // SA58 quad rail handguard (RAL 8000)
+      "b34649bb0e2e5a47b4a007c6", // SA58 SAW-style pistol grip (RAL 8000)
+      "93cd73c7d1ab5e7bb1169bcc", // SA58 SPR stock (RAL 8000)
+      "026e210543a558378853ee6a", // SA58/FAL 7.62x51 10-round magazine (RAL 8000)
+      "fcdb78018f7e549383207bac", // SA58/FAL 7.62x51 20-round magazine (RAL 8000)
+      "5bbef1a514f0544099801a8b", // SA58/FAL 7.62x51 30-round magazine (RAL 8000)
+      "62dedffc281e5939bad847a1", // SA58/FAL 7.62x51 X Products X-FAL 50-round drum magazine (RAL 8000)
+      "f8863af1b0f65a8a8e8911c5", // SA58/FAL 7.62x51 X Products X-FAL 50-round drum magazine (RAL 8000) (Tape)
+      "f3a9a477ee0850de84766bcf", // SA58/FAL AIM Sports Universal KeyMod handguard (RAL 8000)
+      "cb54d1e039945b53a0a95908", // SA58/FAL AIM Sports Universal M-LOK handguard (RAL 8000)
+      "91786b42b2295420bd257d3a", // SA58/FAL Belgian Style handguard (RAL 8000)
+      "2da30c7f526f5b04aae0e45a", // SA58/FAL Magpul PRS 2 polymer stock (RAL 8000)
+      "9b99b3ac7d85595580cf500a", // SA58/FAL Vltor CASV-FAL handguard (RAL 8000)
+      "8e275bb018325fca87d5c539", // SA58/FAL Vltor CASV-FAS handguard (RAL 8000)
+      "54caa064650556708af1dc97", // SA58/FAL/SLR 7.62x51 30-round magazine (RAL 8000)
+      "6ca8efce63275c0097d30bc3", // SA58/FAL/SLR 7.62x51 30-round magazine (RAL 8000) (Tape)
+      "83bb868f4cd45d7d9883f10a", // SA58/FAL/SLR 7.62x51 30-round magazine (Tape)
+      "4092989d8b8c5eb1845f0414", // Sako TRG M10 .338 LM 27 inch barrel (Black)
+      "b512d0c7c1ba54c2b6a011cc", // Sako TRG M10 .338 LM 8-round magazine (Black)
+      "43d4f16d00055c6aac21ce70", // Sako TRG M10 .338 LM bolt assembly (Black)
+      "f42d7b1a0fe95756b425f5cf", // Sako TRG M10 .338 LM receiver (Black)
+      "5e4c90030c435c87a667709b", // Sako TRG M10 11 inch handguard assembly (Black)
+      "64084d966cd3504888709c29", // Sako TRG M10 15 inch handguard assembly (Black)
+      "30fe710f5344558eaee2337d", // Sako TRG M10 chassis (Black)
+      "1b158ebf3aff57a6ab52a812", // Sako TRG M10 grip pad (Black)
+      "7e92c528366a57f2a070ee2d", // Sako TRG M10 M-LOK 15 inch handguard assembly (Black)
+      "0eda7978b58e54cba9a6365c", // Sako TRG M10 scope mount (Black)
+      "667bd532892c5ddca6d3111c", // SB Tactical MPX Pistol Stabilizing Brace (RAL 8000)
+      "6a34b11b12fc7ef0209ec45d", // Schmidt & Bender PM II 1-8x24 30mm riflescope (Black)
+      "6a34b1f7baab2fa3e69fc9ce", // Schmidt & Bender PM II 3-20x50 34mm riflescope (Black)
+      "6a34b1fbbcb0691a5d047e05", // Schmidt & Bender PM II 5-25x56 34mm riflescope (Black)
+      "b0ff4d4c59df5ada86d2f6ea", // SIG Sauer SRD762-QD 7.62x51 sound suppressor (RAL 8000)
+      "69fa5313cc7338d9dec96f77", // SIG Sauer TANGO6T 1-6x24 30mm riflescope (Black)
+      "7f3393f8f600550493a17720", // SIG Sauer Thin Side-Folding Stock (RAL 8000)
+      "69f0eb9054288f30f3789ec1", // SilencerCo Saker ASR 556 5.56x45 sound suppressor (FDE)
+      "69fa8ea590bf94cacd7f5e38", // SLR-106/AK 5.56x45 Circle 10 30-round magazine (Black)
+      "fe24d01db70557e8898cdf00", // SLR-106/AK 5.56x45 Circle 10 30-round magazine (Black) (Tape)
+      "69faa0d657249bee9c41f47b", // SLR-106/AK 5.56x45 Circle 10 30-round magazine (FDE)
+      "003ac6702b835ac4ac30b0f7", // SLR-106/AK 5.56x45 Circle 10 30-round magazine (FDE) (Tape)
+      "6984367b0aa5465355c4ded3", // Special MCX-SPEAR SLX68-MG-QD 6.8x51 sound suppressor (Black)
+      "7fa4e580f16f57e6ad4b5a88", // Strike Industries Oppressor Lite V2 5.56x45 muzzle device
+      "0878b569e56e5844b58c7b1f", // SureFire M600 Ultra Scout Light (RAL 8000)
+      "cda3cff5eba9597b912973ae", // Type 20 5.56x45 upper receiver (RAL 8000)
+      "ea15b23da62d5f8bb162f4c7", // Type 20 buttstock (RAL 8000)
+      "7b097475206c53958e25735a", // Type 20 M-LOK handguard (RAL 8000)
+      "6984d3dba12142d30f5e03c8", // Vortex Razor HD Gen.2 1-6x24 30mm riflescope (Black)
+      "69fc2eed42c2198ea9ca68de", // Vortex Razor HD Gen.2 1-6x24 30mm riflescope (FDE)
+      "6a11e1e951f16801020b4061", // Wilcox RAPTAR ES Tactical Rangefinder (Black)
+      "60d24547d27297e5350053bd", // 5.7x28mm Elite Ammunition T6B ammo pack (100 pcs)
+      "692dcf1c9a1816076adbb9d5", // 5.56x45mm Nammo AP4 ammo pack (50 pcs)
+      "692dd013f000b7372c0610fe", // 5.56x45mm Nammo AP4 ammo pack (100 pcs)
+      "692e39aea47e15277d847591", // 7.62x51mm M948 SLAP ammo pack (40 pcs)
+      "692e39b730695e0930caff1d", // 7.62x51mm M948 SLAP ammo pack (20 pcs)
+      "6931bc184dd0bd3f32f5c97f", // 7.62x39mm 7N26 BS ammo pack (20 pcs)
+      "6931bca8197ad8567a64bf86", // 7.62x39mm 7N26 BS ammo pack (40 pcs)
+      "699aab2519b875a27d6ec5d3", // .45 ACP RIP AP ammo pack (50 pcs)
+      "699aad8c961ebda759f9e7fe", // 9x19mm RIP AP ammo pack (20 pcs)
+      "699b42575d5c6b46a1eaada5", // 9x21mm 7N31 AP ammo pack (30 pcs)
+      "699b5493b88594edb24c683a", // 6.8x51mm SIG XM1184 AP ammo pack (20 pcs)
+      "699b6b973e813e0eaa275b56", // .300 Blackout Barnes VOR-TX ammo pack (50 pcs)
+      "6a31d5c14a24835f775bd1e2", // 5.45x39mm 7N24M ammo pack (120 pcs)
+      "6a31d5c8c667d4db08650272", // 5.45x39mm 7N24M ammo pack (30 pcs)
+      "6a4d5879b498ae06e3582412", // Team Wendy EXFIL helmet cover (MultiCam Alpine)
+      "6a4d5940473d4411b409b02a", // Team Wendy EXFIL helmet cover (MultiCam)
+      "b6280d62f0e343c0120d8481" // 5.7x28mm Elite Ammunition T6B ammo pack (50 pcs)
     ],
     "keys": [],
     "backpacks": [
-      "38b7c5e7ff2bc509c45da419", // backpack_Raid_6SH118
-      "8de375ced53817e038b6cbc4", // item_equipment_backpack_mystery_ranch_satl
-      "9f734f48e0cc5d35dca9967c" // item_equipment_backpack_trooper_35
+      "38b7c5e7ff2bc509c45da419", // 6Sh118 raid backpack (Red Right Hand)
+      "8de375ced53817e038b6cbc4", // Tasmanian Tiger Modular Pack 45 Plus (Red Right Hand)
+      "9f734f48e0cc5d35dca9967c" // Tasmanian Tiger Trooper 35 backpack (Red Right Hand)
     ],
     "headwear": [
-      "02687ae6036d5df7b37d9896", // item_equipment_headset_comtac_vi
-      "03d084b26a105930bd8f4047", // item_equipment_helmet_neosteel
-      "049f903594a15648b85049be", // helmet_zsh_1-2m_v2
-      "059a0a5c3aba51ac932424db", // item_equipment_helmet_team_wendy_exfil
-      "0684b0c47f5a584e8854376d", // item_equipment_helmet_crye_airframe_tan
-      "084d7637489c5577b01977ad", // item_equipment_helmet_ballisticarmorco_bastion_black
-      "089ef8429f555f5f8bd6d19a", // item_equipment_helmet_team_wendy_exfil
-      "08e0f355f3fd52ac8d7ba45d", // item_equipment_helmet_crye_airframe_tan
-      "0a32f18896bf5f0dabf37c24", // item_equipment_helmet_ballisticarmorco_bastion_black
-      "0adf017025895774b13d3aba", // item_equipment_helmet_neosteel
-      "0bc36a6cebf252d986c130d4", // item_equipment_helmet_team_wendy_exfil
-      "0c657e2adfad5a68a02f0ed4", // item_equipment_headset_comtac_vi
-      "0db2ffeb18d15ac09e529e00", // item_equipment_helmet_neosteel
-      "0e894a71f0af50769d9ecc5e", // item_equipment_helmet_team_wendy_exfil
-      "10804583f37958208cfc05b7", // item_equipment_helmet_team_wendy_exfil
-      "11e882cbb8c95d079fc0b866", // item_equipment_helmet_team_wendy_exfil
-      "12a22c8491165e209c24d286", // item_equipment_headset_comtac_vi
-      "1822c6ab9077537fa6a2d0ca", // helmet_zsh_1-2m_v2
-      "195376bb64f856daa74fdef1", // item_equipment_helmet_ballisticarmorco_bastion_black
-      "1afa224ed3145f9d922393b1", // item_equipment_helmet_team_wendy_exfil
-      "1c4962edf5d051dca0db086a", // item_equipment_helmet_neosteel
-      "1db402270dc253dd9c18e606", // item_equipment_helmet_team_wendy_exfil
-      "1db6de41907f5c63b4d51a32", // item_equipment_headset_comtac_v
-      "1f3dcd7094f05e0daac4ff70", // item_equipment_helmet_ballisticarmorco_bastion_black
-      "2043d569d1b559a395d239d4", // item_equipment_helmet_ballisticarmorco_bastion_black
-      "22e556e4f8665ec5b853156f", // item_equipment_headset_comtac_v
-      "249729bc30865c8eb9be18e4", // item_equipment_headset_comtac_v
-      "259c68aa1a5c5369bd56fe9b", // item_equipment_helmet_crye_airframe_tan
-      "2721d1dd9fd65557bb976ac2", // item_equipment_headset_comtac_v
-      "2ba98158af925210ab9fb48d", // item_equipment_helmet_team_wendy_exfil
-      "2c5795c7a7c6521e8c25383a", // item_equipment_helmet_crye_airframe_tan
-      "30a2550e5ce9568199ff43e6", // item_equipment_helmet_crye_airframe_tan
-      "3621d52b761e5892adcb12c1", // item_equipment_helmet_team_wendy_exfil
-      "369389a169c85bf48280396d", // item_equipment_headset_comtac_vi
-      "382178c7df6b54e5bfdecbd1", // helmet_zsh_1-2m_v2
-      "3954ff02a19c52c0b6d0701b", // item_equipment_helmet_ballisticarmorco_bastion_black
-      "39f9b503dc2f57d094fd0603", // item_equipment_headset_comtac_vi
-      "3bc4413f4e8051cd8d69d58b", // item_equipment_helmet_ballisticarmorco_bastion_black
-      "3cd88725a8d15274b01f4c09", // item_equipment_headset_comtac_vi
-      "3d66279b7ec45bcf863aeccd", // item_equipment_headset_comtac_v
-      "41310ba059d25bc0a3e22564", // helmet_zsh_1-2m_v2
-      "43b0e1422f7d59b8ad3d8a0b", // helmet_zsh_1-2m_v2
-      "43df24fffd6f5da78ef33943", // item_equipment_helmet_team_wendy_exfil
-      "456fbec9fa93523d9d89fd55", // item_equipment_headset_comtac_vi
-      "46f35d7a74b5584887f317d9", // item_equipment_helmet_neosteel
-      "49d259509b745f7881a1d629", // item_equipment_headset_comtac_vi
-      "4aff1054f21f5bc09924aa9a", // item_equipment_helmet_crye_airframe_tan
-      "51bfcb2f76495e8bb1fbce8e", // item_equipment_headset_comtac_vi
-      "563b06201f72577b8291df5d", // item_equipment_helmet_team_wendy_exfil
-      "585f8dc380465acebecfd6c8", // item_equipment_helmet_team_wendy_exfil
-      "5b326dfd4d6f5ae1a307bef4", // helmet_zsh_1-2m_v2
-      "5db7d0ed2655505f85d68b08", // item_equipment_helmet_neosteel
-      "65dba93847465e95a9ded01e", // helmet_zsh_1-2m_v2
-      "67bc371965dc5582a7670c2b", // item_equipment_headset_comtac_v
-      "68d30eae3a305412b46bde25", // item_equipment_helmet_team_wendy_exfil
-      "6995cef3d3135926892e615a", // item_equipment_helmet_crye_airframe_tan
-      "69e9a2584f96ca8b30449811", // item_equipment_helmet_ballisticarmorco_bastion_black
-      "69e9a8f20e957d2d8862225e", // item_equipment_helmet_neosteel
-      "6cf91c247d6f508ebdf8ba3c", // item_equipment_headset_comtac_v
-      "6db14eedb7735d47aa2b3815", // item_equipment_helmet_ballisticarmorco_bastion_black
-      "6ef87c9bac635974805c0415", // item_equipment_helmet_neosteel
-      "6fac263934a85dac83843f61", // item_equipment_headset_comtac_v
-      "71833ecb94b354ed9af475f2", // helmet_zsh_1-2m_v2
-      "729a41b1deb15cdc937ff15b", // item_equipment_helmet_ballisticarmorco_bastion_black
-      "7465817db0f85d818d90c934", // item_equipment_helmet_crye_airframe_tan
-      "788f33bf387c5dd29bbd654f", // item_equipment_helmet_neosteel
-      "7a198335056358f39565afc8", // item_equipment_helmet_ballisticarmorco_bastion_black
-      "7b4c3852889357178e23eb73", // item_equipment_helmet_ballisticarmorco_bastion_black
-      "7db9f76679ea561090f8531a", // item_equipment_helmet_ballisticarmorco_bastion_black
-      "7e4d2ec3cc9e5f87aecdf39b", // helmet_zsh_1-2m_v2
-      "7e6a08497c2a5dea998ed75b", // item_equipment_headset_comtac_v
-      "7f862d28802a511186f9dc59", // item_equipment_headset_comtac_v
-      "811054d359f651ae8ad48b98", // helmet_zsh_1-2m_v2
-      "813ce8eefd4358868b2848a7", // item_equipment_helmet_crye_airframe_tan
-      "81a9f318a0d0573b979a464f", // item_equipment_helmet_team_wendy_exfil
-      "829058eb33895a1ba9cceba9", // item_equipment_helmet_neosteel
-      "851c002942b058bf8c29e51c", // item_equipment_helmet_neosteel
-      "8796ea49bde456e692a4275f", // item_equipment_headset_comtac_vi
-      "87d447e71a125a8fa28f657a", // item_equipment_helmet_team_wendy_exfil
-      "89f136d7de8255a1a3ac1352", // item_equipment_helmet_ballisticarmorco_bastion_black
-      "8b169b151ec1508a91c74c32", // item_equipment_helmet_neosteel
-      "8d7e1e7c6bed52f88f7445f2", // helmet_zsh_1-2m_v2
-      "8ddcc60a0a6b57819ed82118", // item_equipment_helmet_team_wendy_exfil
-      "8ea24fef5647547ba574b6f9", // item_equipment_headset_comtac_v
-      "90784631e9e355569e84afd8", // item_equipment_helmet_ballisticarmorco_bastion_black
-      "90c4b3f1d5cd56a0a3b1c852", // item_equipment_helmet_ballisticarmorco_bastion_black
-      "94211dba2f9d5ccf86a65a5f", // helmet_zsh_1-2m_v2
-      "99b2894d6c7054d9b4bda2fb", // item_equipment_headset_comtac_vi
-      "9d049eb3c2c05305be0a0891", // item_equipment_headset_comtac_v
-      "9e3d23e969fb5a93833adb62", // helmet_zsh_1-2m_v2
-      "9fe22467cd8852e2b3eba0d4", // item_equipment_helmet_crye_airframe_tan
-      "a321239209cb583baea69ca1", // item_equipment_helmet_team_wendy_exfil
-      "ab9f7ded798a520992a4f3e4", // item_equipment_helmet_crye_airframe_tan
-      "b10386d1c36b5a12bfdd24dd", // item_equipment_helmet_ballisticarmorco_bastion_black
-      "b4198be4bb0059ef9a1800d8", // item_equipment_headset_comtac_v
-      "b45f79e172f75b0cb03b118d", // item_equipment_helmet_ballisticarmorco_bastion_black
-      "b73a9944b2d558ad8b69810e", // item_equipment_helmet_crye_airframe_tan
-      "b9bf505281b25ddb87f7ee3e", // item_equipment_headset_comtac_v
-      "ba096bc674cd5da390d00e74", // helmet_zsh_1-2m_v2
-      "ba68e48688c755e1a83ae78f", // item_equipment_helmet_crye_airframe_tan
-      "c2750480583a5a8a960cf168", // item_equipment_helmet_crye_airframe_tan
-      "c4c197c2e308552eb588b69e", // item_equipment_helmet_crye_airframe_tan
-      "c64cd4f4ba6a546e8cb3eff6", // item_equipment_helmet_neosteel
-      "c8d4e7f7bed652d98f1e7b36", // item_equipment_headset_comtac_v
-      "c9c453d6c82f5754828be4b3", // item_equipment_headset_comtac_vi
-      "cc7a11533ba85ed283cc6abf", // item_equipment_helmet_crye_airframe_tan
-      "cc8c2230876157889553549c", // item_equipment_helmet_neosteel
-      "ccaab422b8a659f8a03abd5e", // helmet_zsh_1-2m_v2
-      "ccc6f5ae9b0850bfa2dfe716", // item_equipment_helmet_crye_airframe_tan
-      "cf7e1ac9f2a859d688846118", // item_equipment_headset_comtac_vi
-      "d1a83c503b0659f1ba0e2c9e", // item_equipment_helmet_ballisticarmorco_bastion_black
-      "d4e633ea0a7c55b48c28e44a", // item_equipment_headset_comtac_vi
-      "d662061967115e25b4143107", // item_equipment_headset_comtac_v
-      "d770537e7de95c18b44ba664", // item_equipment_helmet_neosteel
-      "d8e4cc624a505ce590710aa5", // item_equipment_headset_comtac_v
-      "d8f6f35e9b2a54fb8b56f6cd", // item_equipment_helmet_team_wendy_exfil
-      "d9f78d0d55ec56838b296a7b", // helmet_zsh_1-2m_v2
-      "dd2df3e4b61359f5af76b97c", // item_equipment_helmet_neosteel
-      "df073356129e5dc1ab68f984", // item_equipment_headset_comtac_vi
-      "dfab8e3c3e2c59fa964c1503", // item_equipment_headset_comtac_vi
-      "dfc198ea294757d19d660c89", // item_equipment_helmet_team_wendy_exfil
-      "dfc86dc0f49753afb5219198", // item_equipment_helmet_crye_airframe_tan
-      "e0cc9714a737516ca1ce7292", // item_equipment_helmet_crye_airframe_tan
-      "e4300a17638f596c959f6aa3", // item_equipment_helmet_neosteel
-      "e55ca2d8f4a855bc81cec9ea", // item_equipment_helmet_neosteel
-      "e61c9197a5a75e2fbc3b62e3", // item_equipment_helmet_neosteel
-      "e74bf4cdc3665c3e8df06767", // item_equipment_helmet_neosteel
-      "e870ffceda3e5bf0b95f2a71", // item_equipment_headset_comtac_vi
-      "e96458b2ff10523e9fdc32da", // item_equipment_helmet_ballisticarmorco_bastion_black
-      "ea3b994c77d35701a587ee82", // helmet_zsh_1-2m_v2
-      "ec0bbb1bbabc587e94f4a4b1", // item_equipment_headset_comtac_v
-      "ef45995fcb1655e4b4a1bd70", // item_equipment_helmet_ballisticarmorco_bastion_black
-      "f0d30c96b8e252eaa1f1be1d", // item_equipment_helmet_crye_airframe_tan
-      "f0ec46c9161a52d3aa976e23", // item_equipment_headset_comtac_v
-      "f18e3547e74a58338f037728", // item_equipment_headset_comtac_vi
-      "f47587d41bba57269b1b883c", // item_equipment_helmet_neosteel
-      "f4c9f5431f575e9d8fb4e4e1", // item_equipment_headset_comtac_vi
-      "f8c0d2c9c3f25528b6afff62", // helmet_zsh_1-2m_v2
-      "f971806be83b5eaeb36fdd9d", // item_equipment_headset_comtac_vi
-      "f974ffb2411b5550b346906e" // item_equipment_helmet_team_wendy_exfil
+      "b10386d1c36b5a12bfdd24dd", // Ballistic Armor Co. Bastion helmet (Arctic Camo)
+      "2043d569d1b559a395d239d4", // Ballistic Armor Co. Bastion helmet (Black Camo)
+      "e96458b2ff10523e9fdc32da", // Ballistic Armor Co. Bastion helmet (CADPAT)
+      "729a41b1deb15cdc937ff15b", // Ballistic Armor Co. Bastion helmet (Coyote)
+      "90c4b3f1d5cd56a0a3b1c852", // Ballistic Armor Co. Bastion helmet (CP MultiCam)
+      "195376bb64f856daa74fdef1", // Ballistic Armor Co. Bastion helmet (DBDU)
+      "90784631e9e355569e84afd8", // Ballistic Armor Co. Bastion helmet (DCU)
+      "6db14eedb7735d47aa2b3815", // Ballistic Armor Co. Bastion helmet (DPM Desert)
+      "7db9f76679ea561090f8531a", // Ballistic Armor Co. Bastion helmet (DPM Woodland)
+      "3bc4413f4e8051cd8d69d58b", // Ballistic Armor Co. Bastion helmet (Flecktarn)
+      "7b4c3852889357178e23eb73", // Ballistic Armor Co. Bastion helmet (French Woodland)
+      "89f136d7de8255a1a3ac1352", // Ballistic Armor Co. Bastion helmet (Green MultiCam)
+      "d1a83c503b0659f1ba0e2c9e", // Ballistic Armor Co. Bastion helmet (M14 Nigeria Desert)
+      "1f3dcd7094f05e0daac4ff70", // Ballistic Armor Co. Bastion helmet (M14 Nigeria Woodland)
+      "3954ff02a19c52c0b6d0701b", // Ballistic Armor Co. Bastion helmet (M81 US Woodland)
+      "7a198335056358f39565afc8", // Ballistic Armor Co. Bastion helmet (MARPAT)
+      "084d7637489c5577b01977ad", // Ballistic Armor Co. Bastion helmet (MCCUU)
+      "ef45995fcb1655e4b4a1bd70", // Ballistic Armor Co. Bastion helmet (MultiCam Black)
+      "0a32f18896bf5f0dabf37c24", // Ballistic Armor Co. Bastion helmet (Red Right Hand)
+      "b45f79e172f75b0cb03b118d", // Ballistic Armor Co. Bastion helmet (UCP)
+      "9fe22467cd8852e2b3eba0d4", // Crye Precision AirFrame M-LOK helmet (Arctic Camo)
+      "7465817db0f85d818d90c934", // Crye Precision AirFrame M-LOK helmet (Black Camo)
+      "b73a9944b2d558ad8b69810e", // Crye Precision AirFrame M-LOK helmet (CADPAT)
+      "2c5795c7a7c6521e8c25383a", // Crye Precision AirFrame M-LOK helmet (Coyote)
+      "0684b0c47f5a584e8854376d", // Crye Precision AirFrame M-LOK helmet (CP MultiCam)
+      "dfc86dc0f49753afb5219198", // Crye Precision AirFrame M-LOK helmet (DBDU)
+      "c4c197c2e308552eb588b69e", // Crye Precision AirFrame M-LOK helmet (DCU)
+      "e0cc9714a737516ca1ce7292", // Crye Precision AirFrame M-LOK helmet (DPM Desert)
+      "c2750480583a5a8a960cf168", // Crye Precision AirFrame M-LOK helmet (DPM Woodland)
+      "ab9f7ded798a520992a4f3e4", // Crye Precision AirFrame M-LOK helmet (Flecktarn)
+      "6995cef3d3135926892e615a", // Crye Precision AirFrame M-LOK helmet (French Woodland)
+      "cc7a11533ba85ed283cc6abf", // Crye Precision AirFrame M-LOK helmet (Green MultiCam)
+      "08e0f355f3fd52ac8d7ba45d", // Crye Precision AirFrame M-LOK helmet (M14 Nigeria Desert)
+      "813ce8eefd4358868b2848a7", // Crye Precision AirFrame M-LOK helmet (M14 Nigeria Woodland)
+      "259c68aa1a5c5369bd56fe9b", // Crye Precision AirFrame M-LOK helmet (M81 US Woodland)
+      "30a2550e5ce9568199ff43e6", // Crye Precision AirFrame M-LOK helmet (MARPAT)
+      "4aff1054f21f5bc09924aa9a", // Crye Precision AirFrame M-LOK helmet (MCCUU)
+      "ba68e48688c755e1a83ae78f", // Crye Precision AirFrame M-LOK helmet (MultiCam Black)
+      "f0d30c96b8e252eaa1f1be1d", // Crye Precision AirFrame M-LOK helmet (Red Right Hand)
+      "ccc6f5ae9b0850bfa2dfe716", // Crye Precision AirFrame M-LOK helmet (UCP)
+      "851c002942b058bf8c29e51c", // Diamond Age NeoSteel High Cut helmet (Arctic Camo)
+      "e4300a17638f596c959f6aa3", // Diamond Age NeoSteel High Cut helmet (Black Camo)
+      "d770537e7de95c18b44ba664", // Diamond Age NeoSteel High Cut helmet (CADPAT)
+      "0adf017025895774b13d3aba", // Diamond Age NeoSteel High Cut helmet (Coyote)
+      "1c4962edf5d051dca0db086a", // Diamond Age NeoSteel High Cut helmet (CP MultiCam)
+      "cc8c2230876157889553549c", // Diamond Age NeoSteel High Cut helmet (DBDU)
+      "46f35d7a74b5584887f317d9", // Diamond Age NeoSteel High Cut helmet (DCU)
+      "0db2ffeb18d15ac09e529e00", // Diamond Age NeoSteel High Cut helmet (DPM Desert)
+      "788f33bf387c5dd29bbd654f", // Diamond Age NeoSteel High Cut helmet (DPM Woodland)
+      "6ef87c9bac635974805c0415", // Diamond Age NeoSteel High Cut helmet (Flecktarn)
+      "e61c9197a5a75e2fbc3b62e3", // Diamond Age NeoSteel High Cut helmet (French Woodland)
+      "e74bf4cdc3665c3e8df06767", // Diamond Age NeoSteel High Cut helmet (Green MultiCam)
+      "e55ca2d8f4a855bc81cec9ea", // Diamond Age NeoSteel High Cut helmet (M14 Nigeria Desert)
+      "dd2df3e4b61359f5af76b97c", // Diamond Age NeoSteel High Cut helmet (M14 Nigeria Woodland)
+      "f47587d41bba57269b1b883c", // Diamond Age NeoSteel High Cut helmet (M81 US Woodland)
+      "c64cd4f4ba6a546e8cb3eff6", // Diamond Age NeoSteel High Cut helmet (MARPAT)
+      "829058eb33895a1ba9cceba9", // Diamond Age NeoSteel High Cut helmet (MCCUU)
+      "5db7d0ed2655505f85d68b08", // Diamond Age NeoSteel High Cut helmet (MultiCam Black)
+      "8b169b151ec1508a91c74c32", // Diamond Age NeoSteel High Cut helmet (Red Right Hand)
+      "03d084b26a105930bd8f4047", // Diamond Age NeoSteel High Cut helmet (UCP)
+      "69e9a2584f96ca8b30449811", // Modified Ballistic Armor Co. Bastion helmet (White Tusk Edition)
+      "69e9a8f20e957d2d8862225e", // Modified Diamond Age NeoSteel High Cut helmet (White Tusk Edition)
+      "f0ec46c9161a52d3aa976e23", // Peltor ComTac V headset (Arctic Camo)
+      "9d049eb3c2c05305be0a0891", // Peltor ComTac V headset (Black Camo)
+      "7e6a08497c2a5dea998ed75b", // Peltor ComTac V headset (CADPAT)
+      "b4198be4bb0059ef9a1800d8", // Peltor ComTac V headset (CP MultiCam)
+      "22e556e4f8665ec5b853156f", // Peltor ComTac V headset (DBDU)
+      "6fac263934a85dac83843f61", // Peltor ComTac V headset (DCU)
+      "249729bc30865c8eb9be18e4", // Peltor ComTac V headset (DPM Desert)
+      "b9bf505281b25ddb87f7ee3e", // Peltor ComTac V headset (DPM Woodland)
+      "d662061967115e25b4143107", // Peltor ComTac V headset (Flecktarn)
+      "3d66279b7ec45bcf863aeccd", // Peltor ComTac V headset (French Woodland)
+      "8ea24fef5647547ba574b6f9", // Peltor ComTac V headset (Green MultiCam)
+      "2721d1dd9fd65557bb976ac2", // Peltor ComTac V headset (M14 Nigeria Desert)
+      "67bc371965dc5582a7670c2b", // Peltor ComTac V headset (M14 Nigeria Woodland)
+      "1db6de41907f5c63b4d51a32", // Peltor ComTac V headset (M81 US Woodland)
+      "d8e4cc624a505ce590710aa5", // Peltor ComTac V headset (MARPAT)
+      "7f862d28802a511186f9dc59", // Peltor ComTac V headset (MCCUU)
+      "ec0bbb1bbabc587e94f4a4b1", // Peltor ComTac V headset (MultiCam Black)
+      "6cf91c247d6f508ebdf8ba3c", // Peltor ComTac V headset (Red Right Hand)
+      "c8d4e7f7bed652d98f1e7b36", // Peltor ComTac V headset (UCP)
+      "49d259509b745f7881a1d629", // Peltor ComTac VI headset (Arctic Camo)
+      "cf7e1ac9f2a859d688846118", // Peltor ComTac VI headset (Black Camo)
+      "f4c9f5431f575e9d8fb4e4e1", // Peltor ComTac VI headset (CADPAT)
+      "f18e3547e74a58338f037728", // Peltor ComTac VI headset (Coyote)
+      "f971806be83b5eaeb36fdd9d", // Peltor ComTac VI headset (CP MultiCam)
+      "456fbec9fa93523d9d89fd55", // Peltor ComTac VI headset (DBDU)
+      "02687ae6036d5df7b37d9896", // Peltor ComTac VI headset (DCU)
+      "d4e633ea0a7c55b48c28e44a", // Peltor ComTac VI headset (DPM Desert)
+      "dfab8e3c3e2c59fa964c1503", // Peltor ComTac VI headset (DPM Woodland)
+      "51bfcb2f76495e8bb1fbce8e", // Peltor ComTac VI headset (Flecktarn)
+      "8796ea49bde456e692a4275f", // Peltor ComTac VI headset (French Woodland)
+      "39f9b503dc2f57d094fd0603", // Peltor ComTac VI headset (Green MultiCam)
+      "12a22c8491165e209c24d286", // Peltor ComTac VI headset (M14 Nigeria Desert)
+      "99b2894d6c7054d9b4bda2fb", // Peltor ComTac VI headset (M14 Nigeria Woodland)
+      "3cd88725a8d15274b01f4c09", // Peltor ComTac VI headset (M81 US Woodland)
+      "369389a169c85bf48280396d", // Peltor ComTac VI headset (MARPAT)
+      "e870ffceda3e5bf0b95f2a71", // Peltor ComTac VI headset (MCCUU)
+      "df073356129e5dc1ab68f984", // Peltor ComTac VI headset (MultiCam Black)
+      "0c657e2adfad5a68a02f0ed4", // Peltor ComTac VI headset (Red Right Hand)
+      "c9c453d6c82f5754828be4b3", // Peltor ComTac VI headset (UCP)
+      "11e882cbb8c95d079fc0b866", // Team Wendy EXFIL Ballistic Helmet (Arctic Camo)
+      "43df24fffd6f5da78ef33943", // Team Wendy EXFIL Ballistic Helmet (Black Camo)
+      "0e894a71f0af50769d9ecc5e", // Team Wendy EXFIL Ballistic Helmet (CADPAT)
+      "81a9f318a0d0573b979a464f", // Team Wendy EXFIL Ballistic Helmet (Coyote Gen2)
+      "1db402270dc253dd9c18e606", // Team Wendy EXFIL Ballistic Helmet (CP MultiCam)
+      "585f8dc380465acebecfd6c8", // Team Wendy EXFIL Ballistic Helmet (DBDU)
+      "059a0a5c3aba51ac932424db", // Team Wendy EXFIL Ballistic Helmet (DCU)
+      "10804583f37958208cfc05b7", // Team Wendy EXFIL Ballistic Helmet (DPM Desert)
+      "1afa224ed3145f9d922393b1", // Team Wendy EXFIL Ballistic Helmet (DPM Woodland)
+      "8ddcc60a0a6b57819ed82118", // Team Wendy EXFIL Ballistic Helmet (Flecktarn)
+      "68d30eae3a305412b46bde25", // Team Wendy EXFIL Ballistic Helmet (French Woodland)
+      "f974ffb2411b5550b346906e", // Team Wendy EXFIL Ballistic Helmet (Green MultiCam)
+      "87d447e71a125a8fa28f657a", // Team Wendy EXFIL Ballistic Helmet (M14 Nigeria Desert)
+      "3621d52b761e5892adcb12c1", // Team Wendy EXFIL Ballistic Helmet (M14 Nigeria Woodland)
+      "d8f6f35e9b2a54fb8b56f6cd", // Team Wendy EXFIL Ballistic Helmet (M81 US Woodland)
+      "563b06201f72577b8291df5d", // Team Wendy EXFIL Ballistic Helmet (MARPAT)
+      "0bc36a6cebf252d986c130d4", // Team Wendy EXFIL Ballistic Helmet (MCCUU)
+      "dfc198ea294757d19d660c89", // Team Wendy EXFIL Ballistic Helmet (MultiCam Black)
+      "2ba98158af925210ab9fb48d", // Team Wendy EXFIL Ballistic Helmet (Red Right Hand)
+      "089ef8429f555f5f8bd6d19a", // Team Wendy EXFIL Ballistic Helmet (UCP)
+      "a321239209cb583baea69ca1", // Team Wendy EXFIL Ballistic Helmet (White Tusk Arctic)
+      "7e4d2ec3cc9e5f87aecdf39b", // Team Wendy EXFIL helmet cover (Arctic Camo)
+      "94211dba2f9d5ccf86a65a5f", // Team Wendy EXFIL helmet cover (Black Camo)
+      "8d7e1e7c6bed52f88f7445f2", // Team Wendy EXFIL helmet cover (CADPAT)
+      "049f903594a15648b85049be", // Team Wendy EXFIL helmet cover (Coyote)
+      "f8c0d2c9c3f25528b6afff62", // Team Wendy EXFIL helmet cover (DBDU)
+      "ea3b994c77d35701a587ee82", // Team Wendy EXFIL helmet cover (DCU)
+      "ccaab422b8a659f8a03abd5e", // Team Wendy EXFIL helmet cover (DPM Desert)
+      "65dba93847465e95a9ded01e", // Team Wendy EXFIL helmet cover (DPM Woodland)
+      "71833ecb94b354ed9af475f2", // Team Wendy EXFIL helmet cover (Flecktarn)
+      "1822c6ab9077537fa6a2d0ca", // Team Wendy EXFIL helmet cover (French Woodland)
+      "9e3d23e969fb5a93833adb62", // Team Wendy EXFIL helmet cover (Green MultiCam)
+      "d9f78d0d55ec56838b296a7b", // Team Wendy EXFIL helmet cover (M14 Nigeria Desert)
+      "41310ba059d25bc0a3e22564", // Team Wendy EXFIL helmet cover (M14 Nigeria Woodland)
+      "811054d359f651ae8ad48b98", // Team Wendy EXFIL helmet cover (M81 US Woodland)
+      "382178c7df6b54e5bfdecbd1", // Team Wendy EXFIL helmet cover (MARPAT)
+      "ba096bc674cd5da390d00e74", // Team Wendy EXFIL helmet cover (MCCUU)
+      "43b0e1422f7d59b8ad3d8a0b", // Team Wendy EXFIL helmet cover (Red Right Hand)
+      "5b326dfd4d6f5ae1a307bef4" // Team Wendy EXFIL helmet cover (UCP)
     ],
     "faceCovers": [
-      "3401a3220a7355a3ad4b0f54", // item_equipment_facecover_gasmask_gp7
-      "6939d6ae15efda5797902659", // item_equipment_facecover_strikeball_mask
-      "693ce88b2d491ae03c5326cd", // item_equipment_facecover_strikeball_mask
-      "6a279c95534fb23d302b6b27", // item_equipment_facecover_gasmask_gp7
-      "6a279d1b7bb85ffaa461cd9e", // item_equipment_facecover_gasmask_gp7
-      "9a4a5d94afc658af9fb22ad6", // item_equipment_facecover_gasmask_gp7
-      "a7d9ede064cc53bd8cc78bfe" // item_equipment_facecover_gasmask_gp7
+      "3401a3220a7355a3ad4b0f54", // MSA Millennium Riot Control gas mask (Red)
+      "6939d6ae15efda5797902659", // Modified Unix 5000 Gas Mask (USEC Intelligence Support Bureau)
+      "693ce88b2d491ae03c5326cd", // Modified MSA G1 SCBA Gas Mask (USEC Intelligence Support Bureau)
+      "6a279c95534fb23d302b6b27", // Unix 5000 Gas Mask
+      "6a279d1b7bb85ffaa461cd9e", // MSA G1 SCBA Gas Mask
+      "9a4a5d94afc658af9fb22ad6", // MSA Millennium Riot Control gas mask
+      "a7d9ede064cc53bd8cc78bfe" // MSA Millennium Riot Control gas mask (Black)
     ],
     "medical": []
   }

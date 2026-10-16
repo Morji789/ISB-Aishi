@@ -76,6 +76,7 @@ namespace AishiKeysPro
 
         public void Update()
         {
+            AishiPreviewCache.Update(_networkBridge?.IsHeadless == true);
             if (_networkBridge?.IsHeadless != true)
                 AishiUiFixesCompatibility.Update();
             AishiKeys.AishiAnomalyRaidStart.EnsureRuntime();
@@ -85,6 +86,7 @@ namespace AishiKeysPro
 
         public void OnDestroy()
         {
+            AishiPreviewCache.Stop();
             ShutdownOptionalFikaBridge();
             _networkSync?.Dispose();
             if (_networkBridge != null && !ReferenceEquals(_networkBridge, NoNetworkBridge.Instance))
