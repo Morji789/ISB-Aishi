@@ -37,6 +37,7 @@ namespace AishiKeys
         private static Catalog catalog;
         private sealed class State
         {
+            public string seed;
             public Dictionary<int, string> stamps = new Dictionary<int, string>();
             public Dictionary<int, int> aliases = new Dictionary<int, int>();
         }
