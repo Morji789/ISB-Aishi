@@ -18,7 +18,8 @@
       "Grids": [],
       "Name": "MSA Gallet TC 800 High Cut combat helmet (Black)",
       "ShortName": "TC 800",
-      "Description": "The MSA TC 800 ballistic helmet, designed for use by tactical teams of police special forces, in combat and reconnaissance operations. It can be modified by various components. Black Version."
+      "Description": "The MSA TC 800 ballistic helmet, designed for use by tactical teams of police special forces, in combat and reconnaissance operations. It can be modified by various components. Black Version.",
+      "CanRequireOnRagfair": false
     },
     "addWeaponPreset": true,
     "weaponPresets": [

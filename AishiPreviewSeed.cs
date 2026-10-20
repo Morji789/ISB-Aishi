@@ -20,6 +20,8 @@ namespace Aishi;
 #endif
 public sealed class AishiPreviewSeed(ModHelper mods, ILogger<AishiPreviewSeed> logger) : IOnLoad
 {
+    private static readonly object Gate = new();
+
     private sealed class Manifest
     {
         public int Version { get; set; }
@@ -44,13 +46,27 @@ public sealed class AishiPreviewSeed(ModHelper mods, ILogger<AishiPreviewSeed> l
 #if AISHI_SPT41
         cancellationToken.ThrowIfCancellationRequested();
 #endif
-        var source = Path.Combine(mods.GetAbsolutePathToModFolder(Assembly.GetExecutingAssembly()), "db", "PreviewCacheSeed");
-        try { Import(source, Path.Combine(AppContext.BaseDirectory, "user", "sptappdata", "live")); }
-        catch (Exception error) when (error is IOException or UnauthorizedAccessException or JsonException or InvalidDataException)
-        {
-            logger.LogWarning(error, "[Aishi] Prepared item previews could not be imported. Missing previews will be generated in the main menu.");
-        }
+        Prepare();
         return Task.CompletedTask;
+    }
+
+    public bool Prepare()
+    {
+        lock (Gate)
+        {
+            var source = Path.Combine(mods.GetAbsolutePathToModFolder(Assembly.GetExecutingAssembly()), "db", "PreviewCacheSeed");
+            if (!File.Exists(Path.Combine(source, "manifest.json"))) return false;
+            try
+            {
+                Import(source, Path.Combine(AppContext.BaseDirectory, "user", "sptappdata", "live"));
+                return true;
+            }
+            catch (Exception error) when (error is IOException or UnauthorizedAccessException or JsonException or InvalidDataException)
+            {
+                logger.LogWarning(error, "[Aishi] Prepared item previews could not be imported. Missing previews will be generated in the main menu.");
+                return false;
+            }
+        }
     }
 
     internal static void Import(string source, string cache)

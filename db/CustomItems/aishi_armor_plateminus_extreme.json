@@ -725,6 +725,18 @@
                 "MaxDurability": 8
               }
             }
+          },
+          {
+            "_id": "186dd0d5c31d331d5e800513",
+            "_tpl": "656fa0fb498d1b7e3e071d9c",
+            "parentId": "4f84f9f7bdcf5f4fafcb59cc",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "4a0594079897bf7af975d19a",
+            "_tpl": "656fa0fb498d1b7e3e071d9c",
+            "parentId": "4f84f9f7bdcf5f4fafcb59cc",
+            "slotId": "Back_plate"
           }
         ],
         "_encyclopedia": "6b12e74840795586adb79d20"

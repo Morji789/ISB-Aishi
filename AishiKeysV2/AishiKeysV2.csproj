@@ -9,7 +9,7 @@
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <EnableDefaultCompileItems>true</EnableDefaultCompileItems>
     <Deterministic>true</Deterministic>
-    <Version>2.0.3</Version>
+    <Version>2.0.4</Version>
 
     <SPTRoot Condition="'$(SPTRoot)' == ''">C:\SPTV</SPTRoot>
     <ManagedPath>$(SPTRoot)\EscapeFromTarkov_Data\Managed</ManagedPath>

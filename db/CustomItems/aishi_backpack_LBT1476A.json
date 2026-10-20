@@ -46,7 +46,8 @@
           },
           "_proto": "6a1265869f659d866c1ddc81"
         }
-      ]
+      ],
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {

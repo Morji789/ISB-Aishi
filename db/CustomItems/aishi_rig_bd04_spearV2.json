@@ -4,24 +4,11 @@
     "parentId": "5448e5284bdc2dcb718b4567",
     "handbookParentId": "5b5f6f8786f77447ed563642",
     "overrideProperties": {
-      "QuestItem": false,
-      "ExaminedByDefault": false,
-      "IsUnsaleable": false,
-      "InsuranceDisabled": true,
-      "CanSellOnRagfair": false,
-      "CanRequireOnRagfair": false,
-      "addtoItemBlacklist": true,
       "BackgroundColor": "yellow",
       "Prefab": {
         "path": "equipment/item_equipment_rig_bd4_firstspear_blackV2.bundle",
         "rcid": ""
-      },
-      "Width": 4,
-      "Height": 4,
-      "Weight": 12.1,
-      "Name": "First Spear Siege-R Optimized M.A.S.S. Plate Carrier (White Tusk Edition)",
-      "ShortName": "Siege-R",
-      "Description": "A Siege-R Optimized plate carrier equipped with the M.A.S.S. Shoulder System. Provides reliable all-around protection while offering ample workspace for equipment placement. Black version. (White Tusk Edition)"
+      }
     },
     "addWeaponPreset": true,
     "weaponPresets": [
@@ -116,12 +103,12 @@
       "en": {
         "name": "First Spear Siege-R Optimized M.A.S.S. Plate Carrier (White Tusk Edition)",
         "shortName": "Siege-R",
-        "description": "A Siege-R Optimized plate carrier equipped with the M.A.S.S. Shoulder System. Provides reliable all-around protection while offering ample workspace for equipment placement. Black version. (White Tusk Edition)"
+        "description": "A Siege-R Optimized plate carrier equipped with the M.A.S.S. Shoulder System. Provides reliable all-around protection while offering ample workspace for equipment placement. White Tusk Edition version."
       },
       "po": {
-        "name": "Plate carrier First Spear Siege-R Optimized M.A.S.S. (White Tusk Edition)",
+        "name": "First Spear Siege-R Optimized M.A.S.S. Plate Carrier (White Tusk Edition)",
         "shortName": "Siege-R",
-        "description": "Um plate carrier Siege-R Optimized equipado com o sistema de proteção de ombros M.A.S.S. Oferece proteção confiável em todas as direções e amplo espaço para posicionar equipamentos. Versão preta. (White Tusk Edition)"
+        "description": "Um plate carrier Siege-R Optimized equipado com o sistema de proteção de ombros M.A.S.S. Oferece proteção confiável em todas as direções e amplo espaço para a disposição de equipamentos. Versão com pintura White Tusk Edition."
       }
     },
     "fleaPriceRoubles": 113572,
@@ -152,7 +139,7 @@
       "PushToFleaBlacklist": true,
       "MaterialType": "BodyArmor",
       "InsuranceDisabled": true,
-      "ArmorMaterial": "Ceramic",
+      "ArmorMaterial": "UHMWPE",
       "ArmorType": "Heavy",
       "BackgroundColor": "yellow",
       "ItemSound": "gear_armor",
@@ -196,6 +183,10 @@
         "ContainerName": "",
         "Probability": 0
       }
+    ],
+    "addtoModSlots": true,
+    "modSlot": [
+      "Soft_armor_front"
     ]
   },
   "69eb9afecf8ecad78737ab87": {
@@ -208,7 +199,7 @@
       "PushToFleaBlacklist": true,
       "MaterialType": "BodyArmor",
       "InsuranceDisabled": true,
-      "ArmorMaterial": "Ceramic",
+      "ArmorMaterial": "UHMWPE",
       "ArmorType": "Heavy",
       "BackgroundColor": "yellow",
       "ItemSound": "gear_armor",
@@ -252,6 +243,10 @@
         "ContainerName": "",
         "Probability": 0
       }
+    ],
+    "addtoModSlots": true,
+    "modSlot": [
+      "Soft_armor_back"
     ]
   },
   "69eb9b5fb83cefe5297f85fd": {
@@ -264,7 +259,7 @@
       "PushToFleaBlacklist": true,
       "MaterialType": "BodyArmor",
       "InsuranceDisabled": true,
-      "ArmorMaterial": "Ceramic",
+      "ArmorMaterial": "UHMWPE",
       "ArmorType": "Heavy",
       "BackgroundColor": "yellow",
       "ItemSound": "gear_armor",
@@ -308,6 +303,10 @@
         "ContainerName": "",
         "Probability": 0
       }
+    ],
+    "addtoModSlots": true,
+    "modSlot": [
+      "Soft_armor_left"
     ]
   },
   "69eb9bc687c136384bdf0769": {
@@ -320,7 +319,7 @@
       "PushToFleaBlacklist": true,
       "MaterialType": "BodyArmor",
       "InsuranceDisabled": true,
-      "ArmorMaterial": "Ceramic",
+      "ArmorMaterial": "UHMWPE",
       "ArmorType": "Heavy",
       "BackgroundColor": "yellow",
       "ItemSound": "gear_armor",
@@ -364,6 +363,10 @@
         "ContainerName": "",
         "Probability": 0
       }
+    ],
+    "addtoModSlots": true,
+    "modSlot": [
+      "soft_armor_right"
     ]
   },
   "69eb9c95641f4b74ac0ddee8": {
@@ -376,7 +379,7 @@
       "PushToFleaBlacklist": true,
       "MaterialType": "BodyArmor",
       "InsuranceDisabled": true,
-      "ArmorMaterial": "Ceramic",
+      "ArmorMaterial": "UHMWPE",
       "ArmorType": "Heavy",
       "BackgroundColor": "yellow",
       "ItemSound": "gear_armor",
@@ -420,6 +423,10 @@
         "ContainerName": "",
         "Probability": 0
       }
+    ],
+    "addtoModSlots": true,
+    "modSlot": [
+      "Collar"
     ]
   },
   "69eb9cb8f7190defda7fae35": {
@@ -432,7 +439,7 @@
       "PushToFleaBlacklist": true,
       "MaterialType": "BodyArmor",
       "InsuranceDisabled": true,
-      "ArmorMaterial": "Ceramic",
+      "ArmorMaterial": "UHMWPE",
       "ArmorType": "Heavy",
       "BackgroundColor": "yellow",
       "ItemSound": "gear_armor",
@@ -476,6 +483,10 @@
         "ContainerName": "",
         "Probability": 0
       }
+    ],
+    "addtoModSlots": true,
+    "modSlot": [
+      "Shoulder_l"
     ]
   },
   "69eb9cf5ea68c8c4b96d32fe": {
@@ -488,7 +499,7 @@
       "PushToFleaBlacklist": true,
       "MaterialType": "BodyArmor",
       "InsuranceDisabled": true,
-      "ArmorMaterial": "Ceramic",
+      "ArmorMaterial": "UHMWPE",
       "ArmorType": "Heavy",
       "BackgroundColor": "yellow",
       "ItemSound": "gear_armor",
@@ -500,7 +511,9 @@
       "Durability": 75,
       "MaxDurability": 75,
       "BluntThroughput": 0.1,
-      "RarityPvE": "Superrare"
+      "RarityPvE": "Superrare",
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
     },
     "Prefab": {
       "path": "assets/content/items/equipment/armor_plates/shoulder_r.bundle",
@@ -535,6 +548,10 @@
         "ContainerName": "",
         "Probability": 0
       }
+    ],
+    "addtoModSlots": true,
+    "modSlot": [
+      "Shoulder_r"
     ]
   },
   "69eb9d795b4e3846c7e534e3": {
@@ -547,7 +564,7 @@
       "PushToFleaBlacklist": true,
       "MaterialType": "BodyArmor",
       "InsuranceDisabled": true,
-      "ArmorMaterial": "Ceramic",
+      "ArmorMaterial": "UHMWPE",
       "ArmorType": "Heavy",
       "BackgroundColor": "yellow",
       "ItemSound": "gear_armor",
@@ -559,7 +576,9 @@
       "Durability": 75,
       "MaxDurability": 75,
       "BluntThroughput": 0.1,
-      "RarityPvE": "Superrare"
+      "RarityPvE": "Superrare",
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
     },
     "Prefab": {
       "path": "assets/content/items/equipment/armor_plates/groin.bundle",
@@ -594,6 +613,10 @@
         "ContainerName": "",
         "Probability": 0
       }
+    ],
+    "addtoModSlots": true,
+    "modSlot": [
+      "Groin"
     ]
   }
 }

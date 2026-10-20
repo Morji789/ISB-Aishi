@@ -9,5 +9,9 @@
   },
   "anomalousItems": {
     "requiredEquippedItem": "2b20c487a99515b22b11ff78"
+  },
+  "debug": {
+    "removeKTErestrictions": false,
+    "unlockAllClothes": false
   }
 }

@@ -7,86 +7,18 @@
       "Prefab": {
         "path": "equipment/item_equipment_helmet_bastion_cadpat_aishi.bundle",
         "rcid": ""
-      },
-      "Name": "Ballistic Armor Co. Bastion helmet (CADPAT)",
-      "ShortName": "BAC Bastion (CADPAT)",
-      "Description": "The Bastion NIJ level IIIA tactical helmet designed for law enforcement and civilian use. Equipped with M-LOK interface rails for mounting additional equipment. Manufactured by Ballistic Armor Co. CADPAT version.",
-      "CanSellOnRagfair": false,
-      "Slots": [
-        {
-          "_id": "56df24cb5ded543c830aad6e",
-          "_mergeSlotWithChildren": false,
-          "_name": "mod_nvg",
-          "_parent": "e96458b2ff10523e9fdc32da",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "5c0558060db834001b735271",
-                  "5a16b8a9fcdbcb00165aa6ca"
-                ],
-                "Shift": 0
-              }
-            ]
-          },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
-        },
-        {
-          "_id": "a13a5e5a44955fb7a957d9b4",
-          "_mergeSlotWithChildren": true,
-          "_name": "Helmet_top",
-          "_parent": "e96458b2ff10523e9fdc32da",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "66b61cfae98be930d701c029"
-                ],
-                "Plate": "66b61cfae98be930d701c029",
-                "armorColliders": [
-                  "ParietalHead"
-                ],
-                "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": true
-        },
-        {
-          "_id": "d35365f173e15fd38a5c8116",
-          "_mergeSlotWithChildren": true,
-          "_name": "Helmet_back",
-          "_parent": "e96458b2ff10523e9fdc32da",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "66b61ce0c5d72b027748867e"
-                ],
-                "Plate": "66b61ce0c5d72b027748867e",
-                "armorColliders": [
-                  "BackHead"
-                ],
-                "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": true
-        }
-      ]
+      }
     },
     "locales": {
       "en": {
         "name": "Ballistic Armor Co. Bastion helmet (CADPAT)",
         "shortName": "BAC Bastion",
         "description": "The Bastion NIJ level IIIA tactical helmet designed for law enforcement and civilian use. Equipped with M-LOK interface rails for mounting additional equipment. Manufactured by Ballistic Armor Co. CADPAT version."
+      },
+      "po": {
+        "name": "Ballistic Armor Co. Bastion helmet (CADPAT)",
+        "shortName": "BAC Bastion",
+        "description": "O capacete tático Bastion de nível NIJ IIIA foi projetado para uso policial e civil. Equipado com trilhos de interface M-LOK para a montagem de equipamentos adicionais. Fabricado pela Ballistic Armor Co. Versão com pintura CADPAT."
       }
     },
     "handbookPriceRoubles": 13205,

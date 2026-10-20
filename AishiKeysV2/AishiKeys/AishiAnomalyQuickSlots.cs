@@ -22,7 +22,7 @@ namespace AishiKeys
             "51574a824fe10af4518191af",
             "0056a97d873bba252113c74b"
         };
-        internal static bool IsPassive(Item item) => item != null && AishiInventoryDescriptions.IsAnomaly(item.TemplateId) && !Injectors.Contains(item.TemplateId);
+        internal static bool IsPassive(Item item) => item != null && (item.TemplateId == "2b20c487a99515b22b11ff78" || AishiInventoryDescriptions.IsAnomaly(item.TemplateId) && !Injectors.Contains(item.TemplateId));
         internal static bool CanQuickUse(FastAccess access, EBoundItem key) => !IsPassive(access?.GetBoundItem(key));
         internal static void ClearPassiveBindings(FastAccess access)
         {

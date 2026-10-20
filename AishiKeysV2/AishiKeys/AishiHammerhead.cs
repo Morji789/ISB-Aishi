@@ -9,8 +9,10 @@ using HarmonyLib;
 using UnityEngine;
 #if SPT41
 using ItemFactoryNative = EFT.ItemFactory;
+using LightStateNative = EFT.LightsState;
 #else
 using ItemFactoryNative = ItemFactoryClass;
+using LightStateNative = FirearmLightStateStruct;
 #endif
 
 namespace AishiKeys
@@ -201,8 +203,9 @@ namespace AishiKeys
 
         private void ApplyLamp()
         {
+            _lastLight = _light?.IsActive == true && AishiHammerheadPower.CanUseLamp(_item);
+            if (_beam != null) _beam.gameObject.SetActive(_lastLight);
             if (_renderer == null) return;
-            _lastLight = _light.IsActive;
             foreach (int slot in _bulbs)
             {
                 foreach (var surface in _surfaces.Keys)
@@ -234,7 +237,8 @@ namespace AishiKeys
             if (_nightObserver == null) BindNightObserver();
             if (_beam != null && _player != null && _light?.IsActive == true && _player.LookDirection.sqrMagnitude > .001f)
                 _beam.rotation = Quaternion.LookRotation(_player.LookDirection, Vector3.up);
-            if (_light != null && _light.IsActive != _lastLight) ApplyLamp();
+            bool lightOn = _light?.IsActive == true && AishiHammerheadPower.CanUseLamp(_item);
+            if (lightOn != _lastLight || (_beam != null && _beam.gameObject.activeSelf != lightOn)) ApplyLamp();
         }
         private void Release()
         {
@@ -285,6 +289,29 @@ namespace AishiKeys
             AishiHammerhead.PrepareLamp(__instance);
             __instance.Init();
         }
+
+        private static void Postfix(TacticalComboVisualController __instance)
+        {
+            var item = __instance.LightMod?.Item;
+            if (!AishiHammerhead.IsHelmet(item) || AishiHammerheadPower.CanUseLamp(item)) return;
+            foreach (var beam in __instance.GetComponentsInChildren<Transform>(true))
+                if (beam.name == "mode_001") beam.gameObject.SetActive(false);
+        }
+    }
+
+    [HarmonyPatch(typeof(LightComponent), nameof(LightComponent.GetLightState))]
+    internal static class AishiHammerheadLampPower
+    {
+        private static void Postfix(LightComponent __instance, bool __0, ref LightStateNative __result)
+        {
+            if (AishiHammerhead.IsHelmet(__instance.Item) && !AishiHammerheadPower.CanUseLamp(__instance.Item))
+            {
+                __result.IsActive = false;
+                var player = Singleton<GameWorld>.Instantiated ? Singleton<GameWorld>.Instance.MainPlayer : null;
+                if (__0 && !__instance.IsActive && player?.IsYourPlayer == true && ReferenceEquals(player.Equipment?.GetSlot(EquipmentSlot.FaceCover)?.ContainedItem, __instance.Item))
+                    AishiHammerheadPower.NotifyEmpty();
+            }
+        }
     }
 
     [HarmonyPatch]
@@ -328,19 +355,8 @@ namespace AishiKeys
             if (item == null || item.TemplateId.ToString() != "7f3d1490eb7e5442947f28f5") return;
             __result = EFT.InputSystem.InputNode.ETranslateResult.BlockAll;
             if (_pending != null && !_pending.IsCompleted || player.HandsController?.InCanNotBeInterruptedOperation() == true) return;
-            var toggle = item.GetItemComponent<NightVisionComponent>()?.Togglable;
-            if (toggle != null && player.InventoryController != null) _pending = Toggle(toggle, player);
-        }
-
-        private static async System.Threading.Tasks.Task Toggle(TogglableComponent toggle, EFT.Player player)
-        {
-            try
-            {
-                var result = await player.InventoryController.TryRunNetworkTransaction(toggle.Set(!toggle.On, true, false), null);
-                if (result.Succeed && player != null && player.HealthController?.IsAlive == true)
-                    player.MovementContext.SetInteractInHands(EInteraction.HelmetRailGear);
-            }
-            catch (Exception error) { Debug.LogError("Aishi Hammerhead night vision toggle failed: " + error.GetBaseException().Message); }
+            var vision = AishiHammerheadVision.Ensure(player);
+            if (vision != null) _pending = vision.Cycle();
         }
     }
 

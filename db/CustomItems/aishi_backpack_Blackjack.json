@@ -9,7 +9,9 @@
       "Prefab": {
         "path": "equipment/item_equipment_backpack_blackjack_black.bundle",
         "rcid": ""
-      }
+      },
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {

@@ -4,22 +4,10 @@
     "parentId": "5448e5284bdc2dcb718b4567",
     "handbookParentId": "5b5f6f8786f77447ed563642",
     "overrideProperties": {
-      "QuestItem": false,
-      "ExaminedByDefault": false,
-      "IsUnsaleable": false,
-      "CanSellOnRagfair": false,
-      "CanRequireOnRagfair": false,
-      "addtoItemBlacklist": true,
       "Prefab": {
         "path": "equipment/item_equipment_armor_gladiator_s_champion_ISB.bundle",
         "rcid": ""
-      },
-      "Height": 4,
-      "Weight": 7.12,
-      "Width": 3,
-      "Name": "FORT Gladiator-S plate carrier (White Tusk)",
-      "ShortName": "Gladiator-S",
-      "Description": "A specialized body armor developed for the FSB’s Special Purpose Center, featuring high functionality and modularity. White Tusk version."
+      }
     },
     "addWeaponPreset": true,
     "weaponPresets": [
@@ -102,12 +90,12 @@
       "en": {
         "name": "FORT Gladiator-S plate carrier (White Tusk)",
         "shortName": "Gladiator-S",
-        "description": "A specialized body armor developed for the FSB’s Special Purpose Center, featuring high functionality and modularity. White Tusk version."
+        "description": "The Gladiator-S body armor by FORT, customized by the Arena Champion nicknamed JP. Since his very first appearance in the Arena as a gladiator, he never even thought of washing the blood off it. Why would he? It’s a symbol of strength. White Tusk version."
       },
       "po": {
         "name": "FORT Gladiator-S plate carrier (White Tusk)",
         "shortName": "Gladiator-S",
-        "description": "A specialized body armor developed for the FSB’s Special Purpose Center, featuring high functionality and modularity. White Tusk version."
+        "description": "O colete balístico Gladiator-S da FORT, personalizado pelo Campeão da Arena conhecido como JP. Desde sua primeira aparição na Arena como gladiador, ele nunca sequer pensou em lavar o sangue do colete. Por que faria isso? É um símbolo de força. Versão com pintura White Tusk."
       }
     },
     "fleaPriceRoubles": 515900,

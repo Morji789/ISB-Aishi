@@ -17,7 +17,9 @@
       "Grids": [],
       "Name": "Galvion Caiman Hybrid helmet (Black)",
       "ShortName": "Caiman",
-      "Description": "The Caiman Hybrid helmet is a new generation of lightweight special forces helmet. A series of modular accessories enhances the package, providing users with lightweight, comfortable and maximum head protection. Manufactured by Galvion. Black Version."
+      "Description": "The Caiman Hybrid helmet is a new generation of lightweight special forces helmet. A series of modular accessories enhances the package, providing users with lightweight, comfortable and maximum head protection. Manufactured by Galvion. Black Version.",
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
     },
     "addWeaponPreset": true,
     "weaponPresets": [
@@ -189,7 +191,8 @@
         "path": "equipment/item_equipment_helmet_galvion_applique_ISB.bundle",
         "rcid": ""
       },
-      "Weight": 0.75
+      "Weight": 0.75,
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {

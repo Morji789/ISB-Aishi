@@ -10,7 +10,8 @@
         "path": "quests/aishi_limited_keycard.bundle",
         "rcid": ""
       },
-      "Grids": []
+      "Grids": [],
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {

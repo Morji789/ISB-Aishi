@@ -4,27 +4,21 @@
     "parentId": "5448e5284bdc2dcb718b4567",
     "handbookParentId": "5b5f6f8786f77447ed563642",
     "overrideProperties": {
-      "ExaminedByDefault": false,
-      "CanSellOnRagfair": false,
-      "addtoItemBlacklist": true,
       "Prefab": {
         "path": "equipment/item_equipment_rig_thunderbolt_ISB.bundle",
         "rcid": ""
-      },
-      "Name": "Direct Action Thunderbolt compact chest rig (USEC Intelligence Support Bureau)",
-      "ShortName": "Thunderbolt",
-      "Description": "The Thunderbolt fixed chest rig, containing all the basic utility pouches you'd need. Manufactured by Direct Action. (ISB SOF)"
+      }
     },
     "locales": {
       "en": {
         "name": "Direct Action Thunderbolt compact chest rig (USEC Intelligence Support Bureau)",
         "shortName": "Thunderbolt",
-        "description": "The Thunderbolt fixed chest rig, containing all the basic utility pouches you'd need. Manufactured by Direct Action. (ISB SOF)"
+        "description": "The Thunderbolt fixed chest rig, containing all the basic utility pouches you'd need. Manufactured by Direct Action. USEC Intelligence Support Bureau version."
       },
       "po": {
-        "name": "Colete tático compacto Direct Action Thunderbolt (Agência de Suporte a Inteligência da USEC)",
+        "name": "Direct Action Thunderbolt compact chest rig (USEC Intelligence Support Bureau)",
         "shortName": "Thunderbolt",
-        "description": "Um colete tático ajustado Direct Action, que possui todos os bolsos e porta carregadores básicos que possa precisar. (ISB SOF)"
+        "description": "Um colete tático ajustado Direct Action, que possui todos os bolsos e porta carregadores básicos que possa precisar. Versão com pintura USEC Intelligence Support Bureau."
       }
     },
     "fleaPriceRoubles": 72000,

@@ -4,104 +4,21 @@
     "parentId": "5448e54d4bdc2dcc718b4568",
     "handbookParentId": "5b5f701386f774093f2ecf0f",
     "overrideProperties": {
-      "Description": "A plate carrier by Hexatac. A minimalistic version designed to be used with chest rigs. DPM Woodland Version.",
-      "Grids": [],
-      "Name": "Hexatac HPC Plate Carrier (DPM Woodland)",
       "Prefab": {
         "path": "equipment/item_equipment_armor_hexatac_dpm_aishi.bundle",
         "rcid": ""
-      },
-      "ShortName": "HPC",
-      "Slots": [
-        {
-          "_id": "1c0b5f05126156fca90d1c0e",
-          "_mergeSlotWithChildren": true,
-          "_name": "Front_plate",
-          "_parent": "4de3434d66595e5c95ff3413",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "656f9d5900d62bcd2e02407c",
-                  "656fa8d700d62bcd2e024084",
-                  "656fa99800d62bcd2e024088",
-                  "656fae5f7c2d57afe200c0d7",
-                  "656faf0ca0dce000a2020f77",
-                  "656fafe3498d1b7e3e071da4",
-                  "656fa0fb498d1b7e3e071d9c",
-                  "656fa76500d62bcd2e024080",
-                  "656fad8c498d1b7e3e071da0",
-                  "656fa25e94b480b8a500c0e0",
-                  "656fa61e94b480b8a500c0e8",
-                  "656fb21fa0dce000a2020f7c",
-                  "656fac30c6baea13cd07e10c",
-                  "656fb0bd7c2d57afe200c0dc",
-                  "656f9fa0498d1b7e3e071d98",
-                  "656fa53d94b480b8a500c0e4",
-                  "655746010177119f4a097ff7",
-                  "64afdcb83efdfea28601d041"
-                ],
-                "Plate": "656fae5f7c2d57afe200c0d7",
-                "armorColliders": [],
-                "armorPlateColliders": [
-                  "Plate_Granit_SAPI_chest"
-                ],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": false
-              }
-            ]
-          },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": false
-        },
-        {
-          "_id": "3eec4ededff256bc83c6fdc1",
-          "_mergeSlotWithChildren": true,
-          "_name": "Back_plate",
-          "_parent": "4de3434d66595e5c95ff3413",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "656f9d5900d62bcd2e02407c",
-                  "656fa8d700d62bcd2e024084",
-                  "656fa99800d62bcd2e024088",
-                  "656fae5f7c2d57afe200c0d7",
-                  "656faf0ca0dce000a2020f77",
-                  "656fa0fb498d1b7e3e071d9c",
-                  "656fafe3498d1b7e3e071da4",
-                  "656fa25e94b480b8a500c0e0",
-                  "656fa76500d62bcd2e024080",
-                  "656fad8c498d1b7e3e071da0",
-                  "656fa61e94b480b8a500c0e8",
-                  "656fb21fa0dce000a2020f7c",
-                  "656fac30c6baea13cd07e10c",
-                  "656fb0bd7c2d57afe200c0dc",
-                  "656f9fa0498d1b7e3e071d98",
-                  "656fa53d94b480b8a500c0e4",
-                  "655746010177119f4a097ff7",
-                  "64afdcb83efdfea28601d041"
-                ],
-                "Plate": "656fae5f7c2d57afe200c0d7",
-                "armorColliders": [],
-                "armorPlateColliders": [
-                  "Plate_Granit_SAPI_back"
-                ],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": false
-              }
-            ]
-          },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": false
-        }
-      ]
+      }
     },
     "locales": {
       "en": {
         "name": "Hexatac HPC Plate Carrier (DPM Woodland)",
         "shortName": "HPC",
-        "description": "A plate carrier by Hexatac. A minimalistic version designed to be used with chest rigs. DPM Woodland Version."
+        "description": "A plate carrier by Hexatac. A minimalistic version designed to be used with chest rigs. DPM Woodland version."
+      },
+      "po": {
+        "name": "Hexatac HPC Plate Carrier (DPM Woodland)",
+        "shortName": "HPC",
+        "description": "Porta blindagem simples da empresa Hexatac. O design mais minimalista, feito para usar com veste tática. Versão com pintura DPM Woodland."
       }
     },
     "handbookPriceRoubles": 70717,

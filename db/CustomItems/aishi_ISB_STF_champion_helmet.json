@@ -4,37 +4,22 @@
     "parentId": "5a341c4086f77401f2541505",
     "handbookParentId": "5b47574386f77428ca22b330",
     "overrideProperties": {
-      "QuestItem": false,
-      "ExaminedByDefault": false,
-      "CanSellOnRagfair": false,
-      "CanRequireOnRagfair": false,
-      "InsuranceDisabled": true,
-      "armorClass": "0",
       "BackgroundColor": "yellow",
-      "IsUnbuyable": true,
-      "Durability": 0,
-      "MaxDurability": 0,
-      "Unlootable": false,
       "Prefab": {
         "path": "equipment/item_equipment_helmet_champion_bp2V2.bundle",
         "rcid": ""
-      },
-      "Width": 2,
-      "Height": 2,
-      "Weight": 2.75,
-      "Grids": [],
-      "IsUnsaleable": false
+      }
     },
     "locales": {
       "en": {
         "name": "Champion's helmet (White Tusk Edition)",
         "shortName": "Champion",
-        "description": "A helmet whose history traces back to one of the Arena’s greatest gladiators, who was defeated in combat by an unknown challenger. The helmet was recovered in battle and modified with new ornaments and special textured armor for Apex Squadron leader Loghan of ISB SOF."
+        "description": "A painted helmet. Part of the Champion set. White Tusk Edition version."
       },
       "po": {
-        "name": "Capacete do Campeão (Edição White Tusk)",
-        "shortName": "Campeão",
-        "description": "Um capacete cuja as histórias remetem a um dos melhores gladiadores da Arena derrotado em combate por um desafiante desconhecido. Seu capacete foi recuperado em combate, modificado com novos ornamentos e blindagem texturizada especial para o líder do esquadrão Apex, Loghan da ISB SOF."
+        "name": "Champion's helmet (White Tusk Edition)",
+        "shortName": "Champion",
+        "description": "Um capacete pintado. Parte do conjunto Campeão. Versão com pintura White Tusk Edition."
       }
     },
     "fleaPriceRoubles": 440942,
@@ -150,6 +135,10 @@
         "ContainerName": "",
         "Probability": 0
       }
+    ],
+    "addtoModSlots": true,
+    "modSlot": [
+      "Helmet_top"
     ]
   },
   "69ea599bc7045f8e1c03a018": {
@@ -205,6 +194,10 @@
         "ContainerName": "",
         "Probability": 0
       }
+    ],
+    "addtoModSlots": true,
+    "modSlot": [
+      "Helmet_back"
     ]
   },
   "69ea5a3f2b531e892d540545": {
@@ -260,6 +253,10 @@
         "ContainerName": "",
         "Probability": 0
       }
+    ],
+    "addtoModSlots": true,
+    "modSlot": [
+      "Helmet_eyes"
     ]
   },
   "69ea5ab038a6cade103f5c63": {
@@ -315,6 +312,10 @@
         "ContainerName": "",
         "Probability": 0
       }
+    ],
+    "addtoModSlots": true,
+    "modSlot": [
+      "Helmet_jaw"
     ]
   }
 }

@@ -4,6 +4,19 @@ namespace AishiShared
 {
     public static class IsbInsuranceCatalog
     {
+        public static readonly HashSet<string> ModifiedMdrIds = new HashSet<string>
+        {
+            "2263c5e15223067877615402",
+            "0824fc28b02abbe10c8c43e0",
+            "8852c624709c801816dcb09e",
+            "a419781589e4b3804f1e35df",
+        };
+
+        static IsbInsuranceCatalog()
+        {
+            Ids.UnionWith(ModifiedMdrIds);
+        }
+
         public static readonly HashSet<string> Ids = new HashSet<string>
         {
             "00d2d09193fe193187f65c98",

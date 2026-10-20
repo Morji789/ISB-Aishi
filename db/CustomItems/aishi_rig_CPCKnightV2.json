@@ -4,15 +4,10 @@
     "parentId": "5448e5284bdc2dcb718b4567",
     "handbookParentId": "5b5f6f8786f77447ed563642",
     "overrideProperties": {
-      "CanSellOnRagfair": false,
-      "addtoItemBlacklist": true,
       "Prefab": {
         "path": "equipment/item_equipment_rig_boss_blackknight_variant.bundle",
         "rcid": ""
-      },
-      "Name": "Crye Precision CPC plate carrier (Goons II)",
-      "ShortName": "CPC GE",
-      "Description": "The CAGE PLATE CARRIER (CPC) offers unrivaled comfort and load support in a low profile plate carrier configuration. The system supports a range of different pouches. In this case, the configuration is made by the leader of the Goons squad - Knight - for conducting assault operations with increased mobility. (Goons II)"
+      }
     },
     "addWeaponPreset": true,
     "weaponPresets": [
@@ -83,12 +78,12 @@
       "en": {
         "name": "Crye Precision CPC plate carrier (Goons II)",
         "shortName": "CPC GE",
-        "description": "The CAGE PLATE CARRIER (CPC) offers unrivaled comfort and load support in a low profile plate carrier configuration. The system supports a range of different pouches. In this case, the configuration is made by the leader of the Goons squad - Knight - for conducting assault operations with increased mobility. (Goons II)"
+        "description": "The CAGE PLATE CARRIER (CPC) offers unrivaled comfort and load support in a low profile plate carrier configuration. The system supports a range of different pouches. In this case, the configuration is made by the leader of the Goons squad - Knight - for conducting assault operations with increased mobility. Goons II version."
       },
       "po": {
-        "name": "Plate Carrier Crye Precision CPC (Goons II)",
+        "name": "Crye Precision CPC plate carrier (Goons II)",
         "shortName": "CPC GE",
-        "description": "O CAGE PLATE CARRIER (CPC) oferece conforto e suporte de carga incomparáveis em uma configuração de suporte de placa de perfil baixo. O sistema suporta uma variedade de bolsas diferentes. Neste caso, a configuração é feita para realizar operações de assalto com maior mobilidade. (Goons II)"
+        "description": "O CAGE PLATE CARRIER (CPC) oferece conforto e suporte de carga incomparáveis em uma configuração de suporte de placa de perfil baixo. O sistema suporta uma variedade de bolsas diferentes. Neste caso, a configuração é feita para realizar operações de assalto com maior mobilidade. Versão com pintura Goons II."
       }
     },
     "fleaPriceRoubles": 415900,

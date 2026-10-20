@@ -4,16 +4,10 @@
     "parentId": "5448e54d4bdc2dcc718b4568",
     "handbookParentId": "5b5f701386f774093f2ecf0f",
     "overrideProperties": {
-      "ExaminedByDefault": false,
-      "addtoItemBlacklist": true,
       "Prefab": {
         "path": "equipment/item_equipment_armor_redut_m_black.bundle",
         "rcid": ""
-      },
-      "Grids": [],
-      "Name": "FORT Redut-M body armor (USEC Intelligence Support Bureau)",
-      "ShortName": "Redut-M",
-      "Description": "“Redut-M” is a modified version of the well-proven Redut body armor, which is in service of special units of the FSB. The vest is based on advanced technologies in the field of individual armor. Due to the optimized form of armor elements and the outer cover with a special damping-ventilation system, the Redut M armored vest has excellent functional qualities, which facilitates active actions, including those associated with the use of vehicles and in confined spaces. (ISB SOF)"
+      }
     },
     "addWeaponPreset": true,
     "weaponPresets": [
@@ -102,12 +96,12 @@
       "en": {
         "name": "FORT Redut-M body armor (USEC Intelligence Support Bureau)",
         "shortName": "Redut-M",
-        "description": "“Redut-M” is a modified version of the well-proven Redut body armor, which is in service of special units of the FSB. The vest is based on advanced technologies in the field of individual armor. Due to the optimized form of armor elements and the outer cover with a special damping-ventilation system, the Redut M armored vest has excellent functional qualities, which facilitates active actions, including those associated with the use of vehicles and in confined spaces. (ISB SOF)"
+        "description": "“Redut-M” is a modified version of the well-proven Redut body armor, which is in service of special units of the FSB. The vest is based on advanced technologies in the field of individual armor. Due to the optimized form of armor elements and the outer cover with a special damping-ventilation system, the Redut M armored vest has excellent functional qualities, which facilitates active actions, including those associated with the use of vehicles and in confined spaces. USEC Intelligence Support Bureau version."
       },
       "po": {
-        "name": "Colete FORT Redut-M (Agência de Suporte a Inteligência da USEC)",
+        "name": "FORT Redut-M body armor (USEC Intelligence Support Bureau)",
         "shortName": "Redut-M",
-        "description": "\"Redut M\" é uma versão modificada da armadura comprovada Redut, que está em serviço das unidades especiais do FSB. O colete é baseado em tecnologia avançada no campo da armadura individual. Devido à otimização dos elementos externos e o sistema de ventilação especial, a armadura Redut M tem uma excelente versatilidade, o que facilita as ações ativas, incluindo aquelas associadas com o uso de veículos e em espaços confinados. (ISB SOF)"
+        "description": "\"Redut M\" é uma versão modificada da armadura comprovada Redut, que está em serviço das unidades especiais do FSB. O colete é baseado em tecnologia avançada no campo da armadura individual. Devido à otimização dos elementos externos e o sistema de ventilação especial, a armadura Redut M tem uma excelente versatilidade, o que facilita as ações ativas, incluindo aquelas associadas com o uso de veículos e em espaços confinados. Versão com pintura USEC Intelligence Support Bureau."
       }
     },
     "fleaPriceRoubles": 82900,

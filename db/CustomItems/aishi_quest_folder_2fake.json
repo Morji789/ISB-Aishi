@@ -10,7 +10,9 @@
         "rcid": ""
       },
       "Width": 1,
-      "Grids": []
+      "Grids": [],
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {

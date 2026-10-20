@@ -11,7 +11,8 @@
         "path": "quests/isb_soldier_keycard.bundle",
         "rcid": ""
       },
-      "Grids": []
+      "Grids": [],
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {

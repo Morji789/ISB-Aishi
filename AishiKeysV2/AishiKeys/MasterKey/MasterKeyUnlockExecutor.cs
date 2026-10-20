@@ -15,7 +15,7 @@ namespace AishiKeys.MasterKey
         private static readonly object ResolverLock = new object ();
         internal static bool UnlockRegularLocal(WorldInteractiveObject door, string masterKeyTemplateId)
         {
-            if (door == null || string.IsNullOrEmpty(masterKeyTemplateId))
+            if (!MasterKeyHelper.HasAssignedKey(door) || string.IsNullOrEmpty(masterKeyTemplateId))
                 return false;
             string originalKeyId = door.KeyId;
             try
@@ -42,7 +42,7 @@ namespace AishiKeys.MasterKey
 
         private static bool UnlockWithNativeKeyOperation(WorldInteractiveObject door, Player player, KeyComponent keyComponent)
         {
-            if (door == null)
+            if (!MasterKeyHelper.HasAssignedKey(door))
                 return false;
             if (keyComponent == null)
             {

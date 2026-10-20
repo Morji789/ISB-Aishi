@@ -475,7 +475,7 @@
       "CanRequireOnRagfair": false,
       "CanSellOnRagfair": false,
       "ConflictingItems": [],
-      "Description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes in a MultiCam camouflage with a traditional plate carrier setup. (MultiCam Black)",
+      "Description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes with a traditional plate carrier setup. (MultiCam Black)",
       "DiscardLimit": -1,
       "DiscardingBlock": false,
       "ExamineExperience": 10,
@@ -549,17 +549,17 @@
       "en": {
         "name": "Blue Force Gear PLATEminus V2 Plate Carrier (MultiCam Black)",
         "shortName": "PLATEminus V2",
-        "description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes in a MultiCam camouflage with a traditional plate carrier setup. (MultiCam Black)"
+        "description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes with a traditional plate carrier setup. (MultiCam Black)"
       },
       "pt": {
         "name": "Blue Force Gear PLATEminus V2 Plate Carrier (MultiCam Black)",
         "shortName": "PLATEminus V2",
-        "description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes in a MultiCam camouflage with a traditional plate carrier setup. (MultiCam Black)"
+        "description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes with a traditional plate carrier setup. (MultiCam Black)"
       },
       "po": {
         "name": "Blue Force Gear PLATEminus V2 Plate Carrier (MultiCam Black)",
         "shortName": "PLATEminus V2",
-        "description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes in a MultiCam camouflage with a traditional plate carrier setup. (MultiCam Black)"
+        "description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes with a traditional plate carrier setup. (MultiCam Black)"
       }
     },
     "handbookPriceRoubles": 18032,
@@ -629,6 +629,18 @@
                 "MaxDurability": 8
               }
             }
+          },
+          {
+            "_id": "d3e1bc3697aaa7362f2f0d38",
+            "_tpl": "656fa0fb498d1b7e3e071d9c",
+            "parentId": "40400ac6c5545624a0e039b9",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "0d4612a4a3950c6448266f56",
+            "_tpl": "656fa0fb498d1b7e3e071d9c",
+            "parentId": "40400ac6c5545624a0e039b9",
+            "slotId": "Back_plate"
           }
         ],
         "_encyclopedia": "d96a92812231531f9a0eaf7f"

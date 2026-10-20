@@ -499,7 +499,7 @@
       "CanRequireOnRagfair": false,
       "CanSellOnRagfair": false,
       "ConflictingItems": [],
-      "Description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes in a Wolf Gray color with a traditional plate carrier setup. (Night Ops)",
+      "Description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes with a traditional plate carrier setup. (Night Ops)",
       "DiscardLimit": -1,
       "DiscardingBlock": false,
       "ExamineExperience": 10,
@@ -573,17 +573,17 @@
       "en": {
         "name": "Blue Force Gear PLATEminus V2 Plate Carrier (Night Ops)",
         "shortName": "PLATEminus V2",
-        "description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes in a Wolf Gray color with a traditional plate carrier setup. (Night Ops)"
+        "description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes with a traditional plate carrier setup. (Night Ops)"
       },
       "pt": {
         "name": "Blue Force Gear PLATEminus V2 Plate Carrier (Night Ops)",
         "shortName": "PLATEminus V2",
-        "description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes in a Wolf Gray color with a traditional plate carrier setup. (Night Ops)"
+        "description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes with a traditional plate carrier setup. (Night Ops)"
       },
       "po": {
         "name": "Blue Force Gear PLATEminus V2 Plate Carrier (Night Ops)",
         "shortName": "PLATEminus V2",
-        "description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes in a Wolf Gray color with a traditional plate carrier setup. (Night Ops)"
+        "description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes with a traditional plate carrier setup. (Night Ops)"
       }
     },
     "handbookPriceRoubles": 31032,
@@ -653,6 +653,18 @@
                 "MaxDurability": 8
               }
             }
+          },
+          {
+            "_id": "87b175b369f4b761f127d7a1",
+            "_tpl": "656fa0fb498d1b7e3e071d9c",
+            "parentId": "4bdaad9508f95842b350029e",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "3bf8d3a249216ff868f5524a",
+            "_tpl": "656fa0fb498d1b7e3e071d9c",
+            "parentId": "4bdaad9508f95842b350029e",
+            "slotId": "Back_plate"
           }
         ],
         "_encyclopedia": "be1ea47eec1f59fabfedc36b"

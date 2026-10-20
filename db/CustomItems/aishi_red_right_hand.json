@@ -1,298 +1,24 @@
 {
   "7684785c71295a7292ce6897": {
-    "itemTplToClone": "545cdb794bdc2d3a198b456a",
+    "itemTplToClone": "68948a95d8f2b85fb705e2a6",
     "parentId": "5448e54d4bdc2dcc718b4568",
     "handbookParentId": "5b5f701386f774093f2ecf0f",
     "overrideProperties": {
-      "ArmorType": "Light",
-      "BluntThroughput": 0.32,
-      "CanSellOnRagfair": true,
-      "Description": "The 6B45 body armor, designed to protect personnel from shrapnel and small arms fire. Part of the Ratnik equipment system and has been in production since the 2010s as a replacement for the 6B43 model. Red Right Hand version.",
-      "Grids": [],
-      "LootExperience": 60,
-      "Name": "6B45 body armor (Red Right Hand)",
       "Prefab": {
         "path": "equipment/aishi_rrh_20261005/7684785c71295a7292ce6897/item_equipment_armor_6b45_multicam_black_aishi.bundle",
         "rcid": ""
-      },
-      "RepairCost": 96,
-      "RepairSpeed": 8,
-      "ShortName": "6B45",
-      "Slots": [
-        {
-          "_name": "Front_plate",
-          "_id": "13c7e81477e15c47b6679442",
-          "_parent": "7684785c71295a7292ce6897",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "65573fa5655447403702a816",
-                  "64afc71497cf3a403c01ff38",
-                  "655746010177119f4a097ff7",
-                  "64afdcb83efdfea28601d041",
-                  "656fa53d94b480b8a500c0e4",
-                  "656f9fa0498d1b7e3e071d98",
-                  "656fb0bd7c2d57afe200c0dc",
-                  "656fac30c6baea13cd07e10c",
-                  "656fb21fa0dce000a2020f7c",
-                  "656fa61e94b480b8a500c0e8",
-                  "656fad8c498d1b7e3e071da0",
-                  "656fa25e94b480b8a500c0e0",
-                  "656fa76500d62bcd2e024080",
-                  "656fafe3498d1b7e3e071da4",
-                  "656fa0fb498d1b7e3e071d9c",
-                  "656faf0ca0dce000a2020f77",
-                  "656fae5f7c2d57afe200c0d7",
-                  "656fa8d700d62bcd2e024084",
-                  "656fa99800d62bcd2e024088",
-                  "656f9d5900d62bcd2e02407c"
-                ],
-                "Plate": "64afc71497cf3a403c01ff38",
-                "armorColliders": [],
-                "armorPlateColliders": [
-                  "Plate_Granit_SAPI_chest"
-                ],
-                "bluntDamageReduceFromSoftArmor": true,
-                "locked": false
-              }
-            ]
-          },
-          "_required": false,
-          "_mergeSlotWithChildren": true,
-          "_proto": "64479fdf9731c8fadc0642c1"
-        },
-        {
-          "_name": "Back_plate",
-          "_id": "c495d173fc4d5e8cae1ef12e",
-          "_parent": "7684785c71295a7292ce6897",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "656f9d5900d62bcd2e02407c",
-                  "656fa8d700d62bcd2e024084",
-                  "656fa99800d62bcd2e024088",
-                  "656fae5f7c2d57afe200c0d7",
-                  "656faf0ca0dce000a2020f77",
-                  "656fa0fb498d1b7e3e071d9c",
-                  "656fafe3498d1b7e3e071da4",
-                  "656fa76500d62bcd2e024080",
-                  "656fa25e94b480b8a500c0e0",
-                  "656fad8c498d1b7e3e071da0",
-                  "656fa61e94b480b8a500c0e8",
-                  "656fb21fa0dce000a2020f7c",
-                  "656fac30c6baea13cd07e10c",
-                  "656fb0bd7c2d57afe200c0dc",
-                  "656f9fa0498d1b7e3e071d98",
-                  "656fa53d94b480b8a500c0e4",
-                  "65573fa5655447403702a816",
-                  "64afc71497cf3a403c01ff38",
-                  "655746010177119f4a097ff7",
-                  "64afdcb83efdfea28601d041"
-                ],
-                "Plate": "64afc71497cf3a403c01ff38",
-                "armorColliders": [],
-                "armorPlateColliders": [
-                  "Plate_Granit_SAPI_back"
-                ],
-                "bluntDamageReduceFromSoftArmor": true,
-                "locked": false
-              }
-            ]
-          },
-          "_required": false,
-          "_mergeSlotWithChildren": true,
-          "_proto": "64479fdf9731c8fadc0642c1"
-        },
-        {
-          "_name": "Left_side_plate",
-          "_id": "0b561d55704450268bdadebc",
-          "_parent": "7684785c71295a7292ce6897",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "6557458f83942d705f0c4962",
-                  "64afd81707e2cf40e903a316",
-                  "64afdb577bb3bfe8fe03fd1d"
-                ],
-                "Plate": "",
-                "armorColliders": [],
-                "armorPlateColliders": [
-                  "Plate_Granit_SSAPI_side_left_low"
-                ],
-                "bluntDamageReduceFromSoftArmor": true,
-                "locked": false
-              }
-            ]
-          },
-          "_required": false,
-          "_mergeSlotWithChildren": true,
-          "_proto": "64479fdf9731c8fadc0642c1"
-        },
-        {
-          "_name": "Right_side_plate",
-          "_id": "e4d158dedcff54bca8d9ae7f",
-          "_parent": "7684785c71295a7292ce6897",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "6557458f83942d705f0c4962",
-                  "64afdb577bb3bfe8fe03fd1d",
-                  "64afd81707e2cf40e903a316"
-                ],
-                "Plate": "",
-                "armorColliders": [],
-                "armorPlateColliders": [
-                  "Plate_Granit_SSAPI_side_right_low"
-                ],
-                "bluntDamageReduceFromSoftArmor": true,
-                "locked": false
-              }
-            ]
-          },
-          "_required": false,
-          "_mergeSlotWithChildren": true,
-          "_proto": "64479fdf9731c8fadc0642c1"
-        },
-        {
-          "_name": "Soft_armor_front",
-          "_id": "217c35a6c8aa5282a26d6c12",
-          "_parent": "7684785c71295a7292ce6897",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "68a47a76a920fa363a050bee"
-                ],
-                "Plate": "68a47a76a920fa363a050bee",
-                "armorColliders": [
-                  "RibcageLow",
-                  "RibcageUp"
-                ],
-                "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_required": true,
-          "_mergeSlotWithChildren": true,
-          "_proto": "64479fdf9731c8fadc0642c1"
-        },
-        {
-          "_name": "Soft_armor_back",
-          "_id": "ca7c5982554959df84f50bf0",
-          "_parent": "7684785c71295a7292ce6897",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "68a47a92c3f53a3898071382"
-                ],
-                "Plate": "68a47a92c3f53a3898071382",
-                "armorColliders": [
-                  "SpineTop",
-                  "SpineDown"
-                ],
-                "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_required": true,
-          "_mergeSlotWithChildren": true,
-          "_proto": "64479fdf9731c8fadc0642c1"
-        },
-        {
-          "_name": "Soft_armor_left",
-          "_id": "32d942e8476f54b99e27fb83",
-          "_parent": "7684785c71295a7292ce6897",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "68a47aae69e409f9e4094b65"
-                ],
-                "Plate": "68a47aae69e409f9e4094b65",
-                "armorColliders": [
-                  "LeftSideChestDown"
-                ],
-                "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_required": true,
-          "_mergeSlotWithChildren": true,
-          "_proto": "64479fdf9731c8fadc0642c1"
-        },
-        {
-          "_name": "soft_armor_right",
-          "_id": "647acb0dcfd751cfb720a4cf",
-          "_parent": "7684785c71295a7292ce6897",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "68a47acfa920fa363a050c1a"
-                ],
-                "Plate": "68a47acfa920fa363a050c1a",
-                "armorColliders": [
-                  "RightSideChestDown"
-                ],
-                "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_required": true,
-          "_mergeSlotWithChildren": true,
-          "_proto": "64479fdf9731c8fadc0642c1"
-        },
-        {
-          "_name": "Collar",
-          "_id": "02f944523de95d88af838a1f",
-          "_parent": "7684785c71295a7292ce6897",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "68a47ae8f9d424639c088230"
-                ],
-                "Plate": "68a47ae8f9d424639c088230",
-                "armorColliders": [
-                  "NeckFront",
-                  "NeckBack"
-                ],
-                "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_required": true,
-          "_mergeSlotWithChildren": true,
-          "_proto": "64479fdf9731c8fadc0642c1"
-        }
-      ],
-      "Weight": 3.65,
-      "Width": 3,
-      "mousePenalty": -3,
-      "speedPenaltyPercent": -5,
-      "weaponErgonomicPenalty": -3,
-      "RagfairLevelToTrade": 0
+      }
     },
     "locales": {
       "en": {
         "name": "6B45 body armor (Red Right Hand)",
         "shortName": "6B45",
         "description": "The 6B45 body armor, designed to protect personnel from shrapnel and small arms fire. Part of the Ratnik equipment system and has been in production since the 2010s as a replacement for the 6B43 model. Red Right Hand version."
+      },
+      "po": {
+        "name": "6B45 body armor (Red Right Hand)",
+        "shortName": "6B45",
+        "description": "O colete balístico 6B45 foi projetado para proteger militares contra estilhaços e disparos de armas leves. Faz parte do sistema de equipamentos Ratnik e é produzido desde a década de 2010 como substituto do modelo 6B43. Versão com pintura Red Right Hand."
       }
     },
     "handbookPriceRoubles": 6090,
@@ -364,301 +90,25 @@
     "addtoItemBlacklist": true
   },
   "45086e6a313050a1ac3d9933": {
-    "itemTplToClone": "5ca2151486f774244a3b8d30",
+    "itemTplToClone": "69d3708c8d8009073d0a9df4",
     "parentId": "5448e54d4bdc2dcc718b4568",
     "handbookParentId": "5b5f701386f774093f2ecf0f",
     "overrideProperties": {
-      "ArmorType": "Light",
-      "BluntThroughput": 0.2853,
-      "CanSellOnRagfair": false,
-      "Description": "A specialized body armor developed for the FSB’s Special Purpose Center, featuring high functionality and modularity. Red Right Hand version.",
-      "Grids": [],
-      "Height": 3,
-      "LootExperience": 45,
-      "Name": "FORT Gladiator-S plate carrier (Red Right Hand)",
       "Prefab": {
         "path": "equipment/aishi_rrh_20261005/45086e6a313050a1ac3d9933/item_equipment_armor_gladiator_s_multicam_black_aishi.bundle",
         "rcid": ""
-      },
-      "RarityPvE": "Not_exist",
-      "RepairCost": 150,
-      "RepairSpeed": 8,
-      "ShortName": "Gladiator-S",
-      "Slots": [
-        {
-          "_name": "Front_plate",
-          "_id": "1d1be98404fd5dafb8778a27",
-          "_parent": "45086e6a313050a1ac3d9933",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "656f9d5900d62bcd2e02407c",
-                  "656fa8d700d62bcd2e024084",
-                  "656fa99800d62bcd2e024088",
-                  "656fae5f7c2d57afe200c0d7",
-                  "656faf0ca0dce000a2020f77",
-                  "656fafe3498d1b7e3e071da4",
-                  "656fa0fb498d1b7e3e071d9c",
-                  "656fa76500d62bcd2e024080",
-                  "656fa25e94b480b8a500c0e0",
-                  "656fad8c498d1b7e3e071da0",
-                  "656fa61e94b480b8a500c0e8",
-                  "656fb21fa0dce000a2020f7c",
-                  "656fac30c6baea13cd07e10c",
-                  "656fb0bd7c2d57afe200c0dc",
-                  "656f9fa0498d1b7e3e071d98",
-                  "656fa53d94b480b8a500c0e4",
-                  "6943c85be2f21398e70378cc",
-                  "65573fa5655447403702a816",
-                  "64afc71497cf3a403c01ff38",
-                  "655746010177119f4a097ff7",
-                  "64afdcb83efdfea28601d041"
-                ],
-                "Plate": "65573fa5655447403702a816",
-                "armorColliders": [],
-                "armorPlateColliders": [
-                  "Plate_Granit_SAPI_chest"
-                ],
-                "bluntDamageReduceFromSoftArmor": true,
-                "locked": false
-              }
-            ]
-          },
-          "_required": false,
-          "_mergeSlotWithChildren": true,
-          "_proto": "64479fdf9731c8fadc0642c1"
-        },
-        {
-          "_name": "Back_plate",
-          "_id": "655d190c913a5b8f8aeaa411",
-          "_parent": "45086e6a313050a1ac3d9933",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "656f9d5900d62bcd2e02407c",
-                  "656fa8d700d62bcd2e024084",
-                  "656fa99800d62bcd2e024088",
-                  "656fae5f7c2d57afe200c0d7",
-                  "656faf0ca0dce000a2020f77",
-                  "656fa0fb498d1b7e3e071d9c",
-                  "656fafe3498d1b7e3e071da4",
-                  "656fa25e94b480b8a500c0e0",
-                  "656fa76500d62bcd2e024080",
-                  "656fad8c498d1b7e3e071da0",
-                  "656fa61e94b480b8a500c0e8",
-                  "656fb21fa0dce000a2020f7c",
-                  "656fac30c6baea13cd07e10c",
-                  "656fb0bd7c2d57afe200c0dc",
-                  "656f9fa0498d1b7e3e071d98",
-                  "656fa53d94b480b8a500c0e4",
-                  "655746010177119f4a097ff7",
-                  "64afdcb83efdfea28601d041",
-                  "64afc71497cf3a403c01ff38",
-                  "65573fa5655447403702a816",
-                  "6943c85be2f21398e70378cc"
-                ],
-                "Plate": "65573fa5655447403702a816",
-                "armorColliders": [],
-                "armorPlateColliders": [
-                  "Plate_Granit_SAPI_back"
-                ],
-                "bluntDamageReduceFromSoftArmor": true,
-                "locked": false
-              }
-            ]
-          },
-          "_required": false,
-          "_mergeSlotWithChildren": true,
-          "_proto": "64479fdf9731c8fadc0642c1"
-        },
-        {
-          "_name": "Left_side_plate",
-          "_id": "059317dce25e5471a30fb57f",
-          "_parent": "45086e6a313050a1ac3d9933",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "6557458f83942d705f0c4962",
-                  "64afdb577bb3bfe8fe03fd1d",
-                  "64afd81707e2cf40e903a316"
-                ],
-                "Plate": "64afd81707e2cf40e903a316",
-                "armorColliders": [],
-                "armorPlateColliders": [
-                  "Plate_Granit_SSAPI_side_left_high"
-                ],
-                "bluntDamageReduceFromSoftArmor": true,
-                "locked": false
-              }
-            ]
-          },
-          "_required": false,
-          "_mergeSlotWithChildren": true,
-          "_proto": "64479fdf9731c8fadc0642c1"
-        },
-        {
-          "_name": "Right_side_plate",
-          "_id": "9d164a4e582e58e18ac8e859",
-          "_parent": "45086e6a313050a1ac3d9933",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "6557458f83942d705f0c4962",
-                  "64afdb577bb3bfe8fe03fd1d",
-                  "64afd81707e2cf40e903a316"
-                ],
-                "Plate": "64afd81707e2cf40e903a316",
-                "armorColliders": [],
-                "armorPlateColliders": [
-                  "Plate_Granit_SSAPI_side_right_high"
-                ],
-                "bluntDamageReduceFromSoftArmor": true,
-                "locked": false
-              }
-            ]
-          },
-          "_required": false,
-          "_mergeSlotWithChildren": true,
-          "_proto": "64479fdf9731c8fadc0642c1"
-        },
-        {
-          "_name": "Soft_armor_front",
-          "_id": "359aa6869f8854c5a2b2ac25",
-          "_parent": "45086e6a313050a1ac3d9933",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "69d417691b47755f0f0aa678"
-                ],
-                "Plate": "69d417691b47755f0f0aa678",
-                "armorColliders": [
-                  "RibcageLow",
-                  "RibcageUp"
-                ],
-                "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_required": true,
-          "_mergeSlotWithChildren": true,
-          "_proto": "64479fdf9731c8fadc0642c1"
-        },
-        {
-          "_name": "Soft_armor_back",
-          "_id": "69ccea95b7365d6596f16e14",
-          "_parent": "45086e6a313050a1ac3d9933",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "69d416249db8f66e870a8a65"
-                ],
-                "Plate": "69d416249db8f66e870a8a65",
-                "armorColliders": [
-                  "SpineDown",
-                  "SpineTop"
-                ],
-                "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_required": true,
-          "_mergeSlotWithChildren": true,
-          "_proto": "64479fdf9731c8fadc0642c1"
-        },
-        {
-          "_name": "Soft_armor_left",
-          "_id": "aeeca8aa7cf65a8b9038cb38",
-          "_parent": "45086e6a313050a1ac3d9933",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "69d42a54fe02b60eed07a3cb"
-                ],
-                "Plate": "69d42a54fe02b60eed07a3cb",
-                "armorColliders": [
-                  "LeftSideChestDown"
-                ],
-                "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_required": true,
-          "_mergeSlotWithChildren": true,
-          "_proto": "64479fdf9731c8fadc0642c1"
-        },
-        {
-          "_name": "soft_armor_right",
-          "_id": "15faf9aee06a5fecb0702d95",
-          "_parent": "45086e6a313050a1ac3d9933",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "69d429f7944e2afebd028bf8"
-                ],
-                "Plate": "69d429f7944e2afebd028bf8",
-                "armorColliders": [
-                  "RightSideChestDown"
-                ],
-                "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_required": true,
-          "_mergeSlotWithChildren": true,
-          "_proto": "64479fdf9731c8fadc0642c1"
-        },
-        {
-          "_name": "Collar",
-          "_id": "263efbacda325950985000ab",
-          "_parent": "45086e6a313050a1ac3d9933",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "69d4299657b9d0b39908cf8d"
-                ],
-                "Plate": "69d4299657b9d0b39908cf8d",
-                "armorColliders": [
-                  "NeckBack",
-                  "NeckFront"
-                ],
-                "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_required": true,
-          "_mergeSlotWithChildren": true,
-          "_proto": "64479fdf9731c8fadc0642c1"
-        }
-      ],
-      "Weight": 3.31,
-      "mousePenalty": -2,
-      "weaponErgonomicPenalty": -2,
-      "RagfairLevelToTrade": 0
+      }
     },
     "locales": {
       "en": {
         "name": "FORT Gladiator-S plate carrier (Red Right Hand)",
         "shortName": "Gladiator-S",
         "description": "A specialized body armor developed for the FSB’s Special Purpose Center, featuring high functionality and modularity. Red Right Hand version."
+      },
+      "po": {
+        "name": "FORT Gladiator-S plate carrier (Red Right Hand)",
+        "shortName": "Gladiator-S",
+        "description": "Um colete balístico especializado desenvolvido para o Centro de Operações Especiais do FSB, com alta funcionalidade e modularidade. Versão com pintura Red Right Hand."
       }
     },
     "handbookPriceRoubles": 4816,
@@ -746,293 +196,21 @@
     "parentId": "5448e54d4bdc2dcc718b4568",
     "handbookParentId": "5b5f701386f774093f2ecf0f",
     "overrideProperties": {
-      "Description": "The NPP KlASS Korund-VM heavy bulletproof vest, adopted by the units of the Ministry of Internal Affairs of Russia. Red Right Hand camouflage in crimson and charcoal, with black hardware.",
-      "Grids": [],
-      "Name": "NPP KlASS Korund-VM body armor (Red Right Hand)",
       "Prefab": {
         "path": "equipment/aishi_rrh_20261005/18e3e9173f365975995bc1f0/item_equipment_armor_korundvm_multicam_black_aishi.bundle",
         "rcid": ""
-      },
-      "ShortName": "Korund-VM",
-      "Slots": [
-        {
-          "_id": "132dbaf932405d7f9b854165",
-          "_mergeSlotWithChildren": true,
-          "_name": "Front_plate",
-          "_parent": "18e3e9173f365975995bc1f0",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "656f664200d62bcd2e024077",
-                  "654a4dea7c17dec2f50cc86a",
-                  "656f66b5c6baea13cd07e108"
-                ],
-                "Plate": "656f664200d62bcd2e024077",
-                "armorColliders": [],
-                "armorPlateColliders": [
-                  "Plate_Korund_chest"
-                ],
-                "bluntDamageReduceFromSoftArmor": true,
-                "locked": false
-              }
-            ]
-          },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": false
-        },
-        {
-          "_id": "7d53bef77c6653d390883570",
-          "_mergeSlotWithChildren": true,
-          "_name": "Back_plate",
-          "_parent": "18e3e9173f365975995bc1f0",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "657b22485f444d6dff0c6c2f",
-                  "657b2797c3dbcb01d60c35ea",
-                  "657b28d25f444d6dff0c6c77"
-                ],
-                "Plate": "657b2797c3dbcb01d60c35ea",
-                "armorColliders": [],
-                "armorPlateColliders": [
-                  "Plate_Granit_SAPI_back"
-                ],
-                "bluntDamageReduceFromSoftArmor": true,
-                "locked": false
-              }
-            ]
-          },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": false
-        },
-        {
-          "_id": "5de07f75134f5b06913c54ba",
-          "_mergeSlotWithChildren": true,
-          "_name": "Left_side_plate",
-          "_parent": "18e3e9173f365975995bc1f0",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "654a4f8bc721968a4404ef18"
-                ],
-                "Plate": "654a4f8bc721968a4404ef18",
-                "armorColliders": [],
-                "armorPlateColliders": [
-                  "Plate_Korund_side_left_high"
-                ],
-                "bluntDamageReduceFromSoftArmor": true,
-                "locked": false
-              }
-            ]
-          },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": false
-        },
-        {
-          "_id": "59cd440d3f3d54cd8107edde",
-          "_mergeSlotWithChildren": true,
-          "_name": "Right_side_plate",
-          "_parent": "18e3e9173f365975995bc1f0",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "654a4f8bc721968a4404ef18"
-                ],
-                "Plate": "654a4f8bc721968a4404ef18",
-                "armorColliders": [],
-                "armorPlateColliders": [
-                  "Plate_Korund_side_right_high"
-                ],
-                "bluntDamageReduceFromSoftArmor": true,
-                "locked": false
-              }
-            ]
-          },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": false
-        },
-        {
-          "_id": "a35b3d2d2c85593abb01cea6",
-          "_mergeSlotWithChildren": true,
-          "_name": "Soft_armor_front",
-          "_parent": "18e3e9173f365975995bc1f0",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "65731b46cea9255e2102360a"
-                ],
-                "Plate": "65731b46cea9255e2102360a",
-                "armorColliders": [
-                  "RibcageLow",
-                  "RibcageUp"
-                ],
-                "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": true
-        },
-        {
-          "_id": "86257ba89a5d511d8d0934f8",
-          "_mergeSlotWithChildren": true,
-          "_name": "Soft_armor_back",
-          "_parent": "18e3e9173f365975995bc1f0",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "65731b4fcea9255e2102360e"
-                ],
-                "Plate": "65731b4fcea9255e2102360e",
-                "armorColliders": [
-                  "SpineDown",
-                  "SpineTop"
-                ],
-                "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": true
-        },
-        {
-          "_id": "db9cfbfb5adc5322a56bccd8",
-          "_mergeSlotWithChildren": true,
-          "_name": "Soft_armor_left",
-          "_parent": "18e3e9173f365975995bc1f0",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "65731b576e709cddd001ec3f"
-                ],
-                "Plate": "65731b576e709cddd001ec3f",
-                "armorColliders": [
-                  "LeftSideChestDown"
-                ],
-                "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": true
-        },
-        {
-          "_id": "595b43cfbbf059c0a4bb6ed6",
-          "_mergeSlotWithChildren": true,
-          "_name": "soft_armor_right",
-          "_parent": "18e3e9173f365975995bc1f0",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "65731b60ff6dc44a7d068c4a"
-                ],
-                "Plate": "65731b60ff6dc44a7d068c4a",
-                "armorColliders": [
-                  "RightSideChestDown"
-                ],
-                "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": true
-        },
-        {
-          "_id": "0ea1e1dd35e15844aa36fc28",
-          "_mergeSlotWithChildren": true,
-          "_name": "Collar",
-          "_parent": "18e3e9173f365975995bc1f0",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "65731b666e709cddd001ec43"
-                ],
-                "Plate": "65731b666e709cddd001ec43",
-                "armorColliders": [
-                  "NeckFront",
-                  "NeckBack"
-                ],
-                "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": true
-        },
-        {
-          "_id": "42407f1cbf0156baaad9eac4",
-          "_mergeSlotWithChildren": true,
-          "_name": "Groin",
-          "_parent": "18e3e9173f365975995bc1f0",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "65731b716e709cddd001ec47"
-                ],
-                "Plate": "65731b716e709cddd001ec47",
-                "armorColliders": [
-                  "Pelvis"
-                ],
-                "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": true
-        },
-        {
-          "_id": "3ca61c6814265313a7191955",
-          "_mergeSlotWithChildren": true,
-          "_name": "Groin_back",
-          "_parent": "18e3e9173f365975995bc1f0",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "65731b6b6042b0f210020ef6"
-                ],
-                "Plate": "65731b6b6042b0f210020ef6",
-                "armorColliders": [
-                  "PelvisBack"
-                ],
-                "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": true
-        }
-      ]
+      }
     },
     "locales": {
       "en": {
         "name": "NPP KlASS Korund-VM body armor (Red Right Hand)",
         "shortName": "Korund-VM",
-        "description": "The NPP KlASS Korund-VM heavy bulletproof vest, adopted by the units of the Ministry of Internal Affairs of Russia. Red Right Hand camouflage in crimson and charcoal, with black hardware."
+        "description": "The NPP KlASS Korund-VM heavy bulletproof vest, adopted by the units of the Ministry of Internal Affairs of Russia. Red Right Hand version."
+      },
+      "po": {
+        "name": "NPP KlASS Korund-VM body armor (Red Right Hand)",
+        "shortName": "Korund-VM",
+        "description": "O pesado colete a prova de balas NPP KlASS Korund-VM foi adotado pelas unidades do Ministério de Assuntos Internos da Rússia. Versão com pintura Red Right Hand."
       }
     },
     "handbookPriceRoubles": 3927,
@@ -1132,152 +310,21 @@
     "parentId": "5448e54d4bdc2dcc718b4568",
     "handbookParentId": "5b5f701386f774093f2ecf0f",
     "overrideProperties": {
-      "Description": "A simple yet effective plate carrier by London Bridge Trading company. The most minimalistic design intended for use with chest rigs. Red Right Hand camouflage in crimson and charcoal, with black hardware.",
-      "Grids": [],
-      "Name": "LBT-6094A Slick Plate Carrier (Red Right Hand)",
       "Prefab": {
         "path": "equipment/aishi_rrh_20261005/b55292761c0d52adbf45d394/ar_slick_multicam_black_aishi.bundle",
         "rcid": ""
-      },
-      "ShortName": "Slick",
-      "Slots": [
-        {
-          "_id": "4a33c534f679570e93e6ae7a",
-          "_mergeSlotWithChildren": true,
-          "_name": "Front_plate",
-          "_parent": "b55292761c0d52adbf45d394",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "656f9d5900d62bcd2e02407c",
-                  "656fa8d700d62bcd2e024084",
-                  "656fa99800d62bcd2e024088",
-                  "656fae5f7c2d57afe200c0d7",
-                  "656faf0ca0dce000a2020f77",
-                  "656fa0fb498d1b7e3e071d9c",
-                  "656fafe3498d1b7e3e071da4",
-                  "656fa76500d62bcd2e024080",
-                  "656fa25e94b480b8a500c0e0",
-                  "656fad8c498d1b7e3e071da0",
-                  "656fa61e94b480b8a500c0e8",
-                  "656fb21fa0dce000a2020f7c",
-                  "656fac30c6baea13cd07e10c",
-                  "656fb0bd7c2d57afe200c0dc",
-                  "656f9fa0498d1b7e3e071d98",
-                  "656fa53d94b480b8a500c0e4",
-                  "655746010177119f4a097ff7",
-                  "64afdcb83efdfea28601d041"
-                ],
-                "Plate": "656fa76500d62bcd2e024080",
-                "armorColliders": [],
-                "armorPlateColliders": [
-                  "Plate_Granit_SAPI_chest"
-                ],
-                "bluntDamageReduceFromSoftArmor": true,
-                "locked": false
-              }
-            ]
-          },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": false
-        },
-        {
-          "_id": "564ded7f278d5a71b3ec36ef",
-          "_mergeSlotWithChildren": true,
-          "_name": "Back_plate",
-          "_parent": "b55292761c0d52adbf45d394",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "656f9d5900d62bcd2e02407c",
-                  "656fa8d700d62bcd2e024084",
-                  "656fa99800d62bcd2e024088",
-                  "656fae5f7c2d57afe200c0d7",
-                  "656faf0ca0dce000a2020f77",
-                  "656fa0fb498d1b7e3e071d9c",
-                  "656fafe3498d1b7e3e071da4",
-                  "656fa76500d62bcd2e024080",
-                  "656fa25e94b480b8a500c0e0",
-                  "656fad8c498d1b7e3e071da0",
-                  "656fa61e94b480b8a500c0e8",
-                  "656fb21fa0dce000a2020f7c",
-                  "656fac30c6baea13cd07e10c",
-                  "656fb0bd7c2d57afe200c0dc",
-                  "656f9fa0498d1b7e3e071d98",
-                  "656fa53d94b480b8a500c0e4",
-                  "655746010177119f4a097ff7",
-                  "64afdcb83efdfea28601d041"
-                ],
-                "Plate": "656fa76500d62bcd2e024080",
-                "armorColliders": [],
-                "armorPlateColliders": [
-                  "Plate_Granit_SAPI_back"
-                ],
-                "bluntDamageReduceFromSoftArmor": true,
-                "locked": false
-              }
-            ]
-          },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": false
-        },
-        {
-          "_id": "4f68ec40ad7554b9b3aa1b57",
-          "_mergeSlotWithChildren": true,
-          "_name": "Soft_armor_front",
-          "_parent": "b55292761c0d52adbf45d394",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "6575e71760703324250610c3"
-                ],
-                "Plate": "6575e71760703324250610c3",
-                "armorColliders": [],
-                "armorPlateColliders": [
-                  "Plate_Granit_SAPI_chest"
-                ],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": true
-        },
-        {
-          "_id": "9ba32a718ed95c458e8609d3",
-          "_mergeSlotWithChildren": true,
-          "_name": "Soft_armor_back",
-          "_parent": "b55292761c0d52adbf45d394",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "6575e72660703324250610c7"
-                ],
-                "Plate": "6575e72660703324250610c7",
-                "armorColliders": [],
-                "armorPlateColliders": [
-                  "Plate_Granit_SAPI_back"
-                ],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": true
-        }
-      ]
+      }
     },
     "locales": {
       "en": {
         "name": "LBT-6094A Slick Plate Carrier (Red Right Hand)",
         "shortName": "Slick",
-        "description": "A simple yet effective plate carrier by London Bridge Trading company. The most minimalistic design intended for use with chest rigs. Red Right Hand camouflage in crimson and charcoal, with black hardware."
+        "description": "A simple yet effective plate carrier by London Bridge Trading company. The most minimalistic design intended for use with chest rigs. Red Right Hand version."
+      },
+      "po": {
+        "name": "LBT-6094A Slick Plate Carrier (Red Right Hand)",
+        "shortName": "Slick",
+        "description": "Plate carrier simples da empresa LBT. O design mais minimalista, feito para usar com veste tática. Versão com pintura Red Right Hand."
       }
     },
     "handbookPriceRoubles": 16523,
@@ -1373,13 +420,13 @@
       },
       "Name": "Peltor ComTac VI headset (Red Right Hand)",
       "ShortName": "ComTac VI",
-      "Description": "An improved version of the ComTac V communication headset, equipped with advanced environmental listening settings and an NIB (Natural Interaction Behavior) feature, allowing to communicate with other ComTac VI users in a certain proximity without having to use radios. Manufactured by 3M Peltor. Coyote Brown version. (MultiCam Black) Red Right Hand camouflage in crimson and charcoal, with black hardware."
+      "Description": "An improved version of the ComTac V communication headset, equipped with advanced environmental listening settings and an NIB (Natural Interaction Behavior) feature, allowing to communicate with other ComTac VI users in a certain proximity without having to use radios. Manufactured by 3M Peltor. (MultiCam Black) Red Right Hand camouflage in crimson and charcoal, with black hardware."
     },
     "locales": {
       "en": {
         "name": "Peltor ComTac VI headset (Red Right Hand)",
         "shortName": "ComTac VI",
-        "description": "An improved version of the ComTac V communication headset, equipped with advanced environmental listening settings and an NIB (Natural Interaction Behavior) feature, allowing to communicate with other ComTac VI users in a certain proximity without having to use radios. Manufactured by 3M Peltor. Coyote Brown version. (MultiCam Black) Red Right Hand camouflage in crimson and charcoal, with black hardware."
+        "description": "An improved version of the ComTac V communication headset, equipped with advanced environmental listening settings and an NIB (Natural Interaction Behavior) feature, allowing to communicate with other ComTac VI users in a certain proximity without having to use radios. Manufactured by 3M Peltor. (MultiCam Black) Red Right Hand camouflage in crimson and charcoal, with black hardware."
       }
     },
     "addtoTraders": false,
@@ -1479,7 +526,8 @@
       "Weight": 0.4,
       "Name": "Peltor ComTac VII headset (Red Right Hand)",
       "ShortName": "ComTac VII",
-      "Description": "An enhanced version of the ComTac VI communication headset, with advanced ambient listening modes, improved noise isolation, and the NIB (Natural Interaction Behavior) feature, which enables direct communication with other operators using another ComTac VII at close range without the need for radios. Manufactured by 3M Peltor. (MultiCam Black) Red Right Hand camouflage in crimson and charcoal, with black hardware."
+      "Description": "An enhanced version of the ComTac VI communication headset, with advanced ambient listening modes, improved noise isolation, and the NIB (Natural Interaction Behavior) feature, which enables direct communication with other operators using another ComTac VII at close range without the need for radios. Manufactured by 3M Peltor. (MultiCam Black) Red Right Hand camouflage in crimson and charcoal, with black hardware.",
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -1523,86 +571,18 @@
       "Prefab": {
         "path": "equipment/aishi_rrh_20261005/0a32f18896bf5f0dabf37c24/item_equipment_helmet_bastion_multicam_black_aishi.bundle",
         "rcid": ""
-      },
-      "Name": "Ballistic Armor Co. Bastion helmet (Red Right Hand)",
-      "ShortName": "BAC Bastion",
-      "Description": "The Bastion NIJ level IIIA tactical helmet designed for law enforcement and civilian use. Equipped with M-LOK interface rails for mounting additional equipment. Manufactured by Ballistic Armor Co. Red Right Hand camouflage in crimson and charcoal, with black hardware.",
-      "CanSellOnRagfair": false,
-      "Slots": [
-        {
-          "_id": "7cc98f321c6b50eaa8cdf727",
-          "_mergeSlotWithChildren": false,
-          "_name": "mod_nvg",
-          "_parent": "0a32f18896bf5f0dabf37c24",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "5c0558060db834001b735271",
-                  "5a16b8a9fcdbcb00165aa6ca"
-                ],
-                "Shift": 0
-              }
-            ]
-          },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
-        },
-        {
-          "_id": "bcecb846949e5fa096c82992",
-          "_mergeSlotWithChildren": true,
-          "_name": "Helmet_top",
-          "_parent": "0a32f18896bf5f0dabf37c24",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "66b61cfae98be930d701c029"
-                ],
-                "Plate": "66b61cfae98be930d701c029",
-                "armorColliders": [
-                  "ParietalHead"
-                ],
-                "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": true
-        },
-        {
-          "_id": "32259cb4bbee5ca6ba9fcf2d",
-          "_mergeSlotWithChildren": true,
-          "_name": "Helmet_back",
-          "_parent": "0a32f18896bf5f0dabf37c24",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "66b61ce0c5d72b027748867e"
-                ],
-                "Plate": "66b61ce0c5d72b027748867e",
-                "armorColliders": [
-                  "BackHead"
-                ],
-                "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": true
-        }
-      ]
+      }
     },
     "locales": {
       "en": {
         "name": "Ballistic Armor Co. Bastion helmet (Red Right Hand)",
         "shortName": "BAC Bastion",
-        "description": "The Bastion NIJ level IIIA tactical helmet designed for law enforcement and civilian use. Equipped with M-LOK interface rails for mounting additional equipment. Manufactured by Ballistic Armor Co. Red Right Hand camouflage in crimson and charcoal, with black hardware."
+        "description": "The Bastion NIJ level IIIA tactical helmet designed for law enforcement and civilian use. Equipped with M-LOK interface rails for mounting additional equipment. Manufactured by Ballistic Armor Co. Red Right Hand version."
+      },
+      "po": {
+        "name": "Ballistic Armor Co. Bastion helmet (Red Right Hand)",
+        "shortName": "BAC Bastion",
+        "description": "O capacete tático Bastion de nível NIJ IIIA foi projetado para uso policial e civil. Equipado com trilhos de interface M-LOK para a montagem de equipamentos adicionais. Fabricado pela Ballistic Armor Co. Versão com pintura Red Right Hand."
       }
     },
     "handbookPriceRoubles": 13205,
@@ -1645,144 +625,25 @@
     ]
   },
   "f0d30c96b8e252eaa1f1be1d": {
-    "itemTplToClone": "5c17a7ed2e2216152142459c",
+    "itemTplToClone": "69ce47ca49b447e32200cbe9",
     "parentId": "5a341c4086f77401f2541505",
     "handbookParentId": "5b47574386f77428ca22b330",
     "overrideProperties": {
-      "Description": "The AirFrame ballistic helmet sets the standards in protection, comfort, and modularity. The unique overlapping shell design of the AirFrame creates an integrated vent that provides passive cooling and can reduce the damaging effects of explosive blast waves. Equipped with M-LOK rails. Manufactured by Crye Precision. Red Right Hand camouflage in crimson and charcoal, with black hardware.",
-      "Name": "Crye Precision AirFrame M-LOK helmet (Red Right Hand)",
       "Prefab": {
         "path": "equipment/aishi_rrh_20261005/f0d30c96b8e252eaa1f1be1d/item_equipment_helmet_crye_airframe_mlok_black_bp03_multicam_black_aishi.bundle",
         "rcid": ""
-      },
-      "RagfairLevelToTrade": 0,
-      "RarityPvE": "Not_exist",
-      "RepairCost": 626,
-      "ShortName": "AirFrame",
-      "Grids": [],
-      "Slots": [
-        {
-          "_name": "mod_nvg",
-          "_id": "6dcbdfaa00805330904b9fe4",
-          "_parent": "f0d30c96b8e252eaa1f1be1d",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "5c0558060db834001b735271",
-                  "5a16b8a9fcdbcb00165aa6ca",
-                  "689b8883b49f27df1c0873f8",
-                  "689dbded6c7e684817080c29"
-                ],
-                "Shift": 0
-              }
-            ]
-          },
-          "_required": false,
-          "_mergeSlotWithChildren": false,
-          "_proto": "55d30c4c4bdc2db4468b457e"
-        },
-        {
-          "_name": "mod_mount",
-          "_id": "c3b506341cf65af8a25bd3d6",
-          "_parent": "f0d30c96b8e252eaa1f1be1d",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "669a6a4a525be1d2d004b8eb",
-                  "5b7be47f5acfc400170e2dd2"
-                ],
-                "Shift": 0
-              }
-            ]
-          },
-          "_required": false,
-          "_mergeSlotWithChildren": false,
-          "_proto": "55d30c4c4bdc2db4468b457e"
-        },
-        {
-          "_name": "mod_equipment_001",
-          "_id": "1042372885305f75a4239a12",
-          "_parent": "f0d30c96b8e252eaa1f1be1d",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "5c178a942e22164bef5ceca3",
-                  "5c1793902e221602b21d3de2",
-                  "69caa20ff3190e7dfe0c197f",
-                  "69cbd3188eeaa243ed09710e",
-                  "69cbd33bc293038df7002951",
-                  "69cbd35600ebef208805cc04",
-                  "69caa229512d14715e0fccdf",
-                  "69cbd32a05c5beb41b0781b3",
-                  "69cbd346d0e5ec2c8a0429c2",
-                  "69cbd36d8eeaa243ed097112"
-                ],
-                "Shift": 0
-              }
-            ]
-          },
-          "_required": false,
-          "_mergeSlotWithChildren": false,
-          "_proto": "55d30c4c4bdc2db4468b457e"
-        },
-        {
-          "_name": "Helmet_top",
-          "_id": "9c72ded231725112b9adeb2f",
-          "_parent": "f0d30c96b8e252eaa1f1be1d",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "657f9897f4c82973640b235e"
-                ],
-                "Plate": "657f9897f4c82973640b235e",
-                "armorColliders": [
-                  "ParietalHead"
-                ],
-                "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_required": true,
-          "_mergeSlotWithChildren": true,
-          "_proto": "64479fdf9731c8fadc0642c1"
-        },
-        {
-          "_name": "Helmet_back",
-          "_id": "068ab147009055f89cdd94be",
-          "_parent": "f0d30c96b8e252eaa1f1be1d",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "657f98fbada5fadd1f07a585"
-                ],
-                "Plate": "657f98fbada5fadd1f07a585",
-                "armorColliders": [
-                  "BackHead"
-                ],
-                "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_required": true,
-          "_mergeSlotWithChildren": true,
-          "_proto": "64479fdf9731c8fadc0642c1"
-        }
-      ]
+      }
     },
     "locales": {
       "en": {
         "name": "Crye Precision AirFrame M-LOK helmet (Red Right Hand)",
         "shortName": "AirFrame",
-        "description": "The AirFrame ballistic helmet sets the standards in protection, comfort, and modularity. The unique overlapping shell design of the AirFrame creates an integrated vent that provides passive cooling and can reduce the damaging effects of explosive blast waves. Equipped with M-LOK rails. Manufactured by Crye Precision. Red Right Hand camouflage in crimson and charcoal, with black hardware."
+        "description": "A Crye Precision AirFrame ballistic helmet fitted with M-LOK accessory rails. This configuration is most commonly seen among fans of JP, one of the Arena Champions. Rumor has it that this is the exact type of helmet he once tossed into the air and shot with his final round when he first became champion. Red Right Hand version."
+      },
+      "po": {
+        "name": "Crye Precision AirFrame M-LOK helmet (Red Right Hand)",
+        "shortName": "AirFrame",
+        "description": "Um capacete balístico AirFrame da Crye Precision equipado com trilhos M-LOK para acessórios. Esta configuração é vista com frequência entre os fãs de JP, um dos Campeões da Arena. Há rumores de que este é exatamente o tipo de capacete que ele lançou ao ar e acertou com seu último disparo quando se tornou campeão pela primeira vez. Versão com pintura Red Right Hand."
       }
     },
     "handbookPriceRoubles": 5685,
@@ -1832,121 +693,18 @@
       "Prefab": {
         "path": "equipment/aishi_rrh_20261005/8b169b151ec1508a91c74c32/item_equipment_helmet_neosteel_multicam_black_aishi.bundle",
         "rcid": ""
-      },
-      "Name": "Diamond Age NeoSteel High Cut helmet (Red Right Hand)",
-      "ShortName": "NeoSteel",
-      "Description": "The Diamond Age NeoSteel helmet features a unique design that combines high-strength steel with composite materials to provide advanced protection against ballistic and impact threats. It is designed to withstand high velocity impacts and can provide protection against a variety of threats. Red Right Hand camouflage in crimson and charcoal, with black hardware.",
-      "Slots": [
-        {
-          "_id": "1da0e3cee21f5ca6ad9c1316",
-          "_mergeSlotWithChildren": false,
-          "_name": "mod_equipment_000",
-          "_parent": "8b169b151ec1508a91c74c32",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "6570a88c8f221f3b210353b7"
-                ],
-                "Shift": 0
-              }
-            ]
-          },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
-        },
-        {
-          "_id": "af7c836b888659fdb41b3505",
-          "_mergeSlotWithChildren": false,
-          "_name": "mod_mount",
-          "_parent": "8b169b151ec1508a91c74c32",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "5b7be47f5acfc400170e2dd2"
-                ],
-                "Shift": 0
-              }
-            ]
-          },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
-        },
-        {
-          "_id": "980f68bcf1c85cdabae81f7a",
-          "_mergeSlotWithChildren": false,
-          "_name": "mod_nvg",
-          "_parent": "8b169b151ec1508a91c74c32",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "5a16b8a9fcdbcb00165aa6ca",
-                  "5c0558060db834001b735271"
-                ],
-                "Shift": 0
-              }
-            ]
-          },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
-        },
-        {
-          "_id": "d00724ac5f8a5fc6bb824941",
-          "_mergeSlotWithChildren": true,
-          "_name": "Helmet_top",
-          "_parent": "8b169b151ec1508a91c74c32",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "657f9eb7e9433140ad0baf86"
-                ],
-                "Plate": "657f9eb7e9433140ad0baf86",
-                "armorColliders": [
-                  "ParietalHead"
-                ],
-                "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": true
-        },
-        {
-          "_id": "452a849b2d165f70ab8d7f5c",
-          "_mergeSlotWithChildren": true,
-          "_name": "Helmet_back",
-          "_parent": "8b169b151ec1508a91c74c32",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "657f9ef6c6679fefb3051e1f"
-                ],
-                "Plate": "657f9ef6c6679fefb3051e1f",
-                "armorColliders": [
-                  "BackHead"
-                ],
-                "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": true
-        }
-      ]
+      }
     },
     "locales": {
       "en": {
         "name": "Diamond Age NeoSteel High Cut helmet (Red Right Hand)",
         "shortName": "NeoSteel",
-        "description": "The Diamond Age NeoSteel helmet features a unique design that combines high-strength steel with composite materials to provide advanced protection against ballistic and impact threats. It is designed to withstand high velocity impacts and can provide protection against a variety of threats. Red Right Hand camouflage in crimson and charcoal, with black hardware."
+        "description": "The Diamond Age NeoSteel helmet features a unique design that combines high-strength steel with composite materials to provide advanced protection against ballistic and impact threats. It is designed to withstand high velocity impacts and can provide protection against a variety of threats. Red Right Hand version."
+      },
+      "po": {
+        "name": "Diamond Age NeoSteel High Cut helmet (Red Right Hand)",
+        "shortName": "NeoSteel",
+        "description": "O capacete Diamond Age NeoSteel apresenta um design exclusivo que combina aço de alta resistência com materiais compósitos para fornecer proteção avançada contra ameaças balísticas e de impacto. Ele foi projetado para suportar impactos de alta velocidade e pode fornecer proteção contra uma variedade de ameaças. Versão com pintura Red Right Hand."
       }
     },
     "handbookPriceRoubles": 5288,
@@ -1996,149 +754,18 @@
       "Prefab": {
         "path": "equipment/aishi_rrh_20261005/2ba98158af925210ab9fb48d/item_equipment_helmet_team_wendy_exfil_multicam_black_aishi.bundle",
         "rcid": ""
-      },
-      "Name": "Team Wendy EXFIL Ballistic Helmet (Red Right Hand)",
-      "ShortName": "EXFIL",
-      "Description": "One of the most recent tactical ballistic helmets with extensive customization capabilities. The EXFIL LTP (Lightweight, Tactical, Polymer) bump helmet provides impact protection for maritime environments and a stable, comfortable platform for mounting night vision and other accessories. The built-in NVG shroud utilizes an integrated Wilcox machined aluminum shroud insert. MultiCam Black colored version. Red Right Hand camouflage in crimson and charcoal, with black hardware.",
-      "Slots": [
-        {
-          "_id": "7c7c6b5d6ac2599b96564853",
-          "_mergeSlotWithChildren": false,
-          "_name": "mod_equipment_000",
-          "_parent": "2ba98158af925210ab9fb48d",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "5e00cfa786f77469dc6e5685",
-                  "5e01f31d86f77465cf261343",
-                  "66b5f69ea7f72d197e70bcdb",
-                  "66b5f6a28ca68c6461709ed8"
-                ],
-                "Shift": 0
-              }
-            ]
-          },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
-        },
-        {
-          "_id": "11b8a0e32cb65b58b28fbe81",
-          "_mergeSlotWithChildren": false,
-          "_name": "mod_nvg",
-          "_parent": "2ba98158af925210ab9fb48d",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "5c0558060db834001b735271",
-                  "5a16b8a9fcdbcb00165aa6ca"
-                ],
-                "Shift": 0
-              }
-            ]
-          },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
-        },
-        {
-          "_id": "f33bb7debadd50c9bad30493",
-          "_mergeSlotWithChildren": true,
-          "_name": "helmet_top",
-          "_parent": "2ba98158af925210ab9fb48d",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "6551fec55d0cf82e51014288"
-                ],
-                "Plate": "6551fec55d0cf82e51014288",
-                "armorColliders": [
-                  "ParietalHead"
-                ],
-                "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": true
-        },
-        {
-          "_id": "3726b357d00659c3a621cba6",
-          "_mergeSlotWithChildren": true,
-          "_name": "helmet_back",
-          "_parent": "2ba98158af925210ab9fb48d",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "655200ba0ef76cf7be09d528"
-                ],
-                "Plate": "655200ba0ef76cf7be09d528",
-                "armorColliders": [
-                  "BackHead"
-                ],
-                "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": true
-        },
-        {
-          "_id": "cc19bee1487a573f8ce800b4",
-          "_mergeSlotWithChildren": false,
-          "_name": "mod_equipment_002",
-          "_parent": "2ba98158af925210ab9fb48d",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "049f903594a15648b85049be",
-                  "1822c6ab9077537fa6a2d0ca",
-                  "382178c7df6b54e5bfdecbd1",
-                  "41310ba059d25bc0a3e22564",
-                  "5b326dfd4d6f5ae1a307bef4",
-                  "65dba93847465e95a9ded01e",
-                  "69e24f4f9e6ca1b32508bfbc",
-                  "6a4d5879b498ae06e3582412",
-                  "6a4d5940473d4411b409b02a",
-                  "71833ecb94b354ed9af475f2",
-                  "7e4d2ec3cc9e5f87aecdf39b",
-                  "811054d359f651ae8ad48b98",
-                  "8d7e1e7c6bed52f88f7445f2",
-                  "94211dba2f9d5ccf86a65a5f",
-                  "9e3d23e969fb5a93833adb62",
-                  "ba096bc674cd5da390d00e74",
-                  "ccaab422b8a659f8a03abd5e",
-                  "d9f78d0d55ec56838b296a7b",
-                  "ea3b994c77d35701a587ee82",
-                  "f8c0d2c9c3f25528b6afff62",
-                  "43b0e1422f7d59b8ad3d8a0b"
-                ],
-                "Shift": 0
-              }
-            ]
-          },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
-        }
-      ]
+      }
     },
     "locales": {
       "en": {
         "name": "Team Wendy EXFIL Ballistic Helmet (Red Right Hand)",
         "shortName": "EXFIL",
-        "description": "One of the most recent tactical ballistic helmets with extensive customization capabilities. The EXFIL LTP (Lightweight, Tactical, Polymer) bump helmet provides impact protection for maritime environments and a stable, comfortable platform for mounting night vision and other accessories. The built-in NVG shroud utilizes an integrated Wilcox machined aluminum shroud insert. MultiCam Black colored version. Red Right Hand camouflage in crimson and charcoal, with black hardware."
+        "description": "One of the most recent tactical ballistic helmets with extensive customization capabilities. The EXFIL LTP (Lightweight, Tactical, Polymer) bump helmet provides impact protection for maritime environments and a stable, comfortable platform for mounting night vision and other accessories. The built-in NVG shroud utilizes an integrated Wilcox machined aluminum shroud insert. Red Right Hand version."
       },
       "po": {
-        "name": "Capacete balístico Team Wendy EXFIL (Preta) (Red Right Hand)",
+        "name": "Team Wendy EXFIL Ballistic Helmet (Red Right Hand)",
         "shortName": "EXFIL",
-        "description": "Um dos mais recentes capacetes balísticos com uma extensa capacidade de customização. Red Right Hand camouflage in crimson and charcoal, with black hardware."
+        "description": "Um dos mais recentes capacetes balísticos com uma extensa capacidade de customização. Versão com pintura Red Right Hand."
       }
     },
     "handbookPriceRoubles": 21949,
@@ -2786,6 +1413,18 @@
                 "MaxDurability": 8
               }
             }
+          },
+          {
+            "_id": "e11f29858c8ae637e420c0de",
+            "_tpl": "656fa0fb498d1b7e3e071d9c",
+            "parentId": "300f24e8247051358afd1bdf",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "4676c5d32f3e7899dfb557fb",
+            "_tpl": "656fa0fb498d1b7e3e071d9c",
+            "parentId": "300f24e8247051358afd1bdf",
+            "slotId": "Back_plate"
           }
         ],
         "_encyclopedia": "e4d47681bc6d52029ca7a3f7"
@@ -3365,7 +2004,7 @@
       "CanRequireOnRagfair": false,
       "CanSellOnRagfair": false,
       "ConflictingItems": [],
-      "Description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes in a Coyote Brown color with a rather unique pouch setup. (MultiCam Black) Red Right Hand camouflage in crimson and charcoal, with black hardware.",
+      "Description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes with a rather unique pouch setup. (MultiCam Black) Red Right Hand camouflage in crimson and charcoal, with black hardware.",
       "DiscardLimit": -1,
       "DiscardingBlock": false,
       "ExamineExperience": 10,
@@ -3439,17 +2078,17 @@
       "en": {
         "name": "Blue Force Gear PLATEminus V2 Plate Carrier (Red Right Hand)",
         "shortName": "PLATEminus V2",
-        "description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes in a Coyote Brown color with a rather unique pouch setup. (MultiCam Black) Red Right Hand camouflage in crimson and charcoal, with black hardware."
+        "description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes with a rather unique pouch setup. (MultiCam Black) Red Right Hand camouflage in crimson and charcoal, with black hardware."
       },
       "pt": {
         "name": "Blue Force Gear PLATEminus V2 Plate Carrier (Red Right Hand)",
         "shortName": "PLATEminus V2",
-        "description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes in a Coyote Brown color with a rather unique pouch setup. (MultiCam Black) Red Right Hand camouflage in crimson and charcoal, with black hardware."
+        "description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes with a rather unique pouch setup. (MultiCam Black) Red Right Hand camouflage in crimson and charcoal, with black hardware."
       },
       "po": {
         "name": "Blue Force Gear PLATEminus V2 Plate Carrier (Red Right Hand)",
         "shortName": "PLATEminus V2",
-        "description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes in a Coyote Brown color with a rather unique pouch setup. (MultiCam Black) Red Right Hand camouflage in crimson and charcoal, with black hardware."
+        "description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes with a rather unique pouch setup. (MultiCam Black) Red Right Hand camouflage in crimson and charcoal, with black hardware."
       }
     },
     "handbookPriceRoubles": 18032,
@@ -3519,6 +2158,18 @@
                 "MaxDurability": 8
               }
             }
+          },
+          {
+            "_id": "0d06016bf78be38f961df91a",
+            "_tpl": "656fa0fb498d1b7e3e071d9c",
+            "parentId": "5e11123a380851a3879a6c8d",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "0d8408a8b56bb90481afc51e",
+            "_tpl": "656fa0fb498d1b7e3e071d9c",
+            "parentId": "5e11123a380851a3879a6c8d",
+            "slotId": "Back_plate"
           }
         ],
         "_encyclopedia": "49eb6a6b878b568aa3be1f9e"
@@ -3531,7 +2182,7 @@
     "parentId": "5448e54d4bdc2dcc718b4568",
     "handbookParentId": "5b5f701386f774093f2ecf0f",
     "overrideProperties": {
-      "Description": "PLATEminus modular plate carrier in Grey. (MultiCam Black) Red Right Hand camouflage in crimson and charcoal, with black hardware.",
+      "Description": "PLATEminus modular plate carrier. (MultiCam Black) Red Right Hand camouflage in crimson and charcoal, with black hardware.",
       "Grids": [],
       "Name": "Blue Force Gear PLATEminus V2 body armor (Red Right Hand)",
       "Prefab": {
@@ -3628,12 +2279,12 @@
       "en": {
         "name": "Blue Force Gear PLATEminus V2 body armor (Red Right Hand)",
         "shortName": "PLATEminus V2",
-        "description": "PLATEminus modular plate carrier in Grey. (MultiCam Black) Red Right Hand camouflage in crimson and charcoal, with black hardware."
+        "description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes in a naked setup, allowing to wear it under separate chest rigs. Red Right Hand version."
       },
       "pt": {
         "name": "Blue Force Gear PLATEminus V2 body armor (Red Right Hand)",
         "shortName": "PLATEminus V2",
-        "description": "PLATEminus modular plate carrier in Grey. (MultiCam Black) Red Right Hand camouflage in crimson and charcoal, with black hardware."
+        "description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes in a naked setup, allowing to wear it under separate chest rigs. Red Right Hand version."
       }
     },
     "handbookPriceRoubles": 183864,
@@ -4150,7 +2801,7 @@
       "CanRequireOnRagfair": false,
       "CanSellOnRagfair": false,
       "ConflictingItems": [],
-      "Description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes in a MultiCam camouflage with a traditional plate carrier setup. (MultiCam Black) Red Right Hand camouflage in crimson and charcoal, with black hardware.",
+      "Description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes with a traditional plate carrier setup. (MultiCam Black) Red Right Hand camouflage in crimson and charcoal, with black hardware.",
       "DiscardLimit": -1,
       "DiscardingBlock": false,
       "ExamineExperience": 10,
@@ -4224,17 +2875,17 @@
       "en": {
         "name": "Blue Force Gear PLATEminus V2 Plate Carrier (Red Right Hand)",
         "shortName": "PLATEminus V2",
-        "description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes in a MultiCam camouflage with a traditional plate carrier setup. (MultiCam Black) Red Right Hand camouflage in crimson and charcoal, with black hardware."
+        "description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes with a traditional plate carrier setup. (MultiCam Black) Red Right Hand camouflage in crimson and charcoal, with black hardware."
       },
       "pt": {
         "name": "Blue Force Gear PLATEminus V2 Plate Carrier (Red Right Hand)",
         "shortName": "PLATEminus V2",
-        "description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes in a MultiCam camouflage with a traditional plate carrier setup. (MultiCam Black) Red Right Hand camouflage in crimson and charcoal, with black hardware."
+        "description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes with a traditional plate carrier setup. (MultiCam Black) Red Right Hand camouflage in crimson and charcoal, with black hardware."
       },
       "po": {
         "name": "Blue Force Gear PLATEminus V2 Plate Carrier (Red Right Hand)",
         "shortName": "PLATEminus V2",
-        "description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes in a MultiCam camouflage with a traditional plate carrier setup. (MultiCam Black) Red Right Hand camouflage in crimson and charcoal, with black hardware."
+        "description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes with a traditional plate carrier setup. (MultiCam Black) Red Right Hand camouflage in crimson and charcoal, with black hardware."
       }
     },
     "handbookPriceRoubles": 18032,
@@ -4304,6 +2955,18 @@
                 "MaxDurability": 8
               }
             }
+          },
+          {
+            "_id": "fd51ab694c8e1638323f4c51",
+            "_tpl": "656fa0fb498d1b7e3e071d9c",
+            "parentId": "5c69158495ec5721bceb33fa",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "a665ba6c8bc8fd836286a1fd",
+            "_tpl": "656fa0fb498d1b7e3e071d9c",
+            "parentId": "5c69158495ec5721bceb33fa",
+            "slotId": "Back_plate"
           }
         ],
         "_encyclopedia": "4d779106d4695d1bb9f1f824"
@@ -4811,7 +3474,7 @@
       "CanRequireOnRagfair": false,
       "CanSellOnRagfair": false,
       "ConflictingItems": [],
-      "Description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes in a Wolf Gray color with a traditional plate carrier setup. (MultiCam Black) Red Right Hand camouflage in crimson and charcoal, with black hardware.",
+      "Description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes with a traditional plate carrier setup. (MultiCam Black) Red Right Hand camouflage in crimson and charcoal, with black hardware.",
       "DiscardLimit": -1,
       "DiscardingBlock": false,
       "ExamineExperience": 10,
@@ -4885,17 +3548,17 @@
       "en": {
         "name": "Blue Force Gear PLATEminus V2 Plate Carrier (Red Right Hand)",
         "shortName": "PLATEminus V2",
-        "description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes in a Wolf Gray color with a traditional plate carrier setup. (MultiCam Black) Red Right Hand camouflage in crimson and charcoal, with black hardware."
+        "description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes with a traditional plate carrier setup. (MultiCam Black) Red Right Hand camouflage in crimson and charcoal, with black hardware."
       },
       "pt": {
         "name": "Blue Force Gear PLATEminus V2 Plate Carrier (Red Right Hand)",
         "shortName": "PLATEminus V2",
-        "description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes in a Wolf Gray color with a traditional plate carrier setup. (MultiCam Black) Red Right Hand camouflage in crimson and charcoal, with black hardware."
+        "description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes with a traditional plate carrier setup. (MultiCam Black) Red Right Hand camouflage in crimson and charcoal, with black hardware."
       },
       "po": {
         "name": "Blue Force Gear PLATEminus V2 Plate Carrier (Red Right Hand)",
         "shortName": "PLATEminus V2",
-        "description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes in a Wolf Gray color with a traditional plate carrier setup. (MultiCam Black) Red Right Hand camouflage in crimson and charcoal, with black hardware."
+        "description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes with a traditional plate carrier setup. (MultiCam Black) Red Right Hand camouflage in crimson and charcoal, with black hardware."
       }
     },
     "handbookPriceRoubles": 31032,
@@ -4965,6 +3628,18 @@
                 "MaxDurability": 8
               }
             }
+          },
+          {
+            "_id": "a3770ce6f53af232b303f6c4",
+            "_tpl": "656fa0fb498d1b7e3e071d9c",
+            "parentId": "868ab50aa7e65db9bf0425e3",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "271992ce760f7533080a9d6f",
+            "_tpl": "656fa0fb498d1b7e3e071d9c",
+            "parentId": "868ab50aa7e65db9bf0425e3",
+            "slotId": "Back_plate"
           }
         ],
         "_encyclopedia": "16420ba211b75359a2d0aeb5"
@@ -4977,214 +3652,21 @@
     "parentId": "5448e5284bdc2dcb718b4567",
     "handbookParentId": "5b5f6f8786f77447ed563642",
     "overrideProperties": {
-      "Description": "A tactical load-bearing system designed to carry magazines, grenades, and special equipment, while using low-profile body armor. Manufactured by London Bridge Trading. Special configuration by Birdeye, member of the Goons squad. Red Right Hand camouflage in crimson and charcoal, with black hardware.",
-      "Grids": [
-        {
-          "_id": "3f7dc62b31a6580cae326e5e",
-          "_name": "1",
-          "_parent": "55cc46b4a0635083aeb4817b",
-          "_props": {
-            "cellsH": 2,
-            "cellsV": 2,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "97e29e035da450f498a7c210",
-          "_name": "2",
-          "_parent": "55cc46b4a0635083aeb4817b",
-          "_props": {
-            "cellsH": 2,
-            "cellsV": 2,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "d98317c2b1e95cc9bce1c41e",
-          "_name": "3",
-          "_parent": "55cc46b4a0635083aeb4817b",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 2,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "ac5c86e9315e5de5ae5e7a7f",
-          "_name": "4",
-          "_parent": "55cc46b4a0635083aeb4817b",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 2,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "324509d64ab65eaca8fe8627",
-          "_name": "5",
-          "_parent": "55cc46b4a0635083aeb4817b",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 2,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "b3f532f75b95533d997cdaed",
-          "_name": "6",
-          "_parent": "55cc46b4a0635083aeb4817b",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 2,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "37fa65ef82af591793de760f",
-          "_name": "7",
-          "_parent": "55cc46b4a0635083aeb4817b",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 1,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "2a540d5697c75e15b4ad4cb2",
-          "_name": "8",
-          "_parent": "55cc46b4a0635083aeb4817b",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 1,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        }
-      ],
-      "Name": "LBT-1961A Load Bearing Chest Rig (Red Right Hand)",
       "Prefab": {
         "path": "equipment/aishi_rrh_20261005/55cc46b4a0635083aeb4817b/item_equipment_rig_boss_birdeye_multicam_black_aishi.bundle",
         "rcid": ""
-      },
-      "ShortName": "LBCR GE",
-      "Slots": []
+      }
     },
     "locales": {
       "en": {
         "name": "LBT-1961A Load Bearing Chest Rig (Red Right Hand)",
         "shortName": "LBCR GE",
-        "description": "A tactical load-bearing system designed to carry magazines, grenades, and special equipment, while using low-profile body armor. Manufactured by London Bridge Trading. Special configuration by Birdeye, member of the Goons squad. Red Right Hand camouflage in crimson and charcoal, with black hardware."
+        "description": "A tactical load-bearing system designed to carry magazines, grenades, and special equipment, while using low-profile body armor. Manufactured by London Bridge Trading. Special configuration by Birdeye, member of the Goons squad. Red Right Hand version."
+      },
+      "po": {
+        "name": "LBT-1961A Load Bearing Chest Rig (Red Right Hand)",
+        "shortName": "LBCR GE",
+        "description": "Um sistema tático de suporte de carga projetado para transportar carregadores, granadas e equipamentos especiais, usando armaduras de baixo perfil. Fabricado pela London Bridge Trading. Configuração especial do Birdeye, membro do grupo The Goons. Versão com pintura Red Right Hand."
       }
     },
     "handbookPriceRoubles": 63700,
@@ -5201,479 +3683,21 @@
     "parentId": "5448e5284bdc2dcb718b4567",
     "handbookParentId": "5b5f6f8786f77447ed563642",
     "overrideProperties": {
-      "CanSellOnRagfair": false,
-      "Description": "The M2 vest is created with the use of the best experience of Russian special forces operators. The versatility of the system makes it possible to use this vest both when carrying out urban tasks and when performing tasks on rough terrain. Manufactured by ANA Tactical. Red Right Hand camouflage in crimson and charcoal, with black hardware.",
-      "Grids": [
-        {
-          "_name": "1",
-          "_id": "b21408cd4e9e52fc99abde2a",
-          "_parent": "d67ad69a3dbb5f7db30448c4",
-          "_props": {
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "cellsH": 1,
-            "cellsV": 2,
-            "minCount": 0,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "isSortingTable": false
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_name": "2",
-          "_id": "d2d27b0c2efc5a419a0ebbea",
-          "_parent": "d67ad69a3dbb5f7db30448c4",
-          "_props": {
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "cellsH": 1,
-            "cellsV": 2,
-            "minCount": 0,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "isSortingTable": false
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_name": "3",
-          "_id": "ffb697312e715dcb86a3006a",
-          "_parent": "d67ad69a3dbb5f7db30448c4",
-          "_props": {
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "cellsH": 1,
-            "cellsV": 2,
-            "minCount": 0,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "isSortingTable": false
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_name": "4",
-          "_id": "13bfdcfcf0ec5e26b376a676",
-          "_parent": "d67ad69a3dbb5f7db30448c4",
-          "_props": {
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "cellsH": 1,
-            "cellsV": 2,
-            "minCount": 0,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "isSortingTable": false
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_name": "5",
-          "_id": "65b0dc44f6f452de9f330f6f",
-          "_parent": "d67ad69a3dbb5f7db30448c4",
-          "_props": {
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "cellsH": 1,
-            "cellsV": 2,
-            "minCount": 0,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "isSortingTable": false
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_name": "6",
-          "_id": "d58ac8473ce2519ab88949ec",
-          "_parent": "d67ad69a3dbb5f7db30448c4",
-          "_props": {
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "cellsH": 1,
-            "cellsV": 2,
-            "minCount": 0,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "isSortingTable": false
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_name": "7",
-          "_id": "f221575e09d25bd3922be149",
-          "_parent": "d67ad69a3dbb5f7db30448c4",
-          "_props": {
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "cellsH": 1,
-            "cellsV": 2,
-            "minCount": 0,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "isSortingTable": false
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_name": "8",
-          "_id": "3af33057b2515d359a3a3f6b",
-          "_parent": "d67ad69a3dbb5f7db30448c4",
-          "_props": {
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "cellsH": 1,
-            "cellsV": 2,
-            "minCount": 0,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "isSortingTable": false
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_name": "9",
-          "_id": "85488505339b5989a1a6b5fb",
-          "_parent": "d67ad69a3dbb5f7db30448c4",
-          "_props": {
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "cellsH": 2,
-            "cellsV": 1,
-            "minCount": 0,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "isSortingTable": false
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        }
-      ],
-      "Name": "ANA Tactical M2 plate carrier (Red Right Hand)",
       "Prefab": {
         "path": "equipment/aishi_rrh_20261005/d67ad69a3dbb5f7db30448c4/item_equipment_rig_m2_winter_multicam_black_aishi.bundle",
         "rcid": ""
-      },
-      "ShortName": "ANA M2",
-      "Slots": [
-        {
-          "_name": "Front_plate",
-          "_id": "bb3e6f815b985ae393056b21",
-          "_parent": "d67ad69a3dbb5f7db30448c4",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "656f9d5900d62bcd2e02407c",
-                  "656fa8d700d62bcd2e024084",
-                  "656fa99800d62bcd2e024088",
-                  "656fae5f7c2d57afe200c0d7",
-                  "656faf0ca0dce000a2020f77",
-                  "656fa0fb498d1b7e3e071d9c",
-                  "656fafe3498d1b7e3e071da4",
-                  "656fa76500d62bcd2e024080",
-                  "656fa25e94b480b8a500c0e0",
-                  "656fad8c498d1b7e3e071da0",
-                  "656fa61e94b480b8a500c0e8",
-                  "656fb21fa0dce000a2020f7c",
-                  "656fac30c6baea13cd07e10c",
-                  "656fb0bd7c2d57afe200c0dc",
-                  "656f9fa0498d1b7e3e071d98",
-                  "656fa53d94b480b8a500c0e4",
-                  "655746010177119f4a097ff7",
-                  "64afdcb83efdfea28601d041",
-                  "65573fa5655447403702a816",
-                  "64afc71497cf3a403c01ff38",
-                  "6943c85be2f21398e70378cc"
-                ],
-                "Plate": "656fa25e94b480b8a500c0e0",
-                "armorColliders": [],
-                "armorPlateColliders": [
-                  "Plate_Granit_SAPI_chest"
-                ],
-                "bluntDamageReduceFromSoftArmor": true,
-                "locked": false
-              }
-            ]
-          },
-          "_required": false,
-          "_mergeSlotWithChildren": true,
-          "_proto": "64479fdf9731c8fadc0642c1"
-        },
-        {
-          "_name": "Back_plate",
-          "_id": "08af69107e8650799c92959f",
-          "_parent": "d67ad69a3dbb5f7db30448c4",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "656f9d5900d62bcd2e02407c",
-                  "656fa8d700d62bcd2e024084",
-                  "656fa99800d62bcd2e024088",
-                  "656fae5f7c2d57afe200c0d7",
-                  "656faf0ca0dce000a2020f77",
-                  "656fa0fb498d1b7e3e071d9c",
-                  "656fafe3498d1b7e3e071da4",
-                  "656fa76500d62bcd2e024080",
-                  "656fa25e94b480b8a500c0e0",
-                  "656fa61e94b480b8a500c0e8",
-                  "656fad8c498d1b7e3e071da0",
-                  "656fb21fa0dce000a2020f7c",
-                  "656fac30c6baea13cd07e10c",
-                  "656fb0bd7c2d57afe200c0dc",
-                  "656f9fa0498d1b7e3e071d98",
-                  "656fa53d94b480b8a500c0e4",
-                  "65573fa5655447403702a816",
-                  "64afc71497cf3a403c01ff38",
-                  "655746010177119f4a097ff7",
-                  "64afdcb83efdfea28601d041",
-                  "6943c85be2f21398e70378cc"
-                ],
-                "Plate": "656fa25e94b480b8a500c0e0",
-                "armorColliders": [],
-                "armorPlateColliders": [
-                  "Plate_Granit_SAPI_back"
-                ],
-                "bluntDamageReduceFromSoftArmor": true,
-                "locked": false
-              }
-            ]
-          },
-          "_required": false,
-          "_mergeSlotWithChildren": true,
-          "_proto": "64479fdf9731c8fadc0642c1"
-        },
-        {
-          "_name": "Left_side_plate",
-          "_id": "369ca3d9336259639ffb2e4a",
-          "_parent": "d67ad69a3dbb5f7db30448c4",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "6557458f83942d705f0c4962",
-                  "64afdb577bb3bfe8fe03fd1d",
-                  "64afd81707e2cf40e903a316"
-                ],
-                "Plate": "64afd81707e2cf40e903a316",
-                "armorColliders": [],
-                "armorPlateColliders": [
-                  "Plate_Granit_SSAPI_side_left_high"
-                ],
-                "bluntDamageReduceFromSoftArmor": true,
-                "locked": false
-              }
-            ]
-          },
-          "_required": false,
-          "_mergeSlotWithChildren": true,
-          "_proto": "64479fdf9731c8fadc0642c1"
-        },
-        {
-          "_name": "Right_side_plate",
-          "_id": "3f7ae0e6016654cbb374c880",
-          "_parent": "d67ad69a3dbb5f7db30448c4",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "6557458f83942d705f0c4962",
-                  "64afdb577bb3bfe8fe03fd1d",
-                  "64afd81707e2cf40e903a316"
-                ],
-                "Plate": "64afd81707e2cf40e903a316",
-                "armorColliders": [],
-                "armorPlateColliders": [
-                  "Plate_Granit_SSAPI_side_right_high"
-                ],
-                "bluntDamageReduceFromSoftArmor": true,
-                "locked": false
-              }
-            ]
-          },
-          "_required": false,
-          "_mergeSlotWithChildren": true,
-          "_proto": "64479fdf9731c8fadc0642c1"
-        },
-        {
-          "_name": "Soft_armor_front",
-          "_id": "38fa31821fa1529b9b9537a8",
-          "_parent": "d67ad69a3dbb5f7db30448c4",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "6570f6e774d84423df065f21"
-                ],
-                "Plate": "6570f6e774d84423df065f21",
-                "armorColliders": [
-                  "RibcageUp",
-                  "RibcageLow"
-                ],
-                "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_required": true,
-          "_mergeSlotWithChildren": true,
-          "_proto": "64479fdf9731c8fadc0642c1"
-        },
-        {
-          "_name": "Soft_armor_back",
-          "_id": "29d275ad7a955c59af02018d",
-          "_parent": "d67ad69a3dbb5f7db30448c4",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "6570f71dd67d0309980a7af8"
-                ],
-                "Plate": "6570f71dd67d0309980a7af8",
-                "armorColliders": [
-                  "SpineDown",
-                  "SpineTop"
-                ],
-                "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_required": true,
-          "_mergeSlotWithChildren": true,
-          "_proto": "64479fdf9731c8fadc0642c1"
-        },
-        {
-          "_name": "Soft_armor_left",
-          "_id": "99ec090a9ae45646a17cf7b4",
-          "_parent": "d67ad69a3dbb5f7db30448c4",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "6570f74774d84423df065f25"
-                ],
-                "Plate": "6570f74774d84423df065f25",
-                "armorColliders": [
-                  "LeftSideChestDown"
-                ],
-                "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_required": true,
-          "_mergeSlotWithChildren": true,
-          "_proto": "64479fdf9731c8fadc0642c1"
-        },
-        {
-          "_name": "soft_armor_right",
-          "_id": "d856f111253858edb8074f0c",
-          "_parent": "d67ad69a3dbb5f7db30448c4",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "6570f79c4c65ab77a6015121"
-                ],
-                "Plate": "6570f79c4c65ab77a6015121",
-                "armorColliders": [
-                  "RightSideChestDown"
-                ],
-                "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_required": true,
-          "_mergeSlotWithChildren": true,
-          "_proto": "64479fdf9731c8fadc0642c1"
-        }
-      ],
-      "RagfairLevelToTrade": 0
+      }
     },
     "locales": {
       "en": {
         "name": "ANA Tactical M2 plate carrier (Red Right Hand)",
         "shortName": "ANA M2",
-        "description": "The M2 vest is created with the use of the best experience of Russian special forces operators. The versatility of the system makes it possible to use this vest both when carrying out urban tasks and when performing tasks on rough terrain. Manufactured by ANA Tactical. Red Right Hand camouflage in crimson and charcoal, with black hardware."
+        "description": "The M2 vest is created with the use of the best experience of Russian special forces operators. The versatility of the system makes it possible to use this vest both when carrying out urban tasks and when performing tasks on rough terrain. Equipped with additional pouches for 8 magazines. Manufactured by ANA Tactical. Red Right Hand version."
+      },
+      "po": {
+        "name": "ANA Tactical M2 plate carrier (Red Right Hand)",
+        "shortName": "ANA M2",
+        "description": "O colete M2 foi criado com a melhor experiência dos operadores das forças especiais russas. O colete foi criado com o uso da melhor experiência dos operadores das forças especiais russas. A versatilidade do sistema possibilita a utilização deste colete ao realizar tarefas municipais e ao realizar tarefas em terrenos acidentados. Equipado com bolsos adicionais para 8 carregadores. Versão com pintura Red Right Hand."
       }
     },
     "handbookPriceRoubles": 2688,
@@ -5755,425 +3779,21 @@
     "parentId": "5448e5284bdc2dcb718b4567",
     "handbookParentId": "5b5f6f8786f77447ed563642",
     "overrideProperties": {
-      "Description": "A plate carrier designed for Granit and SAPI plates, made of heavy-duty materials with IR remission. Equipped with ROC buckles for quick donning and doffing. The inner sides are made of soft fabric and equipped with vent pads for increased comfort. Manufactured by Stich Profi. Red Right Hand camouflage in crimson and charcoal, with black hardware.",
-      "Grids": [
-        {
-          "_id": "1f6d7bcbf4ae52adb89dd994",
-          "_name": "1",
-          "_parent": "badc44d55a0050fc8a847e06",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 1,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "bd60e6042ead57d780821254",
-          "_name": "2",
-          "_parent": "badc44d55a0050fc8a847e06",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 1,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "922b9b1f8f5b5bbf8f2c548f",
-          "_name": "3",
-          "_parent": "badc44d55a0050fc8a847e06",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 2,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "4744889f94735655a61fc868",
-          "_name": "4",
-          "_parent": "badc44d55a0050fc8a847e06",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 2,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "39bbe39aedc15858b2b37984",
-          "_name": "5",
-          "_parent": "badc44d55a0050fc8a847e06",
-          "_props": {
-            "cellsH": 2,
-            "cellsV": 1,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "efc10de67cd85b3bad247795",
-          "_name": "6",
-          "_parent": "badc44d55a0050fc8a847e06",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 3,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "059b16044ecc5b8684e45d0e",
-          "_name": "7",
-          "_parent": "badc44d55a0050fc8a847e06",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 3,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        }
-      ],
-      "Name": "Stich Profi Stich Defense mod.2 plate carrier (Red Right Hand)",
       "Prefab": {
         "path": "equipment/aishi_rrh_20261005/badc44d55a0050fc8a847e06/item_equipment_rig_stich_defence_mod_2_multicam_black_aishi.bundle",
         "rcid": ""
-      },
-      "ShortName": "SD mod.2",
-      "Slots": [
-        {
-          "_id": "d207bfc1a9ba506f8a0a26ac",
-          "_mergeSlotWithChildren": true,
-          "_name": "Front_plate",
-          "_parent": "badc44d55a0050fc8a847e06",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "656f9d5900d62bcd2e02407c",
-                  "656fa8d700d62bcd2e024084",
-                  "656fa99800d62bcd2e024088",
-                  "656fae5f7c2d57afe200c0d7",
-                  "656faf0ca0dce000a2020f77",
-                  "656fa0fb498d1b7e3e071d9c",
-                  "656fafe3498d1b7e3e071da4",
-                  "656fa76500d62bcd2e024080",
-                  "656fa25e94b480b8a500c0e0",
-                  "656fad8c498d1b7e3e071da0",
-                  "656fa61e94b480b8a500c0e8",
-                  "656fb21fa0dce000a2020f7c",
-                  "656fac30c6baea13cd07e10c",
-                  "656fb0bd7c2d57afe200c0dc",
-                  "656f9fa0498d1b7e3e071d98",
-                  "656fa53d94b480b8a500c0e4",
-                  "655746010177119f4a097ff7",
-                  "64afdcb83efdfea28601d041",
-                  "64afc71497cf3a403c01ff38",
-                  "65573fa5655447403702a816"
-                ],
-                "Plate": "656fafe3498d1b7e3e071da4",
-                "armorColliders": [],
-                "armorPlateColliders": [
-                  "Plate_Granit_SAPI_chest"
-                ],
-                "bluntDamageReduceFromSoftArmor": true,
-                "locked": false
-              }
-            ]
-          },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": false
-        },
-        {
-          "_id": "48ba5d19a3685e478da4bede",
-          "_mergeSlotWithChildren": true,
-          "_name": "Back_plate",
-          "_parent": "badc44d55a0050fc8a847e06",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "656f9d5900d62bcd2e02407c",
-                  "656fa8d700d62bcd2e024084",
-                  "656fae5f7c2d57afe200c0d7",
-                  "656fa99800d62bcd2e024088",
-                  "656faf0ca0dce000a2020f77",
-                  "656fa0fb498d1b7e3e071d9c",
-                  "656fafe3498d1b7e3e071da4",
-                  "656fa76500d62bcd2e024080",
-                  "656fa25e94b480b8a500c0e0",
-                  "656fad8c498d1b7e3e071da0",
-                  "656fa61e94b480b8a500c0e8",
-                  "656fb21fa0dce000a2020f7c",
-                  "656fac30c6baea13cd07e10c",
-                  "656fb0bd7c2d57afe200c0dc",
-                  "656f9fa0498d1b7e3e071d98",
-                  "656fa53d94b480b8a500c0e4",
-                  "655746010177119f4a097ff7",
-                  "64afdcb83efdfea28601d041",
-                  "65573fa5655447403702a816",
-                  "64afc71497cf3a403c01ff38"
-                ],
-                "Plate": "656fafe3498d1b7e3e071da4",
-                "armorColliders": [],
-                "armorPlateColliders": [
-                  "Plate_Granit_SAPI_back"
-                ],
-                "bluntDamageReduceFromSoftArmor": true,
-                "locked": false
-              }
-            ]
-          },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": false
-        },
-        {
-          "_id": "9884d90295e158d8847ffbad",
-          "_mergeSlotWithChildren": true,
-          "_name": "Left_side_plate",
-          "_parent": "badc44d55a0050fc8a847e06",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "6557458f83942d705f0c4962",
-                  "64afdb577bb3bfe8fe03fd1d",
-                  "64afd81707e2cf40e903a316"
-                ],
-                "Plate": "",
-                "armorColliders": [],
-                "armorPlateColliders": [
-                  "Plate_Granit_SSAPI_side_left_high"
-                ],
-                "bluntDamageReduceFromSoftArmor": true,
-                "locked": false
-              }
-            ]
-          },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": false
-        },
-        {
-          "_id": "217a5ace82c65d34b35d5225",
-          "_mergeSlotWithChildren": true,
-          "_name": "Right_side_plate",
-          "_parent": "badc44d55a0050fc8a847e06",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "6557458f83942d705f0c4962",
-                  "64afdb577bb3bfe8fe03fd1d",
-                  "64afd81707e2cf40e903a316"
-                ],
-                "Plate": "",
-                "armorColliders": [],
-                "armorPlateColliders": [
-                  "Plate_Granit_SSAPI_side_right_high"
-                ],
-                "bluntDamageReduceFromSoftArmor": true,
-                "locked": false
-              }
-            ]
-          },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": false
-        },
-        {
-          "_id": "fc9a2c71720958a8aaa1e912",
-          "_mergeSlotWithChildren": true,
-          "_name": "Soft_armor_front",
-          "_parent": "badc44d55a0050fc8a847e06",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "66b8b217c5d72b02774887b4"
-                ],
-                "Plate": "66b8b217c5d72b02774887b4",
-                "armorColliders": [],
-                "armorPlateColliders": [
-                  "Plate_Granit_SAPI_chest"
-                ],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": true
-        },
-        {
-          "_id": "c67406b9410f5848943c22a3",
-          "_mergeSlotWithChildren": true,
-          "_name": "Soft_armor_back",
-          "_parent": "badc44d55a0050fc8a847e06",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "66b8b20c5891c84aab75cb96"
-                ],
-                "Plate": "66b8b20c5891c84aab75cb96",
-                "armorColliders": [],
-                "armorPlateColliders": [
-                  "Plate_Granit_SAPI_back"
-                ],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": true
-        },
-        {
-          "_id": "279a2bbd45ba5d339cc0cff3",
-          "_mergeSlotWithChildren": true,
-          "_name": "Soft_armor_left",
-          "_parent": "badc44d55a0050fc8a847e06",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "66b8b223a7f72d197e70bed3"
-                ],
-                "Plate": "66b8b223a7f72d197e70bed3",
-                "armorColliders": [
-                  "LeftSideChestDown"
-                ],
-                "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": true
-        },
-        {
-          "_id": "bd12a6c9e4d5589d984305ea",
-          "_mergeSlotWithChildren": true,
-          "_name": "soft_armor_right",
-          "_parent": "badc44d55a0050fc8a847e06",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "66b8b22b78bbc0200425fb20"
-                ],
-                "Plate": "66b8b22b78bbc0200425fb20",
-                "armorColliders": [
-                  "RightSideChestDown"
-                ],
-                "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": true
-        }
-      ]
+      }
     },
     "locales": {
       "en": {
         "name": "Stich Profi Stich Defense mod.2 plate carrier (Red Right Hand)",
         "shortName": "SD mod.2",
-        "description": "A plate carrier designed for Granit and SAPI plates, made of heavy-duty materials with IR remission. Equipped with ROC buckles for quick donning and doffing. The inner sides are made of soft fabric and equipped with vent pads for increased comfort. Manufactured by Stich Profi. Red Right Hand camouflage in crimson and charcoal, with black hardware."
+        "description": "A plate carrier designed for Granit and SAPI plates, made of heavy-duty materials with IR remission. Equipped with ROC buckles for quick donning and doffing. The inner sides are made of soft fabric and equipped with vent pads for increased comfort. Manufactured by Stich Profi. Red Right Hand version."
+      },
+      "po": {
+        "name": "Stich Profi Stich Defense mod.2 plate carrier (Red Right Hand)",
+        "shortName": "SD mod.2",
+        "description": "Um plate carrier projetado para placas Granit e SAPI, feito de materiais resistentes com remissão de infravermelho. Equipado com fivelas ROC para vestir e retirar rapidamente. As faces internas são feitas de tecido macio e possuem almofadas de ventilação para maior conforto. Fabricado pela Stich Profi. Versão com pintura Red Right Hand."
       }
     },
     "handbookPriceRoubles": 9984,
@@ -6239,471 +3859,25 @@
     "addtoItemBlacklist": true
   },
   "be2b0419e31f55249e24ab1b": {
-    "itemTplToClone": "5c0e746986f7741453628fe5",
+    "itemTplToClone": "66b6296d7994640992013b17",
     "parentId": "5448e5284bdc2dcb718b4567",
     "handbookParentId": "5b5f6f8786f77447ed563642",
     "overrideProperties": {
-      "BluntThroughput": 0.2403,
-      "CanSellOnRagfair": false,
-      "Description": "An improved lightweight version of the standard plate carrier manufactured by Stich Profi. Red Right Hand camouflage in crimson and charcoal, with black hardware.",
-      "Grids": [
-        {
-          "_name": "1",
-          "_id": "557d67592ff35cdeb2626a64",
-          "_parent": "be2b0419e31f55249e24ab1b",
-          "_props": {
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "cellsH": 2,
-            "cellsV": 1,
-            "minCount": 0,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "isSortingTable": false
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_name": "2",
-          "_id": "2262aa49fa3b5293a10111c9",
-          "_parent": "be2b0419e31f55249e24ab1b",
-          "_props": {
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "cellsH": 2,
-            "cellsV": 1,
-            "minCount": 0,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "isSortingTable": false
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_name": "3",
-          "_id": "52f22c6f061452f794d1c479",
-          "_parent": "be2b0419e31f55249e24ab1b",
-          "_props": {
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "cellsH": 1,
-            "cellsV": 3,
-            "minCount": 0,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "isSortingTable": false
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_name": "4",
-          "_id": "95c8c19077fb59549d37e6fd",
-          "_parent": "be2b0419e31f55249e24ab1b",
-          "_props": {
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "cellsH": 1,
-            "cellsV": 3,
-            "minCount": 0,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "isSortingTable": false
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_name": "5",
-          "_id": "534f4c1c5d6952f58b5f55a5",
-          "_parent": "be2b0419e31f55249e24ab1b",
-          "_props": {
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "cellsH": 1,
-            "cellsV": 3,
-            "minCount": 0,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "isSortingTable": false
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_name": "6",
-          "_id": "e78939bbe6615f9dae1fe4c2",
-          "_parent": "be2b0419e31f55249e24ab1b",
-          "_props": {
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "cellsH": 1,
-            "cellsV": 3,
-            "minCount": 0,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "isSortingTable": false
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_name": "7",
-          "_id": "232e501d1d395578b6e2058e",
-          "_parent": "be2b0419e31f55249e24ab1b",
-          "_props": {
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "cellsH": 2,
-            "cellsV": 2,
-            "minCount": 0,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "isSortingTable": false
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        }
-      ],
-      "Height": 4,
-      "Name": "WARTECH TV-110 plate carrier (Red Right Hand)",
       "Prefab": {
         "path": "equipment/aishi_rrh_20261005/be2b0419e31f55249e24ab1b/item_equipment_rig_stich_profi_plate_carrier_v2_coyote_bp03_multicam_black_aishi.bundle",
         "rcid": ""
-      },
-      "RarityPvE": "Not_exist",
-      "RepairCost": 612,
-      "RigLayoutName": "rig_stich_profi",
-      "ShortName": "TV-110",
-      "Slots": [
-        {
-          "_name": "Front_plate",
-          "_id": "fe655f593bc75013a53a0fdb",
-          "_parent": "be2b0419e31f55249e24ab1b",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "656f9d5900d62bcd2e02407c",
-                  "656fa8d700d62bcd2e024084",
-                  "656fa99800d62bcd2e024088",
-                  "656fae5f7c2d57afe200c0d7",
-                  "656faf0ca0dce000a2020f77",
-                  "656fa76500d62bcd2e024080",
-                  "656fa0fb498d1b7e3e071d9c",
-                  "656fafe3498d1b7e3e071da4",
-                  "656fa25e94b480b8a500c0e0",
-                  "656fad8c498d1b7e3e071da0",
-                  "656fa61e94b480b8a500c0e8",
-                  "656fb21fa0dce000a2020f7c",
-                  "656fac30c6baea13cd07e10c",
-                  "656fb0bd7c2d57afe200c0dc",
-                  "656f9fa0498d1b7e3e071d98",
-                  "656fa53d94b480b8a500c0e4",
-                  "655746010177119f4a097ff7",
-                  "64afdcb83efdfea28601d041",
-                  "65573fa5655447403702a816",
-                  "64afc71497cf3a403c01ff38",
-                  "6943c85be2f21398e70378cc"
-                ],
-                "Plate": "656fa0fb498d1b7e3e071d9c",
-                "armorColliders": [],
-                "armorPlateColliders": [
-                  "Plate_Granit_SAPI_chest"
-                ],
-                "bluntDamageReduceFromSoftArmor": true,
-                "locked": false
-              }
-            ]
-          },
-          "_required": false,
-          "_mergeSlotWithChildren": true,
-          "_proto": "64479fdf9731c8fadc0642c1"
-        },
-        {
-          "_name": "Back_plate",
-          "_id": "9bdcaa6c011e56f999dd474c",
-          "_parent": "be2b0419e31f55249e24ab1b",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "656f9d5900d62bcd2e02407c",
-                  "656fa8d700d62bcd2e024084",
-                  "656fa99800d62bcd2e024088",
-                  "656fae5f7c2d57afe200c0d7",
-                  "656faf0ca0dce000a2020f77",
-                  "656fa0fb498d1b7e3e071d9c",
-                  "656fa76500d62bcd2e024080",
-                  "656fa25e94b480b8a500c0e0",
-                  "656fafe3498d1b7e3e071da4",
-                  "656fad8c498d1b7e3e071da0",
-                  "656fa61e94b480b8a500c0e8",
-                  "656fb21fa0dce000a2020f7c",
-                  "656fac30c6baea13cd07e10c",
-                  "656fb0bd7c2d57afe200c0dc",
-                  "656f9fa0498d1b7e3e071d98",
-                  "656fa53d94b480b8a500c0e4",
-                  "655746010177119f4a097ff7",
-                  "64afdcb83efdfea28601d041",
-                  "65573fa5655447403702a816",
-                  "64afc71497cf3a403c01ff38",
-                  "6943c85be2f21398e70378cc"
-                ],
-                "Plate": "656fa0fb498d1b7e3e071d9c",
-                "armorColliders": [],
-                "armorPlateColliders": [
-                  "Plate_Granit_SAPI_back"
-                ],
-                "bluntDamageReduceFromSoftArmor": true,
-                "locked": false
-              }
-            ]
-          },
-          "_required": false,
-          "_mergeSlotWithChildren": true,
-          "_proto": "64479fdf9731c8fadc0642c1"
-        },
-        {
-          "_name": "Left_side_plate",
-          "_id": "365a4a6eadce533594cdc664",
-          "_parent": "be2b0419e31f55249e24ab1b",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "6557458f83942d705f0c4962",
-                  "64afdb577bb3bfe8fe03fd1d",
-                  "64afd81707e2cf40e903a316"
-                ],
-                "Plate": "64afd81707e2cf40e903a316",
-                "armorColliders": [],
-                "armorPlateColliders": [
-                  "Plate_Granit_SSAPI_side_left_high"
-                ],
-                "bluntDamageReduceFromSoftArmor": true,
-                "locked": false
-              }
-            ]
-          },
-          "_required": false,
-          "_mergeSlotWithChildren": true,
-          "_proto": "64479fdf9731c8fadc0642c1"
-        },
-        {
-          "_name": "Right_side_plate",
-          "_id": "8ef8b717832a5ffa8ae1542f",
-          "_parent": "be2b0419e31f55249e24ab1b",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "6557458f83942d705f0c4962",
-                  "64afdb577bb3bfe8fe03fd1d",
-                  "64afd81707e2cf40e903a316"
-                ],
-                "Plate": "64afd81707e2cf40e903a316",
-                "armorColliders": [],
-                "armorPlateColliders": [
-                  "Plate_Granit_SSAPI_side_right_high"
-                ],
-                "bluntDamageReduceFromSoftArmor": true,
-                "locked": false
-              }
-            ]
-          },
-          "_required": false,
-          "_mergeSlotWithChildren": true,
-          "_proto": "64479fdf9731c8fadc0642c1"
-        },
-        {
-          "_name": "Soft_armor_front",
-          "_id": "11a1e872287554bbb8effb0f",
-          "_parent": "be2b0419e31f55249e24ab1b",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "66b884f4c5d72b02774886eb"
-                ],
-                "Plate": "66b884f4c5d72b02774886eb",
-                "armorColliders": [
-                  "RibcageUp",
-                  "RibcageLow"
-                ],
-                "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_required": true,
-          "_mergeSlotWithChildren": true,
-          "_proto": "64479fdf9731c8fadc0642c1"
-        },
-        {
-          "_name": "Soft_armor_back",
-          "_id": "1292f2d5e63555c6b86cce74",
-          "_parent": "be2b0419e31f55249e24ab1b",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "66b884eaacff495a29492849"
-                ],
-                "Plate": "66b884eaacff495a29492849",
-                "armorColliders": [
-                  "SpineDown",
-                  "SpineTop"
-                ],
-                "armorPlateColliders": [
-                  "Plate_Granit_SAPI_back"
-                ],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_required": true,
-          "_mergeSlotWithChildren": true,
-          "_proto": "64479fdf9731c8fadc0642c1"
-        },
-        {
-          "_name": "Soft_armor_left",
-          "_id": "0cde13fea0a8549b9d6b781a",
-          "_parent": "be2b0419e31f55249e24ab1b",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "66b8851678bbc0200425fa03"
-                ],
-                "Plate": "66b8851678bbc0200425fa03",
-                "armorColliders": [
-                  "LeftSideChestDown"
-                ],
-                "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_required": true,
-          "_mergeSlotWithChildren": true,
-          "_proto": "64479fdf9731c8fadc0642c1"
-        },
-        {
-          "_name": "soft_armor_right",
-          "_id": "835622d4e58a56ec83e0905c",
-          "_parent": "be2b0419e31f55249e24ab1b",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "66b88521a7f72d197e70be3b"
-                ],
-                "Plate": "66b88521a7f72d197e70be3b",
-                "armorColliders": [
-                  "RightSideChestDown"
-                ],
-                "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_required": true,
-          "_mergeSlotWithChildren": true,
-          "_proto": "64479fdf9731c8fadc0642c1"
-        },
-        {
-          "_name": "Groin",
-          "_id": "ebfb1f555ba852daac103ead",
-          "_parent": "be2b0419e31f55249e24ab1b",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "66b884fd7994640992013b37"
-                ],
-                "Plate": "66b884fd7994640992013b37",
-                "armorColliders": [
-                  "Pelvis"
-                ],
-                "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_required": true,
-          "_mergeSlotWithChildren": true,
-          "_proto": "64479fdf9731c8fadc0642c1"
-        }
-      ],
-      "Weight": 2.2,
-      "Width": 3,
-      "mousePenalty": -2,
-      "speedPenaltyPercent": -4,
-      "weaponErgonomicPenalty": -2,
-      "RagfairLevelToTrade": 0
+      }
     },
     "locales": {
       "en": {
-        "name": "WARTECH TV-110 plate carrier (Red Right Hand)",
-        "shortName": "TV-110",
-        "description": "An improved lightweight version of the standard plate carrier manufactured by Stich Profi. Red Right Hand camouflage in crimson and charcoal, with black hardware."
+        "name": "Stich Profi Plate Carrier V2 (Red Right Hand)",
+        "shortName": "SP PC V2",
+        "description": "An improved lightweight version of the standard plate carrier manufactured by Stich Profi. Red Right Hand version."
+      },
+      "po": {
+        "name": "Stich Profi Plate Carrier V2 (Red Right Hand)",
+        "shortName": "SP PC V2",
+        "description": "Uma versão leve aprimorada do plate carrier padrão fabricado pela Stich Profi. Versão com pintura Red Right Hand."
       }
     },
     "handbookPriceRoubles": 3513,
@@ -6787,107 +3961,26 @@
     "addtoItemBlacklist": true
   },
   "43b0e1422f7d59b8ad3d8a0b": {
-    "itemTplToClone": "5aa7e4a4e5b5b000137b76f2",
+    "itemTplToClone": "69e24f4f9e6ca1b32508bfbc",
     "parentId": "57bef4c42459772e8d35a53b",
     "handbookParentId": "5b5f704686f77447ec5d76d7",
     "overrideProperties": {
-      "Grids": [],
-      "Slots": [],
-      "AnimationVariantsNumber": 0,
       "BackgroundColor": "default",
-      "CanRequireOnRagfair": false,
-      "CanSellOnRagfair": true,
-      "ConflictingItems": [],
-      "Description": "A helmet cover for Team Wendy EXFIL series helmets. The MultiCam Black camouflage is intended for night-time operations. Red Right Hand camouflage in crimson and charcoal, with black hardware.",
-      "DiscardLimit": -1,
-      "DiscardingBlock": false,
-      "ExamineExperience": 4,
-      "ExamineTime": 1,
-      "ExaminedByDefault": true,
-      "ExtraSizeDown": 0,
-      "ExtraSizeForceAdd": false,
-      "ExtraSizeLeft": 0,
-      "ExtraSizeRight": 0,
-      "ExtraSizeUp": 0,
-      "Height": 1,
-      "HideEntrails": false,
-      "InsuranceDisabled": false,
-      "IsAlwaysAvailableForInsurance": false,
-      "IsLockedafterEquip": false,
-      "IsSecretExitRequirement": false,
-      "IsSpecialSlotOnly": false,
-      "IsUnbuyable": false,
-      "IsUndiscardable": false,
-      "IsUngivable": false,
-      "IsUnremovable": false,
-      "IsUnsaleable": false,
-      "ItemSound": "gear_generic",
-      "LeftHandItem": false,
-      "LootExperience": 20,
-      "MergesWithChildren": true,
-      "Name": "Team Wendy EXFIL helmet cover (Red Right Hand)",
-      "NotShownInSlot": false,
       "Prefab": {
         "path": "equipment/aishi_rrh_20261005/43b0e1422f7d59b8ad3d8a0b/item_equipment_helmet_wedge_boss_cover.bundle",
         "rcid": ""
-      },
-      "QuestItem": false,
-      "QuestStashMaxCount": 0,
-      "RagFairCommissionModifier": 1,
-      "RagfairLevelToTrade": 0,
-      "RarityPvE": "Rare",
-      "RepairCost": 149,
-      "RepairSpeed": 10,
-      "ShortName": "EXFIL",
-      "StackMaxSize": 1,
-      "StackObjectsCount": 1,
-      "Unlootable": false,
-      "UnlootableFromSide": [],
-      "UnlootableFromSlot": "FirstPrimaryWeapon",
-      "UsePrefab": {
-        "path": "",
-        "rcid": ""
-      },
-      "Weight": 0.1,
-      "Width": 1,
-      "CanPutIntoDuringTheRaid": true,
-      "CantRemoveFromSlotsDuringRaid": [],
-      "ForbidMissingVitalParts": false,
-      "ForbidNonEmptyContainers": false,
-      "BlocksEarpiece": false,
-      "BlocksEyewear": false,
-      "BlocksFaceCover": false,
-      "BlocksHeadwear": false,
-      "ArmorMaterial": "Aramid",
-      "ArmorType": "None",
-      "BlindnessProtection": 0,
-      "BluntThroughput": 0,
-      "DeafStrength": "None",
-      "Durability": 1,
-      "FaceShieldComponent": false,
-      "FaceShieldMask": "NoMask",
-      "HasHinge": false,
-      "Indestructibility": 0.9,
-      "MaterialType": "Helmet",
-      "MaxDurability": 1,
-      "MetascoreGroup": "Defence",
-      "RicochetParams": {
-        "x": 0,
-        "y": 0,
-        "z": 0
-      },
-      "armorClass": "0",
-      "armorColliders": [],
-      "armorPlateColliders": [],
-      "mousePenalty": 0,
-      "speedPenaltyPercent": 0,
-      "weaponErgonomicPenalty": 0
+      }
     },
     "locales": {
       "en": {
         "name": "Team Wendy EXFIL helmet cover (Red Right Hand)",
         "shortName": "EXFIL",
-        "description": "A helmet cover for Team Wendy EXFIL series helmets. The MultiCam Black camouflage is intended for night-time operations. Red Right Hand camouflage in crimson and charcoal, with black hardware."
+        "description": "A helmet cover for Team Wendy EXFIL series helmets. The Red Right Hand camouflage is intended for night-time operations."
+      },
+      "po": {
+        "name": "Team Wendy EXFIL helmet cover (Red Right Hand)",
+        "shortName": "EXFIL",
+        "description": "Uma capa para capacetes da série EXFIL da Team Wendy. A camuflagem Red Right Hand é destinada a operações noturnas."
       }
     },
     "addtoInventorySlots": [],
@@ -7068,286 +4161,21 @@
     "parentId": "5448e5284bdc2dcb718b4567",
     "handbookParentId": "5b5f6f8786f77447ed563642",
     "overrideProperties": {
-      "Description": "A custom-made chest rig for wearing on top of body armor in urban operations. Sturdy and versatile, it features both MOLLE and ALICE attachment systems. Red Right Hand camouflage in crimson and charcoal, with black hardware.",
-      "Grids": [
-        {
-          "_id": "6b600993029c56a39ac5c855",
-          "_name": "1",
-          "_parent": "3d4db03445b9519c8b551175",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 2,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "8fc548bef8125078a30e54eb",
-          "_name": "2",
-          "_parent": "3d4db03445b9519c8b551175",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 2,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "0a0d9db01676548abc8df870",
-          "_name": "3",
-          "_parent": "3d4db03445b9519c8b551175",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 2,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "5cf7a4da76d9575297c5453c",
-          "_name": "4",
-          "_parent": "3d4db03445b9519c8b551175",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 2,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "b02cbbf8196d5d8f862f3104",
-          "_name": "5",
-          "_parent": "3d4db03445b9519c8b551175",
-          "_props": {
-            "cellsH": 2,
-            "cellsV": 2,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "014cc0547e6e54bcb14a0130",
-          "_name": "6",
-          "_parent": "3d4db03445b9519c8b551175",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 1,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "ceaee8a96aad57479114f503",
-          "_name": "7",
-          "_parent": "3d4db03445b9519c8b551175",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 1,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "cbeae60cebb353c48b146bea",
-          "_name": "8",
-          "_parent": "3d4db03445b9519c8b551175",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 1,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "1178636fb9b15033ad34d602",
-          "_name": "9",
-          "_parent": "3d4db03445b9519c8b551175",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 1,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "3f0b8c60d0a45605a4130390",
-          "_name": "10",
-          "_parent": "3d4db03445b9519c8b551175",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 2,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "52a88db2b4d95bbea3bb875c",
-          "_name": "11",
-          "_parent": "3d4db03445b9519c8b551175",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 2,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        }
-      ],
-      "Name": "BlackRock chest rig (Red Right Hand)",
       "Prefab": {
         "path": "equipment/aishi_rrh_20261005/3d4db03445b9519c8b551175/item_equipment_rig_blackrock_multicam_black_aishi.bundle",
         "rcid": ""
-      },
-      "ShortName": "BlackRock",
-      "Slots": []
+      }
     },
     "locales": {
       "en": {
         "name": "BlackRock chest rig (Red Right Hand)",
         "shortName": "BlackRock",
-        "description": "A custom-made chest rig for wearing on top of body armor in urban operations. Sturdy and versatile, it features both MOLLE and ALICE attachment systems. Red Right Hand camouflage in crimson and charcoal, with black hardware."
+        "description": "A custom-made chest rig for wearing on top of body armor in urban operations. Sturdy and versatile, it features both MOLLE and ALICE attachment systems. Red Right Hand version."
+      },
+      "po": {
+        "name": "BlackRock chest rig (Red Right Hand)",
+        "shortName": "BlackRock",
+        "description": "Equipamento artesanal de peito para uso em armaduras de operações urbanas. Robusto e versátil, possui sistemas de encaixe MOLLE e ALICE. Versão com pintura Red Right Hand."
       }
     },
     "handbookPriceRoubles": 52910,
@@ -7364,104 +4192,21 @@
     "parentId": "5448e54d4bdc2dcc718b4568",
     "handbookParentId": "5b5f701386f774093f2ecf0f",
     "overrideProperties": {
-      "Description": "A plate carrier by Hexatac. A minimalistic version designed to be used with chest rigs. Red Right Hand camouflage in crimson and charcoal, with black hardware.",
-      "Grids": [],
-      "Name": "Hexatac HPC Plate Carrier (Red Right Hand)",
       "Prefab": {
         "path": "equipment/aishi_rrh_20261005/604f6781e72f590f9f1e65b0/item_equipment_armor_hexatac_blackcamo_aishi.bundle",
         "rcid": ""
-      },
-      "ShortName": "HPC",
-      "Slots": [
-        {
-          "_id": "d490f610c6f95159ab289d3d",
-          "_mergeSlotWithChildren": true,
-          "_name": "Front_plate",
-          "_parent": "604f6781e72f590f9f1e65b0",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "656f9d5900d62bcd2e02407c",
-                  "656fa8d700d62bcd2e024084",
-                  "656fa99800d62bcd2e024088",
-                  "656fae5f7c2d57afe200c0d7",
-                  "656faf0ca0dce000a2020f77",
-                  "656fafe3498d1b7e3e071da4",
-                  "656fa0fb498d1b7e3e071d9c",
-                  "656fa76500d62bcd2e024080",
-                  "656fad8c498d1b7e3e071da0",
-                  "656fa25e94b480b8a500c0e0",
-                  "656fa61e94b480b8a500c0e8",
-                  "656fb21fa0dce000a2020f7c",
-                  "656fac30c6baea13cd07e10c",
-                  "656fb0bd7c2d57afe200c0dc",
-                  "656f9fa0498d1b7e3e071d98",
-                  "656fa53d94b480b8a500c0e4",
-                  "655746010177119f4a097ff7",
-                  "64afdcb83efdfea28601d041"
-                ],
-                "Plate": "656fae5f7c2d57afe200c0d7",
-                "armorColliders": [],
-                "armorPlateColliders": [
-                  "Plate_Granit_SAPI_chest"
-                ],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": false
-              }
-            ]
-          },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": false
-        },
-        {
-          "_id": "728c68c9ad6d5eb4902c37ec",
-          "_mergeSlotWithChildren": true,
-          "_name": "Back_plate",
-          "_parent": "604f6781e72f590f9f1e65b0",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "656f9d5900d62bcd2e02407c",
-                  "656fa8d700d62bcd2e024084",
-                  "656fa99800d62bcd2e024088",
-                  "656fae5f7c2d57afe200c0d7",
-                  "656faf0ca0dce000a2020f77",
-                  "656fa0fb498d1b7e3e071d9c",
-                  "656fafe3498d1b7e3e071da4",
-                  "656fa25e94b480b8a500c0e0",
-                  "656fa76500d62bcd2e024080",
-                  "656fad8c498d1b7e3e071da0",
-                  "656fa61e94b480b8a500c0e8",
-                  "656fb21fa0dce000a2020f7c",
-                  "656fac30c6baea13cd07e10c",
-                  "656fb0bd7c2d57afe200c0dc",
-                  "656f9fa0498d1b7e3e071d98",
-                  "656fa53d94b480b8a500c0e4",
-                  "655746010177119f4a097ff7",
-                  "64afdcb83efdfea28601d041"
-                ],
-                "Plate": "656fae5f7c2d57afe200c0d7",
-                "armorColliders": [],
-                "armorPlateColliders": [
-                  "Plate_Granit_SAPI_back"
-                ],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": false
-              }
-            ]
-          },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": false
-        }
-      ]
+      }
     },
     "locales": {
       "en": {
         "name": "Hexatac HPC Plate Carrier (Red Right Hand)",
         "shortName": "HPC",
-        "description": "A plate carrier by Hexatac. A minimalistic version designed to be used with chest rigs. Red Right Hand camouflage in crimson and charcoal, with black hardware."
+        "description": "A plate carrier by Hexatac. A minimalistic version designed to be used with chest rigs. Red Right Hand version."
+      },
+      "po": {
+        "name": "Hexatac HPC Plate Carrier (Red Right Hand)",
+        "shortName": "HPC",
+        "description": "Porta blindagem simples da empresa Hexatac. O design mais minimalista, feito para usar com veste tática. Versão com pintura Red Right Hand."
       }
     },
     "handbookPriceRoubles": 70717,

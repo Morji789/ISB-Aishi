@@ -10,7 +10,9 @@
       },
       "Width": 2,
       "Weight": 19.25,
-      "Grids": []
+      "Grids": [],
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {

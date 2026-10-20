@@ -32,6 +32,7 @@ namespace AishiKeys
         private static void ClearResolvedDoors(Scene scene, LoadSceneMode mode) => ClearResolvedDoors(scene);
         private static void ClearResolvedDoors(Scene scene)
         {
+            MasterKey.MasterKeyHelper.ResetDoorAssignments();
             ResolvedDoors.Clear();
             nextDoorScan = 0f;
         }
@@ -140,7 +141,7 @@ namespace AishiKeys
 
         internal static bool TryApplyAuthoritativeDoorState(WorldInteractiveObject door, int authorityState)
         {
-            if (door == null)
+            if (door == null || !MasterKey.MasterKeyHelper.HasAssignedKey(door))
                 return false;
             EDoorState targetState = ResolveFallbackDoorState(authorityState);
             if (door.DoorState == targetState)

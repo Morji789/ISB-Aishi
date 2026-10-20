@@ -12,7 +12,8 @@
       "Weight": 0.05,
       "BackgroundColor": "yellow",
       "DiscardLimit": -1,
-      "Grids": []
+      "Grids": [],
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -112,18 +113,19 @@
       "MaximumNumberOfUsage": 2,
       "Weight": 0.18,
       "ItemSound": "generic",
-      "Grids": []
+      "Grids": [],
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
-        "name": "Modified low-frequency battery",
-        "shortName": "LF Battery",
-        "description": "Two charges. Powers the isolated office door and safe readers in Labs. Requires a toolset, which is not consumed."
+        "name": "Modified GreenBat lithium battery",
+        "shortName": "V3",
+        "description": "A modified battery capable of delivering a high enough electrical discharge to temporarily power devices. Highly volatile and sensitive."
       },
       "po": {
-        "name": "Bateria de baixa frequência modificada",
-        "shortName": "Bateria BF",
-        "description": "Duas cargas. Alimenta os leitores isolados da porta e do cofre do escritório da Labs. Exige um toolset, que não é consumido."
+        "name": "Bateria GreenBat de lítio modificada",
+        "shortName": "V3",
+        "description": "Uma bateria modificada para ser capaz de causar uma descarga elétrica suficiente para energizar temporariamente dispositivos. Altamente volátil e sensível."
       }
     },
     "fleaPriceRoubles": 100000,

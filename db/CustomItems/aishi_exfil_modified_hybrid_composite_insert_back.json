@@ -31,6 +31,10 @@
     "fleaPriceRoubles": 18000,
     "addtoBots": false,
     "addtoTraders": false,
-    "addtoStaticLootContainers": false
+    "addtoStaticLootContainers": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "helmet_back"
+    ]
   }
 }

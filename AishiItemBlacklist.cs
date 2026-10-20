@@ -44,7 +44,9 @@ public sealed class AishiItemBlacklistPatch(ModHelper modHelper, ILogger<AishiIt
         try
         {
             Policy = AishiItemBlacklist.Load(root);
+            Policy.TemplateExists = id => itemHelper.GetItem(new MongoId(id)).Key;
             Policy.ContainerRepair = RepairContainer;
+            Policy.AmmoBoxRepair = RepairAmmoBoxes;
             var harmony = new Harmony(HarmonyId);
             var generation = AccessTools.Method(typeof(BotGenerator), "GenerateBot") ?? throw new MissingMethodException("BotGenerator.GenerateBot");
             var prepared = AccessTools.Method(typeof(BotGenerator), nameof(BotGenerator.PrepareAndGenerateBot)) ?? throw new MissingMethodException("BotGenerator.PrepareAndGenerateBot");
@@ -53,6 +55,7 @@ public sealed class AishiItemBlacklistPatch(ModHelper modHelper, ILogger<AishiIt
             harmony.Patch(prepared, postfix: new HarmonyMethod(typeof(AishiItemBlacklistPatch), nameof(FilterGenerated)) { priority = Priority.Last, after = Owners(prepared) });
             harmony.Patch(batch, postfix: new HarmonyMethod(typeof(AishiItemBlacklistPatch), nameof(FilterBatch)) { priority = Priority.Last, after = Owners(batch) });
             InstallWorldGuards(harmony);
+            AishiRepeatableBlacklist.Install(harmony);
         }
         catch (Exception exception)
         {
@@ -61,6 +64,23 @@ public sealed class AishiItemBlacklistPatch(ModHelper modHelper, ILogger<AishiIt
         }
 
         return Task.CompletedTask;
+    }
+
+    private void RepairAmmoBoxes(List<Item> inventory, bool unrestricted)
+    {
+        foreach (var parent in inventory.ToArray())
+        {
+            var template = itemHelper.GetItem(parent.Template).Value;
+            var stack = template?.Properties?.StackSlots?.FirstOrDefault();
+            if (stack?.MaxCount <= 0 || stack?.Properties?.Filters?.FirstOrDefault()?.Filter?.FirstOrDefault() is not MongoId cartridge ||
+                cartridge.ToString() == "000000000000000000000000" || !itemHelper.GetItem(cartridge).Key ||
+                !unrestricted && (Policy.Contains(parent.Template.ToString()) || Policy.Contains(cartridge.ToString())) ||
+                inventory.Any(item => item.ParentId == parent.Id.ToString() && item.SlotId == "cartridges"))
+                continue;
+            var filled = new List<Item> { parent };
+            itemHelper.AddCartridgesToAmmoBox(filled, template!);
+            inventory.AddRange(filled.Skip(1));
+        }
     }
 
     private void RepairContainer(List<Item> inventory, Item parent)
@@ -182,6 +202,8 @@ public sealed class AishiItemBlacklist
     public bool AllowBlackDivision { get; private set; } = true;
     public IReadOnlySet<string> ItemIds => blocked;
     public Action<List<Item>, Item>? ContainerRepair { get; set; }
+    public Action<List<Item>, bool>? AmmoBoxRepair { get; set; }
+    public Func<string, bool>? TemplateExists { get; set; }
 
     public static AishiItemBlacklist Load(string root)
     {
@@ -327,7 +349,7 @@ public sealed class AishiItemBlacklist
             id = clone;
         }
 
-        return valid.Contains(id) ? id : null;
+        return (TemplateExists?.Invoke(id) ?? valid.Contains(id)) ? id : null;
     }
 
     public void FilterPools(BotType template, string? role)
@@ -353,10 +375,20 @@ public sealed class AishiItemBlacklist
         if (inventory.Mods != null)
         {
             foreach (var id in inventory.Mods.Keys.Where(id => blocked.Contains(id.ToString())).ToArray())
+            {
+                var replacement = Replacement(id.ToString());
+                if (replacement != null && !inventory.Mods.ContainsKey(replacement))
+                    inventory.Mods[replacement] = inventory.Mods[id];
                 inventory.Mods.Remove(id);
+            }
             foreach (var slots in inventory.Mods.Values)
                 foreach (var pool in slots.Values)
-                    pool.RemoveWhere(id => blocked.Contains(id.ToString()));
+                    foreach (var id in pool.Where(id => blocked.Contains(id.ToString())).ToArray())
+                    {
+                        pool.Remove(id);
+                        var replacement = Replacement(id.ToString());
+                        if (replacement != null) pool.Add(replacement);
+                    }
         }
     }
 
@@ -385,10 +417,9 @@ public sealed class AishiItemBlacklist
         {
             if (point?.Items == null)
                 continue;
-            if (preserveExplicit && (point.Id?.StartsWith("ISB_CB_LOOT_", StringComparison.Ordinal) == true || point.Id?.StartsWith("ISB_CB_CASE_", StringComparison.Ordinal) == true || point.Items.Any(item => item.Id.ToString() == point.Root && questItems.Contains(item.Template.ToString()))))
-                continue;
+            bool preserve = preserveExplicit && (point.Id?.StartsWith("ISB_CB_LOOT_", StringComparison.Ordinal) == true || point.Id?.StartsWith("ISB_CB_CASE_", StringComparison.Ordinal) == true || point.Items.Any(item => item.Id.ToString() == point.Root && questItems.Contains(item.Template.ToString())));
             var rows = point.Items.ToList();
-            var removed = rows.Where(item => blocked.Contains(item.Template.ToString())).Select(item => item.Id.ToString()).ToHashSet(StringComparer.OrdinalIgnoreCase);
+            var removed = preserve ? new HashSet<string>(StringComparer.OrdinalIgnoreCase) : rows.Where(item => blocked.Contains(item.Template.ToString())).Select(item => item.Id.ToString()).ToHashSet(StringComparer.OrdinalIgnoreCase);
             bool changed;
             do
             {
@@ -404,7 +435,19 @@ public sealed class AishiItemBlacklist
                 continue;
             }
 
-            point.Items = rows.Where(item => !removed.Contains(item.Id.ToString())).ToList();
+            var filtered = rows.Where(item => !removed.Contains(item.Id.ToString())).ToList();
+            if (AmmoBoxRepair != null)
+            {
+                var expanded = filtered.Cast<Item>().ToList();
+                AmmoBoxRepair(expanded, preserve);
+                foreach (var cartridge in expanded.Skip(filtered.Count))
+                    filtered.Add(new SPTarkov.Server.Core.Models.Eft.Common.SptLootItem
+                    {
+                        Id = cartridge.Id, Template = cartridge.Template, ParentId = cartridge.ParentId,
+                        SlotId = cartridge.SlotId, Location = cartridge.Location, Upd = cartridge.Upd
+                    });
+            }
+            point.Items = filtered;
         }
 
         location.Loot = points;
@@ -412,9 +455,14 @@ public sealed class AishiItemBlacklist
 
     public void Sanitize(BotBase? bot, string? role)
     {
-        if (Allows(role) || !enabled || bot?.Inventory?.Items == null)
+        if (!enabled || bot?.Inventory?.Items == null)
             return;
         var items = bot.Inventory.Items;
+        if (Allows(role))
+        {
+            AmmoBoxRepair?.Invoke(items, true);
+            return;
+        }
         List<Item>? replaced = null;
         var removed = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
         foreach (var item in items)
@@ -445,5 +493,6 @@ public sealed class AishiItemBlacklist
             foreach (var parent in replaced)
                 if (items.Contains(parent))
                     ContainerRepair(items, parent);
+        AmmoBoxRepair?.Invoke(items, false);
     }
 }

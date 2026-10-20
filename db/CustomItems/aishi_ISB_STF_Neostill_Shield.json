@@ -18,7 +18,8 @@
         "rcid": ""
       },
       "Weight": 1.32,
-      "Grids": []
+      "Grids": [],
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {

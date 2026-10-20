@@ -20,6 +20,8 @@ namespace AishiKeys
 
         public void Unlock()
         {
+            if (!MasterKeyHelper.HasAssignedKey(_door))
+                return;
             string templateId = _keyComponent != null && _keyComponent.Item != null ? _keyComponent.Item.TemplateId : string.Empty;
             if (AishiKeysMod.TryHandleSynchronizedUnlock(_door, _owner, templateId, _keyComponent, false))
             {

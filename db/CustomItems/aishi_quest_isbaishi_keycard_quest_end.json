@@ -11,7 +11,8 @@
         "path": "quests/quest_item_tgl_masterkey.bundle",
         "rcid": ""
       },
-      "Grids": []
+      "Grids": [],
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {

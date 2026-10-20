@@ -7,11 +7,7 @@
       "Prefab": {
         "path": "equipment/item_equipment_armor_iotv_full_nightops.bundle",
         "rcid": ""
-      },
-      "Name": "IOTV Gen4 body armor (Full Protection Kit, Black Camo)",
-      "ShortName": "Gen4 Full",
-      "Description": "The Improved Outer Tactical Vest (IOTV) Gen IV is designed to permit maximum freedom of movement required to assume correct firing positions with the agility to execute and maneuver tasks. Optimal design characteristics ensure the best possible weight distribution of both the ballistic body armor system as well as additional load bearing equipment, thus providing enhanced comfort, wear duration, and mobility. Full protection kit. (Black Camo)",
-      "CanSellOnRagfair": false
+      }
     },
     "weaponPresets": [
       {
@@ -112,12 +108,12 @@
       "en": {
         "name": "IOTV Gen4 body armor (Full Protection Kit, Black Camo)",
         "shortName": "Gen4 Full",
-        "description": "The Improved Outer Tactical Vest (IOTV) Gen IV is designed to permit maximum freedom of movement required to assume correct firing positions with the agility to execute and maneuver tasks. Optimal design characteristics ensure the best possible weight distribution of both the ballistic body armor system as well as additional load bearing equipment, thus providing enhanced comfort, wear duration, and mobility. Full protection kit. (Black Camo)"
+        "description": "The Improved Outer Tactical Vest (IOTV) Gen IV is designed to permit maximum freedom of movement required to assume correct firing positions with the agility to execute and maneuver tasks. Optimal design characteristics ensure the best possible weight distribution of both the ballistic body armor system as well as additional load bearing equipment, thus providing enhanced comfort, wear duration, and mobility. Full protection kit. Black Camo version."
       },
       "po": {
-        "name": "Armadura Gen4 IOTV (Proteção completa, Camuflagem Preta)",
-        "shortName": "Gen4 Completo",
-        "description": "O Colete Tático Externo Improvisado (CTEI) Gen IV foi projetado para permitir máxima movimentação necessária para a posição correta de tiro com agilidade na execução. Projetado com características para assegurar a melhor distribuição de peso da armadura balística corporal e também o peso dos equipamentos carregados, providenciando melhor conforto, maior duração de uso e mobilidade. Conjunto de proteção total. (Camuflagem Preta)"
+        "name": "IOTV Gen4 body armor (Full Protection Kit, Black Camo)",
+        "shortName": "Gen4 Full",
+        "description": "O Colete Tático Externo Improvisado (CTEI) Gen IV foi projetado para permitir máxima movimentação necessária para a posição correta de tiro com agilidade na execução. Projetado com características para assegurar a melhor distribuição de peso da armadura balística corporal e também o peso dos equipamentos carregados, providenciando melhor conforto, maior duração de uso e mobilidade. Conjunto de proteção total. Versão com pintura Black Camo."
       }
     },
     "addtoTraders": false,

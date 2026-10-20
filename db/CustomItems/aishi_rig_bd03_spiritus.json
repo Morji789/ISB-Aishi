@@ -4,23 +4,11 @@
     "parentId": "5448e5284bdc2dcb718b4567",
     "handbookParentId": "5b5f6f8786f77447ed563642",
     "overrideProperties": {
-      "QuestItem": false,
-      "ExaminedByDefault": false,
-      "IsUnsaleable": false,
-      "CanSellOnRagfair": false,
-      "CanRequireOnRagfair": false,
-      "addtoItemBlacklist": true,
       "BackgroundColor": "default",
       "Prefab": {
         "path": "equipment/item_equipment_rig_bd3_spiritus_black.bundle",
         "rcid": ""
-      },
-      "Width": 4,
-      "Height": 4,
-      "Weight": 5.1,
-      "Name": "Spiritus Systems LV-119 Plate Carrier V2 (USEC Intelligence Support Bureau)",
-      "ShortName": "LV-119 V2",
-      "Description": "A highly customizable modular plate carrier by Spiritus Systems, built for maximum comfort in combat. Black version. This setup is equipped with breaching charges and multiple GP pouches for maximum equipment flexibility. (ISB SOF II)"
+      }
     },
     "addWeaponPreset": true,
     "weaponPresets": [
@@ -67,12 +55,12 @@
       "en": {
         "name": "Spiritus Systems LV-119 Plate Carrier V2 (USEC Intelligence Support Bureau)",
         "shortName": "LV-119 V2",
-        "description": "A highly customizable modular plate carrier by Spiritus Systems, built for maximum comfort in combat. Black version. This setup is equipped with breaching charges and multiple GP pouches for maximum equipment flexibility. (ISB SOF II)"
+        "description": "A highly customizable modular plate carrier by Spiritus Systems, built for maximum comfort in combat. USEC Intelligence Support Bureau version. This setup is equipped with breaching charges and multiple GP pouches for maximum equipment flexibility."
       },
       "po": {
-        "name": "Colete Tático Spiritus Systems LV-119 (Agência de Suporte a Inteligência da USEC - V2)",
+        "name": "Spiritus Systems LV-119 Plate Carrier V2 (USEC Intelligence Support Bureau)",
         "shortName": "LV-119 V2",
-        "description": "Um plate carrier modular altamente personalizável da Spiritus Systems, desenvolvido para oferecer o máximo de conforto em combate. Versão preta. Esta configuração inclui cargas de arrombamento e vários bolsos de uso geral para máxima flexibilidade de equipamentos. (ISB SOF II)"
+        "description": "Um plate carrier modular altamente personalizável da Spiritus Systems, desenvolvido para oferecer o máximo de conforto em combate. Versão com pintura USEC Intelligence Support Bureau. Esta configuração é equipada com cargas de arrombamento e vários bolsos de uso geral para oferecer máxima flexibilidade no transporte de equipamentos."
       }
     },
     "fleaPriceRoubles": 72937,

@@ -4,17 +4,11 @@
     "parentId": "5448e5284bdc2dcb718b4567",
     "handbookParentId": "5b5f6f8786f77447ed563642",
     "overrideProperties": {
-      "CanSellOnRagfair": false,
-      "InsuranceDisabled": true,
-      "addtoItemBlacklist": true,
       "BackgroundColor": "yellow",
       "Prefab": {
         "path": "equipment/item_equipment_rig_boss_blackknight_ISBV2.bundle",
         "rcid": ""
-      },
-      "Name": "Crye Precision CPC plate carrier (White Tusk Edition)",
-      "ShortName": "CPC GE",
-      "Description": "The CAGE PLATE CARRIER (CPC) offers unrivaled comfort and load support in a low profile plate carrier configuration. The system supports a range of different pouches. In this case, the configuration is made by the leader of the Goons squad - Knight - for conducting assault operations with increased mobility. (White Tusk Edition)"
+      }
     },
     "addWeaponPreset": true,
     "weaponPresets": [
@@ -85,12 +79,12 @@
       "en": {
         "name": "Crye Precision CPC plate carrier (White Tusk Edition)",
         "shortName": "CPC GE",
-        "description": "The CAGE PLATE CARRIER (CPC) offers unrivaled comfort and load support in a low profile plate carrier configuration. The system supports a range of different pouches. In this case, the configuration is made by the leader of the Goons squad - Knight - for conducting assault operations with increased mobility. (White Tusk Edition)"
+        "description": "The CAGE PLATE CARRIER (CPC) offers unrivaled comfort and load support in a low profile plate carrier configuration. The system supports a range of different pouches. In this case, the configuration is made by the leader of the Goons squad - Knight - for conducting assault operations with increased mobility. White Tusk Edition version."
       },
       "po": {
-        "name": "Plate Carrier Crye Precision CPC (White Tusk Edition)",
+        "name": "Crye Precision CPC plate carrier (White Tusk Edition)",
         "shortName": "CPC GE",
-        "description": "O CAGE PLATE CARRIER (CPC) oferece conforto e suporte de carga incomparáveis em uma configuração de suporte de placa de perfil baixo. O sistema suporta uma variedade de bolsas diferentes. Neste caso, a configuração é feita para realizar operações de assalto com maior mobilidade. (White Tusk Edition)"
+        "description": "O CAGE PLATE CARRIER (CPC) oferece conforto e suporte de carga incomparáveis em uma configuração de suporte de placa de perfil baixo. O sistema suporta uma variedade de bolsas diferentes. Neste caso, a configuração é feita para realizar operações de assalto com maior mobilidade. Versão com pintura White Tusk Edition."
       }
     },
     "fleaPriceRoubles": 415900,
@@ -118,7 +112,7 @@
     "overrideProperties": {
       "PushToFleaBlacklist": true,
       "InsuranceDisabled": true,
-      "ArmorMaterial": "Ceramic",
+      "ArmorMaterial": "UHMWPE",
       "ArmorType": "Heavy",
       "BackgroundColor": "yellow",
       "armorPlateColliders": [
@@ -161,6 +155,10 @@
         "ContainerName": "",
         "Probability": 0
       }
+    ],
+    "addtoModSlots": true,
+    "modSlot": [
+      "Soft_armor_front"
     ]
   },
   "69eba4bcb69d31fe4ecceed8": {
@@ -170,7 +168,7 @@
     "overrideProperties": {
       "PushToFleaBlacklist": true,
       "InsuranceDisabled": true,
-      "ArmorMaterial": "Ceramic",
+      "ArmorMaterial": "UHMWPE",
       "ArmorType": "Heavy",
       "BackgroundColor": "yellow",
       "armorPlateColliders": [
@@ -213,6 +211,10 @@
         "ContainerName": "",
         "Probability": 0
       }
+    ],
+    "addtoModSlots": true,
+    "modSlot": [
+      "soft_armor_right"
     ]
   },
   "69eba48445c26f1f1233786e": {
@@ -222,7 +224,7 @@
     "overrideProperties": {
       "PushToFleaBlacklist": true,
       "InsuranceDisabled": true,
-      "ArmorMaterial": "Ceramic",
+      "ArmorMaterial": "UHMWPE",
       "ArmorType": "Heavy",
       "BackgroundColor": "yellow",
       "armorPlateColliders": [
@@ -265,6 +267,10 @@
         "ContainerName": "",
         "Probability": 0
       }
+    ],
+    "addtoModSlots": true,
+    "modSlot": [
+      "Soft_armor_back"
     ]
   },
   "69eba4d28181a875225d6009": {
@@ -274,7 +280,7 @@
     "overrideProperties": {
       "PushToFleaBlacklist": true,
       "InsuranceDisabled": true,
-      "ArmorMaterial": "Ceramic",
+      "ArmorMaterial": "UHMWPE",
       "ArmorType": "Heavy",
       "BackgroundColor": "yellow",
       "armorPlateColliders": [
@@ -317,6 +323,10 @@
         "ContainerName": "",
         "Probability": 0
       }
+    ],
+    "addtoModSlots": true,
+    "modSlot": [
+      "Soft_armor_left"
     ]
   }
 }

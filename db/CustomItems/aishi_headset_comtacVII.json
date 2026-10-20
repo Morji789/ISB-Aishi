@@ -85,7 +85,8 @@
         "path": "equipment/item_equipment_headset_comtac_7.bundle",
         "rcid": ""
       },
-      "Weight": 0.4
+      "Weight": 0.4,
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {

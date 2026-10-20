@@ -16,7 +16,8 @@
       "Weight": 0.8,
       "Grids": [],
       "IsSpecialSlotOnly": false,
-      "IsUnremovable": true
+      "IsUnremovable": true,
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -53,17 +54,18 @@
       "MaximumNumberOfUsage": 5,
       "Weight": 0.18,
       "ItemSound": "generic",
-      "Grids": []
+      "Grids": [],
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
         "name": "Modified GreenBat lithium battery",
-        "shortName": "GreenBat V2",
+        "shortName": "V2",
         "description": "A modified battery capable of delivering a high enough electrical discharge to temporarily power devices. Highly volatile and sensitive."
       },
       "po": {
         "name": "Bateria GreenBat de lítio modificada",
-        "shortName": "GreenBat V2",
+        "shortName": "V2",
         "description": "Uma bateria modificada para ser capaz de causar uma descarga elétrica suficiente para energizar temporariamente dispositivos. Altamente volátil e sensível."
       }
     },
@@ -88,7 +90,8 @@
         "rcid": ""
       },
       "Weight": 0.1,
-      "Grids": []
+      "Grids": [],
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -123,7 +126,8 @@
         "rcid": ""
       },
       "Weight": 0.1,
-      "Grids": []
+      "Grids": [],
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -158,7 +162,8 @@
         "rcid": ""
       },
       "Weight": 0.1,
-      "Grids": []
+      "Grids": [],
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -193,7 +198,8 @@
         "rcid": ""
       },
       "Weight": 0.1,
-      "Grids": []
+      "Grids": [],
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -228,7 +234,8 @@
         "rcid": ""
       },
       "Weight": 0.1,
-      "Grids": []
+      "Grids": [],
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -263,7 +270,8 @@
         "rcid": ""
       },
       "Weight": 0.1,
-      "Grids": []
+      "Grids": [],
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -302,7 +310,8 @@
       },
       "Height": 2,
       "Weight": 0.15,
-      "Grids": []
+      "Grids": [],
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -341,7 +350,8 @@
       },
       "Height": 2,
       "Weight": 0.15,
-      "Grids": []
+      "Grids": [],
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -380,7 +390,8 @@
       },
       "Height": 2,
       "Weight": 0.15,
-      "Grids": []
+      "Grids": [],
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -420,7 +431,8 @@
       "Width": 2,
       "Height": 2,
       "Weight": 0.15,
-      "Grids": []
+      "Grids": [],
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -459,7 +471,8 @@
       },
       "Height": 2,
       "Weight": 0.15,
-      "Grids": []
+      "Grids": [],
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -498,7 +511,8 @@
       },
       "Height": 2,
       "Weight": 0.15,
-      "Grids": []
+      "Grids": [],
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -537,7 +551,8 @@
       },
       "Height": 2,
       "Weight": 0.15,
-      "Grids": []
+      "Grids": [],
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -576,7 +591,8 @@
       },
       "Height": 2,
       "Weight": 0.15,
-      "Grids": []
+      "Grids": [],
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -615,7 +631,8 @@
       },
       "Height": 2,
       "Weight": 0.15,
-      "Grids": []
+      "Grids": [],
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -652,7 +669,8 @@
       "Width": 2,
       "Height": 2,
       "Weight": 0.43,
-      "Grids": []
+      "Grids": [],
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -691,7 +709,8 @@
       },
       "Height": 2,
       "Weight": 1.25,
-      "Grids": []
+      "Grids": [],
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -729,7 +748,8 @@
         "rcid": ""
       },
       "Weight": 0.5,
-      "Grids": []
+      "Grids": [],
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -767,7 +787,8 @@
         "rcid": ""
       },
       "Weight": 2,
-      "Grids": []
+      "Grids": [],
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -803,7 +824,9 @@
       "Width": 2,
       "Height": 1,
       "Weight": 2,
-      "Grids": []
+      "Grids": [],
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {

@@ -7,12 +7,12 @@
       "ExaminedByDefault": false,
       "PushToFleaBlacklist": true,
       "InsuranceDisabled": true,
-      "ArmorMaterial": "Ceramic",
+      "ArmorMaterial": "UHMWPE",
       "ArmorType": "Heavy",
       "BackgroundColor": "yellow",
       "armorClass": "7",
-      "Durability": 80,
-      "MaxDurability": 80,
+      "Durability": 60,
+      "MaxDurability": 60,
       "BluntThroughput": 0.05,
       "Lower75Prefab": {
         "path": "equipment/item_equipment_isb_plate_damaged.bundle",
@@ -21,7 +21,9 @@
       "Prefab": {
         "path": "equipment/item_equipment_isb_plate.bundle",
         "rcid": ""
-      }
+      },
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
     },
     "Width": 2,
     "Height": 2,
@@ -31,12 +33,12 @@
       "en": {
         "name": "ISB Experimental ESAPI Level V Ballistic Plate \"Evernight\"",
         "shortName": "ISB ESAPI V",
-        "description": "Enhanced Small Arms Protective Insert (ESAPI) is a ceramic ballistic plate for torso front and back pouches of plate carrier. This model was refined and adapted by ISB and initially tested by the operator “Evernight,” which is why it was given that name."
+        "description": "Enhanced Small Arms Protective Insert (ESAPI) is an ultra-high-molecular-weight polyethylene (UHMWPE) ballistic plate for torso front and back pouches of plate carrier. This model was refined and adapted by ISB and initially tested by the operator “Evernight,” which is why it was given that name."
       },
       "po": {
         "name": "Placa balística experimental ESAPI nível V da ISB \"Evernight\"",
         "shortName": "ESAPI V da ISB",
-        "description": "A Placa de Proteção Aprimorada contra Armas de Pequeno Calibre (ESAPI) é uma placa balística de cerâmica destinada aos bolsos dianteiro e traseiro do colete de proteção. Este modelo foi aperfeiçoado e adaptado pela ISB e testado inicialmente pelo operador “Evernight”, razão pela qual recebeu esse nome."
+        "description": "A Placa de Proteção Aprimorada contra Armas de Pequeno Calibre (ESAPI) é uma placa balística de polietileno de ultra-alto peso molecular (UHMWPE) destinada aos bolsos dianteiro e traseiro do colete de proteção. Este modelo foi aperfeiçoado e adaptado pela ISB e testado inicialmente pelo operador “Evernight”, razão pela qual recebeu esse nome."
       }
     },
     "fleaPriceRoubles": 110503,

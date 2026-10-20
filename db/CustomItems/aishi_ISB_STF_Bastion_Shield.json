@@ -37,7 +37,10 @@
           "_proto": "55d30c4c4bdc2db4468b457e",
           "_required": false
         }
-      ]
+      ],
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false,
+      "ArmorMaterial": "UHMWPE"
     },
     "locales": {
       "en": {

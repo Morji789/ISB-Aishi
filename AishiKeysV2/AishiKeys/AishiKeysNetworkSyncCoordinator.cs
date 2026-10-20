@@ -145,6 +145,8 @@ namespace AishiKeys
                 return;
             if (AishiAnomalyCurrencyNetwork.Handle(payload))
                 return;
+            if (AishiHammerheadPower.Handle(payload))
+                return;
             if (AishiAnomalyDuck.Handle(payload))
                 return;
             if (AishiAnomalyPressNetwork.Handle(payload))
@@ -288,7 +290,7 @@ namespace AishiKeys
                 return false;
             }
 
-            if (string.IsNullOrEmpty(door.KeyId))
+            if (!MasterKeyHelper.HasAssignedKey(door))
             {
                 failureReason = "door has no key identifier";
                 return false;
@@ -517,7 +519,7 @@ namespace AishiKeys
 
             if (door == null)
                 door = WorldInteractionUtils.FindInteractiveByStableId(doorId);
-            if (door == null)
+            if (!MasterKeyHelper.HasAssignedKey(door))
                 return false;
             DoorKeyOverride existing;
             if (_doorOverrides.TryGetValue(doorId, out existing))

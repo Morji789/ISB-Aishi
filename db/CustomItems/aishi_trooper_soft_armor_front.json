@@ -7,7 +7,7 @@
       "PushToFleaBlacklist": true,
       "InsuranceDisabled": true,
       "CanSellOnRagfair": false,
-      "ArmorMaterial": "Ceramic",
+      "ArmorMaterial": "UHMWPE",
       "BackgroundColor": "yellow",
       "armorClass": "4",
       "Durability": 45,
@@ -42,6 +42,10 @@
         "ContainerName": "",
         "Probability": 0
       }
+    ],
+    "addtoModSlots": true,
+    "modSlot": [
+      "Soft_armor_front"
     ]
   }
 }

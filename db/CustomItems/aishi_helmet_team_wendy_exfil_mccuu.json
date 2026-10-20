@@ -7,149 +7,18 @@
       "Prefab": {
         "path": "equipment/item_equipment_helmet_team_wendy_exfil_mccuu_aishi.bundle",
         "rcid": ""
-      },
-      "Name": "Team Wendy EXFIL Ballistic Helmet (MCCUU)",
-      "ShortName": "EXFIL (MCCUU)",
-      "Description": "One of the most recent tactical ballistic helmets with extensive customization capabilities. The EXFIL LTP (Lightweight, Tactical, Polymer) bump helmet provides impact protection for maritime environments and a stable, comfortable platform for mounting night vision and other accessories. The built-in NVG shroud utilizes an integrated Wilcox machined aluminum shroud insert. MCCUU colored version.",
-      "Slots": [
-        {
-          "_id": "e14d5589f2335b478246b2ed",
-          "_mergeSlotWithChildren": false,
-          "_name": "mod_equipment_000",
-          "_parent": "0bc36a6cebf252d986c130d4",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "5e00cfa786f77469dc6e5685",
-                  "5e01f31d86f77465cf261343",
-                  "66b5f69ea7f72d197e70bcdb",
-                  "66b5f6a28ca68c6461709ed8"
-                ],
-                "Shift": 0
-              }
-            ]
-          },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
-        },
-        {
-          "_id": "3e3761b52393509b9e1cc4bc",
-          "_mergeSlotWithChildren": false,
-          "_name": "mod_nvg",
-          "_parent": "0bc36a6cebf252d986c130d4",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "5c0558060db834001b735271",
-                  "5a16b8a9fcdbcb00165aa6ca"
-                ],
-                "Shift": 0
-              }
-            ]
-          },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
-        },
-        {
-          "_id": "67accc0f3d7c58be902c5b6f",
-          "_mergeSlotWithChildren": true,
-          "_name": "helmet_top",
-          "_parent": "0bc36a6cebf252d986c130d4",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "6551fec55d0cf82e51014288"
-                ],
-                "Plate": "6551fec55d0cf82e51014288",
-                "armorColliders": [
-                  "ParietalHead"
-                ],
-                "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": true
-        },
-        {
-          "_id": "1c1efcd1c83f518f865735aa",
-          "_mergeSlotWithChildren": true,
-          "_name": "helmet_back",
-          "_parent": "0bc36a6cebf252d986c130d4",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "655200ba0ef76cf7be09d528"
-                ],
-                "Plate": "655200ba0ef76cf7be09d528",
-                "armorColliders": [
-                  "BackHead"
-                ],
-                "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": true
-        },
-        {
-          "_id": "98a82c5a524f5925bacc6e22",
-          "_mergeSlotWithChildren": false,
-          "_name": "mod_equipment_002",
-          "_parent": "0bc36a6cebf252d986c130d4",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "049f903594a15648b85049be",
-                  "1822c6ab9077537fa6a2d0ca",
-                  "382178c7df6b54e5bfdecbd1",
-                  "41310ba059d25bc0a3e22564",
-                  "5b326dfd4d6f5ae1a307bef4",
-                  "65dba93847465e95a9ded01e",
-                  "69e24f4f9e6ca1b32508bfbc",
-                  "6a4d5879b498ae06e3582412",
-                  "6a4d5940473d4411b409b02a",
-                  "71833ecb94b354ed9af475f2",
-                  "7e4d2ec3cc9e5f87aecdf39b",
-                  "811054d359f651ae8ad48b98",
-                  "8d7e1e7c6bed52f88f7445f2",
-                  "94211dba2f9d5ccf86a65a5f",
-                  "9e3d23e969fb5a93833adb62",
-                  "ba096bc674cd5da390d00e74",
-                  "ccaab422b8a659f8a03abd5e",
-                  "d9f78d0d55ec56838b296a7b",
-                  "ea3b994c77d35701a587ee82",
-                  "f8c0d2c9c3f25528b6afff62",
-                  "43b0e1422f7d59b8ad3d8a0b"
-                ],
-                "Shift": 0
-              }
-            ]
-          },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
-        }
-      ]
+      }
     },
     "locales": {
       "en": {
         "name": "Team Wendy EXFIL Ballistic Helmet (MCCUU)",
         "shortName": "EXFIL",
-        "description": "One of the most recent tactical ballistic helmets with extensive customization capabilities. The EXFIL LTP (Lightweight, Tactical, Polymer) bump helmet provides impact protection for maritime environments and a stable, comfortable platform for mounting night vision and other accessories. The built-in NVG shroud utilizes an integrated Wilcox machined aluminum shroud insert. MCCUU colored version."
+        "description": "One of the most recent tactical ballistic helmets with extensive customization capabilities. The EXFIL LTP (Lightweight, Tactical, Polymer) bump helmet provides impact protection for maritime environments and a stable, comfortable platform for mounting night vision and other accessories. The built-in NVG shroud utilizes an integrated Wilcox machined aluminum shroud insert. MCCUU version."
       },
       "po": {
-        "name": "Capacete balístico Team Wendy EXFIL (Preta) (MCCUU)",
+        "name": "Team Wendy EXFIL Ballistic Helmet (MCCUU)",
         "shortName": "EXFIL",
-        "description": "Um dos mais recentes capacetes balísticos com uma extensa capacidade de customização. MCCUU Version."
+        "description": "Um dos mais recentes capacetes balísticos com uma extensa capacidade de customização. Versão com pintura MCCUU."
       }
     },
     "handbookPriceRoubles": 21949,

@@ -15,7 +15,8 @@
       "Grids": [],
       "Name": "ISB Special Access Keycard (White Tusk)",
       "ShortName": "WT KC",
-      "Description": "A card issued by USEC to an ISB agent during the TerraGroup operation in Tarkov. It grants a high level of access."
+      "Description": "A card issued by USEC to an ISB agent during the TerraGroup operation in Tarkov. It grants a high level of access.",
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {

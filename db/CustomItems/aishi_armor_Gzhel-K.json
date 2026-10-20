@@ -4,15 +4,10 @@
     "parentId": "5448e54d4bdc2dcc718b4568",
     "handbookParentId": "5b5f701386f774093f2ecf0f",
     "overrideProperties": {
-      "ExaminedByDefault": false,
       "Prefab": {
         "path": "equipment/item_equipment_armor_gjel_black.bundle",
         "rcid": ""
-      },
-      "Grids": [],
-      "Name": "BNTI Gzhel-K body armor (USEC Intelligence Support Bureau)",
-      "ShortName": "Gzhel-K",
-      "Description": "The Gzhel assault bulletproof vest is designed for assault units of the Ministry of Internal Affairs and other law enforcement agencies. (ISB SOF)"
+      }
     },
     "addWeaponPreset": true,
     "weaponPresets": [
@@ -89,12 +84,12 @@
       "en": {
         "name": "BNTI Gzhel-K body armor (USEC Intelligence Support Bureau)",
         "shortName": "Gzhel-K",
-        "description": "The Gzhel assault bulletproof vest is designed for assault units of the Ministry of Internal Affairs and other law enforcement agencies. (ISB SOF)"
+        "description": "The Gzhel assault bulletproof vest is designed for assault units of the Ministry of Internal Affairs and other law enforcement agencies. USEC Intelligence Support Bureau version."
       },
       "po": {
-        "name": "BNTI Gzhel-K body armor (Agência de Suporte a Inteligência da USEC)",
+        "name": "BNTI Gzhel-K body armor (USEC Intelligence Support Bureau)",
         "shortName": "Gzhel-K",
-        "description": "O colete à prova de balas Gzhel foi projetado para unidades especias do Ministério de Assuntos Internos Russos e outras agências executivas. (ISB SOF)"
+        "description": "O colete à prova de balas Gzhel foi projetado para unidades especias do Ministério de Assuntos Internos Russos e outras agências executivas. Versão com pintura USEC Intelligence Support Bureau."
       }
     },
     "fleaPriceRoubles": 95800,

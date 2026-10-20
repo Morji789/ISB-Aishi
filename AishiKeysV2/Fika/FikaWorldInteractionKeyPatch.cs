@@ -1,4 +1,5 @@
 using AishiKeysPro;
+using AishiKeys.MasterKey;
 using Comfort.Common;
 using EFT;
 using EFT.Interactive;
@@ -49,7 +50,7 @@ namespace AishiKeys.Fika
                 return;
             GameWorld world = Singleton<GameWorld>.Instance;
             WorldInteractiveObject door = world != null ? world.FindDoor(___InteractiveId) : null;
-            if (door == null)
+            if (!MasterKeyHelper.HasAssignedKey(door))
                 return;
             __state = new DoorKeyState
             {

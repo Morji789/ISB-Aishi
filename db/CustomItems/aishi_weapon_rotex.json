@@ -47,7 +47,7 @@
     "overrideProperties": {
       "IsUnsaleable": true,
       "IsUnbuyable": true,
-      "CanRequireOnRagfair": true,
+      "CanRequireOnRagfair": false,
       "addtoItemBlacklist": false,
       "Ergonomics": -2,
       "Cartridges": [
@@ -75,7 +75,8 @@
       "Prefab": {
         "path": "equipment/mag_mp7_hk_std_46x30_40_tan.bundle",
         "rcid": ""
-      }
+      },
+      "CanSellOnRagfair": false
     },
     "locales": {
       "en": {

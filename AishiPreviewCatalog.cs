@@ -132,7 +132,7 @@ public sealed class AishiPreviewCatalog(ModHelper mods, JsonUtil json, DatabaseS
 
 [Injectable]
 #if AISHI_SPT41
-public sealed class AishiPreviewRouter(JsonUtil json, AishiPreviewCatalog previews) : StaticRouter(json, [new RouteAction("/aishi/previews/catalog", (url, info, session, output, token) => new ValueTask<object>(previews.Get()))]);
+public sealed class AishiPreviewRouter(JsonUtil json, AishiPreviewCatalog previews, AishiPreviewSeed seed) : StaticRouter(json, [new RouteAction("/aishi/previews/catalog", (url, info, session, output, token) => new ValueTask<object>(previews.Get())), new RouteAction("/aishi/previews/prepare", (url, info, session, output, token) => new ValueTask<object>(JsonSerializer.Serialize(new { ready = seed.Prepare() })))]);
 #else
-public sealed class AishiPreviewRouter(JsonUtil json, AishiPreviewCatalog previews) : StaticRouter(json, [new RouteAction("/aishi/previews/catalog", (url, info, session, output) => new ValueTask<object>(previews.Get()))]);
+public sealed class AishiPreviewRouter(JsonUtil json, AishiPreviewCatalog previews, AishiPreviewSeed seed) : StaticRouter(json, [new RouteAction("/aishi/previews/catalog", (url, info, session, output) => new ValueTask<object>(previews.Get())), new RouteAction("/aishi/previews/prepare", (url, info, session, output) => new ValueTask<object>(JsonSerializer.Serialize(new { ready = seed.Prepare() })))]);
 #endif

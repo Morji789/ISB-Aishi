@@ -26,6 +26,7 @@ namespace AishiKeys
         private sealed class Settings
         {
             public bool? ready;
+            public bool removeKTErestrictions;
             public string requiredEquippedItem, profileId;
             public string[] revealed;
             public Dictionary<string, float> charges;
@@ -41,6 +42,8 @@ namespace AishiKeys
         }
 
         private static string requiredItem, scope;
+        private static bool removeKteRestrictions;
+        internal static bool RemoveKteRestrictions { get { EnsureScope(); return removeKteRestrictions; } }
         private static readonly HashSet<string> Revealed = new HashSet<string>(StringComparer.Ordinal);
         private static Dictionary<string, float> pendingCharges;
         private static bool busy, loading;
@@ -93,6 +96,7 @@ namespace AishiKeys
             var ticket = ++generation;
             retryAfter = DateTime.UtcNow.AddSeconds(5);
             requiredItem = null;
+            removeKteRestrictions = false;
             Revealed.Clear();
             pendingCharges = null;
             busy = false;
@@ -101,7 +105,10 @@ namespace AishiKeys
             {
                 var json = await RequestHandler.GetJsonAsync("/aishi/anomalous-items/config");
                 var config = JsonConvert.DeserializeObject<Settings>(json);
-                if (ticket != generation || config?.ready == false)
+                if (ticket != generation)
+                    return;
+                removeKteRestrictions = config?.removeKTErestrictions == true;
+                if (config?.ready == false)
                     return;
                 if (config?.requiredEquippedItem?.Length != 24 || string.IsNullOrEmpty(config.profileId))
                     throw new InvalidOperationException("Invalid anomaly reveal configuration.");

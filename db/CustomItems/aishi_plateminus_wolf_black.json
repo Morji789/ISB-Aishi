@@ -499,7 +499,7 @@
       "CanRequireOnRagfair": false,
       "CanSellOnRagfair": false,
       "ConflictingItems": [],
-      "Description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes in a Wolf Gray color with a traditional plate carrier setup. (Black)",
+      "Description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes with a traditional plate carrier setup. (Black)",
       "DiscardLimit": -1,
       "DiscardingBlock": false,
       "ExamineExperience": 10,
@@ -573,17 +573,17 @@
       "en": {
         "name": "Blue Force Gear PLATEminus V2 Plate Carrier (Black)",
         "shortName": "PLATEminus V2",
-        "description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes in a Wolf Gray color with a traditional plate carrier setup. (Black)"
+        "description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes with a traditional plate carrier setup. (Black)"
       },
       "pt": {
         "name": "Blue Force Gear PLATEminus V2 Plate Carrier (Black)",
         "shortName": "PLATEminus V2",
-        "description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes in a Wolf Gray color with a traditional plate carrier setup. (Black)"
+        "description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes with a traditional plate carrier setup. (Black)"
       },
       "po": {
         "name": "Blue Force Gear PLATEminus V2 Plate Carrier (Black)",
         "shortName": "PLATEminus V2",
-        "description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes in a Wolf Gray color with a traditional plate carrier setup. (Black)"
+        "description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes with a traditional plate carrier setup. (Black)"
       }
     },
     "handbookPriceRoubles": 31032,
@@ -653,6 +653,18 @@
                 "MaxDurability": 8
               }
             }
+          },
+          {
+            "_id": "c821cc8d7d9d82c04f4cc04e",
+            "_tpl": "656fa0fb498d1b7e3e071d9c",
+            "parentId": "876b33a208525393bcf19897",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "f0bcb24b6270cbf6573bce5f",
+            "_tpl": "656fa0fb498d1b7e3e071d9c",
+            "parentId": "876b33a208525393bcf19897",
+            "slotId": "Back_plate"
           }
         ],
         "_encyclopedia": "fb81f4923b6c5484bffdb122"

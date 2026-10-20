@@ -18,7 +18,8 @@
       "Grids": [],
       "Name": "MTEK FLUX Ballistic helmet (Black)",
       "ShortName": "FLUX",
-      "Description": "A version of the MTEK STRIKE helmet with extended modularity. Olive Drab version. Black Version."
+      "Description": "A version of the MTEK STRIKE helmet with extended modularity. Olive Drab version. Black Version.",
+      "CanRequireOnRagfair": false
     },
     "addWeaponPreset": true,
     "weaponPresets": [

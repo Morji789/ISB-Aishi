@@ -136,6 +136,7 @@ public sealed class AishiAnomalyReveal
                 {
                     ready = false,
                     requiredEquippedItem = config.Reveal.RequiredEquippedItem,
+                    removeKTErestrictions = config.Debug.RemoveKTErestrictions,
                     profileId = "",
                     revealed = Array.Empty<string>(),
                     charges = new Dictionary<string, double>()
@@ -162,6 +163,7 @@ public sealed class AishiAnomalyReveal
             {
                 ready = true,
                 requiredEquippedItem = config.Reveal.RequiredEquippedItem,
+                    removeKTErestrictions = config.Debug.RemoveKTErestrictions,
                 profileId,
                 revealed = discovered.ToArray(),
                 charges = detectors.ToDictionary(item => item.Id.ToString(), item => item.Upd?.Resource?.Value ?? 0)

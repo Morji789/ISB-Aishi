@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.IO;
 using System.Threading.Tasks;
 using AishiKeysPro;
+using HarmonyLib;
 using Comfort.Common;
 using EFT;
 using EFT.InventoryLogic;
 using EFT.UI;
+using EFT.UI.DragAndDrop;
 using EFT.UI.Screens;
 using Newtonsoft.Json;
 using SPT.Common.Http;
@@ -60,7 +62,27 @@ namespace AishiKeys
             _ = Run();
         }
 
-        internal static void Stop() => stopped = true;
+        private static Harmony initializationPatch;
+
+        internal static void Enable()
+        {
+            initializationPatch = new Harmony("com.samc137.aishi.preview-initialization");
+            initializationPatch.Patch(AccessTools.DeclaredMethod(typeof(ItemIconCreator).BaseType, "Init", Type.EmptyTypes),
+                prefix: new HarmonyMethod(typeof(AishiPreviewCache), nameof(BeforeInitialization)) { priority = Priority.Last });
+        }
+
+        private static void BeforeInitialization(object __instance)
+        {
+            if (!(__instance is ItemIconCreator)) return;
+            try { RequestHandler.GetJson("/aishi/previews/prepare"); }
+            catch (Exception error) { AishiKeysMod.Logger.LogWarning("Aishi prepared previews are unavailable: " + error.Message); }
+        }
+
+        internal static void Stop()
+        {
+            stopped = true;
+            initializationPatch?.UnpatchSelf();
+        }
 
         private static async Task Run()
         {
@@ -98,7 +120,7 @@ namespace AishiKeys
                             item = tree.Items[root._id];
                         }
                         var hash = IconsHash.GetItemHash(item);
-                        var stamp = "2:" + typeof(Item).Assembly.ManifestModule.ModuleVersionId + ":" + job.stamp;
+                        var stamp = "3:" + typeof(Item).Assembly.ManifestModule.ModuleVersionId + ":" + job.stamp;
                         var changed = false;
                         if (!state.stamps.TryGetValue(hash, out var previous) || previous != stamp || !HasFile(creator, hash))
                         {
@@ -138,8 +160,7 @@ namespace AishiKeys
             Texture2D readable = null;
             try
             {
-                var cells = item.CalculateCellSize();
-                var size = new IntVec2(Math.Max(128, Math.Min(512, cells.X * 64)), Math.Max(128, Math.Min(512, cells.Y * 64)));
+                var size = ItemViewFactory.GetCellPixelSize(item.CalculateCellSize());
                 var rendered = await creator.RenderModel(item, async (model, pivot) =>
                 {
                     await Prepare(creator);

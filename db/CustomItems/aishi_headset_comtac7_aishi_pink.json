@@ -89,7 +89,8 @@
       "Weight": 0.28,
       "Name": "Peltor ComTac VII headset (Aishi)",
       "ShortName": "ComTac VII",
-      "Description": "Peltor ComTac VII headset (Aishi Pink Custom)"
+      "Description": "Peltor ComTac VII headset (Aishi Pink Custom)",
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {

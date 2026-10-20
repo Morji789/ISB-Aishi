@@ -11,7 +11,8 @@
         "path": "quests/quest_item_key_grabber.bundle",
         "rcid": ""
       },
-      "Grids": []
+      "Grids": [],
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {

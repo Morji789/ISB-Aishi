@@ -33507,6 +33507,30 @@
             {
               "_id": "693a108658b26654f0bf41aa",
               "_tpl": "6939bd487e7422a256744950"
+            },
+            {
+              "_id": "1729fc2ff84b283ce3fbd6ff",
+              "_tpl": "656fad8c498d1b7e3e071da0",
+              "parentId": "693a108658b26654f0bf41aa",
+              "slotId": "Front_plate"
+            },
+            {
+              "_id": "c577c7cc17ad896a723c753e",
+              "_tpl": "656fad8c498d1b7e3e071da0",
+              "parentId": "693a108658b26654f0bf41aa",
+              "slotId": "Back_plate"
+            },
+            {
+              "_id": "dfb23d1b48a63a17de3c21ae",
+              "_tpl": "6570e025615f54368b04fcb0",
+              "parentId": "693a108658b26654f0bf41aa",
+              "slotId": "Soft_armor_front"
+            },
+            {
+              "_id": "1cca41237c1210f323f1ba42",
+              "_tpl": "6570e0610b57c03ec90b96ef",
+              "parentId": "693a108658b26654f0bf41aa",
+              "slotId": "Soft_armor_back"
             }
           ],
           "loyaltyLevel": 2,

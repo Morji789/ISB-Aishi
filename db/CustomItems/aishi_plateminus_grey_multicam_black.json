@@ -4,7 +4,7 @@
     "parentId": "5448e54d4bdc2dcc718b4568",
     "handbookParentId": "5b5f701386f774093f2ecf0f",
     "overrideProperties": {
-      "Description": "PLATEminus modular plate carrier in Grey. (MultiCam Black)",
+      "Description": "PLATEminus modular plate carrier. (MultiCam Black)",
       "Grids": [],
       "Name": "Blue Force Gear PLATEminus V2 body armor (MultiCam Black)",
       "Prefab": {
@@ -101,12 +101,12 @@
       "en": {
         "name": "Blue Force Gear PLATEminus V2 body armor (MultiCam Black)",
         "shortName": "PLATEminus V2",
-        "description": "PLATEminus modular plate carrier in Grey. (MultiCam Black)"
+        "description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes in a naked setup, allowing to wear it under separate chest rigs. MultiCam Black version."
       },
       "pt": {
         "name": "Blue Force Gear PLATEminus V2 body armor (MultiCam Black)",
         "shortName": "PLATEminus V2",
-        "description": "PLATEminus modular plate carrier in Grey. (MultiCam Black)"
+        "description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes in a naked setup, allowing to wear it under separate chest rigs. MultiCam Black version."
       }
     },
     "handbookPriceRoubles": 183864,

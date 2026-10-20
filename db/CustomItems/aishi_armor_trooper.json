@@ -16,7 +16,8 @@
       "Grids": [],
       "Name": "Custom ISB SOF HighCom Trooper TFO body armor",
       "ShortName": "ISB Trooper",
-      "Description": "A plate armor vest by HighCom, popular among USEC PMCs. MultiCam camouflage version. (ISB SOF)"
+      "Description": "A plate armor vest by HighCom, popular among USEC PMCs. MultiCam camouflage version. (ISB SOF)",
+      "CanRequireOnRagfair": false
     },
     "addWeaponPreset": true,
     "weaponPresets": [

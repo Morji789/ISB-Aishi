@@ -4,21 +4,10 @@
     "parentId": "5448e54d4bdc2dcc718b4568",
     "handbookParentId": "5b5f701386f774093f2ecf0f",
     "overrideProperties": {
-      "QuestItem": false,
-      "ExaminedByDefault": false,
-      "IsUnsaleable": false,
-      "addtoItemBlacklist": true,
       "Prefab": {
         "path": "equipment/item_equipment_armor_6b45_black.bundle",
         "rcid": ""
-      },
-      "Width": 3,
-      "Height": 4,
-      "Weight": 3.65,
-      "Grids": [],
-      "Name": "6B45 body armor (USEC Intelligence Support Bureau)",
-      "ShortName": "6B45",
-      "Description": "The 6B45 body armor, designed to protect personnel from shrapnel and small arms fire. Part of the Ratnik equipment system and has been in production since the 2010s as a replacement for the 6B43 model. USEC Intelligence Support Bureau version."
+      }
     },
     "addWeaponPreset": true,
     "weaponPresets": [
@@ -98,9 +87,9 @@
         "description": "The 6B45 body armor, designed to protect personnel from shrapnel and small arms fire. Part of the Ratnik equipment system and has been in production since the 2010s as a replacement for the 6B43 model. USEC Intelligence Support Bureau version."
       },
       "po": {
-        "name": "6B45 body armor (Agência de Suporte a Inteligência da USEC)",
+        "name": "6B45 body armor (USEC Intelligence Support Bureau)",
         "shortName": "6B45",
-        "description": "The 6B45 body armor, designed to protect personnel from shrapnel and small arms fire. Part of the Ratnik equipment system and has been in production since the 2010s as a replacement for the 6B43 model. Agência de Suporte a Inteligência da USEC version."
+        "description": "O colete balístico 6B45 foi projetado para proteger militares contra estilhaços e disparos de armas leves. Faz parte do sistema de equipamentos Ratnik e é produzido desde a década de 2010 como substituto do modelo 6B43. Versão com pintura USEC Intelligence Support Bureau."
       }
     },
     "fleaPriceRoubles": 149870,

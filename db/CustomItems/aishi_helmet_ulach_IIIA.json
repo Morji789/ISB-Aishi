@@ -331,12 +331,10 @@
     "parentId": "57bef4c42459772e8d35a53b",
     "handbookParentId": "5b5f704686f77447ec5d76d7",
     "overrideProperties": {
-      "RarityPvE": "Superrare",
       "Prefab": {
         "path": "equipment/item_equipment_helmet_wedge_boss_cover_artic.bundle",
         "rcid": ""
-      },
-      "IsUnsaleable": false
+      }
     },
     "Width": 1,
     "Height": 1,
@@ -346,12 +344,12 @@
       "en": {
         "name": "Team Wendy EXFIL helmet cover (MultiCam Alpine)",
         "shortName": "EXFIL",
-        "description": "A helmet cover for Team Wendy EXFIL series helmets. The MultiCam Alpine camouflage is intended for snow operations."
+        "description": "A helmet cover for Team Wendy EXFIL series helmets. The MultiCam Alpine camouflage is intended for night-time operations."
       },
       "po": {
         "name": "Team Wendy EXFIL helmet cover (MultiCam Alpine)",
         "shortName": "EXFIL",
-        "description": "A helmet cover for Team Wendy EXFIL series helmets. The MultiCam Alpine camouflage is intended for snow operations."
+        "description": "Uma capa para capacetes da série EXFIL da Team Wendy. A camuflagem MultiCam Alpine é destinada a operações noturnas."
       }
     },
     "fleaPriceRoubles": 27827,
@@ -379,12 +377,10 @@
     "parentId": "57bef4c42459772e8d35a53b",
     "handbookParentId": "5b5f704686f77447ec5d76d7",
     "overrideProperties": {
-      "RarityPvE": "Superrare",
       "Prefab": {
         "path": "equipment/item_equipment_helmet_wedge_boss_cover_multicam.bundle",
         "rcid": ""
-      },
-      "IsUnsaleable": false
+      }
     },
     "Width": 1,
     "Height": 1,
@@ -394,12 +390,12 @@
       "en": {
         "name": "Team Wendy EXFIL helmet cover (MultiCam)",
         "shortName": "EXFIL",
-        "description": "A helmet cover for Team Wendy EXFIL series helmets. The MultiCam camouflage is intended for daytime operations."
+        "description": "A helmet cover for Team Wendy EXFIL series helmets. The MultiCam camouflage is intended for night-time operations."
       },
       "po": {
         "name": "Team Wendy EXFIL helmet cover (MultiCam)",
         "shortName": "EXFIL",
-        "description": "A helmet cover for Team Wendy EXFIL series helmets. The MultiCam camouflage is intended for daytime operations."
+        "description": "Uma capa para capacetes da série EXFIL da Team Wendy. A camuflagem MultiCam é destinada a operações noturnas."
       }
     },
     "fleaPriceRoubles": 27827,

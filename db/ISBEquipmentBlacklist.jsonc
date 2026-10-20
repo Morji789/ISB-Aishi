@@ -111,8 +111,6 @@
       "6969cf4ecb8460933cb02b65", // Advanced SSTV KW12 Military Radio
       "69dc85fa59d20caf8ecfcfc4", // Agent network deployment report
       "c5c72a7a3bf1f02421a145bb", // Anomalous Containment Case
-      "693a3e0ab997d4dce888921d", // Armband (Black Division)
-      "6939c4665f6efbd0b927a45f", // Armband (ISB)
       "69dc80cad38b281a47d1257e", // ARRS system specifications
       "6aa5ff857a930fba7793141b", // ISB Model KW12 Advanced Modified SSTV Radio
       "69dc84fe5feb9cfd6040ee32", // Audio tape with incriminating evidence
@@ -363,12 +361,11 @@
       "6984d63f164eb72f4dfb473b", // Modified Death Shadow lightweight armored mask (USEC Intelligence Support Bureau)
       "da716663ea505d11956d19f8", // Modified MSA Millennium armored gas mask (USEC Intelligence Support Bureau)
       "6a222d3dc7ebe3f5fbc2b01d", // Tagilla's welding mask "Swineherd"
-      "7f3d1490eb7e5442947f28f5" // Hammerhead Combat Helmet
+      "7f3d1490eb7e5442947f28f5", // Hammerhead Combat Helmet
+      "6939d6ae15efda5797902659", // Modified Unix 5000 Gas Mask (USEC Intelligence Support Bureau)
+      "693ce88b2d491ae03c5326cd" // Modified MSA G1 SCBA Gas Mask (USEC Intelligence Support Bureau)
     ],
     "medical": [
-      "282e86b6bc2955c6998fea9f", // BONE-02 Restorative Stimulant Injector
-      "69dedb462e45a1248bf6b96a", // eTG-change Dual-Action upgraded regenerative stimulant injector
-      "778261046311c86a18968cfd", // BONE-03 Restorative Stimulant Injector
       "1800c994e11cfa35b423e8ed", // KTE 070
       "d180bb453e8bb2027c5fa540", // KTE 199
       "a8d639d499ac25709f630d2c", // KTE 292
@@ -378,8 +375,6 @@
       "f131c988930a86c7e5610c57", // KTE 665
       "0056a97d873bba252113c74b", // KTE 728
       "b27508815b9307ccd1bffa36", // KTE 952
-      "54d85e84263051398785a34f", // Modified AI-2 medkit
-      "dc830bbf5edf5e67ac21d737", // Modified CALOK-B hemostatic applicator
       "692bbee2e2bf5108b9310186" // SJE3 TGLabs combat stimulant injector
     ]
   },
@@ -707,7 +702,9 @@
       "69fa8ea590bf94cacd7f5e38", // SLR-106/AK 5.56x45 Circle 10 30-round magazine (Black)
       "fe24d01db70557e8898cdf00", // SLR-106/AK 5.56x45 Circle 10 30-round magazine (Black) (Tape)
       "69faa0d657249bee9c41f47b", // SLR-106/AK 5.56x45 Circle 10 30-round magazine (FDE)
-      "003ac6702b835ac4ac30b0f7" // SLR-106/AK 5.56x45 Circle 10 30-round magazine (FDE) (Tape)
+      "003ac6702b835ac4ac30b0f7", // SLR-106/AK 5.56x45 Circle 10 30-round magazine (FDE) (Tape)
+      "6939c4665f6efbd0b927a45f", // Armband (ISB)
+      "693a3e0ab997d4dce888921d" // Armband (Black Division)
     ],
     "ammo": [
       "699b6b88be849a7f65b7e866", // .300 Blackout Barnes VOR-TX
@@ -1070,13 +1067,17 @@
     ],
     "faceCovers": [
       "3401a3220a7355a3ad4b0f54", // MSA Millennium Riot Control gas mask (Red)
-      "6939d6ae15efda5797902659", // Modified Unix 5000 Gas Mask (USEC Intelligence Support Bureau)
-      "693ce88b2d491ae03c5326cd", // Modified MSA G1 SCBA Gas Mask (USEC Intelligence Support Bureau)
       "6a279c95534fb23d302b6b27", // Unix 5000 Gas Mask
       "6a279d1b7bb85ffaa461cd9e", // MSA G1 SCBA Gas Mask
       "9a4a5d94afc658af9fb22ad6", // MSA Millennium Riot Control gas mask
       "a7d9ede064cc53bd8cc78bfe" // MSA Millennium Riot Control gas mask (Black)
     ],
-    "medical": []
+    "medical": [
+      "282e86b6bc2955c6998fea9f", // BONE-02 Restorative Stimulant Injector
+      "54d85e84263051398785a34f", // Modified AI-2 medkit
+      "69dedb462e45a1248bf6b96a", // eTG-change Dual-Action upgraded regenerative stimulant injector
+      "778261046311c86a18968cfd", // BONE-03 Restorative Stimulant Injector
+      "dc830bbf5edf5e67ac21d737" // Modified CALOK-B hemostatic applicator
+    ]
   }
 }
