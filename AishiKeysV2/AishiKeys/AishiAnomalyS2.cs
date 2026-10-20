@@ -27,7 +27,7 @@ namespace AishiKeys
         internal const string Tea = "d94f4a94edf1050b40c93cdb", Cigarettes = "eee72a686853f282c7cd01da", Coffee = "25dd7397974f7d7940ad9742", Pickles = "68c80d9fb3ef768bbe58a072", Paracord = "d88925f5ddd4cd8795d5c9bd", Press = "a2c16b836b441dc953652bd6", Welding = "571e1ce5aa8a32c10b70d206", Lighter = "3ddc22a4b7e5ba67ee38edf9", Ledx = "b7e0639e756abd3bbb872c2c", Defibrillator = "337052e7f499ba2f52dfa089", Egg = "397495f6cda093c895814c0f", Badge = "e57cfb4c1b58a40f9032db70", Euros = "569668774bdc2da2298b4568", Roubles = "5449016a4bdc2d6f028b456f";
         private readonly AishiAnomalyInventory state;
         private float teaSeconds, teaRemaining, pickleSeconds, cordSeconds, lighterSeconds, bleedSeconds, eggSeconds, badgeSeconds;
-        private float protectedUntil, nextEffects, nextDoors;
+        private float protectedUntil, nextEffects, nextDoors, nextDoorScan;
         private int pendingEuros, pendingRoubles;
         private bool ledxActivated, ledxSuppressed;
         private object berserk, tunnel, fatigue, teaEffect, teaPainkiller;
@@ -290,17 +290,20 @@ namespace AishiKeys
             return (part == EBodyPart.Head || part == EBodyPart.Chest) && amount >= state.Health.GetBodyPartHealth(part, false).Current && PreventFatal();
         }
 
-        internal static bool NaturallyLocked(Door door) => door != null && door.InitialDoorState == EDoorState.Locked;
+        internal static bool HasAssignedKey(Door door) => door != null && door.Operatable && !string.IsNullOrWhiteSpace(door.KeyId) && door.KeyId != "000000000000000000000000";
         private void UnlockNearDoor()
         {
             var item = state.CarriedItems.FirstOrDefault(i => i.TemplateId == Press && i.GetItemComponent<ResourceComponent>()?.Value > 0f);
             if (item == null)
                 return;
-            if (doors == null)
-                doors = Resources.FindObjectsOfTypeAll<Door>().Where(d => d != null && d.gameObject.scene.IsValid() && d.gameObject.scene.isLoaded).ToArray();
+            if (doors == null || Time.realtimeSinceStartup >= nextDoorScan)
+            {
+                nextDoorScan = Time.realtimeSinceStartup + 5f;
+                doors = Resources.FindObjectsOfTypeAll<Door>().Where(d => HasAssignedKey(d) && d.gameObject.scene.IsValid() && d.gameObject.scene.isLoaded).ToArray();
+            }
             foreach (var door in doors)
             {
-                if (!NaturallyLocked(door) || door.DoorState != EDoorState.Locked)
+                if (!HasAssignedKey(door) || door.DoorState != EDoorState.Locked || (state.Owner.Position + Vector3.up - door.transform.position).sqrMagnitude > 25f)
                     continue;
                 if (!doorColliders.TryGetValue(door, out var colliders))
                     doorColliders[door] = colliders = door.GetComponentsInChildren<Collider>();
@@ -321,14 +324,22 @@ namespace AishiKeys
         internal static bool WithinDoorRadius(Player owner, Door door, Collider[] colliders, float radius)
         {
             var position = owner.Position + Vector3.up;
+            radius += .35f;
             if ((position - door.transform.position).sqrMagnitude > 25f)
                 return false;
             if (colliders.Length == 0)
                 return (position - door.transform.position).sqrMagnitude <= radius * radius;
             foreach (var collider in colliders)
-                if (collider != null && collider.enabled && (collider.ClosestPoint(position) - position).sqrMagnitude <= radius * radius)
+                if (collider != null && collider.enabled && (ClosestDoorPoint(collider, position) - position).sqrMagnitude <= radius * radius)
                     return true;
             return false;
+        }
+
+        internal static Vector3 ClosestDoorPoint(Collider collider, Vector3 position)
+        {
+            if (collider is BoxCollider || collider is SphereCollider || collider is CapsuleCollider || collider is MeshCollider mesh && mesh.convex)
+                return collider.ClosestPoint(position);
+            return collider.ClosestPointOnBounds(position);
         }
 
         private void GrantCurrency(string source, string tpl, ref int pending, int amount)

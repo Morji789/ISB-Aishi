@@ -20,7 +20,7 @@ namespace AishiKeysPro
     {
         public const string PluginGuid = "com.samc137.aishi";
         public const string PluginName = "AishiMasterKeyFunction";
-        public const string PluginVersion = "1.0.4";
+        public const string PluginVersion = "1.0.6";
         public const string FikaPluginGuid = "com.fika.core";
         private const string FikaBridgeAssemblyFileName = "AishiKeysV2.Fika.dll";
         private const string FikaBridgeAssemblyName = "AishiKeysV2.Fika";
@@ -60,6 +60,7 @@ namespace AishiKeysPro
             TryInitializeComponent("magazine variants", AishiMagazineVariants.Enable);
             TryInitializeComponent("armor class VII icon", AishiArmorClassIcons.Enable);
             TryInitializeComponent("headset music", () => AishiMusicPlayer.Enable(this));
+            TryInitializeComponent("prepared item previews", AishiPreviewCache.Enable);
         }
 
         private static void TryInitializeComponent(string name, Action action)
@@ -82,6 +83,7 @@ namespace AishiKeysPro
             AishiKeys.AishiAnomalyRaidStart.EnsureRuntime();
             _networkSync?.Update();
             AishiKeys.AishiAnomalyDuck.Update();
+            AishiKeys.AishiHammerheadPower.Update();
         }
 
         public void OnDestroy()

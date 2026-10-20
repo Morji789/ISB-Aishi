@@ -7,7 +7,7 @@
       "InsuranceDisabled": true,
       "CanSellOnRagfair": false,
       "BackgroundColor": "yellow",
-      "ArmorMaterial": "Ceramic",
+      "ArmorMaterial": "UHMWPE",
       "ArmorType": "Heavy",
       "armorClass": "5",
       "Durability": 80,
@@ -37,7 +37,11 @@
     "addtoItemBlacklist": true,
     "addtoStaticLootContainers": false,
     "addtoTraders": false,
-    "traders": {}
+    "traders": {},
+    "addtoModSlots": true,
+    "modSlot": [
+      "Soft_armor_front"
+    ]
   },
   "f45c413c96ffdd24e9718baa": {
     "itemTplToClone": "68a5ec3731f944d6be0efd64",
@@ -47,7 +51,7 @@
       "InsuranceDisabled": true,
       "CanSellOnRagfair": false,
       "BackgroundColor": "yellow",
-      "ArmorMaterial": "Ceramic",
+      "ArmorMaterial": "UHMWPE",
       "ArmorType": "Heavy",
       "armorClass": "5",
       "Durability": 80,
@@ -77,7 +81,11 @@
     "addtoItemBlacklist": true,
     "addtoStaticLootContainers": false,
     "addtoTraders": false,
-    "traders": {}
+    "traders": {},
+    "addtoModSlots": true,
+    "modSlot": [
+      "Soft_armor_back"
+    ]
   },
   "c446d91d442ef3c4ca73281d": {
     "itemTplToClone": "68a5ecd83acdf023050b1c1c",
@@ -87,7 +95,7 @@
       "InsuranceDisabled": true,
       "CanSellOnRagfair": false,
       "BackgroundColor": "yellow",
-      "ArmorMaterial": "Ceramic",
+      "ArmorMaterial": "UHMWPE",
       "ArmorType": "Heavy",
       "armorClass": "5",
       "Durability": 38,
@@ -117,7 +125,11 @@
     "addtoItemBlacklist": true,
     "addtoStaticLootContainers": false,
     "addtoTraders": false,
-    "traders": {}
+    "traders": {},
+    "addtoModSlots": true,
+    "modSlot": [
+      "Soft_armor_left"
+    ]
   },
   "fa3700c39f5dc88282249b35": {
     "itemTplToClone": "68a5ee4b91ebcb4d0c019d88",
@@ -127,7 +139,7 @@
       "InsuranceDisabled": true,
       "CanSellOnRagfair": false,
       "BackgroundColor": "yellow",
-      "ArmorMaterial": "Ceramic",
+      "ArmorMaterial": "UHMWPE",
       "ArmorType": "Heavy",
       "armorClass": "5",
       "Durability": 38,
@@ -157,211 +169,22 @@
     "addtoItemBlacklist": true,
     "addtoStaticLootContainers": false,
     "addtoTraders": false,
-    "traders": {}
+    "traders": {},
+    "addtoModSlots": true,
+    "modSlot": [
+      "soft_armor_right"
+    ]
   },
   "1c6be0b9f16730b71ee8ac17": {
     "itemTplToClone": "689479cb47e5acd1e10be986",
     "parentId": "5448e5284bdc2dcb718b4567",
     "handbookParentId": "5b5f6f8786f77447ed563642",
     "overrideProperties": {
-      "QuestItem": false,
-      "ExaminedByDefault": false,
-      "IsUnsaleable": false,
-      "CanSellOnRagfair": false,
-      "CanRequireOnRagfair": false,
-      "addtoItemBlacklist": true,
       "BackgroundColor": "yellow",
       "Prefab": {
         "path": "equipment/white_tusk/fcpc_v5/item_equipment_rig_fcpc_v5_white_tusk.bundle",
         "rcid": ""
-      },
-      "Width": 3,
-      "Height": 3,
-      "Weight": 5.3,
-      "Name": "Ferro Concepts FCPC V5 Plate Carrier (White Tusk)",
-      "ShortName": "FCPC V5",
-      "Description": "The fifth-generation FCPC plate carrier continues Ferro Concepts’ focus on lightweight, adaptable gear. In this version, the plate bags and carrier contour have been redesigned for improved comfort and mobility. Coyote Brown version. Equipped with two radios for communicating with both the assigned squad and HQ.",
-      "Slots": [
-        {
-          "_name": "Front_plate",
-          "_id": "ffeae4cb7b243ed2a32c056b",
-          "_parent": "1c6be0b9f16730b71ee8ac17",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "656f9d5900d62bcd2e02407c",
-                  "656fa8d700d62bcd2e024084",
-                  "656fa99800d62bcd2e024088",
-                  "656fae5f7c2d57afe200c0d7",
-                  "656faf0ca0dce000a2020f77",
-                  "656fa0fb498d1b7e3e071d9c",
-                  "656fa76500d62bcd2e024080",
-                  "656fa25e94b480b8a500c0e0",
-                  "656fad8c498d1b7e3e071da0",
-                  "656fa61e94b480b8a500c0e8",
-                  "656fb21fa0dce000a2020f7c",
-                  "656fb0bd7c2d57afe200c0dc",
-                  "656fac30c6baea13cd07e10c",
-                  "656f9fa0498d1b7e3e071d98",
-                  "656fa53d94b480b8a500c0e4",
-                  "655746010177119f4a097ff7",
-                  "656fafe3498d1b7e3e071da4",
-                  "64afdcb83efdfea28601d041"
-                ],
-                "Plate": "656fae5f7c2d57afe200c0d7",
-                "armorColliders": [],
-                "armorPlateColliders": [
-                  "Plate_Granit_SAPI_chest"
-                ],
-                "bluntDamageReduceFromSoftArmor": true,
-                "locked": false
-              }
-            ]
-          },
-          "_required": false,
-          "_mergeSlotWithChildren": true,
-          "_proto": "64479fdf9731c8fadc0642c1"
-        },
-        {
-          "_name": "Back_plate",
-          "_id": "7597a70c446f0fd5afed6286",
-          "_parent": "1c6be0b9f16730b71ee8ac17",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "656f9d5900d62bcd2e02407c",
-                  "656fa8d700d62bcd2e024084",
-                  "656fa99800d62bcd2e024088",
-                  "656fae5f7c2d57afe200c0d7",
-                  "656faf0ca0dce000a2020f77",
-                  "656fa0fb498d1b7e3e071d9c",
-                  "656fafe3498d1b7e3e071da4",
-                  "656fa76500d62bcd2e024080",
-                  "656fad8c498d1b7e3e071da0",
-                  "656fa25e94b480b8a500c0e0",
-                  "656fa61e94b480b8a500c0e8",
-                  "656fac30c6baea13cd07e10c",
-                  "656fb0bd7c2d57afe200c0dc",
-                  "656fb21fa0dce000a2020f7c",
-                  "656f9fa0498d1b7e3e071d98",
-                  "656fa53d94b480b8a500c0e4",
-                  "655746010177119f4a097ff7",
-                  "64afdcb83efdfea28601d041"
-                ],
-                "Plate": "656fae5f7c2d57afe200c0d7",
-                "armorColliders": [],
-                "armorPlateColliders": [
-                  "Plate_Granit_SAPI_back"
-                ],
-                "bluntDamageReduceFromSoftArmor": true,
-                "locked": false
-              }
-            ]
-          },
-          "_required": false,
-          "_mergeSlotWithChildren": true,
-          "_proto": "64479fdf9731c8fadc0642c1"
-        },
-        {
-          "_name": "Soft_armor_front",
-          "_id": "5fcab93fd444082a91b6c3c6",
-          "_parent": "1c6be0b9f16730b71ee8ac17",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "164509b59f450107a5ab9025"
-                ],
-                "Plate": "164509b59f450107a5ab9025",
-                "armorColliders": [],
-                "armorPlateColliders": [
-                  "Plate_Granit_SAPI_chest"
-                ],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_required": true,
-          "_mergeSlotWithChildren": true,
-          "_proto": "64479fdf9731c8fadc0642c1"
-        },
-        {
-          "_name": "Soft_armor_back",
-          "_id": "cb32bb9db6b2926b84636feb",
-          "_parent": "1c6be0b9f16730b71ee8ac17",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "f45c413c96ffdd24e9718baa"
-                ],
-                "Plate": "f45c413c96ffdd24e9718baa",
-                "armorColliders": [],
-                "armorPlateColliders": [
-                  "Plate_Granit_SAPI_back"
-                ],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_required": true,
-          "_mergeSlotWithChildren": true,
-          "_proto": "64479fdf9731c8fadc0642c1"
-        },
-        {
-          "_name": "Soft_armor_left",
-          "_id": "59f065c09df9e9326db239f3",
-          "_parent": "1c6be0b9f16730b71ee8ac17",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "c446d91d442ef3c4ca73281d"
-                ],
-                "Plate": "c446d91d442ef3c4ca73281d",
-                "armorColliders": [
-                  "LeftSideChestDown"
-                ],
-                "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_required": true,
-          "_mergeSlotWithChildren": true,
-          "_proto": "64479fdf9731c8fadc0642c1"
-        },
-        {
-          "_name": "soft_armor_right",
-          "_id": "8ce12a9000f12724ce45aac4",
-          "_parent": "1c6be0b9f16730b71ee8ac17",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "fa3700c39f5dc88282249b35"
-                ],
-                "Plate": "fa3700c39f5dc88282249b35",
-                "armorColliders": [
-                  "RightSideChestDown"
-                ],
-                "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_required": true,
-          "_mergeSlotWithChildren": true,
-          "_proto": "64479fdf9731c8fadc0642c1"
-        }
-      ],
-      "InsuranceDisabled": true
+      }
     },
     "addWeaponPreset": true,
     "weaponPresets": [
@@ -420,12 +243,12 @@
       "en": {
         "name": "Ferro Concepts FCPC V5 Plate Carrier (White Tusk)",
         "shortName": "FCPC V5",
-        "description": "The fifth-generation FCPC plate carrier continues Ferro Concepts’ focus on lightweight, adaptable gear. In this version, the plate bags and carrier contour have been redesigned for improved comfort and mobility. Coyote Brown version. Equipped with two radios for communicating with both the assigned squad and HQ."
+        "description": "The fifth-generation FCPC plate carrier continues Ferro Concepts’ focus on lightweight, adaptable gear. In this version, the plate bags and carrier contour have been redesigned for improved comfort and mobility. White Tusk version. Equipped with two radios for communicating with both the assigned squad and HQ."
       },
       "po": {
         "name": "Ferro Concepts FCPC V5 Plate Carrier (White Tusk)",
         "shortName": "FCPC V5",
-        "description": "The fifth-generation FCPC plate carrier continues Ferro Concepts’ focus on lightweight, adaptable gear. In this version, the plate bags and carrier contour have been redesigned for improved comfort and mobility. Coyote Brown version. Equipped with two radios for communicating with both the assigned squad and HQ."
+        "description": "O plate carrier FCPC de quinta geração mantém o foco da Ferro Concepts em equipamentos leves e adaptáveis. Nesta versão, os compartimentos das placas e o contorno do colete foram redesenhados para melhorar o conforto e a mobilidade. Versão com pintura White Tusk. Equipado com dois rádios para comunicação com o esquadrão designado e com o comando."
       }
     },
     "fleaPriceRoubles": 185278,

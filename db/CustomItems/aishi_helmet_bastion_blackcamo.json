@@ -7,86 +7,18 @@
       "Prefab": {
         "path": "equipment/item_equipment_helmet_bastion_blackcamo_aishi.bundle",
         "rcid": ""
-      },
-      "Name": "Ballistic Armor Co. Bastion helmet (Black Camo)",
-      "ShortName": "BAC Bastion (Black Camo)",
-      "Description": "The Bastion NIJ level IIIA tactical helmet designed for law enforcement and civilian use. Equipped with M-LOK interface rails for mounting additional equipment. Manufactured by Ballistic Armor Co. Black Camo version.",
-      "CanSellOnRagfair": false,
-      "Slots": [
-        {
-          "_id": "ed607dd1ad335ae29ac442a4",
-          "_mergeSlotWithChildren": false,
-          "_name": "mod_nvg",
-          "_parent": "2043d569d1b559a395d239d4",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "5c0558060db834001b735271",
-                  "5a16b8a9fcdbcb00165aa6ca"
-                ],
-                "Shift": 0
-              }
-            ]
-          },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
-        },
-        {
-          "_id": "ad1e5e5209a9566c9587e072",
-          "_mergeSlotWithChildren": true,
-          "_name": "Helmet_top",
-          "_parent": "2043d569d1b559a395d239d4",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "66b61cfae98be930d701c029"
-                ],
-                "Plate": "66b61cfae98be930d701c029",
-                "armorColliders": [
-                  "ParietalHead"
-                ],
-                "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": true
-        },
-        {
-          "_id": "3c61255760905ff392c99371",
-          "_mergeSlotWithChildren": true,
-          "_name": "Helmet_back",
-          "_parent": "2043d569d1b559a395d239d4",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "66b61ce0c5d72b027748867e"
-                ],
-                "Plate": "66b61ce0c5d72b027748867e",
-                "armorColliders": [
-                  "BackHead"
-                ],
-                "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": true
-        }
-      ]
+      }
     },
     "locales": {
       "en": {
         "name": "Ballistic Armor Co. Bastion helmet (Black Camo)",
         "shortName": "BAC Bastion",
         "description": "The Bastion NIJ level IIIA tactical helmet designed for law enforcement and civilian use. Equipped with M-LOK interface rails for mounting additional equipment. Manufactured by Ballistic Armor Co. Black Camo version."
+      },
+      "po": {
+        "name": "Ballistic Armor Co. Bastion helmet (Black Camo)",
+        "shortName": "BAC Bastion",
+        "description": "O capacete tático Bastion de nível NIJ IIIA foi projetado para uso policial e civil. Equipado com trilhos de interface M-LOK para a montagem de equipamentos adicionais. Fabricado pela Ballistic Armor Co. Versão com pintura Black Camo."
       }
     },
     "handbookPriceRoubles": 13205,

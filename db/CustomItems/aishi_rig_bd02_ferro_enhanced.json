@@ -107,7 +107,7 @@
     ]
   },
   "6a30aad1ab8b8a08436b7359": {
-    "itemTplToClone": "68a5ee4b91ebcb4d0c019d88",
+    "itemTplToClone": "68a5ec952295a9739b032dd8",
     "parentId": "65649eb40bf0ed77b8044453",
     "handbookParentId": "6564b96a189fe36f356d177c",
     "overrideProperties": {
@@ -118,14 +118,10 @@
       "CanRequireOnRagfair": false,
       "MaterialType": "BodyArmor",
       "InsuranceDisabled": true,
-      "ArmorMaterial": "Ceramic",
+      "ArmorMaterial": "UHMWPE",
       "ArmorType": "Heavy",
       "BackgroundColor": "yellow",
       "ItemSound": "gear_armor",
-      "armorPlateColliders": [
-        "Plate_Granit_SAPI_chest",
-        "Plate_Granit_SAPI_back"
-      ],
       "armorClass": "6",
       "Durability": 80,
       "MaxDurability": 80,
@@ -163,6 +159,10 @@
         "ContainerName": "",
         "Probability": 0
       }
+    ],
+    "addtoModSlots": true,
+    "modSlot": [
+      "Soft_armor_front"
     ]
   },
   "6a30ab0c152fd118ecd969b0": {
@@ -177,14 +177,10 @@
       "CanRequireOnRagfair": false,
       "MaterialType": "BodyArmor",
       "InsuranceDisabled": true,
-      "ArmorMaterial": "Ceramic",
+      "ArmorMaterial": "UHMWPE",
       "ArmorType": "Heavy",
       "BackgroundColor": "yellow",
       "ItemSound": "gear_armor",
-      "armorPlateColliders": [
-        "Plate_Granit_SAPI_chest",
-        "Plate_Granit_SAPI_back"
-      ],
       "armorClass": "6",
       "Durability": 80,
       "MaxDurability": 80,
@@ -222,6 +218,10 @@
         "ContainerName": "",
         "Probability": 0
       }
+    ],
+    "addtoModSlots": true,
+    "modSlot": [
+      "Soft_armor_back"
     ]
   },
   "6a30ab2d017bf1af07715f6c": {
@@ -236,14 +236,10 @@
       "PushToFleaBlacklist": true,
       "MaterialType": "BodyArmor",
       "InsuranceDisabled": true,
-      "ArmorMaterial": "Ceramic",
+      "ArmorMaterial": "UHMWPE",
       "ArmorType": "Heavy",
       "BackgroundColor": "yellow",
       "ItemSound": "gear_armor",
-      "armorPlateColliders": [
-        "Plate_Granit_SAPI_chest",
-        "Plate_Granit_SAPI_back"
-      ],
       "armorClass": "5",
       "Durability": 38,
       "MaxDurability": 38,
@@ -281,6 +277,10 @@
         "ContainerName": "",
         "Probability": 0
       }
+    ],
+    "addtoModSlots": true,
+    "modSlot": [
+      "Soft_armor_left"
     ]
   },
   "6a30ab3c9ba5586cbee06620": {
@@ -295,14 +295,10 @@
       "PushToFleaBlacklist": true,
       "MaterialType": "BodyArmor",
       "InsuranceDisabled": true,
-      "ArmorMaterial": "Ceramic",
+      "ArmorMaterial": "UHMWPE",
       "ArmorType": "Heavy",
       "BackgroundColor": "yellow",
       "ItemSound": "gear_armor",
-      "armorPlateColliders": [
-        "Plate_Granit_SAPI_chest",
-        "Plate_Granit_SAPI_back"
-      ],
       "armorClass": "5",
       "Durability": 38,
       "MaxDurability": 38,
@@ -340,6 +336,10 @@
         "ContainerName": "",
         "Probability": 0
       }
+    ],
+    "addtoModSlots": true,
+    "modSlot": [
+      "soft_armor_right"
     ]
   }
 }

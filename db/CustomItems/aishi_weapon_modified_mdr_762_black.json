@@ -1,0 +1,87 @@
+{
+  "8852c624709c801816dcb09e": {
+    "itemTplToClone": "5dcbd56fdbd3d91b3e5468d5",
+    "parentId": "5447b5f14bdc2d61278b4567",
+    "handbookParentId": "5b5f78fc86f77409407a7f90",
+    "handbookPriceRoubles": 158075,
+    "fleaPriceRoubles": 158075,
+    "overrideProperties": {
+      "BackgroundColor": "yellow",
+      "InsuranceDisabled": true,
+      "IsAlwaysAvailableForInsurance": false,
+      "Ergonomics": 93.6,
+      "RecoilForceUp": 93.1,
+      "RecoilForceBack": 243.6,
+      "bFirerate": 775,
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
+    },
+    "locales": {
+      "en": {
+        "name": "Modified Desert Tech MDR 7.62x51 assault rifle",
+        "shortName": "MDR",
+        "description": "The MDR 7.62x51 (.308) bullpup assault rifle, designed and manufactured by Desert Tech LLC. A modular multi-caliber weapon with a compact bullpup layout intended for use by police and military special forces. Barrel lengths and calibers can be changed by the end-user within minutes with a minimum amount of tools."
+      },
+      "po": {
+        "name": "Modified Rifle de Assalto DT MDR 7.62x51",
+        "shortName": "MDR",
+        "description": "O rifle MDR da companhia Desert Tech LLC estabelecida nos EUA, é uma arma modular e multi calibre, com um layout compacto. O comprimento do cano e calibre pode ser modificado pelo usuário em minutos com uma mínima quantidade de ferramentas. "
+      }
+    },
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_changeWeaponName": false,
+        "_encyclopedia": "8852c624709c801816dcb09e",
+        "_id": "90b139c58ed40e06f6647737",
+        "_items": [
+          {
+            "_id": "94d0c32808fbe54c686ff233",
+            "_tpl": "8852c624709c801816dcb09e",
+            "upd": {
+              "FireMode": {
+                "FireMode": "single"
+              }
+            }
+          },
+          {
+            "_id": "78f6a380727a79ea77f0e1aa",
+            "_tpl": "5dcbd6dddbd3d91b3e5468de",
+            "parentId": "94d0c32808fbe54c686ff233",
+            "slotId": "mod_pistol_grip"
+          },
+          {
+            "_id": "0d9bd6766c16edf18b0848f3",
+            "_tpl": "5a3501acc4a282000d72293a",
+            "parentId": "94d0c32808fbe54c686ff233",
+            "slotId": "mod_magazine"
+          },
+          {
+            "_id": "1a287b177ed1dc1e0f8532b8",
+            "_tpl": "5dcbd6b46ec07c0c4347a564",
+            "parentId": "94d0c32808fbe54c686ff233",
+            "slotId": "mod_handguard"
+          },
+          {
+            "_id": "1983aa165539fb00f1f74cf1",
+            "_tpl": "5dcbe9431e1f4616d354987e",
+            "parentId": "94d0c32808fbe54c686ff233",
+            "slotId": "mod_barrel"
+          },
+          {
+            "_id": "8ecaaa6354abb080122c734b",
+            "_tpl": "5dcbe965e4ed22586443a79d",
+            "parentId": "1983aa165539fb00f1f74cf1",
+            "slotId": "mod_muzzle"
+          }
+        ],
+        "_name": "Modified Desert Tech MDR 7.62x51 assault rifle",
+        "_parent": "94d0c32808fbe54c686ff233",
+        "_type": "Preset"
+      }
+    ],
+    "CanSellOnRagfair": false,
+    "CanRequireOnRagfair": false,
+    "addtoItemBlacklist": true
+  }
+}

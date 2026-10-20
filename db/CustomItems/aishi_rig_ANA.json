@@ -4,16 +4,10 @@
     "parentId": "5448e5284bdc2dcb718b4567",
     "handbookParentId": "5b5f6f8786f77447ed563642",
     "overrideProperties": {
-      "ExaminedByDefault": false,
-      "CanSellOnRagfair": false,
-      "addtoItemBlacklist": true,
       "Prefab": {
         "path": "equipment/item_equipment_rig_m2_black.bundle",
         "rcid": ""
-      },
-      "Name": "ANA Tactical M2 plate carrier (USEC Intelligence Support Bureau)",
-      "ShortName": "ANA M2",
-      "Description": "The M2 vest is created with the use of the best experience of Russian special forces operators. The versatility of the system makes it possible to use this vest both when carrying out urban tasks and when performing tasks on rough terrain. Equipped with additional pouches for 8 magazines. Manufactured by ANA Tactical. (ISB SOF)"
+      }
     },
     "addWeaponPreset": true,
     "weaponPresets": [
@@ -52,25 +46,25 @@
           },
           {
             "_id": "6a07f8c285ba69d35cb5f85b",
-            "_tpl": "65730c0e292ecadbfa09ad49",
+            "_tpl": "6570f6e774d84423df065f21",
             "parentId": "6a07f8ae1098ee29a5779168",
             "slotId": "Soft_armor_front"
           },
           {
             "_id": "6a07f8c4fdfe4f65c41c4160",
-            "_tpl": "65730c2213a2f660f60bea96",
+            "_tpl": "6570f71dd67d0309980a7af8",
             "parentId": "6a07f8ae1098ee29a5779168",
             "slotId": "Soft_armor_back"
           },
           {
             "_id": "6a07f8c7f76916a04719fa70",
-            "_tpl": "65730c2b292ecadbfa09ad50",
+            "_tpl": "6570f79c4c65ab77a6015121",
             "parentId": "6a07f8ae1098ee29a5779168",
             "slotId": "soft_armor_right"
           },
           {
             "_id": "6a07f8cd7a08dfde774f8e99",
-            "_tpl": "65730c35292ecadbfa09ad54",
+            "_tpl": "6570f74774d84423df065f25",
             "parentId": "6a07f8ae1098ee29a5779168",
             "slotId": "Soft_armor_left"
           }
@@ -84,12 +78,12 @@
       "en": {
         "name": "ANA Tactical M2 plate carrier (USEC Intelligence Support Bureau)",
         "shortName": "ANA M2",
-        "description": "The M2 vest is created with the use of the best experience of Russian special forces operators. The versatility of the system makes it possible to use this vest both when carrying out urban tasks and when performing tasks on rough terrain. Equipped with additional pouches for 8 magazines. Manufactured by ANA Tactical. (ISB SOF)"
+        "description": "The M2 vest is created with the use of the best experience of Russian special forces operators. The versatility of the system makes it possible to use this vest both when carrying out urban tasks and when performing tasks on rough terrain. Equipped with additional pouches for 8 magazines. Manufactured by ANA Tactical. USEC Intelligence Support Bureau version."
       },
       "po": {
-        "name": "Equipamento tático blindado ANA M2 (Agência de Suporte a Inteligência da USEC)",
+        "name": "ANA Tactical M2 plate carrier (USEC Intelligence Support Bureau)",
         "shortName": "ANA M2",
-        "description": "O colete M2 foi criado com a melhor experiência dos operadores das forças especiais russas. O colete foi criado com o uso da melhor experiência dos operadores das forças especiais russas. A versatilidade do sistema possibilita a utilização deste colete ao realizar tarefas municipais e ao realizar tarefas em terrenos acidentados. Equipado com bolsos adicionais para 8 carregadores. (ISB SOF)"
+        "description": "O colete M2 foi criado com a melhor experiência dos operadores das forças especiais russas. O colete foi criado com o uso da melhor experiência dos operadores das forças especiais russas. A versatilidade do sistema possibilita a utilização deste colete ao realizar tarefas municipais e ao realizar tarefas em terrenos acidentados. Equipado com bolsos adicionais para 8 carregadores. Versão com pintura USEC Intelligence Support Bureau."
       }
     },
     "fleaPriceRoubles": 90900,

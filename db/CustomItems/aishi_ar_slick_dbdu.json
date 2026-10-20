@@ -4,152 +4,21 @@
     "parentId": "5448e54d4bdc2dcc718b4568",
     "handbookParentId": "5b5f701386f774093f2ecf0f",
     "overrideProperties": {
-      "Description": "A simple yet effective plate carrier by London Bridge Trading company. The most minimalistic design intended for use with chest rigs. DBDU Version.",
-      "Grids": [],
-      "Name": "LBT-6094A Slick Plate Carrier (DBDU)",
       "Prefab": {
         "path": "equipment/ar_slick_dbdu_aishi.bundle",
         "rcid": ""
-      },
-      "ShortName": "Slick",
-      "Slots": [
-        {
-          "_id": "d05a2f176514560c81448928",
-          "_mergeSlotWithChildren": true,
-          "_name": "Front_plate",
-          "_parent": "ce769e5cb4b45007abbaaf94",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "656f9d5900d62bcd2e02407c",
-                  "656fa8d700d62bcd2e024084",
-                  "656fa99800d62bcd2e024088",
-                  "656fae5f7c2d57afe200c0d7",
-                  "656faf0ca0dce000a2020f77",
-                  "656fa0fb498d1b7e3e071d9c",
-                  "656fafe3498d1b7e3e071da4",
-                  "656fa76500d62bcd2e024080",
-                  "656fa25e94b480b8a500c0e0",
-                  "656fad8c498d1b7e3e071da0",
-                  "656fa61e94b480b8a500c0e8",
-                  "656fb21fa0dce000a2020f7c",
-                  "656fac30c6baea13cd07e10c",
-                  "656fb0bd7c2d57afe200c0dc",
-                  "656f9fa0498d1b7e3e071d98",
-                  "656fa53d94b480b8a500c0e4",
-                  "655746010177119f4a097ff7",
-                  "64afdcb83efdfea28601d041"
-                ],
-                "Plate": "656fa76500d62bcd2e024080",
-                "armorColliders": [],
-                "armorPlateColliders": [
-                  "Plate_Granit_SAPI_chest"
-                ],
-                "bluntDamageReduceFromSoftArmor": true,
-                "locked": false
-              }
-            ]
-          },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": false
-        },
-        {
-          "_id": "154bdab04f0d59e98417aaf2",
-          "_mergeSlotWithChildren": true,
-          "_name": "Back_plate",
-          "_parent": "ce769e5cb4b45007abbaaf94",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "656f9d5900d62bcd2e02407c",
-                  "656fa8d700d62bcd2e024084",
-                  "656fa99800d62bcd2e024088",
-                  "656fae5f7c2d57afe200c0d7",
-                  "656faf0ca0dce000a2020f77",
-                  "656fa0fb498d1b7e3e071d9c",
-                  "656fafe3498d1b7e3e071da4",
-                  "656fa76500d62bcd2e024080",
-                  "656fa25e94b480b8a500c0e0",
-                  "656fad8c498d1b7e3e071da0",
-                  "656fa61e94b480b8a500c0e8",
-                  "656fb21fa0dce000a2020f7c",
-                  "656fac30c6baea13cd07e10c",
-                  "656fb0bd7c2d57afe200c0dc",
-                  "656f9fa0498d1b7e3e071d98",
-                  "656fa53d94b480b8a500c0e4",
-                  "655746010177119f4a097ff7",
-                  "64afdcb83efdfea28601d041"
-                ],
-                "Plate": "656fa76500d62bcd2e024080",
-                "armorColliders": [],
-                "armorPlateColliders": [
-                  "Plate_Granit_SAPI_back"
-                ],
-                "bluntDamageReduceFromSoftArmor": true,
-                "locked": false
-              }
-            ]
-          },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": false
-        },
-        {
-          "_id": "19617c6050555c6eaea38f75",
-          "_mergeSlotWithChildren": true,
-          "_name": "Soft_armor_front",
-          "_parent": "ce769e5cb4b45007abbaaf94",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "6575e71760703324250610c3"
-                ],
-                "Plate": "6575e71760703324250610c3",
-                "armorColliders": [],
-                "armorPlateColliders": [
-                  "Plate_Granit_SAPI_chest"
-                ],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": true
-        },
-        {
-          "_id": "17eec41030a65114b360a705",
-          "_mergeSlotWithChildren": true,
-          "_name": "Soft_armor_back",
-          "_parent": "ce769e5cb4b45007abbaaf94",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "6575e72660703324250610c7"
-                ],
-                "Plate": "6575e72660703324250610c7",
-                "armorColliders": [],
-                "armorPlateColliders": [
-                  "Plate_Granit_SAPI_back"
-                ],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": true
-        }
-      ]
+      }
     },
     "locales": {
       "en": {
         "name": "LBT-6094A Slick Plate Carrier (DBDU)",
         "shortName": "Slick",
-        "description": "A simple yet effective plate carrier by London Bridge Trading company. The most minimalistic design intended for use with chest rigs. DBDU Version."
+        "description": "A simple yet effective plate carrier by London Bridge Trading company. The most minimalistic design intended for use with chest rigs. DBDU version."
+      },
+      "po": {
+        "name": "LBT-6094A Slick Plate Carrier (DBDU)",
+        "shortName": "Slick",
+        "description": "Plate carrier simples da empresa LBT. O design mais minimalista, feito para usar com veste tática. Versão com pintura DBDU."
       }
     },
     "handbookPriceRoubles": 16523,

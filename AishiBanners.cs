@@ -30,6 +30,7 @@ public class AddBanners(ModHelper modHelper, ImageRouter imageRouter, DatabaseSe
     private const bool EnablePartisanBanner = true;
     private static readonly List<BannerDefinition> BannerDefinitions = new()
     {
+        new BannerDefinition("scourge_squad_banner", "scourge_squad_banner.png", true, new[] { "laboratory" }),
         new BannerDefinition("ghostbusters_banner", "ghostbusters_banner.png", true, new[] { "laboratory" }),
         new BannerDefinition("isb_banner", "isb_banner.png", EnableIsbBanner, new[] { "laboratory", "rezervbase", "factory4_day", "factory4_night", "sandbox", "sandbox_high", "labyrinth", "lighthouse", "shoreline", "suburbs", "terminal" }),
         new BannerDefinition("wt_banner", "wt_banner.png", EnableIsbWtBanner, new[] { "laboratory", "rezervbase", "factory4_day", "factory4_night", "sandbox", "sandbox_high", "labyrinth", "lighthouse", "shoreline", "suburbs", "terminal" }),

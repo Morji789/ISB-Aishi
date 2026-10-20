@@ -1,49 +1,24 @@
 {
   "5b326dfd4d6f5ae1a307bef4": {
-    "itemTplToClone": "5aa7e4a4e5b5b000137b76f2",
+    "itemTplToClone": "69e24f4f9e6ca1b32508bfbc",
     "parentId": "57bef4c42459772e8d35a53b",
     "handbookParentId": "5b5f704686f77447ec5d76d7",
     "overrideProperties": {
-      "ArmorMaterial": "Aramid",
-      "ArmorType": "None",
-      "BluntThroughput": 0,
-      "CanSellOnRagfair": false,
-      "ConflictingItems": [],
-      "DeafStrength": "None",
-      "Description": "A helmet cover for Team Wendy EXFIL series helmets. The UCP camouflage is intended for urban operations.",
-      "Durability": 1,
-      "Grids": [],
-      "Height": 1,
-      "ItemSound": "gear_generic",
-      "MaxDurability": 1,
-      "Name": "Team Wendy EXFIL helmet cover (UCP)",
       "Prefab": {
         "path": "equipment/item_equipment_helmet_wedge_boss_cover_ucp_aishi.bundle",
         "rcid": ""
-      },
-      "RepairCost": 149,
-      "RicochetParams": {
-        "x": 0,
-        "y": 0,
-        "z": 0
-      },
-      "ShortName": "EXFIL (UCP)",
-      "Slots": [],
-      "Weight": 0.1,
-      "Width": 1,
-      "mousePenalty": 0,
-      "RagfairLevelToTrade": 0
+      }
     },
     "locales": {
       "en": {
         "name": "Team Wendy EXFIL helmet cover (UCP)",
         "shortName": "ZSh-1-2M",
-        "description": "A helmet cover for Team Wendy EXFIL series helmets. The UCP camouflage is intended for urban operations."
+        "description": "A helmet cover for Team Wendy EXFIL series helmets. The UCP camouflage is intended for night-time operations."
       },
       "po": {
-        "name": " (UCP)",
+        "name": "Team Wendy EXFIL helmet cover (UCP)",
         "shortName": "ZSh-1-2M",
-        "description": " UCP Version."
+        "description": "Uma capa para capacetes da série EXFIL da Team Wendy. A camuflagem UCP é destinada a operações noturnas."
       }
     },
     "handbookPriceRoubles": 12000,

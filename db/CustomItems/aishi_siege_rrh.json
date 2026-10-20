@@ -4,23 +4,11 @@
     "parentId": "5448e5284bdc2dcb718b4567",
     "handbookParentId": "5b5f6f8786f77447ed563642",
     "overrideProperties": {
-      "QuestItem": false,
-      "ExaminedByDefault": false,
-      "IsUnsaleable": false,
-      "CanSellOnRagfair": false,
-      "CanRequireOnRagfair": false,
-      "addtoItemBlacklist": true,
       "BackgroundColor": "default",
       "Prefab": {
         "path": "equipment/isb_rrh/siege_r_rrh.bundle",
         "rcid": ""
-      },
-      "Width": 4,
-      "Height": 4,
-      "Weight": 10.8,
-      "Name": "First Spear Siege-R Optimized M.A.S.S. Plate Carrier (Black Division V2)",
-      "ShortName": "Siege-R",
-      "Description": "A Siege-R Optimized plate carrier equipped with the M.A.S.S. Shoulder System. Provides reliable all-around protection while offering ample workspace for equipment placement. Black version."
+      }
     },
     "addWeaponPreset": true,
     "weaponPresets": [
@@ -115,12 +103,12 @@
       "en": {
         "name": "First Spear Siege-R Optimized M.A.S.S. Plate Carrier (Black Division V2)",
         "shortName": "Siege-R",
-        "description": "A Siege-R Optimized plate carrier equipped with the M.A.S.S. Shoulder System. Provides reliable all-around protection while offering ample workspace for equipment placement. Black version."
+        "description": "A Siege-R Optimized plate carrier equipped with the M.A.S.S. Shoulder System. Provides reliable all-around protection while offering ample workspace for equipment placement. Black Division V2 version."
       },
       "po": {
         "name": "First Spear Siege-R Optimized M.A.S.S. Plate Carrier (Black Division V2)",
         "shortName": "Siege-R",
-        "description": "A Siege-R Optimized plate carrier equipped with the M.A.S.S. Shoulder System. Provides reliable all-around protection while offering ample workspace for equipment placement. Black version."
+        "description": "Um plate carrier Siege-R Optimized equipado com o sistema de proteção de ombros M.A.S.S. Oferece proteção confiável em todas as direções e amplo espaço para a disposição de equipamentos. Versão com pintura Black Division V2."
       }
     },
     "fleaPriceRoubles": 83572,

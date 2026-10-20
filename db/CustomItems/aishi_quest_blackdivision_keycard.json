@@ -12,7 +12,8 @@
         "path": "quests/blackdivision_isb_keycard.bundle",
         "rcid": ""
       },
-      "Grids": []
+      "Grids": [],
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {

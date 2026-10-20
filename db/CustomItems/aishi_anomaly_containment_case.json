@@ -77,7 +77,8 @@
             ]
           }
         }
-      ]
+      ],
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {

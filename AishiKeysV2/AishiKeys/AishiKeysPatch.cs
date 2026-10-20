@@ -30,7 +30,7 @@ namespace AishiKeys
             GameWorld instance = Singleton<GameWorld>.Instance;
             if (instance == null || instance.MainPlayer == null)
                 return;
-            if (string.IsNullOrEmpty(worldInteractiveObject.KeyId))
+            if (!MasterKeyHelper.HasAssignedKey(worldInteractiveObject))
                 return;
             if (WorldInteractionUtils.IsBotInteraction(owner) || owner == null || owner.Player == null || owner.Player.Profile == null || owner.Player.Profile.Inventory == null)
             {

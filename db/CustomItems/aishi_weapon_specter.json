@@ -6,7 +6,7 @@
     "overrideProperties": {
       "IsUnsaleable": true,
       "IsUnbuyable": true,
-      "CanRequireOnRagfair": true,
+      "CanRequireOnRagfair": false,
       "addtoItemBlacklist": false,
       "Ergonomics": -2,
       "Prefab": {
@@ -14,7 +14,8 @@
         "rcid": ""
       },
       "Weight": 0.79,
-      "Grids": []
+      "Grids": [],
+      "CanSellOnRagfair": false
     },
     "locales": {
       "en": {

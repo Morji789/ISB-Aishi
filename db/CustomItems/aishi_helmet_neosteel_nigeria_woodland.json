@@ -7,121 +7,18 @@
       "Prefab": {
         "path": "equipment/item_equipment_helmet_neosteel_nigeria_woodland_aishi.bundle",
         "rcid": ""
-      },
-      "Name": "Diamond Age NeoSteel High Cut helmet (M14 Nigeria Woodland)",
-      "ShortName": "NeoSteel (M14 Nigeria Woodland)",
-      "Description": "The Diamond Age NeoSteel helmet features a unique design that combines high-strength steel with composite materials to provide advanced protection against ballistic and impact threats. It is designed to withstand high velocity impacts and can provide protection against a variety of threats. M14 Nigeria Woodland Version.",
-      "Slots": [
-        {
-          "_id": "f6a24d6295ed5f72be84b1a8",
-          "_mergeSlotWithChildren": false,
-          "_name": "mod_equipment_000",
-          "_parent": "dd2df3e4b61359f5af76b97c",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "6570a88c8f221f3b210353b7"
-                ],
-                "Shift": 0
-              }
-            ]
-          },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
-        },
-        {
-          "_id": "ec9ae435955a560b851e5a57",
-          "_mergeSlotWithChildren": false,
-          "_name": "mod_mount",
-          "_parent": "dd2df3e4b61359f5af76b97c",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "5b7be47f5acfc400170e2dd2"
-                ],
-                "Shift": 0
-              }
-            ]
-          },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
-        },
-        {
-          "_id": "5a87a323d0a6561da726258c",
-          "_mergeSlotWithChildren": false,
-          "_name": "mod_nvg",
-          "_parent": "dd2df3e4b61359f5af76b97c",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "5a16b8a9fcdbcb00165aa6ca",
-                  "5c0558060db834001b735271"
-                ],
-                "Shift": 0
-              }
-            ]
-          },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
-        },
-        {
-          "_id": "27224189649157ecb0823766",
-          "_mergeSlotWithChildren": true,
-          "_name": "Helmet_top",
-          "_parent": "dd2df3e4b61359f5af76b97c",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "657f9eb7e9433140ad0baf86"
-                ],
-                "Plate": "657f9eb7e9433140ad0baf86",
-                "armorColliders": [
-                  "ParietalHead"
-                ],
-                "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": true
-        },
-        {
-          "_id": "989fc4b321a65434a2621db1",
-          "_mergeSlotWithChildren": true,
-          "_name": "Helmet_back",
-          "_parent": "dd2df3e4b61359f5af76b97c",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "657f9ef6c6679fefb3051e1f"
-                ],
-                "Plate": "657f9ef6c6679fefb3051e1f",
-                "armorColliders": [
-                  "BackHead"
-                ],
-                "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": true
-        }
-      ]
+      }
     },
     "locales": {
       "en": {
         "name": "Diamond Age NeoSteel High Cut helmet (M14 Nigeria Woodland)",
         "shortName": "NeoSteel",
-        "description": "The Diamond Age NeoSteel helmet features a unique design that combines high-strength steel with composite materials to provide advanced protection against ballistic and impact threats. It is designed to withstand high velocity impacts and can provide protection against a variety of threats. M14 Nigeria Woodland Version."
+        "description": "The Diamond Age NeoSteel helmet features a unique design that combines high-strength steel with composite materials to provide advanced protection against ballistic and impact threats. It is designed to withstand high velocity impacts and can provide protection against a variety of threats. M14 Nigeria Woodland version."
+      },
+      "po": {
+        "name": "Diamond Age NeoSteel High Cut helmet (M14 Nigeria Woodland)",
+        "shortName": "NeoSteel",
+        "description": "O capacete Diamond Age NeoSteel apresenta um design exclusivo que combina aço de alta resistência com materiais compósitos para fornecer proteção avançada contra ameaças balísticas e de impacto. Ele foi projetado para suportar impactos de alta velocidade e pode fornecer proteção contra uma variedade de ameaças. Versão com pintura M14 Nigeria Woodland."
       }
     },
     "handbookPriceRoubles": 5288,

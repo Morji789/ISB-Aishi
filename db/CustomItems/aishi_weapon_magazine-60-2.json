@@ -6,8 +6,8 @@
     "overrideProperties": {
       "IsUnsaleable": true,
       "IsUnbuyable": true,
-      "CanSellOnRagfair": true,
-      "CanRequireOnRagfair": true,
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false,
       "addtoItemBlacklist": false,
       "Ergonomics": -2,
       "Cartridges": [

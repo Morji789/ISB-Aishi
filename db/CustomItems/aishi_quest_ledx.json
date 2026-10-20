@@ -10,7 +10,9 @@
         "path": "assets/content/items/barter/item_barter_medical_transilluminator/item_barter_medical_transilluminator.bundle",
         "rcid": ""
       },
-      "Grids": []
+      "Grids": [],
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {

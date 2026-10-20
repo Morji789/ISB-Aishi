@@ -4,16 +4,10 @@
     "parentId": "5448e5284bdc2dcb718b4567",
     "handbookParentId": "5b5f6f8786f77447ed563642",
     "overrideProperties": {
-      "ExaminedByDefault": false,
-      "CanSellOnRagfair": false,
-      "addtoItemBlacklist": true,
       "Prefab": {
         "path": "equipment/item_equipment_armor_a18_black.bundle",
         "rcid": ""
-      },
-      "Name": "Ars Arma A18 Skanda plate carrier (USEC Intelligence Support Bureau)",
-      "ShortName": "A18 Skanda",
-      "Description": "A plate carrier equipped with a set of pouches in assault configuration. Manufactured by Ars Arma. (ISB SOF)"
+      }
     },
     "addWeaponPreset": true,
     "weaponPresets": [
@@ -84,12 +78,12 @@
       "en": {
         "name": "Ars Arma A18 Skanda plate carrier (USEC Intelligence Support Bureau)",
         "shortName": "A18 Skanda",
-        "description": "A plate carrier equipped with a set of pouches in assault configuration. Manufactured by Ars Arma. (ISB SOF)"
+        "description": "A plate carrier equipped with a set of pouches in assault configuration. Manufactured by Ars Arma. USEC Intelligence Support Bureau version."
       },
       "po": {
-        "name": "Plate carrier Ars Arma A18 Skanda (Agência de Suporte a Inteligência da USEC)",
+        "name": "Ars Arma A18 Skanda plate carrier (USEC Intelligence Support Bureau)",
         "shortName": "A18 Skanda",
-        "description": "Plate carrier equipado com bolsos na configuração de assalto. Fabricado pela Ars Arma. (ISB SOF)"
+        "description": "Plate carrier equipado com bolsos na configuração de assalto. Fabricado pela Ars Arma. Versão com pintura USEC Intelligence Support Bureau."
       }
     },
     "fleaPriceRoubles": 90900,

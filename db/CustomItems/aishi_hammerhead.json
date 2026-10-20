@@ -15,18 +15,37 @@
       "Unlootable": false,
       "UnlootableFromSide": [],
       "UnlootableFromSlot": "FaceCover",
-      "ExaminedByDefault": false,
+      "ExaminedByDefault": true,
       "IsUnbuyable": false,
       "IsUnsaleable": false,
       "InsuranceDisabled": true,
-      "CanSellOnRagfair": true,
+      "CanSellOnRagfair": false,
       "CanRequireOnRagfair": false,
       "BlocksFaceCover": false,
       "BlocksHeadwear": true,
       "BlocksEarpiece": false,
       "BlocksEyewear": true,
       "ConflictingItems": [],
-      "Slots": [],
+      "Slots": [
+        {
+          "_name": "mod_equipment_003",
+          "_id": "501a57c7a19c4d84a83b87d2",
+          "_parent": "7f3d1490eb7e5442947f28f5",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5e2aedd986f7746d404f3aa4",
+                  "4d57eab7724cdd35474d84eb",
+                  "264f194ae30547c55dfbf0d9"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false
+        }
+      ],
       "armorClass": "6",
       "ArmorType": "Heavy",
       "armorColliders": [
@@ -53,12 +72,12 @@
       "en": {
         "name": "Hammerhead Combat Helmet",
         "shortName": "Hammerhead",
-        "description": "An experimental full-face combat mask with high protective capabilities, air filtration systems, night vision, and built-in flashlights."
+        "description": "An experimental full-face combat mask with high protective capabilities, air filtration systems, night vision, thermal vision, and built-in flashlights."
       },
       "po": {
         "name": "Capacete de combate Hammerhead",
         "shortName": "Hammerhead",
-        "description": "Uma máscara fechada de combate experimental com alta capacidade de blindagem e sistemas de filtragem de ar e visão noturna e lanternas integradas."
+        "description": "Uma máscara fechada de combate experimental com alta capacidade de blindagem e sistemas de filtragem de ar e visão noturna, visão térmica e lanternas integradas."
       }
     },
     "fleaPriceRoubles": 160000,
@@ -67,7 +86,7 @@
       "FaceCover"
     ],
     "addtoBots": false,
-    "CanSellOnRagfair": true,
+    "CanSellOnRagfair": false,
     "CanRequireOnRagfair": false,
     "addtoItemBlacklist": true,
     "addtoStaticLootContainers": false,

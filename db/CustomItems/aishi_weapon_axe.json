@@ -15,7 +15,9 @@
         "rcid": ""
       },
       "Weight": 5,
-      "Grids": []
+      "Grids": [],
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {

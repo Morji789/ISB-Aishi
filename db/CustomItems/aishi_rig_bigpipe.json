@@ -4,15 +4,10 @@
     "parentId": "5448e5284bdc2dcb718b4567",
     "handbookParentId": "5b5f6f8786f77447ed563642",
     "overrideProperties": {
-      "CanSellOnRagfair": false,
-      "addtoItemBlacklist": true,
       "Prefab": {
         "path": "equipment/item_equipment_rig_boss_big_pipe_black.bundle",
         "rcid": ""
-      },
-      "Name": "S&S Precision PlateFrame plate carrier (USEC Intelligence Support Bureau)",
-      "ShortName": "PlateFrame",
-      "Description": "A plate carrier with a minimalistic, lightweight, semi rigid plastic design, which was configured by Big Pipe - member of the Goons squad. Manufactured by S&S Precision. (ISB SOF)"
+      }
     },
     "addWeaponPreset": false,
     "weaponPresets": [],
@@ -20,12 +15,12 @@
       "en": {
         "name": "S&S Precision PlateFrame plate carrier (USEC Intelligence Support Bureau)",
         "shortName": "PlateFrame",
-        "description": "A plate carrier with a minimalistic, lightweight, semi rigid plastic design, which was configured by Big Pipe - member of the Goons squad. Manufactured by S&S Precision. (ISB SOF)"
+        "description": "A plate carrier with a minimalistic, lightweight, semi rigid plastic design, which was configured by Big Pipe - member of the Goons squad. Manufactured by S&S Precision. USEC Intelligence Support Bureau version."
       },
       "po": {
-        "name": "Colete Tático S&S Precision PlateFrame (Agência de Suporte a Inteligência da USEC)",
+        "name": "S&S Precision PlateFrame plate carrier (USEC Intelligence Support Bureau)",
         "shortName": "PlateFrame",
-        "description": "O design de plástico semirrígido, leve e minimalista fornece uma plataforma de montagem rígida diferente de qualquer outro plate carrier no mercado. A estrutura oferece ao operador a capacidade de dimensionar sua carga para cima ou para baixo para atender aos requisitos operacionais. O PlateFrame permite a fácil fixação de bolsas de acessórios e acomoda bolsas MOLLE/PALS padrão. (ISB SOF)"
+        "description": "O design de plástico semirrígido, leve e minimalista fornece uma plataforma de montagem rígida diferente de qualquer outro plate carrier no mercado. A estrutura oferece ao operador a capacidade de dimensionar sua carga para cima ou para baixo para atender aos requisitos operacionais. O PlateFrame permite a fácil fixação de bolsas de acessórios e acomoda bolsas MOLLE/PALS padrão. Versão com pintura USEC Intelligence Support Bureau."
       }
     },
     "fleaPriceRoubles": 311999,

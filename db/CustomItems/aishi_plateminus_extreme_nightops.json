@@ -571,7 +571,7 @@
       "CanRequireOnRagfair": false,
       "CanSellOnRagfair": false,
       "ConflictingItems": [],
-      "Description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes in a Coyote Brown color with a rather unique pouch setup. (Night Ops)",
+      "Description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes with a rather unique pouch setup. (Night Ops)",
       "DiscardLimit": -1,
       "DiscardingBlock": false,
       "ExamineExperience": 10,
@@ -645,17 +645,17 @@
       "en": {
         "name": "Blue Force Gear PLATEminus V2 Plate Carrier (Night Ops)",
         "shortName": "PLATEminus V2",
-        "description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes in a Coyote Brown color with a rather unique pouch setup. (Night Ops)"
+        "description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes with a rather unique pouch setup. (Night Ops)"
       },
       "pt": {
         "name": "Blue Force Gear PLATEminus V2 Plate Carrier (Night Ops)",
         "shortName": "PLATEminus V2",
-        "description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes in a Coyote Brown color with a rather unique pouch setup. (Night Ops)"
+        "description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes with a rather unique pouch setup. (Night Ops)"
       },
       "po": {
         "name": "Blue Force Gear PLATEminus V2 Plate Carrier (Night Ops)",
         "shortName": "PLATEminus V2",
-        "description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes in a Coyote Brown color with a rather unique pouch setup. (Night Ops)"
+        "description": "The second-generation plate carrier from Blue Force Gear is designed to accommodate SAPI/ESAPI-format plates. Made from a water-resistant material with reduced infrared signature. Quick-release buckles allow the carrier to be removed instantly in critical situations. Its reinforced construction provides reliable protection in any combat conditions. Comes with a rather unique pouch setup. (Night Ops)"
       }
     },
     "handbookPriceRoubles": 18032,
@@ -725,6 +725,18 @@
                 "MaxDurability": 8
               }
             }
+          },
+          {
+            "_id": "8169c546d2a95d6de78bfacc",
+            "_tpl": "656fa0fb498d1b7e3e071d9c",
+            "parentId": "581194dbc836502b93443407",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "a19025c69f27178e6b43b240",
+            "_tpl": "656fa0fb498d1b7e3e071d9c",
+            "parentId": "581194dbc836502b93443407",
+            "slotId": "Back_plate"
           }
         ],
         "_encyclopedia": "e1e4b956da175d83acfbb112"

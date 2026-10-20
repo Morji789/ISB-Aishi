@@ -4,17 +4,10 @@
     "parentId": "5448e5284bdc2dcb718b4567",
     "handbookParentId": "5b5f6f8786f77447ed563642",
     "overrideProperties": {
-      "ExaminedByDefault": false,
-      "InsuranceDisabled": true,
-      "CanSellOnRagfair": false,
-      "addtoItemBlacklist": true,
       "Prefab": {
         "path": "equipment/item_equipment_armor_tt_platecarrier_mk3_black.bundle",
         "rcid": ""
-      },
-      "Name": "Tasmanian Tiger Plate Carrier MKIII (USEC Intelligence Support Bureau)",
-      "ShortName": "TT MKIII",
-      "Description": "A lightweight low-profile plate carrier designed to fit SAPI plates. Manufactured by Tasmanian Tiger. Coyote Brown version. (ISB SOF)"
+      }
     },
     "addWeaponPreset": false,
     "weaponPresets": [],
@@ -22,12 +15,12 @@
       "en": {
         "name": "Tasmanian Tiger Plate Carrier MKIII (USEC Intelligence Support Bureau)",
         "shortName": "TT MKIII",
-        "description": "A lightweight low-profile plate carrier designed to fit SAPI plates. Manufactured by Tasmanian Tiger. Coyote Brown version. (ISB SOF)"
+        "description": "A lightweight low-profile plate carrier designed to fit SAPI plates. Manufactured by Tasmanian Tiger. USEC Intelligence Support Bureau version."
       },
       "po": {
-        "name": "Colete Tático Tasmanian Tiger MKIII (Agência de Suporte a Inteligência da USEC)",
+        "name": "Tasmanian Tiger Plate Carrier MKIII (USEC Intelligence Support Bureau)",
         "shortName": "TT MKIII",
-        "description": "A lightweight low-profile plate carrier designed to fit SAPI plates. Manufactured by Tasmanian Tiger. Coyote Brown version. (ISB SOF)"
+        "description": "Um plate carrier leve e de perfil baixo, projetado para acomodar placas SAPI. Fabricado pela Tasmanian Tiger. Versão com pintura USEC Intelligence Support Bureau."
       }
     },
     "fleaPriceRoubles": 265900,

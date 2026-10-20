@@ -88,7 +88,8 @@
       "Weight": 0.4,
       "Name": "Peltor ComTac VII headset (MARPAT)",
       "ShortName": "ComTac VII",
-      "Description": "An enhanced version of the ComTac VI communication headset, with advanced ambient listening modes, improved noise isolation, and the NIB (Natural Interaction Behavior) feature, which enables direct communication with other operators using another ComTac VII at close range without the need for radios. Manufactured by 3M Peltor. (MARPAT)"
+      "Description": "An enhanced version of the ComTac VI communication headset, with advanced ambient listening modes, improved noise isolation, and the NIB (Natural Interaction Behavior) feature, which enables direct communication with other operators using another ComTac VII at close range without the need for radios. Manufactured by 3M Peltor. (MARPAT)",
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {

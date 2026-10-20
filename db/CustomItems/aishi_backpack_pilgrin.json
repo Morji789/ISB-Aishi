@@ -10,8 +10,10 @@
         "path": "equipment/item_equipment_backpack_pilgrim_black.bundle",
         "rcid": ""
       },
-      "Height": 8,
-      "Weight": 2.25
+      "Height": 7,
+      "Weight": 2.25,
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {

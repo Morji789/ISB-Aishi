@@ -4,16 +4,10 @@
     "parentId": "5448e54d4bdc2dcc718b4568",
     "handbookParentId": "5b5f701386f774093f2ecf0f",
     "overrideProperties": {
-      "ExaminedByDefault": false,
-      "addtoItemBlacklist": true,
       "Prefab": {
         "path": "equipment/item_equipment_armor_6b34_black.bundle",
         "rcid": ""
-      },
-      "Grids": [],
-      "Name": "6B43 Zabralo-Sh body armor (USEC Intelligence Support Bureau)",
-      "ShortName": "6B43 Zabralo-Sh",
-      "Description": "The 6B43 bulletproof vest is designed for protection from light weapon bullets - including BP and PP - fragments of grenades, mines, and melee weapons, as well as reducing the risk of after-penetration effects during combat situations. (ISB SOF)"
+      }
     },
     "addWeaponPreset": true,
     "weaponPresets": [
@@ -76,7 +70,7 @@
           },
           {
             "_id": "6a07f240d7937faae75f915d",
-            "_tpl": "6575d598b15fef3dd4051678",
+            "_tpl": "6575ce6f16c2762fba005806",
             "parentId": "693af52974ace6d440f355ec",
             "slotId": "Collar"
           },
@@ -108,12 +102,12 @@
       "en": {
         "name": "6B43 Zabralo-Sh body armor (USEC Intelligence Support Bureau)",
         "shortName": "6B43 Zabralo-Sh",
-        "description": "The 6B43 bulletproof vest is designed for protection from light weapon bullets - including BP and PP - fragments of grenades, mines, and melee weapons, as well as reducing the risk of after-penetration effects during combat situations. (ISB SOF)"
+        "description": "The 6B43 bulletproof vest is designed for protection from light weapon bullets - including BP and PP - fragments of grenades, mines, and melee weapons, as well as reducing the risk of after-penetration effects during combat situations. USEC Intelligence Support Bureau version."
       },
       "po": {
-        "name": "Colete Balístico 6B43 (Agência de Suporte a Inteligência da USEC)",
+        "name": "6B43 Zabralo-Sh body armor (USEC Intelligence Support Bureau)",
         "shortName": "6B43 Zabralo-Sh",
-        "description": "O colete à prova de balas 6B43 foi projetado para proteção contra balas de armas leves - incluindo BP e PP - fragmentos de granadas, minas e armas brancas, além de reduzir o risco de efeitos pós-penetração durante situações de combate. (ISB SOF)"
+        "description": "O colete à prova de balas 6B43 foi projetado para proteção contra balas de armas leves - incluindo BP e PP - fragmentos de granadas, minas e armas brancas, além de reduzir o risco de efeitos pós-penetração durante situações de combate. Versão com pintura USEC Intelligence Support Bureau."
       }
     },
     "fleaPriceRoubles": 275900,

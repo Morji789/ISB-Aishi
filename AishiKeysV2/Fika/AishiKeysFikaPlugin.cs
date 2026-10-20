@@ -12,7 +12,7 @@ namespace AishiKeys.Fika
     {
         public const string PluginGuid = "com.samc137.aishikeysmod.fika";
         public const string PluginName = "Aishi Keys - Fika";
-        public const string PluginVersion = "1.0.0";
+        public const string PluginVersion = "1.0.6";
         public const string FikaPluginGuid = "com.fika.core";
         private FikaAishiKeysNetworkBridge _bridge;
         private Harmony _harmony;

@@ -47,7 +47,7 @@ namespace AishiKeys
 
         internal static bool TryUnlock(Player player, Item item, Door door)
         {
-            if (!AishiAnomalyS2.NaturallyLocked(door))
+            if (!AishiAnomalyS2.HasAssignedKey(door))
                 return true;
             var network = Network;
             if (network?.Active != true)
@@ -135,7 +135,7 @@ namespace AishiKeys
                 var door = WorldInteractionUtils.FindInteractiveByStableId(op.Door) as Door;
                 op.Success = false;
                 op.Remaining = item?.GetItemComponent<ResourceComponent>()?.Value ?? 0f;
-                if (owner != null && !owner.IsAI && owner.HealthController?.IsAlive == true && item?.TemplateId == AishiAnomalyS2.Press && !AishiAnomalyContainment.IsSuppressed(item) && op.Remaining >= 1f && AishiAnomalyS2.NaturallyLocked(door) && door.DoorState == EDoorState.Locked && AishiAnomalyS2.WithinDoorRadius(owner, door, door.GetComponentsInChildren<Collider>(), .5f))
+                if (owner != null && !owner.IsAI && owner.HealthController?.IsAlive == true && item?.TemplateId == AishiAnomalyS2.Press && !AishiAnomalyContainment.IsSuppressed(item) && op.Remaining >= 1f && AishiAnomalyS2.HasAssignedKey(door) && door.DoorState == EDoorState.Locked && AishiAnomalyS2.WithinDoorRadius(owner, door, door.GetComponentsInChildren<Collider>(), .5f))
                 {
                     if (WorldInteractionUtils.TryApplyAuthoritativeDoorState(door, (int)EDoorState.Shut))
                     {
@@ -186,7 +186,7 @@ namespace AishiKeys
         private static bool Apply(Operation op)
         {
             var door = WorldInteractionUtils.FindInteractiveByStableId(op.Door) as Door;
-            if (!AishiAnomalyS2.NaturallyLocked(door))
+            if (!AishiAnomalyS2.HasAssignedKey(door))
                 return false;
             if (door.DoorState == EDoorState.Locked && !WorldInteractionUtils.TryApplyAuthoritativeDoorState(door, (int)EDoorState.Shut))
                 return false;

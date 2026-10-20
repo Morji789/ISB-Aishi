@@ -7,121 +7,18 @@
       "Prefab": {
         "path": "equipment/item_equipment_helmet_neosteel_flecktarn_aishi.bundle",
         "rcid": ""
-      },
-      "Name": "Diamond Age NeoSteel High Cut helmet (Flecktarn)",
-      "ShortName": "NeoSteel (Flecktarn)",
-      "Description": "The Diamond Age NeoSteel helmet features a unique design that combines high-strength steel with composite materials to provide advanced protection against ballistic and impact threats. It is designed to withstand high velocity impacts and can provide protection against a variety of threats. Flecktarn Version.",
-      "Slots": [
-        {
-          "_id": "d5c7a78cf37a5093abc30ee4",
-          "_mergeSlotWithChildren": false,
-          "_name": "mod_equipment_000",
-          "_parent": "6ef87c9bac635974805c0415",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "6570a88c8f221f3b210353b7"
-                ],
-                "Shift": 0
-              }
-            ]
-          },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
-        },
-        {
-          "_id": "f6af00bd74225a3aa3d6d2b5",
-          "_mergeSlotWithChildren": false,
-          "_name": "mod_mount",
-          "_parent": "6ef87c9bac635974805c0415",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "5b7be47f5acfc400170e2dd2"
-                ],
-                "Shift": 0
-              }
-            ]
-          },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
-        },
-        {
-          "_id": "eaf6d7dddeb55139ab41b3b6",
-          "_mergeSlotWithChildren": false,
-          "_name": "mod_nvg",
-          "_parent": "6ef87c9bac635974805c0415",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "5a16b8a9fcdbcb00165aa6ca",
-                  "5c0558060db834001b735271"
-                ],
-                "Shift": 0
-              }
-            ]
-          },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
-        },
-        {
-          "_id": "8e8feeffda2956799f478b70",
-          "_mergeSlotWithChildren": true,
-          "_name": "Helmet_top",
-          "_parent": "6ef87c9bac635974805c0415",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "657f9eb7e9433140ad0baf86"
-                ],
-                "Plate": "657f9eb7e9433140ad0baf86",
-                "armorColliders": [
-                  "ParietalHead"
-                ],
-                "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": true
-        },
-        {
-          "_id": "2270cd21a37c5fe6b782e091",
-          "_mergeSlotWithChildren": true,
-          "_name": "Helmet_back",
-          "_parent": "6ef87c9bac635974805c0415",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "657f9ef6c6679fefb3051e1f"
-                ],
-                "Plate": "657f9ef6c6679fefb3051e1f",
-                "armorColliders": [
-                  "BackHead"
-                ],
-                "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": true
-        }
-      ]
+      }
     },
     "locales": {
       "en": {
         "name": "Diamond Age NeoSteel High Cut helmet (Flecktarn)",
         "shortName": "NeoSteel",
-        "description": "The Diamond Age NeoSteel helmet features a unique design that combines high-strength steel with composite materials to provide advanced protection against ballistic and impact threats. It is designed to withstand high velocity impacts and can provide protection against a variety of threats. Flecktarn Version."
+        "description": "The Diamond Age NeoSteel helmet features a unique design that combines high-strength steel with composite materials to provide advanced protection against ballistic and impact threats. It is designed to withstand high velocity impacts and can provide protection against a variety of threats. Flecktarn version."
+      },
+      "po": {
+        "name": "Diamond Age NeoSteel High Cut helmet (Flecktarn)",
+        "shortName": "NeoSteel",
+        "description": "O capacete Diamond Age NeoSteel apresenta um design exclusivo que combina aço de alta resistência com materiais compósitos para fornecer proteção avançada contra ameaças balísticas e de impacto. Ele foi projetado para suportar impactos de alta velocidade e pode fornecer proteção contra uma variedade de ameaças. Versão com pintura Flecktarn."
       }
     },
     "handbookPriceRoubles": 5288,

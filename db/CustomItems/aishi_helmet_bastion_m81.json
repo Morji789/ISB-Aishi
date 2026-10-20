@@ -7,86 +7,18 @@
       "Prefab": {
         "path": "equipment/item_equipment_helmet_bastion_m81_aishi.bundle",
         "rcid": ""
-      },
-      "Name": "Ballistic Armor Co. Bastion helmet (M81 US Woodland)",
-      "ShortName": "BAC Bastion (M81 US Woodland)",
-      "Description": "The Bastion NIJ level IIIA tactical helmet designed for law enforcement and civilian use. Equipped with M-LOK interface rails for mounting additional equipment. Manufactured by Ballistic Armor Co. M81 US Woodland version.",
-      "CanSellOnRagfair": false,
-      "Slots": [
-        {
-          "_id": "37548c25e31a500880693a6a",
-          "_mergeSlotWithChildren": false,
-          "_name": "mod_nvg",
-          "_parent": "3954ff02a19c52c0b6d0701b",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "5c0558060db834001b735271",
-                  "5a16b8a9fcdbcb00165aa6ca"
-                ],
-                "Shift": 0
-              }
-            ]
-          },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
-        },
-        {
-          "_id": "cc52872b7c105f94b88d3079",
-          "_mergeSlotWithChildren": true,
-          "_name": "Helmet_top",
-          "_parent": "3954ff02a19c52c0b6d0701b",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "66b61cfae98be930d701c029"
-                ],
-                "Plate": "66b61cfae98be930d701c029",
-                "armorColliders": [
-                  "ParietalHead"
-                ],
-                "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": true
-        },
-        {
-          "_id": "7e726efa53785c73b05a9870",
-          "_mergeSlotWithChildren": true,
-          "_name": "Helmet_back",
-          "_parent": "3954ff02a19c52c0b6d0701b",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "66b61ce0c5d72b027748867e"
-                ],
-                "Plate": "66b61ce0c5d72b027748867e",
-                "armorColliders": [
-                  "BackHead"
-                ],
-                "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": true
-        }
-      ]
+      }
     },
     "locales": {
       "en": {
         "name": "Ballistic Armor Co. Bastion helmet (M81 US Woodland)",
         "shortName": "BAC Bastion",
         "description": "The Bastion NIJ level IIIA tactical helmet designed for law enforcement and civilian use. Equipped with M-LOK interface rails for mounting additional equipment. Manufactured by Ballistic Armor Co. M81 US Woodland version."
+      },
+      "po": {
+        "name": "Ballistic Armor Co. Bastion helmet (M81 US Woodland)",
+        "shortName": "BAC Bastion",
+        "description": "O capacete tático Bastion de nível NIJ IIIA foi projetado para uso policial e civil. Equipado com trilhos de interface M-LOK para a montagem de equipamentos adicionais. Fabricado pela Ballistic Armor Co. Versão com pintura M81 US Woodland."
       }
     },
     "handbookPriceRoubles": 13205,

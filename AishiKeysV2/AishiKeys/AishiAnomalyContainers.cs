@@ -42,7 +42,7 @@ namespace AishiKeys
         private static bool IsBelt(Item item) => item != null && (BeltIds.Contains(item.TemplateId) || item.GetType().Name == "CustomBeltItemClass");
         private static void Postfix(EFT.InventoryLogic.IContainer __0, Item __1, ref bool __result)
         {
-            if (!__result || __0 == null || __1 == null)
+            if (AnomalyRevealClient.RemoveKteRestrictions || !__result || __0 == null || __1 == null)
                 return;
             bool restricted = false;
             var container = __0;

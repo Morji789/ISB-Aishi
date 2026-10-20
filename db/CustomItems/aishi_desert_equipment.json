@@ -7,215 +7,18 @@
       "Prefab": {
         "path": "equipment/triton_desert/item_equipment_rig_triton_desert.bundle",
         "rcid": ""
-      },
-      "Grids": [
-        {
-          "_name": "1",
-          "_id": "2a037abef22ca6dd0c5be3e0",
-          "_parent": "ff3e2b73fc4ed86753c51e62",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ],
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ]
-              }
-            ],
-            "cellsH": 1,
-            "cellsV": 2,
-            "minCount": 0,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "isSortingTable": false
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_name": "2",
-          "_id": "daea01e26ca17d6e2ccdab21",
-          "_parent": "ff3e2b73fc4ed86753c51e62",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ],
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ]
-              }
-            ],
-            "cellsH": 1,
-            "cellsV": 2,
-            "minCount": 0,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "isSortingTable": false
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_name": "3",
-          "_id": "826f8bebd298b7ccf117d8d1",
-          "_parent": "ff3e2b73fc4ed86753c51e62",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ],
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ]
-              }
-            ],
-            "cellsH": 1,
-            "cellsV": 2,
-            "minCount": 0,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "isSortingTable": false
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_name": "4",
-          "_id": "73e7af470ad23bce3bf07e2c",
-          "_parent": "ff3e2b73fc4ed86753c51e62",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ],
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ]
-              }
-            ],
-            "cellsH": 1,
-            "cellsV": 2,
-            "minCount": 0,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "isSortingTable": false
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_name": "5",
-          "_id": "29ea7e982fcaeff46bed50aa",
-          "_parent": "ff3e2b73fc4ed86753c51e62",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ],
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ]
-              }
-            ],
-            "cellsH": 1,
-            "cellsV": 2,
-            "minCount": 0,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "isSortingTable": false
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_name": "6",
-          "_id": "a81ed10a9b2860cafe480e65",
-          "_parent": "ff3e2b73fc4ed86753c51e62",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ],
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ]
-              }
-            ],
-            "cellsH": 1,
-            "cellsV": 2,
-            "minCount": 0,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "isSortingTable": false
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_name": "7",
-          "_id": "7016325901f9c37235d5d547",
-          "_parent": "ff3e2b73fc4ed86753c51e62",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ],
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ]
-              }
-            ],
-            "cellsH": 1,
-            "cellsV": 2,
-            "minCount": 0,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "isSortingTable": false
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_name": "8",
-          "_id": "1a3ec61da3048e27251859c1",
-          "_parent": "ff3e2b73fc4ed86753c51e62",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ],
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ]
-              }
-            ],
-            "cellsH": 1,
-            "cellsV": 2,
-            "minCount": 0,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "isSortingTable": false
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        }
-      ],
-      "Name": "Dynaforce Triton M43-A chest harness (Desert)",
-      "ShortName": "Triton",
-      "Description": "The Triton M43-A assault chest rig is designed to store and carry ammunition and equipment for use in moderate and hot climates. Manufactured by Dynaforce. (Desert)"
+      }
     },
     "locales": {
       "en": {
         "name": "Dynaforce Triton M43-A chest harness (Desert)",
         "shortName": "Triton",
-        "description": "The Triton M43-A assault chest rig is designed to store and carry ammunition and equipment for use in moderate and hot climates. Manufactured by Dynaforce. (Desert)"
+        "description": "The Triton M43-A assault chest rig is designed to store and carry ammunition and equipment for use in moderate and hot climates. Manufactured by Dynaforce. Desert version."
       },
       "po": {
-        "name": "Colete tático Triton Dynaforce M43-A (Deserto)",
+        "name": "Dynaforce Triton M43-A chest harness (Desert)",
         "shortName": "Triton",
-        "description": "Projetado para guardar e carregar munições e equipamentos em climas moderados ou quentes. (Deserto)"
+        "description": "Projetado para guardar e carregar munições e equipamentos em climas moderados ou quentes. Versão com pintura Desert."
       }
     },
     "handbookPriceRoubles": 23822,
@@ -386,35 +189,7 @@
       "Prefab": {
         "path": "equipment/bastion_desert/item_equipment_helmet_diamond_age_bastion_shield_desert.bundle",
         "rcid": ""
-      },
-      "Slots": [
-        {
-          "_name": "mod_nvg",
-          "_id": "3971c3a3addf48f44de84877",
-          "_parent": "385ba68eace29436100eec63",
-          "_props": {
-            "filters": [
-              {
-                "Shift": 0,
-                "Filter": [
-                  "5c0558060db834001b735271",
-                  "5a16b8a9fcdbcb00165aa6ca",
-                  "689dbded6c7e684817080c29",
-                  "689b8883b49f27df1c0873f8",
-                  "69ce4e3430056e9ce1007c78",
-                  "694b2e29274ab9b2a319b6ed"
-                ]
-              }
-            ]
-          },
-          "_required": false,
-          "_mergeSlotWithChildren": false,
-          "_proto": "55d30c4c4bdc2db4468b457e"
-        }
-      ],
-      "Name": "Diamond Age Bastion helmet armor plate (Desert)",
-      "ShortName": "Bastion plate",
-      "Description": "An optional modular ballistic protection for the Diamond Age Bastion helmet. Desert version."
+      }
     },
     "locales": {
       "en": {
@@ -423,9 +198,9 @@
         "description": "An optional modular ballistic protection for the Diamond Age Bastion helmet. Desert version."
       },
       "po": {
-        "name": "Proteção adicional para o capacete Bastion (Deserto)",
-        "shortName": "Bastion",
-        "description": "Armadura protetora opcional para o capacete Diamond Age Bastion. Versão desértica."
+        "name": "Diamond Age Bastion helmet armor plate (Desert)",
+        "shortName": "Bastion plate",
+        "description": "Armadura protetora opcional para o capacete Diamond Age Bastion. Versão com pintura Desert."
       }
     },
     "handbookPriceRoubles": 121330,

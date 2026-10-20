@@ -20,7 +20,9 @@
         "rcid": ""
       },
       "Weight": 0.025,
-      "Grids": []
+      "Grids": [],
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
     },
     "addWeaponPreset": true,
     "weaponPresets": [

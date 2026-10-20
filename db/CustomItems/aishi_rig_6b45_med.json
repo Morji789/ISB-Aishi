@@ -4,217 +4,10 @@
     "parentId": "5448e5284bdc2dcb718b4567",
     "handbookParentId": "5b5f6f8786f77447ed563642",
     "overrideProperties": {
-      "QuestItem": false,
-      "ExaminedByDefault": false,
-      "IsUnsaleable": false,
-      "InsuranceDisabled": false,
-      "CanSellOnRagfair": false,
-      "CanRequireOnRagfair": false,
-      "addtoItemBlacklist": true,
       "Prefab": {
         "path": "equipment/item_equipment_rig_6b45_med_black.bundle",
         "rcid": ""
-      },
-      "Width": 3,
-      "Height": 4,
-      "Weight": 4.5,
-      "Grids": [
-        {
-          "_id": "cb00a2b0ec145c665c09e3e7",
-          "_name": "GridView (1)",
-          "_parent": "6b45_medic",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 2,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "7ebf4e5845c92a88e9360908",
-          "_name": "GridView (2)",
-          "_parent": "6b45_medic",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 2,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "0b18055dcbdeb7a7326757f1",
-          "_name": "GridView (3)",
-          "_parent": "6b45_medic",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 4,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "4aeb59827aac336c5130a05c",
-          "_name": "GridView (4)",
-          "_parent": "6b45_medic",
-          "_props": {
-            "cellsH": 2,
-            "cellsV": 2,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "661c35567eb401c1bc6db3fa",
-          "_name": "GridView (5)",
-          "_parent": "6b45_medic",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 1,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "cbb27469f9d5dc5d57ba3dd3",
-          "_name": "GridView (6)",
-          "_parent": "6b45_medic",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 1,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "b80b7381fda9d3bcb7b5bf5a",
-          "_name": "GridView (7)",
-          "_parent": "6b45_medic",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 1,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "14342c2f7d0d8ee45304fe47",
-          "_name": "GridView (8)",
-          "_parent": "6b45_medic",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 1,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        }
-      ],
-      "Name": "6B45 body armor (USEC Intelligence Support Bureau)",
-      "ShortName": "6B45",
-      "Description": "The 6B45 body armor, designed to protect personnel from shrapnel and small arms fire. Part of the Ratnik equipment system and has been in production since the 2010s as a replacement for the 6B43 model. USEC Intelligence Support Bureau version."
+      }
     },
     "addWeaponPreset": true,
     "weaponPresets": [
@@ -291,12 +84,12 @@
       "en": {
         "name": "6B45 body armor (USEC Intelligence Support Bureau)",
         "shortName": "6B45",
-        "description": "The 6B45 body armor, designed to protect personnel from shrapnel and small arms fire. Part of the Ratnik equipment system and has been in production since the 2010s as a replacement for the 6B43 model. USEC Intelligence Support Bureau version."
+        "description": "A full plate carrier setup built on the 6B45 vest. This setup allows for convenient placement of essential combat medical supplies and communication equipment. USEC Intelligence Support Bureau version."
       },
       "po": {
-        "name": "6B45 body armor (Agência de Suporte a Inteligência da USEC)",
+        "name": "6B45 body armor (USEC Intelligence Support Bureau)",
         "shortName": "6B45",
-        "description": "The 6B45 body armor, designed to protect personnel from shrapnel and small arms fire. Part of the Ratnik equipment system and has been in production since the 2010s as a replacement for the 6B43 model. Agência de Suporte a Inteligência da USEC version."
+        "description": "Uma configuração completa de plate carrier baseada no colete 6B45. Esta configuração permite a disposição conveniente de suprimentos médicos de combate essenciais e equipamentos de comunicação. Versão com pintura USEC Intelligence Support Bureau."
       }
     },
     "fleaPriceRoubles": 49283,

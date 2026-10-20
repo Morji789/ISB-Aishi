@@ -4,16 +4,10 @@
     "parentId": "5448e54d4bdc2dcc718b4568",
     "handbookParentId": "5b5f701386f774093f2ecf0f",
     "overrideProperties": {
-      "ExaminedByDefault": false,
-      "addtoItemBlacklist": true,
       "Prefab": {
         "path": "equipment/item_equipment_armor_korundvm_ISB.bundle",
         "rcid": ""
-      },
-      "Grids": [],
-      "Name": "NPP KlASS Korund-VM body armor (USEC Intelligence Support Bureau)",
-      "ShortName": "Korund-VM",
-      "Description": "The NPP KlASS Korund-VM heavy bulletproof vest, adopted by the units of the Ministry of Internal Affairs of Russia. (ISB SOF)"
+      }
     },
     "addWeaponPreset": true,
     "weaponPresets": [
@@ -40,13 +34,13 @@
           },
           {
             "_id": "6a07f30b8e75711e0854623f",
-            "_tpl": "64afdb577bb3bfe8fe03fd1d",
+            "_tpl": "654a4f8bc721968a4404ef18",
             "parentId": "6a07f2f57988a75c270b626e",
             "slotId": "Left_side_plate"
           },
           {
             "_id": "6a07f310f4b50331ae04770d",
-            "_tpl": "64afdb577bb3bfe8fe03fd1d",
+            "_tpl": "654a4f8bc721968a4404ef18",
             "parentId": "6a07f2f57988a75c270b626e",
             "slotId": "Right_side_plate"
           },
@@ -102,12 +96,12 @@
       "en": {
         "name": "NPP KlASS Korund-VM body armor (USEC Intelligence Support Bureau)",
         "shortName": "Korund-VM",
-        "description": "The NPP KlASS Korund-VM heavy bulletproof vest, adopted by the units of the Ministry of Internal Affairs of Russia. (ISB SOF)"
+        "description": "The NPP KlASS Korund-VM heavy bulletproof vest, adopted by the units of the Ministry of Internal Affairs of Russia. USEC Intelligence Support Bureau version."
       },
       "po": {
-        "name": "Colete NPP KlASS Korund-VM (Agência de Suporte a Inteligência da USEC)",
+        "name": "NPP KlASS Korund-VM body armor (USEC Intelligence Support Bureau)",
         "shortName": "Korund-VM",
-        "description": "O pesado colete a prova de balas NPP KlASS Korund-VM foi adotado pelas unidades do Ministério de Assuntos Internos da Rússia. (ISB SOF)"
+        "description": "O pesado colete a prova de balas NPP KlASS Korund-VM foi adotado pelas unidades do Ministério de Assuntos Internos da Rússia. Versão com pintura USEC Intelligence Support Bureau."
       }
     },
     "fleaPriceRoubles": 104900,

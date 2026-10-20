@@ -7,86 +7,18 @@
       "Prefab": {
         "path": "equipment/item_equipment_helmet_bastion_green_multicam_aishi.bundle",
         "rcid": ""
-      },
-      "Name": "Ballistic Armor Co. Bastion helmet (Green MultiCam)",
-      "ShortName": "BAC Bastion (Green MultiCam)",
-      "Description": "The Bastion NIJ level IIIA tactical helmet designed for law enforcement and civilian use. Equipped with M-LOK interface rails for mounting additional equipment. Manufactured by Ballistic Armor Co. Green MultiCam version.",
-      "CanSellOnRagfair": false,
-      "Slots": [
-        {
-          "_id": "1c2118e4985459b4b5afa04d",
-          "_mergeSlotWithChildren": false,
-          "_name": "mod_nvg",
-          "_parent": "89f136d7de8255a1a3ac1352",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "5c0558060db834001b735271",
-                  "5a16b8a9fcdbcb00165aa6ca"
-                ],
-                "Shift": 0
-              }
-            ]
-          },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
-        },
-        {
-          "_id": "4b76b73486c953859e4088cf",
-          "_mergeSlotWithChildren": true,
-          "_name": "Helmet_top",
-          "_parent": "89f136d7de8255a1a3ac1352",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "66b61cfae98be930d701c029"
-                ],
-                "Plate": "66b61cfae98be930d701c029",
-                "armorColliders": [
-                  "ParietalHead"
-                ],
-                "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": true
-        },
-        {
-          "_id": "38cd3cdb426a5561a1647eeb",
-          "_mergeSlotWithChildren": true,
-          "_name": "Helmet_back",
-          "_parent": "89f136d7de8255a1a3ac1352",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "66b61ce0c5d72b027748867e"
-                ],
-                "Plate": "66b61ce0c5d72b027748867e",
-                "armorColliders": [
-                  "BackHead"
-                ],
-                "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": true
-        }
-      ]
+      }
     },
     "locales": {
       "en": {
         "name": "Ballistic Armor Co. Bastion helmet (Green MultiCam)",
         "shortName": "BAC Bastion",
         "description": "The Bastion NIJ level IIIA tactical helmet designed for law enforcement and civilian use. Equipped with M-LOK interface rails for mounting additional equipment. Manufactured by Ballistic Armor Co. Green MultiCam version."
+      },
+      "po": {
+        "name": "Ballistic Armor Co. Bastion helmet (Green MultiCam)",
+        "shortName": "BAC Bastion",
+        "description": "O capacete tático Bastion de nível NIJ IIIA foi projetado para uso policial e civil. Equipado com trilhos de interface M-LOK para a montagem de equipamentos adicionais. Fabricado pela Ballistic Armor Co. Versão com pintura Green MultiCam."
       }
     },
     "handbookPriceRoubles": 13205,

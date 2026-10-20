@@ -12,7 +12,9 @@
         "rcid": ""
       },
       "Weight": 0.0,
-      "Grids": []
+      "Grids": [],
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -91,7 +93,9 @@
         "rcid": ""
       },
       "Weight": 0.0,
-      "Grids": []
+      "Grids": [],
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -124,7 +128,9 @@
         "rcid": ""
       },
       "Weight": 0.0,
-      "Grids": []
+      "Grids": [],
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -159,7 +165,9 @@
       "Width": 3,
       "Height": 3,
       "Weight": 0.0,
-      "Grids": []
+      "Grids": [],
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -192,7 +200,9 @@
         "rcid": ""
       },
       "Weight": 0.0,
-      "Grids": []
+      "Grids": [],
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -225,7 +235,9 @@
         "rcid": ""
       },
       "Weight": 0.0,
-      "Grids": []
+      "Grids": [],
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -258,7 +270,9 @@
         "rcid": ""
       },
       "Weight": 0.0,
-      "Grids": []
+      "Grids": [],
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -291,7 +305,9 @@
         "rcid": ""
       },
       "Weight": 0.0,
-      "Grids": []
+      "Grids": [],
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -324,7 +340,9 @@
         "rcid": ""
       },
       "Weight": 0.0,
-      "Grids": []
+      "Grids": [],
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -356,7 +374,9 @@
       },
       "Height": 2,
       "Weight": 0.0,
-      "Grids": []
+      "Grids": [],
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -392,7 +412,9 @@
         "rcid": ""
       },
       "Weight": 0.15,
-      "Grids": []
+      "Grids": [],
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -430,7 +452,9 @@
       },
       "Height": 1,
       "Weight": 0.0,
-      "Grids": []
+      "Grids": [],
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -461,7 +485,9 @@
         "rcid": ""
       },
       "Weight": 0.0,
-      "Grids": []
+      "Grids": [],
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -531,7 +557,9 @@
       },
       "Height": 1,
       "Weight": 0.15,
-      "Grids": []
+      "Grids": [],
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {

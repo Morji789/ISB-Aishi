@@ -26,7 +26,7 @@ namespace AishiKeys
             GameWorld instance = Singleton<GameWorld>.Instance;
             if (!((instance != null) ? instance.MainPlayer : null))
                 return;
-            if (string.IsNullOrEmpty((door != null) ? door.KeyId : null))
+            if (!MasterKeyHelper.HasAssignedKey(door))
                 return;
             if (WorldInteractionUtils.IsBotInteraction(owner))
                 return;

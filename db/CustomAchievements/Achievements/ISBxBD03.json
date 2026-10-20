@@ -50,6 +50,42 @@
             "_id": "69d6ea9794d9f6b35c5643c7",
             "_tpl": "69575d3136babdc4ee38913b",
             "upd": {}
+          },
+          {
+            "_id": "c0bfbce5eb31c1b688f28c4c",
+            "_tpl": "656faf0ca0dce000a2020f77",
+            "parentId": "69d6ea9794d9f6b35c5643c7",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "7821a37a42985633635db0fb",
+            "_tpl": "656faf0ca0dce000a2020f77",
+            "parentId": "69d6ea9794d9f6b35c5643c7",
+            "slotId": "Back_plate"
+          },
+          {
+            "_id": "f2cfc51b41923ed13f158d5c",
+            "_tpl": "68a5f30248f18317750ab20b",
+            "parentId": "69d6ea9794d9f6b35c5643c7",
+            "slotId": "Soft_armor_front"
+          },
+          {
+            "_id": "e33c569edd0a824c13a4505b",
+            "_tpl": "68a5f3a348f18317750ab4be",
+            "parentId": "69d6ea9794d9f6b35c5643c7",
+            "slotId": "Soft_armor_back"
+          },
+          {
+            "_id": "645e89cebf9d4f6276b53d34",
+            "_tpl": "68a5f3ec7c9f6975d00238be",
+            "parentId": "69d6ea9794d9f6b35c5643c7",
+            "slotId": "Soft_armor_left"
+          },
+          {
+            "_id": "536961d953393ac1f30aa01d",
+            "_tpl": "68a5f42948f18317750ab543",
+            "parentId": "69d6ea9794d9f6b35c5643c7",
+            "slotId": "soft_armor_right"
           }
         ],
         "type": "AssortmentUnlock"
@@ -72,6 +108,42 @@
             "_id": "69d6eaa27cbaa559d2ca7790",
             "_tpl": "69575d3755b37eacd8f3a92a",
             "upd": {}
+          },
+          {
+            "_id": "dea94924e5cabddc14c2d073",
+            "_tpl": "656fae5f7c2d57afe200c0d7",
+            "parentId": "69d6eaa27cbaa559d2ca7790",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "8d79452061d46c6f5714d354",
+            "_tpl": "656fae5f7c2d57afe200c0d7",
+            "parentId": "69d6eaa27cbaa559d2ca7790",
+            "slotId": "Back_plate"
+          },
+          {
+            "_id": "d0ee4a6760fd428f7805e5a1",
+            "_tpl": "68a5ec952295a9739b032dd8",
+            "parentId": "69d6eaa27cbaa559d2ca7790",
+            "slotId": "Soft_armor_front"
+          },
+          {
+            "_id": "da8101bc882aad5b93ae3cae",
+            "_tpl": "68a5ec3731f944d6be0efd64",
+            "parentId": "69d6eaa27cbaa559d2ca7790",
+            "slotId": "Soft_armor_back"
+          },
+          {
+            "_id": "76605d825e959944640e731d",
+            "_tpl": "68a5ecd83acdf023050b1c1c",
+            "parentId": "69d6eaa27cbaa559d2ca7790",
+            "slotId": "Soft_armor_left"
+          },
+          {
+            "_id": "5e40118628e77831205a41c4",
+            "_tpl": "68a5ee4b91ebcb4d0c019d88",
+            "parentId": "69d6eaa27cbaa559d2ca7790",
+            "slotId": "soft_armor_right"
           }
         ],
         "type": "AssortmentUnlock"
@@ -94,6 +166,30 @@
             "_id": "69d6eaa74e7b1f2d5b2168e6",
             "_tpl": "6957e05fbac14a6e9fcfafc2",
             "upd": {}
+          },
+          {
+            "_id": "0d52b26a2ec70c00c2e2125d",
+            "_tpl": "656fa53d94b480b8a500c0e4",
+            "parentId": "69d6eaa74e7b1f2d5b2168e6",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "dbd2c4862fb28dd0104c21a3",
+            "_tpl": "656fa53d94b480b8a500c0e4",
+            "parentId": "69d6eaa74e7b1f2d5b2168e6",
+            "slotId": "Back_plate"
+          },
+          {
+            "_id": "db89e4b58babc1586ef59c05",
+            "_tpl": "68a5f30248f18317750ab20b",
+            "parentId": "69d6eaa74e7b1f2d5b2168e6",
+            "slotId": "Soft_armor_front"
+          },
+          {
+            "_id": "1649861f751fa76ddf615a6a",
+            "_tpl": "68a5f3a348f18317750ab4be",
+            "parentId": "69d6eaa74e7b1f2d5b2168e6",
+            "slotId": "Soft_armor_back"
           }
         ],
         "type": "AssortmentUnlock"
@@ -116,6 +212,78 @@
             "_id": "69d6ecb36972ebce3766ea83",
             "_tpl": "6957e050afda56ab90744761",
             "upd": {}
+          },
+          {
+            "_id": "3b7f942d7178c10cc460b5b7",
+            "_tpl": "655746010177119f4a097ff7",
+            "parentId": "69d6ecb36972ebce3766ea83",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "9ac7bf296cda8618555472bb",
+            "_tpl": "655746010177119f4a097ff7",
+            "parentId": "69d6ecb36972ebce3766ea83",
+            "slotId": "Back_plate"
+          },
+          {
+            "_id": "7dd110a39d4f05a085bf8820",
+            "_tpl": "6557458f83942d705f0c4962",
+            "parentId": "69d6ecb36972ebce3766ea83",
+            "slotId": "Left_side_plate"
+          },
+          {
+            "_id": "3d54ebe84d3a6f511992c38f",
+            "_tpl": "6557458f83942d705f0c4962",
+            "parentId": "69d6ecb36972ebce3766ea83",
+            "slotId": "Right_side_plate"
+          },
+          {
+            "_id": "7ff64ab457fdedca3e00a38b",
+            "_tpl": "68a5eaab48f18317750a0b92",
+            "parentId": "69d6ecb36972ebce3766ea83",
+            "slotId": "Soft_armor_front"
+          },
+          {
+            "_id": "1db0cc63cd499a6ca4f22ec5",
+            "_tpl": "68a5ea26200341f12e08de79",
+            "parentId": "69d6ecb36972ebce3766ea83",
+            "slotId": "Soft_armor_back"
+          },
+          {
+            "_id": "4f1a433b2654a61bc1971af8",
+            "_tpl": "68a5eb4c200341f12e08e7d1",
+            "parentId": "69d6ecb36972ebce3766ea83",
+            "slotId": "Soft_armor_left"
+          },
+          {
+            "_id": "50c5f79fb1582af85b08273d",
+            "_tpl": "68a5eba93acdf023050b1c15",
+            "parentId": "69d6ecb36972ebce3766ea83",
+            "slotId": "soft_armor_right"
+          },
+          {
+            "_id": "5a007092ea949ae8b1e71914",
+            "_tpl": "68a5ea756e534ad0110eca16",
+            "parentId": "69d6ecb36972ebce3766ea83",
+            "slotId": "Collar"
+          },
+          {
+            "_id": "19067ad3337346f106e7df03",
+            "_tpl": "68a5eb16c4e56258880dfe96",
+            "parentId": "69d6ecb36972ebce3766ea83",
+            "slotId": "Shoulder_l"
+          },
+          {
+            "_id": "7366b4a0c8472bb392a8ff70",
+            "_tpl": "68a5eb856e534ad0110efa05",
+            "parentId": "69d6ecb36972ebce3766ea83",
+            "slotId": "Shoulder_r"
+          },
+          {
+            "_id": "1fa951eb8c5677519f8ab7b1",
+            "_tpl": "68a5eadd2c125bac5a097cbf",
+            "parentId": "69d6ecb36972ebce3766ea83",
+            "slotId": "Groin"
           }
         ],
         "type": "AssortmentUnlock"

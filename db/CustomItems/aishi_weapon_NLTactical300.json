@@ -623,7 +623,8 @@
       "Width": 1,
       "Height": 1,
       "Weight": 1.0,
-      "Grids": []
+      "Grids": [],
+      "CanSellOnRagfair": false
     },
     "locales": {
       "en": {

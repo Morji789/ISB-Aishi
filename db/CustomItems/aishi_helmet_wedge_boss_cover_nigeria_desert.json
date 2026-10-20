@@ -1,49 +1,24 @@
 {
   "d9f78d0d55ec56838b296a7b": {
-    "itemTplToClone": "5aa7e4a4e5b5b000137b76f2",
+    "itemTplToClone": "69e24f4f9e6ca1b32508bfbc",
     "parentId": "57bef4c42459772e8d35a53b",
     "handbookParentId": "5b5f704686f77447ec5d76d7",
     "overrideProperties": {
-      "ArmorMaterial": "Aramid",
-      "ArmorType": "None",
-      "BluntThroughput": 0,
-      "CanSellOnRagfair": false,
-      "ConflictingItems": [],
-      "DeafStrength": "None",
-      "Description": "A helmet cover for Team Wendy EXFIL series helmets. The M14 Nigeria Desert camouflage is intended for desert operations.",
-      "Durability": 1,
-      "Grids": [],
-      "Height": 1,
-      "ItemSound": "gear_generic",
-      "MaxDurability": 1,
-      "Name": "Team Wendy EXFIL helmet cover (M14 Nigeria Desert)",
       "Prefab": {
         "path": "equipment/item_equipment_helmet_wedge_boss_cover_nigeria_desert_aishi.bundle",
         "rcid": ""
-      },
-      "RepairCost": 149,
-      "RicochetParams": {
-        "x": 0,
-        "y": 0,
-        "z": 0
-      },
-      "ShortName": "EXFIL (M14 Nigeria Desert)",
-      "Slots": [],
-      "Weight": 0.1,
-      "Width": 1,
-      "mousePenalty": 0,
-      "RagfairLevelToTrade": 0
+      }
     },
     "locales": {
       "en": {
         "name": "Team Wendy EXFIL helmet cover (M14 Nigeria Desert)",
         "shortName": "ZSh-1-2M",
-        "description": "A helmet cover for Team Wendy EXFIL series helmets. The M14 Nigeria Desert camouflage is intended for desert operations."
+        "description": "A helmet cover for Team Wendy EXFIL series helmets. The M14 Nigeria Desert camouflage is intended for night-time operations."
       },
       "po": {
-        "name": " (M14 Nigeria Desert)",
+        "name": "Team Wendy EXFIL helmet cover (M14 Nigeria Desert)",
         "shortName": "ZSh-1-2M",
-        "description": " M14 Nigeria Desert Version."
+        "description": "Uma capa para capacetes da série EXFIL da Team Wendy. A camuflagem M14 Nigeria Desert é destinada a operações noturnas."
       }
     },
     "handbookPriceRoubles": 12000,

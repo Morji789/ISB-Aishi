@@ -4,16 +4,10 @@
     "parentId": "5448e5284bdc2dcb718b4567",
     "handbookParentId": "5b5f6f8786f77447ed563642",
     "overrideProperties": {
-      "ExaminedByDefault": false,
-      "CanSellOnRagfair": false,
-      "addtoItemBlacklist": true,
       "Prefab": {
         "path": "equipment/item_equipment_rig_mbss_black.bundle",
         "rcid": ""
-      },
-      "Name": "Eagle Allied Industries MBSS plate carrier (USEC Intelligence Support Bureau)",
-      "ShortName": "MBSS",
-      "Description": "The MBSS vest is part of the Maritime Ballistic Survivor System. The vest can be used with flotation inserts to provide buoyancy as it is not equipped with a quick release system. Manufactured by Eagle Allied Industries. (ISB SOF)"
+      }
     },
     "addWeaponPreset": false,
     "weaponPresets": [],
@@ -21,12 +15,12 @@
       "en": {
         "name": "Eagle Allied Industries MBSS plate carrier (USEC Intelligence Support Bureau)",
         "shortName": "MBSS",
-        "description": "The MBSS vest is part of the Maritime Ballistic Survivor System. The vest can be used with flotation inserts to provide buoyancy as it is not equipped with a quick release system. Manufactured by Eagle Allied Industries. (ISB SOF)"
+        "description": "The MBSS vest is part of the Maritime Ballistic Survivor System. The vest can be used with flotation inserts to provide buoyancy as it is not equipped with a quick release system. Manufactured by Eagle Allied Industries. USEC Intelligence Support Bureau version."
       },
       "po": {
-        "name": "Colete Tático Eagle Allied Industries MBSS (Agência de Suporte a Inteligência da USEC)",
+        "name": "Eagle Allied Industries MBSS plate carrier (USEC Intelligence Support Bureau)",
         "shortName": "MBSS",
-        "description": "O colete MBSS com placas de armadura de polietileno de alta densidade (classe 3) faz parte do Sistema de Sobrevivência Balístico Marítimo. O colete pode ser usado com inserções de flutuação para proporcionar flutuabilidade, uma vez que não possui um sistema de liberação rápida. Fabricado pela Eagle Allied Industries. (ISB SOF)"
+        "description": "O colete MBSS com placas de armadura de polietileno de alta densidade (classe 3) faz parte do Sistema de Sobrevivência Balístico Marítimo. O colete pode ser usado com inserções de flutuação para proporcionar flutuabilidade, uma vez que não possui um sistema de liberação rápida. Fabricado pela Eagle Allied Industries. Versão com pintura USEC Intelligence Support Bureau."
       }
     },
     "fleaPriceRoubles": 69800,

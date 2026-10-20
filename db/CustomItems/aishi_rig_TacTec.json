@@ -4,17 +4,10 @@
     "parentId": "5448e5284bdc2dcb718b4567",
     "handbookParentId": "5b5f6f8786f77447ed563642",
     "overrideProperties": {
-      "ExaminedByDefault": false,
-      "InsuranceDisabled": true,
-      "CanSellOnRagfair": false,
-      "addtoItemBlacklist": true,
       "Prefab": {
         "path": "equipment/item_equipment_rig_carriertactec_black.bundle",
         "rcid": ""
-      },
-      "Name": "5.11 Tactical TacTec plate carrier (USEC Intelligence Support Bureau)",
-      "ShortName": "TacTec",
-      "Description": "A plate carrier with a set of pouches for use with assault rifles. Manufactured by 5.11 Tactical. (ISB SOF)"
+      }
     },
     "addWeaponPreset": true,
     "weaponPresets": [
@@ -61,12 +54,12 @@
       "en": {
         "name": "5.11 Tactical TacTec plate carrier (USEC Intelligence Support Bureau)",
         "shortName": "TacTec",
-        "description": "A plate carrier with a set of pouches for use with assault rifles. Manufactured by 5.11 Tactical. (ISB SOF)"
+        "description": "A plate carrier with a set of pouches for use with assault rifles. Manufactured by 5.11 Tactical. USEC Intelligence Support Bureau version."
       },
       "po": {
-        "name": "Colete Tático 5.11 Tactical TacTec (Agência de Suporte a Inteligência da USEC)",
+        "name": "5.11 Tactical TacTec plate carrier (USEC Intelligence Support Bureau)",
         "shortName": "TacTec",
-        "description": "Plate carrier com diversos bolsos para uso com rifles de assalto. Fabricado pela 5.11 Tactical. (ISB SOF)"
+        "description": "Plate carrier com diversos bolsos para uso com rifles de assalto. Fabricado pela 5.11 Tactical. Versão com pintura USEC Intelligence Support Bureau."
       }
     },
     "fleaPriceRoubles": 110450,

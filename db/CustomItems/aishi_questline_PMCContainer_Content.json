@@ -11,7 +11,9 @@
         "rcid": ""
       },
       "Width": 2,
-      "Weight": 0.0
+      "Weight": 0.0,
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -58,7 +60,9 @@
       },
       "Height": 2,
       "Weight": 0.0,
-      "Grids": []
+      "Grids": [],
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -94,7 +98,9 @@
       },
       "Height": 2,
       "Weight": 0.0,
-      "Grids": []
+      "Grids": [],
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -130,7 +136,9 @@
       },
       "Height": 2,
       "Weight": 0.0,
-      "Grids": []
+      "Grids": [],
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -166,7 +174,9 @@
       },
       "Height": 2,
       "Weight": 0.0,
-      "Grids": []
+      "Grids": [],
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -202,7 +212,9 @@
       },
       "Height": 2,
       "Weight": 0.0,
-      "Grids": []
+      "Grids": [],
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -238,7 +250,9 @@
       },
       "Width": 2,
       "Weight": 0.0,
-      "Grids": []
+      "Grids": [],
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -274,7 +288,9 @@
       },
       "Height": 2,
       "Weight": 0.0,
-      "Grids": []
+      "Grids": [],
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -310,7 +326,9 @@
       },
       "Height": 2,
       "Weight": 0.0,
-      "Grids": []
+      "Grids": [],
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {

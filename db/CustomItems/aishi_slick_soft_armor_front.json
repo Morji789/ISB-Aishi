@@ -7,7 +7,7 @@
       "PushToFleaBlacklist": true,
       "InsuranceDisabled": true,
       "CanSellOnRagfair": false,
-      "ArmorMaterial": "Ceramic",
+      "ArmorMaterial": "UHMWPE",
       "ArmorType": "Heavy",
       "BackgroundColor": "yellow",
       "armorPlateColliders": [
@@ -51,6 +51,10 @@
         "ContainerName": "",
         "Probability": 0
       }
+    ],
+    "addtoModSlots": true,
+    "modSlot": [
+      "Soft_armor_front"
     ]
   }
 }

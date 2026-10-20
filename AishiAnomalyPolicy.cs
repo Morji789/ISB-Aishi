@@ -16,7 +16,7 @@ using SPTarkov.Server.Core.Services;
 
 namespace Aishi;
 [Injectable(TypePriority = OnLoadOrder.PostSptModLoader + 1200)]
-public sealed class AishiAnomalyPolicy(DatabaseService database, ModHelper modHelper, SaveServer saves, MailSendService mail) : IOnLoad
+public sealed class AishiAnomalyPolicy(DatabaseService database, ModHelper modHelper, SaveServer saves, MailSendService mail, AishiAnomalyConfig config) : IOnLoad
 {
     internal static readonly HashSet<MongoId> BeltIds = new()
     {
@@ -126,7 +126,15 @@ public sealed class AishiAnomalyPolicy(DatabaseService database, ModHelper modHe
                     if (filters.Count == 0)
                         filters.Add(new GridFilter { Filter = new HashSet<MongoId> { "54009119af1c881c07000029" } });
                     foreach (var filter in filters)
-                        (filter.ExcludedFilter ??= new HashSet<MongoId>()).UnionWith(restricted);
+                        {
+                        if (config.Debug.RemoveKTErestrictions)
+                        {
+                            filter.ExcludedFilter?.ExceptWith(restricted);
+                            (filter.Filter ??= new HashSet<MongoId>()).UnionWith(restricted);
+                        }
+                        else
+                            (filter.ExcludedFilter ??= new HashSet<MongoId>()).UnionWith(restricted);
+                    }
                     grid.Properties.Filters = filters;
                 }
 
@@ -135,7 +143,10 @@ public sealed class AishiAnomalyPolicy(DatabaseService database, ModHelper modHe
             foreach (var slot in item.Properties.Slots.Where(s => s.Name?.StartsWith("SpecialSlot", StringComparison.OrdinalIgnoreCase) == true))
                 foreach (var filter in slot.Properties.Filters ?? [])
                 {
-                    filter.Filter?.ExceptWith(restricted);
+                    if (config.Debug.RemoveKTErestrictions)
+                        (filter.Filter ??= new HashSet<MongoId>()).UnionWith(restricted);
+                    else
+                        filter.Filter?.ExceptWith(restricted);
                     filter.ExtensionData ??= new Dictionary<string, object>();
                     var excluded = new HashSet<string>(StringComparer.Ordinal);
                     if (filter.ExtensionData.TryGetValue("ExcludedFilter", out var previous))
@@ -148,7 +159,10 @@ public sealed class AishiAnomalyPolicy(DatabaseService database, ModHelper modHe
                             excluded.UnionWith(element.EnumerateArray().Select(id => id.GetString()!).Where(id => id != null));
                     }
 
-                    excluded.UnionWith(restricted.Select(id => id.ToString()));
+                    if (config.Debug.RemoveKTErestrictions)
+                        excluded.ExceptWith(restricted.Select(id => id.ToString()));
+                    else
+                        excluded.UnionWith(restricted.Select(id => id.ToString()));
                     filter.ExtensionData["ExcludedFilter"] = excluded;
                 }
         }

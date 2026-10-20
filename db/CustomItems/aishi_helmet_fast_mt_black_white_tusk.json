@@ -37,7 +37,11 @@
     "addtoItemBlacklist": true,
     "addtoStaticLootContainers": false,
     "addtoTraders": false,
-    "traders": {}
+    "traders": {},
+    "addtoModSlots": true,
+    "modSlot": [
+      "Helmet_top"
+    ]
   },
   "f4ce6513dbb4bd3817f4a811": {
     "itemTplToClone": "657f8f10f4c82973640b2350",
@@ -77,259 +81,33 @@
     "addtoItemBlacklist": true,
     "addtoStaticLootContainers": false,
     "addtoTraders": false,
-    "traders": {}
+    "traders": {},
+    "addtoModSlots": true,
+    "modSlot": [
+      "Helmet_back"
+    ]
   },
   "774ffab2004504eab3888c95": {
     "itemTplToClone": "5a154d5cfcdbcb001a3b00da",
     "parentId": "5a341c4086f77401f2541505",
     "handbookParentId": "5b47574386f77428ca22b330",
     "overrideProperties": {
-      "AnimationVariantsNumber": 0,
-      "ArmorMaterial": "Combined",
-      "ArmorType": "Light",
       "BackgroundColor": "yellow",
-      "BlindnessProtection": 0,
-      "BlocksEarpiece": false,
-      "BlocksEyewear": false,
-      "BlocksFaceCover": false,
-      "BlocksHeadwear": false,
-      "BluntThroughput": 0.1431,
-      "CanPutIntoDuringTheRaid": true,
-      "CanRequireOnRagfair": false,
-      "CanSellOnRagfair": false,
-      "CantRemoveFromSlotsDuringRaid": [],
-      "ConflictingItems": [],
-      "DeafStrength": "None",
-      "Description": "The Ops-Core FAST Maritime ballistic helmet is popular in special forces all around the world. Can be modified with different components. Black version.",
-      "DiscardLimit": -1,
-      "DiscardingBlock": false,
-      "DropSoundType": "None",
-      "Durability": 0,
-      "ExamineExperience": 4,
-      "ExamineTime": 1,
-      "ExaminedByDefault": true,
-      "ExtraSizeDown": 0,
-      "ExtraSizeForceAdd": false,
-      "ExtraSizeLeft": 0,
-      "ExtraSizeRight": 0,
-      "ExtraSizeUp": 0,
-      "FaceShieldComponent": false,
-      "FaceShieldMask": "NoMask",
-      "ForbidMissingVitalParts": false,
-      "ForbidNonEmptyContainers": false,
-      "Grids": [],
-      "HasHinge": false,
-      "Height": 2,
-      "HideEntrails": false,
-      "Indestructibility": 0.9,
-      "InsuranceDisabled": true,
-      "IsAlwaysAvailableForInsurance": false,
-      "IsLockedafterEquip": false,
-      "IsSecretExitRequirement": false,
-      "IsSpecialSlotOnly": false,
-      "IsUnbuyable": false,
-      "IsUndiscardable": false,
-      "IsUngivable": false,
-      "IsUnremovable": false,
-      "IsUnsaleable": false,
-      "ItemSound": "gear_helmet",
-      "LeftHandItem": false,
-      "LootExperience": 20,
-      "MaterialType": "Helmet",
-      "MaxDurability": 0,
-      "MergesWithChildren": true,
-      "MetascoreGroup": "Defence",
-      "Name": "Ops-Core FAST MT Super High Cut helmet (White Tusk)",
-      "NotShownInSlot": false,
       "Prefab": {
         "path": "equipment/white_tusk/fast_mt/item_equipment_helmet_fast_mt_white_tusk_black.bundle",
         "rcid": ""
-      },
-      "QuestItem": false,
-      "QuestStashMaxCount": 0,
-      "RagFairCommissionModifier": 1,
-      "RarityPvE": "Superrare",
-      "RepairCost": 921,
-      "RepairSpeed": 10,
-      "RicochetParams": {
-        "x": 0.9,
-        "y": 0.5,
-        "z": 70
-      },
-      "ShortName": "FAST MT",
-      "Slots": [
-        {
-          "_id": "12edba6bee29514ab93a7acd",
-          "_mergeSlotWithChildren": false,
-          "_name": "mod_equipment_000",
-          "_parent": "774ffab2004504eab3888c95",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "5a16badafcdbcb001865f72d",
-                  "5a16b672fcdbcb001912fa83",
-                  "5a16b7e1fcdbcb00165aa6c9"
-                ],
-                "Shift": 0
-              }
-            ]
-          },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
-        },
-        {
-          "_id": "b70a1ab04d039b8945c020f7",
-          "_mergeSlotWithChildren": false,
-          "_name": "mod_nvg",
-          "_parent": "774ffab2004504eab3888c95",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "5ea058e01dbce517f324b3e2",
-                  "5c0558060db834001b735271",
-                  "5a16b8a9fcdbcb00165aa6ca"
-                ],
-                "Shift": 0
-              }
-            ]
-          },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
-        },
-        {
-          "_id": "e7db8e09f8344b238d09d2e2",
-          "_mergeSlotWithChildren": false,
-          "_name": "mod_mount",
-          "_parent": "774ffab2004504eab3888c95",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "5a398b75c4a282000a51a266",
-                  "5a398ab9c4a282000c5a9842"
-                ],
-                "Shift": 0
-              }
-            ]
-          },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
-        },
-        {
-          "_id": "f7c5414f22af1247b111bff9",
-          "_mergeSlotWithChildren": false,
-          "_name": "mod_equipment_001",
-          "_parent": "774ffab2004504eab3888c95",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "5a16b9fffcdbcb0176308b34"
-                ],
-                "Shift": 0
-              }
-            ]
-          },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
-        },
-        {
-          "_id": "dc15e43f796bac85df04b7e5",
-          "_mergeSlotWithChildren": false,
-          "_name": "mod_equipment_002",
-          "_parent": "774ffab2004504eab3888c95",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "5c0e66e2d174af02a96252f4"
-                ],
-                "Shift": 0
-              }
-            ]
-          },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
-        },
-        {
-          "_id": "3e9372a8e20c83dd19a37fe9",
-          "_mergeSlotWithChildren": true,
-          "_name": "Helmet_top",
-          "_parent": "774ffab2004504eab3888c95",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "f41d80b599bd6323bdb54598"
-                ],
-                "Plate": "f41d80b599bd6323bdb54598",
-                "armorColliders": [
-                  "ParietalHead"
-                ],
-                "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": true
-        },
-        {
-          "_id": "30c552dc1c285a7fa5167954",
-          "_mergeSlotWithChildren": true,
-          "_name": "Helmet_back",
-          "_parent": "774ffab2004504eab3888c95",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "f4ce6513dbb4bd3817f4a811"
-                ],
-                "Plate": "f4ce6513dbb4bd3817f4a811",
-                "armorColliders": [
-                  "BackHead"
-                ],
-                "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
-              }
-            ]
-          },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": true
-        }
-      ],
-      "StackMaxSize": 1,
-      "StackObjectsCount": 1,
-      "Unlootable": false,
-      "UnlootableFromSide": [],
-      "UnlootableFromSlot": "FirstPrimaryWeapon",
-      "UsePrefab": {
-        "path": "",
-        "rcid": ""
-      },
-      "Weight": 0.9,
-      "Width": 2,
-      "armorClass": "0",
-      "armorColliders": [],
-      "armorPlateColliders": [],
-      "mousePenalty": -1,
-      "speedPenaltyPercent": 0,
-      "weaponErgonomicPenalty": -1
+      }
     },
     "locales": {
       "en": {
         "name": "Ops-Core FAST MT Super High Cut helmet (White Tusk)",
         "shortName": "FAST MT",
-        "description": "The Ops-Core FAST Maritime ballistic helmet is popular in special forces all around the world. Can be modified with different components. Black version."
+        "description": "The Ops-Core FAST Maritime ballistic helmet is popular in special forces all around the world. Can be modified with different components. White Tusk version."
       },
       "po": {
-        "name": "Capacete Ops-core Fast MT SUPER HIGH CUT (White Tusk)",
-        "shortName": "Fast MT",
-        "description": "Capacete balístico Ops-Core Fast. Popular com forças especiais de todo o mundo. Pode ser modificado com componentes diferentes."
+        "name": "Ops-Core FAST MT Super High Cut helmet (White Tusk)",
+        "shortName": "FAST MT",
+        "description": "Capacete balístico Ops-Core Fast. Popular com forças especiais de todo o mundo. Pode ser modificado com componentes diferentes. Versão com pintura White Tusk."
       }
     },
     "fleaPriceRoubles": 170942,

@@ -10,7 +10,9 @@
         "rcid": ""
       },
       "Weight": 0.06,
-      "Grids": []
+      "Grids": [],
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -43,7 +45,9 @@
         "rcid": ""
       },
       "Weight": 0.15,
-      "Grids": []
+      "Grids": [],
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -95,7 +99,9 @@
         "rcid": ""
       },
       "Weight": 0.15,
-      "Grids": []
+      "Grids": [],
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -148,7 +154,9 @@
         "rcid": ""
       },
       "Weight": 0.06,
-      "Grids": []
+      "Grids": [],
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -180,7 +188,9 @@
         "rcid": ""
       },
       "Weight": 0.06,
-      "Grids": []
+      "Grids": [],
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -213,7 +223,9 @@
         "rcid": ""
       },
       "Weight": 0.06,
-      "Grids": []
+      "Grids": [],
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -245,7 +257,9 @@
         "rcid": ""
       },
       "Weight": 0.06,
-      "Grids": []
+      "Grids": [],
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -278,7 +292,9 @@
       },
       "Width": 5,
       "Weight": 10,
-      "Grids": []
+      "Grids": [],
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -311,7 +327,9 @@
       },
       "Width": 5,
       "Weight": 10,
-      "Grids": []
+      "Grids": [],
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -344,7 +362,9 @@
       },
       "Width": 5,
       "Weight": 10,
-      "Grids": []
+      "Grids": [],
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -376,7 +396,9 @@
         "rcid": ""
       },
       "Weight": 0.1,
-      "Grids": []
+      "Grids": [],
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -408,7 +430,9 @@
         "rcid": ""
       },
       "Weight": 0.1,
-      "Grids": []
+      "Grids": [],
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -440,7 +464,9 @@
         "rcid": ""
       },
       "Weight": 0.1,
-      "Grids": []
+      "Grids": [],
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -472,7 +498,9 @@
         "rcid": ""
       },
       "Weight": 0.1,
-      "Grids": []
+      "Grids": [],
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -505,7 +533,9 @@
       },
       "Width": 5,
       "Weight": 10,
-      "Grids": []
+      "Grids": [],
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -538,7 +568,9 @@
       },
       "Height": 2,
       "Weight": 0.5,
-      "Grids": []
+      "Grids": [],
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -571,7 +603,9 @@
       },
       "Width": 5,
       "Weight": 10,
-      "Grids": []
+      "Grids": [],
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -604,7 +638,9 @@
       },
       "Width": 5,
       "Weight": 10,
-      "Grids": []
+      "Grids": [],
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -637,7 +673,9 @@
       },
       "Width": 5,
       "Weight": 10,
-      "Grids": []
+      "Grids": [],
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -669,7 +707,9 @@
         "rcid": ""
       },
       "Weight": 0,
-      "Grids": []
+      "Grids": [],
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -701,7 +741,9 @@
         "rcid": ""
       },
       "Weight": 0,
-      "Grids": []
+      "Grids": [],
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {

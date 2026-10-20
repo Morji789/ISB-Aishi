@@ -46,7 +46,9 @@
           },
           "_proto": "6a126b785e87c884684d1447"
         }
-      ]
+      ],
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {

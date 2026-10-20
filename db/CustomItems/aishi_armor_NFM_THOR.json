@@ -4,15 +4,10 @@
     "parentId": "5448e54d4bdc2dcc718b4568",
     "handbookParentId": "5b5f701386f774093f2ecf0f",
     "overrideProperties": {
-      "ExaminedByDefault": false,
       "Prefab": {
         "path": "equipment/item_equipment_armor_custom_thorintcar_black.bundle",
         "rcid": ""
-      },
-      "Grids": [],
-      "Name": "NFM THOR Integrated Carrier body armor (USEC Intelligence Support Bureau)",
-      "ShortName": "THOR IC",
-      "Description": "The THOR full protection assault body armor equipped with soft and hard armor elements to protect against shrapnel and bullets of pistol and rifle calibers. Manufactured by NFM. (ISB SOF)"
+      }
     },
     "addWeaponPreset": true,
     "weaponPresets": [
@@ -107,12 +102,12 @@
       "en": {
         "name": "NFM THOR Integrated Carrier body armor (USEC Intelligence Support Bureau)",
         "shortName": "THOR IC",
-        "description": "The THOR full protection assault body armor equipped with soft and hard armor elements to protect against shrapnel and bullets of pistol and rifle calibers. Manufactured by NFM. (ISB SOF)"
+        "description": "The THOR full protection assault body armor equipped with soft and hard armor elements to protect against shrapnel and bullets of pistol and rifle calibers. Manufactured by NFM. USEC Intelligence Support Bureau version."
       },
       "po": {
-        "name": "Colete NFM THOR Integrated Carrier body armor (Agência de Suporte a Inteligência da USEC)",
+        "name": "NFM THOR Integrated Carrier body armor (USEC Intelligence Support Bureau)",
         "shortName": "THOR IC",
-        "description": "O plate carrier integrado THOR permite uma proteção de 360° contra fragmentos de alta velocidade e projéteis de revólver, através de painéis balísticos de alta cobertura corporal. As placas balísticas frontais, traseiras e laterais protegem os órgãos vitais contra munições de rifle. A forma ergonômica dos dois painéis balísticos macios e a posição da placa traseira combinada com o cinto de suporte lombar integrado e almofadas de conforto fornecem estabilidade, conforto e uma distribuição de peso ideal, próximo ao centro de massa do corpo. Fabricado pela NFM. (ISB SOF)"
+        "description": "O plate carrier integrado THOR permite uma proteção de 360° contra fragmentos de alta velocidade e projéteis de revólver, através de painéis balísticos de alta cobertura corporal. As placas balísticas frontais, traseiras e laterais protegem os órgãos vitais contra munições de rifle. A forma ergonômica dos dois painéis balísticos macios e a posição da placa traseira combinada com o cinto de suporte lombar integrado e almofadas de conforto fornecem estabilidade, conforto e uma distribuição de peso ideal, próximo ao centro de massa do corpo. Fabricado pela NFM. Versão com pintura USEC Intelligence Support Bureau."
       }
     },
     "fleaPriceRoubles": 385550,

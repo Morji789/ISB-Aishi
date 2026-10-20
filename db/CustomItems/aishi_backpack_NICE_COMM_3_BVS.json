@@ -38,7 +38,8 @@
         "path": "equipment/item_equipment_backpack_boss_birdeye_black.bundle",
         "rcid": ""
       },
-      "Weight": 8.5
+      "Weight": 8.5,
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {

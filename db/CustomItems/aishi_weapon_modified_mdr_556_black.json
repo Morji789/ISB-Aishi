@@ -1,0 +1,87 @@
+{
+  "0824fc28b02abbe10c8c43e0": {
+    "itemTplToClone": "cb80fe3f3cfb52b5a87e6094",
+    "parentId": "5447b5f14bdc2d61278b4567",
+    "handbookParentId": "5b5f78fc86f77409407a7f90",
+    "handbookPriceRoubles": 113075,
+    "fleaPriceRoubles": 250692,
+    "overrideProperties": {
+      "BackgroundColor": "yellow",
+      "InsuranceDisabled": true,
+      "IsAlwaysAvailableForInsurance": false,
+      "Ergonomics": 93.6,
+      "RecoilForceUp": 51.8,
+      "RecoilForceBack": 169.4,
+      "bFirerate": 800,
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
+    },
+    "locales": {
+      "en": {
+        "name": "Modified Desert Tech MDR 5.56x45 assault rifle (Black)",
+        "shortName": "MDR",
+        "description": "The MDR 5.56x45 bullpup assault rifle, designed and manufactured by Desert Tech LLC. A modular multi-caliber weapon with a compact bullpup layout intended for use by police and military special forces. Barrel lengths and calibers can be changed by the end-user within minutes with a minimum amount of tools. Black Version."
+      },
+      "po": {
+        "name": "Modified Desert Tech MDR 5.56x45 assault rifle (Black)",
+        "shortName": "MDR",
+        "description": "O produto da empresa norte-americana Desert Tech LLC MDR é uma arma modular de calibre múltiplo com um layout bullpup compacto. O comprimento do cano e os calibres podem ser alterados pelo utilizador final em poucos minutos com uma quantidade mínima de ferramentas. Black Version."
+      }
+    },
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_changeWeaponName": false,
+        "_encyclopedia": "0824fc28b02abbe10c8c43e0",
+        "_id": "7ada526e0f5ee0b3d7e09f7f",
+        "_items": [
+          {
+            "_id": "6340c00d92048efa63f9b92f",
+            "_tpl": "0824fc28b02abbe10c8c43e0",
+            "upd": {
+              "FireMode": {
+                "FireMode": "single"
+              }
+            }
+          },
+          {
+            "_id": "53abe7bad1d0e43103b6582d",
+            "_tpl": "5dcbd6dddbd3d91b3e5468de",
+            "parentId": "6340c00d92048efa63f9b92f",
+            "slotId": "mod_pistol_grip"
+          },
+          {
+            "_id": "1c0f87dc18f61ac3d86b9c99",
+            "_tpl": "55802d5f4bdc2dac148b458e",
+            "parentId": "6340c00d92048efa63f9b92f",
+            "slotId": "mod_magazine"
+          },
+          {
+            "_id": "4b45bca26cad5ec7b73e67fa",
+            "_tpl": "5dcbd6b46ec07c0c4347a564",
+            "parentId": "6340c00d92048efa63f9b92f",
+            "slotId": "mod_handguard"
+          },
+          {
+            "_id": "a1a47da98b62231b49e46d77",
+            "_tpl": "5c48a2852e221602b21d5923",
+            "parentId": "6340c00d92048efa63f9b92f",
+            "slotId": "mod_barrel"
+          },
+          {
+            "_id": "6a1a00b5c652d46fc1390d75",
+            "_tpl": "5c48a2a42e221602b66d1e07",
+            "parentId": "a1a47da98b62231b49e46d77",
+            "slotId": "mod_muzzle"
+          }
+        ],
+        "_name": "Modified Desert Tech MDR 5.56x45 assault rifle (Black)",
+        "_parent": "6340c00d92048efa63f9b92f",
+        "_type": "Preset"
+      }
+    ],
+    "CanSellOnRagfair": false,
+    "CanRequireOnRagfair": false,
+    "addtoItemBlacklist": true
+  }
+}

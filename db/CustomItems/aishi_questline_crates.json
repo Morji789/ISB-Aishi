@@ -10,7 +10,9 @@
         "path": "assets/content/items/containers/item_container_tarkov_battlepass/item_container_tarkov_battlepass.bundle",
         "rcid": ""
       },
-      "Weight": 12.5
+      "Weight": 12.5,
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -103,7 +105,9 @@
         "path": "assets/content/items/containers/item_container_tarkov_battlepass/item_container_tarkov_battlepass.bundle",
         "rcid": ""
       },
-      "Weight": 12.5
+      "Weight": 12.5,
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -158,7 +162,9 @@
         "rcid": ""
       },
       "Width": 2,
-      "Weight": 4.0
+      "Weight": 4.0,
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -209,7 +215,8 @@
       "Width": 2,
       "Height": 2,
       "Weight": 6.0,
-      "Grids": []
+      "Grids": [],
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {
@@ -243,7 +250,9 @@
         "rcid": ""
       },
       "Width": 2,
-      "Weight": 6.0
+      "Weight": 6.0,
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {

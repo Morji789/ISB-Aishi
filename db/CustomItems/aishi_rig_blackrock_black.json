@@ -4,28 +4,21 @@
     "parentId": "5448e5284bdc2dcb718b4567",
     "handbookParentId": "5b5f6f8786f77447ed563642",
     "overrideProperties": {
-      "ExaminedByDefault": false,
-      "CanSellOnRagfair": false,
-      "addtoItemBlacklist": true,
       "Prefab": {
         "path": "equipment/item_equipment_rig_blackrock_black.bundle",
         "rcid": ""
-      },
-      "Weight": 1.45,
-      "Name": "BlackRock chest rig (Black)",
-      "ShortName": "BlackRock",
-      "Description": "A custom-made chest rig for wearing on top of body armor in urban operations. Sturdy and versatile, it features both MOLLE and ALICE attachment systems. (Black)"
+      }
     },
     "locales": {
       "en": {
         "name": "BlackRock chest rig (Black)",
         "shortName": "BlackRock",
-        "description": "A custom-made chest rig for wearing on top of body armor in urban operations. Sturdy and versatile, it features both MOLLE and ALICE attachment systems. (Black)"
+        "description": "A custom-made chest rig for wearing on top of body armor in urban operations. Sturdy and versatile, it features both MOLLE and ALICE attachment systems. Black version."
       },
       "po": {
-        "name": "Veste tática BlackRock (Preto)",
+        "name": "BlackRock chest rig (Black)",
         "shortName": "BlackRock",
-        "description": "Equipamento artesanal de peito para uso em armaduras de operações urbanas. Robusto e versátil, possui sistemas de encaixe MOLLE e ALICE. (Preto)"
+        "description": "Equipamento artesanal de peito para uso em armaduras de operações urbanas. Robusto e versátil, possui sistemas de encaixe MOLLE e ALICE. Versão com pintura Black."
       }
     },
     "fleaPriceRoubles": 75900,

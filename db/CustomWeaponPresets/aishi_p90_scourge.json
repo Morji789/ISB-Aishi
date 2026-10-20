@@ -11,8 +11,8 @@
         "_tpl": "a3f35b5ff515570584c64f0f",
         "upd": {
           "Repairable": {
-            "Durability": 140,
-            "MaxDurability": 140
+            "Durability": 100,
+            "MaxDurability": 100
           },
           "FireMode": {
             "FireMode": "single"

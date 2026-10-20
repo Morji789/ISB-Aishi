@@ -253,183 +253,53 @@
     "addWeaponPreset": true,
     "weaponPresets": [
       {
-        "_id": "66f0cae8337a5364b692e4fd",
-        "_type": "Preset",
         "_changeWeaponName": false,
-        "_name": "MDR 762 FDE",
-        "_parent": "07800e6604135400b096eaef",
+        "_encyclopedia": "efcffd19f0435f04a82374c2",
+        "_id": "66f0cae8337a5364b692e4fd",
         "_items": [
           {
             "_id": "07800e6604135400b096eaef",
             "_tpl": "efcffd19f0435f04a82374c2",
             "upd": {
-              "StackObjectsCount": 1,
-              "Repairable": {
-                "Durability": 100,
-                "MaxDurability": 100
-              },
               "FireMode": {
-                "FireMode": "fullauto"
+                "FireMode": "single"
               }
             }
           },
           {
-            "_id": "b11c30e6c0db568f92c37929",
+            "_id": "78e2506099cf0c2dbb12f448",
             "_tpl": "5c48a2c22e221602b313fb6c",
             "parentId": "07800e6604135400b096eaef",
-            "slotId": "mod_pistol_grip",
-            "upd": {
-              "StackObjectsCount": 1
-            }
+            "slotId": "mod_pistol_grip"
           },
           {
-            "_id": "b5a26f4d7816514bbb6be0c2",
-            "_tpl": "65293c38fc460e50a509cb25",
+            "_id": "c4d7e4c29a2b4e2148f8e940",
+            "_tpl": "5a3501acc4a282000d72293a",
             "parentId": "07800e6604135400b096eaef",
-            "slotId": "mod_magazine",
-            "upd": {
-              "StackObjectsCount": 1
-            }
+            "slotId": "mod_magazine"
           },
           {
-            "_id": "e275e10dfd3557a28ce2a173",
+            "_id": "97ca7a21e4888cceeab7aa22",
             "_tpl": "5c48a14f2e2216152006edd7",
             "parentId": "07800e6604135400b096eaef",
-            "slotId": "mod_handguard",
-            "upd": {
-              "StackObjectsCount": 1
-            }
+            "slotId": "mod_handguard"
           },
           {
-            "_id": "6523851821c7582682316566",
+            "_id": "4ede88314d48a8bbbe3135a5",
             "_tpl": "5dcbe9431e1f4616d354987e",
             "parentId": "07800e6604135400b096eaef",
-            "slotId": "mod_barrel",
-            "upd": {
-              "StackObjectsCount": 1
-            }
+            "slotId": "mod_barrel"
           },
           {
-            "_id": "6e4017e844ee54ff8ac0529e",
-            "_tpl": "558022b54bdc2dac148b458d",
-            "parentId": "07800e6604135400b096eaef",
-            "slotId": "mod_scope",
-            "upd": {
-              "StackObjectsCount": 1,
-              "Sight": {
-                "ScopesCurrentCalibPointIndexes": [
-                  0
-                ],
-                "ScopesSelectedModes": [
-                  0
-                ],
-                "SelectedScope": 0,
-                "ScopeZoomValue": 0
-              }
-            }
-          },
-          {
-            "_id": "1f8240852b0e5a29b2fa4ef4",
-            "_tpl": "5c18b9192e2216398b5a8104",
-            "parentId": "07800e6604135400b096eaef",
-            "slotId": "mod_sight_rear",
-            "upd": {
-              "StackObjectsCount": 1,
-              "Sight": {
-                "ScopesCurrentCalibPointIndexes": [
-                  0
-                ],
-                "ScopesSelectedModes": [
-                  0
-                ],
-                "SelectedScope": 0,
-                "ScopeZoomValue": 0
-              }
-            }
-          },
-          {
-            "_id": "c39907aab4db542690218216",
-            "_tpl": "57cffcd624597763133760c5",
-            "parentId": "e275e10dfd3557a28ce2a173",
-            "slotId": "mod_mount_000",
-            "upd": {
-              "StackObjectsCount": 1
-            }
-          },
-          {
-            "_id": "3d0a3e25abc950c2965e35f1",
-            "_tpl": "5b7be47f5acfc400170e2dd2",
-            "parentId": "e275e10dfd3557a28ce2a173",
-            "slotId": "mod_mount_001",
-            "upd": {
-              "StackObjectsCount": 1
-            }
-          },
-          {
-            "_id": "1d31e49dd35b5e1bba0ecd90",
-            "_tpl": "544909bb4bdc2d6f028b4577",
-            "parentId": "e275e10dfd3557a28ce2a173",
-            "slotId": "mod_tactical",
-            "upd": {
-              "StackObjectsCount": 1,
-              "Light": {
-                "IsActive": true,
-                "SelectedMode": 0
-              }
-            }
-          },
-          {
-            "_id": "35b4999ae5cc53a98511422d",
-            "_tpl": "5c18b90d2e2216152142466b",
-            "parentId": "e275e10dfd3557a28ce2a173",
-            "slotId": "mod_sight_front",
-            "upd": {
-              "StackObjectsCount": 1,
-              "Sight": {
-                "ScopesCurrentCalibPointIndexes": [
-                  0
-                ],
-                "ScopesSelectedModes": [
-                  0
-                ],
-                "SelectedScope": 0,
-                "ScopeZoomValue": 0
-              }
-            }
-          },
-          {
-            "_id": "fae7d1d851ba519381e62290",
-            "_tpl": "6a158e63060f61ca2c03e096",
-            "parentId": "6523851821c7582682316566",
-            "slotId": "mod_muzzle",
-            "upd": {
-              "StackObjectsCount": 1
-            }
-          },
-          {
-            "_id": "84027d17d39d5d57a41cef7b",
-            "_tpl": "626becf9582c3e319310b837",
-            "parentId": "3d0a3e25abc950c2965e35f1",
-            "slotId": "mod_tactical",
-            "upd": {
-              "StackObjectsCount": 1,
-              "Light": {
-                "IsActive": true,
-                "SelectedMode": 0
-              }
-            }
-          },
-          {
-            "_id": "6dbbcb2e1a425696afcb354d",
-            "_tpl": "6a1eb32c6cd328ea90037455",
-            "parentId": "fae7d1d851ba519381e62290",
-            "slotId": "mod_muzzle",
-            "upd": {
-              "StackObjectsCount": 1
-            }
+            "_id": "d03163217d28768a0120dbb6",
+            "_tpl": "5dcbe965e4ed22586443a79d",
+            "parentId": "4ede88314d48a8bbbe3135a5",
+            "slotId": "mod_muzzle"
           }
         ],
-        "_encyclopedia": "efcffd19f0435f04a82374c2"
+        "_name": "Desert Tech MDR 7.62x51 assault rifle (FDE)",
+        "_parent": "07800e6604135400b096eaef",
+        "_type": "Preset"
       }
     ]
   }

@@ -282,7 +282,8 @@
       "RigLayoutName": "modifiedlbt1961a",
       "Name": "Modified LBT-1961A Load Bearing Chest Rig V2 (USEC Intelligence Support Bureau Version II)",
       "ShortName": "LBCR ISBE V2",
-      "Description": "A tactical load-bearing system designed to carry magazines, grenades, and special equipment, while using low-profile body armor. Manufactured by London Bridge Trading. Special configuration by Birdeye, member of the Goons squad. (ISB SOF II)"
+      "Description": "A tactical load-bearing system designed to carry magazines, grenades, and special equipment, while using low-profile body armor. Manufactured by London Bridge Trading. Special configuration by Birdeye, member of the Goons squad. (ISB SOF II)",
+      "CanRequireOnRagfair": false
     },
     "locales": {
       "en": {

@@ -713,7 +713,7 @@
           "isEncoded": false,
           "maxDurability": 100,
           "minDurability": 0,
-          "onlyFoundInRaid": false,
+          "onlyFoundInRaid": true,
           "parentId": "",
           "target": [
             "5447a9cd4bdc2dbd208b4567"
@@ -731,7 +731,7 @@
           "isEncoded": false,
           "maxDurability": 100,
           "minDurability": 0,
-          "onlyFoundInRaid": false,
+          "onlyFoundInRaid": true,
           "parentId": "",
           "target": [
             "5447a9cd4bdc2dbd208b4567"
